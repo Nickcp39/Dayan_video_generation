@@ -1,0 +1,36 @@
+# 视频项目配置模板 —— 复制本目录开新片,改这里即可
+id: TEMPLATE
+title: 视频标题
+notes: 一句话描述
+
+source:
+  clip: source/input.mp4          # 原始素材(放 source/)
+  description: 源片来源与说明
+
+face_swap:                        # ① 换脸
+  enabled: true
+  tool: facefusion
+  target_face: ../../assets/faces/CHANGE_ME.jpg   # 换成谁的脸
+  out: work/faceswap.mp4
+
+voice:                            # ③ 换声
+  enabled: true
+  tool: gpt-sovits
+  reference: ../../assets/voices/CHANGE_ME.wav     # 目标音色参考 5-30s
+  reference_text: "参考音里说的原话"                 # GPT-SoVITS 需要
+  lines:                          # 要合成的新台词
+    - "第一句台词"
+    - "第二句台词"
+  out: work/voice.wav
+
+lip_sync:                         # ④ 对口型(阶段3再开)
+  enabled: false
+  tool: musetalk
+  out: work/lipsync.mp4
+
+body_swap:                        # ② 全身替换(阶段4再开,开了就不用 face_swap)
+  enabled: false
+  tool: wan2.2-animate
+
+compose:                          # 合成出片
+  output: output/final.mp4

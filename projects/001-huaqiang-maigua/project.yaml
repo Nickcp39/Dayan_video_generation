@@ -1,0 +1,34 @@
+# 第一个测试:华强买瓜(换脸 + 换声)
+id: 001-huaqiang-maigua
+title: 华强买瓜换脸换声测试
+notes: 跑通本地最小管线(FaceFusion 换脸 + GPT-SoVITS 换声)
+
+source:
+  clip: source/huaqiang_maigua.mp4
+  description: 《征服》华强买瓜片段 ~20s(自公开视频截取)
+
+face_swap:
+  enabled: true
+  tool: facefusion
+  target_face: ../../assets/faces/CHANGE_ME.jpg   # TODO: 换成谁的脸(勿用明星)
+  out: work/faceswap.mp4
+
+voice:
+  enabled: true
+  tool: gpt-sovits
+  reference: ../../assets/voices/CHANGE_ME.wav     # TODO: 目标音色参考 5-30s
+  reference_text: "参考音里说的原话"
+  lines:                          # 先用原台词,减少嘴型错位
+    - "你这瓜保熟吗"
+    - "我要是买你这瓜,回家一刀切开是生的,你怎么说"
+    - "你这瓜要是保熟,我一天能吃十个"
+  out: work/voice.wav
+
+lip_sync:
+  enabled: false                  # 阶段3再开
+
+body_swap:
+  enabled: false                  # 阶段4再开
+
+compose:
+  output: output/final.mp4

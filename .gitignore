@@ -1,0 +1,44 @@
+# 媒体文件不入 git(太大),只跟踪配置/脚本/文档
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.aac
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.bmp
+
+# 但保留占位与说明
+!**/.gitkeep
+
+# 模型 / 权重
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.bin
+
+# 第三方工具整合包
+/tools/
+
+# 系统 / 编辑器
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
+
+# Python(若自建环境)
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
