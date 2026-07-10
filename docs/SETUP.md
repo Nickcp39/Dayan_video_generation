@@ -58,6 +58,26 @@
 
 ---
 
+## 4. 下载 B 站源片段(华强买瓜等)
+
+工具已随仓库脚本准备好(yt-dlp + 本地 ffmpeg)。B 站有 IP 风控,匿名下载会 `HTTP 412`,需要**登录态 cookie**:
+
+1. 浏览器装扩展 **「Get cookies.txt LOCALLY」**。
+2. 登录 `bilibili.com`,点扩展 → 导出 `cookies.txt`。
+3. 把它放到 `tools/bili_cookies.txt`(此目录不入 git)。
+4. 跑:
+   ```powershell
+   ./scripts/fetch_source.ps1
+   # 或指定其它视频/项目:
+   ./scripts/fetch_source.ps1 -Url "https://www.bilibili.com/video/BVxxxx/" -Project 002-xxx -Name myclip
+   ```
+   成片落在 `projects/<项目>/source/`。
+
+> 若你在**自己常用的网络**下、用**已装 yt-dlp 的普通终端**直接跑,有时匿名也能过;过不了就按上面导 cookie。
+> 华强买瓜原版参考:`BV1zB4y1N7Hq`、`BV18q4y1U7Pm`。
+
+---
+
 ## 装完自检清单
 
 - [ ] `ffmpeg -version` 正常
