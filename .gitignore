@@ -29,6 +29,17 @@
 # 第三方工具整合包
 /tools/
 
+# 压缩包 / 大整合包
+*.7z
+*.zip
+*.rar
+*.tar
+*.gz
+
+# GPT-SoVITS 整合包(本地使用,不入 git)
+/GPT-SoVITS/
+/GPT-SoVITS-v3lora-20250228/
+
 # 系统 / 编辑器
 Thumbs.db
 Desktop.ini

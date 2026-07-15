@@ -58,23 +58,24 @@
 
 ---
 
-## 4. 下载 B 站源片段(华强买瓜等)
+## 4. 下载源片段(华强买瓜等)
 
-工具已随仓库脚本准备好(yt-dlp + 本地 ffmpeg)。B 站有 IP 风控,匿名下载会 `HTTP 412`,需要**登录态 cookie**:
+### 首选:B 站用 snapany(最省事)
+yt-dlp 下 B 站会撞 IP 风控(`HTTP 412`),读浏览器 cookie 又被 Chrome 新加密挡。别折腾,直接用:
 
-1. 浏览器装扩展 **「Get cookies.txt LOCALLY」**。
-2. 登录 `bilibili.com`,点扩展 → 导出 `cookies.txt`。
-3. 把它放到 `tools/bili_cookies.txt`(此目录不入 git)。
-4. 跑:
-   ```powershell
-   ./scripts/fetch_source.ps1
-   # 或指定其它视频/项目:
-   ./scripts/fetch_source.ps1 -Url "https://www.bilibili.com/video/BVxxxx/" -Project 002-xxx -Name myclip
-   ```
-   成片落在 `projects/<项目>/source/`。
+> **https://snapany.com/zh/bilibili** —— 粘贴 B 站链接 → 下 mp4 → 丢进 `projects/<项目>/source/`
 
-> 若你在**自己常用的网络**下、用**已装 yt-dlp 的普通终端**直接跑,有时匿名也能过;过不了就按上面导 cookie。
-> 华强买瓜原版参考:`BV1zB4y1N7Hq`、`BV18q4y1U7Pm`。
+### 备选:YouTube 用 yt-dlp(工具已随仓库装好)
+YouTube 上同款片子可命令行直接下(需加播放器客户端参数绕过 SABR):
+```powershell
+py -m yt_dlp --extractor-args "youtube:player_client=android,ios,tv" `
+  --ffmpeg-location "tools/ffmpeg-8.1.2-essentials_build/bin" `
+  -f "bv*[height<=720]+ba/b[height<=720]/b" --merge-output-format mp4 `
+  -o "projects/001-huaqiang-maigua/source/huaqiang_maigua.%(ext)s" `
+  "https://www.youtube.com/watch?v=XXXX"
+```
+
+> 参考:华强买瓜 B 站原版 `BV1zB4y1N7Hq`;实测走 YouTube 搜「刘华强买瓜 征服」更顺。
 
 ---
 
