@@ -12,6 +12,23 @@
 
 ---
 
+## ⓪ 源片获取(下载)
+
+管线的第一步是拿到源视频,放进 `projects/<项目>/source/`。
+
+- **B 站**:用 **https://snapany.com/zh/bilibili** —— 粘贴链接直接下 mp4。
+  - 不要用 yt-dlp 下 B 站:会撞 IP 风控 `HTTP 412`(强制登录态),而 Chrome 新版 App-Bound 加密又让 yt-dlp 读不到浏览器 cookie,无解。
+- **YouTube**:用 yt-dlp(仓库已装),需绕过 SABR:
+  ```powershell
+  py -m yt_dlp --extractor-args "youtube:player_client=android,ios,tv" `
+    --ffmpeg-location "tools/ffmpeg-8.1.2-essentials_build/bin" `
+    -f "bv*[height<=720]+ba/b[height<=720]/b" --merge-output-format mp4 `
+    -o "projects/<项目>/source/<名字>.%(ext)s" "<YouTube链接>"
+  ```
+- **要点**:很多梗片 YouTube 上也有(搜「刘华强买瓜 征服」),YouTube 走 yt-dlp 比 B 站顺;B 站则走 snapany。
+
+---
+
 ## ① 换脸 —— FaceFusion
 
 - **输入**:源视频 + 1 张目标正脸图
