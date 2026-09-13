@@ -1,0 +1,61 @@
+{
+  "system": {
+    "os": "win32",
+    "ram_total": 68554805248,
+    "ram_free": 37100011520,
+    "comfyui_version": "0.30.0",
+    "required_frontend_version": "1.48.6",
+    "installed_templates_version": "0.11.31",
+    "required_templates_version": "0.11.31",
+    "comfy_package_versions": [
+      {
+        "name": "comfyui-frontend-package",
+        "installed": "1.48.6",
+        "required": "1.48.6"
+      },
+      {
+        "name": "comfyui-workflow-templates",
+        "installed": "0.11.31",
+        "required": "0.11.31"
+      },
+      {
+        "name": "comfyui-embedded-docs",
+        "installed": "0.5.9",
+        "required": "0.5.9"
+      },
+      {
+        "name": "comfy-kitchen",
+        "installed": "0.2.26",
+        "required": "0.2.26"
+      },
+      {
+        "name": "comfy-aimdo",
+        "installed": "0.4.13",
+        "required": "0.4.13"
+      }
+    ],
+    "python_version": "3.10.20 | packaged by conda-forge | (main, Jun 11 2026, 03:28:51) [MSC v.1944 64 bit (AMD64)]",
+    "pytorch_version": "2.5.1+cu118",
+    "embedded_python": false,
+    "deploy_environment": "local-git",
+    "argv": [
+      "main.py",
+      "--reserve-vram",
+      "6",
+      "--disable-cuda-malloc",
+      "--disable-async-offload",
+      "--disable-pinned-memory"
+    ]
+  },
+  "devices": [
+    {
+      "name": "cuda:0 NVIDIA GeForce RTX 4090 : native",
+      "type": "cuda",
+      "index": 0,
+      "vram_total": 25756696576,
+      "vram_free": 14953195008,
+      "torch_vram_total": 9070182400,
+      "torch_vram_free": 2598400
+    }
+  ]
+}

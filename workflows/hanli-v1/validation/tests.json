@@ -1,0 +1,9 @@
+{
+  "created": "2026-09-13T08:14:24.969674+00:00",
+  "tests": 18,
+  "failures": [],
+  "errors": [],
+  "passed": true,
+  "test_sha256": "480d98323f6332d706a7bda54f658aa133899867281da9aba15111efac3f9337",
+  "guard_sha256": "919bf0fc85ce0e4dad006b7964657c288ec358c84e196748810d80fd6432c9c7"
+}

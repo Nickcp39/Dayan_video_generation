@@ -1,0 +1,42 @@
+{
+  "recipe": "direct-animation-v1",
+  "created_at": "2026-09-13T07:02:28.864676-04:00",
+  "code": {
+    "projects\\007-hanli-tea-dog\\bootstrap_controls.py": "b8ec90b30381f2f4413ee0bb1943774d20122b7f5f589a00a5fcab4e366fea4f",
+    "projects\\007-hanli-tea-dog\\build_review.py": "a278b99abf35ef29141f59b4255a2907a0dc89a22fd33fac8b9366298da249aa",
+    "projects\\007-hanli-tea-dog\\check_voice.py": "b830f98598c68c144d9c8378cc8d7041479b8ffd1b152067a75a4d91fed0fd09",
+    "projects\\007-hanli-tea-dog\\compose.py": "2070f667db48d6df493b2421320fd64847c3078354ea72bc238d7a8143da93ab",
+    "projects\\007-hanli-tea-dog\\download_https.py": "00c30bde1507d80da4ddf5086d8ac867374bbd87be01b2c1e835f136af954a4d",
+    "projects\\007-hanli-tea-dog\\finalize_report.py": "b8b0e64a29df7a51df1ae79adf733e7100899bcc552217ce7ca361c565886c9e",
+    "projects\\007-hanli-tea-dog\\make_assets.py": "185ce4cfbe7b8f450d5f740b36ddd6f9b89497d610ac8869c8d43731bd656fb6",
+    "projects\\007-hanli-tea-dog\\pipeline.py": "b751b802ae5335494abde62f5ad1c66563cb6de3dce7052e1b5246cd9072090a",
+    "projects\\007-hanli-tea-dog\\prepare_models.py": "bf088e17dec89a1c3709f62fa3acc8b44eac29f0a2891e3a3b71416c703d771e",
+    "projects\\007-hanli-tea-dog\\prepare_selected_assets.py": "2a376347612cd2bb6608f3e598089955200a705eea60562c24f720b1d9d398bb",
+    "projects\\007-hanli-tea-dog\\safe_runner.py": "c2b9302071211431cd3941e3647b3bd0750683ffd4f939bbbac14d44129a78d4",
+    "projects\\007-hanli-tea-dog\\templates\\wan5b_api.json": "2bd2c18cddf9ed1692933f8d5694a9c64385e03d4166205cf80c686a540c3675",
+    "scripts\\direct_animation.py": "977bf8b2bd86245b153d597bfc00dac6d3e77c8dcf68a19d8fdff10bfb9e3bd3",
+    "scripts\\hanli_reuse_pipeline.py": "64063a3ba105be246b20a79063fb0b7b49605324b421ee67cfa79e6e988aeddf",
+    "projects\\004-hanli-voice-finetune\\approved_profile_v1.json": "6ee76793f07b8cb64fb3a43eaf2abd28d0ff8ea5b3f267752ac41e7d85225089"
+  },
+  "dependencies": {
+    "D:\\work\\software\\pinokio\\api\\comfyui.pinokio\\ComfyUI\\models\\diffusion_models\\007_tea_dog\\flux-2-klein-4b-fp8.safetensors": "97ed34fe0567e436200f2faee3939b88f2b5d99f8af2a4dc16532c4245c0ccb6",
+    "D:\\work\\software\\pinokio\\api\\comfyui.pinokio\\ComfyUI\\models\\text_encoders\\007_tea_dog\\qwen_3_4b.safetensors": "6c671498573ac2f7a5501502ccce8d2b08ea6ca2f661c458e708f36b36edfc5a",
+    "D:\\work\\software\\pinokio\\api\\comfyui.pinokio\\ComfyUI\\models\\vae\\007_tea_dog\\flux2-vae.safetensors": "d64f3a68e1cc4f9f4e29b6e0da38a0204fe9a49f2d4053f0ec1fa1ca02f9c4b5",
+    "D:\\work\\software\\pinokio\\api\\comfyui.pinokio\\ComfyUI\\models\\diffusion_models\\wan2.2_ti2v_5B_fp16.safetensors": "456f901338bd9eadbded3828b819109a9b68e8a525ca5cf8d0049a69fcfeca1e",
+    "D:\\work\\software\\pinokio\\api\\comfyui.pinokio\\ComfyUI\\models\\text_encoders\\umt5_xxl_fp8_e4m3fn_scaled.safetensors": "c3355d30191f1f066b26d93fba017ae9809dce6c627dda5f6a66eaa651204f68",
+    "D:\\work\\software\\pinokio\\api\\comfyui.pinokio\\ComfyUI\\models\\vae\\wan2.2_vae.safetensors": "e40321bd36b9709991dae2530eb4ac303dd168276980d3e9bc4b6e2b75fed156",
+    "D:\\work\\2026 video generation\\projects\\004-hanli-voice-finetune\\weights\\hanli_55s_v2-e8.ckpt": "db63c667993e70964735cf7eb1680c2864d1472ae602379a9b41005507b5e85a",
+    "D:\\work\\2026 video generation\\projects\\004-hanli-voice-finetune\\weights\\hanli_55s_v2_e8_s192.pth": "7274fe32658906585f5dd0a522da161c14993b90dcc9f112d4ea365541e04e9e",
+    "D:\\work\\2026 video generation\\projects\\004-hanli-voice-finetune\\dataset\\wavs\\ref001.wav": "38790c7074426f6fd7f43a1ceeec465b9c42817b005709446064c5a821b7bbff",
+    "D:\\work\\2026 video generation\\assets\\faces\\hanli_01.jpg": "b8b57f0811da5bd0782961f25875c3d1b548f1f5b690a5fac9b7a540fa710dee",
+    "D:\\work\\2026 video generation\\tools\\ffmpeg-8.1.2-essentials_build\\bin\\ffmpeg.exe": "1326dde4c84ff1f96fe6b8916c5bed29e163e9b5dccf995f6f3db069d143ec5e",
+    "D:\\work\\2026 video generation\\tools\\ffmpeg-8.1.2-essentials_build\\bin\\ffprobe.exe": "b49ccc7c6547b141ad5a2f6ec69cc04323d7133d7704d70b331b904c63eecb07"
+  },
+  "baseline": "D:\\work\\2026 video generation\\projects\\007-hanli-tea-dog",
+  "limits": [
+    "Two five-second I2V shots, 960x544, 24fps, 121 frames per raw shot",
+    "No phoneme lip sync",
+    "Visual/action/voice quality still needs review",
+    "Not a complete portable runtime image"
+  ]
+}

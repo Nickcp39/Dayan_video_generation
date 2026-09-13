@@ -1,89 +1,28 @@
-# 环境搭建 SOP(Windows + NVIDIA 独显)
+# 本地运行环境
 
-按顺序装。每步有检查点,过了再往下。
+当前验证环境是 Windows、RTX 4090 24 GB、64 GB 内存。仓库只保存工作流源码和配置；模型、媒体、运行时和第三方整合包需要在本地准备。
 
-> 前提:Windows 11,NVIDIA 独显,已装最新显卡驱动。C 盘或数据盘留 ≥ 50GB(模型很大)。
+| 部分 | 当前职责 / 本地位置 |
+| --- | --- |
+| ComfyUI | Pinokio 管理；HTTP API 默认 `127.0.0.1:8188`；在这里执行图片和视频模型 |
+| 常规 Python | `.venv-video-test/Scripts/python.exe`；依赖 requests、numpy、Pillow，声音配置解析需 PyYAML |
+| GPT-SoVITS | `GPT-SoVITS-v3lora-20250228`，内部 runtime；已有 e8 模型和 ref001，生成时不训练 |
+| FFmpeg / FFprobe | `tools/ffmpeg-8.1.2-essentials_build/bin` |
+| 可选 ASR | 本地 faster-whisper medium，辅助核对台词，不替代试听 |
 
----
+## 模型与资产清单
 
-## 0. 基础工具
+- 换皮模式：`workflows/hanli-v1/lock.json`，配方、环境和参考见 [接手规范](HANLI_PIPELINE_HANDOFF.md)。
+- 直接生成模式：`workflows/direct-animation-v1/lock.json`，图片模型来源见 `projects/007-hanli-tea-dog/evidence/model_manifest.json`。
+- 共用声音 profile：`projects/004-hanli-voice-finetune/approved_profile_v1.json`。profile 记录的声音权重和参考图/参考声在本机，Git 不包含这些媒体。
 
-### 0.1 ffmpeg(合成必需)
-- 下载:https://www.gyan.dev/ffmpeg/builds/ (取 `ffmpeg-release-essentials.zip`)
-- 解压到如 `D:\tools\ffmpeg\`,把 `D:\tools\ffmpeg\bin` 加入系统环境变量 `Path`。
-- **检查点**:新开 PowerShell 跑 `ffmpeg -version`,有版本号即可。
+不要按“最新版”批量升级已锁环境；不要下载整套模型来跑一次轻量仓库检查。迁移路径或环境变更应建立新版本复验，不重算旧锁来掩盖变化。
 
-### 0.2 Git(已装可跳过)
-- https://git-scm.com/download/win
+## 运行前
 
----
+1. 根据实际输入选择 [模式](VIDEO_MODES.md)，阅读对应规范。
+2. 恢复该模式清单中的模型和资产。历史样片的全量 Checker 还需要历史生成文件。
+3. 如需启动 ComfyUI，通过 Pinokio/pterm 检查状态与队列，再用已验证 launcher；不要关闭未知 GPU 作业。
+4. 新片放新目录，逐阶段检查；FAIL/BLOCKED 时停止下游执行。
 
-## 1. FaceFusion(换脸)
-
-推荐用**整合包**,免去 Python 配置。
-
-- B 站搜「FaceFusion 3 整合包」,下载解压到 `D:\tools\facefusion\`(**放本仓库外**,别入 git)。
-- 双击启动脚本(通常 `run.bat` / `一键启动.bat`),等它拉起浏览器 WebUI。
-- 首次会下载模型,耐心等。
-- **检查点**:浏览器打开 FaceFusion 界面,能选 Source(脸图)和 Target(视频)。
-
-> 官方(自行配置 Python 版):https://github.com/facefusion/facefusion
-
-**冒烟测试**:随便拿一张脸图 + 一段短视频,导出一次,能出换脸片即通过。
-
----
-
-## 2. GPT-SoVITS v4(换声)
-
-同样用整合包。
-
-- B 站/官网搜「GPT-SoVITS v4 整合包」,解压到 `D:\tools\gpt-sovits\`。
-- 官方:https://github.com/RVC-Boss/GPT-SoVITS ,说明站:https://gpt-sovits.org/
-- 双击 `go-webui.bat` 启动,打开推理页(1-GPT-SoVITS-TTS → 推理)。
-- 用**内置预训练模型**即可零样本克隆(无需自己训练)。
-- **检查点**:上传一段 5–30s 参考音 + 填参考音对应文本 + 目标台词 → 点合成 → 出一段目标音色的语音。
-
-**参考音要求**:干净人声,无 BGM、无混响,采样率不限(建议 ≥ 16kHz),内容任意但吐字清晰。
-
----
-
-## 3.(后期)ComfyUI —— 对口型 / 全身替换
-
-阶段 3、4 才需要,测试期先跳过。
-
-- 装 ComfyUI(整合包或官方 https://github.com/comfyanonymous/ComfyUI )。
-- 对口型:装 MuseTalk / LatentSync 自定义节点。
-- 全身替换:装 Wan2.2-Animate 相关节点 + 模型。
-- 工作流 json 存到本仓库 `comfyui/workflows/`。
-
----
-
-## 4. 下载源片段(华强买瓜等)
-
-### 首选:B 站用 snapany(最省事)
-yt-dlp 下 B 站会撞 IP 风控(`HTTP 412`),读浏览器 cookie 又被 Chrome 新加密挡。别折腾,直接用:
-
-> **https://snapany.com/zh/bilibili** —— 粘贴 B 站链接 → 下 mp4 → 丢进 `projects/<项目>/source/`
-
-### 备选:YouTube 用 yt-dlp(工具已随仓库装好)
-YouTube 上同款片子可命令行直接下(需加播放器客户端参数绕过 SABR):
-```powershell
-py -m yt_dlp --extractor-args "youtube:player_client=android,ios,tv" `
-  --ffmpeg-location "tools/ffmpeg-8.1.2-essentials_build/bin" `
-  -f "bv*[height<=720]+ba/b[height<=720]/b" --merge-output-format mp4 `
-  -o "projects/001-huaqiang-maigua/source/huaqiang_maigua.%(ext)s" `
-  "https://www.youtube.com/watch?v=XXXX"
-```
-
-> 参考:华强买瓜 B 站原版 `BV1zB4y1N7Hq`;实测走 YouTube 搜「刘华强买瓜 征服」更顺。
-
----
-
-## 装完自检清单
-
-- [ ] `ffmpeg -version` 正常
-- [ ] FaceFusion WebUI 能打开、能出一次换脸片
-- [ ] GPT-SoVITS WebUI 能打开、能合成一段克隆语音
-- [ ] 三个第三方工具都装在**仓库外**(如 `D:\tools\`),没进 git
-
-全过 → 回到 `docs/PLAN.md` 阶段 2,开跑华强买瓜测试。
+具体已验证版本、参数、启动选项、恢复命令及局限都在对应模式规范中。[仓库与本地文件的边界](REPOSITORY_SCOPE.md)。

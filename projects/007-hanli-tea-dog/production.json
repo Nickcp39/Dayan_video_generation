@@ -1,0 +1,43 @@
+{
+  "mode": "direct-animation",
+  "recipe": "direct-animation-v1",
+  "assets": [
+    "assets/character_selected_views.png",
+    "storyboards/dog_reference_v1/13_images_00002_.png",
+    "storyboards/tea_frame_v2/13_images_00005_.png",
+    "storyboards/dog_frame_selected/start.png"
+  ],
+  "shots": [
+    {
+      "id": "tea",
+      "run": "tea_v1",
+      "reference": "storyboards/tea_frame_v2/13_images_00005_.png",
+      "prompt": "prompts/tea_video.txt",
+      "seconds": 5,
+      "frames": 121,
+      "seed": 2026091320
+    },
+    {
+      "id": "dog",
+      "run": "dog_v1",
+      "reference": "storyboards/dog_frame_selected/start.png",
+      "prompt": "prompts/dog_video.txt",
+      "seconds": 5,
+      "frames": 121,
+      "seed": 2026091321
+    }
+  ],
+  "subtitles": [
+    {
+      "start": 2.1,
+      "end": 4.5,
+      "text": "今天的茶水有股怪味啊，"
+    },
+    {
+      "start": 6.4,
+      "end": 8.6,
+      "text": "狗狗怎么也没精打采的。"
+    }
+  ],
+  "final": "output/hanli_tea_dog_10s_v2/hanli_tea_dog_10s_v2.mp4"
+}

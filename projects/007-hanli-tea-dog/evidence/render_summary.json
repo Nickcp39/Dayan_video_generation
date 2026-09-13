@@ -1,0 +1,28 @@
+{
+  "tea_v1": {
+    "prompt_id": "14eb6aac-a706-47af-84d7-6ab6095e2bde",
+    "status": "completed",
+    "create_time": 1789289450826,
+    "execution_start_time": 1789289450828,
+    "execution_end_time": 1789289701707,
+    "execution_seconds": 250.879,
+    "queue_seconds": 0.002,
+    "client_wait_seconds": 260.20300000000134,
+    "sampled_peak_total_device_memory_mib": 18532,
+    "memory_note": "Total device use sampled every 3 seconds; includes other processes and queue time, not isolated model allocation.",
+    "visual_review": "Sampled every 0.5 seconds: cup rises to lips, is held for a sip, and lowers near the end; character and dog remain coherent. Fine face detail softens during motion."
+  },
+  "dog_v1": {
+    "prompt_id": "4fda6b4d-a4b6-47e8-b107-9c2d3ea98665",
+    "status": "completed",
+    "create_time": 1789289560199,
+    "execution_start_time": 1789289701858,
+    "execution_end_time": 1789289818909,
+    "execution_seconds": 117.051,
+    "queue_seconds": 141.659,
+    "client_wait_seconds": 260.25,
+    "sampled_peak_total_device_memory_mib": 18533,
+    "memory_note": "Total device use sampled every 3 seconds; includes other processes and queue time, not isolated model allocation.",
+    "visual_review": "Sampled every 0.5 seconds: hand moves from forehead toward ear/side of head; dog stays sleepy. A gentle stroke is visible, but not two distinct complete back-and-forth strokes."
+  }
+}

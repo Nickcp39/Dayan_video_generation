@@ -1,0 +1,18 @@
+{
+  "id": "007_hanli_tea_dog",
+  "profile": "projects/004-hanli-voice-finetune/approved_profile_v1.json",
+  "voice_text": "今天的茶水有股怪味啊，狗狗怎么也没精打采的。",
+  "voice_split_seconds": 2.4,
+  "voice_offsets": [2.1, 5.9],
+  "seconds": 10,
+  "width": 960,
+  "height": 544,
+  "fps": 24,
+  "steps": 24,
+  "seed": 2026091307,
+  "lip_sync": "Not performed: original synthetic dialogue used as inner monologue.",
+  "shot_plan": [
+    {"id": "tea", "seconds": 5, "action": "Small sip of tea, lower cup, puzzled expression", "dialogue": "今天的茶水有股怪味啊，"},
+    {"id": "dog", "seconds": 5, "action": "Gently stroke the sleepy dog's head; dog slowly lifts eyes", "dialogue": "狗狗怎么也没精打采的。"}
+  ]
+}

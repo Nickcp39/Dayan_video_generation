@@ -1,0 +1,24 @@
+{
+  "references": {
+    "character": "assets/faces/hanli_01.jpg",
+    "style": "same Chinese 3D fantasy animation appearance as the approved character image"
+  },
+  "camera_plan": [
+    "medium shot: sip then puzzled glance at cup",
+    "medium shot: look down and gently pet dog"
+  ],
+  "identity_plan": "Inspect multiview sheet as an asset check, use original sharp character portrait and generated dog image as separate reference inputs to scene generation; use accepted tea scene as visual reference for petting scene. Feed one shot-specific start frame into each Wan render.",
+  "voice_plan": {
+    "source": "approved Han Li e8 GPT-SoVITS",
+    "text": "今天的茶水有股怪味啊，狗狗怎么也没精打采的。",
+    "mode": "inner monologue",
+    "raw_seconds": 4.7,
+    "asr": "complete text covered",
+    "split_in_silence": 2.4,
+    "timeline_offsets": [
+      2.1,
+      5.9
+    ]
+  },
+  "comfyui_commit": "a464ac33588ae182f81a090d910cfbf21e255b73"
+}

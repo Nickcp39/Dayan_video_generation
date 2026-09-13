@@ -1,75 +1,35 @@
-# Dayan Video Generation 🎬
+# Dayan Video Generation
 
-AI 换脸 / 换声 / 换身材 视频生产线。一套可复用的本地管线,批量产出二创视频(番剧二创、影视鬼畜等)。
+本地 RTX 4090 视频工作流：**原视频角色替换**与**从角色、分镜图直接生成动漫**。两种模式均有用户接受的 10 秒样片，共享已经训练好的韩立 GPT-SoVITS 声音。
 
-> ⚠️ 使用前必读 [`docs/COMPLIANCE.md`](docs/COMPLIANCE.md) —— AI 内容标识、肖像权/声音权、版权红线。
+| 模式 | 输入 → 输出 | 入口 |
+| --- | --- | --- |
+| 换皮 | 原视频＋人物参考 → SAM2 / DWPose → Wan2.2 Animate → 背景恢复与配音 | [hanli_guard.py](scripts/hanli_guard.py) |
+| 直接生成 | 剧本＋角色资产 → 场景与分镜 → Wan2.2 TI2V-5B → 配音字幕 | [direct_animation.py](scripts/direct_animation.py) |
 
----
+先读 [两种模式总览](docs/VIDEO_MODES.md)，再按实际输入选择流程：
 
-## 这是什么
+- [换皮接手规范与 Checker](docs/HANLI_PIPELINE_HANDOFF.md)
+- [直接生成接手规范与 Checker](docs/DIRECT_ANIMATION_HANDOFF.md)
+- [流程图](docs/PIPELINE.md)
+- [本地环境与资产](docs/SETUP.md)
+- [仓库范围：什么上传、什么保留本地](docs/REPOSITORY_SCOPE.md)
 
-不是做单条视频,而是一条**流水线**:素材库共享,每条视频是一个独立的 `project`,复制模板即可开新片。
+## 仓库包含什么
 
-四个可插拔环节:
+控制脚本、Checker、模型/API 工作流、配置与提示词、依赖 SHA256 锁、制作说明和实测结论。模型、视频、音频、图片、第三方环境、完整本地归档和临时实验均不上传。
 
-| 环节 | 作用 | 工具 |
-|------|------|------|
-| ① 换脸 | 只换脸,保留原动作背景 | FaceFusion / ReActor |
-| ② 换身材 | 全身替换(体型+动作) | Wan2.2-Animate(ComfyUI) |
-| ③ 换声 | 克隆音色配音 | GPT-SoVITS v4 |
-| ④ 对口型 | 嘴型对上新配音 | MuseTalk / LatentSync |
+**这是一份工作流源码与设计仓库，不是 clone 后就能运行的整合包。** 完整生成和历史样片复查需要本地模型、参考资产、ComfyUI、SoVITS 及 FFmpeg。当前配置和锁基于 Windows 实测环境，换机器须单独复验。
 
-当前进度见 [`docs/PLAN.md`](docs/PLAN.md)。
+## 先检查，再执行
 
----
+```powershell
+# 轻量源码检查，无需 GPU 或模型
+python scripts/check_repository.py
 
-## 快速开始
-
-1. **装环境**:照 [`docs/SETUP.md`](docs/SETUP.md) 装 FaceFusion + GPT-SoVITS。
-2. **开新项目**:
-   ```powershell
-   ./scripts/new_project.ps1 -Name "002-my-video"
-   ```
-3. **填素材**:把源片放进 `projects/002-*/source/`,把目标脸放 `assets/faces/`,声音参考放 `assets/voices/`,改好 `project.yaml`。
-4. **跑管线**:按 [`docs/PIPELINE.md`](docs/PIPELINE.md) 各环节操作,中间产物落 `work/`。
-5. **合成出片**:
-   ```powershell
-   ./scripts/compose.ps1 -Video projects/002-*/work/faceswap.mp4 -Audio projects/002-*/work/voice.wav -Out projects/002-*/output/final.mp4
-   ```
-
----
-
-## 目录结构
-
-```
-Dayan_video_generation/
-├── README.md
-├── docs/                      # 计划 / 管线 / 安装 / 合规 文档
-│   ├── PLAN.md
-│   ├── PIPELINE.md
-│   ├── SETUP.md
-│   └── COMPLIANCE.md
-├── assets/                    # 跨项目共享素材库
-│   ├── faces/                 #   目标脸图库
-│   ├── voices/                #   目标声音参考库
-│   └── bgm/                   #   背景音乐 / 音效
-├── projects/                  # 每条视频一个文件夹
-│   ├── _template/             #   新视频模板(复制它开新片)
-│   └── 001-huaqiang-maigua/   #   第一个测试:华强买瓜
-├── scripts/                   # 复用脚本(建项目 / 合成)
-├── comfyui/workflows/         # ComfyUI 工作流(换身/对口型用)
-└── tools/                     # 第三方整合包(不入 git)
+# 以下需恢复本地环境与样片资产
+& '.venv-video-test/Scripts/python.exe' scripts/hanli_guard.py check --project projects/006-hanli-reuse-10s/retry_10fps --stage all
+& '.venv-video-test/Scripts/python.exe' scripts/direct_animation.py check --project projects/007-hanli-tea-dog --stage all
 ```
 
-每个 `project` 内部:
-
-```
-001-huaqiang-maigua/
-├── project.yaml    # 该视频的配置:源片、用哪张脸、哪个声、台词
-├── script.md       # 台词 / 分镜脚本
-├── source/         # 原始素材片段
-├── work/           # 中间产物(换脸视频、配音 wav)
-└── output/         # 成片
-```
-
-> 媒体文件(mp4/wav/图片/模型)默认不入 git,只跟踪配置、脚本、文档。见 `.gitignore`。
+任何新片使用新项目目录，保留已接受样片。技术检查、看图试听、用户验收分别记录；不把一次成功出片当作批量稳定，也不声称已经解决精确口型。当前已知限制见各模式规范。

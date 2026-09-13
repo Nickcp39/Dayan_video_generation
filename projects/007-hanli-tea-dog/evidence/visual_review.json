@@ -1,0 +1,55 @@
+{
+  "environment_v1": {
+    "decision": "reject_as_final_reference",
+    "reason": "SDXL draft did not include a usable tea table or cup, dog is white rather than tan and white, and composition is an exterior facade rather than reachable bench seating. Kept as a failed preproduction trial; not sent to Wan."
+  },
+  "dog_asset_v1": {
+    "decision": "concept_only_not_final_reference",
+    "reason": "Pose is readable but coat has large dark areas and render is more illustrated than the Han Li 3D reference; do not use as final identity anchor."
+  },
+  "character_v1": {
+    "decision": "partial_accept",
+    "reason": "Front and three-quarter views preserve recognizable costume and identity; rightmost angle is not a strict profile."
+  },
+  "character_v2": {
+    "decision": "partial_accept",
+    "reason": "Rightmost profile is usable; middle view also changed. Selected sheet combines v1 front/three-quarter and v2 profile without repainting."
+  },
+  "dog_reference_v1": {
+    "decision": "accept",
+    "reason": "One sleepy tan-and-white dog, clear anatomy and coherent 3D rendering; used as the second scene reference."
+  },
+  "tea_frame_v1": {
+    "decision": "reject",
+    "reason": "Three hands and two cups. Never used as Wan input."
+  },
+  "tea_frame_v2": {
+    "decision": "accept_for_video",
+    "reason": "Two arms and hands, one held cup, recognizable costume, reachable dog. Dog is on the table rather than planned bench; accept that staging and preserve it across shots."
+  },
+  "dog_frame_v1": {
+    "decision": "accept_pose_repair_prop",
+    "reason": "Hand naturally contacts dog head; matching scene and costume; cup missing."
+  },
+  "dog_frame_v2": {
+    "decision": "reject_as_full_frame_use_cup_only",
+    "reason": "Adding cup replaced teapot. Extract cup for local compositing instead of changing the accepted scene."
+  },
+  "dog_frame_selected": {
+    "decision": "accept_for_video",
+    "reason": "Preserves v1 dog/hand/scene and teapot, adds cutout cup from v2. Deterministic local compositing documented in composition.json."
+  },
+  "tea_v1": {
+    "decision": "accept_for_this_clip",
+    "reason": "Sampled every 0.5 seconds: cup rises to lips, is held for a sip, and lowers near the end; character and dog remain coherent. Fine face detail softens during motion."
+  },
+  "dog_v1": {
+    "decision": "accept_for_this_clip",
+    "reason": "Sampled every 0.5 seconds: hand moves from forehead toward ear/side of head; dog stays sleepy. A gentle stroke is visible, but not two distinct complete back-and-forth strokes."
+  },
+  "final_v2": {
+    "decision": "ready_for_user_review",
+    "method": "Raw clips sampled at 2 fps, final sampled at 1 fps; complete FFmpeg decode and metadata checks.",
+    "findings": "Readable Chinese subtitles, both requested actions visible, coherent setting. Cut at 5 seconds omits cup placement; no phoneme lip sync. Subject likeness remains a generated interpretation."
+  }
+}

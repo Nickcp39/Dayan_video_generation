@@ -1,0 +1,30 @@
+{
+  "profile_id": "hanli-v2-e8-20260913-v1",
+  "approval": "User accepted current voice workflow for provisional use; no single A-F prosody variant explicitly selected.",
+  "version": "v2",
+  "engine_root": "GPT-SoVITS-v3lora-20250228",
+  "gpt_weights": "projects/004-hanli-voice-finetune/weights/hanli_55s_v2-e8.ckpt",
+  "sovits_weights": "projects/004-hanli-voice-finetune/weights/hanli_55s_v2_e8_s192.pth",
+  "gpt_sha256": "db63c667993e70964735cf7eb1680c2864d1472ae602379a9b41005507b5e85a",
+  "sovits_sha256": "7274fe32658906585f5dd0a522da161c14993b90dcc9f112d4ea365541e04e9e",
+  "character_image": "assets/faces/hanli_01.jpg",
+  "reference_audio": "projects/004-hanli-voice-finetune/dataset/wavs/ref001.wav",
+  "reference_text": "元道友见谅，韩某确实没有将后背留给旁人的习惯。",
+  "generation": {
+    "text_lang": "zh",
+    "prompt_lang": "zh",
+    "top_k": 5,
+    "top_p": 1,
+    "temperature": 0.8,
+    "text_split_method": "cut0",
+    "fragment_interval": 0.3,
+    "batch_size": 1,
+    "speed_factor": 1.0,
+    "seed": 42,
+    "parallel_infer": true,
+    "repetition_penalty": 1.35,
+    "media_type": "wav",
+    "streaming_mode": false
+  },
+  "default_note": "Use original held-out reference and continuous synthesis for short dialogue. Engineering default, not a claim that the user picked variant B. Retain cut3 as fallback after omissions."
+}

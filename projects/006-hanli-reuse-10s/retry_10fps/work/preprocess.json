@@ -1,0 +1,234 @@
+{
+  "1": {
+    "class_type": "LoadVideo",
+    "inputs": {
+      "file": "hanli-reuse-liubei-10fps-20260913_render_input.mp4"
+    }
+  },
+  "2": {
+    "class_type": "GetVideoComponents",
+    "inputs": {
+      "video": [
+        "1",
+        0
+      ]
+    }
+  },
+  "3": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "hanli-reuse-liubei-10fps-20260913_hanli_01.jpg"
+    }
+  },
+  "4": {
+    "class_type": "ImageResizeKJv2",
+    "inputs": {
+      "image": [
+        "3",
+        0
+      ],
+      "width": 640,
+      "height": 352,
+      "upscale_method": "lanczos",
+      "keep_proportion": "pad",
+      "pad_color": "32, 32, 32",
+      "crop_position": "center",
+      "divisible_by": 16,
+      "device": "cpu"
+    }
+  },
+  "5": {
+    "class_type": "DownloadAndLoadSAM2Model",
+    "inputs": {
+      "model": "sam2_hiera_base_plus.safetensors",
+      "segmentor": "video",
+      "device": "cuda",
+      "precision": "fp16"
+    }
+  },
+  "6": {
+    "class_type": "Sam2Segmentation",
+    "inputs": {
+      "sam2_model": [
+        "5",
+        0
+      ],
+      "image": [
+        "2",
+        0
+      ],
+      "keep_model_loaded": false,
+      "coordinates_positive": "[{\"x\": 330, \"y\": 115}, {\"x\": 330, \"y\": 275}, {\"x\": 200, \"y\": 325}, {\"x\": 465, \"y\": 325}]",
+      "coordinates_negative": "[{\"x\": 65, \"y\": 155}, {\"x\": 585, \"y\": 175}]",
+      "individual_objects": false
+    }
+  },
+  "7": {
+    "class_type": "GrowMask",
+    "inputs": {
+      "mask": [
+        "6",
+        0
+      ],
+      "expand": 16,
+      "tapered_corners": true
+    }
+  },
+  "8": {
+    "class_type": "BlockifyMask",
+    "inputs": {
+      "masks": [
+        "7",
+        0
+      ],
+      "block_size": 16,
+      "device": "cpu"
+    }
+  },
+  "9": {
+    "class_type": "InvertMask",
+    "inputs": {
+      "mask": [
+        "6",
+        0
+      ]
+    }
+  },
+  "10": {
+    "class_type": "DrawMaskOnImage",
+    "inputs": {
+      "image": [
+        "2",
+        0
+      ],
+      "mask": [
+        "9",
+        0
+      ],
+      "color": "0, 0, 0",
+      "device": "cpu"
+    }
+  },
+  "11": {
+    "class_type": "DWPreprocessor",
+    "inputs": {
+      "image": [
+        "10",
+        0
+      ],
+      "detect_hand": "disable",
+      "detect_body": "disable",
+      "detect_face": "enable",
+      "resolution": 384,
+      "bbox_detector": "yolox_l.onnx",
+      "pose_estimator": "dw-ll_ucoco_384_bs5.torchscript.pt",
+      "scale_stick_for_xinsr_cn": "disable"
+    }
+  },
+  "12": {
+    "class_type": "DWPreprocessor",
+    "inputs": {
+      "image": [
+        "10",
+        0
+      ],
+      "detect_hand": "enable",
+      "detect_body": "enable",
+      "detect_face": "disable",
+      "resolution": 384,
+      "bbox_detector": "yolox_l.onnx",
+      "pose_estimator": "dw-ll_ucoco_384_bs5.torchscript.pt",
+      "scale_stick_for_xinsr_cn": "disable"
+    }
+  },
+  "13": {
+    "class_type": "DrawMaskOnImage",
+    "inputs": {
+      "image": [
+        "2",
+        0
+      ],
+      "mask": [
+        "8",
+        0
+      ],
+      "color": "0, 0, 0",
+      "device": "cpu"
+    }
+  },
+  "14": {
+    "class_type": "MaskToImage",
+    "inputs": {
+      "mask": [
+        "8",
+        0
+      ]
+    }
+  },
+  "15": {
+    "class_type": "CreateVideo",
+    "inputs": {
+      "images": [
+        "14",
+        0
+      ],
+      "fps": 10
+    }
+  },
+  "16": {
+    "class_type": "SaveVideo",
+    "inputs": {
+      "video": [
+        "15",
+        0
+      ],
+      "filename_prefix": "hanli-reuse-liubei-10fps-20260913/mask",
+      "format": "mp4",
+      "codec": "h264"
+    }
+  },
+  "17": {
+    "class_type": "CreateVideo",
+    "inputs": {
+      "images": [
+        "10",
+        0
+      ],
+      "fps": 10
+    }
+  },
+  "18": {
+    "class_type": "SaveVideo",
+    "inputs": {
+      "video": [
+        "17",
+        0
+      ],
+      "filename_prefix": "hanli-reuse-liubei-10fps-20260913/person",
+      "format": "mp4",
+      "codec": "h264"
+    }
+  },
+  "19": {
+    "class_type": "CreateVideo",
+    "inputs": {
+      "images": [
+        "12",
+        0
+      ],
+      "fps": 10
+    }
+  },
+  "20": {
+    "class_type": "SaveVideo",
+    "inputs": {
+      "video": [
+        "19",
+        0
+      ],
+      "filename_prefix": "hanli-reuse-liubei-10fps-20260913/pose",
+      "format": "mp4",
+      "codec": "h264"
+    }
+  }
+}

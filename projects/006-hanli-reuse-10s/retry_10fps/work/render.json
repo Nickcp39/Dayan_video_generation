@@ -1,0 +1,467 @@
+{
+  "1": {
+    "class_type": "LoadVideo",
+    "inputs": {
+      "file": "hanli-reuse-liubei-10fps-20260913_render_input.mp4"
+    }
+  },
+  "2": {
+    "class_type": "GetVideoComponents",
+    "inputs": {
+      "video": [
+        "1",
+        0
+      ]
+    }
+  },
+  "3": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "hanli-reuse-liubei-10fps-20260913_hanli_01.jpg"
+    }
+  },
+  "4": {
+    "class_type": "ImageResizeKJv2",
+    "inputs": {
+      "image": [
+        "3",
+        0
+      ],
+      "width": 640,
+      "height": 352,
+      "upscale_method": "lanczos",
+      "keep_proportion": "pad",
+      "pad_color": "32, 32, 32",
+      "crop_position": "center",
+      "divisible_by": 16,
+      "device": "cpu"
+    }
+  },
+  "5": {
+    "class_type": "DownloadAndLoadSAM2Model",
+    "inputs": {
+      "model": "sam2_hiera_base_plus.safetensors",
+      "segmentor": "video",
+      "device": "cuda",
+      "precision": "fp16"
+    }
+  },
+  "6": {
+    "class_type": "Sam2Segmentation",
+    "inputs": {
+      "sam2_model": [
+        "5",
+        0
+      ],
+      "image": [
+        "2",
+        0
+      ],
+      "keep_model_loaded": false,
+      "coordinates_positive": "[{\"x\": 330, \"y\": 115}, {\"x\": 330, \"y\": 275}, {\"x\": 200, \"y\": 325}, {\"x\": 465, \"y\": 325}]",
+      "coordinates_negative": "[{\"x\": 65, \"y\": 155}, {\"x\": 585, \"y\": 175}]",
+      "individual_objects": false
+    }
+  },
+  "7": {
+    "class_type": "GrowMask",
+    "inputs": {
+      "mask": [
+        "6",
+        0
+      ],
+      "expand": 16,
+      "tapered_corners": true
+    }
+  },
+  "8": {
+    "class_type": "BlockifyMask",
+    "inputs": {
+      "masks": [
+        "7",
+        0
+      ],
+      "block_size": 16,
+      "device": "cpu"
+    }
+  },
+  "9": {
+    "class_type": "InvertMask",
+    "inputs": {
+      "mask": [
+        "6",
+        0
+      ]
+    }
+  },
+  "10": {
+    "class_type": "DrawMaskOnImage",
+    "inputs": {
+      "image": [
+        "2",
+        0
+      ],
+      "mask": [
+        "9",
+        0
+      ],
+      "color": "0, 0, 0",
+      "device": "cpu"
+    }
+  },
+  "11": {
+    "class_type": "DWPreprocessor",
+    "inputs": {
+      "image": [
+        "10",
+        0
+      ],
+      "detect_hand": "disable",
+      "detect_body": "disable",
+      "detect_face": "enable",
+      "resolution": 384,
+      "bbox_detector": "yolox_l.onnx",
+      "pose_estimator": "dw-ll_ucoco_384_bs5.torchscript.pt",
+      "scale_stick_for_xinsr_cn": "disable"
+    }
+  },
+  "12": {
+    "class_type": "DWPreprocessor",
+    "inputs": {
+      "image": [
+        "10",
+        0
+      ],
+      "detect_hand": "enable",
+      "detect_body": "enable",
+      "detect_face": "disable",
+      "resolution": 384,
+      "bbox_detector": "yolox_l.onnx",
+      "pose_estimator": "dw-ll_ucoco_384_bs5.torchscript.pt",
+      "scale_stick_for_xinsr_cn": "disable"
+    }
+  },
+  "13": {
+    "class_type": "DrawMaskOnImage",
+    "inputs": {
+      "image": [
+        "2",
+        0
+      ],
+      "mask": [
+        "8",
+        0
+      ],
+      "color": "0, 0, 0",
+      "device": "cpu"
+    }
+  },
+  "14": {
+    "class_type": "MaskToImage",
+    "inputs": {
+      "mask": [
+        "8",
+        0
+      ]
+    }
+  },
+  "15": {
+    "class_type": "CreateVideo",
+    "inputs": {
+      "images": [
+        "14",
+        0
+      ],
+      "fps": 10
+    }
+  },
+  "16": {
+    "class_type": "SaveVideo",
+    "inputs": {
+      "video": [
+        "15",
+        0
+      ],
+      "filename_prefix": "hanli-reuse-liubei-10fps-20260913/mask",
+      "format": "mp4",
+      "codec": "h264"
+    }
+  },
+  "17": {
+    "class_type": "CreateVideo",
+    "inputs": {
+      "images": [
+        "10",
+        0
+      ],
+      "fps": 10
+    }
+  },
+  "18": {
+    "class_type": "SaveVideo",
+    "inputs": {
+      "video": [
+        "17",
+        0
+      ],
+      "filename_prefix": "hanli-reuse-liubei-10fps-20260913/person",
+      "format": "mp4",
+      "codec": "h264"
+    }
+  },
+  "19": {
+    "class_type": "CreateVideo",
+    "inputs": {
+      "images": [
+        "12",
+        0
+      ],
+      "fps": 10
+    }
+  },
+  "20": {
+    "class_type": "SaveVideo",
+    "inputs": {
+      "video": [
+        "19",
+        0
+      ],
+      "filename_prefix": "hanli-reuse-liubei-10fps-20260913/pose",
+      "format": "mp4",
+      "codec": "h264"
+    }
+  },
+  "30": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "Wan2_2-Animate-14B_fp8_e4m3fn_scaled_KJ.safetensors",
+      "weight_dtype": "default"
+    }
+  },
+  "31": {
+    "class_type": "LoraLoaderModelOnly",
+    "inputs": {
+      "model": [
+        "30",
+        0
+      ],
+      "lora_name": "lightx2v_I2V_14B_480p_cfg_step_distill_rank64_bf16.safetensors",
+      "strength_model": 1.0
+    }
+  },
+  "32": {
+    "class_type": "LoraLoaderModelOnly",
+    "inputs": {
+      "model": [
+        "31",
+        0
+      ],
+      "lora_name": "WanAnimate_relight_lora_fp16.safetensors",
+      "strength_model": 1.0
+    }
+  },
+  "33": {
+    "class_type": "ModelSamplingSD3",
+    "inputs": {
+      "model": [
+        "32",
+        0
+      ],
+      "shift": 8.0
+    }
+  },
+  "34": {
+    "class_type": "CLIPLoader",
+    "inputs": {
+      "clip_name": "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+      "type": "wan",
+      "device": "default"
+    }
+  },
+  "35": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "34",
+        0
+      ],
+      "text": "Han Li, the adult young Chinese male cultivator in the reference image, long black hair tied back, handsome clean-shaven face, blue and teal cultivation robes. Medium close-up, he sits in an ornate ancient Chinese reception hall, talks calmly, turns his head and raises one hand. Keep original head motion, gaze and hand gestures. Preserve the carved chair and room background. Detailed Chinese 3D animation character composited into the original shot. Stable character face throughout."
+    }
+  },
+  "36": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "34",
+        0
+      ],
+      "text": "flicker, distorted face, old man, beard, short hair, duplicate person, blur, deformed hands, subtitles"
+    }
+  },
+  "37": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "wan_2.1_vae.safetensors"
+    }
+  },
+  "38": {
+    "class_type": "CLIPVisionLoader",
+    "inputs": {
+      "clip_name": "clip_vision_h.safetensors"
+    }
+  },
+  "39": {
+    "class_type": "CLIPVisionEncode",
+    "inputs": {
+      "clip_vision": [
+        "38",
+        0
+      ],
+      "image": [
+        "4",
+        0
+      ],
+      "crop": "none"
+    }
+  },
+  "40": {
+    "class_type": "WanAnimateToVideo",
+    "inputs": {
+      "positive": [
+        "35",
+        0
+      ],
+      "negative": [
+        "36",
+        0
+      ],
+      "vae": [
+        "37",
+        0
+      ],
+      "width": 640,
+      "height": 352,
+      "length": 101,
+      "batch_size": 1,
+      "continue_motion_max_frames": 5,
+      "video_frame_offset": 0,
+      "clip_vision_output": [
+        "39",
+        0
+      ],
+      "reference_image": [
+        "4",
+        0
+      ],
+      "face_video": [
+        "11",
+        0
+      ],
+      "pose_video": [
+        "12",
+        0
+      ],
+      "background_video": [
+        "13",
+        0
+      ],
+      "character_mask": [
+        "8",
+        0
+      ]
+    }
+  },
+  "41": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "33",
+        0
+      ],
+      "positive": [
+        "40",
+        0
+      ],
+      "negative": [
+        "40",
+        1
+      ],
+      "latent_image": [
+        "40",
+        2
+      ],
+      "seed": 20260913,
+      "steps": 6,
+      "cfg": 1.0,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "denoise": 1.0
+    }
+  },
+  "42": {
+    "class_type": "TrimVideoLatent",
+    "inputs": {
+      "samples": [
+        "41",
+        0
+      ],
+      "trim_amount": [
+        "40",
+        3
+      ]
+    }
+  },
+  "43": {
+    "class_type": "VAEDecodeTiled",
+    "inputs": {
+      "samples": [
+        "42",
+        0
+      ],
+      "vae": [
+        "37",
+        0
+      ],
+      "tile_size": 256,
+      "overlap": 64,
+      "temporal_size": 16,
+      "temporal_overlap": 4
+    }
+  },
+  "44": {
+    "class_type": "ImageFromBatch",
+    "inputs": {
+      "image": [
+        "43",
+        0
+      ],
+      "batch_index": [
+        "40",
+        4
+      ],
+      "length": 101
+    }
+  },
+  "45": {
+    "class_type": "CreateVideo",
+    "inputs": {
+      "images": [
+        "44",
+        0
+      ],
+      "fps": 10
+    }
+  },
+  "46": {
+    "class_type": "SaveVideo",
+    "inputs": {
+      "video": [
+        "45",
+        0
+      ],
+      "filename_prefix": "hanli-reuse-liubei-10fps-20260913/generated",
+      "format": "mp4",
+      "codec": "h264"
+    }
+  }
+}

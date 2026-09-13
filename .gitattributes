@@ -1,0 +1,4 @@
+# Preserve the exact bytes referenced by workflow SHA256 locks on every checkout.
+* -text
+# Existing verified files contain both LF and CRLF; CR is a line ending, not trailing whitespace.
+* whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
