@@ -127,6 +127,9 @@ env/
 !/scripts/test_direct_animation.py
 !/scripts/archive_direct_animation.py
 !/scripts/check_repository.py
+!/scripts/market_research_pipeline.py
+!/scripts/check_market_research.py
+!/scripts/test_market_research.py
 /comfyui/workflows/*.json
 **/execution.lock
 # Rejected SDXL drafts are retained locally, not part of the published recipe.

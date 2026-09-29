@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "revision": 1,
+  "created_at": "2026-09-28T07:31:13+00:00",
+  "as_of": "2026-09-28T07:26:20+00:00",
+  "objective": "比较投资内容的热门、普通、低表现作品，研究可借鉴表达及原创增量；不开始制作。",
+  "platform": "bilibili",
+  "language": "zh",
+  "primary_metric": "views",
+  "keywords": [
+    "投资",
+    "理财",
+    "价值投资",
+    "巴菲特",
+    "芒格",
+    "决策思维"
+  ],
+  "search_sorts": [
+    "relevance",
+    "popular"
+  ],
+  "discovery_limit": 10,
+  "selected_roles": {
+    "head": 3,
+    "peer": 2
+  },
+  "feed_count": 20,
+  "min_age_days": 14,
+  "max_age_days": 365,
+  "min_duration_seconds": 15,
+  "max_duration_seconds": 90,
+  "core_formats": [
+    "original_talking_head",
+    "original_explainer"
+  ],
+  "core_topics": [
+    "investment_principle",
+    "personal_finance",
+    "decision_psychology"
+  ],
+  "min_core_per_creator": 6,
+  "min_core_creators": 3,
+  "max_snapshot_span_hours": 48,
+  "deep_bands": [
+    "low",
+    "middle",
+    "high"
+  ],
+  "comment_limit": 10,
+  "constraints": [
+    "不把搜索排名称为全市场排名",
+    "不把累计互动称为涨粉或完播",
+    "不从标题直接推断流量原因",
+    "不将缺失值填0",
+    "不自动写脚本、生成或发布视频"
+  ]
+}
