@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>投稿台账</title>
+<style>
+  :root {
+    --bg: #0f1115; --bg-soft: #151922; --card: #1a1f29; --card-hover: #222938;
+    --border: #2a3242; --text: #e6e9ef; --dim: #9aa3b2; --faint: #6b7484;
+    --accent: #5b8cff; --accent-soft: rgba(91,140,255,.14);
+    --todo: #e8a33d; --todo-soft: rgba(232,163,61,.16);
+    --done: #3ecf8e; --done-soft: rgba(62,207,142,.14);
+    --skip: #5b6472; --skip-soft: rgba(91,100,114,.18);
+    --danger: #e5534b; --radius: 12px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: -apple-system, "Segoe UI", "Microsoft YaHei", system-ui, sans-serif; line-height: 1.5; padding: 24px; min-height: 100vh; }
+  .wrap { max-width: 1080px; margin: 0 auto; }
+
+  header { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-bottom: 20px; }
+  header h1 { font-size: 22px; font-weight: 700; letter-spacing: .5px; }
+  header .sub { color: var(--faint); font-size: 13px; margin-top: 4px; }
+  .header-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+
+  button { font-family: inherit; font-size: 13px; cursor: pointer; border: 1px solid var(--border); background: var(--card); color: var(--text); padding: 8px 14px; border-radius: 8px; transition: .15s; display: inline-flex; align-items: center; gap: 6px; }
+  button:hover { background: var(--card-hover); border-color: #3a4456; }
+  button.primary { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+  button.primary:hover { background: #4a7cf0; }
+  button.danger { color: var(--danger); border-color: rgba(229,83,75,.4); }
+  button.small { padding: 5px 10px; font-size: 12px; border-radius: 6px; }
+
+  .stats { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 16px; }
+  .stat { flex: 1 1 120px; background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px 16px; min-width: 110px; }
+  .stat .num { font-size: 26px; font-weight: 700; line-height: 1.1; }
+  .stat .lbl { font-size: 12px; color: var(--dim); margin-top: 4px; }
+  .stat.todo .num { color: var(--todo); }
+  .stat.done .num { color: var(--done); }
+
+  .panel { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px; margin-bottom: 16px; }
+  .panel h2 { font-size: 15px; font-weight: 600; margin-bottom: 12px; display: flex; align-items: center; justify-content: space-between; }
+  .panel h2 .count { color: var(--faint); font-weight: 400; font-size: 12px; }
+
+  /* 平台汇总 */
+  .plat-summary { display: flex; flex-wrap: wrap; gap: 8px; }
+  .ps-chip { display: flex; align-items: center; gap: 8px; background: var(--bg-soft); border: 1px solid var(--border); border-radius: 8px; padding: 7px 12px; font-size: 13px; }
+  .ps-chip .ps-name { font-weight: 500; }
+  .ps-chip .ps-num { font-size: 12px; color: var(--dim); }
+  .ps-chip .ps-todo { color: var(--todo); font-weight: 600; }
+  .ps-chip .ps-done { color: var(--done); font-weight: 600; }
+  .ps-chip a { color: var(--accent); text-decoration: none; font-size: 12px; }
+
+  /* 内容列表 */
+  .content-item { border: 1px solid var(--border); border-radius: var(--radius); margin-bottom: 10px; overflow: hidden; background: var(--bg-soft); }
+  .ci-head { display: flex; align-items: center; gap: 12px; padding: 12px 16px; cursor: pointer; }
+  .ci-head:hover { background: var(--card-hover); }
+  .ci-title { font-weight: 600; font-size: 14px; flex: 1; }
+  .ci-title .path { display: block; font-weight: 400; font-size: 12px; color: var(--faint); margin-top: 2px; word-break: break-all; }
+  .badge { font-size: 11px; padding: 2px 8px; border-radius: 20px; white-space: nowrap; }
+  .badge.video { background: var(--accent-soft); color: #9db9ff; }
+  .badge.image { background: rgba(173,134,255,.16); color: #c9a8ff; }
+  .progress { font-size: 12px; color: var(--dim); white-space: nowrap; }
+  .progress .n { font-weight: 700; color: var(--done); }
+  .chev { color: var(--faint); transition: .15s; }
+  .open .chev { transform: rotate(180deg); }
+  .ci-body { padding: 4px 16px 16px; border-top: 1px solid var(--border); display: none; }
+  .open .ci-body { display: block; }
+
+  .copy-bar { display: flex; gap: 8px; flex-wrap: wrap; margin: 10px 0; padding: 10px; background: var(--bg); border: 1px dashed var(--border); border-radius: 8px; }
+  .copy-btn:hover { border-color: var(--accent); color: #fff; }
+
+  .plat-row { display: flex; align-items: center; gap: 12px; padding: 9px 0; border-bottom: 1px solid rgba(42,50,66,.5); }
+  .plat-row:last-child { border-bottom: none; }
+  .plat-name { width: 130px; font-weight: 500; font-size: 13px; flex-shrink: 0; }
+  .cat { font-size: 10px; padding: 1px 6px; border-radius: 10px; margin-left: 6px; vertical-align: middle; }
+  .cat.video { background: var(--accent-soft); color: #9db9ff; }
+  .cat.article { background: rgba(173,134,255,.16); color: #c9a8ff; }
+  .cat.audio { background: rgba(62,207,142,.14); color: var(--done); }
+  .plat-url { flex: 1; font-size: 12px; color: var(--faint); word-break: break-all; }
+  .plat-actions { display: flex; gap: 6px; flex-shrink: 0; align-items: center; }
+  .status-pill { font-size: 12px; padding: 4px 10px; border-radius: 20px; cursor: pointer; border: 1px solid transparent; background: transparent; }
+  .status-pill.st-todo { color: var(--todo); background: var(--todo-soft); border-color: rgba(232,163,61,.3); }
+  .status-pill.st-done { color: var(--done); background: var(--done-soft); border-color: rgba(62,207,142,.3); }
+  .status-pill.st-skip { color: var(--skip); background: var(--skip-soft); border-color: rgba(91,100,114,.4); }
+  .link-input { background: var(--bg); border: 1px solid var(--border); color: var(--text); border-radius: 6px; padding: 4px 8px; font-size: 12px; width: 200px; }
+  .link-input:focus { outline: none; border-color: var(--accent); }
+
+  .mask { position: fixed; inset: 0; background: rgba(0,0,0,.6); display: none; align-items: flex-start; justify-content: center; padding: 40px 16px; z-index: 100; overflow-y: auto; }
+  .mask.show { display: flex; }
+  .modal { background: var(--card); border: 1px solid var(--border); border-radius: 14px; width: 100%; max-width: 580px; padding: 22px; }
+  .modal h3 { font-size: 16px; margin-bottom: 16px; }
+  .field { margin-bottom: 14px; }
+  .field label { display: block; font-size: 12px; color: var(--dim); margin-bottom: 6px; }
+  .field input, .field textarea, .field select { width: 100%; background: var(--bg); border: 1px solid var(--border); color: var(--text); border-radius: 8px; padding: 9px 12px; font-size: 13px; font-family: inherit; }
+  .field input:focus, .field textarea:focus, .field select:focus { outline: none; border-color: var(--accent); }
+  .field textarea { min-height: 70px; resize: vertical; }
+  .plat-checks { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; max-height: 220px; overflow-y: auto; }
+  .plat-checks label { display: flex; align-items: center; gap: 7px; font-size: 13px; cursor: pointer; padding: 7px 10px; background: var(--bg); border: 1px solid var(--border); border-radius: 8px; }
+  .plat-checks input { accent-color: var(--accent); }
+  .modal-actions { display: flex; justify-content: flex-end; gap: 8px; margin-top: 20px; }
+
+  .empty { text-align: center; color: var(--faint); padding: 40px 20px; font-size: 14px; }
+  .hint { font-size: 12px; color: var(--faint); margin-top: 6px; }
+  ::placeholder { color: var(--faint); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div>
+      <h1>📋 投稿台账</h1>
+      <div class="sub">手动记录 · 统计投稿情况 · 点一下直达各平台上传页</div>
+    </div>
+    <div class="header-actions">
+      <button id="btnAdd" class="primary">＋ 记录内容</button>
+      <button id="btnPlats">平台管理</button>
+      <button id="btnExport">导出备份</button>
+      <button id="btnImport">导入</button>
+    </div>
+  </header>
+
+  <div class="stats">
+    <div class="stat"><div class="num" id="stTotal">0</div><div class="lbl">内容总数</div></div>
+    <div class="stat todo"><div class="num" id="stTodo">0</div><div class="lbl">待投稿（内容×平台）</div></div>
+    <div class="stat done"><div class="num" id="stDone">0</div><div class="lbl">已投稿</div></div>
+    <div class="stat"><div class="num" id="stCoverage">0%</div><div class="lbl">整体进度</div></div>
+  </div>
+
+  <div class="panel">
+    <h2>按平台看 · 还有哪些没投 <span class="count">点击平台名可直达上传页</span></h2>
+    <div class="plat-summary" id="platSummary"></div>
+  </div>
+
+  <div class="panel">
+    <h2>内容清单 <span class="count" id="listCount"></span></h2>
+    <div id="contentList"></div>
+  </div>
+
+</div>
+
+<!-- 记录内容弹窗 -->
+<div class="mask" id="modal">
+  <div class="modal">
+    <h3 id="modalTitle">记录内容</h3>
+    <div class="field"><label>标题 *</label><input id="fTitle" placeholder="例如：韩立角色短片 #003"></div>
+    <div class="field"><label>类型</label><select id="fType"><option value="video">视频</option><option value="image">图文</option></select></div>
+    <div class="field"><label>文件路径（可选）</label><input id="fPath" placeholder="D:/work/.../xxx.mp4"></div>
+    <div class="field"><label>简介 / 发布文案</label><textarea id="fDesc" placeholder="发布时用的文案、简介…"></textarea></div>
+    <div class="field"><label>标签（空格或逗号分隔）</label><input id="fTags" placeholder="#韩立 #修仙"></div>
+    <div class="field"><label>计划投稿到哪些平台（默认全选，可取消）</label><div class="plat-checks" id="platChecks"></div></div>
+    <div class="modal-actions"><button id="btnCancel">取消</button><button id="btnSave" class="primary">保存</button></div>
+  </div>
+</div>
+
+<!-- 平台管理弹窗 -->
+<div class="mask" id="platModal">
+  <div class="modal">
+    <h3>平台管理</h3>
+    <div id="platEditList"></div>
+    <div class="field" style="margin-top:16px;">
+      <label>从平台库添加（国内主流 · 可网页登录）</label>
+      <div style="display:flex;gap:8px;">
+        <select id="libSelect" style="flex:2;"></select>
+        <button id="btnAddFromLib" class="primary">添加</button>
+      </div>
+    </div>
+    <div class="field">
+      <label>自定义添加平台</label>
+      <div style="display:flex;gap:8px;">
+        <input id="newPlatName" placeholder="平台名" style="flex:1;">
+        <input id="newPlatUrl" placeholder="上传页 URL" style="flex:2;">
+        <button id="btnAddPlat">添加</button>
+      </div>
+    </div>
+    <div class="modal-actions"><button id="btnPlatClose" class="primary">完成</button></div>
+  </div>
+</div>
+
+<input type="file" id="importFile" accept=".json" style="display:none;">
+
+<script>
+/* ===== 平台库：国内主流、可网页登录的社交媒体发布平台 ===== */
+const PLATFORM_LIBRARY = [
+  { name: '抖音',   url: 'https://creator.douyin.com/creator-micro/content/upload?enter_from=dou_web', category: 'video' },
+  { name: '快手',   url: 'https://cp.kuaishou.com/article/publish/video?tabType=1', category: 'video' },
+  { name: 'B站',    url: 'https://member.bilibili.com/platform/upload/video/frame', category: 'video' },
+  { name: '视频号', url: 'https://channels.weixin.qq.com/platform/post/create', category: 'video' },
+  { name: '头条号', url: 'https://mp.toutiao.com/profile_v4/xigua/upload-video', category: 'video' },
+  { name: '企鹅号', url: 'https://om.qq.com/main/creation/video', category: 'video' },
+  { name: '小红书', url: 'https://creator.xiaohongshu.com/publish/publish?from=menu&target=video', category: 'video' },
+  { name: '微博',   url: 'https://weibo.com/upload/channel', category: 'video' },
+  { name: '知乎',   url: 'https://www.zhihu.com/zvideo/upload-video', category: 'video' },
+  { name: '微信公众号', url: 'https://mp.weixin.qq.com/', category: 'article' },
+  { name: '百家号', url: 'https://baijiahao.baidu.com/builder/rc/edit?type=news', category: 'article' },
+  { name: '头条号(图文)', url: 'https://mp.toutiao.com/profile_v4/graphic/publish', category: 'article' },
+  { name: '知乎专栏', url: 'https://zhuanlan.zhihu.com/write', category: 'article' },
+  { name: '微博(头条文章)', url: 'https://card.weibo.com/article/v5/editor', category: 'article' },
+  { name: '简书', url: 'https://www.jianshu.com/writer', category: 'article' },
+  { name: '豆瓣', url: 'https://www.douban.com/note/create', category: 'article' },
+  { name: '喜马拉雅', url: 'https://studio.ximalaya.com/', category: 'audio' },
+  { name: '网易云音乐', url: 'https://music.163.com/st/ncreator/', category: 'audio' },
+];
+
+const CAT_LABEL = { video: '视频', article: '图文', audio: '音频' };
+const STORE_KEY = 'publish-ledger-v1';
+
+let state = load();
+
+function normalize(s) {
+  s.platforms.forEach(p => { if (!p.category) p.category = 'video'; });
+  s.contents.forEach(c => {
+    if (!c.statuses) c.statuses = {};
+    if (!c.links) c.links = {};
+  });
+  return s;
+}
+function load() {
+  try {
+    const raw = localStorage.getItem(STORE_KEY);
+    if (raw) {
+      const s = JSON.parse(raw);
+      if (s && Array.isArray(s.platforms) && Array.isArray(s.contents)) return normalize(s);
+    }
+  } catch (e) {}
+  // 首次：默认启用视频 9 个平台
+  const platforms = PLATFORM_LIBRARY.filter(p => p.category === 'video')
+    .map(p => ({ id: uid(), name: p.name, url: p.url, category: p.category }));
+  return { platforms, contents: [] };
+}
+function save() { localStorage.setItem(STORE_KEY, JSON.stringify(state)); render(); }
+function uid() { return Date.now().toString(36) + Math.random().toString(36).slice(2, 7); }
+function esc(s) { return String(s ?? '').replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m])); }
+
+/* ===== 渲染 ===== */
+function render() {
+  renderStats();
+  renderSummary();
+  renderList();
+  renderPlatChecks();
+}
+
+function renderStats() {
+  const total = state.contents.length;
+  let todo = 0, done = 0;
+  state.contents.forEach(c => {
+    state.platforms.forEach(p => {
+      const s = (c.statuses || {})[p.id];
+      if (s === 'done') done++; else if (!s || s === 'todo') todo++;
+    });
+  });
+  const all = total * state.platforms.length;
+  const cov = all ? Math.round(done / all * 100) : 0;
+  document.getElementById('stTotal').textContent = total;
+  document.getElementById('stTodo').textContent = todo;
+  document.getElementById('stDone').textContent = done;
+  document.getElementById('stCoverage').textContent = cov + '%';
+  document.getElementById('listCount').textContent = total ? `共 ${total} 条` : '';
+}
+
+function renderSummary() {
+  const el = document.getElementById('platSummary');
+  if (!state.platforms.length) {
+    el.innerHTML = '<div style="color:var(--faint);font-size:13px;">还没有平台，去「平台管理」添加。</div>';
+    return;
+  }
+  el.innerHTML = state.platforms.map(p => {
+    let todo = 0, done = 0;
+    state.contents.forEach(c => {
+      const s = (c.statuses || {})[p.id];
+      if (s === 'done') done++; else if (!s || s === 'todo') todo++;
+    });
+    return `<div class="ps-chip">
+      <span class="ps-name">${esc(p.name)}</span>
+      <span class="ps-num">待 <span class="ps-todo">${todo}</span> · 已 <span class="ps-done">${done}</span></span>
+      ${p.url ? `<a href="${esc(p.url)}" target="_blank" rel="noopener">去上传 ↗</a>` : ''}
+    </div>`;
+  }).join('');
+}
+
+function renderList() {
+  const el = document.getElementById('contentList');
+  if (!state.contents.length) {
+    el.innerHTML = '<div class="empty">还没有记录。点右上角「记录内容」，把今天做的视频登记进来。</div>';
+    return;
+  }
+  el.innerHTML = state.contents.map(c => {
+    const statuses = c.statuses || {};
+    let done = 0, todo = 0;
+    state.platforms.forEach(p => {
+      const s = statuses[p.id];
+      if (s === 'done') done++; else if (!s || s === 'todo') todo++;
+    });
+    const tags = (c.tags || '').split(/[,\s]+/).filter(Boolean).map(t => `<span class="tag" style="font-size:11px;color:var(--dim);background:var(--card);border:1px solid var(--border);padding:2px 8px;border-radius:20px;">${esc(t)}</span>`).join(' ');
+    const badge = c.type === 'image' ? '<span class="badge image">图文</span>' : '<span class="badge video">视频</span>';
+    const path = c.path ? `<span class="path">${esc(c.path)}</span>` : '';
+    return `
+      <div class="content-item" data-id="${c.id}">
+        <div class="ci-head" onclick="toggleItem('${c.id}')">
+          ${badge}
+          <div class="ci-title">${esc(c.title)}${path}</div>
+          <div class="progress"><span class="n">${done}</span>/${state.platforms.length} 已投</div>
+          <span class="chev">▾</span>
+        </div>
+        <div class="ci-body">
+          ${c.desc ? `<div style="font-size:12px;color:var(--dim);margin:6px 0 10px;">${esc(c.desc)}</div>` : ''}
+          ${tags ? `<div style="margin:0 0 10px;">${tags}</div>` : ''}
+          ${copyBar(c)}
+          ${state.platforms.map(p => platformRow(c, p)).join('')}
+          <div style="display:flex;justify-content:flex-end;margin-top:10px;">
+            <button class="small danger" onclick="deleteItem('${c.id}')">删除这条</button>
+          </div>
+        </div>
+      </div>`;
+  }).join('');
+}
+
+function copyBar(c) {
+  const items = [];
+  if (c.title) items.push(['标题', c.title]);
+  if (c.desc) items.push(['简介', c.desc]);
+  if (c.tags) items.push(['标签', c.tags]);
+  if (c.path) items.push(['路径', c.path]);
+  if (!items.length) return '';
+  return `<div class="copy-bar"><span style="font-size:12px;color:var(--faint);align-self:center;">复制：</span>` +
+    items.map(([l]) => `<button class="small copy-btn" onclick="copyText('${c.id}','${l}',this)">${l}</button>`).join('') + `</div>`;
+}
+
+function platformRow(c, p) {
+  const s = (c.statuses || {})[p.id];
+  const cls = s === 'done' ? 'done' : (s === 'skip' ? 'skip' : 'todo');
+  const label = s === 'done' ? '已投' : (s === 'skip' ? '跳过' : '待投');
+  const link = (c.links || {})[p.id] || '';
+  const linkInput = s === 'done' ? `<input class="link-input" placeholder="粘贴作品链接" value="${esc(link)}" onchange="setLink('${c.id}','${p.id}',this.value)">` : '';
+  const cat = CAT_LABEL[p.category] ? `<span class="cat ${p.category}">${CAT_LABEL[p.category]}</span>` : '';
+  return `
+    <div class="plat-row">
+      <div class="plat-name">${esc(p.name)}${cat}</div>
+      <div class="plat-url">${p.url ? `<a href="${esc(p.url)}" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none;">${esc(p.url)}</a>` : ''}</div>
+      <div class="plat-actions">
+        ${linkInput}
+        <button class="small" onclick="openPublish('${c.id}','${p.id}')">去投稿 ↗</button>
+        <button class="status-pill st-${cls}" onclick="cycleStatus('${c.id}','${p.id}')" title="点击切换：待投→已投→跳过">${label}</button>
+      </div>
+    </div>`;
+}
+
+function renderPlatChecks() {
+  const el = document.getElementById('platChecks');
+  el.innerHTML = state.platforms.map(p =>
+    `<label><input type="checkbox" class="plat-check" value="${p.id}" checked> ${esc(p.name)}</label>`
+  ).join('');
+}
+
+/* ===== 交互 ===== */
+function toggleItem(id) {
+  document.querySelector(`.content-item[data-id="${id}"]`).classList.toggle('open');
+}
+function cycleStatus(cid, pid) {
+  const c = state.contents.find(x => x.id === cid);
+  if (!c) return;
+  c.statuses = c.statuses || {};
+  const cur = c.statuses[pid];
+  c.statuses[pid] = cur === 'done' ? 'skip' : (cur === 'skip' ? 'todo' : 'done');
+  if (c.statuses[pid] !== 'done') { c.links = c.links || {}; delete c.links[pid]; }
+  save();
+}
+function setLink(cid, pid, val) {
+  const c = state.contents.find(x => x.id === cid);
+  if (!c) return;
+  c.links = c.links || {};
+  if (val.trim()) c.links[pid] = val.trim(); else delete c.links[pid];
+  save();
+}
+function openPublish(cid, pid) {
+  const p = state.platforms.find(x => x.id === pid);
+  if (p && p.url) window.open(p.url, '_blank');
+}
+function deleteItem(id) {
+  if (!confirm('确定删除这条记录？')) return;
+  state.contents = state.contents.filter(x => x.id !== id);
+  save();
+}
+function copyText(cid, label, btn) {
+  const c = state.contents.find(x => x.id === cid);
+  if (!c) return;
+  let v = '';
+  if (label === '标题') v = c.title || '';
+  else if (label === '简介') v = c.desc || '';
+  else if (label === '标签') v = c.tags || '';
+  else if (label === '路径') v = c.path || '';
+  if (!v) return;
+  navigator.clipboard.writeText(v).then(() => {
+    if (btn) { const o = btn.textContent; btn.textContent = '已复制✓'; setTimeout(() => btn.textContent = o, 1200); }
+  }).catch(() => { prompt('自动复制失败，请手动复制：', v); });
+}
+
+/* ===== 记录内容 ===== */
+let editingId = null;
+function openModal(id) {
+  editingId = id || null;
+  document.getElementById('modalTitle').textContent = id ? '编辑内容' : '记录内容';
+  document.getElementById('fTitle').value = '';
+  document.getElementById('fType').value = 'video';
+  document.getElementById('fPath').value = '';
+  document.getElementById('fDesc').value = '';
+  document.getElementById('fTags').value = '';
+  renderPlatChecks();
+  if (id) {
+    const c = state.contents.find(x => x.id === id);
+    if (c) {
+      document.getElementById('fTitle').value = c.title || '';
+      document.getElementById('fType').value = c.type || 'video';
+      document.getElementById('fPath').value = c.path || '';
+      document.getElementById('fDesc').value = c.desc || '';
+      document.getElementById('fTags').value = (c.tags || '').split(/[,\s]+/).filter(Boolean).join(' ');
+      document.querySelectorAll('.plat-check').forEach(cb => {
+        const s = (c.statuses || {})[cb.value];
+        cb.checked = !s || s === 'todo' || s === 'done';
+      });
+    }
+  }
+  document.getElementById('modal').classList.add('show');
+}
+function closeModal() { document.getElementById('modal').classList.remove('show'); }
+function saveModal() {
+  const title = document.getElementById('fTitle').value.trim();
+  if (!title) { alert('请填写标题'); return; }
+  const checked = [...document.querySelectorAll('.plat-check:checked')].map(cb => cb.value);
+  const statuses = {};
+  state.platforms.forEach(p => { statuses[p.id] = checked.includes(p.id) ? 'todo' : 'skip'; });
+  const data = {
+    title,
+    type: document.getElementById('fType').value,
+    path: document.getElementById('fPath').value.trim(),
+    desc: document.getElementById('fDesc').value.trim(),
+    tags: document.getElementById('fTags').value.trim(),
+    statuses, links: {},
+  };
+  if (editingId) {
+    const c = state.contents.find(x => x.id === editingId);
+    if (c) Object.assign(c, data);
+  } else {
+    data.id = uid();
+    state.contents.push(data);
+  }
+  closeModal();
+  save();
+}
+
+/* ===== 平台管理 ===== */
+function renderPlatEdit() {
+  const el = document.getElementById('platEditList');
+  el.innerHTML = state.platforms.map(p => `
+    <div class="plat-row" style="padding:8px 0;">
+      <div class="plat-name">${esc(p.name)}<span class="cat ${p.category||'video'}">${CAT_LABEL[p.category]||'视频'}</span></div>
+      <input class="link-input" style="flex:1;" value="${esc(p.url)}" placeholder="上传页 URL" onchange="updatePlatUrl('${p.id}',this.value)">
+      <button class="small" onclick="window.open('${esc(p.url)}','_blank')">打开 ↗</button>
+      <button class="small danger" onclick="removePlat('${p.id}')">删</button>
+    </div>`).join('');
+  // 平台库下拉：只列未启用的
+  const active = new Set(state.platforms.map(p => p.name));
+  const sel = document.getElementById('libSelect');
+  const options = PLATFORM_LIBRARY.filter(p => !active.has(p.name));
+  sel.innerHTML = options.length
+    ? options.map(p => `<option value="${esc(p.name)}">[${CAT_LABEL[p.category]}] ${esc(p.name)} — ${esc(p.url)}</option>`).join('')
+    : '<option value="">平台库已全部添加</option>';
+  sel._data = options;
+}
+function openPlats() { renderPlatEdit(); document.getElementById('platModal').classList.add('show'); }
+function closePlats() { document.getElementById('platModal').classList.remove('show'); }
+function updatePlatUrl(pid, val) {
+  const p = state.platforms.find(x => x.id === pid);
+  if (p) { p.url = val.trim(); save(); }
+}
+function removePlat(pid) {
+  if (!confirm('删除该平台？会同时清掉所有内容里它的状态。')) return;
+  state.platforms = state.platforms.filter(x => x.id !== pid);
+  state.contents.forEach(c => { if (c.statuses) delete c.statuses[pid]; if (c.links) delete c.links[pid]; });
+  renderPlatEdit();
+  save();
+}
+function addFromLib() {
+  const sel = document.getElementById('libSelect');
+  const name = sel.value;
+  const opt = (sel._data || []).find(p => p.name === name);
+  if (!opt) return;
+  state.platforms.push({ id: uid(), name: opt.name, url: opt.url, category: opt.category });
+  renderPlatEdit();
+  save();
+}
+function addCustomPlat() {
+  const name = document.getElementById('newPlatName').value.trim();
+  const url = document.getElementById('newPlatUrl').value.trim();
+  if (!name) { alert('填写平台名'); return; }
+  state.platforms.push({ id: uid(), name, url, category: 'video' });
+  document.getElementById('newPlatName').value = '';
+  document.getElementById('newPlatUrl').value = '';
+  renderPlatEdit();
+  save();
+}
+
+/* ===== 导入导出 ===== */
+function doExport() {
+  const blob = new Blob([JSON.stringify(state, null, 2)], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = '投稿台账备份-' + new Date().toISOString().slice(0, 10) + '.json';
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+function doImport() { document.getElementById('importFile').click(); }
+
+/* ===== 事件绑定 ===== */
+document.getElementById('btnAdd').onclick = () => openModal();
+document.getElementById('btnPlats').onclick = openPlats;
+document.getElementById('btnExport').onclick = doExport;
+document.getElementById('btnImport').onclick = doImport;
+document.getElementById('btnCancel').onclick = closeModal;
+document.getElementById('btnSave').onclick = saveModal;
+document.getElementById('btnPlatClose').onclick = closePlats;
+document.getElementById('btnAddFromLib').onclick = addFromLib;
+document.getElementById('btnAddPlat').onclick = addCustomPlat;
+document.getElementById('importFile').onchange = (e) => {
+  const f = e.target.files[0];
+  if (!f) return;
+  const r = new FileReader();
+  r.onload = () => {
+    try {
+      const s = JSON.parse(r.result);
+      if (!s || !Array.isArray(s.platforms) || !Array.isArray(s.contents)) throw new Error('bad');
+      if (!confirm('导入会覆盖当前数据，确定继续？')) return;
+      state = normalize(s);
+      save();
+      alert('导入成功');
+    } catch (err) { alert('文件格式不正确'); }
+  };
+  r.readAsText(f);
+  e.target.value = '';
+};
+document.querySelectorAll('.mask').forEach(m => {
+  m.addEventListener('click', e => { if (e.target === m) m.classList.remove('show'); });
+});
+
+render();
+</script>
+</body>
+</html>

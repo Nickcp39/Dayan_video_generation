@@ -138,3 +138,6 @@ env/
 /projects/007-hanli-tea-dog/prompts/environment.txt
 # Optional CI draft stays local; current Git credentials do not have workflow scope.
 /.github/workflows/repository-check.yml
+
+# 独立仓库,各自维护
+/social-media-controller/
