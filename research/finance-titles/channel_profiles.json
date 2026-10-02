@@ -1,0 +1,399 @@
+{
+ "cn_caijinglengyan": {
+  "n": 1845,
+  "len": {
+   "p25": 46,
+   "median": 57,
+   "p75": 72,
+   "mean": 59.0
+  },
+  "structure_pct": {
+   "exclamation": 95.7,
+   "question": 39.0,
+   "suspense": 1.6,
+   "assertion": 0.8
+  },
+  "hooks_pct": {
+   "series_number": 80.8,
+   "alert": 14.0,
+   "number_list": 6.6,
+   "curiosity_gap": 4.3,
+   "expose": 3.7,
+   "first_person": 1.2
+  },
+  "no_hook_pct": 11.4,
+  "emotion_pct": {
+   "crisis": 22.3,
+   "excitement": 5.6
+  },
+  "signature_top": [
+   [
+    "财经冷眼：",
+    1022
+   ],
+   [
+    "（未删减版）",
+    1
+   ]
+  ]
+ },
+ "cn_xiao_lin_shuo": {
+  "n": 159,
+  "len": {
+   "p25": 15,
+   "median": 20,
+   "p75": 28,
+   "mean": 23.4
+  },
+  "structure_pct": {
+   "assertion": 56.6,
+   "question": 35.8,
+   "suspense": 6.9,
+   "exclamation": 3.8
+  },
+  "hooks_pct": {
+   "curiosity_gap": 15.1,
+   "first_person": 4.4,
+   "expose": 1.9,
+   "series_number": 1.9
+  },
+  "no_hook_pct": 79.2,
+  "emotion_pct": {
+   "crisis": 8.8,
+   "excitement": 8.2
+  },
+  "signature_top": [
+   [
+    "一口气",
+    37
+   ],
+   [
+    "【硬核】",
+    7
+   ],
+   [
+    "【精彩】",
+    2
+   ]
+  ]
+ },
+ "jp_DanTakahashi1": {
+  "n": 848,
+  "len": {
+   "p25": 14,
+   "median": 18,
+   "p75": 30,
+   "mean": 24.4
+  },
+  "structure_pct": {
+   "question": 45.3,
+   "assertion": 44.2,
+   "exclamation": 11.7,
+   "suspense": 4.5
+  },
+  "hooks_pct": {
+   "alert": 10.4,
+   "number_list": 7.2,
+   "first_person": 5.4,
+   "curiosity_gap": 4.5,
+   "expose": 0.4,
+   "series_number": 0.4
+  },
+  "no_hook_pct": 73.9,
+  "emotion_pct": {
+   "crisis": 21.3,
+   "excitement": 1.9
+  },
+  "signature_top": [
+   [
+    "【速報】",
+    52
+   ],
+   [
+    "【緊急】",
+    19
+   ],
+   [
+    "BREAKING",
+    12
+   ]
+  ]
+ },
+ "jp_nktofficial": {
+  "n": 558,
+  "len": {
+   "p25": 42,
+   "median": 69,
+   "p75": 84,
+   "mean": 63.4
+  },
+  "structure_pct": {
+   "suspense": 38.7,
+   "exclamation": 31.5,
+   "assertion": 29.4,
+   "question": 23.8
+  },
+  "hooks_pct": {
+   "series_number": 72.0,
+   "curiosity_gap": 39.1,
+   "first_person": 3.8,
+   "expose": 2.2,
+   "number_list": 1.1,
+   "alert": 0.9
+  },
+  "no_hook_pct": 14.5,
+  "emotion_pct": {
+   "crisis": 3.4,
+   "excitement": 1.8
+  },
+  "signature_top": [
+   [
+    "【",
+    242
+   ],
+   [
+    "Part",
+    57
+   ]
+  ]
+ },
+ "jp_ryogakucho": {
+  "n": 2692,
+  "len": {
+   "p25": 51,
+   "median": 75,
+   "p75": 85,
+   "mean": 67.6
+  },
+  "structure_pct": {
+   "suspense": 45.2,
+   "assertion": 34.8,
+   "question": 25.1,
+   "exclamation": 14.8
+  },
+  "hooks_pct": {
+   "series_number": 45.6,
+   "curiosity_gap": 45.3,
+   "number_list": 20.8,
+   "first_person": 4.8,
+   "expose": 0.9,
+   "alert": 0.1
+  },
+  "no_hook_pct": 11.9,
+  "emotion_pct": {
+   "crisis": 2.2,
+   "excitement": 1.4
+  },
+  "signature_top": [
+   [
+    "[Rebroadcast]",
+    157
+   ],
+   [
+    "【再放送】",
+    143
+   ],
+   [
+    "【リベ大公式切り抜き】",
+    122
+   ],
+   [
+    "【お金のニュース】",
+    74
+   ],
+   [
+    "[Rerun]",
+    73
+   ]
+  ]
+ },
+ "us_AndreiJikh": {
+  "n": 640,
+  "len": {
+   "p25": 29,
+   "median": 36,
+   "p75": 44,
+   "mean": 36.6
+  },
+  "structure_pct": {
+   "assertion": 87.3,
+   "question": 6.9,
+   "exclamation": 5.9,
+   "suspense": 1.1
+  },
+  "hooks_pct": {
+   "first_person": 20.3,
+   "alert": 3.1,
+   "number_list": 1.9,
+   "curiosity_gap": 1.2,
+   "expose": 1.1
+  },
+  "no_hook_pct": 73.4,
+  "emotion_pct": {
+   "crisis": 14.1,
+   "excitement": 2.3
+  },
+  "signature_top": [
+   [
+    "What You MUST Know",
+    13
+   ],
+   [
+    "What You Must Know",
+    13
+   ],
+   [
+    "My Response",
+    4
+   ]
+  ]
+ },
+ "us_EconomicsExplained": {
+  "n": 373,
+  "len": {
+   "p25": 30,
+   "median": 38,
+   "p75": 48,
+   "mean": 40.0
+  },
+  "structure_pct": {
+   "assertion": 66.2,
+   "question": 30.8,
+   "suspense": 2.9,
+   "exclamation": 1.6
+  },
+  "hooks_pct": {
+   "first_person": 5.1,
+   "curiosity_gap": 4.8,
+   "series_number": 0.8
+  },
+  "no_hook_pct": 90.1,
+  "emotion_pct": {
+   "crisis": 7.0,
+   "excitement": 2.7
+  },
+  "signature_top": [
+   [
+    " Economics Explained",
+    71
+   ],
+   [
+    "The Economics of",
+    17
+   ]
+  ]
+ },
+ "us_GrahamStephan": {
+  "n": 1073,
+  "len": {
+   "p25": 31,
+   "median": 38,
+   "p75": 47,
+   "mean": 39.2
+  },
+  "structure_pct": {
+   "assertion": 82.1,
+   "exclamation": 9.6,
+   "suspense": 6.4,
+   "question": 4.8
+  },
+  "hooks_pct": {
+   "first_person": 26.3,
+   "curiosity_gap": 7.1,
+   "alert": 6.4,
+   "number_list": 2.1,
+   "expose": 1.4,
+   "series_number": 0.1
+  },
+  "no_hook_pct": 61.0,
+  "emotion_pct": {
+   "crisis": 12.0,
+   "excitement": 3.3
+  },
+  "signature_top": [
+   [
+    "BREAKING:",
+    35
+   ],
+   [
+    "WTF",
+    15
+   ]
+  ]
+ },
+ "us_HowMoneyWorks": {
+  "n": 277,
+  "len": {
+   "p25": 31,
+   "median": 40,
+   "p75": 50,
+   "mean": 41.6
+  },
+  "structure_pct": {
+   "assertion": 50.5,
+   "question": 31.0,
+   "suspense": 23.5,
+   "exclamation": 6.9
+  },
+  "hooks_pct": {
+   "curiosity_gap": 30.7,
+   "first_person": 10.8,
+   "alert": 4.7,
+   "expose": 0.7,
+   "number_list": 0.4
+  },
+  "no_hook_pct": 60.3,
+  "emotion_pct": {
+   "crisis": 9.0,
+   "excitement": 1.4
+  },
+  "signature_top": [
+   [
+    "- How Money Works",
+    33
+   ]
+  ]
+ },
+ "us_MeetKevin": {
+  "n": 4923,
+  "len": {
+   "p25": 32,
+   "median": 41,
+   "p75": 48,
+   "mean": 39.9
+  },
+  "structure_pct": {
+   "assertion": 81.3,
+   "exclamation": 11.0,
+   "suspense": 4.3,
+   "question": 4.1
+  },
+  "hooks_pct": {
+   "first_person": 10.8,
+   "curiosity_gap": 4.6,
+   "alert": 3.4,
+   "expose": 1.8,
+   "number_list": 1.1,
+   "series_number": 0.2
+  },
+  "no_hook_pct": 80.6,
+  "emotion_pct": {
+   "crisis": 15.8,
+   "excitement": 4.1
+  },
+  "signature_top": [
+   [
+    "WTF",
+    77
+   ],
+   [
+    "Update:",
+    45
+   ],
+   [
+    "BREAKING:",
+    23
+   ]
+  ]
+ }
+}
