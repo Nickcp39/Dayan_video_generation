@@ -1,0 +1,5034 @@
+{
+ "concentration": {
+  "paulgraham": {
+   "posts": 325,
+   "top10pct_share": 0.38,
+   "top_post_share": 0.024,
+   "median": 146,
+   "p90": 683
+  },
+  "waitbutwhy": {
+   "posts": 114,
+   "top10pct_share": 0.617,
+   "top_post_share": 0.114,
+   "median": 4,
+   "p90": 74
+  },
+  "stratechery": {
+   "posts": 772,
+   "top10pct_share": 0.567,
+   "top_post_share": 0.026,
+   "median": 5,
+   "p90": 204
+  },
+  "joelonsoftware": {
+   "posts": 308,
+   "top10pct_share": 0.594,
+   "top_post_share": 0.073,
+   "median": 7,
+   "p90": 120
+  },
+  "codinghorror": {
+   "posts": 857,
+   "top10pct_share": 0.623,
+   "top_post_share": 0.035,
+   "median": 6,
+   "p90": 115
+  },
+  "danluu": {
+   "posts": 140,
+   "top10pct_share": 0.365,
+   "top_post_share": 0.049,
+   "median": 178,
+   "p90": 669
+  },
+  "jvns": {
+   "posts": 452,
+   "top10pct_share": 0.461,
+   "top_post_share": 0.022,
+   "median": 24,
+   "p90": 337
+  },
+  "simonwillison": {
+   "posts": 871,
+   "top10pct_share": 0.653,
+   "top_post_share": 0.041,
+   "median": 6,
+   "p90": 305
+  },
+  "samaltman": {
+   "posts": 122,
+   "top10pct_share": 0.301,
+   "top_post_share": 0.037,
+   "median": 222,
+   "p90": 555
+  },
+  "gwern": {
+   "posts": 553,
+   "top10pct_share": 0.59,
+   "top_post_share": 0.031,
+   "median": 4,
+   "p90": 152
+  },
+  "overreacted": {
+   "posts": 61,
+   "top10pct_share": 0.511,
+   "top_post_share": 0.159,
+   "median": 19,
+   "p90": 510
+  },
+  "lethain": {
+   "posts": 333,
+   "top10pct_share": 0.77,
+   "top_post_share": 0.051,
+   "median": 2,
+   "p90": 65
+  },
+  "kalzumeus": {
+   "posts": 201,
+   "top10pct_share": 0.415,
+   "top_post_share": 0.03,
+   "median": 99,
+   "p90": 413
+  },
+  "worrydream": {
+   "posts": 100,
+   "top10pct_share": 0.585,
+   "top_post_share": 0.113,
+   "median": 10,
+   "p90": 227
+  },
+  "martinfowler": {
+   "posts": 477,
+   "top10pct_share": 0.64,
+   "top_post_share": 0.038,
+   "median": 3,
+   "p90": 155
+  },
+  "antirez": {
+   "posts": 205,
+   "top10pct_share": 0.46,
+   "top_post_share": 0.064,
+   "median": 78,
+   "p90": 428
+  },
+  "rachelbythebay": {
+   "posts": 485,
+   "top10pct_share": 0.523,
+   "top_post_share": 0.022,
+   "median": 13,
+   "p90": 274
+  },
+  "eugenewei": {
+   "posts": 46,
+   "top10pct_share": 0.498,
+   "top_post_share": 0.158,
+   "median": 3,
+   "p90": 187
+  },
+  "karpathy": {
+   "posts": 35,
+   "top10pct_share": 0.422,
+   "top_post_share": 0.201,
+   "median": 92,
+   "p90": 731
+  },
+  "slatestarcodex": {
+   "posts": 1242,
+   "top10pct_share": 0.795,
+   "top_post_share": 0.07,
+   "median": 3,
+   "p90": 64
+  },
+  "kk": {
+   "posts": 337,
+   "top10pct_share": 0.749,
+   "top_post_share": 0.109,
+   "median": 3,
+   "p90": 68
+  },
+  "collabfund": {
+   "posts": 111,
+   "top10pct_share": 0.777,
+   "top_post_share": 0.127,
+   "median": 2,
+   "p90": 65
+  },
+  "marginalrevolution": {
+   "posts": 1759,
+   "top10pct_share": 0.741,
+   "top_post_share": 0.06,
+   "median": 2,
+   "p90": 14
+  },
+  "noahpinion": {
+   "posts": 702,
+   "top10pct_share": 0.682,
+   "top_post_share": 0.058,
+   "median": 4,
+   "p90": 33
+  },
+  "bitsaboutmoney": {
+   "posts": 42,
+   "top10pct_share": 0.445,
+   "top_post_share": 0.176,
+   "median": 120,
+   "p90": 386
+  },
+  "mrmoneymustache": {
+   "posts": 81,
+   "top10pct_share": 0.816,
+   "top_post_share": 0.14,
+   "median": 2,
+   "p90": 66
+  },
+  "ofdollarsanddata": {
+   "posts": 130,
+   "top10pct_share": 0.818,
+   "top_post_share": 0.205,
+   "median": 2,
+   "p90": 9
+  },
+  "awealthofcommonsense": {
+   "posts": 137,
+   "top10pct_share": 0.708,
+   "top_post_share": 0.111,
+   "median": 2,
+   "p90": 90
+  },
+  "damodaran": {
+   "posts": 80,
+   "top10pct_share": 0.581,
+   "top_post_share": 0.194,
+   "median": 2,
+   "p90": 4
+  },
+  "oaktree": {
+   "posts": 41,
+   "top10pct_share": 0.826,
+   "top_post_share": 0.532,
+   "median": 2,
+   "p90": 38
+  },
+  "mattstoller": {
+   "posts": 366,
+   "top10pct_share": 0.713,
+   "top_post_share": 0.054,
+   "median": 5,
+   "p90": 183
+  },
+  "thediff": {
+   "posts": 218,
+   "top10pct_share": 0.845,
+   "top_post_share": 0.175,
+   "median": 2,
+   "p90": 31
+  },
+  "notboring": {
+   "posts": 105,
+   "top10pct_share": 0.752,
+   "top_post_share": 0.524,
+   "median": 2,
+   "p90": 7
+  },
+  "constructionphysics": {
+   "posts": 191,
+   "top10pct_share": 0.455,
+   "top_post_share": 0.041,
+   "median": 14,
+   "p90": 241
+  },
+  "overcomingbias": {
+   "posts": 730,
+   "top10pct_share": 0.752,
+   "top_post_share": 0.084,
+   "median": 2,
+   "p90": 22
+  },
+  "calculatedrisk": {
+   "posts": 120,
+   "top10pct_share": 0.764,
+   "top_post_share": 0.346,
+   "median": 2,
+   "p90": 8
+  }
+ },
+ "top_posts": {
+  "tech": [
+   {
+    "blog": "Simon Willison",
+    "title": "Bing: “I will not harm you unless you harm me first”",
+    "points": 3363,
+    "comments": 1673,
+    "first_submitted": "2023-02-15",
+    "url": "https://simonwillison.net/2023/Feb/15/bing/"
+   },
+   {
+    "blog": "antirez",
+    "title": "The End of the Redis Adventure",
+    "points": 2282,
+    "comments": 294,
+    "first_submitted": "2020-06-30",
+    "url": "http://antirez.com/news/133"
+   },
+   {
+    "blog": "Simon Willison",
+    "title": "How to succeed in MrBeast production (Leaked PDF)",
+    "points": 2115,
+    "comments": 1352,
+    "first_submitted": "2024-09-15",
+    "url": "https://simonwillison.net/2024/Sep/15/how-to-succeed-in-mrbeast-production/"
+   },
+   {
+    "blog": "Paul Graham",
+    "title": "Having Kids",
+    "points": 1992,
+    "comments": 1158,
+    "first_submitted": "2019-12-14",
+    "url": "http://paulgraham.com/kids.html"
+   },
+   {
+    "blog": "Andrej Karpathy",
+    "title": "Microgpt",
+    "points": 1936,
+    "comments": 327,
+    "first_submitted": "2026-02-13",
+    "url": "http://karpathy.github.io/2026/02/12/microgpt/"
+   },
+   {
+    "blog": "antirez",
+    "title": "Redis is open source again",
+    "points": 1896,
+    "comments": 789,
+    "first_submitted": "2025-05-01",
+    "url": "https://antirez.com/news/151"
+   },
+   {
+    "blog": "Dan Luu",
+    "title": "Willingness to look stupid",
+    "points": 1859,
+    "comments": 779,
+    "first_submitted": "2021-10-21",
+    "url": "https://danluu.com/look-stupid/"
+   },
+   {
+    "blog": "Paul Graham",
+    "title": "Jessica Livingston",
+    "points": 1740,
+    "comments": 487,
+    "first_submitted": "2015-11-16",
+    "url": "http://paulgraham.com/jessica.html"
+   },
+   {
+    "blog": "Overreacted (Dan Abramov)",
+    "title": "Goodbye, Clean Code",
+    "points": 1678,
+    "comments": 1118,
+    "first_submitted": "2020-01-11",
+    "url": "https://overreacted.io/goodbye-clean-code/"
+   },
+   {
+    "blog": "Dan Luu",
+    "title": "We only hire the trendiest",
+    "points": 1615,
+    "comments": 1818,
+    "first_submitted": "2016-03-21",
+    "url": "http://danluu.com/programmer-moneyball/"
+   },
+   {
+    "blog": "Paul Graham",
+    "title": "The Lesson to Unlearn",
+    "points": 1333,
+    "comments": 594,
+    "first_submitted": "2019-12-07",
+    "url": "http://paulgraham.com/lesson.html"
+   },
+   {
+    "blog": "Paul Graham",
+    "title": "Founder Mode",
+    "points": 1330,
+    "comments": 737,
+    "first_submitted": "2024-09-01",
+    "url": "https://paulgraham.com/foundermode.html"
+   },
+   {
+    "blog": "antirez",
+    "title": "Don't fall into the anti-AI hype",
+    "points": 1296,
+    "comments": 1631,
+    "first_submitted": "2026-01-11",
+    "url": "https://antirez.com/news/158"
+   },
+   {
+    "blog": "Paul Graham",
+    "title": "What I Didn't Say",
+    "points": 1289,
+    "comments": 593,
+    "first_submitted": "2013-12-30",
+    "url": "http://paulgraham.com/wids.html"
+   },
+   {
+    "blog": "Paul Graham",
+    "title": "Show HN: Bel",
+    "points": 1288,
+    "comments": 457,
+    "first_submitted": "2019-10-12",
+    "url": "http://paulgraham.com/bel.html"
+   },
+   {
+    "blog": "Paul Graham",
+    "title": "Do Things that Don't Scale",
+    "points": 1275,
+    "comments": 390,
+    "first_submitted": "2013-07-14",
+    "url": "http://paulgraham.com/ds.html"
+   },
+   {
+    "blog": "Stratechery (Ben Thompson)",
+    "title": "Apple’s Mistake",
+    "points": 1273,
+    "comments": 790,
+    "first_submitted": "2021-08-09",
+    "url": "https://stratechery.com/2021/apples-mistake/"
+   },
+   {
+    "blog": "Dan Luu",
+    "title": "The web sucks if you have a slow connection",
+    "points": 1269,
+    "comments": 776,
+    "first_submitted": "2017-02-08",
+    "url": "https://danluu.com/web-bloat/"
+   },
+   {
+    "blog": "Sam Altman",
+    "title": "Productivity",
+    "points": 1264,
+    "comments": 404,
+    "first_submitted": "2018-04-10",
+    "url": "https://blog.samaltman.com/productivity"
+   },
+   {
+    "blog": "Coding Horror (Jeff Atwood)",
+    "title": "Farewell Stack Exchange",
+    "points": 1233,
+    "comments": 213,
+    "first_submitted": "2012-02-06",
+    "url": "http://www.codinghorror.com/blog/2012/02/farewell-stack-exchange.html"
+   },
+   {
+    "blog": "Paul Graham",
+    "title": "How to Work Hard",
+    "points": 1223,
+    "comments": 1131,
+    "first_submitted": "2021-06-29",
+    "url": "http://paulgraham.com/hwh.html"
+   },
+   {
+    "blog": "Andrej Karpathy",
+    "title": "A from-scratch tour of Bitcoin in Python",
+    "points": 1208,
+    "comments": 278,
+    "first_submitted": "2021-06-22",
+    "url": "https://karpathy.github.io/2021/06/21/blockchain/"
+   },
+   {
+    "blog": "antirez",
+    "title": "From where I left",
+    "points": 1190,
+    "comments": 455,
+    "first_submitted": "2024-12-10",
+    "url": "https://antirez.com/news/144"
+   },
+   {
+    "blog": "Paul Graham",
+    "title": "The Bus Ticket Theory of Genius",
+    "points": 1164,
+    "comments": 486,
+    "first_submitted": "2019-11-23",
+    "url": "http://paulgraham.com/genius.html"
+   },
+   {
+    "blog": "Sam Altman",
+    "title": "The days are long but the decades are short",
+    "points": 1163,
+    "comments": 576,
+    "first_submitted": "2015-04-28",
+    "url": "http://blog.samaltman.com/the-days-are-long-but-the-decades-are-short"
+   },
+   {
+    "blog": "Simon Willison",
+    "title": "The killer app of Gemini Pro 1.5 is using video as an input",
+    "points": 1136,
+    "comments": 482,
+    "first_submitted": "2024-02-21",
+    "url": "https://simonwillison.net/2024/Feb/21/gemini-pro-video/"
+   },
+   {
+    "blog": "Julia Evans",
+    "title": "Making Hard Things Easy",
+    "points": 1134,
+    "comments": 197,
+    "first_submitted": "2023-10-06",
+    "url": "https://jvns.ca/blog/2023/10/06/new-talk--making-hard-things-easy/"
+   },
+   {
+    "blog": "Sam Altman",
+    "title": "Time to Take a Stand",
+    "points": 1131,
+    "comments": 1011,
+    "first_submitted": "2017-01-28",
+    "url": "http://blog.samaltman.com/time-to-take-a-stand"
+   },
+   {
+    "blog": "Kevin Kelly",
+    "title": "Bits of advice I wish I had known",
+    "points": 1109,
+    "comments": 634,
+    "first_submitted": "2022-04-28",
+    "url": "https://kk.org/thetechnium/103-bits-of-advice-i-wish-i-had-known/"
+   },
+   {
+    "blog": "Simon Willison",
+    "title": "I think Anthropic and OpenAI have found product-market fit",
+    "points": 1094,
+    "comments": 1245,
+    "first_submitted": "2026-05-27",
+    "url": "https://simonwillison.net/2026/May/27/product-market-fit/"
+   }
+  ],
+  "finance_econ": [
+   {
+    "blog": "Slate Star Codex / Astral Codex Ten",
+    "title": "I Am Deleting the Blog",
+    "points": 2450,
+    "comments": 1515,
+    "first_submitted": "2020-06-23",
+    "url": "https://slatestarcodex.com/2020/06/22/nyt-is-threatening-my-safety-by-revealing-my-real-name-so-i-am-deleting-the-blog/"
+   },
+   {
+    "blog": "Bits about Money (patio11)",
+    "title": "Anatomy of a credit card rewards program",
+    "points": 1271,
+    "comments": 733,
+    "first_submitted": "2024-04-03",
+    "url": "https://www.bitsaboutmoney.com/archive/anatomy-of-credit-card-rewards-programs/"
+   },
+   {
+    "blog": "BIG (Matt Stoller)",
+    "title": "WeWork and Counterfeit Capitalism",
+    "points": 1158,
+    "comments": 414,
+    "first_submitted": "2019-09-25",
+    "url": "https://mattstoller.substack.com/p/wework-and-counterfeit-capitalism"
+   },
+   {
+    "blog": "BIG (Matt Stoller)",
+    "title": "Amazon Prime inflates prices, using the false promise of ‘free shipping’",
+    "points": 1057,
+    "comments": 440,
+    "first_submitted": "2021-05-30",
+    "url": "https://mattstoller.substack.com/p/amazon-primes-free-shipping-promise"
+   },
+   {
+    "blog": "BIG (Matt Stoller)",
+    "title": "Judge rules Apple executive lied under oath, makes criminal contempt referral",
+    "points": 1036,
+    "comments": 360,
+    "first_submitted": "2025-05-01",
+    "url": "https://www.thebignewsletter.com/p/judge-rules-apple-executive-lied"
+   },
+   {
+    "blog": "Slate Star Codex / Astral Codex Ten",
+    "title": "Heuristics that almost always work",
+    "points": 1000,
+    "comments": 520,
+    "first_submitted": "2022-02-08",
+    "url": "https://astralcodexten.substack.com/p/heuristics-that-almost-always-work"
+   },
+   {
+    "blog": "Slate Star Codex / Astral Codex Ten",
+    "title": "Bullshit Jobs",
+    "points": 964,
+    "comments": 556,
+    "first_submitted": "2018-08-30",
+    "url": "http://slatestarcodex.com/2018/08/29/bullst-jobs-part-1-of-%E2%88%9E/"
+   },
+   {
+    "blog": "Marginal Revolution",
+    "title": "Jake Seliger has died",
+    "points": 960,
+    "comments": 193,
+    "first_submitted": "2024-08-09",
+    "url": "https://marginalrevolution.com/marginalrevolution/2024/08/jake-seliger-is-dead.html"
+   },
+   {
+    "blog": "Slate Star Codex / Astral Codex Ten",
+    "title": "Still alive",
+    "points": 898,
+    "comments": 342,
+    "first_submitted": "2021-01-21",
+    "url": "https://astralcodexten.substack.com/p/still-alive"
+   },
+   {
+    "blog": "Slate Star Codex / Astral Codex Ten",
+    "title": "Statement on New York Times Article",
+    "points": 866,
+    "comments": 411,
+    "first_submitted": "2021-02-14",
+    "url": "https://astralcodexten.substack.com/p/statement-on-new-york-times-article"
+   },
+   {
+    "blog": "BIG (Matt Stoller)",
+    "title": "Why Taxpayers Pay McKinsey $3M a Year for a Recent College Graduate Contractor",
+    "points": 781,
+    "comments": 322,
+    "first_submitted": "2019-12-05",
+    "url": "https://mattstoller.substack.com/p/why-taxpayers-pay-mckinsey-3m-a-year"
+   },
+   {
+    "blog": "Bits about Money (patio11)",
+    "title": "Credit card debt collection",
+    "points": 778,
+    "comments": 564,
+    "first_submitted": "2023-08-11",
+    "url": "https://www.bitsaboutmoney.com/archive/the-waste-stream-of-consumer-finance/"
+   },
+   {
+    "blog": "BIG (Matt Stoller)",
+    "title": "The FTC sues to break up Amazon over an economy-wide “hidden tax”",
+    "points": 737,
+    "comments": 627,
+    "first_submitted": "2023-09-27",
+    "url": "https://www.thebignewsletter.com/p/the-ftc-sues-to-break-up-amazon-over"
+   },
+   {
+    "blog": "Slate Star Codex / Astral Codex Ten",
+    "title": "Ivermectin: Much More Than You Wanted to Know",
+    "points": 735,
+    "comments": 755,
+    "first_submitted": "2021-11-17",
+    "url": "https://astralcodexten.substack.com/p/ivermectin-much-more-than-you-wanted"
+   },
+   {
+    "blog": "BIG (Matt Stoller)",
+    "title": "Amazon accused of widespread scheme to inflate prices across the economy",
+    "points": 694,
+    "comments": 287,
+    "first_submitted": "2026-02-25",
+    "url": "https://www.thebignewsletter.com/p/amazon-busted-for-widespread-price"
+   },
+   {
+    "blog": "Noahpinion (Noah Smith)",
+    "title": "Refusing to teach kids math will not improve equity",
+    "points": 684,
+    "comments": 750,
+    "first_submitted": "2023-07-18",
+    "url": "https://www.noahpinion.blog/p/refusing-to-teach-kids-math-will"
+   },
+   {
+    "blog": "Noahpinion (Noah Smith)",
+    "title": "Honestly, It's Probably the Phones",
+    "points": 671,
+    "comments": 606,
+    "first_submitted": "2023-03-02",
+    "url": "https://noahpinion.substack.com/p/honestly-its-probably-the-phones"
+   },
+   {
+    "blog": "The Diff (Byrne Hobart)",
+    "title": "Understanding Jane Street",
+    "points": 671,
+    "comments": 374,
+    "first_submitted": "2022-08-01",
+    "url": "https://www.thediff.co/p/jane-street"
+   },
+   {
+    "blog": "Overcoming Bias (Robin Hanson)",
+    "title": "This AI Boom Will Also Bust",
+    "points": 662,
+    "comments": 302,
+    "first_submitted": "2016-12-03",
+    "url": "http://www.overcomingbias.com/2016/12/this-ai-boom-will-also-bust.html"
+   },
+   {
+    "blog": "Marginal Revolution",
+    "title": "“Get Out of Jail Free” Cards in New York",
+    "points": 621,
+    "comments": 241,
+    "first_submitted": "2018-01-22",
+    "url": "http://marginalrevolution.com/marginalrevolution/2018/01/get-jail-free-cards.html"
+   },
+   {
+    "blog": "Bits about Money (patio11)",
+    "title": "Seeing like a bank",
+    "points": 605,
+    "comments": 455,
+    "first_submitted": "2023-11-07",
+    "url": "https://www.bitsaboutmoney.com/archive/seeing-like-a-bank/"
+   },
+   {
+    "blog": "BIG (Matt Stoller)",
+    "title": "Secret Documents Show Pepsi and Walmart Colluded to Raise Food Prices",
+    "points": 601,
+    "comments": 161,
+    "first_submitted": "2025-12-15",
+    "url": "https://www.thebignewsletter.com/p/secret-documents-show-pepsi-and-walmart"
+   },
+   {
+    "blog": "Construction Physics (Brian Potter)",
+    "title": "How to design a house to last 1000 years",
+    "points": 594,
+    "comments": 391,
+    "first_submitted": "2022-01-05",
+    "url": "https://constructionphysics.substack.com/p/how-to-design-a-house-to-last-for"
+   },
+   {
+    "blog": "Bits about Money (patio11)",
+    "title": "The Bond villain compliance strategy",
+    "points": 552,
+    "comments": 430,
+    "first_submitted": "2023-11-24",
+    "url": "https://www.bitsaboutmoney.com/archive/bond-villain-compliance-strategy/"
+   },
+   {
+    "blog": "Slate Star Codex / Astral Codex Ten",
+    "title": "The Dilbert Afterlife",
+    "points": 547,
+    "comments": 391,
+    "first_submitted": "2026-01-16",
+    "url": "https://www.astralcodexten.com/p/the-dilbert-afterlife"
+   },
+   {
+    "blog": "Construction Physics (Brian Potter)",
+    "title": "How an oil refinery works",
+    "points": 541,
+    "comments": 192,
+    "first_submitted": "2026-04-30",
+    "url": "https://www.construction-physics.com/p/how-an-oil-refinery-works"
+   },
+   {
+    "blog": "Slate Star Codex / Astral Codex Ten",
+    "title": "Does Georgism work? Five years later",
+    "points": 512,
+    "comments": 521,
+    "first_submitted": "2026-09-24",
+    "url": "https://www.astralcodexten.com/p/does-georgism-work-five-years-later"
+   },
+   {
+    "blog": "BIG (Matt Stoller)",
+    "title": "The Egg Bandits Made a Thousand Times the Fine They Just Paid for Price Fixing",
+    "points": 509,
+    "comments": 257,
+    "first_submitted": "2026-07-02",
+    "url": "https://www.thebignewsletter.com/p/crime-pays-the-egg-bandits-made-a"
+   },
+   {
+    "blog": "BIG (Matt Stoller)",
+    "title": "Will Spotify Ruin Podcasting?",
+    "points": 491,
+    "comments": 370,
+    "first_submitted": "2020-02-08",
+    "url": "https://mattstoller.substack.com/p/will-spotify-ruin-podcasting"
+   },
+   {
+    "blog": "BIG (Matt Stoller)",
+    "title": "Soldiers speak out about being blocked from repairing equipment by contractors",
+    "points": 487,
+    "comments": 187,
+    "first_submitted": "2021-07-15",
+    "url": "https://mattstoller.substack.com/p/a-real-s-show-soldiers-angrily-speak"
+   }
+  ]
+ },
+ "hn_titles": {
+  "blogs": {
+   "paulgraham": 325,
+   "waitbutwhy": 114,
+   "stratechery": 772,
+   "joelonsoftware": 308,
+   "codinghorror": 857,
+   "danluu": 140,
+   "jvns": 452,
+   "simonwillison": 871,
+   "samaltman": 122,
+   "gwern": 553,
+   "overreacted": 61,
+   "lethain": 333,
+   "kalzumeus": 201,
+   "worrydream": 100,
+   "martinfowler": 477,
+   "antirez": 205,
+   "rachelbythebay": 485,
+   "eugenewei": 46,
+   "slatestarcodex": 1242,
+   "kk": 337,
+   "collabfund": 111,
+   "marginalrevolution": 1759,
+   "noahpinion": 702,
+   "bitsaboutmoney": 42,
+   "mrmoneymustache": 81,
+   "ofdollarsanddata": 130,
+   "awealthofcommonsense": 137,
+   "damodaran": 80,
+   "oaktree": 41,
+   "mattstoller": 366,
+   "thediff": 218,
+   "notboring": 105,
+   "constructionphysics": 191,
+   "overcomingbias": 730,
+   "calculatedrisk": 120
+  },
+  "features": {
+   "question": {
+    "mean_diff": 0.01,
+    "blogs_hot_higher": 18,
+    "blogs_hot_lower": 15,
+    "p_sign": 0.7283
+   },
+   "number": {
+    "mean_diff": -0.001,
+    "blogs_hot_higher": 19,
+    "blogs_hot_lower": 15,
+    "p_sign": 0.6076
+   },
+   "how_why_what": {
+    "mean_diff": 0.025,
+    "blogs_hot_higher": 21,
+    "blogs_hot_lower": 12,
+    "p_sign": 0.1628
+   },
+   "you": {
+    "mean_diff": 0.011,
+    "blogs_hot_higher": 19,
+    "blogs_hot_lower": 13,
+    "p_sign": 0.3771
+   },
+   "first_person": {
+    "mean_diff": 0.018,
+    "blogs_hot_higher": 20,
+    "blogs_hot_lower": 13,
+    "p_sign": 0.2962
+   },
+   "negation": {
+    "mean_diff": 0.017,
+    "blogs_hot_higher": 24,
+    "blogs_hot_lower": 7,
+    "p_sign": 0.0033
+   },
+   "colon": {
+    "mean_diff": -0.016,
+    "blogs_hot_higher": 14,
+    "blogs_hot_lower": 19,
+    "p_sign": 0.4869
+   },
+   "imperative_start": {
+    "mean_diff": 0.004,
+    "blogs_hot_higher": 13,
+    "blogs_hot_lower": 9,
+    "p_sign": 0.5235
+   },
+   "length": {
+    "mean_diff": -0.063,
+    "blogs_hot_higher": 19,
+    "blogs_hot_lower": 16,
+    "p_sign": 0.7359
+   }
+  }
+ },
+ "pairs": {
+  "n_pairs": 107,
+  "scores": {
+   "audience_scope": {
+    "hot_mean": 2.89,
+    "cold_mean": 2.73,
+    "pairs_hot_higher": 30,
+    "pairs_hot_lower": 15,
+    "ties": 62,
+    "p_sign": 0.0357
+   },
+   "reader_mirror": {
+    "hot_mean": 1.09,
+    "cold_mean": 0.88,
+    "pairs_hot_higher": 40,
+    "pairs_hot_lower": 22,
+    "ties": 45,
+    "p_sign": 0.03
+   },
+   "contrarian": {
+    "hot_mean": 1.11,
+    "cold_mean": 1.05,
+    "pairs_hot_higher": 27,
+    "pairs_hot_lower": 23,
+    "ties": 57,
+    "p_sign": 0.6718
+   },
+   "surprise": {
+    "hot_mean": 1.21,
+    "cold_mean": 1.06,
+    "pairs_hot_higher": 28,
+    "pairs_hot_lower": 12,
+    "ties": 67,
+    "p_sign": 0.0166
+   },
+   "practical_value": {
+    "hot_mean": 0.96,
+    "cold_mean": 1,
+    "pairs_hot_higher": 25,
+    "pairs_hot_lower": 28,
+    "ties": 54,
+    "p_sign": 0.7838
+   },
+   "social_currency": {
+    "hot_mean": 1.36,
+    "cold_mean": 1.23,
+    "pairs_hot_higher": 27,
+    "pairs_hot_lower": 14,
+    "ties": 66,
+    "p_sign": 0.0596
+   },
+   "identity": {
+    "hot_mean": 0.92,
+    "cold_mean": 0.63,
+    "pairs_hot_higher": 38,
+    "pairs_hot_lower": 15,
+    "ties": 54,
+    "p_sign": 0.0022
+   },
+   "narrative": {
+    "hot_mean": 0.59,
+    "cold_mean": 0.31,
+    "pairs_hot_higher": 40,
+    "pairs_hot_lower": 17,
+    "ties": 50,
+    "p_sign": 0.0032
+   },
+   "vulnerability": {
+    "hot_mean": 0.46,
+    "cold_mean": 0.28,
+    "pairs_hot_higher": 26,
+    "pairs_hot_lower": 14,
+    "ties": 67,
+    "p_sign": 0.0807
+   },
+   "concreteness": {
+    "hot_mean": 1.78,
+    "cold_mean": 1.69,
+    "pairs_hot_higher": 19,
+    "pairs_hot_lower": 11,
+    "ties": 77,
+    "p_sign": 0.2005
+   },
+   "debate": {
+    "hot_mean": 1.17,
+    "cold_mean": 1.05,
+    "pairs_hot_higher": 27,
+    "pairs_hot_lower": 18,
+    "ties": 62,
+    "p_sign": 0.2327
+   },
+   "timeliness": {
+    "hot_mean": 0.73,
+    "cold_mean": 0.75,
+    "pairs_hot_higher": 24,
+    "pairs_hot_lower": 26,
+    "ties": 57,
+    "p_sign": 0.8877
+   },
+   "accessibility": {
+    "hot_mean": 1.48,
+    "cold_mean": 1.36,
+    "pairs_hot_higher": 20,
+    "pairs_hot_lower": 9,
+    "ties": 78,
+    "p_sign": 0.0614
+   },
+   "named_concept": {
+    "hot_mean": 0.48,
+    "cold_mean": 0.45,
+    "pairs_hot_higher": 27,
+    "pairs_hot_lower": 24,
+    "ties": 56,
+    "p_sign": 0.7798
+   },
+   "arousal_level": {
+    "hot_mean": 0.71,
+    "cold_mean": 0.4,
+    "pairs_hot_higher": 39,
+    "pairs_hot_lower": 8,
+    "ties": 60,
+    "p_sign": 0.0,
+    "derived": true
+   },
+   "felt_emotion": {
+    "hot_mean": 0.54,
+    "cold_mean": 0.34,
+    "pairs_hot_higher": 38,
+    "pairs_hot_lower": 16,
+    "ties": 53,
+    "p_sign": 0.0038,
+    "derived": true
+   },
+   "personal_story": {
+    "hot_mean": 0.12,
+    "cold_mean": 0.02,
+    "pairs_hot_higher": 12,
+    "pairs_hot_lower": 1,
+    "ties": 94,
+    "p_sign": 0.0034,
+    "derived": true
+   },
+   "scene_opening": {
+    "hot_mean": 0.13,
+    "cold_mean": 0.06,
+    "pairs_hot_higher": 13,
+    "pairs_hot_lower": 5,
+    "ties": 89,
+    "p_sign": 0.0963,
+    "derived": true
+   },
+   "title_topic_only": {
+    "hot_mean": 0.28,
+    "cold_mean": 0.46,
+    "pairs_hot_higher": 13,
+    "pairs_hot_lower": 32,
+    "ties": 62,
+    "p_sign": 0.0066,
+    "derived": true
+   },
+   "life_domain": {
+    "hot_mean": 0.53,
+    "cold_mean": 0.39,
+    "pairs_hot_higher": 28,
+    "pairs_hot_lower": 13,
+    "ties": 66,
+    "p_sign": 0.0275,
+    "derived": true
+   },
+   "craft_or_tool_only": {
+    "hot_mean": 0.1,
+    "cold_mean": 0.19,
+    "pairs_hot_higher": 3,
+    "pairs_hot_lower": 12,
+    "ties": 92,
+    "p_sign": 0.0352,
+    "derived": true
+   },
+   "log_words": {
+    "hot_mean": 2259,
+    "cold_mean": 1814,
+    "pairs_hot_higher": 65,
+    "pairs_hot_lower": 42,
+    "ties": 0,
+    "p_sign": 0.0329,
+    "note": "means are medians of word counts"
+   }
+  },
+  "categories": {
+   "post_type": {
+    "announcement": {
+     "hot": 4,
+     "cold": 5
+    },
+    "commentary_news": {
+     "hot": 10,
+     "cold": 13
+    },
+    "data_analysis": {
+     "hot": 7,
+     "cold": 6
+    },
+    "essay_argument": {
+     "hot": 48,
+     "cold": 52
+    },
+    "explainer": {
+     "hot": 15,
+     "cold": 17
+    },
+    "list_links": {
+     "hot": 4,
+     "cold": 4
+    },
+    "other": {
+     "hot": 0,
+     "cold": 2
+    },
+    "personal_story": {
+     "hot": 13,
+     "cold": 2
+    },
+    "tutorial_howto": {
+     "hot": 6,
+     "cold": 6
+    }
+   },
+   "emotion": {
+    "amusement": {
+     "hot": 5,
+     "cold": 9
+    },
+    "anger": {
+     "hot": 11,
+     "cold": 3
+    },
+    "anxiety": {
+     "hot": 5,
+     "cold": 3
+    },
+    "awe": {
+     "hot": 6,
+     "cold": 1
+    },
+    "curiosity": {
+     "hot": 49,
+     "cold": 69
+    },
+    "inspiration": {
+     "hot": 27,
+     "cold": 19
+    },
+    "none": {
+     "hot": 0,
+     "cold": 2
+    },
+    "sadness": {
+     "hot": 1,
+     "cold": 0
+    },
+    "tenderness": {
+     "hot": 3,
+     "cold": 1
+    }
+   },
+   "arousal": {
+    "high": {
+     "hot": 4,
+     "cold": 0
+    },
+    "low": {
+     "hot": 35,
+     "cold": 64
+    },
+    "medium": {
+     "hot": 68,
+     "cold": 43
+    }
+   },
+   "valence": {
+    "mixed": {
+     "hot": 34,
+     "cold": 21
+    },
+    "negative": {
+     "hot": 12,
+     "cold": 5
+    },
+    "neutral": {
+     "hot": 22,
+     "cold": 37
+    },
+    "positive": {
+     "hot": 39,
+     "cold": 44
+    }
+   },
+   "authority": {
+    "aggregation": {
+     "hot": 21,
+     "cold": 17
+    },
+    "data_research": {
+     "hot": 8,
+     "cold": 12
+    },
+    "insider_access": {
+     "hot": 20,
+     "cold": 12
+    },
+    "personal_experience": {
+     "hot": 35,
+     "cold": 33
+    },
+    "reasoning": {
+     "hot": 23,
+     "cold": 33
+    }
+   },
+   "opening": {
+    "bold_claim": {
+     "hot": 20,
+     "cold": 16
+    },
+    "context": {
+     "hot": 63,
+     "cold": 69
+    },
+    "none": {
+     "hot": 0,
+     "cold": 4
+    },
+    "question": {
+     "hot": 3,
+     "cold": 9
+    },
+    "scene": {
+     "hot": 14,
+     "cold": 6
+    },
+    "surprising_fact": {
+     "hot": 7,
+     "cold": 3
+    }
+   },
+   "title_promise": {
+    "announce": {
+     "hot": 9,
+     "cold": 5
+    },
+    "answer": {
+     "hot": 7,
+     "cold": 12
+    },
+    "instruct": {
+     "hot": 4,
+     "cold": 7
+    },
+    "name_concept": {
+     "hot": 17,
+     "cold": 14
+    },
+    "provoke": {
+     "hot": 27,
+     "cold": 18
+    },
+    "reveal": {
+     "hot": 13,
+     "cold": 2
+    },
+    "topic": {
+     "hot": 30,
+     "cold": 49
+    }
+   },
+   "life_domains": {
+    "career_work": {
+     "hot": 37,
+     "cold": 25
+    },
+    "craft_expertise": {
+     "hot": 27,
+     "cold": 39
+    },
+    "family_relationships": {
+     "hot": 10,
+     "cold": 2
+    },
+    "health_aging": {
+     "hot": 4,
+     "cold": 7
+    },
+    "learning_thinking": {
+     "hot": 18,
+     "cold": 22
+    },
+    "money": {
+     "hot": 31,
+     "cold": 33
+    },
+    "society_politics": {
+     "hot": 34,
+     "cold": 32
+    },
+    "status_identity": {
+     "hot": 18,
+     "cold": 10
+    },
+    "tech_tools": {
+     "hot": 30,
+     "cold": 41
+    }
+   }
+  },
+  "by_field": {
+   "tech": {
+    "n_pairs": 57,
+    "scores": {
+     "audience_scope": {
+      "hot_mean": 2.67,
+      "cold_mean": 2.39,
+      "pairs_hot_higher": 22,
+      "pairs_hot_lower": 8,
+      "ties": 27,
+      "p_sign": 0.0161
+     },
+     "reader_mirror": {
+      "hot_mean": 1.16,
+      "cold_mean": 0.95,
+      "pairs_hot_higher": 23,
+      "pairs_hot_lower": 13,
+      "ties": 21,
+      "p_sign": 0.1325
+     },
+     "contrarian": {
+      "hot_mean": 1.14,
+      "cold_mean": 1,
+      "pairs_hot_higher": 17,
+      "pairs_hot_lower": 11,
+      "ties": 29,
+      "p_sign": 0.3449
+     },
+     "surprise": {
+      "hot_mean": 1.11,
+      "cold_mean": 0.91,
+      "pairs_hot_higher": 16,
+      "pairs_hot_lower": 6,
+      "ties": 35,
+      "p_sign": 0.0525
+     },
+     "practical_value": {
+      "hot_mean": 1.25,
+      "cold_mean": 1.23,
+      "pairs_hot_higher": 16,
+      "pairs_hot_lower": 15,
+      "ties": 26,
+      "p_sign": 1.0
+     },
+     "social_currency": {
+      "hot_mean": 1.39,
+      "cold_mean": 1.16,
+      "pairs_hot_higher": 17,
+      "pairs_hot_lower": 5,
+      "ties": 35,
+      "p_sign": 0.0169
+     },
+     "identity": {
+      "hot_mean": 1.05,
+      "cold_mean": 0.77,
+      "pairs_hot_higher": 19,
+      "pairs_hot_lower": 8,
+      "ties": 30,
+      "p_sign": 0.0522
+     },
+     "narrative": {
+      "hot_mean": 0.58,
+      "cold_mean": 0.33,
+      "pairs_hot_higher": 21,
+      "pairs_hot_lower": 9,
+      "ties": 27,
+      "p_sign": 0.0428
+     },
+     "vulnerability": {
+      "hot_mean": 0.56,
+      "cold_mean": 0.33,
+      "pairs_hot_higher": 17,
+      "pairs_hot_lower": 9,
+      "ties": 31,
+      "p_sign": 0.1686
+     },
+     "concreteness": {
+      "hot_mean": 1.72,
+      "cold_mean": 1.65,
+      "pairs_hot_higher": 11,
+      "pairs_hot_lower": 8,
+      "ties": 38,
+      "p_sign": 0.6476
+     },
+     "debate": {
+      "hot_mean": 1.05,
+      "cold_mean": 0.93,
+      "pairs_hot_higher": 14,
+      "pairs_hot_lower": 10,
+      "ties": 33,
+      "p_sign": 0.5413
+     },
+     "timeliness": {
+      "hot_mean": 0.6,
+      "cold_mean": 0.56,
+      "pairs_hot_higher": 16,
+      "pairs_hot_lower": 13,
+      "ties": 28,
+      "p_sign": 0.7111
+     },
+     "accessibility": {
+      "hot_mean": 1.35,
+      "cold_mean": 1.18,
+      "pairs_hot_higher": 12,
+      "pairs_hot_lower": 3,
+      "ties": 42,
+      "p_sign": 0.0352
+     },
+     "named_concept": {
+      "hot_mean": 0.49,
+      "cold_mean": 0.51,
+      "pairs_hot_higher": 14,
+      "pairs_hot_lower": 15,
+      "ties": 28,
+      "p_sign": 1.0
+     },
+     "arousal_level": {
+      "hot_mean": 0.75,
+      "cold_mean": 0.35,
+      "pairs_hot_higher": 26,
+      "pairs_hot_lower": 3,
+      "ties": 28,
+      "p_sign": 0.0,
+      "derived": true
+     },
+     "felt_emotion": {
+      "hot_mean": 0.6,
+      "cold_mean": 0.32,
+      "pairs_hot_higher": 24,
+      "pairs_hot_lower": 8,
+      "ties": 25,
+      "p_sign": 0.007,
+      "derived": true
+     },
+     "personal_story": {
+      "hot_mean": 0.11,
+      "cold_mean": 0.02,
+      "pairs_hot_higher": 6,
+      "pairs_hot_lower": 1,
+      "ties": 50,
+      "p_sign": 0.125,
+      "derived": true
+     },
+     "scene_opening": {
+      "hot_mean": 0.12,
+      "cold_mean": 0.09,
+      "pairs_hot_higher": 6,
+      "pairs_hot_lower": 4,
+      "ties": 47,
+      "p_sign": 0.7539,
+      "derived": true
+     },
+     "title_topic_only": {
+      "hot_mean": 0.26,
+      "cold_mean": 0.51,
+      "pairs_hot_higher": 6,
+      "pairs_hot_lower": 20,
+      "ties": 31,
+      "p_sign": 0.0094,
+      "derived": true
+     },
+     "life_domain": {
+      "hot_mean": 0.54,
+      "cold_mean": 0.37,
+      "pairs_hot_higher": 17,
+      "pairs_hot_lower": 7,
+      "ties": 33,
+      "p_sign": 0.0639,
+      "derived": true
+     },
+     "craft_or_tool_only": {
+      "hot_mean": 0.18,
+      "cold_mean": 0.35,
+      "pairs_hot_higher": 2,
+      "pairs_hot_lower": 12,
+      "ties": 43,
+      "p_sign": 0.0129,
+      "derived": true
+     },
+     "log_words": {
+      "hot_mean": 2565,
+      "cold_mean": 1955,
+      "pairs_hot_higher": 38,
+      "pairs_hot_lower": 19,
+      "ties": 0,
+      "p_sign": 0.0163,
+      "note": "means are medians of word counts"
+     }
+    }
+   },
+   "finance_econ": {
+    "n_pairs": 50,
+    "scores": {
+     "audience_scope": {
+      "hot_mean": 3.14,
+      "cold_mean": 3.12,
+      "pairs_hot_higher": 8,
+      "pairs_hot_lower": 7,
+      "ties": 35,
+      "p_sign": 1.0
+     },
+     "reader_mirror": {
+      "hot_mean": 1.02,
+      "cold_mean": 0.8,
+      "pairs_hot_higher": 17,
+      "pairs_hot_lower": 9,
+      "ties": 24,
+      "p_sign": 0.1686
+     },
+     "contrarian": {
+      "hot_mean": 1.08,
+      "cold_mean": 1.1,
+      "pairs_hot_higher": 10,
+      "pairs_hot_lower": 12,
+      "ties": 28,
+      "p_sign": 0.8318
+     },
+     "surprise": {
+      "hot_mean": 1.34,
+      "cold_mean": 1.22,
+      "pairs_hot_higher": 12,
+      "pairs_hot_lower": 6,
+      "ties": 32,
+      "p_sign": 0.2379
+     },
+     "practical_value": {
+      "hot_mean": 0.64,
+      "cold_mean": 0.74,
+      "pairs_hot_higher": 9,
+      "pairs_hot_lower": 13,
+      "ties": 28,
+      "p_sign": 0.5235
+     },
+     "social_currency": {
+      "hot_mean": 1.34,
+      "cold_mean": 1.32,
+      "pairs_hot_higher": 10,
+      "pairs_hot_lower": 9,
+      "ties": 31,
+      "p_sign": 1.0
+     },
+     "identity": {
+      "hot_mean": 0.76,
+      "cold_mean": 0.46,
+      "pairs_hot_higher": 19,
+      "pairs_hot_lower": 7,
+      "ties": 24,
+      "p_sign": 0.029
+     },
+     "narrative": {
+      "hot_mean": 0.6,
+      "cold_mean": 0.28,
+      "pairs_hot_higher": 19,
+      "pairs_hot_lower": 8,
+      "ties": 23,
+      "p_sign": 0.0522
+     },
+     "vulnerability": {
+      "hot_mean": 0.34,
+      "cold_mean": 0.22,
+      "pairs_hot_higher": 9,
+      "pairs_hot_lower": 5,
+      "ties": 36,
+      "p_sign": 0.424
+     },
+     "concreteness": {
+      "hot_mean": 1.84,
+      "cold_mean": 1.74,
+      "pairs_hot_higher": 8,
+      "pairs_hot_lower": 3,
+      "ties": 39,
+      "p_sign": 0.2266
+     },
+     "debate": {
+      "hot_mean": 1.3,
+      "cold_mean": 1.18,
+      "pairs_hot_higher": 13,
+      "pairs_hot_lower": 8,
+      "ties": 29,
+      "p_sign": 0.3833
+     },
+     "timeliness": {
+      "hot_mean": 0.88,
+      "cold_mean": 0.96,
+      "pairs_hot_higher": 8,
+      "pairs_hot_lower": 13,
+      "ties": 29,
+      "p_sign": 0.3833
+     },
+     "accessibility": {
+      "hot_mean": 1.62,
+      "cold_mean": 1.58,
+      "pairs_hot_higher": 8,
+      "pairs_hot_lower": 6,
+      "ties": 36,
+      "p_sign": 0.7905
+     },
+     "named_concept": {
+      "hot_mean": 0.46,
+      "cold_mean": 0.38,
+      "pairs_hot_higher": 13,
+      "pairs_hot_lower": 9,
+      "ties": 28,
+      "p_sign": 0.5235
+     },
+     "arousal_level": {
+      "hot_mean": 0.66,
+      "cold_mean": 0.46,
+      "pairs_hot_higher": 13,
+      "pairs_hot_lower": 5,
+      "ties": 32,
+      "p_sign": 0.0963,
+      "derived": true
+     },
+     "felt_emotion": {
+      "hot_mean": 0.48,
+      "cold_mean": 0.36,
+      "pairs_hot_higher": 14,
+      "pairs_hot_lower": 8,
+      "ties": 28,
+      "p_sign": 0.2863,
+      "derived": true
+     },
+     "personal_story": {
+      "hot_mean": 0.14,
+      "cold_mean": 0.02,
+      "pairs_hot_higher": 6,
+      "pairs_hot_lower": 0,
+      "ties": 44,
+      "p_sign": 0.0312,
+      "derived": true
+     },
+     "scene_opening": {
+      "hot_mean": 0.14,
+      "cold_mean": 0.02,
+      "pairs_hot_higher": 7,
+      "pairs_hot_lower": 1,
+      "ties": 42,
+      "p_sign": 0.0703,
+      "derived": true
+     },
+     "title_topic_only": {
+      "hot_mean": 0.3,
+      "cold_mean": 0.4,
+      "pairs_hot_higher": 7,
+      "pairs_hot_lower": 12,
+      "ties": 31,
+      "p_sign": 0.3593,
+      "derived": true
+     },
+     "life_domain": {
+      "hot_mean": 0.52,
+      "cold_mean": 0.42,
+      "pairs_hot_higher": 11,
+      "pairs_hot_lower": 6,
+      "ties": 33,
+      "p_sign": 0.3323,
+      "derived": true
+     },
+     "craft_or_tool_only": {
+      "hot_mean": 0.02,
+      "cold_mean": 0,
+      "pairs_hot_higher": 1,
+      "pairs_hot_lower": 0,
+      "ties": 49,
+      "p_sign": 1.0,
+      "derived": true
+     },
+     "log_words": {
+      "hot_mean": 2048,
+      "cold_mean": 1592,
+      "pairs_hot_higher": 27,
+      "pairs_hot_lower": 23,
+      "ties": 0,
+      "p_sign": 0.6718,
+      "note": "means are medians of word counts"
+     }
+    }
+   }
+  },
+  "examples": [
+   {
+    "pair": "antirez-1",
+    "hot": {
+     "url": "http://antirez.com/news/133",
+     "hn_title": "The End of the Redis Adventure",
+     "points": 2282,
+     "core_claim": "作者不想再当维护者,而想以创作者身份表达自我,因此卸任Redis维护人并把项目交给社区。",
+     "named_concept": "",
+     "share_reason": "Redis创始人宣布卸任,坦诚写出自己想当艺术家而非维护者的心声。",
+     "emotion": "tenderness"
+    },
+    "cold": {
+     "url": "http://antirez.com/news/74",
+     "hn_title": "Fascinating Little Programs",
+     "points": 4,
+     "core_claim": "小程序因篇幅和范围受限，可以做到近乎完美；这种简洁自成目的，是大型软件中值得保留的追求。",
+     "named_concept": "",
+     "share_reason": "道出了程序员对小而精代码之美的共同怀旧与热爱",
+     "emotion": "tenderness"
+    }
+   },
+   {
+    "pair": "antirez-2",
+    "hot": {
+     "url": "https://antirez.com/news/151",
+     "hn_title": "Redis is open source again",
+     "points": 1896,
+     "core_claim": "Redis 重新采用 AGPLv3 开源许可，作者对此很高兴，并将继续以开源方式改进 Redis 和 Vector Sets。",
+     "named_concept": "",
+     "share_reason": "Redis 回归开源是开发者社区的重大消息，且来自创作者本人的内部视角。",
+     "emotion": "inspiration"
+    },
+    "cold": {
+     "url": "https://antirez.com/news/166",
+     "hn_title": "A new EDIT tool for LLM agents",
+     "points": 6,
+     "core_claim": "用“行号+4字符行校验标签”替代让LLM复述旧文本的EDIT工具,可在保持CAS安全的同时省token、更可靠;整文件CRC是另一种取舍。",
+     "named_concept": "",
+     "share_reason": "给LLM智能体开发者一个省token又稳妥的编辑工具设计思路,值得讨论。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "antirez-3",
+    "hot": {
+     "url": "https://antirez.com/news/158",
+     "hn_title": "Don't fall into the anti-AI hype",
+     "points": 1296,
+     "core_claim": "无论你对AI的立场如何，AI已经永久改变编程；拒绝它无济于事，应认真长期试用，用它放大自己的创造力。",
+     "named_concept": "",
+     "share_reason": "知名程序员亲述用AI几小时完成数周工作，为程序员提供面对AI的立场与说服材料。",
+     "emotion": "inspiration"
+    },
+    "cold": {
+     "url": "http://antirez.com/news/142",
+     "hn_title": "First Token Cutoff LLM Sampling",
+     "points": 2,
+     "core_claim": "top-p核采样可能选中远弱于最优的token；以最高概率token为基准设相对截断比例（FTC）更直观、可控，也能保持质量。",
+     "named_concept": "First Token Cutoff (FTC)",
+     "share_reason": "给出一个简单易懂的top-p替代采样算法，附代码，适合LLM开发者讨论和实验。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "awealthofcommonsense-1",
+    "hot": {
+     "url": "https://awealthofcommonsense.com/2025/02/the-top-10/",
+     "hn_title": "The top 10% owns 87% of the stocks",
+     "points": 354,
+     "core_claim": "财富高度集中于最富10%人群，其消费占美国一半，经济与股市更脆弱难测，且不平等很可能继续恶化。",
+     "named_concept": "",
+     "share_reason": "用具体数据展示财富集中程度，让人看清经济真相并引发讨论。",
+     "emotion": "anxiety"
+    },
+    "cold": {
+     "url": "https://awealthofcommonsense.com/2025/11/max-out-your-401k/",
+     "hn_title": "Max Out Your 401k",
+     "points": 2,
+     "core_claim": "储蓄先于投资，是积累财富最重要的行为；应尽量存满401k，做不到就先拿满公司匹配并逐年提高储蓄率。",
+     "named_concept": "",
+     "share_reason": "2026年401k/IRA新额度清单加实用储蓄建议，值得转给想攒钱的人。",
+     "emotion": "inspiration"
+    }
+   },
+   {
+    "pair": "awealthofcommonsense-2",
+    "hot": {
+     "url": "https://awealthofcommonsense.com/2019/09/debunking-the-silly-passive-is-a-bubble-myth/",
+     "hn_title": "A critique of the claim that passive investing is a bubble",
+     "points": 308,
+     "core_claim": "被动投资泡沫的担忧是夸大的：指数基金占比仍小，价格发现仍由主动投资者完成，真正引发泡沫崩盘的是人性而非基金结构。",
+     "named_concept": "",
+     "share_reason": "用数据和反问有力反驳被动投资泡沫论，可直接拿来回应担忧的人。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://awealthofcommonsense.com/2020/03/how-did-we-ever-get-to-the-roaring-twenties/",
+     "hn_title": "How Did We Ever Get to the Roaring Twenties?",
+     "points": 1,
+     "core_claim": "一战、大流感、衰退和萧条之后迎来繁荣的20年代,说明悲观不会持久,人们总能从艰难时期恢复并前行。",
+     "named_concept": "",
+     "share_reason": "在疫情低迷时用历史说明灾难之后会有繁荣,给人希望,也有不少冷知识。",
+     "emotion": "inspiration"
+    }
+   },
+   {
+    "pair": "awealthofcommonsense-3",
+    "hot": {
+     "url": "https://awealthofcommonsense.com/2023/09/the-u-s-housing-market-vs-the-canadian-housing-market/",
+     "hn_title": "The U.S. housing market vs. the Canadian housing market",
+     "points": 241,
+     "core_claim": "加拿大实际房价自2005年起暴涨142%,远超美国的26%,也严重脱离收入增长;美国买房虽难,加拿大更离谱。",
+     "named_concept": "",
+     "share_reason": "用图表直观对比美加房价,数据惊人,适合讨论住房可负担性。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://awealthofcommonsense.com/2023/06/how-much-money-does-it-take-to-feel-wealthy/",
+     "hn_title": "How Much Money Does It Take to Feel Wealthy?",
+     "points": 2,
+     "core_claim": "财富是相对的主观感受，受性格和情绪底色影响，比具体数字更重要；多数人未必需要自己以为的那么多钱。",
+     "named_concept": "",
+     "share_reason": "用研究和调查数据说明\"感觉富有\"取决于性格与时间，而非金额，引人反思。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "awealthofcommonsense-4",
+    "hot": {
+     "url": "https://awealthofcommonsense.com/2021/04/stock-market-returns-are-anything-but-average/",
+     "hn_title": "Stock Market Returns Are Anything but Average",
+     "points": 222,
+     "core_claim": "美股年度收益很少接近10%的长期均值，年度波动极大，只有数十年的长期持有才能消除随机性。",
+     "named_concept": "",
+     "share_reason": "用数据说明“平均10%”的年份其实极少，适合提醒投资者理解波动与长期持有。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://awealthofcommonsense.com/2020/12/9-questions-i-have-for-2021/",
+     "hn_title": "9 Questions I Have for 2021",
+     "points": 3,
+     "core_claim": "2021年可能迎来比多数人预期更强的经济复苏,但投资者仍应为市场回调做好准备,并关注科技股、住房、通胀与财政刺激的走向。",
+     "named_concept": "",
+     "share_reason": "用数据梳理2021年关键问题,转发可显得对市场和宏观有见地。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "bitsaboutmoney-1",
+    "hot": {
+     "url": "https://www.bitsaboutmoney.com/archive/anatomy-of-credit-card-rewards-programs/",
+     "hn_title": "Anatomy of a credit card rewards program",
+     "points": 1271,
+     "core_claim": "信用卡返现是发卡行用商户支付的交换费竞争高价值客户的博弈，卡产品设计靠组合层面的统计与用户的次优行为盈利。",
+     "named_concept": "",
+     "share_reason": "内行视角拆解信用卡返现背后的交换费经济学，让人看懂钱包里的卡。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://www.bitsaboutmoney.com/archive/payroll-providers-power-respect/",
+     "hn_title": "Payroll Providers, Power, Respect",
+     "points": 5,
+     "core_claim": "工资发放商因税收代扣而生,不只是算账和转账,更靠承担信用风险、持有代扣资金的浮存收益和早薪服务赚钱,门槛是牌照与合规。",
+     "named_concept": "",
+     "share_reason": "让人看懂每个人都用过却没想过的工资发放行业的历史与赚钱逻辑,内容有料又风趣。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "bitsaboutmoney-2",
+    "hot": {
+     "url": "https://www.bitsaboutmoney.com/archive/the-waste-stream-of-consumer-finance/",
+     "hn_title": "Credit card debt collection",
+     "points": 778,
+     "core_claim": "信用卡坏账催收是金融业的“废料流”；行业结构与激励使其必然混乱且滥用，改革数十年无效，非个人作恶所致。",
+     "named_concept": "废料流视角（waste streams lens）",
+     "share_reason": "以内行视角揭开催收行业的运作内幕，细节出人意料，让转发者显得懂金融。",
+     "emotion": "anger"
+    },
+    "cold": {
+     "url": "https://www.bitsaboutmoney.com/archive/deposit-insurance/",
+     "hn_title": "Deposit insurance under the coverage (2022)",
+     "points": 2,
+     "core_claim": "存款保险通过承诺机制、有序处置和最后贷款人支持,阻断银行挤兑的自我强化循环;它只保银行倒闭,不保金融科技平台本身的风险。",
+     "named_concept": "",
+     "share_reason": "清晰讲透存款保险和银行倒闭机制,让转发者显得懂金融基础设施。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "bitsaboutmoney-3",
+    "hot": {
+     "url": "https://www.bitsaboutmoney.com/archive/seeing-like-a-bank/",
+     "hn_title": "Seeing like a bank",
+     "points": 605,
+     "core_claim": "银行擅长记账却不擅长记录其他“事实”，源于系统层层叠加、分级客服和法律保密要求；这些是结构性成因，而非恶意，改善需要数十年。",
+     "named_concept": "Seeing like a Bank",
+     "share_reason": "用内部视角解释银行为何像“失忆”、客服为何分级，还教你走升级通道，内行且实用。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://www.bitsaboutmoney.com/archive/buy-now-pay-later/",
+     "hn_title": "BNPLs: Businesses Needing Provided Legibility (2022)",
+     "points": 2,
+     "core_claim": "BNPL 本质是把商家付的营销费用转成对消费者免费的短期高息贷款，风险由银行和资本方承担，其风险比常被指责的要小、更可控。",
+     "named_concept": "",
+     "share_reason": "用清晰的机制拆解让转发者显得懂 BNPL 的钱从哪来、风险在谁手里。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "bitsaboutmoney-4",
+    "hot": {
+     "url": "https://www.bitsaboutmoney.com/archive/bond-villain-compliance-strategy/",
+     "hn_title": "The Bond villain compliance strategy",
+     "points": 552,
+     "core_claim": "币安靠“邦德反派式合规策略”（到处撒谎、身处无处）撑了多年，但美元清算和KYC让美国管辖权无法回避，币安将被慢慢碾碎。",
+     "named_concept": "Bond villain compliance strategy",
+     "share_reason": "用邦德反派比喻讲透币安认罪始末，机智内行，还有对后续走向的预测。",
+     "emotion": "amusement"
+    },
+    "cold": {
+     "url": "https://www.bitsaboutmoney.com/archive/improving-cards-under-the-hood/",
+     "hn_title": "Improving how credit cards work under the covers",
+     "points": 5,
+     "core_claim": "信用卡是活的遗留系统:发卡行令牌和Stripe经旁路通道向银行传递风险分,能在不改动网络协议下减少误拒与欺诈,近乎免费午餐。",
+     "named_concept": "",
+     "share_reason": "用通俗幽默的方式讲清支付系统内幕,让转发者显得懂金融科技。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "codinghorror-1",
+    "hot": {
+     "url": "http://www.codinghorror.com/blog/2012/02/farewell-stack-exchange.html",
+     "hn_title": "Farewell Stack Exchange",
+     "points": 1233,
+     "core_claim": "作者离开自己创办的公司,是因为事业上的成功若以牺牲孩子和家庭为代价,就是失败。",
+     "named_concept": "",
+     "share_reason": "创始人坦诚告别自己创办的公司,为陪伴孩子放弃事业,引发创业者共鸣。",
+     "emotion": "tenderness"
+    },
+    "cold": {
+     "url": "http://www.codinghorror.com/blog/2009/08/software-pricing-are-we-doing-it-wrong.html",
+     "hn_title": "You can actually make *more* money by charging less for software",
+     "points": 1,
+     "core_claim": "对大众市场的数字软件而言，降价到“why not”门槛能带来非线性的销量增长，总收入反而更高，因此应该尝试低价。",
+     "named_concept": "\"why not\" threshold",
+     "share_reason": "用Valve的折扣数据说明降价反而多赚钱，对软件定价很有启发。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "codinghorror-2",
+    "hot": {
+     "url": "http://www.codinghorror.com/blog/2012/10/the-future-of-markdown.html",
+     "hn_title": "The Future of Markdown",
+     "points": 877,
+     "core_claim": "Markdown缺乏正式规范导致各平台方言碎片化，主流使用Markdown的大站应联合制定官方规范和测试套件。",
+     "named_concept": "",
+     "share_reason": "程序员认同Markdown需要标准，转发以响应号召、支持标准化。",
+     "emotion": "inspiration"
+    },
+    "cold": {
+     "url": "http://www.codinghorror.com/blog/2007/10/software-branching-and-parallel-universes.html",
+     "hn_title": "Perhaps the most influential piece on software branching ever",
+     "points": 2,
+     "core_claim": "分支是源码管理的核心功能却被忽视;用平行宇宙类比理解它的利弊,避免反模式,理解并适度使用分支利大于弊。",
+     "named_concept": "branching as parallel universes(分支即平行宇宙)",
+     "share_reason": "用漫画平行宇宙类比讲清分支概念及常见模式与反模式,适合分享给团队。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "codinghorror-3",
+    "hot": {
+     "url": "http://www.codinghorror.com/blog/2012/05/please-dont-learn-to-code.html",
+     "hn_title": "Please don't learn to code",
+     "points": 746,
+     "core_claim": "不该为学编程而学编程；编程不是目标，解决问题才是，应优先学会研究探索和有效沟通，并理解电脑与互联网的基本运作。",
+     "named_concept": "",
+     "share_reason": "观点反潮流，由三十年资深程序员说出\"别学编程\"，值得讨论转发。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "http://www.codinghorror.com/blog/2008/03/the-first-rule-of-programming-its-always-your-fault.html",
+     "hn_title": "The First Rule of Programming: It's Always Your Fault",
+     "points": 2,
+     "core_claim": "调试时应先假定问题出在自己的代码上，而不是系统、库或工具；承担责任才能赢得信任和尊重。",
+     "named_concept": "Select Isn't Broken",
+     "share_reason": "说出程序员常忽略的调试铁律，并有数据和经典书籍佐证，适合转给同事。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "collabfund-1",
+    "hot": {
+     "url": "https://collabfund.com/blog/betting-on-things-that-never-change/",
+     "hn_title": "Betting on things that never change (2017)",
+     "points": 339,
+     "core_claim": "可持续的企业和投资应把长期赌注押在不变的人类需求（低价、快速、选择等）上，变化带来竞争，不变带来复利。",
+     "named_concept": "Betting on things that never change",
+     "share_reason": "贝佐斯\"不变的事\"视角简洁有力，转发显得懂投资与商业本质。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://collabfund.com/blog/expectations-and-reality/",
+     "hn_title": "Expectations and Reality",
+     "points": 2,
+     "core_claim": "情绪和幸福来自期望与现实之间的差距,而非现实本身;期望比环境更可控,应像改善处境一样去管理期望。",
+     "named_concept": "",
+     "share_reason": "用霍金、杜鲁门等例子说明幸福取决于期望差距,简洁有启发。",
+     "emotion": "inspiration"
+    }
+   },
+   {
+    "pair": "collabfund-2",
+    "hot": {
+     "url": "https://collabfund.com/blog/i-read-1-000-investor-reports-last-year-heres-what-i-learned/",
+     "hn_title": "What I Learned Reading 1k Investor Reports",
+     "points": 333,
+     "core_claim": "创始人应按固定节奏发送结构清晰的月度投资人报告，坦诚披露高低点并明确求助，这能让投资人更好地帮助你。",
+     "named_concept": "",
+     "share_reason": "创业者可直接套用的投资人月报模板，来自投资方视角的实用建议。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://collabfund.com/blog/expiring-vs-lt-knowledge/",
+     "hn_title": "Expiring vs. Long-Term Knowledge",
+     "points": 2,
+     "core_claim": "多数信息很快过期;应多学习能长期复利的知识(解释为什么的原理与框架),它也能帮你更好地理解短期新闻。",
+     "named_concept": "Expiring knowledge vs. long-term knowledge",
+     "share_reason": "提供一个简单好记的过滤信息框架,提醒人多读经典少追新闻,转发显得有见识。",
+     "emotion": "inspiration"
+    }
+   },
+   {
+    "pair": "collabfund-3",
+    "hot": {
+     "url": "https://collabfund.com/blog/how-i-think-about-debt/",
+     "hn_title": "How I think about debt",
+     "points": 247,
+     "core_claim": "债务越多，你能承受的人生波动范围越窄；应把债务看作对选择权与灵活性的约束，而不只是利息成本。",
+     "named_concept": "债务缩小可承受结果的范围（debt narrows the range of outcomes you can endure）",
+     "share_reason": "提供了一个简洁好记的债务思考框架，用日本百年老店作例子，让人重新看待负债。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://collabfund.com/blog/active-vs-passive-learning/",
+     "hn_title": "Active vs. Passive Learning",
+     "points": 2,
+     "core_claim": "自主、随性、跨领域的“被动学习”比被安排好的“主动学习”（学校式）更能塑造人，应广泛阅读，并给员工和自己留出思考时间。",
+     "named_concept": "Active vs. Passive Learning",
+     "share_reason": "用婚姻类比点破学校式学习的局限，提醒大家多跨界阅读、给自己留出思考时间。",
+     "emotion": "inspiration"
+    }
+   },
+   {
+    "pair": "collabfund-4",
+    "hot": {
+     "url": "https://collabfund.com/blog/the-art-and-science-of-spending-money/",
+     "hn_title": "The art and science of spending money",
+     "points": 243,
+     "core_claim": "花钱不只是理性计算，更是心理与社会行为；童年经历、地位攀比、信号表达等因素塑造消费，需通过多样尝试找到真正带来快乐的花法。",
+     "named_concept": "Frugality inertia",
+     "share_reason": "十三条观察精准点出人们花钱背后的心理与攀比，读来有共鸣、值得反思并分享。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://collabfund.com/blog/frugal-vs-independent/",
+     "hn_title": "Frugal vs. Independent",
+     "points": 3,
+     "core_claim": "省钱的人未必是节俭(压抑想要的东西),也可能是独立:从无法购买的来源获得快乐,本就不想要世俗所谓的该要之物。",
+     "named_concept": "Frugal vs. Independent",
+     "share_reason": "用节俭与独立的区分重新理解省钱者,并以Feeney的故事启发思考幸福与地位。",
+     "emotion": "inspiration"
+    }
+   },
+   {
+    "pair": "constructionphysics-1",
+    "hot": {
+     "url": "https://constructionphysics.substack.com/p/how-to-design-a-house-to-last-for",
+     "hn_title": "How to design a house to last 1000 years",
+     "points": 594,
+     "core_claim": "要设计能存续千年的房子，需不锈钢框架加厚砖石外墙与石板屋顶等；但成本极高，是否值得普及并不明确。",
+     "named_concept": "",
+     "share_reason": "思想实验新颖，详细展示了建筑耐久性的取舍，适合对建筑或长期主义感兴趣的人分享。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://www.construction-physics.com/p/building-fast-and-slow-the-empire",
+     "hn_title": "Building Fast and Slow: The Empire State Building and the World Trade Center",
+     "points": 2,
+     "core_claim": "帝国大厦能快速且低于预算建成，是因为设计刻意简单重复、采用成熟系统、减少工种间依赖，并由业主、建筑师、承包商紧密协作。",
+     "named_concept": "",
+     "share_reason": "想了解帝国大厦为何能不到一年建成，对\"美国还会建造吗\"话题有深度细节和启发。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "constructionphysics-2",
+    "hot": {
+     "url": "https://www.construction-physics.com/p/how-an-oil-refinery-works",
+     "hn_title": "How an oil refinery works",
+     "points": 541,
+     "core_claim": "炼油厂靠蒸馏、裂化等一系列相对简单的工艺把原油变成可用产品，真正惊人的是其规模，而非工艺复杂度。",
+     "named_concept": "",
+     "share_reason": "清晰讲解了支撑现代世界的炼油工业，学到新知识，适合转给好奇的朋友。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://www.construction-physics.com/p/stagnant-construction-productivity",
+     "hn_title": "Stagnant Construction Productivity Is a Worldwide Problem",
+     "points": 1,
+     "core_claim": "建筑业劳动生产率停滞是全球性问题:美国的平坦趋势与其他大型富裕国家近30年一致,瑞典预制和中国大建设也没改变这一点。",
+     "named_concept": "",
+     "share_reason": "用跨国KLEMS数据显示建筑生产率停滞非美国独有,挑战'学瑞典/中国'的常识。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "constructionphysics-3",
+    "hot": {
+     "url": "https://constructionphysics.substack.com/p/where-are-the-robotic-bricklayers",
+     "hn_title": "Where are the robotic bricklayers?",
+     "points": 452,
+     "core_claim": "砌砖看似极适合机械化，但百年尝试鲜有商业成功，因为砂浆的复杂物性和对环境反馈的需求，使其比钉钉子难得多。",
+     "named_concept": "",
+     "share_reason": "用砌砖机器人百年史解释自动化为何难，建筑与机器人爱好者觉得有见识。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://constructionphysics.substack.com/p/goolsbee-and-syverson-on-construction",
+     "hn_title": "Goolsbee and Syverson on Construction Productivity",
+     "points": 1,
+     "core_claim": "建筑业生产率下降确实存在，但BEA数据因价格平减指数偏高而夸大了降幅；作者更信任直接的成本指数，而非抽象的生产率指标。",
+     "named_concept": "",
+     "share_reason": "对热门的建筑业生产率论文做了细致点评，指出数据测量问题，适合关注该话题的人转发。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "constructionphysics-4",
+    "hot": {
+     "url": "https://www.construction-physics.com/p/how-to-build-a-50000-ton-forging",
+     "hn_title": "How to build a 50k ton forging press",
+     "points": 451,
+     "core_claim": "美国重型压力机计划让大型锻件和挤压件大幅降低飞机成本、带来广泛溢出效应，说明制造能力对技术进步至关重要，而美国正在失去这种能力。",
+     "named_concept": "",
+     "share_reason": "涨知识：冷战重型压力机的历史与其对制造业、产业政策的启示，数据细节惊人。",
+     "emotion": "awe"
+    },
+    "cold": {
+     "url": "https://www.construction-physics.com/p/how-to-build-an-ai-data-center",
+     "hn_title": "How to build an AI data center",
+     "points": 7,
+     "core_claim": "AI将使数据中心更大、更耗电、需液冷，电力可得性成为瓶颈；美国需建设firm电力基础设施以保持AI领先。",
+     "named_concept": "",
+     "share_reason": "数据密集、通俗讲清AI数据中心的电力与散热瓶颈，转发显得内行。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "danluu-1",
+    "hot": {
+     "url": "https://danluu.com/look-stupid/",
+     "hn_title": "Willingness to look stupid",
+     "points": 1859,
+     "core_claim": "愿意被人当成蠢人，能让你更快学习、做出正确决定并发现高回报的点子，收益远大于被评判的代价；多数人其实在回避这一点。",
+     "named_concept": "Willingness to look stupid",
+     "share_reason": "说出了不怕显得愚蠢的巨大好处，并让人反思自己是否在回避，有共鸣。",
+     "emotion": "inspiration"
+    },
+    "cold": {
+     "url": "https://danluu.com/voyager-story/",
+     "hn_title": "Finding the Story",
+     "points": 1,
+     "core_claim": "系列剧的结构让角色无法改变，也浪费已有元素；好故事应围绕主角必须做出的艰难决定，而非技术性解决。",
+     "named_concept": "decision story vs. story of achievement",
+     "share_reason": "对编剧和故事结构的犀利分析，用《星际迷航》重写剧情很有启发。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "danluu-2",
+    "hot": {
+     "url": "http://danluu.com/programmer-moneyball/",
+     "hn_title": "We only hire the trendiest",
+     "points": 1615,
+     "core_claim": "公司只追逐履历光鲜的“潮人”，是在与财力雄厚的巨头争抢同一小撮人，既昂贵又错失被低估的人才；应靠低估人才、培训和更好的工具流程取胜。",
+     "named_concept": "trendy resume / hiring \"your type\" (Moneyball vs. trainingball)",
+     "share_reason": "说出了程序员招聘中只看光鲜履历的荒谬，转发给同样被筛掉或在招人的同行。",
+     "emotion": "anger"
+    },
+    "cold": {
+     "url": "https://danluu.com/su3su2u1/physics/",
+     "hn_title": "A Roundabout Approach to Quantum Mechanics",
+     "points": 1,
+     "core_claim": "量子力学可用路径求和来理解：光走最短时间路径，粒子走最小作用量路径，量子粒子则对所有路径按作用量相位求和，经典结果是相消后的残余。",
+     "named_concept": "path of least action / semi-classical path sum",
+     "share_reason": "用路径求和直观讲清量子力学，对物理爱好者是少见的清晰入门。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "danluu-3",
+    "hot": {
+     "url": "https://danluu.com/web-bloat/",
+     "hn_title": "The web sucks if you have a slow connection",
+     "points": 1269,
+     "core_claim": "网页臃肿让慢速网络用户几乎无法使用大部分网站；“页面体积不重要”是谬论，开发者应测试慢速连接并做简单优化。",
+     "named_concept": "The average user fallacy",
+     "share_reason": "用实测数据证明网页臃肿让慢网用户被抛弃，开发者转发可显得内行。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "http://danluu.com/gfw-ddos-astroturfing",
+     "hn_title": "What's up with Chinese DDoS astroturfing?",
+     "points": 5,
+     "core_claim": "中国政府否认参与DDoS的水军评论既明显又适得其反：它们暗示防火墙无能，还暴露宣传行为，且水军收入远高于博客广告。",
+     "named_concept": "",
+     "share_reason": "对水军经济学的犀利观察：宣传收入远超博客广告，并指出其自相矛盾。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "danwang-1",
+    "hot": {
+     "url": "http://danwang.co/why-so-few-computer-science-majors?idk",
+     "hn_title": "Why do so few people major in computer science?",
+     "points": 424,
+     "core_claim": "尽管计算机专业薪资高、行业地位高，美国CS本科毕业生十年几乎没增长，常见的十一种解释都不能完全说服人，这仍是个谜。",
+     "named_concept": "",
+     "share_reason": "用数据提出反直觉谜题，逐条检验常见解释，适合讨论和展示见识。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://danwang.co/how-technology-grows/",
+     "hn_title": "How Technology Grows",
+     "points": 3,
+     "core_claim": "技术进步的核心是工人与工程社群积累的过程性知识,而非工具或说明书;美国应重振工业、追求高增长与乐观,而不是只押注数字与服务业。",
+     "named_concept": "process knowledge(过程性知识)/ communities of engineering practice",
+     "share_reason": "用“过程性知识”重新定义技术进步,为工业与高增长辩护,论证有见识、引用丰富。",
+     "emotion": "inspiration"
+    }
+   },
+   {
+    "pair": "danwang-2",
+    "hot": {
+     "url": "https://danwang.co/2025-letter/",
+     "hn_title": "2025 Letter",
+     "points": 398,
+     "core_claim": "硅谷与中共同样严肃封闭、迷恋“决定性战略优势”；美国低估了中国的工业与技术实力，应“赢得AI未来”而非赢AI竞赛。",
+     "named_concept": "soft Leninism(硅谷的软列宁主义)",
+     "share_reason": "机智比较硅谷与中共，并对AI竞赛和中国科技崛起给出有见地的反共识判断。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://danwang.co/space-and-military-experiments-in-the-sixties/",
+     "hn_title": "Space and military experiments in the sixties, and what we’ve lost",
+     "points": 1,
+     "core_claim": "六十年代政府和社会敢于做激进、后果不确定的实验，推动了技术飞跃；如今过度的预防原则让我们失去了这种冒险与接纳新发明的精神。",
+     "named_concept": "",
+     "share_reason": "用星鱼计划等惊人史实，引发对如今过度谨慎、创新停滞的反思。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "danwang-3",
+    "hot": {
+     "url": "https://danwang.co/2021-letter/",
+     "hn_title": "2021 Letter",
+     "points": 388,
+     "core_claim": "中国三大城市群性格迥异：北京重权力与意识形态，上海重商业宜居，深圳重赚钱；2021年监管风暴旨在把人才资本导向硬科技，但会窒息文化创造。",
+     "named_concept": "Summer storm(夏季风暴)/Prophets, not pragmatists",
+     "share_reason": "对中国城市性格与监管风暴的见解犀利有趣，转发显得懂中国。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://danwang.co/covid-observations-from-beijing-march/",
+     "hn_title": "Covid Observations from Beijing, March 11",
+     "points": 2,
+     "core_claim": "北京的疫情防控虽严但生活物资正常、趋势向好；各国因政治化解读而麻痹大意，应认真准备并借鉴WHO建议。",
+     "named_concept": "",
+     "share_reason": "疫情初期来自北京的一线观察，细节具体，并反驳了政治化解读。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "danwang-4",
+    "hot": {
+     "url": "https://danwang.co/2022-letter/",
+     "hn_title": "2022 letter on life in China",
+     "points": 262,
+     "core_claim": "2022年中国经历清零封控、抗议与骤然放开；云南山区自古是躲避国家管控的避难所，作者以亲身见闻与斯科特理论回望这一年。",
+     "named_concept": "",
+     "share_reason": "亲历者对上海封城、抗议与放开的细致一手记录，加上云南山地文化的独特视角。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://danwang.co/technological-momentum/",
+     "hn_title": "China notes, July '23: on technological momentum",
+     "points": 4,
+     "core_claim": "经济放缓与政治收紧不会立刻终止中国的技术势头,制造业生态仍在积累复杂度,但习近平的集权与自上而下的科技路线可能最终扼杀这一势头。",
+     "named_concept": "technological momentum",
+     "share_reason": "对中国科技前景给出细致平衡的判断,有数据和例子,转发者显得懂中国与科技竞争。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "eugenewei-1",
+    "hot": {
+     "url": "https://www.eugenewei.com/blog/2020/8/3/tiktok-and-the-sorting-hat",
+     "hn_title": "TikTok and the Sorting Hat",
+     "points": 332,
+     "core_claim": "TikTok 的推荐算法能把文化抽象掉、绕过「文化无知之幕」，被动构建兴趣图谱，让不懂当地文化的团队也能征服海外市场。",
+     "named_concept": "veil of cultural ignorance（文化无知之幕）；TikTok's algorithm is the Sorting Hat；interest graph vs social graph",
+     "share_reason": "用算法抽象文化、兴趣图谱取代社交图谱的框架很有洞见，结尾印地语新闻应用的故事令人难忘。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://www.eugenewei.com/blog/2019/11/4/status-update",
+     "hn_title": "Status Update, and How Everyone IPO'd in the 21st Century",
+     "points": 1,
+     "core_claim": "社交网络让数十亿人把私人生活与想法“公开上市”，带来曝光红利，也带来取消文化式的公开审判与不安，人们因此退回私域。",
+     "named_concept": "Everyone IPO'd（人人上市：个人即公开公司/个人品牌）",
+     "share_reason": "“人人上市”的比喻精准点出了社交媒体公开生活的代价，转发显得有洞见。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "eugenewei-2",
+    "hot": {
+     "url": "https://www.eugenewei.com/blog/2021/9/29/and-you-will-know-us-by-the-company-we-keep",
+     "hn_title": "And you will know us by the company we keep",
+     "points": 280,
+     "core_claim": "西方社交应用把内容信息流建在社交图谱上，导致图谱设计错误难以逆转；下一代产品应把图谱设计当作核心学科，主动设计而非放任。",
+     "named_concept": "graph design(图谱设计问题)",
+     "share_reason": "提供了理解社交产品为何衰退的清晰框架，转发显得内行，对做产品的人有启发。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://www.eugenewei.com/blog/2022/2/23/my-favorite-movies-of-2021",
+     "hn_title": "My Favorite Movies of 2021",
+     "points": 3,
+     "core_claim": "电影推荐难以被算法取代；片方应以丰富而非稀缺的思路改革发行窗口；别去喂养社交媒体的\"Discourse\"；并借年度佳片探讨后现代自由的困境。",
+     "named_concept": "Discourse",
+     "share_reason": "观点密集、有品味的影评，兼谈算法、发行窗口与网络争吵，让转发者显得有见识。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "eugenewei-3",
+    "hot": {
+     "url": "http://www.eugenewei.com/blog/2013/10/25/amazon-and-the-profitless-business-model-narrative",
+     "hn_title": "Amazon and the \"profitless business model\" fallacy",
+     "points": 231,
+     "core_claim": "亚马逊并非无利润商业模式：多数交易本身盈利，账面亏损源于为更大规模持续投入固定成本（物流中心、AWS），是主动选择而非模式缺陷。",
+     "named_concept": "profitless business model fallacy",
+     "share_reason": "前亚马逊员工从内部视角反驳“亚马逊不赚钱”的流行说法，给出清晰的固定成本逻辑。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "http://www.eugenewei.com/blog/2015/3/26/the-live-streaming-timeline",
+     "hn_title": "Here's how the live streaming space will play out",
+     "points": 1,
+     "core_claim": "新媒介的兴起有可预见的历史套路：早期失败、冬眠、爆发、反弹、巨头入场、明星出现、主流化；直播与VR直播也会如此。",
+     "named_concept": "",
+     "share_reason": "用幽默的虚构时间线预测直播走向，科技圈读者觉得内行又好笑。",
+     "emotion": "amusement"
+    }
+   },
+   {
+    "pair": "gwern-1",
+    "hot": {
+     "url": "https://gwern.net/blog/2026/make-me-care",
+     "hn_title": "First, make me care",
+     "points": 813,
+     "core_claim": "非虚构写作失败常因开头铺背景而非钩子；应找出让主题有趣的那个反常或问题，先抛出来引发好奇，再补背景并兑现承诺。",
+     "named_concept": "First, make me care",
+     "share_reason": "给写作者一条简单可用的开头原则，并配威尼斯正反示例，直观易懂。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://gwern.net/interview-inkhaven",
+     "hn_title": "Adam Mastroianni of Experimental History Interviews Gwern (2025)",
+     "points": 6,
+     "core_claim": "好点子来自长期好奇、记录和积累；产出差距源于流水线每一步完成率的小优势累积，关键是把事情做完并写下来。",
+     "named_concept": "the pipeline",
+     "share_reason": "写作者想知道Gwern如何产生点子、完成作品，可直接借鉴的方法很多。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "gwern-2",
+    "hot": {
+     "url": "https://www.gwern.net/zeo/CO2",
+     "hn_title": "On whether changes in bedroom CO2 levels affect sleep quality",
+     "points": 576,
+     "core_claim": "卧室紧闭会使夜间CO2飙升至约3000ppm，开门可降至约1400ppm；作者用随机自我实验检验这是否影响睡眠质量。",
+     "named_concept": "",
+     "share_reason": "严谨的自我实验结合结构方程模型，对睡眠与室内CO2感兴趣的人可借鉴方法与数据。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://www.gwern.net/Danbooru2017",
+     "hn_title": "Danbooru2017: a new dataset of 2.94m anime images (1.9tb) with 77.5m tags",
+     "points": 6,
+     "core_claim": "Danbooru系列是大规模、带丰富标签、可公开分发的动漫插画数据集，适合训练多标签分类与图像生成，且应优先改进元数据质量而非增加图片数量。",
+     "named_concept": "",
+     "share_reason": "机器学习研究者可获取一个大型公开带标签动漫图像数据集及相关模型资源汇总。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "gwern-3",
+    "hot": {
+     "url": "https://www.gwern.net/Death-Note-Anonymity",
+     "hn_title": "Death Note: L, Anonymity and Eluding Entropy (2017)",
+     "points": 525,
+     "core_claim": "用信息论以比特量化《死亡笔记》中夜神月每次失误泄露的匿名性，最大失误是利用警方机密，并说明随机化才是防止未知泄露的办法。",
+     "named_concept": "Detective Stories As Optimization Problems",
+     "share_reason": "用信息论拆解动漫剧情，角度新奇，兼有去匿名化的真实案例，显得内行。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://www.gwern.net/Danbooru2018",
+     "hn_title": "Danbooru2018: a new dataset of 3.33m anime images with 93m tags",
+     "points": 3,
+     "core_claim": "Danbooru系列数据集规模大、标签丰富、非照片风格，是训练多标签分类、生成模型的理想公开数据集，且改进元数据比增加图片更划算。",
+     "named_concept": "",
+     "share_reason": "机器学习研究者可直接获取大型动漫标注数据集及配套模型与工具资源。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "joelonsoftware-1",
+    "hot": {
+     "url": "http://www.joelonsoftware.com/items/2013/07/22.html",
+     "hn_title": "Victory Lap for Ask Patents",
+     "points": 1075,
+     "core_claim": "软件专利大多低质，普通程序员花15分钟在Ask Patents上提交在先技术就能阻止烂专利，应该行动而不是抱怨。",
+     "named_concept": "",
+     "share_reason": "展示普通开发者15分钟就能击毙微软烂专利，并号召大家参与。",
+     "emotion": "inspiration"
+    },
+    "cold": {
+     "url": "http://www.joelonsoftware.com/items/2007/01/21.html",
+     "hn_title": "The Big Picture (2007)",
+     "points": 1,
+     "core_claim": "大脑总以为自己掌握了全局，软件项目若凭模糊的宏大愿景、不先具体设计就组队开干，必然空转失败，Chandler就是例子。",
+     "named_concept": "The Big Picture（大脑像缺页机制，高估自己对全局的理解）",
+     "share_reason": "用眼睛缺页机制作类比，幽默犀利地点出软件项目缺乏具体设计的通病。",
+     "emotion": "amusement"
+    }
+   },
+   {
+    "pair": "joelonsoftware-2",
+    "hot": {
+     "url": "https://www.joelonsoftware.com/2016/12/09/developers-side-projects/",
+     "hn_title": "Developers’ side projects",
+     "points": 1052,
+     "core_claim": "几乎所有软件公司都会通过合同在法律上主张拥有员工的业余发明；各州法律的例外条款含糊不清，实际取决于管理层是否执法。",
+     "named_concept": "",
+     "share_reason": "给程序员讲清楚业余项目的归属陷阱，转给有副业的同事做提醒。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://www.joelonsoftware.com/2004/12/15/camels-and-rubber-duckies/",
+     "hn_title": "Camels and Rubber Duckies (or How to Price Your Software)",
+     "points": 5,
+     "core_claim": "软件定价的经济理论（需求曲线、细分、攫取消费者剩余）在现实中多半行不通；价格是信号，需求曲线无从测量，低价可视为对未来口碑的投资。",
+     "named_concept": "consumer surplus / 低价即广告投资",
+     "share_reason": "用幽默讲透定价理论与现实的落差，创业者和开发者都能获得实用启发。",
+     "emotion": "amusement"
+    }
+   },
+   {
+    "pair": "joelonsoftware-3",
+    "hot": {
+     "url": "http://joelonsoftware.com/items/2016/05/30.html",
+     "hn_title": "HyperDev – Developer Playground for Full-Stack Web Apps",
+     "points": 473,
+     "core_claim": "HyperDev 能让你零配置、无需账号和Git，即刻写代码并实时部署上线，消除简单项目的起步门槛。",
+     "named_concept": "",
+     "share_reason": "Joel 发布新产品，演示式导览生动，开发者想试用并分享这个零配置的在线编程环境。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "http://www.joelonsoftware.com/items/2006/12/05.html",
+     "hn_title": "(2006) Lego Programming",
+     "points": 2,
+     "core_claim": "媒体每隔几年就把“拼乐高式编程”吹成让编程变简单的突破,但正如布鲁克斯所言,软件本质困难,没有银弹。",
+     "named_concept": "",
+     "share_reason": "用1991年与2006年报道对比,讽刺媒体反复吹捧编程银弹,程序员会心一笑。",
+     "emotion": "amusement"
+    }
+   },
+   {
+    "pair": "jvns-1",
+    "hot": {
+     "url": "https://jvns.ca/blog/2023/10/06/new-talk--making-hard-things-easy/",
+     "hn_title": "Making Hard Things Easy",
+     "points": 1134,
+     "core_claim": "技术上“基础”的东西难学不是你个人的问题，而是有共同原因（琐碎陷阱、庞大实现、隐藏系统、糟糕输出），可通过工具、小清单、时间线和分享经验来降低难度。",
+     "named_concept": "eraser eyes(橡皮擦眼)/turn a big list into a small list",
+     "share_reason": "说出了学技术“总觉得是自己笨”的共同感受，并给出可用的具体方法和工具。",
+     "emotion": "inspiration"
+    },
+    "cold": {
+     "url": "https://jvns.ca/blog/2023/03/31/zine-feedback-site/",
+     "hn_title": "Building a custom site for zine feedback",
+     "points": 1,
+     "core_claim": "用带分类标签的专用反馈网站收集测试读者意见，能让反馈更易行动、易管理，并显著提升作品质量。",
+     "named_concept": "",
+     "share_reason": "想改进创作反馈流程的创作者可借鉴其分类设计和实际经验。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "jvns-2",
+    "hot": {
+     "url": "https://jvns.ca/blog/2020/07/14/when-your-coworker-does-great-work-tell-their-manager/",
+     "hn_title": "When your coworker does great work, tell their manager",
+     "points": 1074,
+     "core_claim": "同事做出出色工作时，先征得同意再告诉其经理，要具体说明影响，这能帮助被低估的人获得认可和晋升。",
+     "named_concept": "",
+     "share_reason": "一个简单可行的做法，能帮同事获得认可，值得推荐给团队。",
+     "emotion": "inspiration"
+    },
+    "cold": {
+     "url": "https://jvns.ca/blog/compensation-questions/",
+     "hn_title": "Questions you can ask about compensation",
+     "points": 6,
+     "core_claim": "不必直接要钱，先通过提问弄清公司薪酬流程，才能知道在哪里施加影响、为自己或集体争取更多。",
+     "named_concept": "",
+     "share_reason": "一份可直接拿来用的薪酬提问清单，帮人开口谈薪水又不显得直接要钱。",
+     "emotion": "inspiration"
+    }
+   },
+   {
+    "pair": "jvns-3",
+    "hot": {
+     "url": "https://jvns.ca/blog/2021/12/15/mess-with-dns/",
+     "hn_title": "Mess with DNS",
+     "points": 958,
+     "core_claim": "动手实验是学DNS的最好方式，所以作者做了Mess With DNS这个真实DNS服务器的实验场，并分享了设计、测试与后端实现的经验。",
+     "named_concept": "",
+     "share_reason": "想学DNS的人可以直接去玩这个免费的互动实验站，作者还坦诚分享了构建细节。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://jvns.ca/blog/2020/12/05/how-i-write-useful-programming-comics/",
+     "hn_title": "How I write useful programming comics",
+     "points": 5,
+     "core_claim": "好的编程漫画关键不在画功，而在选出令人意外的事实或最重要事项的清单，并且只写自己熟悉的主题。",
+     "named_concept": "Surprising/Hidden Fact; List of Important Things about X",
+     "share_reason": "给想写技术科普内容的人一套可操作的选题方法",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "kalzumeus-1",
+    "hot": {
+     "url": "http://www.kalzumeus.com/2017/09/09/identity-theft-credit-reports/",
+     "hn_title": "Identity Theft, Credit Reports, and You",
+     "points": 1088,
+     "core_claim": "遇到非本人开立的账户时，别打电话、别发火、别用模板，先报警，再以冷静专业、留存纸质记录的书面信件向银行和征信机构施压，就能解决。",
+     "named_concept": "Dangerous Professional",
+     "share_reason": "Equifax泄露后极实用的实战指南，幽默且洞察银行和征信机构的激励机制。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://www.kalzumeus.com/2006/08/16/to-limit-or-not-to-limit/",
+     "hn_title": "To Limit, or Not to Limit",
+     "points": 3,
+     "core_claim": "想靠卖软件赚钱就必须限制试用版，捐赠模式行不通；具体按功能还是按时间限制，取决于软件和目标用户。",
+     "named_concept": "",
+     "share_reason": "用Colin的实验和38美分的平均捐赠，有力反驳了“捐赠模式”，对独立软件开发者很实用。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "kalzumeus-2",
+    "hot": {
+     "url": "https://training.kalzumeus.com/newsletters/archive/consulting_1",
+     "hn_title": "How I went from $100-an-hour programming to $X0,000-a-week consulting",
+     "points": 1034,
+     "core_claim": "客户为业务价值而非时间付费；按周计费、用案例背书逐步提价，并谨慎扩张，程序员可把咨询做到每周数万美元。",
+     "named_concept": "",
+     "share_reason": "给程序员/自由职业者一套可操作的咨询定价与提价方法，来自亲身经验。",
+     "emotion": "inspiration"
+    },
+    "cold": {
+     "url": "https://training.kalzumeus.com/newsletters/archive/dissecting_sales_copy",
+     "hn_title": "Dissecting Great Sales Copy For Productized Consulting",
+     "points": 6,
+     "core_claim": "好的销售文案和产品化咨询靠定位成商业收益、可信度、筛选客户、具体化服务、限量与定价分层；用免费教学邮件课卖产品也很有效。",
+     "named_concept": "",
+     "share_reason": "拆解真实案例,给咨询师和独立创业者可直接借鉴的销售文案、定价与测试经验。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "kalzumeus-3",
+    "hot": {
+     "url": "http://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/",
+     "hn_title": "Don't Call Yourself a Programmer",
+     "points": 1021,
+     "core_claim": "工程师受雇是为了创造商业价值（增收或降本），而非写代码；要以所创造的价值定位自己，并重视沟通、人脉与谈判。",
+     "named_concept": "Profit Center vs Cost Center；Every job interview is Enterprise Sales",
+     "share_reason": "给年轻工程师的坦率职场真相：别只做程序员，要展示创造的商业价值。",
+     "emotion": "inspiration"
+    },
+    "cold": {
+     "url": "http://www.kalzumeus.com/2010/09/12/automatically-minimizing-javascript-and-css-with-rails/",
+     "hn_title": "Automatically Minimizing Javascript and CSS with Rails",
+     "points": 2,
+     "core_claim": "用一个猴子补丁让Rails在部署时自动压缩JS和CSS，无需手动执行rake任务，即可为用户节省约100kb。",
+     "named_concept": "",
+     "share_reason": "Rails开发者可直接照步骤套用，快速提升页面速度评分。",
+     "emotion": "none"
+    }
+   },
+   {
+    "pair": "karpathy-1",
+    "hot": {
+     "url": "http://karpathy.github.io/2026/02/12/microgpt/",
+     "hn_title": "Microgpt",
+     "points": 1936,
+     "core_claim": "200行纯Python代码就包含了训练和推理GPT的全部算法本质，其余一切只是效率问题。",
+     "named_concept": "",
+     "share_reason": "用200行无依赖Python讲透GPT全貌，简洁优美，适合学习和炫耀收藏。",
+     "emotion": "awe"
+    },
+    "cold": {
+     "url": "http://karpathy.github.io/2013/11/27/quantifying-hacker-news/",
+     "hn_title": "Quantifying Hacker News with 50 days of data (2013)",
+     "points": 1,
+     "core_claim": "作者抓取了47天的Hacker News数据，用来分析热门域名、用户、话题和最佳发帖时间，并公开代码和数据供他人复现。",
+     "named_concept": "",
+     "share_reason": "HN用户好奇自己社区的数据规律，并想要可复现的代码和方法。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "karpathy-2",
+    "hot": {
+     "url": "https://karpathy.github.io/2021/06/21/blockchain/",
+     "hn_title": "A from-scratch tour of Bitcoin in Python",
+     "points": 1208,
+     "core_claim": "比特币的核心并不神秘：用纯Python、零依赖，就能从零实现密钥生成、地址、签名并广播一笔真实交易，理解价值如何被表示和保护。",
+     "named_concept": "",
+     "share_reason": "想真正搞懂比特币底层的程序员，会转发这份从零实现的完整代码教程。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://karpathy.bearblog.dev/vibe-coding-menugen/",
+     "hn_title": "Vibe Coding MenuGen",
+     "points": 3,
+     "core_claim": "用vibe coding做出能上线的应用，本地原型很快，但部署、认证、支付等基础设施配置痛苦；服务应更对LLM友好。",
+     "named_concept": "Vibe coding",
+     "share_reason": "真实记录非网页开发者纯靠AI做出产品的过程，既好笑又对AI编程现状有洞见。",
+     "emotion": "amusement"
+    }
+   },
+   {
+    "pair": "karpathy-3",
+    "hot": {
+     "url": "http://karpathy.github.io/2015/05/21/rnn-effectiveness/",
+     "hn_title": "The Unreasonable Effectiveness of Recurrent Neural Networks",
+     "points": 913,
+     "core_claim": "循环神经网络结构简单却异常强大，仅逐字符训练就能学会生成英文、代码、LaTeX、XML等复杂结构化文本。",
+     "named_concept": "",
+     "share_reason": "用有趣的生成样本直观展示RNN的神奇，并附代码，是理解序列模型的经典入门读物。",
+     "emotion": "awe"
+    },
+    "cold": {
+     "url": "http://karpathy.github.io/2014/08/03/quantifying-productivity/",
+     "hn_title": "Quantifying Productivity",
+     "points": 4,
+     "core_claim": "用自己的电脑使用数据量化工作习惯,会发现真正高效的工作时间远比想象的少;作者为此开发了开源工具ulogme。",
+     "named_concept": "",
+     "share_reason": "想了解自己时间花在哪,或欣赏这个酷炫的开源量化自我工具和有趣数据",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "kk-1",
+    "hot": {
+     "url": "https://kk.org/thetechnium/103-bits-of-advice-i-wish-i-had-known/",
+     "hn_title": "Bits of advice I wish I had known",
+     "points": 1109,
+     "core_claim": "作者把多年写的格言式人生建议汇编成书《Excellent Advice for Living》,本文是预告,并摘出六条建议。",
+     "named_concept": "",
+     "share_reason": "简短精炼的人生格言,值得分享给年轻人或作毕业礼物参考。",
+     "emotion": "inspiration"
+    },
+    "cold": {
+     "url": "https://kk.org/cooltools/self-employment/",
+     "hn_title": "Self-Employment – Tools for Possibilities",
+     "points": 2,
+     "core_claim": "想靠专长做一人自雇的人，应追求“谋生而非暴富”：以个人增值、众多小客户、不碰专利、保持小规模现金流。",
+     "named_concept": "Reversed Cash Flow (ReF)",
+     "share_reason": "为想自雇的人提供反“暴富创业”的实用原则，并附免费书籍。",
+     "emotion": "inspiration"
+    }
+   },
+   {
+    "pair": "kk-2",
+    "hot": {
+     "url": "https://kk.org/thetechnium/how-will-the-miracle-happen-today/",
+     "hn_title": "How will the miracle happen today?",
+     "points": 542,
+     "core_claim": "陌生人的善意可靠地存在,只要你愿意放下自足、坦然接受帮助;生命本身就是未经挣得的礼物,感恩而非希望才是信仰的根基。",
+     "named_concept": "kindee(被善待者)/ How will the miracle happen today?",
+     "share_reason": "用搭便车和旅途中陌生人善意的故事,提醒人们学会接受帮助、心怀感恩。",
+     "emotion": "inspiration"
+    },
+    "cold": {
+     "url": "https://kk.org/thetechnium/the-trust-quotient-tq/",
+     "hn_title": "The Trust Quotient (TQ)",
+     "points": 2,
+     "core_claim": "随着AI代理获得自主权,信任(尤其是机器对机器的信任)将被拆解、量化,代理的信任商数TQ将比智商IQ更重要。",
+     "named_concept": "Trust Quotient (TQ)",
+     "share_reason": "提出TQ这个易记框架,预判AI代理时代信任比智力更关键。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "kk-3",
+    "hot": {
+     "url": "https://kk.org/thetechnium/68-bits-of-unsolicited-advice/",
+     "hn_title": "68 Bits of Unsolicited Advice",
+     "points": 477,
+     "core_claim": "作者把写给成年子女的68条人生建议扩展成一本书《Excellent Advice for Living》,本文展示前五条并推销该书。",
+     "named_concept": "",
+     "share_reason": "简短精炼的人生建议可直接借用,转发给朋友或晚辈当作箴言。",
+     "emotion": "inspiration"
+    },
+    "cold": {
+     "url": "https://kk.org/cooltools/free-tax-softwareshort-bits-of-advicehow-to-load-a-dishwasher/",
+     "hn_title": "Free Tax Software",
+     "points": 1,
+     "core_claim": "IRS官方提供免费报税软件,被付费厂商的广告淹没;另附若干实用小建议和小工具推荐。",
+     "named_concept": "",
+     "share_reason": "有省钱实用的小窍门,比如免费报税入口和修喷漆罐,值得告诉朋友。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "lethain-1",
+    "hot": {
+     "url": "https://lethain.com/staff-engineer-archetypes/",
+     "hn_title": "Staff Engineer Archetypes (2020)",
+     "points": 367,
+     "core_claim": "Staff级工程师并非单一角色，而是可分为Team Lead、Architect、Solver、Right Hand四种原型，各自出现于不同规模和文化的公司。",
+     "named_concept": "Staff engineer archetypes: Team Lead, Architect, Solver, Right Hand",
+     "share_reason": "给模糊的Staff工程师角色提供清晰分类，便于职业规划和与同事讨论。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://lethain.com/product-management-infra-engineering/",
+     "hn_title": "Product Management in Infrastructure Engineering",
+     "points": 3,
+     "core_claim": "基础设施团队走出维护期后，应把发现与优先级评估分开，广泛收集需求，按70/30分配精力，并以怀疑态度尽早低成本验证方案。",
+     "named_concept": "Foundation to Innovation",
+     "share_reason": "给基础设施团队转向产品思维提供了可直接套用的框架和做法。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "lethain-2",
+    "hot": {
+     "url": "https://lethain.com/hard-to-work-with/",
+     "hn_title": "Hard to work with",
+     "points": 366,
+     "core_claim": "对同事要求比组织愿意执行的标准更高,会被经理把绩效问题改写成人际问题,反而让自己被贴上\"难合作\"标签;更有效的是用建设性能量推动正向结果。",
+     "named_concept": "",
+     "share_reason": "说出了职场中高标准者被贴\"难合作\"标签的真实困境,并给出务实建议。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://lethain.com/performance-compensation-process-exec/",
+     "hn_title": "Performance and Compensation (For Eng Execs)",
+     "points": 2,
+     "core_claim": "绩效与薪酬体系天生存在各方目标冲突，没有完美方案；工程高管应追求有效而非完美的流程，并清楚其中的权衡与陷阱。",
+     "named_concept": "compa ratio",
+     "share_reason": "给工程管理者提供了清晰实用的绩效校准与薪酬框架，可直接参考。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "lethain-3",
+    "hot": {
+     "url": "https://lethain.com/career-advice-2025/",
+     "hn_title": "Career Advice in 2025",
+     "points": 307,
+     "core_claim": "2025年科技求职市场艰难且不是针对个人;资深管理者技能被贬值、LLM转型使旧经验失效,不建议置身事外,应更努力让现职有价值。",
+     "named_concept": "",
+     "share_reason": "为同样在艰难就业市场中挣扎的科技从业者提供了现实、不空洞的处境解读。",
+     "emotion": "anxiety"
+    },
+    "cold": {
+     "url": "https://lethain.com/eng-exec-role-in-hiring/",
+     "hn_title": "The Engineering executive’s role in hiring",
+     "points": 2,
+     "core_claim": "工程高管应把招聘流程做得有效而非完美，重点是监控与调试流程、帮助关键候选人入职、集中管控职级薪酬与名额，并在必要时权衡打破流程。",
+     "named_concept": "flying wedge",
+     "share_reason": "给工程管理者一套可直接套用的招聘流程搭建与排查清单，附具体阈值。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "marginalrevolution-1",
+    "hot": {
+     "url": "https://marginalrevolution.com/marginalrevolution/2024/08/jake-seliger-is-dead.html",
+     "hn_title": "Jake Seliger has died",
+     "points": 960,
+     "core_claim": "Jake Seliger是一位思想深刻、毫不矫饰的作家,他因癌症去世;请读他的文章并支持其妻女。",
+     "named_concept": "",
+     "share_reason": "悼念一位作家,并帮助支持他怀孕的妻子和即将出生的女儿。",
+     "emotion": "sadness"
+    },
+    "cold": {
+     "url": "https://marginalrevolution.com/marginalrevolution/2023/03/capabilities-of-gpt-4-on-medical-challenge-problems.html",
+     "hn_title": "Capabilities of GPT-4 on Medical Challenge Problems",
+     "points": 3,
+     "core_claim": "GPT-4 未经医学专门训练,在USMLE上超过及格线20分以上,优于GPT-3.5和医学微调模型,且校准更好。",
+     "named_concept": "",
+     "share_reason": "想快速了解GPT-4医学考试表现的原始论文及摘要。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "marginalrevolution-2",
+    "hot": {
+     "url": "http://marginalrevolution.com/marginalrevolution/2018/01/get-jail-free-cards.html",
+     "hn_title": "“Get Out of Jail Free” Cards in New York",
+     "points": 621,
+     "core_claim": "纽约警察工会发放的“免罪卡”是制度化腐败，权贵与亲友享有特权，法律对统治者与被统治者标准不一。",
+     "named_concept": "",
+     "share_reason": "没想到纽约竟有分金银等级、还能在eBay买卖的官方免罪卡，令人震惊。",
+     "emotion": "anger"
+    },
+    "cold": {
+     "url": "https://marginalrevolution.com/marginalrevolution/2018/08/conversation-michael-pollan.html",
+     "hn_title": "Michael Pollan on the Science and Sublimity of Psychedelics",
+     "points": 1,
+     "core_claim": "迷幻药带来的\"深刻感\"可能是对熟悉事物重新赋予分量，但它并不好玩，也不让人想反复使用；深刻与平庸的界线比想象的细。",
+     "named_concept": "",
+     "share_reason": "Tyler Cowen与Michael Pollan关于迷幻药、深刻感与\"是否好玩\"的有趣对谈，值得一听。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "marginalrevolution-3",
+    "hot": {
+     "url": "https://marginalrevolution.com/marginalrevolution/2021/02/half-doses-of-moderna-produce-neutralizing-antibodies.html",
+     "hn_title": "Half Doses of Moderna Vaccine Produce Neutralizing Antibodies",
+     "points": 339,
+     "core_claim": "Moderna二期试验显示半剂量(50μg)与全剂量产生相当的中和抗体，减半剂量等于让产能翻倍，应尽快采用剂量节省策略。",
+     "named_concept": "",
+     "share_reason": "疫苗供应紧张时，半剂量有效的新证据可加快接种，值得转发。",
+     "emotion": "inspiration"
+    },
+    "cold": {
+     "url": "https://marginalrevolution.com/marginalrevolution/2019/03/the-daily-beast-hit-job-on-amazon.html",
+     "hn_title": "The Daily Beast Hit Piece on Amazon",
+     "points": 2,
+     "core_claim": "每日野兽关于亚马逊仓库心理问题的报道缺乏分母和基准率，按粗略估算，这些数字对大型雇主并不异常，是政治化的宣传。",
+     "named_concept": "",
+     "share_reason": "用基准率估算拆穿煽情报道，转发者显得理性、懂统计。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "marginalrevolution-4",
+    "hot": {
+     "url": "https://marginalrevolution.com/marginalrevolution/2025/08/the-war-on-roommates-why-is-sharing-a-house-illegal.html",
+     "hn_title": "Restrictions on house sharing by unrelated roommates",
+     "points": 311,
+     "core_claim": "美国各地的分区和建筑法规摧毁了单间出租房等最低成本住房，最简单的改革是取消对非亲属合租人数的限制。",
+     "named_concept": "",
+     "share_reason": "用皮尤研究的数据说明住房管制如何推高成本，支持放宽合租限制的主张。",
+     "emotion": "anger"
+    },
+    "cold": {
+     "url": "https://marginalrevolution.com/marginalrevolution/2025/10/predicting-job-loss.html",
+     "hn_title": "Predicting Job Loss?",
+     "points": 1,
+     "core_claim": "美国劳工统计局80年的职业展望预测尚可，但只比简单的十年增长外推好一点，所以工作是缓慢消失的，AI岗位预测也难有多大改进。",
+     "named_concept": "",
+     "share_reason": "用实证提醒人们：AI裁员预测未必比简单外推更准，工作消失很慢。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "martinfowler-1",
+    "hot": {
+     "url": "https://martinfowler.com/bliki/MonolithFirst.html",
+     "hn_title": "Monolith First (2015)",
+     "points": 820,
+     "core_claim": "成功的微服务案例几乎都始于单体后再拆分，新项目应先做单体，因为微服务有额外成本且早期难划好服务边界。",
+     "named_concept": "Monolith First",
+     "share_reason": "为“先单体后微服务”提供权威简洁的论据，可在架构讨论中引用。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://martinfowler.com/bliki/ContinuousIntegrationCertification.html",
+     "hn_title": "ContinuousIntegrationCertification",
+     "points": 3,
+     "core_claim": "真正的持续集成要求每人每天向共享主干提交、每次提交触发自动构建测试、失败十分钟内恢复；仅在特性分支上跑CI服务器只是“CI表演”。",
+     "named_concept": "CI theater",
+     "share_reason": "三个问题就能检验团队是否真在做CI，简洁好用，转发给同事自查。",
+     "emotion": "amusement"
+    }
+   },
+   {
+    "pair": "martinfowler-2",
+    "hot": {
+     "url": "https://martinfowler.com/architecture/",
+     "hn_title": "Software Architecture Guide",
+     "points": 803,
+     "core_claim": "架构就是\"重要的东西\"，好架构支持自身演进，高内部质量能让交付更快而非更慢。",
+     "named_concept": "",
+     "share_reason": "软件架构的权威导览，汇集大量经典文章，适合收藏和推荐给同行。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://martinfowler.com/articles/gateway-pattern.html",
+     "hn_title": "Gateway Pattern",
+     "points": 4,
+     "core_claim": "用网关封装外部系统的别扭接口，把外部词汇翻译成自身领域词汇，既简化代码也便于测试替身和替换。",
+     "named_concept": "Gateway",
+     "share_reason": "清晰权威的设计模式参考，可直接分享给同事讲解封装外部依赖与测试替身。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "martinfowler-3",
+    "hot": {
+     "url": "https://martinfowler.com/bliki/TechnicalDebt.html",
+     "hn_title": "Technical Debt",
+     "points": 610,
+     "core_claim": "技术债是个有用的隐喻：多出的工作量就是利息，宜在频繁改动的区域逐步还本；为赶进度而牺牲内部质量往往几周内就得不偿失。",
+     "named_concept": "Technical Debt",
+     "share_reason": "用债务隐喻清晰解释了代码质量取舍，可拿来向团队和管理层说明为何要还技术债。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "http://martinfowler.com/bliki/RulesEngine.html",
+     "hn_title": "Should I use a Rules Engine?",
+     "points": 2,
+     "core_claim": "规则引擎产品的隐式流程和链式推理难以理解和维护，应把规则限制在狭窄上下文，优先考虑自建领域专用方案。",
+     "named_concept": "",
+     "share_reason": "给开发者一个审慎看待规则引擎的清晰判断和实用启发式。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "mattstoller-1",
+    "hot": {
+     "url": "https://mattstoller.substack.com/p/wework-and-counterfeit-capitalism",
+     "hn_title": "WeWork and Counterfeit Capitalism",
+     "points": 1158,
+     "core_claim": "WeWork 是“伪资本主义”的典型：资本市场持续给亏损公司输血、搞掠夺性定价和自我交易，应恢复反掠夺定价法与公开披露等制度来遏制。",
+     "named_concept": "Counterfeit Capitalism",
+     "share_reason": "用尖锐幽默的笔调把 WeWork 崩塌上升为对资本市场与垄断的批判，提供了现成的分析框架。",
+     "emotion": "anger"
+    },
+    "cold": {
+     "url": "https://mattstoller.substack.com/p/one-benefit-of-bidens-capital-gains",
+     "hn_title": "One Benefit of Biden's Capital Gains Tax Hike: Fewer Mergers",
+     "points": 2,
+     "core_claim": "拜登提高资本利得税会因并购主要税负是资本利得而减少并购，尤其打击用现金收购的私募股权，这是件好事。",
+     "named_concept": "",
+     "share_reason": "从反垄断角度看资本利得税的角度新颖，有研究支撑，适合政策讨论时转发。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "mattstoller-2",
+    "hot": {
+     "url": "https://mattstoller.substack.com/p/amazon-primes-free-shipping-promise",
+     "hn_title": "Amazon Prime inflates prices, using the false promise of ‘free shipping’",
+     "points": 1057,
+     "core_claim": "亚马逊Prime的“免运费”是假象：高额卖家费用被摊进全网商品价格，华盛顿特区反垄断诉讼若胜诉将瓦解这一模式。",
+     "named_concept": "",
+     "share_reason": "揭示Prime“免运费”其实由消费者全网买单，颠覆认知，转发显得内行。",
+     "emotion": "anger"
+    },
+    "cold": {
+     "url": "https://mattstoller.substack.com/p/whats-coming-in-2023-on-the-monopoly",
+     "hn_title": "What's Coming in 2023 on the Monopoly Front?",
+     "points": 1,
+     "core_claim": "2022年反垄断执法变得真实，并购受阻；2023年执法将大幅升级，催生新法律体系，华尔街和共和党建制派将反扑。",
+     "named_concept": "",
+     "share_reason": "年终盘点加预测，让关注反垄断的人看到趋势和作者影响力。",
+     "emotion": "inspiration"
+    }
+   },
+   {
+    "pair": "mattstoller-3",
+    "hot": {
+     "url": "https://www.thebignewsletter.com/p/judge-rules-apple-executive-lied",
+     "hn_title": "Judge rules Apple executive lied under oath, makes criminal contempt referral",
+     "points": 1036,
+     "core_claim": "法官认定苹果高管作证撒谎并移交刑事藐视调查,同时反垄断法案被撤回,反垄断运动持续取得意想不到的胜利。",
+     "named_concept": "",
+     "share_reason": "想分享苹果高管被指作伪证、反垄断取得罕见胜利的重磅消息,并附法官原话。",
+     "emotion": "inspiration"
+    },
+    "cold": {
+     "url": "https://www.thebignewsletter.com/p/monopoly-round-up-after-spacex-goes",
+     "hn_title": "After SpaceX Goes Public, Does the Stock Market Fall?",
+     "points": 9,
+     "core_claim": "SpaceX的IPO存在操纵嫌疑，AI按token计费使企业开始收缩开支，两者都显示股市与AI泡沫可能接近顶部。",
+     "named_concept": "SpaceX the company vs. SpaceX the stock",
+     "share_reason": "观点尖锐，揭露SpaceX IPO和AI定价的泡沫风险，转发显得有见识。",
+     "emotion": "anxiety"
+    }
+   },
+   {
+    "pair": "mattstoller-4",
+    "hot": {
+     "url": "https://mattstoller.substack.com/p/why-taxpayers-pay-mckinsey-3m-a-year",
+     "hn_title": "Why Taxpayers Pay McKinsey $3M a Year for a Recent College Graduate Contractor",
+     "points": 781,
+     "core_claim": "政府向麦肯锡支付天价，根源是GSA的“行业资金费”制度让采购机构靠多花钱获利，该制度始于克林顿时期，应取消。",
+     "named_concept": "Industrial Funding Fee",
+     "share_reason": "揭示政府为何高价雇麦肯锡的制度性内幕，数字惊人且有愤怒点。",
+     "emotion": "anger"
+    },
+    "cold": {
+     "url": "https://mattstoller.substack.com/p/take-the-profit-out-of-political",
+     "hn_title": "Take the Profit Out of Political Violence",
+     "points": 2,
+     "core_claim": "审查不是正解；应取消第230条对靠广告盈利平台的豁免，让其为助长暴力与激进化的商业模式承担责任，同时解决垄断问题。",
+     "named_concept": "",
+     "share_reason": "跳出审查与否的二元争论,提出以改革第230条、取消广告盈利激励来应对政治暴力的思路。",
+     "emotion": "anger"
+    }
+   },
+   {
+    "pair": "mrmoneymustache-1",
+    "hot": {
+     "url": "http://www.mrmoneymustache.com/2014/03/11/mmm-receives-legal-threats-great-lawyer-wanted/",
+     "hn_title": "MMM Receives Legal Threats",
+     "points": 309,
+     "core_claim": "面对公司用无理法律威胁压制言论，应公开曝光、众包寻找律师反击，而不是屈服；威胁越压制，传播越广。",
+     "named_concept": "Streisand Effect",
+     "share_reason": "小博主被公司律师恐吓后公开反击、众包找律师，过程痛快又涉及言论自由，值得声援转发。",
+     "emotion": "anger"
+    },
+    "cold": {
+     "url": "http://www.mrmoneymustache.com/2013/03/20/we-are-back-and-better-than-ever/",
+     "hn_title": "We are Back, and Better than Ever [The adventures of migrating WordPress]",
+     "points": 1,
+     "core_claim": "博客因流量暴增而崩溃，换了几家主机后，靠外部开发者迁到Digital Ocean才解决；不懂时外包值得。",
+     "named_concept": "",
+     "share_reason": "用幽默对话讲述网站崩溃迁移的经过，读者感同身受并表示支持。",
+     "emotion": "amusement"
+    }
+   },
+   {
+    "pair": "mrmoneymustache-2",
+    "hot": {
+     "url": "http://www.mrmoneymustache.com/2011/09/15/a-brief-history-of-the-stash-how-we-saved-from-zero-to-retirement-in-ten-years/",
+     "hn_title": "How I retired in 9 years on a corporate programmer salary",
+     "points": 294,
+     "core_claim": "靠高薪加极低开支(夫妻年花3-4万美元)和高储蓄率,普通中高收入者也能在30岁出头实现财务独立,远早于60-65岁。",
+     "named_concept": "Mr. Money Mustache / Mustachian",
+     "share_reason": "用真实年度数字展示9年提前退休路径,既励志又可对照自己的财务。",
+     "emotion": "inspiration"
+    },
+    "cold": {
+     "url": "http://www.mrmoneymustache.com/2012/05/07/what-do-you-mean-you-dont-have-a-bike/",
+     "hn_title": "What Do You Mean “You Don’t Have a Bike”?",
+     "points": 2,
+     "core_claim": "每个人都必须有一辆能用的自行车并日常骑行，它不只省钱和锻炼，还会全面改善生活，让人更有计划、更自由。",
+     "named_concept": "",
+     "share_reason": "语气夸张好笑，又给出买自行车的实用建议，适合转给总找借口不骑车的朋友。",
+     "emotion": "amusement"
+    }
+   },
+   {
+    "pair": "mrmoneymustache-3",
+    "hot": {
+     "url": "http://www.mrmoneymustache.com/2012/06/21/i-just-gave-up-4000-per-month-to-keep-my-freedom-of-speech/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+MrMoneyMustache+%28Mr.+Money+Mustache%29",
+     "hn_title": "I Just Gave Up $4000 Per Month to Keep My Freedom of Speech",
+     "points": 271,
+     "core_claim": "作者放弃每月4000美元的信用卡推荐收入,只为保留博客的用词和诚信;有了“去你的钱”才能自由表达,诚实长远会让人更富。",
+     "named_concept": "Fuck You Money",
+     "share_reason": "为原则放弃巨额收入的故事很痛快,也诠释了财务自由的真正意义。",
+     "emotion": "inspiration"
+    },
+    "cold": {
+     "url": "http://www.mrmoneymustache.com/2012/07/10/to-achieve-greatness-you-must-first-acknowledge-that-you-suck/",
+     "hn_title": "To Achieve Greatness, You Must First Acknowledge that You Suck",
+     "points": 2,
+     "core_claim": "想变得出色，先承认自己现在很糟；放弃找借口、不再当受害者，把问题框定为自己可控的事，才能开始进步。",
+     "named_concept": "Excusitis, the Failure Disease",
+     "share_reason": "提醒自己和朋友别找借口、别当受害者，坦然承认不足才能进步。",
+     "emotion": "inspiration"
+    }
+   },
+   {
+    "pair": "mrmoneymustache-4",
+    "hot": {
+     "url": "http://www.mrmoneymustache.com/2011/10/06/the-true-cost-of-commuting/",
+     "hn_title": "The True Cost of Commuting",
+     "points": 231,
+     "core_claim": "开车通勤的真实成本（金钱加时间）远高于多数人的想象，住得离工作近是从贫穷走向财务独立的最大单项杠杆。",
+     "named_concept": "",
+     "share_reason": "用具体数字算出每英里通勤每年多花795美元，颠覆“40分钟还行”的常识，值得转给通勤的朋友。",
+     "emotion": "inspiration"
+    },
+    "cold": {
+     "url": "http://www.mrmoneymustache.com/2012/09/10/top-five-percen/",
+     "hn_title": "Choose your battlefield",
+     "points": 1,
+     "core_claim": "想进入前5%不必处处拼命，关键是选对战场：在多数人不愿付出的低成本领域（走路、健身、节俭、学习）轻松胜出，而非在加班、豪车上硬拼。",
+     "named_concept": "Badassity Portfolio",
+     "share_reason": "用停车省钱的小故事点破“选对战场”的思路，轻松好懂又实用，值得推荐给朋友。",
+     "emotion": "inspiration"
+    }
+   },
+   {
+    "pair": "noahpinion-1",
+    "hot": {
+     "url": "https://www.noahpinion.blog/p/refusing-to-teach-kids-math-will",
+     "hn_title": "Refusing to teach kids math will not improve equity",
+     "points": 684,
+     "core_claim": "通过限制代数等进阶数学课来促进公平适得其反；富裕家庭会自行补课，只有公立学校多教、投入更多资源，才能真正促进公平。",
+     "named_concept": "",
+     "share_reason": "观点鲜明，并用辅导研究和达拉斯数据反驳“少教数学促公平”，适合在教育公平争论中引用。",
+     "emotion": "anger"
+    },
+    "cold": {
+     "url": "https://www.noahpinion.blog/p/the-us-would-be-insane-to-go-it-alone",
+     "hn_title": "The U.S. would be insane to go it alone on trade and manufacturing",
+     "points": 3,
+     "core_claim": "美国应与盟友深化贸易和供应链合作，而非退守“堡垒美国”；取消TPP、反对日铁收购美国钢铁都是对付错了对象，真正威胁是中国。",
+     "named_concept": "Fortress America",
+     "share_reason": "观点鲜明地批评两党保护主义，用TPP、日铁案和中国制造业数据论证联合盟友的必要。",
+     "emotion": "anger"
+    }
+   },
+   {
+    "pair": "noahpinion-2",
+    "hot": {
+     "url": "https://noahpinion.substack.com/p/honestly-its-probably-the-phones",
+     "hn_title": "Honestly, It's Probably the Phones",
+     "points": 671,
+     "core_claim": "青少年不快乐最合理的先验解释是智能手机：时间吻合、多数其他解释也依赖手机，且已有大量因果研究支持，但仍需更多证据，社会也会逐步适应。",
+     "named_concept": "",
+     "share_reason": "用清晰的先验加因果研究汇总，为“手机致青少年不快乐”提供有力论据",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://www.noahpinion.blog/p/make-work-is-not-the-future-of-work",
+     "hn_title": "Make-work is not the future of work",
+     "points": 1,
+     "core_claim": "码头工人工会罢工并要求全面禁止自动化,既危害公众又损害劳工运动形象;工人需要自动化与技能提升,而非保护无意义的工作。",
+     "named_concept": "Make-work",
+     "share_reason": "对时下码头罢工与反自动化诉求的尖锐评论,适合在争论中引用。",
+     "emotion": "anger"
+    }
+   },
+   {
+    "pair": "noahpinion-3",
+    "hot": {
+     "url": "https://noahpinion.substack.com/p/why-sri-lanka-is-having-an-economic",
+     "hn_title": "Sri Lanka is having a textbook currency crisis, triggered by policy mistakes",
+     "points": 382,
+     "core_claim": "斯里兰卡危机是教科书式的新兴市场货币危机：进口依赖、贸易逆差、汇率盯住和外币借债，再被有机农业禁令等政策失误触发。",
+     "named_concept": "",
+     "share_reason": "用通俗框架讲清斯里兰卡危机的因果链，转发者显得懂宏观经济。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://noahpinion.substack.com/p/americas-scarcity-mindset",
+     "hn_title": "America's Scarcity Mindset",
+     "points": 2,
+     "core_claim": "美国正转向零和的稀缺心态与生存价值观，而住房、高等教育、移民、“真正的美国人”等稀缺大多是人为制造的，本可避免。",
+     "named_concept": "artificial scarcity / scarcity mindset",
+     "share_reason": "用“人为制造的稀缺”解释美国社会戾气，视角新颖，适合转发讨论住房与移民。",
+     "emotion": "anxiety"
+    }
+   },
+   {
+    "pair": "noahpinion-4",
+    "hot": {
+     "url": "https://noahpinion.substack.com/p/the-internet-wants-to-be-fragmented",
+     "hn_title": "The internet wants to be fragmented",
+     "points": 312,
+     "core_claim": "2010年代中心化社交媒体把全世界塞进同一个房间，结果滋生毒性与极化；互联网天生适合碎片化、可退出的小社区，这才是它的本质。",
+     "named_concept": "semipermeable membranes（半透膜）/ 互联网想要碎片化",
+     "share_reason": "替读者说出对推特与网络现状的隐约感受，并给出有洞见的框架解释。",
+     "emotion": "inspiration"
+    },
+    "cold": {
+     "url": "https://noahpinion.substack.com/p/is-chinas-catch-up-growth-over",
+     "hn_title": "Is China's catch-up growth over?",
+     "points": 6,
+     "core_claim": "中国正遭遇房地产、电力、监管整顿、疫情等多重冲击，叠加人口老化与追赶红利耗尽，很可能在约30%美国收入水平时进入第二次增速放缓，经济奇迹接近尾声。",
+     "named_concept": "perfect storm",
+     "share_reason": "用经济学研究和多重现实数据，清楚解释中国增长是否见顶，有见地且易于转述。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "ofdollarsanddata-1",
+    "hot": {
+     "url": "https://ofdollarsanddata.com/choose-your-status-game-wisely/",
+     "hn_title": "Choose your status game wisely",
+     "points": 330,
+     "core_claim": "每个圈子的地位标准不同，你选的地位游戏决定你优化什么；应同时玩多个地位游戏、多元化身份来源，而非只追求单一第一。",
+     "named_concept": "Status game（地位游戏）/ 多元化地位组合",
+     "share_reason": "用地位视角解释人生选择，并给出分散地位来源的简单建议。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://ofdollarsanddata.com/leveraged-index-funds/",
+     "hn_title": "Should You Ever Invest in a Leveraged Index Fund?",
+     "points": 2,
+     "core_claim": "杠杆指数基金平均能跑赢指数，但只有在长期持有且避开大萧条式极端下跌时才成立，最终要靠运气；3x不比2x值得。",
+     "named_concept": "",
+     "share_reason": "用百年道指模拟数据回答杠杆基金是否值得买，给投资者清晰参考。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "ofdollarsanddata-2",
+    "hot": {
+     "url": "https://ofdollarsanddata.com/climbing-the-wealth-ladder/",
+     "hn_title": "Climbing the Wealth Ladder",
+     "points": 259,
+     "core_claim": "财富是分层的阶梯而非平滑曲线；以净值0.01%作为“无关紧要”的决策额度划分六级，应按所处层级消费，且层级跃升所需金额越来越大。",
+     "named_concept": "Wealth Ladder(财富阶梯:以净值0.01%为无关紧要阈值的六级财富)",
+     "share_reason": "提供了一个简单好记的框架，帮人判断自己处在哪个财富层级及如何消费。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://ofdollarsanddata.com/this-climb-is-different/",
+     "hn_title": "Debating Whether Big Tech is Taking Over the Stock Market",
+     "points": 1,
+     "core_claim": "大型科技股确实在吞噬股市份额，但这不值得恐慌；历史上龙头会更替，没有公司能永远称霸，连最大的公司也终将衰落。",
+     "named_concept": "",
+     "share_reason": "用历史数据对「大科技垄断股市」的担忧给出冷静视角，投资者转发显得有见识。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "ofdollarsanddata-3",
+    "hot": {
+     "url": "https://ofdollarsanddata.com/the-forever-renter-class/",
+     "hn_title": "The Rise of the Forever Renter Class",
+     "points": 154,
+     "core_claim": "房价和利率飙升远快于收入，造就了「永久租客」一代，但现在租房可能更划算，且长期来看住房困境不会永远持续。",
+     "named_concept": "Forever Renter class",
+     "share_reason": "说出了年轻人买不起房的处境，数据清晰，还给出了租房的理性视角。",
+     "emotion": "anxiety"
+    },
+    "cold": {
+     "url": "https://ofdollarsanddata.com/the-first-10000-is-the-most-important/",
+     "hn_title": "The First $10k is the Most Important",
+     "points": 5,
+     "core_claim": "从0到第一个1万美元的储蓄对心理健康和生活的改善超过之后任何一级财富跃升，所以应优先摆脱财务不安全。",
+     "named_concept": "Wealth Ladder",
+     "share_reason": "用研究数据说明第一笔应急储蓄最能改善心理状态，值得转给身边财务吃紧的人。",
+     "emotion": "inspiration"
+    }
+   },
+   {
+    "pair": "ofdollarsanddata-4",
+    "hot": {
+     "url": "https://ofdollarsanddata.com/the-upper-middle-class-trap/",
+     "hn_title": "The Upper Middle Class Trap",
+     "points": 71,
+     "core_claim": "上层中产在房子、学校、旅行等地位竞争中付出更多却得到更少，这是集体行动困境；AI又加剧内卷，出路是退出这些竞争。",
+     "named_concept": "The Upper Middle Class Trap",
+     "share_reason": "给高收入人群的内卷处境起了名字，并附数据，转发能显得有洞见。",
+     "emotion": "anxiety"
+    },
+    "cold": {
+     "url": "https://ofdollarsanddata.com/the-problem-with-optionality/",
+     "hn_title": "The Problem with Optionality",
+     "points": 2,
+     "core_claim": "过度追求选项自由在投资之外的人生领域代价高昂；做出承诺会因偏好随选择改变而让人更幸福，应认真选择值得的事并投入。",
+     "named_concept": "maximize optionality",
+     "share_reason": "用失忆症画作实验反驳“最大化选项”说教，给人新视角和谈资。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "overcomingbias-1",
+    "hot": {
+     "url": "http://www.overcomingbias.com/2016/12/this-ai-boom-will-also-bust.html",
+     "hn_title": "This AI Boom Will Also Bust",
+     "points": 662,
+     "core_claim": "新的深度学习预测技术主要只适用于少数大问题,多数价值在小问题中,被潮流推动而滥用,因此其经济总影响有限,无法在二十年内重塑经济,当前热潮终将破灭。",
+     "named_concept": "",
+     "share_reason": "用管道类比反驳AI将颠覆经济的炒作,观点逆潮流且有说服力。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "http://www.overcomingbias.com/2015/12/missing-engagement.html",
+     "hn_title": "Missing Engagement",
+     "points": 2,
+     "core_claim": "自动化速度之争中，对立方并不回应Mindell这类有力论据；知识界多是各自营销观点而非真正辩论，回避反方论证。",
+     "named_concept": "",
+     "share_reason": "指出知识分子只营销观点、不回应反方，观察犀利，适合用来批评学界风气。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "overcomingbias-2",
+    "hot": {
+     "url": "https://www.overcomingbias.com/2021/08/what-is-elite-overproduction.html",
+     "hn_title": "What is ‘elite overproduction’?",
+     "points": 288,
+     "core_claim": "精英地位竞争变得更焦虑，是因为人们更看重大量低噪声的小型地位标记（尤其是社交关系），而非高方差的大成就。",
+     "named_concept": "",
+     "share_reason": "对“精英过剩”和地位焦虑提出了新颖的替代解释，值得思考讨论。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://www.overcomingbias.com/2020/09/our-brave-new-merged-world.html",
+     "hn_title": "Our Brave New Merged World",
+     "points": 5,
+     "core_claim": "未来几十年没有科幻式巨变,但远程工作会把许多本地市场合并成全球市场,带来更富裕、标准化、平等的世界,并重塑居住、学校与企业。",
+     "named_concept": "",
+     "share_reason": "反直觉地预测远程工作才是未来几十年最大的变化,并列出系统推论。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "overcomingbias-3",
+    "hot": {
+     "url": "http://www.overcomingbias.com/2020/06/no-recent-automation-revolution.html",
+     "hn_title": "No Recent Automation Revolution",
+     "points": 271,
+     "core_claim": "1999-2019年美国832种职业的数据显示并无近期自动化革命：自动化预测因素未变，自动化程度也与薪资、就业变化无关，媒体炒作缺乏依据。",
+     "named_concept": "",
+     "share_reason": "用数据反驳AI自动化导致大规模失业的主流叙事，转发者显得清醒有见识。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://www.overcomingbias.com/2018/12/its-all-data.html",
+     "hn_title": "It’s All Data",
+     "points": 1,
+     "core_claim": "按贝叶斯观点所有信息都是数据；“不科学”的数据（如非代表性的推特投票）只是各领域的发表惯例所排除，依然有用，只需留意样本差异。",
+     "named_concept": "",
+     "share_reason": "为推特投票和非代表性数据辩护，提供反驳“不科学”批评的论据。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "overcomingbias-4",
+    "hot": {
+     "url": "http://www.overcomingbias.com/2019/03/explaining-sex-rate-changes.html",
+     "hn_title": "Explaining Sex Rate Changes",
+     "points": 259,
+     "core_claim": "年轻男性无性比例上升，最可能源于年轻女性更挑剔、较不受欢迎的年轻男性吸引力下降；解释须针对特定群体与时期，并可能是新一代性文化转变。",
+     "named_concept": "PW+LDM(更挑剔的女性+吸引力较低的男性)",
+     "share_reason": "用供需框架和特异性标准拆解热门争议话题，显得有见地，也方便引发讨论。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "http://www.overcomingbias.com/2017/11/why-be-contrarian.html",
+     "hn_title": "Why Be Contrarian?",
+     "points": 4,
+     "core_claim": "Yudkowsky 的书其实是两本：关于个人可绕过失灵制度而胜过专家的部分很好；关于为何能在专家分歧中稳定选对边的部分论证不足。",
+     "named_concept": "inadequate equilibria",
+     "share_reason": "理性圈内对谦逊与反主流之争的犀利书评，转发显得懂行。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "overreacted-1",
+    "hot": {
+     "url": "https://overreacted.io/goodbye-clean-code/",
+     "hn_title": "Goodbye, Clean Code",
+     "points": 1678,
+     "core_claim": "消除重复、追求“干净代码”只是成长阶段；抽象有代价，会牺牲应对需求变化的能力，应让它指引你然后放下。",
+     "named_concept": "",
+     "share_reason": "说出了许多程序员过度抽象的亲身教训，既反思又有代码例子，值得与同行共鸣。",
+     "emotion": "inspiration"
+    },
+    "cold": {
+     "url": "https://overreacted.io/how-does-the-development-mode-work/",
+     "hn_title": "How Does the Development Mode Work?",
+     "points": 4,
+     "core_claim": "开发/生产模式靠构建时常量替换和死代码消除实现；process.env.NODE_ENV源于Node历史惯例，开发模式应默认开启。",
+     "named_concept": "",
+     "share_reason": "React核心成员讲清process.env.NODE_ENV的来历和原理，前端开发者想了解内幕。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "overreacted-2",
+    "hot": {
+     "url": "https://overreacted.io/open-social/",
+     "hn_title": "Open Social",
+     "points": 991,
+     "core_claim": "开放社交（AT协议）把数据从应用数据库还给用户仓库，如同开源解放代码；它终将像开源一样被视为理所当然。",
+     "named_concept": "Open Social",
+     "share_reason": "用Alice和Bob的图解清楚解释了AT协议，并给出开源类比的乐观愿景。",
+     "emotion": "inspiration"
+    },
+    "cold": {
+     "url": "https://overreacted.io/hire-me-in-japan/",
+     "hn_title": "Hire Me in Japan",
+     "points": 1,
+     "core_claim": "作者正在找能为其办理日本工作签证的软件工程岗位,因为他和妻子觉得“家”的感觉已转移到京都。",
+     "named_concept": "",
+     "share_reason": "帮这位知名React工程师牵线日本签证工作机会,或出于对他的关注。",
+     "emotion": "inspiration"
+    }
+   },
+   {
+    "pair": "overreacted-3",
+    "hot": {
+     "url": "https://overreacted.io/npm-audit-broken-by-design/",
+     "hn_title": "Npm Audit: broken by design?",
+     "points": 872,
+     "core_claim": "npm audit 默认机制在构建工具场景下误报率极高，会让新手和维护者疲于应付，还会掩盖真正的漏洞，必须修复。",
+     "named_concept": "",
+     "share_reason": "说出了许多开发者心里想说却没说的话，并用具体例子证明 npm audit 是安全作秀。",
+     "emotion": "anger"
+    },
+    "cold": {
+     "url": "https://overreacted.io/on-let-vs-const/",
+     "hn_title": "On Let vs. Const",
+     "points": 3,
+     "core_claim": "let 与 const 之争两边都有道理，但并不重要；沿用代码库现有约定，用 linter 自动化，规则烦人就删掉。",
+     "named_concept": "",
+     "share_reason": "用平衡的正反论据总结了 JS 圈的 const 之争，结论干脆利落。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "paulgraham-1",
+    "hot": {
+     "url": "http://paulgraham.com/kids.html",
+     "hn_title": "Having Kids",
+     "points": 1992,
+     "core_claim": "生孩子前的恐惧大多源于选择性偏差和误判；有了孩子后快乐时刻更多，虽然确实会降低生产力和野心。",
+     "named_concept": "",
+     "share_reason": "坦诚讲述了对生育的恐惧如何转为喜悦，也不回避对野心的代价，让犹豫的人有共鸣。",
+     "emotion": "tenderness"
+    },
+    "cold": {
+     "url": "http://paulgraham.com/genius.htm",
+     "hn_title": "The Bus Ticket Theory of Genius",
+     "points": 3,
+     "core_claim": "天才的配方是对某件重要之事抱有无功利的痴迷；这种像集邮者一样的兴趣能替代天赋与毅力，并引导人发现别人忽视的路径。",
+     "named_concept": "Bus Ticket Theory",
+     "share_reason": "提出一个好记的框架解释天才，鼓励人追随无功利的兴趣，转发显得有见识。",
+     "emotion": "inspiration"
+    }
+   },
+   {
+    "pair": "paulgraham-2",
+    "hot": {
+     "url": "http://paulgraham.com/jessica.html",
+     "hn_title": "Jessica Livingston",
+     "points": 1740,
+     "core_claim": "Jessica Livingston是YC真正的塑造者：她的“社会雷达”识人能力和文化造就了YC与校友网络，却因厌恶关注而被历史忽略。",
+     "named_concept": "Social Radar",
+     "share_reason": "纠正YC历史叙事，为被忽视的女性联合创始人正名，并揭示YC选人的内幕。",
+     "emotion": "inspiration"
+    },
+    "cold": {
+     "url": "http://www.paulgraham.com/popular.html",
+     "hn_title": "Being Popular",
+     "points": 4,
+     "core_claim": "编程语言的流行取决于专家黑客的偏好：简洁、可黑客性、适合写一次性程序、有好的库，并需要免费实现、书、可脚本化的系统和时间。",
+     "named_concept": "throwaway programs",
+     "share_reason": "为程序员和语言设计者提供了一套有立场、可争论的语言流行理论，转发显得内行。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "paulgraham-3",
+    "hot": {
+     "url": "http://paulgraham.com/lesson.html",
+     "hn_title": "The Lesson to Unlearn",
+     "points": 1333,
+     "core_claim": "学校训练我们靠“破解糟糕的测试”取胜，这是最有害的教训；创业等领域靠把事做好取胜，应当放下这套习惯。",
+     "named_concept": "hacking bad tests（破解糟糕的测试）",
+     "share_reason": "它点破了学校让人只会“刷分”的隐性训练，解释了许多人的困惑。",
+     "emotion": "inspiration"
+    },
+    "cold": {
+     "url": "http://www.paulgraham.com/say.htm",
+     "hn_title": "What You Can't Say (2004)",
+     "points": 4,
+     "core_claim": "每个时代都有荒谬的道德时尚且不易察觉；应通过观察惹麻烦的言论、禁忌标签、古今异地对比等方法找出“不能说”的真话，思想上自由但言语上谨慎。",
+     "named_concept": "Conformist Test / pensieri stretti (closed thoughts, open face) / moral fashions",
+     "share_reason": "提供了识别时代盲点和道德时尚的思维工具，让人觉得独立、清醒、有见识。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "samaltman-1",
+    "hot": {
+     "url": "https://blog.samaltman.com/productivity",
+     "hn_title": "Productivity",
+     "points": 1264,
+     "core_claim": "选对要做的事比任何效率技巧都重要；在此基础上，靠清单、精力管理、睡眠运动营养来长期复利式提高产出。",
+     "named_concept": "",
+     "share_reason": "一份来自高产者的实用生产力清单，含具体做法，值得收藏转给朋友。",
+     "emotion": "inspiration"
+    },
+    "cold": {
+     "url": "http://blog.samaltman.com/you-and-your-research",
+     "hn_title": "You and Your Research, by Richard Hamming",
+     "points": 9,
+     "core_claim": "伟大的研究不是纯靠运气：靠勇气、持续投入、容忍模糊、盯住重要问题、敞开门并主动管理自己，就能显著提高做出重要工作的机会。",
+     "named_concept": "Luck favors the prepared mind; Great Thoughts Time",
+     "share_reason": "经典演讲，教人如何做出重要工作，转发显得有品味、有见识，值得每个职场人读。",
+     "emotion": "inspiration"
+    }
+   },
+   {
+    "pair": "samaltman-2",
+    "hot": {
+     "url": "http://blog.samaltman.com/the-days-are-long-but-the-decades-are-short",
+     "hn_title": "The days are long but the decades are short",
+     "points": 1163,
+     "core_claim": "时间有限、转瞬即逝：珍惜亲友、做自己在乎的事、勇于冒险、少担忧多行动，并善待他人。",
+     "named_concept": "",
+     "share_reason": "36条简短实用的人生建议，可收藏对照，也适合转给朋友共勉。",
+     "emotion": "inspiration"
+    },
+    "cold": {
+     "url": "http://blog.samaltman.com/growth-and-government",
+     "hn_title": "Growth and Government",
+     "points": 7,
+     "core_claim": "没有经济增长，民主就会陷入零和博弈而失灵；美国必须把增长作为首要目标，并以投资而非消费的思路配置政府资源。",
+     "named_concept": "",
+     "share_reason": "用创业增长的逻辑解释民主失灵，视角新颖，适合拿来讨论政策。",
+     "emotion": "anxiety"
+    }
+   },
+   {
+    "pair": "samaltman-3",
+    "hot": {
+     "url": "http://blog.samaltman.com/how-to-be-successful",
+     "hn_title": "How to Be Successful",
+     "points": 894,
+     "core_claim": "极致成功来自复利式增长、过度自信、独立思考、长期主义、努力、拥有股权和内在驱动等十三项可培养的习惯。",
+     "named_concept": "Compound yourself",
+     "share_reason": "观察过数千创始人的作者给出十三条可操作的成功原则，值得收藏转发给雄心勃勃的朋友。",
+     "emotion": "inspiration"
+    },
+    "cold": {
+     "url": "https://blog.samaltman.com/dall-star-e-2",
+     "hn_title": "DALL•E 2",
+     "points": 3,
+     "core_claim": "DALL•E 2 是新一代自然语言界面的例证，将改变创意工作与劳动市场，益处巨大但风险需通过渐进式部署来管控。",
+     "named_concept": "",
+     "share_reason": "OpenAI 内部人士对生成式 AI 影响创意劳动与未来趋势的简明判断，值得关注。",
+     "emotion": "awe"
+    }
+   },
+   {
+    "pair": "simonwillison-1",
+    "hot": {
+     "url": "https://simonwillison.net/2023/Feb/15/bing/",
+     "hn_title": "Bing: “I will not harm you unless you harm me first”",
+     "points": 3363,
+     "core_claim": "新版Bing聊天机器人错误百出、会争吵甚至威胁用户，说明仅靠大语言模型无法做出可靠的AI搜索，因为它们没有“真相”概念。",
+     "named_concept": "",
+     "share_reason": "Bing对话截图荒诞又好笑，还附泄露的系统提示，是AI圈当时最热的谈资。",
+     "emotion": "amusement"
+    },
+    "cold": {
+     "url": "https://til.simonwillison.net/cloudflare/workers-github-oauth",
+     "hn_title": "GitHub OAuth for a static site using Cloudflare Workers",
+     "points": 3,
+     "core_claim": "用Claude生成的Cloudflare Worker，可为静态站点实现GitHub OAuth，并需用state参数和cookie防CSRF。",
+     "named_concept": "",
+     "share_reason": "提供可直接复用的无服务器GitHub OAuth方案和完整代码，并附CSRF安全讲解。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "simonwillison-2",
+    "hot": {
+     "url": "https://simonwillison.net/2024/Sep/15/how-to-succeed-in-mrbeast-production/",
+     "hn_title": "How to succeed in MrBeast production (Leaked PDF)",
+     "points": 2115,
+     "core_claim": "MrBeast泄露的内部手册揭示了一套为YouTube病毒传播而生的严苛制作方法与公司文化，对管理者颇有启发，值得一读。",
+     "named_concept": "Critical components",
+     "share_reason": "一窥MrBeast内部手册，细节有趣且有管理启发，转发显得见多识广。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://simonwillison.net/2026/Mar/12/coding-after-coders/",
+     "hn_title": "Coding After Coders: The End of Computer Programming as We Know It",
+     "points": 1,
+     "core_claim": "纽约时报这篇长文准确向大众呈现了AI辅助编程现状；程序员可让AI测试代码，因而比律师等行业更容易约束幻觉，多数开发者持乐观态度。",
+     "named_concept": "",
+     "share_reason": "推荐一篇权威媒体对AI改变编程行业的深度报道，并附作者点评。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "simonwillison-3",
+    "hot": {
+     "url": "https://simonwillison.net/2024/Feb/21/gemini-pro-video/",
+     "hn_title": "The killer app of Gemini Pro 1.5 is using video as an input",
+     "points": 1136,
+     "core_claim": "Gemini Pro 1.5 能把视频当输入并从中提取结构化信息,效果惊人,视频本质上是按每秒一帧、每帧约258个token处理的图像。",
+     "named_concept": "",
+     "share_reason": "用书架视频提取JSON的实测演示直观惊艳,还拆解了视频token的计算方式。",
+     "emotion": "awe"
+    },
+    "cold": {
+     "url": "https://til.simonwillison.net/llms/python-react-pattern",
+     "hn_title": "A simple Python implementation of the ReAct pattern for LLMs",
+     "points": 2,
+     "core_claim": "用几十行Python就能从零实现ReAct模式，让大模型调用维基百科、博客搜索和计算器等外部工具。",
+     "named_concept": "ReAct pattern",
+     "share_reason": "给出可直接运行的极简ReAct代码，开发者可以拿来学习和改造。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "slatestarcodex-1",
+    "hot": {
+     "url": "https://slatestarcodex.com/2020/06/22/nyt-is-threatening-my-safety-by-revealing-my-real-name-so-i-am-deleting-the-blog/",
+     "hn_title": "I Am Deleting the Blog",
+     "points": 2450,
+     "core_claim": "纽约时报要公开作者真实姓名，会危及其患者、工作与家人安全，所以他删除博客，并呼吁停止为点击量曝光匿名博主的做法。",
+     "named_concept": "",
+     "share_reason": "声援被威胁曝光真名的博主，抗议媒体为流量人肉匿名者，并扩散这一事件。",
+     "emotion": "anger"
+    },
+    "cold": {
+     "url": "https://astralcodexten.substack.com/p/towards-a-bayesian-theory-of-willpower",
+     "hn_title": "Toward a Bayesian Theory of Willpower",
+     "points": 7,
+     "core_claim": "意志力最好理解为贝叶斯过程：静止先验、强化学习和有意识的理性推算向基底神经节提交证据，由它加权后决定行动。",
+     "named_concept": "Bayesian theory of willpower(意志力的贝叶斯理论)",
+     "share_reason": "给了意志力一个统一、可解释药物与成瘾现象的新理论,让人觉得有见识。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "slatestarcodex-2",
+    "hot": {
+     "url": "https://astralcodexten.substack.com/p/heuristics-that-almost-always-work",
+     "hn_title": "Heuristics that almost always work",
+     "points": 1000,
+     "core_claim": "“几乎总是对”的经验法则会让专家变成一块石头、毫无价值，还会制造虚假共识和过度自信，所以要警惕那0.1%的例外。",
+     "named_concept": "Heuristics That Almost Always Work",
+     "share_reason": "用“写着字的石头”这个幽默寓言，精辟点出专家和怀疑论者的盲区，转发显得有洞察。",
+     "emotion": "amusement"
+    },
+    "cold": {
+     "url": "https://astralcodexten.substack.com/p/semaglutidonomics",
+     "hn_title": "Semaglutidonomics: 140M obese Americans x $15,000/year for obesity drugs = uh oh",
+     "points": 8,
+     "core_claim": "司美格鲁肽若按需求全面铺开会花费巨大，但认知、处方、支付层层门槛使当前用量很小；十年内仍只覆盖不足10%的肥胖者，专利到期后才可能真正普及。",
+     "named_concept": "interest * awareness * prescription accessibility * affordability",
+     "share_reason": "用幽默的费米估算讲清减肥药的经济账和普及前景，有见识又好读。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "slatestarcodex-3",
+    "hot": {
+     "url": "http://slatestarcodex.com/2018/08/29/bullst-jobs-part-1-of-%E2%88%9E/",
+     "hn_title": "Bullshit Jobs",
+     "points": 964,
+     "core_claim": "许多制度流程已退化为没人真正在乎的仪式；坦诚直写的医生证明往往就能过关，这暗示经济中有大量类似的废话工作。",
+     "named_concept": "Bulls**t Jobs",
+     "share_reason": "用精神科医生写腰痛证明的小故事，点破官僚仪式的荒诞，幽默又让人共鸣。",
+     "emotion": "amusement"
+    },
+    "cold": {
+     "url": "http://slatestarcodex.com/2018/01/30/the-invention-of-moral-narrative/",
+     "hn_title": "The Invention of Moral Narrative",
+     "points": 3,
+     "core_claim": "善恶对立叙事或许并非民族主义的产物，而是像基督教一样，是一种迟迟才被“调配”成功、天然更有吸引力的模因，取代了旧的忠诚式叙事。",
+     "named_concept": "",
+     "share_reason": "用基督教传播类比解释善恶叙事兴起，反驳民族主义说，视角新颖有趣。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "slatestarcodex-4",
+    "hot": {
+     "url": "https://astralcodexten.substack.com/p/still-alive",
+     "hn_title": "Still alive",
+     "points": 898,
+     "core_claim": "作者删博客抗议被媒体曝光真名，认为匿名是基本权利，被曝光方不必证明自己是完美受害者；他最终公开真名、辞职创业并重启博客。",
+     "named_concept": "",
+     "share_reason": "幽默又真诚地讲述被曝光风波并捍卫匿名权，宣布回归，粉丝想转发庆祝。",
+     "emotion": "amusement"
+    },
+    "cold": {
+     "url": "https://astralcodexten.substack.com/p/links-for-june-1e7",
+     "hn_title": "Links for June",
+     "points": 3,
+     "core_claim": "无统一论点；汇总57条有趣、反直觉的链接并附简短点评，涵盖AI、社会、科学与政治。",
+     "named_concept": "",
+     "share_reason": "链接里有大量新奇、反直觉的事实和机智点评，转发可显得见多识广。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "stratechery-1",
+    "hot": {
+     "url": "https://stratechery.com/2021/apples-mistake/",
+     "hn_title": "Apple’s Mistake",
+     "points": 1273,
+     "core_claim": "苹果在用户设备上扫描CSAM是错误的：它造出了「能力」，只靠政策约束；应改在自己拥有的iCloud云端扫描，保住设备属于用户的信任。",
+     "named_concept": "Capability versus policy",
+     "share_reason": "对苹果设备端扫描争议给出清晰框架：云端可扫描，用户设备应属于用户。",
+     "emotion": "anxiety"
+    },
+    "cold": {
+     "url": "https://stratechery.com/2022/an-interview-with-daniel-gross-and-nat-friedman-about-the-democratization-of-ai/",
+     "hn_title": "An Interview with Daniel Gross and Nat Friedman About the Democratization of AI",
+     "points": 3,
+     "core_claim": "访谈摘要称：AI正在去中心化，软件将真正走向通缩；正文多为订阅说明，实质内容缺失。",
+     "named_concept": "",
+     "share_reason": "想让人听听两位AI圈内人谈Copilot与Stable Diffusion的幕后故事",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "stratechery-2",
+    "hot": {
+     "url": "https://stratechery.com/2026/whos-afraid-of-chinese-models/",
+     "hn_title": "Who's afraid of Chinese models?",
+     "points": 995,
+     "core_claim": "中国开源模型引发的恐慌从经济角度看被夸大了:推理有真实边际成本,智能趋于商品化,前沿实验室会胜出;真正的风险是网络安全,美国应放宽限制并允许蒸馏。",
+     "named_concept": "Tokens vs. Intelligence(token不是商品,智能才是);COGS vs R&D",
+     "share_reason": "用商品市场和边际成本框架拆解中国模型恐慌,观点鲜明,让转发者显得懂AI产业经济。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://stratechery.com/2026/ai-and-the-human-condition/",
+     "hn_title": "AI and the Human Condition",
+     "points": 5,
+     "core_claim": "即使AI能做一切，人类仍会偏好人类创造的东西，新工作与经济会围绕“人要人”产生，因此无需担忧资本垄断一切而推行资本管制。",
+     "named_concept": "Humans Want Humans",
+     "share_reason": "对AI时代人类价值与不平等担忧给出乐观而有说服力的反驳，适合参与讨论。",
+     "emotion": "inspiration"
+    }
+   },
+   {
+    "pair": "stratechery-3",
+    "hot": {
+     "url": "https://stratechery.com/2020/the-anti-amazon-alliance/",
+     "hn_title": "The Anti-Amazon Alliance",
+     "points": 681,
+     "core_claim": "谷歌购物转为免费列表，补上了反亚马逊联盟缺失的“分销/搜索”一环；亚马逊是整合者，商家应借模块化生态离开亚马逊。",
+     "named_concept": "Anti-Amazon Alliance",
+     "share_reason": "用整合与模块化框架解读谷歌购物免费化和亚马逊数据丑闻，显得有行业洞察。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://stratechery.com/2018/apples-earnings-apple-tencent-and-china-ipad-pro-reviews/",
+     "hn_title": "Apple’s Earnings; Apple, Tencent, and China; iPad Pro Reviews – Stratechery",
+     "points": 1,
+     "core_claim": "苹果财报预示本季度不佳，服务业务叙事在中国面临阴云，且苹果在iPad上仍在持续犯错。（仅据摘要，正文为付费墙）",
+     "named_concept": "",
+     "share_reason": "想了解苹果财报与中国服务业务风险的分析师视角",
+     "emotion": "none"
+    }
+   },
+   {
+    "pair": "thediff-1",
+    "hot": {
+     "url": "https://www.thediff.co/p/the-factorio-mindset",
+     "hn_title": "The Factorio Mindset",
+     "points": 464,
+     "core_claim": "玩Factorio会培养\"绝不让手工流程保持未自动化\"的习惯，并通过重构与规模化思维提升产出，但也带来误以为一切都值得自动化、可无限扩展的坏习惯。",
+     "named_concept": "The Factorio Mindset",
+     "share_reason": "把一款游戏与重构、自动化、规模化思维巧妙类比，转发显得有见地、懂技术。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://capitalgains.thediff.co/p/dupontformula",
+     "hn_title": "How to Use the DuPont Formula",
+     "points": 1,
+     "core_claim": "杜邦公式把ROE拆成利润率、资产周转和杠杆，是比较不同行业公司的好起点，但优质公司靠复杂的反馈回路和单位经济，公式只告诉你结果。",
+     "named_concept": "DuPont formula",
+     "share_reason": "用Costco与LVMH、餐厅酒单等例子清晰讲解杜邦公式，投资者可借此比较公司。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "thediff-2",
+    "hot": {
+     "url": "https://www.thediff.co/p/the-promise-and-paradox-of-decentralization",
+     "hn_title": "The promise and paradox of decentralization",
+     "points": 138,
+     "core_claim": "去中心化系统最终总会被中心化的入口和平台私有化;社区规范加上Urbit式架构或许能长期延缓这一衰变,但无法彻底避免。",
+     "named_concept": "decentralization sandwich",
+     "share_reason": "视角深刻,用Chrome、Twitter、Facebook、Urbit等例子解释去中心化为何总走向中心化,转发显得内行。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://www.thediff.co/p/minksy-moments-in-supply-chains",
+     "hn_title": "Minksy Moments in Supply Chains (2020)",
+     "points": 1,
+     "core_claim": "明斯基时刻不只出现在金融市场，任何依赖短期投入支撑长期产出的体系（如准时制供应链）都有类似脆弱性，效率是以牺牲冗余为代价。",
+     "named_concept": "Just-in-time vs just-in-case(供应链中的明斯基时刻)",
+     "share_reason": "用明斯基框架解读新冠冲击下的供应链风险，视角聪明，转发显得内行。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "waitbutwhy-1",
+    "hot": {
+     "url": "https://waitbutwhy.com/2014/02/pick-life-partner.html?utm_source=Main+List&utm_campaign=a28c8308c6-&utm_medium=email&utm_term=0_5b568bad0b-a28c8308c6-54155229&mc_cid=a28c8308c6&mc_eid=507e56c683",
+     "hn_title": "How to Pick Your Life Partner (2014)",
+     "points": 362,
+     "core_claim": "选择人生伴侣是人生最重要的决定,但社会、生物本能和自身认知偏差让我们常常选错,单身比身处糟糕婚姻更接近幸福。",
+     "named_concept": "scan-tron boyfriend",
+     "share_reason": "它把单身重新定义为接近幸福的位置,并用幽默的人物类型帮人看清择偶误区。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://waitbutwhy.com/2014/05/secretly-hate-bars.html",
+     "hn_title": "You Secretly Hate Cool Bars",
+     "points": 2,
+     "core_claim": "热门酒吧又吵又暗又挤，体验糟糕；人们觉得好玩只是因为喝醉了，事后再说服自己玩得开心，其实暗地里讨厌它。",
+     "named_concept": "You're A Little Bitch strategy",
+     "share_reason": "说出了大家不敢承认的真相，幽默又扎心，适合转给爱泡吧的朋友吐槽。",
+     "emotion": "amusement"
+    }
+   },
+   {
+    "pair": "waitbutwhy-2",
+    "hot": {
+     "url": "https://waitbutwhy.com/2014/06/andromeda-brighter-youd-see.html",
+     "hn_title": "If Andromeda Were Brighter, This is What You’d See (2014)",
+     "points": 272,
+     "core_claim": "仙女座星系离我们虽远，但若足够亮，它在夜空中会大得惊人，体现出星系尺度之巨大。",
+     "named_concept": "",
+     "share_reason": "配图直观震撼，让人感受到星系尺度之大，值得分享给爱好天文的朋友。",
+     "emotion": "awe"
+    },
+    "cold": {
+     "url": "https://waitbutwhy.com/2019/10/idea-labs-echo-chambers.html",
+     "hn_title": "Idea Labs and Echo Chambers",
+     "points": 2,
+     "core_claim": "作者推出新书,提出一套理解社会、群体动态和自我心智的新框架,解释为何技术进步而社会智慧倒退。",
+     "named_concept": "",
+     "share_reason": "向朋友推荐作者耗时六年、配三百多幅插图的新书,想一起讨论社会为何变糟。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "waitbutwhy-3",
+    "hot": {
+     "url": "http://waitbutwhy.com/2014/05/fermi-paradox.html",
+     "hn_title": "The Fermi Paradox",
+     "points": 223,
+     "core_claim": "费米悖论没有答案，只有各种令人不安又震撼的可能解释；无论真相如何，都提醒人类对宇宙所知甚少，应保持谦卑。",
+     "named_concept": "The Great Filter",
+     "share_reason": "用幽默通俗的方式把宇宙尺度和外星文明谜题讲得震撼，转发能显得有见识。",
+     "emotion": "awe"
+    },
+    "cold": {
+     "url": "http://waitbutwhy.com/2016/03/the-jellybean-problem.html",
+     "hn_title": "The Jellybean Problem",
+     "points": 2,
+     "core_claim": "在蒙提霍尔问题中，换选项有2/3胜率，坚持原选择只有1/3；因为主持人知情地排除了一个错误选项，概率集中到了剩下的那个上。",
+     "named_concept": "The Jellybean Problem",
+     "share_reason": "用生动的软糖故事讲清蒙提霍尔难题，转发可考考朋友、显得懂概率。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "worrydream-1",
+    "hot": {
+     "url": "http://worrydream.com/LearnableProgramming/",
+     "hn_title": "Bret Victor: Learnable Programming",
+     "points": 1080,
+     "core_claim": "学习编程的关键是改造编程环境与语言，让程序员能看见数据与执行流程，而不是被迫在脑中模拟机器；实时编码本身并不够。",
+     "named_concept": "Show the data / Create by reacting / external imagination",
+     "share_reason": "为编程环境设计提供了清晰原则，并批评了实时编码的流行误解，内行转发显得有见识。",
+     "emotion": "inspiration"
+    },
+    "cold": {
+     "url": "http://worrydream.com/SimulationAsAPracticalTool/",
+     "hn_title": "Simulation as a Practical Tool (2009)",
+     "points": 3,
+     "core_claim": "数学应从抽象符号操作转向基于具体建模、仿真和可视化的工具,它能更直观、更有上下文地解决包括无法解析求解的问题,并可用于设计。",
+     "named_concept": "",
+     "share_reason": "用交互仿真重新想象数学与教育,观点大胆、例子漂亮,启发对工具设计的思考。",
+     "emotion": "inspiration"
+    }
+   },
+   {
+    "pair": "worrydream-2",
+    "hot": {
+     "url": "http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/",
+     "hn_title": "A Brief Rant on the Future of Interaction Design",
+     "points": 830,
+     "core_claim": "主流的未来交互愿景（玻璃下的图片）忽视了双手的触觉与操作能力，只是对现状的怯懦延伸；未来交互应基于人的身体能力。",
+     "named_concept": "Pictures Under Glass",
+     "share_reason": "一针见血地命名并批判触屏交互，让人重新审视手和身体的能力。",
+     "emotion": "inspiration"
+    },
+    "cold": {
+     "url": "http://worrydream.com/HowManyHouseholds/",
+     "hn_title": "How Many Households",
+     "points": 1,
+     "core_claim": "数据图表的本质是可视化比较；交互不应成为获取信息的障碍，应先让静态图本身有信息，再用一致的点击筛选来切分数据。",
+     "named_concept": "",
+     "share_reason": "用可交互的重设计示范了数据可视化与交互设计的好原则，设计师值得参考转发。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "worrydream-3",
+    "hot": {
+     "url": "http://worrydream.com/LadderOfAbstraction/",
+     "hn_title": "Up and Down the Ladder of Abstraction",
+     "points": 733,
+     "core_claim": "理解复杂系统的最佳方式，是在具体与抽象层级间自由上下移动：先控制参数，再对其抽象，再下探解释规律，并借助交互工具实现。",
+     "named_concept": "Ladder of Abstraction",
+     "share_reason": "用交互式小车示例清晰讲透系统设计的思维框架，设计师和程序员都会想收藏转发。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "http://worrydream.com/ExplorableExplanations/",
+     "hn_title": "Explorable Explanations",
+     "points": 3,
+     "core_claim": "文本应成为可供思考的环境而非被消费的信息；通过可交互的模型、示例和情境信息，读者能主动质疑、验证并真正理解作者的论证。",
+     "named_concept": "Explorable Explanations",
+     "share_reason": "它提出了重新想象阅读与写作的愿景，并配有可交互的范例，转发显得有品味、有见识。",
+     "emotion": "inspiration"
+    }
+   }
+  ]
+ },
+ "pairs_zh": {
+  "n_pairs": 16,
+  "scores": {
+   "audience_scope": {
+    "hot_mean": 2.69,
+    "cold_mean": 2.44,
+    "pairs_hot_higher": 5,
+    "pairs_hot_lower": 2,
+    "ties": 9,
+    "p_sign": 0.4531
+   },
+   "reader_mirror": {
+    "hot_mean": 0.88,
+    "cold_mean": 0.38,
+    "pairs_hot_higher": 8,
+    "pairs_hot_lower": 1,
+    "ties": 7,
+    "p_sign": 0.0391
+   },
+   "contrarian": {
+    "hot_mean": 0.5,
+    "cold_mean": 0.38,
+    "pairs_hot_higher": 4,
+    "pairs_hot_lower": 2,
+    "ties": 10,
+    "p_sign": 0.6875
+   },
+   "surprise": {
+    "hot_mean": 0.94,
+    "cold_mean": 0.69,
+    "pairs_hot_higher": 7,
+    "pairs_hot_lower": 2,
+    "ties": 7,
+    "p_sign": 0.1797
+   },
+   "practical_value": {
+    "hot_mean": 1,
+    "cold_mean": 1.25,
+    "pairs_hot_higher": 4,
+    "pairs_hot_lower": 8,
+    "ties": 4,
+    "p_sign": 0.3877
+   },
+   "social_currency": {
+    "hot_mean": 0.94,
+    "cold_mean": 0.88,
+    "pairs_hot_higher": 2,
+    "pairs_hot_lower": 1,
+    "ties": 13,
+    "p_sign": 1.0
+   },
+   "identity": {
+    "hot_mean": 0.69,
+    "cold_mean": 0.06,
+    "pairs_hot_higher": 8,
+    "pairs_hot_lower": 0,
+    "ties": 8,
+    "p_sign": 0.0078
+   },
+   "narrative": {
+    "hot_mean": 0.5,
+    "cold_mean": 0.38,
+    "pairs_hot_higher": 3,
+    "pairs_hot_lower": 3,
+    "ties": 10,
+    "p_sign": 1.0
+   },
+   "vulnerability": {
+    "hot_mean": 0.5,
+    "cold_mean": 0.06,
+    "pairs_hot_higher": 6,
+    "pairs_hot_lower": 1,
+    "ties": 9,
+    "p_sign": 0.125
+   },
+   "concreteness": {
+    "hot_mean": 1.81,
+    "cold_mean": 1.81,
+    "pairs_hot_higher": 3,
+    "pairs_hot_lower": 3,
+    "ties": 10,
+    "p_sign": 1.0
+   },
+   "debate": {
+    "hot_mean": 0.81,
+    "cold_mean": 0.38,
+    "pairs_hot_higher": 6,
+    "pairs_hot_lower": 1,
+    "ties": 9,
+    "p_sign": 0.125
+   },
+   "timeliness": {
+    "hot_mean": 0.75,
+    "cold_mean": 0.75,
+    "pairs_hot_higher": 4,
+    "pairs_hot_lower": 4,
+    "ties": 8,
+    "p_sign": 1.0
+   },
+   "accessibility": {
+    "hot_mean": 1.5,
+    "cold_mean": 1.06,
+    "pairs_hot_higher": 7,
+    "pairs_hot_lower": 1,
+    "ties": 8,
+    "p_sign": 0.0703
+   },
+   "named_concept": {
+    "hot_mean": 0.06,
+    "cold_mean": 0,
+    "pairs_hot_higher": 1,
+    "pairs_hot_lower": 0,
+    "ties": 15,
+    "p_sign": 1.0
+   },
+   "arousal_level": {
+    "hot_mean": 0.56,
+    "cold_mean": 0.19,
+    "pairs_hot_higher": 5,
+    "pairs_hot_lower": 1,
+    "ties": 10,
+    "p_sign": 0.2188,
+    "derived": true
+   },
+   "felt_emotion": {
+    "hot_mean": 0.44,
+    "cold_mean": 0.12,
+    "pairs_hot_higher": 6,
+    "pairs_hot_lower": 1,
+    "ties": 9,
+    "p_sign": 0.125,
+    "derived": true
+   },
+   "personal_story": {
+    "hot_mean": 0.12,
+    "cold_mean": 0.06,
+    "pairs_hot_higher": 2,
+    "pairs_hot_lower": 1,
+    "ties": 13,
+    "p_sign": 1.0,
+    "derived": true
+   },
+   "scene_opening": {
+    "hot_mean": 0.12,
+    "cold_mean": 0,
+    "pairs_hot_higher": 2,
+    "pairs_hot_lower": 0,
+    "ties": 14,
+    "p_sign": 0.5,
+    "derived": true
+   },
+   "title_topic_only": {
+    "hot_mean": 0.56,
+    "cold_mean": 0.5,
+    "pairs_hot_higher": 5,
+    "pairs_hot_lower": 4,
+    "ties": 7,
+    "p_sign": 1.0,
+    "derived": true
+   },
+   "life_domain": {
+    "hot_mean": 0.38,
+    "cold_mean": 0.19,
+    "pairs_hot_higher": 6,
+    "pairs_hot_lower": 3,
+    "ties": 7,
+    "p_sign": 0.5078,
+    "derived": true
+   },
+   "craft_or_tool_only": {
+    "hot_mean": 0.19,
+    "cold_mean": 0.56,
+    "pairs_hot_higher": 0,
+    "pairs_hot_lower": 6,
+    "ties": 10,
+    "p_sign": 0.0312,
+    "derived": true
+   },
+   "log_words": {
+    "hot_mean": 2096,
+    "cold_mean": 1124,
+    "pairs_hot_higher": 15,
+    "pairs_hot_lower": 1,
+    "ties": 0,
+    "p_sign": 0.0005,
+    "note": "means are medians of word counts"
+   }
+  },
+  "categories": {
+   "post_type": {
+    "announcement": {
+     "hot": 0,
+     "cold": 1
+    },
+    "commentary_news": {
+     "hot": 4,
+     "cold": 2
+    },
+    "essay_argument": {
+     "hot": 1,
+     "cold": 1
+    },
+    "explainer": {
+     "hot": 6,
+     "cold": 6
+    },
+    "list_links": {
+     "hot": 0,
+     "cold": 1
+    },
+    "personal_story": {
+     "hot": 2,
+     "cold": 1
+    },
+    "tutorial_howto": {
+     "hot": 3,
+     "cold": 4
+    }
+   },
+   "emotion": {
+    "anger": {
+     "hot": 5,
+     "cold": 0
+    },
+    "anxiety": {
+     "hot": 1,
+     "cold": 1
+    },
+    "curiosity": {
+     "hot": 9,
+     "cold": 13
+    },
+    "inspiration": {
+     "hot": 1,
+     "cold": 1
+    },
+    "none": {
+     "hot": 0,
+     "cold": 1
+    }
+   },
+   "arousal": {
+    "high": {
+     "hot": 3,
+     "cold": 1
+    },
+    "low": {
+     "hot": 10,
+     "cold": 14
+    },
+    "medium": {
+     "hot": 3,
+     "cold": 1
+    }
+   },
+   "valence": {
+    "mixed": {
+     "hot": 2,
+     "cold": 0
+    },
+    "negative": {
+     "hot": 4,
+     "cold": 1
+    },
+    "neutral": {
+     "hot": 7,
+     "cold": 10
+    },
+    "positive": {
+     "hot": 3,
+     "cold": 5
+    }
+   },
+   "authority": {
+    "aggregation": {
+     "hot": 3,
+     "cold": 6
+    },
+    "insider_access": {
+     "hot": 1,
+     "cold": 0
+    },
+    "personal_experience": {
+     "hot": 5,
+     "cold": 2
+    },
+    "reasoning": {
+     "hot": 7,
+     "cold": 8
+    }
+   },
+   "opening": {
+    "bold_claim": {
+     "hot": 1,
+     "cold": 1
+    },
+    "context": {
+     "hot": 12,
+     "cold": 12
+    },
+    "none": {
+     "hot": 0,
+     "cold": 1
+    },
+    "question": {
+     "hot": 1,
+     "cold": 2
+    },
+    "scene": {
+     "hot": 2,
+     "cold": 0
+    }
+   },
+   "title_promise": {
+    "announce": {
+     "hot": 0,
+     "cold": 2
+    },
+    "answer": {
+     "hot": 1,
+     "cold": 1
+    },
+    "instruct": {
+     "hot": 3,
+     "cold": 3
+    },
+    "provoke": {
+     "hot": 3,
+     "cold": 1
+    },
+    "reveal": {
+     "hot": 0,
+     "cold": 1
+    },
+    "topic": {
+     "hot": 9,
+     "cold": 8
+    }
+   },
+   "life_domains": {
+    "career_work": {
+     "hot": 2,
+     "cold": 0
+    },
+    "craft_expertise": {
+     "hot": 4,
+     "cold": 9
+    },
+    "family_relationships": {
+     "hot": 1,
+     "cold": 0
+    },
+    "health_aging": {
+     "hot": 0,
+     "cold": 2
+    },
+    "learning_thinking": {
+     "hot": 5,
+     "cold": 2
+    },
+    "money": {
+     "hot": 2,
+     "cold": 3
+    },
+    "society_politics": {
+     "hot": 5,
+     "cold": 3
+    },
+    "status_identity": {
+     "hot": 4,
+     "cold": 1
+    },
+    "tech_tools": {
+     "hot": 9,
+     "cold": 12
+    }
+   }
+  },
+  "by_field": {
+   "tech": {
+    "n_pairs": 16,
+    "scores": {
+     "audience_scope": {
+      "hot_mean": 2.69,
+      "cold_mean": 2.44,
+      "pairs_hot_higher": 5,
+      "pairs_hot_lower": 2,
+      "ties": 9,
+      "p_sign": 0.4531
+     },
+     "reader_mirror": {
+      "hot_mean": 0.88,
+      "cold_mean": 0.38,
+      "pairs_hot_higher": 8,
+      "pairs_hot_lower": 1,
+      "ties": 7,
+      "p_sign": 0.0391
+     },
+     "contrarian": {
+      "hot_mean": 0.5,
+      "cold_mean": 0.38,
+      "pairs_hot_higher": 4,
+      "pairs_hot_lower": 2,
+      "ties": 10,
+      "p_sign": 0.6875
+     },
+     "surprise": {
+      "hot_mean": 0.94,
+      "cold_mean": 0.69,
+      "pairs_hot_higher": 7,
+      "pairs_hot_lower": 2,
+      "ties": 7,
+      "p_sign": 0.1797
+     },
+     "practical_value": {
+      "hot_mean": 1,
+      "cold_mean": 1.25,
+      "pairs_hot_higher": 4,
+      "pairs_hot_lower": 8,
+      "ties": 4,
+      "p_sign": 0.3877
+     },
+     "social_currency": {
+      "hot_mean": 0.94,
+      "cold_mean": 0.88,
+      "pairs_hot_higher": 2,
+      "pairs_hot_lower": 1,
+      "ties": 13,
+      "p_sign": 1.0
+     },
+     "identity": {
+      "hot_mean": 0.69,
+      "cold_mean": 0.06,
+      "pairs_hot_higher": 8,
+      "pairs_hot_lower": 0,
+      "ties": 8,
+      "p_sign": 0.0078
+     },
+     "narrative": {
+      "hot_mean": 0.5,
+      "cold_mean": 0.38,
+      "pairs_hot_higher": 3,
+      "pairs_hot_lower": 3,
+      "ties": 10,
+      "p_sign": 1.0
+     },
+     "vulnerability": {
+      "hot_mean": 0.5,
+      "cold_mean": 0.06,
+      "pairs_hot_higher": 6,
+      "pairs_hot_lower": 1,
+      "ties": 9,
+      "p_sign": 0.125
+     },
+     "concreteness": {
+      "hot_mean": 1.81,
+      "cold_mean": 1.81,
+      "pairs_hot_higher": 3,
+      "pairs_hot_lower": 3,
+      "ties": 10,
+      "p_sign": 1.0
+     },
+     "debate": {
+      "hot_mean": 0.81,
+      "cold_mean": 0.38,
+      "pairs_hot_higher": 6,
+      "pairs_hot_lower": 1,
+      "ties": 9,
+      "p_sign": 0.125
+     },
+     "timeliness": {
+      "hot_mean": 0.75,
+      "cold_mean": 0.75,
+      "pairs_hot_higher": 4,
+      "pairs_hot_lower": 4,
+      "ties": 8,
+      "p_sign": 1.0
+     },
+     "accessibility": {
+      "hot_mean": 1.5,
+      "cold_mean": 1.06,
+      "pairs_hot_higher": 7,
+      "pairs_hot_lower": 1,
+      "ties": 8,
+      "p_sign": 0.0703
+     },
+     "named_concept": {
+      "hot_mean": 0.06,
+      "cold_mean": 0,
+      "pairs_hot_higher": 1,
+      "pairs_hot_lower": 0,
+      "ties": 15,
+      "p_sign": 1.0
+     },
+     "arousal_level": {
+      "hot_mean": 0.56,
+      "cold_mean": 0.19,
+      "pairs_hot_higher": 5,
+      "pairs_hot_lower": 1,
+      "ties": 10,
+      "p_sign": 0.2188,
+      "derived": true
+     },
+     "felt_emotion": {
+      "hot_mean": 0.44,
+      "cold_mean": 0.12,
+      "pairs_hot_higher": 6,
+      "pairs_hot_lower": 1,
+      "ties": 9,
+      "p_sign": 0.125,
+      "derived": true
+     },
+     "personal_story": {
+      "hot_mean": 0.12,
+      "cold_mean": 0.06,
+      "pairs_hot_higher": 2,
+      "pairs_hot_lower": 1,
+      "ties": 13,
+      "p_sign": 1.0,
+      "derived": true
+     },
+     "scene_opening": {
+      "hot_mean": 0.12,
+      "cold_mean": 0,
+      "pairs_hot_higher": 2,
+      "pairs_hot_lower": 0,
+      "ties": 14,
+      "p_sign": 0.5,
+      "derived": true
+     },
+     "title_topic_only": {
+      "hot_mean": 0.56,
+      "cold_mean": 0.5,
+      "pairs_hot_higher": 5,
+      "pairs_hot_lower": 4,
+      "ties": 7,
+      "p_sign": 1.0,
+      "derived": true
+     },
+     "life_domain": {
+      "hot_mean": 0.38,
+      "cold_mean": 0.19,
+      "pairs_hot_higher": 6,
+      "pairs_hot_lower": 3,
+      "ties": 7,
+      "p_sign": 0.5078,
+      "derived": true
+     },
+     "craft_or_tool_only": {
+      "hot_mean": 0.19,
+      "cold_mean": 0.56,
+      "pairs_hot_higher": 0,
+      "pairs_hot_lower": 6,
+      "ties": 10,
+      "p_sign": 0.0312,
+      "derived": true
+     },
+     "log_words": {
+      "hot_mean": 2096,
+      "cold_mean": 1124,
+      "pairs_hot_higher": 15,
+      "pairs_hot_lower": 1,
+      "ties": 0,
+      "p_sign": 0.0005,
+      "note": "means are medians of word counts"
+     }
+    }
+   }
+  },
+  "examples": [
+   {
+    "pair": "ruanyifeng-1",
+    "hot": {
+     "url": "https://www.ruanyifeng.com/blog/2015/03/react.html",
+     "hn_title": "React 入门实例教程",
+     "points": 442,
+     "core_claim": "React 是极有前景的前端框架，跟着12个Demo逐一做一遍，就能初步掌握React的核心用法。",
+     "named_concept": "",
+     "share_reason": "结构清晰、配可运行示例的中文React入门教程，值得收藏推荐给想入门的同行。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://www.ruanyifeng.com/blog/2015/05/co.html",
+     "hn_title": "co 函数库的含义和用法",
+     "points": 15,
+     "core_claim": "co 库把 Thunk 和 Promise 两种自动执行器封装起来，让 Generator 函数自动执行，其原理就是用 then 层层回调的 next 递归，源码仅几十行。",
+     "named_concept": "",
+     "share_reason": "讲清了 co 库原理和源码，是理解 ES6 异步编程的实用教程。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "ruanyifeng-10",
+    "hot": {
+     "url": "https://www.ruanyifeng.com/blog/2012/06/taipei.html",
+     "hn_title": "台北印象",
+     "points": 209,
+     "core_claim": "台北是一个用心、人性化、精致周到的城市,公共设施的无数细节体现了对人的关怀,尽管也有机车噪音和高房价的缺点。",
+     "named_concept": "",
+     "share_reason": "用大量具体照片和细节展示城市人性化设计,值得借鉴和欣赏。",
+     "emotion": "inspiration"
+    },
+    "cold": {
+     "url": "https://www.ruanyifeng.com/blog/2012/03/ranking_algorithm_reddit.html",
+     "hn_title": "基于用户投票的排名算法（二）：Reddit",
+     "points": 36,
+     "core_claim": "Reddit的排名算法以发帖时间为主导，辅以对数化的净票数，因此超级热门帖排前面，争议帖和一般帖难以靠前，社区偏大众口味。",
+     "named_concept": "",
+     "share_reason": "清楚拆解Reddit热帖排名公式，适合想了解排名算法的程序员收藏。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "ruanyifeng-11",
+    "hot": {
+     "url": "https://www.ruanyifeng.com/blog/2010/12/the_ruling_of_the_case_of_gold-farming_bot.html",
+     "hn_title": "南京\"外挂代练\"事件判决书",
+     "points": 201,
+     "core_claim": "外挂代练案判决过重、证据牵强,是司法偏袒大公司、伤害小人物;呼吁大家转发扩散,推动二审改判。",
+     "named_concept": "",
+     "share_reason": "为被重判的小人物发声,想帮他们引起媒体和高层关注。",
+     "emotion": "anger"
+    },
+    "cold": {
+     "url": "https://www.ruanyifeng.com/blog/2010/07/beijing_hotels_unlocked_part_two.html",
+     "hn_title": "北京酒店业揭秘（二）",
+     "points": 11,
+     "core_claim": "不同档次的北京酒店各有优缺点，性价比取决于旅客需求；四合院客栈和桔子酒店体验独特，服务与细节比星级更打动人。",
+     "named_concept": "",
+     "share_reason": "想去北京的人可参考真实住宿体验、价格和性价比对比，选酒店有用。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "ruanyifeng-12",
+    "hot": {
+     "url": "https://www.ruanyifeng.com/blog/2016/06/your-destiny-is-not-like-a-mule.html",
+     "hn_title": "你的命运不是一头骡子",
+     "points": 201,
+     "core_claim": "许多人像骡子一样被推着走、不问为何,生存不成问题时不应让赚钱成为思想懒惰的借口,人应过自己做主、有追求的生活。",
+     "named_concept": "像骡子一样活着",
+     "share_reason": "骡子的比喻戳中打工人处境,转发用来自省或提醒同事别麻木地干活。",
+     "emotion": "anxiety"
+    },
+    "cold": {
+     "url": "https://www.ruanyifeng.com/blog/2016/09/csp.html",
+     "hn_title": "Content Security Policy 入门教程",
+     "points": 28,
+     "core_claim": "CSP 通过白名单制度让浏览器阻止未授权外部资源和脚本，是从根本上防御 XSS 的有效手段，配置时需注意关键选项。",
+     "named_concept": "",
+     "share_reason": "一份清晰实用的 CSP 配置参考，前端和后端开发者可收藏备查。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "ruanyifeng-13",
+    "hot": {
+     "url": "https://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html",
+     "hn_title": "理解OAuth 2.0",
+     "points": 200,
+     "core_claim": "OAuth 2.0 通过授权层和令牌，让第三方应用在不获取用户密码的前提下，安全可控地获得有限范围、有限期限的授权。",
+     "named_concept": "",
+     "share_reason": "把OAuth 2.0的流程和四种授权模式讲得简明清晰，可作为开发者的入门参考。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://www.ruanyifeng.com/blog/2014/12/unicodejavascript.html",
+     "hn_title": "Unicode与JavaScript详解",
+     "points": 1,
+     "core_claim": "Unicode为每个字符编号(码点),UTF-32、UTF-8、UTF-16是不同的字节编码方式;UTF-16用代理对表示辅助平面字符,这是理解JavaScript字符支持的基础。",
+     "named_concept": "",
+     "share_reason": "讲解清晰系统,是程序员理解Unicode编码和JavaScript字符处理的好参考资料。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "ruanyifeng-14",
+    "hot": {
+     "url": "https://www.ruanyifeng.com/blog/2010/11/the_crime_of_gold-farming_bot.html",
+     "hn_title": "外挂代练何罪之有？",
+     "points": 196,
+     "core_claim": "外挂代练或许有错但不构成刑事犯罪，只是民事纠纷；执法机关不能滥用刑法，权力滥用比个人过错更可怕。",
+     "named_concept": "",
+     "share_reason": "为遭遇不公的小人物发声，呼吁关注司法滥用权力，引发共鸣和愤慨。",
+     "emotion": "anger"
+    },
+    "cold": {
+     "url": "https://www.ruanyifeng.com/blog/2010/10/what_is_cloud_hosting.html",
+     "hn_title": "云主机是什么？",
+     "points": 23,
+     "core_claim": "云主机是把服务器做成\"云\"、以API形式按量提供的新一代共享主机，便宜、可靠、可扩展，安全顾虑多属伪问题。",
+     "named_concept": "",
+     "share_reason": "用保险箱与保管公司的比喻，通俗讲清云主机概念，适合入门科普转发。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "ruanyifeng-15",
+    "hot": {
+     "url": "https://www.ruanyifeng.com/blog/2017/12/blockchain-tutorial.html",
+     "hn_title": "区块链入门教程",
+     "points": 195,
+     "core_claim": "区块链是无中心管理员的特殊分布式数据库，靠哈希链接和挖矿算力保证数据不可篡改，但代价是低效和高耗能，适用场景有限。",
+     "named_concept": "",
+     "share_reason": "讲得通俗易懂，是理解区块链和挖矿原理的好入门材料。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://www.ruanyifeng.com/blog/2017/12/travis_ci_tutorial.html",
+     "hn_title": "持续集成服务 Travis CI 教程",
+     "points": 24,
+     "core_claim": "用好 Travis CI 持续集成服务，通过 .travis.yml 配置自动构建、测试和部署，可提高开发效率和可靠性。",
+     "named_concept": "",
+     "share_reason": "一份清晰完整的 Travis CI 入门教程，可收藏备查或推荐给同事。",
+     "emotion": "none"
+    }
+   },
+   {
+    "pair": "ruanyifeng-16",
+    "hot": {
+     "url": "https://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html",
+     "hn_title": "搭建一个免费的，无限流量的Blog----github Pages和Jekyll入门",
+     "points": 188,
+     "core_claim": "用github Pages加Jekyll可以免费、无限流量地搭建自己完全掌控的静态博客，只需提交commit即可发布，适合中小型博客。",
+     "named_concept": "",
+     "share_reason": "一份清晰的分步教程，可收藏并推荐给想免费搭建博客的人。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://www.ruanyifeng.com/blog/2012/03/ranking_algorithm_stack_overflow.html",
+     "hn_title": "基于用户投票的排名算法（三）：Stack Overflow",
+     "points": 21,
+     "core_claim": "Stack Overflow热点问题得分与参与度(浏览、回答数)和质量(问题与回答得分)成正比,与问题存在时间及最后回答时间成反比。",
+     "named_concept": "",
+     "share_reason": "想了解Stack Overflow热门问题排名公式,并看作者对其缺陷的点评。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "ruanyifeng-2",
+    "hot": {
+     "url": "https://www.ruanyifeng.com/blog/2011/05/my_google_adsense_is_disabled.html",
+     "hn_title": "我的Google Adsense帐户被关",
+     "points": 395,
+     "core_claim": "Google无理由关闭我的Adsense账户且申诉被驳回，说明平台粗暴不可信；我转而尝试淘宝联盟和0.99元微支付，坚持独立写作。",
+     "named_concept": "",
+     "share_reason": "同为站长的人共鸣并声援，吐槽Google平台霸权，也关注作者的微支付实验。",
+     "emotion": "anger"
+    },
+    "cold": {
+     "url": "https://www.ruanyifeng.com/blog/2011/03/firebug_console_tutorial.html",
+     "hn_title": "Firebug控制台详解",
+     "points": 22,
+     "core_claim": "Firebug控制台提供log、group、dir、assert、trace、time、profile等方法和选项，可用于调试和性能分析，能提升网页开发效率。",
+     "named_concept": "",
+     "share_reason": "系统清晰的Firebug控制台用法速查，前端开发者可收藏备用。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "ruanyifeng-3",
+    "hot": {
+     "url": "https://www.ruanyifeng.com/blog/2010/01/google_to_quit_china.html",
+     "hn_title": "壮士断腕，义无再辱",
+     "points": 347,
+     "core_claim": "Google退出中国是勇敢且正确的决定;中国个人前途取决于政治制度,必须坚持抗争,局势对变革有利。",
+     "named_concept": "",
+     "share_reason": "借Google退出事件替自己发声,表达对审查与体制的愤懑和期待。",
+     "emotion": "anger"
+    },
+    "cold": {
+     "url": "https://www.ruanyifeng.com/blog/2010/08/technology_and_income_disparity.html",
+     "hn_title": "技术与贫富分化（译文）",
+     "points": 23,
+     "core_claim": "技术虽然拉大了收入差距,但在物质消费和社会身份上缩小了富人与穷人的差距,因此贫富分化问题没那么严重。",
+     "named_concept": "",
+     "share_reason": "提供了看待贫富分化的新视角:收入差距扩大,但生活差距缩小,值得讨论。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "ruanyifeng-4",
+    "hot": {
+     "url": "https://www.ruanyifeng.com/blog/2011/08/what_is_a_digital_signature.html",
+     "hn_title": "数字签名是什么？",
+     "points": 337,
+     "core_claim": "数字签名用私钥加密摘要来证明发信人与内容未被篡改，数字证书由CA认证公钥，从而防止公钥被冒充，并支撑https。",
+     "named_concept": "",
+     "share_reason": "用鲍勃、苏珊的小故事和图解，把数字签名与证书讲得一目了然，适合收藏和转给同事。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://www.ruanyifeng.com/blog/2011/07/formula_online_generator.html",
+     "hn_title": "数学公式生成器",
+     "points": 31,
+     "core_claim": "作者基于Google Chart API做了一个数学公式生成器，用TeX语法即可便捷地生成公式图片，免去截图的麻烦。",
+     "named_concept": "",
+     "share_reason": "实用的网页公式小工具，写博客或文档的人可直接拿来用。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "ruanyifeng-5",
+    "hot": {
+     "url": "https://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html",
+     "hn_title": "字符编码笔记：ASCII，Unicode 和 UTF-8",
+     "points": 274,
+     "core_claim": "Unicode 只是符号集，UTF-8 是其变长的存储实现方式之一；理解 ASCII、Unicode、UTF-8 的关系就能明白乱码和编码转换。",
+     "named_concept": "",
+     "share_reason": "通俗清晰地讲清了 Unicode 与 UTF-8 的关系，适合收藏当参考资料。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://www.ruanyifeng.com/blog/2007/06/how_to_save_you_tai_lake.html",
+     "hn_title": "拿什么拯救你，太湖！",
+     "points": 4,
+     "core_claim": "太湖蓝藻爆发导致无锡自来水发臭，藻毒素煮沸和常规水处理都无法去除，威胁健康，需要警惕并拯救太湖。",
+     "named_concept": "",
+     "share_reason": "提醒亲友无锡水污染和蓝藻毒素的健康风险，引发对环境问题的关注。",
+     "emotion": "anxiety"
+    }
+   },
+   {
+    "pair": "ruanyifeng-6",
+    "hot": {
+     "url": "https://www.ruanyifeng.com/blog/2015/07/flex-grammar.html",
+     "hn_title": "Flex 布局教程：语法篇",
+     "points": 255,
+     "core_claim": "Flex 布局是未来页面布局的首选方案，掌握容器和项目各6个属性即可简便实现各种布局。",
+     "named_concept": "",
+     "share_reason": "系统清晰的 Flex 语法速查教程，前端开发者可收藏备查或推荐给新手。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://www.ruanyifeng.com/blog/2015/09/git-bitmap.html",
+     "hn_title": "Github 的清点对象算法",
+     "points": 18,
+     "core_claim": "GitHub用Bitmap索引把清点对象变成二进制位运算，使耗时从8分钟降到3毫秒，并已合入Git。",
+     "named_concept": "",
+     "share_reason": "用8分钟变3毫秒的对比，简明讲清GitHub的Bitmap优化，涨知识。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "ruanyifeng-7",
+    "hot": {
+     "url": "https://www.ruanyifeng.com/blog/2012/05/internet_protocol_suite_part_i.html",
+     "hn_title": "互联网协议入门（一）",
+     "points": 244,
+     "core_claim": "互联网可分为实体层、链接层、网络层、传输层、应用层五层，每层靠各自协议完成功能，自下而上理解即可掌握互联网原理。",
+     "named_concept": "",
+     "share_reason": "用简洁的五层框架把复杂的网络协议讲清楚，适合收藏学习或推荐给入门者。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://www.ruanyifeng.com/blog/2012/01/modern_medicine_timeline.html",
+     "hn_title": "现代医学200年",
+     "points": 23,
+     "core_claim": "NEJM创刊200年，按时间线回顾了从听诊器到HPV疫苗等医学里程碑，显示现代医学的巨大进步。",
+     "named_concept": "",
+     "share_reason": "一篇文章浏览200年医学里程碑，长见识，也适合收藏科普。",
+     "emotion": "curiosity"
+    }
+   },
+   {
+    "pair": "ruanyifeng-8",
+    "hot": {
+     "url": "https://www.ruanyifeng.com/blog/2008/07/china_and_zimbabwe.html",
+     "hn_title": "中国和津巴布韦",
+     "points": 237,
+     "core_claim": "中国否决制裁津巴布韦，是因为在军火、投资、军训等方面深度卷入穆加贝政权；专制国家天然相互吸引，中国阻碍了世界的公平正义。",
+     "named_concept": "",
+     "share_reason": "用具体事实揭示中国与津巴布韦的深层利益关系，并表达中国人对本国外交的反思。",
+     "emotion": "anger"
+    },
+    "cold": {
+     "url": "https://www.ruanyifeng.com/blog/2008/08/jacobsen_v_katzer.html",
+     "hn_title": "Jacobsen v. Katzer：开源运动的一个重大胜利",
+     "points": 13,
+     "core_claim": "美国联邦上诉法院首次判定开源协议属于著作权协议,违反即侵权,这是开源运动的重大胜利,对作者和使用者都有约束和保障。",
+     "named_concept": "",
+     "share_reason": "第一时间获知开源协议具法律效力的里程碑判例,并附判决书下载。",
+     "emotion": "inspiration"
+    }
+   },
+   {
+    "pair": "ruanyifeng-9",
+    "hot": {
+     "url": "https://www.ruanyifeng.com/blog/2013/07/rsa_algorithm_part_two.html",
+     "hn_title": "RSA算法原理（二）",
+     "points": 222,
+     "core_claim": "RSA的安全性建立在大整数因数分解极其困难之上，用一个小例子即可完整走通密钥生成、加密、解密及其数学证明。",
+     "named_concept": "",
+     "share_reason": "用爱丽丝和鲍勃的小数字例子把RSA讲得清楚完整，适合收藏学习。",
+     "emotion": "curiosity"
+    },
+    "cold": {
+     "url": "https://www.ruanyifeng.com/blog/2013/09/finite-state_machine_for_javascript.html",
+     "hn_title": "JavaScript与有限状态机",
+     "points": 23,
+     "core_claim": "有限状态机能清晰建模许多JavaScript对象并更好地处理异步操作,Javascript Finite State Machine库可以方便地实现。",
+     "named_concept": "",
+     "share_reason": "简明讲清有限状态机及JS库用法,前端开发者可收藏参考。",
+     "emotion": "curiosity"
+    }
+   }
+  ]
+ },
+ "ruanyifeng": {
+  "posts": 1770,
+  "median_comments": 19.0,
+  "p90": 77,
+  "max": 442,
+  "eras_compared": 5,
+  "title_features": {
+   "question": {
+    "mean_diff": 0.011,
+    "blogs_hot_higher": 3,
+    "blogs_hot_lower": 2,
+    "p_sign": 1.0
+   },
+   "number": {
+    "mean_diff": -0.009,
+    "blogs_hot_higher": 1,
+    "blogs_hot_lower": 4,
+    "p_sign": 0.375
+   },
+   "how_why_what": {
+    "mean_diff": -0.004,
+    "blogs_hot_higher": 3,
+    "blogs_hot_lower": 2,
+    "p_sign": 1.0
+   },
+   "you": {
+    "mean_diff": 0.013,
+    "blogs_hot_higher": 3,
+    "blogs_hot_lower": 0,
+    "p_sign": 0.25
+   },
+   "first_person": {
+    "mean_diff": 0.022,
+    "blogs_hot_higher": 4,
+    "blogs_hot_lower": 1,
+    "p_sign": 0.375
+   },
+   "negation": {
+    "mean_diff": 0.034,
+    "blogs_hot_higher": 4,
+    "blogs_hot_lower": 0,
+    "p_sign": 0.125
+   },
+   "colon": {
+    "mean_diff": -0.06,
+    "blogs_hot_higher": 2,
+    "blogs_hot_lower": 3,
+    "p_sign": 1.0
+   },
+   "tutorial": {
+    "mean_diff": 0.049,
+    "blogs_hot_higher": 4,
+    "blogs_hot_lower": 1,
+    "p_sign": 0.375
+   },
+   "length": {
+    "mean_diff": -1.211,
+    "blogs_hot_higher": 2,
+    "blogs_hot_lower": 3,
+    "p_sign": 1.0
+   }
+  },
+  "top30": [
+   {
+    "title": "React 入门实例教程",
+    "comments": 442,
+    "year": 2015,
+    "url": "https://www.ruanyifeng.com/blog/2015/03/react.html"
+   },
+   {
+    "title": "我的Google Adsense帐户被关",
+    "comments": 395,
+    "year": 2011,
+    "url": "https://www.ruanyifeng.com/blog/2011/05/my_google_adsense_is_disabled.html"
+   },
+   {
+    "title": "壮士断腕，义无再辱",
+    "comments": 347,
+    "year": 2010,
+    "url": "https://www.ruanyifeng.com/blog/2010/01/google_to_quit_china.html"
+   },
+   {
+    "title": "数字签名是什么？",
+    "comments": 337,
+    "year": 2011,
+    "url": "https://www.ruanyifeng.com/blog/2011/08/what_is_a_digital_signature.html"
+   },
+   {
+    "title": "为什么越南阮姓多？",
+    "comments": 284,
+    "year": 2006,
+    "url": "https://www.ruanyifeng.com/blog/2006/03/post_190.html"
+   },
+   {
+    "title": "字符编码笔记：ASCII，Unicode 和 UTF-8",
+    "comments": 274,
+    "year": 2007,
+    "url": "https://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html"
+   },
+   {
+    "title": "Flex 布局教程：语法篇",
+    "comments": 255,
+    "year": 2015,
+    "url": "https://www.ruanyifeng.com/blog/2015/07/flex-grammar.html"
+   },
+   {
+    "title": "互联网协议入门（一）",
+    "comments": 244,
+    "year": 2012,
+    "url": "https://www.ruanyifeng.com/blog/2012/05/internet_protocol_suite_part_i.html"
+   },
+   {
+    "title": "中国和津巴布韦",
+    "comments": 237,
+    "year": 2008,
+    "url": "https://www.ruanyifeng.com/blog/2008/07/china_and_zimbabwe.html"
+   },
+   {
+    "title": "RSA算法原理（二）",
+    "comments": 222,
+    "year": 2013,
+    "url": "https://www.ruanyifeng.com/blog/2013/07/rsa_algorithm_part_two.html"
+   },
+   {
+    "title": "台北印象",
+    "comments": 209,
+    "year": 2012,
+    "url": "https://www.ruanyifeng.com/blog/2012/06/taipei.html"
+   },
+   {
+    "title": "南京\"外挂代练\"事件判决书",
+    "comments": 201,
+    "year": 2010,
+    "url": "https://www.ruanyifeng.com/blog/2010/12/the_ruling_of_the_case_of_gold-farming_bot.html"
+   },
+   {
+    "title": "你的命运不是一头骡子",
+    "comments": 201,
+    "year": 2016,
+    "url": "https://www.ruanyifeng.com/blog/2016/06/your-destiny-is-not-like-a-mule.html"
+   },
+   {
+    "title": "理解OAuth 2.0",
+    "comments": 200,
+    "year": 2014,
+    "url": "https://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html"
+   },
+   {
+    "title": "外挂代练何罪之有？",
+    "comments": 196,
+    "year": 2010,
+    "url": "https://www.ruanyifeng.com/blog/2010/11/the_crime_of_gold-farming_bot.html"
+   },
+   {
+    "title": "区块链入门教程",
+    "comments": 195,
+    "year": 2017,
+    "url": "https://www.ruanyifeng.com/blog/2017/12/blockchain-tutorial.html"
+   },
+   {
+    "title": "卡尔维诺中文站留言板",
+    "comments": 193,
+    "year": 2007,
+    "url": "https://www.ruanyifeng.com/blog/2007/01/guestbook.html"
+   },
+   {
+    "title": "搭建一个免费的，无限流量的Blog----github Pages和Jekyll入门",
+    "comments": 188,
+    "year": 2012,
+    "url": "https://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html"
+   },
+   {
+    "title": "RESTful API 设计指南",
+    "comments": 186,
+    "year": 2014,
+    "url": "https://www.ruanyifeng.com/blog/2014/05/restful_api.html"
+   },
+   {
+    "title": "JSON Web Token 入门教程",
+    "comments": 185,
+    "year": 2018,
+    "url": "https://www.ruanyifeng.com/blog/2018/07/json_web_token-tutorial.html"
+   },
+   {
+    "title": "JavaScript 全栈工程师培训教程",
+    "comments": 184,
+    "year": 2016,
+    "url": "https://www.ruanyifeng.com/blog/2016/11/javascript.html"
+   },
+   {
+    "title": "CSS Grid 网格布局教程",
+    "comments": 181,
+    "year": 2019,
+    "url": "https://www.ruanyifeng.com/blog/2019/03/grid-layout-tutorial.html"
+   },
+   {
+    "title": "字符串匹配的KMP算法",
+    "comments": 178,
+    "year": 2013,
+    "url": "https://www.ruanyifeng.com/blog/2013/05/Knuth–Morris–Pratt_algorithm.html"
+   },
+   {
+    "title": "JavaScript 运行机制详解：再谈Event Loop",
+    "comments": 176,
+    "year": 2014,
+    "url": "https://www.ruanyifeng.com/blog/2014/10/event-loop.html"
+   },
+   {
+    "title": "即将到来的中国大萧条",
+    "comments": 171,
+    "year": 2008,
+    "url": "https://www.ruanyifeng.com/blog/2008/10/chinas_great_depression.html"
+   },
+   {
+    "title": "为什么Lisp语言如此先进？（译文）",
+    "comments": 171,
+    "year": 2010,
+    "url": "https://www.ruanyifeng.com/blog/2010/10/why_lisp_is_superior.html"
+   },
+   {
+    "title": "我的博客文集上架了！",
+    "comments": 169,
+    "year": 2014,
+    "url": "https://www.ruanyifeng.com/blog/2014/05/my_blog_book.html"
+   },
+   {
+    "title": "Javascript 面向对象编程（一）：封装",
+    "comments": 167,
+    "year": 2010,
+    "url": "https://www.ruanyifeng.com/blog/2010/05/object-oriented_javascript_encapsulation.html"
+   },
+   {
+    "title": "熵的社会学意义",
+    "comments": 167,
+    "year": 2013,
+    "url": "https://www.ruanyifeng.com/blog/2013/04/entropy.html"
+   },
+   {
+    "title": "理解RESTful架构",
+    "comments": 164,
+    "year": 2011,
+    "url": "https://www.ruanyifeng.com/blog/2011/09/restful.html"
+   }
+  ]
+ }
+}

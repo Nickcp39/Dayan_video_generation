@@ -1,0 +1,392 @@
+{
+ "paulgraham": {
+  "name": "Paul Graham",
+  "field": "tech-startup",
+  "raw_hits": 1545,
+  "posts": 322,
+  "posts_ge_100": 193,
+  "top_points": 1992,
+  "median_points": 148,
+  "total_points": 83313
+ },
+ "waitbutwhy": {
+  "name": "Wait But Why (Tim Urban)",
+  "field": "tech-ideas",
+  "raw_hits": 572,
+  "posts": 113,
+  "posts_ge_100": 9,
+  "top_points": 362,
+  "median_points": 4,
+  "total_points": 3167
+ },
+ "stratechery": {
+  "name": "Stratechery (Ben Thompson)",
+  "field": "tech-business",
+  "raw_hits": 1268,
+  "posts": 772,
+  "posts_ge_100": 177,
+  "top_points": 1273,
+  "median_points": 5,
+  "total_points": 49836
+ },
+ "joelonsoftware": {
+  "name": "Joel on Software",
+  "field": "tech-programming",
+  "raw_hits": 976,
+  "posts": 308,
+  "posts_ge_100": 38,
+  "top_points": 1075,
+  "median_points": 7,
+  "total_points": 14753
+ },
+ "codinghorror": {
+  "name": "Coding Horror (Jeff Atwood)",
+  "field": "tech-programming",
+  "raw_hits": 1171,
+  "posts": 857,
+  "posts_ge_100": 99,
+  "top_points": 1233,
+  "median_points": 6,
+  "total_points": 35181
+ },
+ "danluu": {
+  "name": "Dan Luu",
+  "field": "tech-programming",
+  "raw_hits": 554,
+  "posts": 140,
+  "posts_ge_100": 98,
+  "top_points": 1859,
+  "median_points": 178,
+  "total_points": 37700
+ },
+ "jvns": {
+  "name": "Julia Evans",
+  "field": "tech-programming",
+  "raw_hits": 822,
+  "posts": 452,
+  "posts_ge_100": 155,
+  "top_points": 1134,
+  "median_points": 24,
+  "total_points": 50832
+ },
+ "simonwillison": {
+  "name": "Simon Willison",
+  "field": "tech-ai",
+  "raw_hits": 1174,
+  "posts": 871,
+  "posts_ge_100": 196,
+  "top_points": 3363,
+  "median_points": 6,
+  "total_points": 82322
+ },
+ "samaltman": {
+  "name": "Sam Altman",
+  "field": "tech-startup",
+  "raw_hits": 239,
+  "posts": 122,
+  "posts_ge_100": 90,
+  "top_points": 1264,
+  "median_points": 222,
+  "total_points": 34345
+ },
+ "gwern": {
+  "name": "Gwern",
+  "field": "tech-ideas",
+  "raw_hits": 843,
+  "posts": 553,
+  "posts_ge_100": 87,
+  "top_points": 813,
+  "median_points": 4,
+  "total_points": 26620
+ },
+ "overreacted": {
+  "name": "Overreacted (Dan Abramov)",
+  "field": "tech-programming",
+  "raw_hits": 117,
+  "posts": 61,
+  "posts_ge_100": 22,
+  "top_points": 1678,
+  "median_points": 19,
+  "total_points": 10583
+ },
+ "lethain": {
+  "name": "Will Larson",
+  "field": "tech-management",
+  "raw_hits": 497,
+  "posts": 333,
+  "posts_ge_100": 24,
+  "top_points": 367,
+  "median_points": 2,
+  "total_points": 7130
+ },
+ "kalzumeus": {
+  "name": "Kalzumeus (patio11)",
+  "field": "tech-business",
+  "raw_hits": 395,
+  "posts": 201,
+  "posts_ge_100": 100,
+  "top_points": 1088,
+  "median_points": 99,
+  "total_points": 35923
+ },
+ "worrydream": {
+  "name": "Bret Victor",
+  "field": "tech-ideas",
+  "raw_hits": 353,
+  "posts": 100,
+  "posts_ge_100": 29,
+  "top_points": 1080,
+  "median_points": 10,
+  "total_points": 9536
+ },
+ "martinfowler": {
+  "name": "Martin Fowler",
+  "field": "tech-programming",
+  "raw_hits": 1137,
+  "posts": 477,
+  "posts_ge_100": 69,
+  "top_points": 820,
+  "median_points": 3,
+  "total_points": 21750
+ },
+ "antirez": {
+  "name": "antirez",
+  "field": "tech-programming",
+  "raw_hits": 307,
+  "posts": 205,
+  "posts_ge_100": 91,
+  "top_points": 2282,
+  "median_points": 78,
+  "total_points": 35500
+ },
+ "rachelbythebay": {
+  "name": "rachelbythebay",
+  "field": "tech-programming",
+  "raw_hits": 802,
+  "posts": 485,
+  "posts_ge_100": 128,
+  "top_points": 963,
+  "median_points": 13,
+  "total_points": 43072
+ },
+ "eugenewei": {
+  "name": "Eugene Wei",
+  "field": "tech-business",
+  "raw_hits": 114,
+  "posts": 46,
+  "posts_ge_100": 8,
+  "top_points": 332,
+  "median_points": 3,
+  "total_points": 2098
+ },
+ "karpathy": {
+  "name": "Andrej Karpathy",
+  "field": "tech-ai",
+  "raw_hits": 136,
+  "posts": 35,
+  "posts_ge_100": 16,
+  "top_points": 1936,
+  "median_points": 92,
+  "total_points": 9617
+ },
+ "slatestarcodex": {
+  "name": "Slate Star Codex / Astral Codex Ten",
+  "field": "ideas-econ",
+  "raw_hits": 2235,
+  "posts": 1242,
+  "posts_ge_100": 93,
+  "top_points": 2450,
+  "median_points": 3,
+  "total_points": 34900
+ },
+ "kk": {
+  "name": "Kevin Kelly",
+  "field": "tech-ideas",
+  "raw_hits": 473,
+  "posts": 337,
+  "posts_ge_100": 25,
+  "top_points": 1109,
+  "median_points": 3,
+  "total_points": 10144
+ },
+ "collabfund": {
+  "name": "Morgan Housel (Collaborative Fund)",
+  "field": "finance-behavior",
+  "raw_hits": 192,
+  "posts": 111,
+  "posts_ge_100": 7,
+  "top_points": 339,
+  "median_points": 2,
+  "total_points": 2671
+ },
+ "marginalrevolution": {
+  "name": "Marginal Revolution",
+  "field": "econ",
+  "raw_hits": 2019,
+  "posts": 1759,
+  "posts_ge_100": 33,
+  "top_points": 960,
+  "median_points": 2,
+  "total_points": 16005
+ },
+ "noahpinion": {
+  "name": "Noahpinion (Noah Smith)",
+  "field": "econ",
+  "raw_hits": 985,
+  "posts": 702,
+  "posts_ge_100": 22,
+  "top_points": 684,
+  "median_points": 4,
+  "total_points": 11780
+ },
+ "bitsaboutmoney": {
+  "name": "Bits about Money (patio11)",
+  "field": "finance-systems",
+  "raw_hits": 75,
+  "posts": 42,
+  "posts_ge_100": 24,
+  "top_points": 1271,
+  "median_points": 120,
+  "total_points": 7208
+ },
+ "mrmoneymustache": {
+  "name": "Mr. Money Mustache",
+  "field": "finance-personal",
+  "raw_hits": 108,
+  "posts": 81,
+  "posts_ge_100": 7,
+  "top_points": 309,
+  "median_points": 2,
+  "total_points": 2205
+ },
+ "ofdollarsanddata": {
+  "name": "Of Dollars and Data",
+  "field": "finance-personal",
+  "raw_hits": 175,
+  "posts": 130,
+  "posts_ge_100": 4,
+  "top_points": 330,
+  "median_points": 2,
+  "total_points": 1606
+ },
+ "awealthofcommonsense": {
+  "name": "A Wealth of Common Sense",
+  "field": "finance-personal",
+  "raw_hits": 144,
+  "posts": 137,
+  "posts_ge_100": 11,
+  "top_points": 354,
+  "median_points": 2,
+  "total_points": 3182
+ },
+ "damodaran": {
+  "name": "Aswath Damodaran",
+  "field": "finance-valuation",
+  "raw_hits": 106,
+  "posts": 80,
+  "posts_ge_100": 0,
+  "top_points": 62,
+  "median_points": 2,
+  "total_points": 320
+ },
+ "oaktree": {
+  "name": "Howard Marks memos",
+  "field": "finance-investing",
+  "raw_hits": 61,
+  "posts": 41,
+  "posts_ge_100": 1,
+  "top_points": 336,
+  "median_points": 2,
+  "total_points": 632
+ },
+ "mattstoller": {
+  "name": "BIG (Matt Stoller)",
+  "field": "econ-policy",
+  "raw_hits": 502,
+  "posts": 366,
+  "posts_ge_100": 55,
+  "top_points": 1158,
+  "median_points": 5,
+  "total_points": 21630
+ },
+ "thediff": {
+  "name": "The Diff (Byrne Hobart)",
+  "field": "finance-tech",
+  "raw_hits": 278,
+  "posts": 218,
+  "posts_ge_100": 12,
+  "top_points": 671,
+  "median_points": 2,
+  "total_points": 3825
+ },
+ "notboring": {
+  "name": "Not Boring (Packy McCormick)",
+  "field": "tech-business",
+  "raw_hits": 164,
+  "posts": 105,
+  "posts_ge_100": 1,
+  "top_points": 429,
+  "median_points": 2,
+  "total_points": 819
+ },
+ "earlyretirementnow": {
+  "name": "Early Retirement Now",
+  "field": "finance-personal",
+  "raw_hits": 1,
+  "posts": 1,
+  "posts_ge_100": 0,
+  "top_points": 1,
+  "median_points": 1,
+  "total_points": 1
+ },
+ "jlcollins": {
+  "name": "JL Collins",
+  "field": "finance-personal",
+  "raw_hits": 7,
+  "posts": 4,
+  "posts_ge_100": 0,
+  "top_points": 66,
+  "median_points": 3,
+  "total_points": 76
+ },
+ "danwang": {
+  "name": "Dan Wang",
+  "field": "econ-china-tech",
+  "raw_hits": 98,
+  "posts": 18,
+  "posts_ge_100": 7,
+  "top_points": 424,
+  "median_points": 20,
+  "total_points": 2202
+ },
+ "constructionphysics": {
+  "name": "Construction Physics (Brian Potter)",
+  "field": "econ-tech",
+  "raw_hits": 344,
+  "posts": 191,
+  "posts_ge_100": 49,
+  "top_points": 594,
+  "median_points": 14,
+  "total_points": 14648
+ },
+ "overcomingbias": {
+  "name": "Overcoming Bias (Robin Hanson)",
+  "field": "econ",
+  "raw_hits": 834,
+  "posts": 730,
+  "posts_ge_100": 16,
+  "top_points": 662,
+  "median_points": 2,
+  "total_points": 7846
+ },
+ "calculatedrisk": {
+  "name": "Calculated Risk",
+  "field": "econ-macro",
+  "raw_hits": 125,
+  "posts": 120,
+  "posts_ge_100": 2,
+  "top_points": 301,
+  "median_points": 2,
+  "total_points": 869
+ }
+}

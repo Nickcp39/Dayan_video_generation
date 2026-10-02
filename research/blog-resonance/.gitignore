@@ -1,0 +1,3 @@
+# Downloaded pages, article text, raw API responses and LLM outputs quote the authors' work:
+# keep them on this machine. The repo gets code, prompts and the aggregate results in out/.
+data/

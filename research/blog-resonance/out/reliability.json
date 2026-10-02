@@ -1,0 +1,82 @@
+{
+ "model_a": "codes.json",
+ "model_b": "claude-opus-5-5",
+ "n": 30,
+ "scores": {
+  "audience_scope": {
+   "exact": 0.73,
+   "within_one": 1
+  },
+  "reader_mirror": {
+   "exact": 0.87,
+   "within_one": 1
+  },
+  "contrarian": {
+   "exact": 0.9,
+   "within_one": 1
+  },
+  "surprise": {
+   "exact": 0.93,
+   "within_one": 1
+  },
+  "practical_value": {
+   "exact": 0.87,
+   "within_one": 1
+  },
+  "social_currency": {
+   "exact": 0.8,
+   "within_one": 1
+  },
+  "identity": {
+   "exact": 0.77,
+   "within_one": 1
+  },
+  "narrative": {
+   "exact": 0.83,
+   "within_one": 1
+  },
+  "vulnerability": {
+   "exact": 0.87,
+   "within_one": 1
+  },
+  "concreteness": {
+   "exact": 0.9,
+   "within_one": 1
+  },
+  "debate": {
+   "exact": 0.83,
+   "within_one": 1
+  },
+  "timeliness": {
+   "exact": 0.93,
+   "within_one": 1
+  },
+  "accessibility": {
+   "exact": 0.8,
+   "within_one": 1
+  }
+ },
+ "categories": {
+  "post_type": {
+   "exact": 0.87
+  },
+  "emotion": {
+   "exact": 0.9
+  },
+  "arousal": {
+   "exact": 0.67
+  },
+  "valence": {
+   "exact": 0.77
+  },
+  "authority": {
+   "exact": 0.77
+  },
+  "opening": {
+   "exact": 0.77
+  },
+  "title_promise": {
+   "exact": 0.7
+  }
+ }
+}
