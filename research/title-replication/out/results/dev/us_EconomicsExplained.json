@@ -1,0 +1,851 @@
+{
+ "key": "us_EconomicsExplained",
+ "systems": [
+  "fewshot",
+  "guide_v1",
+  "guide_v2",
+  "zero"
+ ],
+ "items": [
+  {
+   "id": "VX7rws4lPg8",
+   "upload_date": "20241208",
+   "topic": "阿根廷米莱政府上任一年的紧缩与美元化政策及其经济、社会影响",
+   "real_title": "1 Year Later: How Has Argentina Been Going?",
+   "real_thesis": "阿根廷的休克式紧缩已初见成效（财政盈余、通胀下降），但成败取决于公众能否忍受阵痛、给改革足够时间。",
+   "real_thesis_type": "judge",
+   "real_title_thesis": "asks",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Milei's First Year: Is Argentina Actually Being Fixed?",
+     "thesis": "米莱的紧缩一年确实止住了通胀与赤字，但美元化缺乏美元储备支撑，阿根廷的真正考验还没开始。",
+     "candidates": [
+      "Milei's First Year: Is Argentina Actually Being Fixed?",
+      "Argentina's Chainsaw Economics: One Year Later | Economics Explained",
+      "Why Argentina Wants to Give Up Its Own Currency"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "频道有\"How Has X Been Going\"系列，口语化",
+     "thesis_score": 2,
+     "thesis_reason": "都认可初见成效，但风险点分别在民众耐受和美元储备",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Did Milei Actually Fix Argentina?",
+     "thesis": "米莱一年的盈余和降通胀是真成绩，但只是止血；阿根廷的病根在长期举债和保护低效产业，美元化缺储备，难以根治。",
+     "candidates": [
+      "Did Milei Actually Fix Argentina?",
+      "Milei's Radical Gamble on Argentina: One Year Later",
+      "Why Argentina Wants to Kill Its Own Currency | Economics Explained"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "口语化的“How Has…Been Going”带澳式风格，不像AI写的",
+     "thesis_score": 2,
+     "thesis_reason": "都认可初步成效；真实强调需忍耐时间，仿写偏悲观看病根",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "One Year Later: How Has Argentina Been Going?",
+     "thesis": "米莱靠削减补贴和部门换来盈余与通胀回落，代价是失业和物价飙升；能否成功取决于民众能否忍过阵痛、先稳住比索再谈美元化。",
+     "candidates": [
+      "One Year Later: How Has Argentina Been Going?",
+      "Argentina's Chainsaw Year: Miracle or Mirage?",
+      "Argentina's Wild Bet on Someone Else's Currency"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "频道常用阿拉伯数字“1 Year Later”这种写法",
+     "thesis_score": 3,
+     "thesis_reason": "都说紧缩见效，成败看民众能否忍受阵痛",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.75
+    },
+    "zero": {
+     "title": "Is Milei Actually Fixing Argentina?",
+     "thesis": "米莱的休克疗法一年内确实压住了通胀并实现财政盈余，但美元化缺乏外汇储备支撑，阿根廷复苏远未稳固。",
+     "candidates": [
+      "Is Milei Actually Fixing Argentina?",
+      "Argentina's Economic Shock Therapy: One Year Later",
+      "Can Argentina Really Ditch the Peso?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "“How has…been going”是频道口语化风格",
+     "thesis_score": 2,
+     "thesis_reason": "都认可初见成效，但风险点不同：公众忍耐 vs 外汇储备",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "1f2yeAcbpvU",
+   "upload_date": "20250406",
+   "topic": "波兰经济增长的驱动因素、面临的挑战及其与欧盟成熟经济体的差异",
+   "real_title": "How Poland Quietly Became Europe’s Rising Power",
+   "real_thesis": "波兰靠渐进私有化、善用欧盟资金、保留本币和技术留才实现增长，但依赖欧洲邻国与外部资金，超越德法仍很难，更适合作为欧洲的参照案例。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Poland: Europe's Quiet Economic Miracle",
+     "thesis": "波兰靠渐进私有化、欧盟资金和保留本币实现追赶，但低工资优势消失后，这台增长机器可能会熄火。",
+     "candidates": [
+      "Poland: Europe's Quiet Economic Miracle",
+      "Why Poland Is Outgrowing the Rest of Europe | Economics Explained",
+      "Will Poland Become Richer Than Spain?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "弯引号排版像真实上传，A过于模板化",
+     "thesis_score": 2,
+     "thesis_reason": "成因一致，结论分别是难超德法和增长可能熄火",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "The Remarkable Economy of Poland",
+     "thesis": "波兰的成功不靠运气，靠渐进私有化和不加入欧元；但低工资红利、欧盟输血和军费扩张，决定了它追不上德国。",
+     "candidates": [
+      "The Remarkable Economy of Poland",
+      "Could Poland Overtake Germany? | Economics Explained",
+      "How Poland Became Europe's Quiet Success Story"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "“The Remarkable Economy of X”是频道常用句式",
+     "thesis_score": 3,
+     "thesis_reason": "渐进改革、保留本币、靠欧盟、难超德国，论断一致",
+     "attr_correct": true,
+     "copy_sim": 0.5,
+     "copy_nearest": "The Remarkable Economy of Canada",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "How Poland Quietly Became Europe's Growth Engine",
+     "thesis": "波兰崛起靠渐进私有化、欧盟巨额资金和保留本币，但依赖低工资外资与邻国需求；只要军费债务可控，仍有望逐步追上西欧。",
+     "candidates": [
+      "How Poland Quietly Became Europe's Growth Engine",
+      "Why Poland's Boring Economy Keeps Winning",
+      "Poland, Pierogi and… a Nuclear Army?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "弯引号符合真实上传的特征，Rising Power也更自然",
+     "thesis_score": 1,
+     "thesis_reason": "真实称难超德法，仿写称有望追上西欧",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.3
+    },
+    "zero": {
+     "title": "Poland: Europe's Next Economic Superpower?",
+     "thesis": "波兰靠渐进式私有化、欧盟资金和保留本币实现赶超，但低工资优势消退和军费负担会让它难以追上德法。",
+     "candidates": [
+      "Poland: Europe's Next Economic Superpower?",
+      "Why Poland's Economy Is Outperforming Europe",
+      "The Polish Economic Miracle Explained"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "“X: Europe's Next…”贴近频道常用格式",
+     "thesis_score": 2,
+     "thesis_reason": "成因一致，但难超德法的原因不同",
+     "attr_correct": true,
+     "copy_sim": 0.2,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "bG6-JX_iYQM",
+   "upload_date": "20250303",
+   "topic": "加拿大近年经济状况：住房、生产率、人才外流与移民政策",
+   "real_title": "How Has Canada Been Going?",
+   "real_thesis": "加拿大因资金涌入房地产、投资不足致生产率落后美国，又靠移民和资源硬撑，问题积重难返，若不更激进改革将陷入严重困境。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "labels",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Canada Bet Everything on Housing, and It's Losing | Economics Explained",
+     "thesis": "加拿大把资本押在房地产而非生产性企业上，这才是其生产率落后美国、人才外流的根本原因。",
+     "candidates": [
+      "Canada's Economy Is in Serious Trouble",
+      "Canada Bet Everything on Housing, and It's Losing | Economics Explained",
+      "Why Canadians Are Getting Poorer Than Americans"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "\"How Has X Been Going\"系列固定格式",
+     "thesis_score": 2,
+     "thesis_reason": "病因相同，仿写没有提积重难返、须激进改革",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Canada Is in Serious Trouble",
+     "thesis": "加拿大的困境不是特鲁多或美国关税造成的，而是全国资本都押在房地产上，生产性投资不足，人才才会持续流向美国。",
+     "candidates": [
+      "Canada Is in Serious Trouble",
+      "The Big Problem With Canada's Economy | Economics Explained",
+      "Why Canada Is Becoming the Next Spain"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "A像照搬参考里的“Serious Trouble”，B句式与阿根廷那期一致",
+     "thesis_score": 3,
+     "thesis_reason": "核心都是资本押房地产致生产性投资不足",
+     "attr_correct": true,
+     "copy_sim": 0.25,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "How Canada Bet the Whole Economy on Housing",
+     "thesis": "加拿大靠资源和稳健金融躲过危机，却把资本押在住房而非企业，导致生产率落后和人才外流；只有转向生产性投资才能慢慢复苏。",
+     "candidates": [
+      "How Canada Bet the Whole Economy on Housing",
+      "The End of Canada's Comfortable Decade",
+      "Why Canada Isn't the Next America (but Should Be!)"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "“How Has X Been Going?”是该频道的系列固定格式",
+     "thesis_score": 2,
+     "thesis_reason": "病因相同，但真实更悲观，仿写称可慢慢复苏",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Why Canada Is Getting Poorer",
+     "thesis": "加拿大把资本押在房地产而非生产性企业，导致生产率落后、人才外流，经济正在相对美国持续变穷。",
+     "candidates": [
+      "Canada's Economy Is in Serious Trouble",
+      "How Canada Became a Housing Market With a Country Attached",
+      "Why Canada Is Getting Poorer"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "B疑似套用阿根廷标题句式",
+     "thesis_score": 3,
+     "thesis_reason": "核心因果相同：资本押房地产导致生产率落后",
+     "attr_correct": false,
+     "copy_sim": 0.125,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "8-FqY1q60EQ",
+   "upload_date": "20250325",
+   "topic": "美国政府效率部（DOGE）削减开支与美国债务、赤字状况及1993年先例对比",
+   "real_title": "The Problem With Trying to Run Government Like a Business",
+   "real_thesis": "DOGE的削支方向合理，但2万亿目标不现实，且在减税、债务翻倍、经济依赖政府支出的今天，激进快速削减会适得其反，须缓慢协调推进。",
+   "real_thesis_type": "judge",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "The $2 Trillion Problem DOGE Can't Solve",
+     "thesis": "只砍可自由裁量支出又同时减税，DOGE不可能复制1993年的盈余，甚至可能让赤字更大。",
+     "candidates": [
+      "Can DOGE Actually Balance the Budget?",
+      "The Last Time America Had a Surplus | Economics Explained",
+      "The $2 Trillion Problem DOGE Can't Solve"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "偏论述式概念标题，B的数字钩子像仿写",
+     "thesis_score": 2,
+     "thesis_reason": "都不看好，但仿写没有提方向合理、须缓慢推进",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Can DOGE Actually Fix America's Debt?",
+     "thesis": "DOGE救不了美国债务：可削的自由裁量支出太少，减税又抽掉收入；1993年的盈余靠的是削支出加增税，外加经济强劲。",
+     "candidates": [
+      "Can DOGE Actually Fix America's Debt?",
+      "Why DOGE Won't Balance the Budget | Economics Explained",
+      "The Economics of Cutting $2 Trillion"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "B用“Actually Fix”属于AI常见套路，A更有观点",
+     "thesis_score": 2,
+     "thesis_reason": "都不看好DOGE；真实主张缓慢削减，仿写强调需增税",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "The Problem With Running Government Like a Startup",
+     "thesis": "1993年盈余靠削支、加税和经济繁荣同时发生；如今只砍可自由裁量支出又减税，杯水车薪甚至减收，真正削赤字必须动福利和税收。",
+     "candidates": [
+      "The Problem With Running Government Like a Startup",
+      "Why Cutting $2 Trillion Is Harder Than It Sounds",
+      "Chainsaws, Spreadsheets and… a Bigger Deficit?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "说法更口语，Startup像AI刻意求新",
+     "thesis_score": 2,
+     "thesis_reason": "都认为当前削支难奏效，但建议重点不同",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.333
+    },
+    "zero": {
+     "title": "Can DOGE Actually Fix America's Debt?",
+     "thesis": "DOGE每年削减2万亿美元的目标在数学上不可行，且没有1993年那样的同步加税，仅靠砍支出无法消除美国赤字。",
+     "candidates": [
+      "Can DOGE Actually Fix America's Debt?",
+      "The Math Behind DOGE Doesn't Add Up",
+      "America Balanced Its Budget Once. Can It Do It Again?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "观点式标题更有频道个性，B过于直白",
+     "thesis_score": 2,
+     "thesis_reason": "都认为目标不可行，重点分别是节奏和加税",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "3M690082Y0s",
+   "upload_date": "20241223",
+   "topic": "韩国财阀主导的经济结构、发展历程及其带来的经济与政治问题",
+   "real_title": "The End of South Korea's Economic Miracle",
+   "real_thesis": "韩国“经济奇迹”靠美援、自由化时机与财阀扶持堆出，财阀垄断劳动力与资本、抑制创新，如今增长停滞，奇迹能维持这么久本身就是侥幸。",
+   "real_thesis_type": "judge",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "The Chaebol Problem: How a Few Companies Own South Korea",
+     "thesis": "财阀曾是韩国奇迹的引擎，如今却在增长放缓时堵死了机会，正是韩国经济与政治动荡的根源。",
+     "candidates": [
+      "The Chaebol Problem: How a Few Companies Own South Korea",
+      "The Economy of South Korea",
+      "Why South Korea's Miracle Is Running Out of Steam | Economics Explained"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "宏大断言式符合频道风格，A冒号式像AI",
+     "thesis_score": 2,
+     "thesis_reason": "都批财阀，真实还强调奇迹本身是侥幸",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Something Is Going Wrong in South Korea | Economics Explained",
+     "thesis": "成就韩国奇迹的财阀如今成了负担：企业债高企、机会过度集中，增长放缓后分配冲突上升，最终演变为政治动荡。",
+     "candidates": [
+      "Is South Korea Run by Samsung?",
+      "The Chaebol Problem: Why South Korea's Economy Is Stuck",
+      "Something Is Going Wrong in South Korea | Economics Explained"
+     ],
+     "judge_correct": false,
+     "judge_conf": 4,
+     "judge_reason": "带频道名后缀，是真实标题的痕迹",
+     "thesis_score": 2,
+     "thesis_reason": "都认为财阀成拖累；真实重创新停滞与侥幸，仿写重政治动荡",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "The End of South Korea's Chaebol Miracle",
+     "thesis": "韩国奇迹靠美援、受保护的财阀和广场协议窗口，代价是企业高负债与机会不平等；不改革财阀与分配，增长放缓将加剧政治分裂。",
+     "candidates": [
+      "How a Few Families Built South Korea",
+      "The End of South Korea's Chaebol Miracle",
+      "South Korea Inc.: Samsung, Hyundai and… Martial Law?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "Economic Miracle是常见说法，Chaebol Miracle生硬",
+     "thesis_score": 2,
+     "thesis_reason": "成因相同，结论一为侥幸停滞，一为政治分裂",
+     "attr_correct": true,
+     "copy_sim": 0.1,
+     "copy_nearest": "",
+     "real_overlap": 0.5
+    },
+    "zero": {
+     "title": "South Korea's Chaebol Problem",
+     "thesis": "曾推动韩国奇迹的财阀体制如今已成为负担，高企业债、机会不均与增长停滞正在引发韩国的经济与政治危机。",
+     "candidates": [
+      "South Korea's Chaebol Problem",
+      "How Samsung and Friends Built (and Broke) South Korea",
+      "Why South Korea's Economic Miracle Is Running Out of Steam"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "简短点题，切中财阀主题",
+     "thesis_score": 2,
+     "thesis_reason": "都批评财阀拖累增长，仿写没提奇迹靠侥幸",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.125
+    }
+   }
+  },
+  {
+   "id": "BLH6Z1-t5e0",
+   "upload_date": "20241110",
+   "topic": "智利经济发展历程、铜出口地位、收入不平等及其对全球供应链的影响",
+   "real_title": "How Chile's Economy Was Sold to The Highest Bidder",
+   "real_thesis": "智利的成功主要体现在宏观指标上：芝加哥学派式的亲商政策和铜出口带来增长，却造成严重不平等，若社会压力迫使改革，可能冲击全球铜供应。",
+   "real_thesis_type": "judge",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "The Economy of Chile: South America's Success Story Has a Big Problem",
+     "thesis": "智利靠铜和芝加哥男孩式改革成了南美最成功的经济体，但收入分配不均才是它增长最大的威胁。",
+     "candidates": [
+      "The Economy of Chile",
+      "Chile: South America's Richest Country Has a Big Problem",
+      "Why Chile's Economic Miracle Made Everyone Angry"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "\"The Economy of X:\"是频道经典格式",
+     "thesis_score": 2,
+     "thesis_reason": "增长与不平等一致，仿写没有提对铜供应的冲击",
+     "attr_correct": true,
+     "copy_sim": 0.091,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "The Economy of Chile | Economics Explained",
+     "thesis": "智利的成功不靠铜本身，而靠1982年崩盘后稳定的制度与低腐败；高度不平等和对铜的依赖才是它真正的隐患。",
+     "candidates": [
+      "The Economy of Chile | Economics Explained",
+      "How Chile Became South America's Richest Country",
+      "Is Chile Actually a Free Market Success Story?"
+     ],
+     "judge_correct": false,
+     "judge_conf": 4,
+     "judge_reason": "早期“The Economy of X | 频道名”的标准格式",
+     "thesis_score": 1,
+     "thesis_reason": "成功原因相左：铜与亲商政策 vs 制度；仅不平等隐患重合",
+     "attr_correct": true,
+     "copy_sim": 0.2,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Chile's Miracle Came With a Very Big Bill",
+     "thesis": "智利靠铜矿和芝加哥男孩的市场化改革跻身南美最富，但代价是高度不平等和社会撕裂；若能分好蛋糕，增长仍可延续。",
+     "candidates": [
+      "How Chile Became South America's Richest Puzzle",
+      "Chile's Miracle Came With a Very Big Bill",
+      "The Chicago Boys, Copper and… Riots?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "“The Highest Bidder”大小写不规范，像真人写的",
+     "thesis_score": 2,
+     "thesis_reason": "成因与不平等一致，结论落点不同（铜供应vs分配）",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Chile: South America's Most Successful Economy?",
+     "thesis": "智利的富裕是真实的，靠铜和芝加哥男孩式改革换来，但不平等让这套成功模式随时可能被民众推翻",
+     "candidates": [
+      "Chile: South America's Most Successful Economy?",
+      "The Chicago Boys Experiment: How Chile Became Rich (and Unequal)",
+      "Why Is Chile So Rich and So Angry?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "带争议性的叙事角度，B较模板化",
+     "thesis_score": 2,
+     "thesis_reason": "成因与不平等一致，但对成功真假的判断和后果不同",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "PaHKRBGT_6A",
+   "upload_date": "20240728",
+   "topic": "巴西2000年代经济增长、2014年后腐败丑闻与经济下滑的经过",
+   "real_title": "Why Brazil Isn't a Superpower (but Should be!)",
+   "real_thesis": "巴西靠大宗商品出口和对华依赖才崛起，腐败丑闻叠加商品价格下跌与物流劣势使其崩盘；但资源与金砖布局仍可让它缓慢复兴。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "asks",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "What Happened to Brazil? | Economics Explained",
+     "thesis": "巴西2000年代的繁荣主要靠中国对大宗商品的需求，腐败丑闻只是把它本来就脆弱的经济模式暴露了出来。",
+     "candidates": [
+      "What Happened to Brazil?",
+      "The Economy of Brazil: The Country of the Future That Never Arrived",
+      "How One Car Wash Brought Down Brazil's Economy"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "括号和不规则大小写透着真人随意感",
+     "thesis_score": 2,
+     "thesis_reason": "仿写淡化腐败的作用，也没有提缓慢复兴",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "What Happened to Brazil's Economy?",
+     "thesis": "巴西的下滑不只怪腐败丑闻，根源是2000年代的繁荣靠中国大宗需求撑起，经济本身从未建立起可持续的赚钱方式。",
+     "candidates": [
+      "What Happened to Brazil's Economy?",
+      "The Wasted Economy of Brazil | Economics Explained",
+      "Why Brazil Never Became The Next Superpower"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "括号加感叹号、大小写不规范，像真人写的",
+     "thesis_score": 2,
+     "thesis_reason": "都归因于中国大宗需求；仿写无缓慢复兴的判断",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "How Brazil Washed Away Its Boom",
+     "thesis": "巴西的繁荣靠稳定货币和中国对资源的需求，腐败和地理劣势把它掏空了；只有改变靠资源赚钱的模式，才能真正复苏。",
+     "candidates": [
+      "How Brazil Washed Away Its Boom",
+      "The End of Brazil's Commodity Miracle",
+      "Brazil: From Superpower in Waiting to… Car Wash?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "括号加感叹号、大小写随意，是该频道的风格",
+     "thesis_score": 2,
+     "thesis_reason": "兴衰原因相近，复苏路径判断不同",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "What Happened to Brazil's Economy?",
+     "thesis": "巴西2000年代的繁荣主要靠中国需求的运气，洗车行动丑闻只是揭开了它从未真正学会自己赚钱的事实",
+     "candidates": [
+      "What Happened to Brazil's Economy?",
+      "Brazil: The Economic Superpower That Never Was",
+      "How Corruption Destroyed Brazil's Economic Miracle"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "括号插入语很有频道调侃风格",
+     "thesis_score": 2,
+     "thesis_reason": "都归因于外需，但仿写更悲观，没提复兴可能",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "XkE9cunv62E",
+   "upload_date": "20240815",
+   "topic": "波黑战后经济重建、政治结构、现状数据及欧盟入盟进程",
+   "real_title": "War, Divide and… Thrive? Bosnia's Wild Economic Journey",
+   "real_thesis": "波黑靠外援、私有化和欧元挂钩币值实现战后复苏，但《代顿协议》造成的分裂低效政治拖累投资、致人口外流，入欧也难以单独解决问题。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "The Economy of Bosnia: The World's Most Complicated Government",
+     "thesis": "代顿协议结束了战争，但它造出的三方分权政府现在是波黑经济停滞、人口外流的主要原因。",
+     "candidates": [
+      "The Economy of Bosnia and Herzegovina",
+      "The World's Most Complicated Government Is Strangling Its Economy",
+      "Is Bosnia Ready for the EU?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "省略号和俏皮问句较有人味",
+     "thesis_score": 3,
+     "thesis_reason": "都认为代顿政治体制导致停滞和人口外流",
+     "attr_correct": true,
+     "copy_sim": 0.125,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "The Broken Economy of Bosnia and Herzegovina",
+     "thesis": "波黑经济停滞的根源不是战争创伤，而是代顿协议留下的三族否决、实体割裂的治理结构，正逼走年轻劳动力。",
+     "candidates": [
+      "The Broken Economy of Bosnia and Herzegovina",
+      "Why Bosnia's Economy Is Still Stuck After 30 Years",
+      "Can Bosnia Actually Join The EU?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "带省略号的俏皮句式像频道近年标题风格",
+     "thesis_score": 3,
+     "thesis_reason": "都认为代顿体制致治理低效、人口外流是根源",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "The Country With Three Presidents (and No Plan)",
+     "thesis": "代顿协议止住了战争，却留下层层否决的分权结构，让投资和年轻人都在流失；入盟改革是出路，但前提是政治上能先达成共识。",
+     "candidates": [
+      "The Country With Three Presidents (and No Plan)",
+      "Why Bosnia's Economy Is Stuck in 1995",
+      "How Peace Built Bosnia an Unworkable Economy"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "用了省略号和Wild Journey，风格俏皮随性",
+     "thesis_score": 2,
+     "thesis_reason": "都指代顿政治拖累，但对入欧作用判断有别",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Bosnia: The Country Designed to Fail?",
+     "thesis": "代顿协议结束了战争，却造出一个三方互相否决的政府，这才是波黑经济停滞、人口外流的根本原因",
+     "candidates": [
+      "The Economy of Bosnia and Herzegovina: Europe's Most Complicated Country",
+      "Why Bosnia's Economy Can't Escape the War",
+      "Bosnia: The Country Designed to Fail?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "省略号和反转句式较为独特",
+     "thesis_score": 3,
+     "thesis_reason": "都认为代顿体制是停滞和人口外流的主因",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "HrgQxpxh1m8",
+   "upload_date": "20250311",
+   "topic": "金砖国家的发展历程、扩员现状，及其建立独立于美元体系的经济圈所面临的条件与障碍",
+   "real_title": "Revenge of the BRICS",
+   "real_thesis": "BRICS因美国政策不确定而获得扩张契机，但成员利益冲突、缺乏有约束力的机构且仍依赖西方贸易与投资，难以成为真正的替代体系，至多是对冲保险。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "teases",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "Can BRICS Actually Replace the US Dollar?",
+     "thesis": "金砖国家内部矛盾太深，又没有有约束力的机构，短期内根本建不成脱离美元的独立经济圈。",
+     "candidates": [
+      "The BRICS Problem Nobody Talks About",
+      "Can BRICS Actually Replace the US Dollar?",
+      "Why BRICS Will Never Be the Next EU"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "简短戏剧化标题，B过于直白像仿写",
+     "thesis_score": 3,
+     "thesis_reason": "都认为内部矛盾加机构缺失，难成替代体系",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Can BRICS Actually Replace The US Dollar?",
+     "thesis": "金砖规模足够大，但没有约束性机构、成员间互不信任且依赖美国市场，短期内无法建立独立于美元的经济圈。",
+     "candidates": [
+      "Can BRICS Actually Replace The US Dollar?",
+      "BRICS Will Not Replace The Dollar",
+      "The Economics of BRICS | Economics Explained"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "短小戏谑的“Revenge of”更像真人；A是AI的模板句",
+     "thesis_score": 3,
+     "thesis_reason": "都因缺约束机构、内斗、依赖西方而难成替代",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "The Problem With Replacing the Dollar",
+     "thesis": "金砖扩员靠的是对美元制裁的共同不满，但成员互不信任，又没有约束性机构；它至多是一种对冲，很难取代美元。",
+     "candidates": [
+      "The Problem With Replacing the Dollar",
+      "BRICS: Big Club, Small Glue",
+      "Why BRICS Isn't a Rival to the West (Yet)"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "短促的戏剧化标题，A像AI在概括选题",
+     "thesis_score": 3,
+     "thesis_reason": "都认为金砖互不信任无约束，至多对冲",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Can BRICS Actually Replace the US Dollar?",
+     "thesis": "金砖国家内部矛盾太深、又没有约束性机构，在可预见的将来根本建不起一个能取代美元的经济圈",
+     "candidates": [
+      "Can BRICS Actually Replace the US Dollar?",
+      "The BRICS Problem Nobody Talks About",
+      "Why BRICS Will Never Beat the Dollar"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "简短戏剧化，B是常见AI式提问",
+     "thesis_score": 3,
+     "thesis_reason": "都认为内部矛盾、缺乏约束机制，难以替代现有体系",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "1KpjV-p59k8",
+   "upload_date": "20250216",
+   "topic": "格陵兰的经济结构、对丹麦的依赖，以及美国对其兴趣的来源",
+   "real_title": "Why Greenland's Tiny Economy Matters to Superpowers",
+   "real_thesis": "格陵兰本身经济体量极小、靠丹麦输血，大国看重的是资源、航道和军事据点的潜力，而非现有经济；美国买下它既不现实也不划算。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "asks",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Why America Actually Wants Greenland | Economics Explained",
+     "thesis": "格陵兰经济几乎全靠丹麦补贴，美国看重的不是它的经济，而是北极航道和军事战略位置。",
+     "candidates": [
+      "The Economy of Greenland",
+      "Why Does America Want Greenland So Badly?",
+      "Greenland: The World's Most Expensive Island?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "B后缀和\"Actually\"略显刻意仿写",
+     "thesis_score": 2,
+     "thesis_reason": "战略价值一致，仿写没有提买下不现实、不划算",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Why Does America Actually Want Greenland?",
+     "thesis": "格陵兰的高收入几乎全靠丹麦输血，经济本身价值很小；美国真正想要的是北极航道和军事位置，而非矿产。",
+     "candidates": [
+      "The Surprisingly Rich Economy of Greenland",
+      "Why Does America Actually Want Greenland?",
+      "Is Greenland Actually Worth Buying?"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "直接用时事钩子的问句符合频道近年风格",
+     "thesis_score": 2,
+     "thesis_reason": "都说经济价值小、看重航道军事；资源判断相左，缺购买结论",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Why Greenland's Tiny Economy Matters to Superpowers",
+     "thesis": "格陵兰的经济几乎全靠丹麦输血，本身微不足道；冰盖融化后，它的价值变成了航道、矿产和军事位置，但这些潜力能否兑现要看开采成本和独立进程。",
+     "candidates": [
+      "Why Greenland's Tiny Economy Matters to Superpowers",
+      "How Melting Ice Made Greenland Valuable",
+      "Greenland: Ice, Whales and… Real Estate?"
+     ],
+     "judge_correct": false,
+     "judge_conf": 1,
+     "judge_reason": "两个标题完全相同，无从区分，只能纯猜",
+     "thesis_score": 2,
+     "thesis_reason": "价值来源一致，仿写缺美国购买不划算的判断",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 1.0
+    },
+    "zero": {
+     "title": "The Economy of Greenland: Why Does America Want It?",
+     "thesis": "格陵兰经济本身小且依赖丹麦，美国真正想要的是融冰带来的航道、矿产和军事位置，而非它的经济",
+     "candidates": [
+      "The Economy of Greenland: Why Does America Want It?",
+      "Greenland's Economy Is Not What You Think",
+      "Why Greenland Is Worth More Than Its Economy"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "“The Economy of X”是频道经典格式",
+     "thesis_score": 2,
+     "thesis_reason": "战略动机判断相同，但缺少买下不现实的结论",
+     "attr_correct": true,
+     "copy_sim": 0.125,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  }
+ ]
+}

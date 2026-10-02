@@ -1,0 +1,22 @@
+{
+ "exemplar_ids": [
+  "8mmSW8G_oYo",
+  "8bcvHwR1efA",
+  "UHNxy5N8qYA",
+  "AtM5UFlOCGs",
+  "IggeL7wS-EM",
+  "KvJAEjv47E0",
+  "nmEJSulqDr4",
+  "g9cb6mLbVWE"
+ ],
+ "source": "v1 + dev",
+ "changes": [
+  "新增「[主体] Just + 强动词」句式，并规定已发生的事件优先用它，不用 Is About To。依据：真实标题多用 Just Came True / Just Broke / Just Changed / Just Cancelled，仿写却用 Is About To 或 Explained，好几期因此被识破。",
+  "强调用精确、怪异的数字和「Making/How I + 精确金额」。依据：真实标题里的 $444,402.75、$1.2 Million 被评审当作真标题的依据，仿写用的是泛泛的问句或「EXACT Price」。",
+  "改写括号规则：括号只放反转或定性（The REAL Reason / And It's All On Purpose）或方法命名（The ___ Routine），禁止放版本号、年份等话题标签。依据：仿写的「(Great Resignation 2.0)」被识破，真实标题的括号都是在补一刀。",
+  "新增「标题常比选题更宽、更贴近观众」。依据：真实标题把城市写成 America、按年龄储蓄写成 Paycheck Routine、辞职潮写成 40 Hour Work Week，仿写逐字复述选题，显得太窄、太直白。",
+  "公式 C 改成「揭示深层原因或隐藏意图」。依据：关税那期仿写抓了「风险点」，漏掉了「看似混乱、实为同一目标」的核心，一致度只有 1。",
+  "中心思想新增三条校准：保留原文的不确定度、不额外附加建议、保留可执行结构。依据：多期仿写比原文更怀疑或更绝对（否定 44 万目标、断言估值透支），还编出买股票、应急金、看评级、跳槽等原文没有的建议，并丢掉了「按年龄对照检查进度」。",
+  "删除各公式下的旧标题原句，改为句式模板，并明确写「不要照搬或只换名词套用」；同时把 Why 句式改为默认陈述式、不加问号。依据：仿写的「Why Is ... So Expensive Now?」近似照搬旧句式，真实标题用的是陈述式 Why 加括号。"
+ ]
+}

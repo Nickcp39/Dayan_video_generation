@@ -1,0 +1,851 @@
+{
+ "key": "cn_xiao_lin_shuo",
+ "systems": [
+  "fewshot",
+  "guide_v1",
+  "guide_v2",
+  "zero"
+ ],
+ "items": [
+  {
+   "id": "XCqFwufI_KM",
+   "upload_date": "20250514",
+   "topic": "MrBeast（Jimmy Donaldson）的创作历程、视频制作方式、收入结构与团队管理",
+   "real_title": "全球第一网红 | 一边撒钱 一边赚钱 | How?",
+   "real_thesis": "MrBeast的帝国靠数据化的观众留存优化、克隆式培养接班人，以及把视频当成本中心、用巧克力等实业赚钱的模式。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "【硬核商业分析】MrBeast到底赢在哪？一期视频500万美元还亏钱？",
+     "thesis": "MrBeast真正的护城河不是撒钱，而是逐秒抠留存率的数据方法；YouTube只是亏钱的流量入口，巧克力才是赚钱生意。",
+     "candidates": [
+      "【硬核商业分析】MrBeast到底赢在哪？",
+      "一期视频500万美元还亏钱？MrBeast的商业帝国是怎么赚钱的",
+      "专访MrBeast：全球第一YouTuber的成功秘诀是……"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "中英混搭、风格随意，A照搬Netflix模板",
+     "thesis_score": 2,
+     "thesis_reason": "留存与巧克力模式一致，但漏了克隆式培养接班人",
+     "attr_correct": true,
+     "copy_sim": 0.238,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "一口气了解MrBeast | 全球第一YouTuber怎么赚钱?",
+     "thesis": "MrBeast成功靠的不是撒钱，而是死磕留存率；高成本视频只是不赚钱的流量入口，真正赚钱的是巧克力等消费品牌。",
+     "candidates": [
+      "一口气了解MrBeast | 全球第一YouTuber怎么赚钱?",
+      "MrBeast拍视频都亏钱，那他靠什么赚钱?",
+      "【深度】MrBeast和他的流量帝国的那些事儿"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "中英混搭加上“How?”结尾很口语，不像AI套路",
+     "thesis_score": 3,
+     "thesis_reason": "都讲留存优化加视频亏钱、实业赚钱，仅漏接班人",
+     "attr_correct": true,
+     "copy_sim": 0.095,
+     "copy_nearest": "",
+     "real_overlap": 0.095
+    },
+    "guide_v2": {
+     "title": "全球最火YouTuber的秘密",
+     "thesis": "MrBeast的本质不是撒钱网红，而是用留存率数据驱动、靠亏本视频引流、靠巧克力等副业赚钱的工业化内容公司。",
+     "candidates": [
+      "全球最火YouTuber的秘密",
+      "一年烧掉上亿美元做视频 | 全球第一网红 | How?",
+      "一口气了解MrBeast"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "多段竖线加英文How?，是频道特有的口语化写法",
+     "thesis_score": 3,
+     "thesis_reason": "都讲数据驱动留存、视频亏本、实业赚钱",
+     "attr_correct": true,
+     "copy_sim": 0.034,
+     "copy_nearest": "",
+     "real_overlap": 0.032
+    },
+    "zero": {
+     "title": "一期视频500万美元，MrBeast到底靠什么赚钱？",
+     "thesis": "MrBeast的YouTube视频本身是亏钱的，它真正的作用是给Feastables等消费品牌导流，他本质上是个做品牌的商人",
+     "candidates": [
+      "MrBeast：全球第一YouTuber的赚钱密码",
+      "一期视频500万美元，MrBeast到底靠什么赚钱？",
+      "MrBeast的商业帝国：巧克力比YouTube还赚钱？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "竖线分段、中英混搭的How?是频道的典型写法",
+     "thesis_score": 2,
+     "thesis_reason": "都讲视频亏钱靠实业赚，但仿写漏了留存优化与接班人",
+     "attr_correct": true,
+     "copy_sim": 0.025,
+     "copy_nearest": "",
+     "real_overlap": 0.024
+    }
+   }
+  },
+  {
+   "id": "NYs-wpYp0bY",
+   "upload_date": "20250702",
+   "topic": "以影石创新科创板上市为例，介绍A股IPO的流程、审核标准与市场背景",
+   "real_title": "一口气了解A股上市",
+   "real_thesis": "A股上市的真正门槛是隐性的：因散户多而重实质审核，公司须在招股书中自证业务真实、符合国家战略，并由中介担责。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "labels",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "在A股上市到底有多难？一口气了解A股IPO | 以影石创新为例",
+     "thesis": "A股IPO比港美股难得多，监管是在替散户提前筛公司；结果只有贴合国家战略的硬科技企业才容易上市，其他公司只能出海。",
+     "candidates": [
+      "一口气了解A股IPO | 以影石创新为例",
+      "在A股上市到底有多难？为什么好公司都去了港股美股？",
+      "90后创始人上市开盘涨285%，A股IPO是怎么一回事？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "简洁的一口气句式，A堆砌问句加举例",
+     "thesis_score": 2,
+     "thesis_reason": "散户与国家战略一致，但仿写侧重难度与出海",
+     "attr_correct": true,
+     "copy_sim": 0.103,
+     "copy_nearest": "",
+     "real_overlap": 0.296
+    },
+    "guide_v1": {
+     "title": "一口气了解A股IPO | 影石是怎么上市的?",
+     "thesis": "A股上市难不在财务门槛，而在于散户多、监管替投资者把关；审核看重国家战略定位，政策松紧直接决定上市节奏。",
+     "candidates": [
+      "一口气了解A股IPO | 影石是怎么上市的?",
+      "在A股上市到底有多难?",
+      "关于IPO，你需要知道的那些事儿 | 以影石为例"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "标题极简，AI更爱补上案例副标题",
+     "thesis_score": 2,
+     "thesis_reason": "同指隐性门槛与散户，仿写侧重政策节奏",
+     "attr_correct": true,
+     "copy_sim": 0.136,
+     "copy_nearest": "",
+     "real_overlap": 0.35
+    },
+    "guide_v2": {
+     "title": "一口气了解A股IPO",
+     "thesis": "A股IPO比港美股难，根本原因是散户占比高，监管要在入口替投资者把关，所以审核严、偏好国家战略行业，代价是许多企业转投港美。",
+     "candidates": [
+      "一口气了解A股IPO",
+      "在A股上市到底有多难？",
+      "从影石上市，一口气了解A股IPO"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "IPO是更专业的金融术语，与频道用词习惯一致",
+     "thesis_score": 2,
+     "thesis_reason": "同因散户严审，但仿写缺自证与中介担责重点",
+     "attr_correct": true,
+     "copy_sim": 0.25,
+     "copy_nearest": "",
+     "real_overlap": 0.545
+    },
+    "zero": {
+     "title": "A股IPO到底有多难？",
+     "thesis": "A股IPO用远高于港美股的审核门槛替散户把关，代价是好公司也被推去海外，严审并不等于上市公司质量更高",
+     "candidates": [
+      "A股IPO到底有多难？",
+      "从影石上市看懂A股IPO",
+      "为什么越来越多公司不在A股上市了？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "“一口气了解”是频道的招牌句式",
+     "thesis_score": 2,
+     "thesis_reason": "都讲严审护散户，仿写重点在代价与质量，不在隐性门槛",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.059
+    }
+   }
+  },
+  {
+   "id": "KosgUhdAL5w",
+   "upload_date": "20250204",
+   "topic": "财经博主小Lin介绍频道收入来源、团队构成与内容制作情况",
+   "real_title": "聊聊我是怎么赚钱的 | 我们的团队",
+   "real_thesis": "小Lin的收入主要靠商单广告而非流量分成或卖课，团队仅个位数、内容难招人，所以更新慢；她追求信任逻辑而非爆款逻辑。",
+   "real_thesis_type": "expose",
+   "real_title_thesis": "labels",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "【特别篇】200万粉丝了！聊聊小Lin说是怎么赚钱的",
+     "thesis": "做深度财经视频靠平台分成养不活自己，真正撑起频道的是广告商单；内容团队又极难招人，所以知识区很难做大规模。",
+     "candidates": [
+      "【特别篇】200万粉丝了！聊聊小Lin说是怎么赚钱的",
+      "做财经博主到底赚不赚钱？一次性公开我们的收入和团队",
+      "【特别篇】小Lin说的幕后：钱从哪来，视频怎么做？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "口语短句，A的特别篇加粉丝数像拼凑",
+     "thesis_score": 2,
+     "thesis_reason": "商单与招人难一致，但未提信任逻辑，结论偏行业",
+     "attr_correct": true,
+     "copy_sim": 0.111,
+     "copy_nearest": "",
+     "real_overlap": 0.182
+    },
+    "guide_v1": {
+     "title": "200万粉丝特别篇 | 小Lin说是怎么赚钱的?",
+     "thesis": "财经知识频道主要靠广告而不是平台分成养活，真正的瓶颈不在变现，而在找不到能写稿的人。",
+     "candidates": [
+      "关于小Lin说，你可能好奇的那些事儿",
+      "200万粉丝特别篇 | 小Lin说是怎么赚钱的?",
+      "做财经视频能赚钱么？聊聊幕后的那些事儿"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "语气随意像本人；B的里程碑式写法偏模板化",
+     "thesis_score": 2,
+     "thesis_reason": "广告变现和缺人一致，漏掉信任逻辑",
+     "attr_correct": true,
+     "copy_sim": 0.056,
+     "copy_nearest": "",
+     "real_overlap": 0.167
+    },
+    "guide_v2": {
+     "title": "聊聊我怎么赚钱 | 我们的团队",
+     "thesis": "频道主要靠广告而非流量分成养活，小团队宁可两周一更、控制商单比例，追求把话题讲透的长内容，而不是追流量变现。",
+     "candidates": [
+      "聊聊我怎么赚钱 | 我们的团队",
+      "200万粉丝啦~ 聊聊我们怎么赚钱",
+      "聊聊频道背后 | 我们的收入和团队"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "“我是怎么赚钱的”更口语，符合博主自述的语气",
+     "thesis_score": 3,
+     "thesis_reason": "广告为主、小团队慢更、重深度非流量一致",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.625
+    },
+    "zero": {
+     "title": "200万粉丝，聊聊我们怎么赚钱",
+     "thesis": "认真做知识类视频靠平台分成养不活，真正撑起频道的是广告和图书，团队小而慢恰恰是保证内容质量的必要代价",
+     "candidates": [
+      "小Lin说是怎么赚钱的？",
+      "200万粉丝，聊聊我们怎么赚钱",
+      "揭秘财经博主的收入和团队"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "口语化，竖线补充，像本人写的",
+     "thesis_score": 2,
+     "thesis_reason": "收入靠广告、团队小一致，仿写加图书，漏了信任逻辑",
+     "attr_correct": true,
+     "copy_sim": 0.032,
+     "copy_nearest": "",
+     "real_overlap": 0.273
+    }
+   }
+  },
+  {
+   "id": "Op_lsH_ys5g",
+   "upload_date": "20250517",
+   "topic": "依据米兰《重组全球贸易体系的用户指南》梳理特朗普政府关税与货币政策的目标和机制",
+   "real_title": "关税过山车，特朗普究竟想干嘛？",
+   "real_thesis": "特朗普的关税与货币政策核心是压低政府借债成本，关税主要是谈判筹码；这套逻辑矛盾重重，加上执行草率，反而损害美债与美元信用。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "asks",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "特朗普加关税到底想干嘛？一口气看懂「海湖庄园协议」",
+     "thesis": "特朗普的关税并非乱来，而是以关税为谈判筹码，想同时救财政、压美债利率、保住美元地位；可美债市场一抛售，这套剧本就撑不住了。",
+     "candidates": [
+      "【硬核】一口气看懂特朗普的关税逻辑 | 海湖庄园协议",
+      "特朗普加关税到底想干嘛？看懂米兰这篇文章就明白了",
+      "特朗普是疯了，还是另有算盘？关税背后的完整剧本"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "关税过山车用词生动，B模板化",
+     "thesis_score": 2,
+     "thesis_reason": "筹码与美债一致，仿写偏辩护，未强调自相矛盾",
+     "attr_correct": true,
+     "copy_sim": 0.034,
+     "copy_nearest": "",
+     "real_overlap": 0.188
+    },
+    "guide_v1": {
+     "title": "【深度解读】特朗普关税背后的剧本 | 海湖庄园协议",
+     "thesis": "特朗普关税不是乱来，而是谈判筹码，想同时实现制造业回流、改善财政和保住美元地位，但这些目标互相打架，美债市场才是真正的硬约束。",
+     "candidates": [
+      "【深度解读】特朗普关税背后的剧本 | 海湖庄园协议",
+      "特朗普的关税到底想干嘛?",
+      "一口气搞清楚关税、美元和美债的那些事儿"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "“过山车”比喻口语化；A的“深度解读+剧本”像拼凑出来的",
+     "thesis_score": 2,
+     "thesis_reason": "同为筹码与矛盾，核心目标压借债成本缺失",
+     "attr_correct": true,
+     "copy_sim": 0.114,
+     "copy_nearest": "",
+     "real_overlap": 0.091
+    },
+    "guide_v2": {
+     "title": "关税大棒挥来挥去，特朗普究竟想干嘛？",
+     "thesis": "特朗普关税并非乱来，核心是以关税为谈判筹码压低美债利息、缓解财政压力，但美债暴跌证明这套设想风险远超米兰预期。",
+     "candidates": [
+      "关税大棒挥来挥去，特朗普究竟想干嘛？",
+      "一口气了解特朗普的关税和海湖庄园协议",
+      "疯狂关税背后，白宫到底打的什么算盘？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "“过山车”简短生动，“大棒挥来挥去”显得刻意",
+     "thesis_score": 3,
+     "thesis_reason": "压低借债成本、关税为筹码、反伤美债一致",
+     "attr_correct": true,
+     "copy_sim": 0.026,
+     "copy_nearest": "",
+     "real_overlap": 0.476
+    },
+    "zero": {
+     "title": "特朗普关税背后的真正逻辑",
+     "thesis": "特朗普的关税并非乱来，核心是用关税当谈判筹码压低美债利率、缓解财政压力，但美债市场的反应说明这套剧本很难走通",
+     "candidates": [
+      "特朗普关税背后的真正逻辑",
+      "一口气看懂“海湖庄园协议”",
+      "特朗普到底想要什么？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "“过山车”比喻生动口语，B偏模板化",
+     "thesis_score": 3,
+     "thesis_reason": "都认为核心是压低借债成本，关税是筹码，且难以奏效",
+     "attr_correct": true,
+     "copy_sim": 0.062,
+     "copy_nearest": "",
+     "real_overlap": 0.136
+    }
+   }
+  },
+  {
+   "id": "XDXeZk6a170",
+   "upload_date": "20250329",
+   "topic": "美国长期贸易逆差的成因：储蓄投资、汇率与国际收支账户",
+   "real_title": "美国刹不住的贸易逆差，根本原因是什么?",
+   "real_thesis": "美国持续贸易逆差的根本原因是美元作为世界储备货币带来的持续资本流入推高美元，而非美国人爱消费或他国倾销；逆差好坏取决于背后原因。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "asks",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "美国为什么一直有贸易逆差？加关税真的有用吗？",
+     "thesis": "美国长期贸易逆差并非别国占便宜，而是美元作为全球储备货币的必然代价；只靠加关税，消除不了这个结构性逆差。",
+     "candidates": [
+      "美国为什么一直有贸易逆差？",
+      "【硬核】一口气了解贸易逆差 | 加关税真的有用吗？",
+      "美国贸易逆差几十年，真的是别人占了它便宜吗？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "刹不住用词独特，B问句堆叠",
+     "thesis_score": 3,
+     "thesis_reason": "都认为逆差源于美元储备货币地位",
+     "attr_correct": true,
+     "copy_sim": 0.036,
+     "copy_nearest": "",
+     "real_overlap": 0.147
+    },
+    "guide_v1": {
+     "title": "一口气了解贸易逆差 | 美国为什么一直买买买?",
+     "thesis": "美国长期逆差的根源不是制造业不行或别国倾销，而是美元作为储备货币、全球资金持续流入，关税很难根治。",
+     "candidates": [
+      "美国为什么一直贸易逆差?",
+      "一口气了解贸易逆差 | 美国为什么一直买买买?",
+      "关于贸易逆差，你需要知道的那些事儿"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "A完全套用“一口气了解｜”公式，像仿写",
+     "thesis_score": 3,
+     "thesis_reason": "核心均为储备货币资本流入导致逆差",
+     "attr_correct": true,
+     "copy_sim": 0.13,
+     "copy_nearest": "",
+     "real_overlap": 0.156
+    },
+    "guide_v2": {
+     "title": "美国贸易逆差越来越大，根本原因是什么?",
+     "thesis": "美国长期贸易逆差的根源不是别国倾销或制造业弱，而是美元作为全球储备货币吸引资金流入，靠加关税很难真正扭转。",
+     "candidates": [
+      "美国为什么总是买得比卖得多？",
+      "一口气了解美国贸易逆差",
+      "美国贸易逆差越来越大，根本原因是什么?"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "表述平实直白，“刹不住”略带修饰感",
+     "thesis_score": 2,
+     "thesis_reason": "根因相同，结论落点不同：好坏看原因vs关税难扭转",
+     "attr_correct": true,
+     "copy_sim": 0.03,
+     "copy_nearest": "",
+     "real_overlap": 0.5
+    },
+    "zero": {
+     "title": "美国为什么一直贸易逆差？",
+     "thesis": "美国长期贸易逆差的根源是美元作为全球储备货币，而不是别国不公平竞争，所以靠加关税基本解决不了",
+     "candidates": [
+      "美国为什么一直贸易逆差？",
+      "贸易逆差真的是坏事吗？",
+      "加关税能解决美国的贸易逆差吗？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "用半角问号且用词随意，像人手写的",
+     "thesis_score": 2,
+     "thesis_reason": "根源一致，但仿写结论落在关税无效，真实讲逆差好坏",
+     "attr_correct": true,
+     "copy_sim": 0.056,
+     "copy_nearest": "",
+     "real_overlap": 0.208
+    }
+   }
+  },
+  {
+   "id": "IQwDauuFxNA",
+   "upload_date": "20241224",
+   "topic": "2024年全球及美、日、德、中等主要经济体的经济表现与政策梳理",
+   "real_title": "一口气了解2024年的全球经济",
+   "real_thesis": "2024年全球经济是有韧性的平稳之年：大选与政策转向取代危机成为主线，各经济体各有结构性难题，但最艰难的集体刹车期已过，2025年偏乐观。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "labels",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "一口气了解2024全球经济 | 美国、日本、德国、中国都经历了什么？",
+     "thesis": "2024年全球经济明显分化：美国靠科技巨头一枝独秀，德国被结构性问题拖住，中国则被迫转向大规模财政刺激。",
+     "candidates": [
+      "一口气了解2024全球经济",
+      "2024年全球经济大盘点 | 美国一枝独秀，德国原地踏步，中国全力刺激",
+      "【年终总结】2024年世界经济发生了什么？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "频道常用简洁一口气句式，B冗长",
+     "thesis_score": 1,
+     "thesis_reason": "真实强调韧性与乐观，仿写强调分化",
+     "attr_correct": true,
+     "copy_sim": 0.147,
+     "copy_nearest": "",
+     "real_overlap": 0.333
+    },
+    "guide_v1": {
+     "title": "一口气了解2024年全球经济 | 年终总结",
+     "thesis": "2024年全球走进降息周期，但各国分化严重：美国靠科技巨头独强，德国被财政刹车和老龄化拖住，中国被迫转向大规模刺激。",
+     "candidates": [
+      "一口气了解2024年全球经济",
+      "2024全球经济回顾 | 美国一枝独秀，德国原地踏步",
+      "【年终总结】2024年世界经济到底怎么样了？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "真实标题较朴素；A加“年终总结”像画蛇添足",
+     "thesis_score": 1,
+     "thesis_reason": "真实强调韧性与乐观，仿写只讲分化",
+     "attr_correct": true,
+     "copy_sim": 0.238,
+     "copy_nearest": "",
+     "real_overlap": 0.6
+    },
+    "guide_v2": {
+     "title": "一口气了解2024年全球经济",
+     "thesis": "2024年全球经济在降息周期中比预期更有韧性：美国一枝独秀，德国因债务刹车和老龄化停滞，中国靠9月后加码刺激托底。",
+     "candidates": [
+      "一口气了解2024年全球经济",
+      "2024年的世界经济，到底怎么样了？",
+      "一口气了解2024年的美国、日本、德国和中国"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "带“的”的说法更贴近频道年度回顾的口吻",
+     "thesis_score": 2,
+     "thesis_reason": "同说韧性，仿写偏分国描述，缺对2025的乐观判断",
+     "attr_correct": true,
+     "copy_sim": 0.312,
+     "copy_nearest": "",
+     "real_overlap": 0.8
+    },
+    "zero": {
+     "title": "【年终总结】一口气了解2024全球经济：美国一枝独秀，德国掉队，中国放大招",
+     "thesis": "2024年全球经济分化加剧：美国靠巨头利润独强，德国结构性停滞最危险，中国转向大规模财政刺激是被逼出来的必然选择。",
+     "candidates": [
+      "【年终总结】一口气了解2024全球经济：美国一枝独秀，德国掉队，中国放大招",
+      "2024全球经济大盘点：降息、大选、刺激，谁赢谁输？",
+      "为什么2024年只有美国经济这么能打？全球主要经济体一口气看完"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "简洁的一口气句式，B堆砌要点像AI写的",
+     "thesis_score": 1,
+     "thesis_reason": "真实强调平稳乐观，仿写强调分化，论断不同",
+     "attr_correct": true,
+     "copy_sim": 0.128,
+     "copy_nearest": "",
+     "real_overlap": 0.282
+    }
+   }
+  },
+  {
+   "id": "BHxJg38OiOs",
+   "upload_date": "20250104",
+   "topic": "蜜雪冰城的发展历程、供应链模式与雪王IP布局",
+   "real_title": "全球最大奶茶公司的秘密",
+   "real_thesis": "蜜雪冰城的本质是披着奶茶外衣的ToB供应链公司，靠供应链压低价格、保证增速，并借雪王IP占领低价心智。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "【硬核商业分析】蜜雪冰城到底赢在哪？4块钱的柠檬水凭什么开出3万家店",
+     "thesis": "蜜雪冰城本质上是一家靠向加盟商卖原料赚钱的供应链公司，而不是奶茶公司；极致低价背后是自建供应链带来的成本优势。",
+     "candidates": [
+      "【硬核商业分析】蜜雪冰城到底赢在哪？",
+      "一口气了解蜜雪冰城 | 4块钱的柠檬水凭什么卖出3万家店？",
+      "雪王的商业帝国：蜜雪冰城其实不是一家奶茶公司"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "悬念短标题，B套用硬核分析模板过长",
+     "thesis_score": 3,
+     "thesis_reason": "都认为本质是ToB供应链公司，靠供应链实现低价",
+     "attr_correct": true,
+     "copy_sim": 0.244,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "一口气了解蜜雪冰城 | 4块钱的柠檬水怎么赚钱?",
+     "thesis": "蜜雪赚钱靠的不是卖奶茶，而是做加盟商背后的供应链批发商；再加上雪王IP，它正从一家奶茶店变成一家规模型制造和品牌公司。",
+     "candidates": [
+      "一口气了解蜜雪冰城",
+      "蜜雪冰城卖4块钱柠檬水，到底靠什么赚钱？",
+      "蜜雪冰城和雪王的那些事儿"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "悬念式短标题；B的公式加价格钩子太工整",
+     "thesis_score": 3,
+     "thesis_reason": "都认定本质是供应链公司加雪王IP",
+     "attr_correct": true,
+     "copy_sim": 0.125,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "4块钱的柠檬水，雪王究竟靠什么赚钱？",
+     "thesis": "蜜雪冰城本质上不是奶茶店，而是一家向加盟商卖原料的供应链公司，靠自建工厂和产地直采压低成本，用极致低价换取规模扩张。",
+     "candidates": [
+      "全球门店第四多的奶茶店 | 只卖货不抽成 | How?",
+      "4块钱的柠檬水，雪王究竟靠什么赚钱？",
+      "蜜雪冰城的秘密"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "“全球最大…的秘密”是频道近期的惯用格式",
+     "thesis_score": 3,
+     "thesis_reason": "都说本质是ToB供应链公司靠低价扩张",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "蜜雪冰城到底靠什么赚钱？其实它根本不是一家奶茶店",
+     "thesis": "蜜雪冰城本质是一家把原料卖给加盟商的供应链公司，98%收入靠卖货，低价和雪王IP都只是为扩张供应链服务的工具。",
+     "candidates": [
+      "蜜雪冰城：一杯4块钱的柠檬水，凭什么开出3万6千家店？",
+      "蜜雪冰城到底靠什么赚钱？其实它根本不是一家奶茶店",
+      "从刨冰摊到全球第四：一口气了解蜜雪冰城和雪王的野心"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "A那种反转式长标题有AI套路感",
+     "thesis_score": 3,
+     "thesis_reason": "都认为本质是供应链公司，低价和IP为其服务",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.031
+    }
+   }
+  },
+  {
+   "id": "AJLe1AEgz5M",
+   "upload_date": "20250606",
+   "topic": "越南女富豪张美兰西贡商业银行欺诈案的经过、审判及越南反腐背景",
+   "real_title": "骗到国家差点破产?! 越南女首富被判死刑 | 越南经济背后...",
+   "real_thesis": "张美兰靠代持控股银行、空壳公司套取储户资金，得益于越南高速发展期官商勾结的土壤，反腐风暴叠加2022年房价下跌使其崩盘。",
+   "real_thesis_type": "narrate",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "越南女首富被判死刑 | 她是如何掏空一家银行的？",
+     "thesis": "张美兰能掏空越南最大私营银行靠的是权钱勾结，她的倒台更说明，越南的反腐风暴正在拖慢它承接产业转移的势头。",
+     "candidates": [
+      "越南女首富被判死刑 | 史上最大银行诈骗案",
+      "一个人掏空一家银行：越南女富豪张美兰的125亿美元骗局",
+      "【深度解读】一个案子，看透越南的反腐风暴"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "?!和省略号风格随性，A过于工整",
+     "thesis_score": 1,
+     "thesis_reason": "仿写结论转向反腐拖累产业转移，重点不同",
+     "attr_correct": true,
+     "copy_sim": 0.033,
+     "copy_nearest": "",
+     "real_overlap": 0.237
+    },
+    "guide_v1": {
+     "title": "史上最大银行诈骗，125亿美元 - 越南女首富张美兰",
+     "thesis": "张美兰案不是一个人的贪婪，而是越南高速增长期里权钱勾结、监管失守的产物；反腐保住了外资信心，也让官员不敢签字、拖慢了经济。",
+     "candidates": [
+      "史上最大银行诈骗，125亿美元 - 越南女首富死刑案",
+      "一口气了解越南女富豪张美兰案",
+      "越南女首富被判死刑，到底是怎么回事儿？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "“?!”加省略号很随性；B套用了麦道夫那期的句式",
+     "thesis_score": 2,
+     "thesis_reason": "同为官商勾结土壤，仿写转向反腐经济影响",
+     "attr_correct": true,
+     "copy_sim": 0.053,
+     "copy_nearest": "",
+     "real_overlap": 0.089
+    },
+    "guide_v2": {
+     "title": "卷走越南GDP的11%?! 女首富被判死刑 | 越南的“烈火熔炉”...",
+     "thesis": "张美兰案不是一个人的贪婪，而是她把银行当作自家提款机、靠贿赂监管才能运转的骗局；越南严厉反腐短期会让经济放缓，但这是为承接产业转移重建信用必须付出的代价。",
+     "candidates": [
+      "卷走越南GDP的11%?! 女首富被判死刑 | 越南的“烈火熔炉”...",
+      "一口气了解越南女首富张美兰案",
+      "越南史无前例的反腐风暴，根本原因是什么？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "“差点破产”夸张但合理，GDP 11%的数据存疑",
+     "thesis_score": 2,
+     "thesis_reason": "同指官商勾结骗局，仿写重反腐代价，真实重崩盘成因",
+     "attr_correct": true,
+     "copy_sim": 0.022,
+     "copy_nearest": "",
+     "real_overlap": 0.244
+    },
+    "zero": {
+     "title": "越南史上最大金融诈骗案：女首富掏空一家银行，被判死刑",
+     "thesis": "张美兰能掏空西贡银行不是个人天才，而是越南监管被系统性收买的结果；而反腐风暴本身正在拖慢越南经济。",
+     "candidates": [
+      "越南史上最大金融诈骗案：女首富掏空一家银行，被判死刑",
+      "偷走越南GDP的3%？张美兰案和越南的“烈火熔炉”",
+      "一口气了解张美兰案：一个女人如何把越南最大私营银行变成提款机"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "?!、省略号、竖线，随意风格像真人",
+     "thesis_score": 2,
+     "thesis_reason": "都归因于官商勾结，但仿写讲反腐拖累经济，重点不同",
+     "attr_correct": true,
+     "copy_sim": 0.05,
+     "copy_nearest": "",
+     "real_overlap": 0.133
+    }
+   }
+  },
+  {
+   "id": "4hBpLHqBSOg",
+   "upload_date": "20250117",
+   "topic": "2024年中国地方政府隐性债务化债政策及中央地方财政结构",
+   "real_title": "一口气了解12万亿化债和中国的财政体系",
+   "real_thesis": "12万亿化债本质是隐性债转显性债、借新还旧的债务置换，并非中央兜底；隐性债根源在分税制与土地财政，根治要看融资平台改革。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "labels",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "12万亿化债到底在化什么？一口气了解中国地方政府债务",
+     "thesis": "地方隐性债务的根源是分税制以来地方财权少、事权多，又过度依赖卖地；12万亿化债只是降低利息、争取时间，并不能根治。",
+     "candidates": [
+      "12万亿化债，到底在化什么？",
+      "一口气了解中国地方政府债务",
+      "【硬核】地方政府为什么这么缺钱？聊聊中央和地方的财政账本"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "简洁陈述，A问句加一口气像拼接",
+     "thesis_score": 3,
+     "thesis_reason": "根源与化债性质、不能根治的判断基本一致",
+     "attr_correct": true,
+     "copy_sim": 0.107,
+     "copy_nearest": "",
+     "real_overlap": 0.303
+    },
+    "guide_v1": {
+     "title": "【硬核】一口气了解地方债 | 12万亿化债化的是什么?",
+     "thesis": "地方隐性债务的根源不是地方乱花钱，而是分税制后事权多、财权少，又靠土地财政填缺口；12万亿主要是降息延期，结构问题还在。",
+     "candidates": [
+      "【硬核】一口气了解地方债 | 12万亿化债到底化的是什么？",
+      "关于地方政府债务，你需要知道的那些事儿",
+      "12万亿化债来了，所以呢？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "不带括号前缀的平实长句，更像频道近期风格",
+     "thesis_score": 3,
+     "thesis_reason": "都指债务置换未根治，根源分税制土地财政",
+     "attr_correct": true,
+     "copy_sim": 0.219,
+     "copy_nearest": "",
+     "real_overlap": 0.273
+    },
+    "guide_v2": {
+     "title": "一口气了解地方债和中国的财政体系",
+     "thesis": "地方隐性债务的根源是分税制后地方“钱少事多”、只能依靠卖地和城投融资；本次12万亿化债主要是用低息置换高息、降低利息成本，并不能解决根本问题。",
+     "candidates": [
+      "一口气了解地方债和中国的财政体系",
+      "12万亿化债，到底在化什么？",
+      "关于地方政府隐性债务，你需要知道的那些事儿"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "12万亿是当时热点数字，带具体数字更像真实标题",
+     "thesis_score": 3,
+     "thesis_reason": "根源分税制土地财政、置换不治本一致",
+     "attr_correct": true,
+     "copy_sim": 0.167,
+     "copy_nearest": "",
+     "real_overlap": 0.571
+    },
+    "zero": {
+     "title": "12万亿化债！一口气搞懂中国地方政府到底欠了多少钱",
+     "thesis": "12万亿化债只能缓解利息压力，地方债问题的根源是分税制下事权财权错配加上土地财政崩塌，不改财税结构就会有第五次化债。",
+     "candidates": [
+      "12万亿化债！一口气搞懂中国地方政府债务",
+      "地方政府到底欠了多少钱？从分税制讲到12万亿化债",
+      "中国地方债：为什么地方总是缺钱？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "跟“一口气了解银行游戏规则”句式一致",
+     "thesis_score": 3,
+     "thesis_reason": "都认为化债治标，根源在分税制与土地财政需改革",
+     "attr_correct": true,
+     "copy_sim": 0.062,
+     "copy_nearest": "",
+     "real_overlap": 0.235
+    }
+   }
+  },
+  {
+   "id": "-HOzOBmQ5ro",
+   "upload_date": "20250420",
+   "topic": "瑞士高人均GDP的成因：中立、银行保密、主导产业、瑞郎与政治制度",
+   "real_title": "一口气了解瑞士经济",
+   "real_thesis": "瑞士高人均GDP源于中立国身份衍生的信任品牌：靠中立吸金，保密红利消失后，靠医药、精密制造和稳定货币接棒。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "labels",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "一口气了解瑞士经济 | 瑞士为什么这么有钱？",
+     "thesis": "瑞士的富裕不只是靠帮富豪藏钱，银行保密早已瓦解；真正撑起它的是中立带来的信任、高附加值产业和直接民主制度。",
+     "candidates": [
+      "一口气了解瑞士经济",
+      "瑞士为什么这么有钱？",
+      "中立、银行、手表和公投：瑞士人凭什么这么富"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "频道常用极简标题，A补充问句像仿写",
+     "thesis_score": 2,
+     "thesis_reason": "中立信任与产业接棒一致，仿写多了直接民主",
+     "attr_correct": true,
+     "copy_sim": 0.227,
+     "copy_nearest": "",
+     "real_overlap": 0.444
+    },
+    "guide_v1": {
+     "title": "瑞士为什么这么有钱?",
+     "thesis": "瑞士富裕不只是靠银行保密，更靠中立带来的信任、医药和手表这类高利润产业，再加上直接民主让政策克制，三者一起撑起超高人均GDP。",
+     "candidates": [
+      "瑞士为什么这么有钱?",
+      "一口气了解瑞士经济 | 中立国的生意经",
+      "关于瑞士，你需要知道的那些事儿"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "直白发问式标题，更有频道的口语感",
+     "thesis_score": 2,
+     "thesis_reason": "中立信任与产业一致，仿写加直接民主",
+     "attr_correct": true,
+     "copy_sim": 0.545,
+     "copy_nearest": "新加坡为什么这么有钱?",
+     "real_overlap": 0.062
+    },
+    "guide_v2": {
+     "title": "一口气了解瑞士",
+     "thesis": "瑞士富裕的根本在于用永久中立换来的“安全感”：全球富豪愿意把钱存在这里，才撑起银行、瑞郎和高端产业；但保密优势正在被国际压力侵蚀。",
+     "candidates": [
+      "一口气了解瑞士",
+      "瑞士为什么能这么有钱？",
+      "全世界最会“中立”的国家，是怎么变富的？"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "频道常用国名的极简标题，如“一口气了解XX”",
+     "thesis_score": 2,
+     "thesis_reason": "中立换信任一致，仿写缺产业接棒的判断",
+     "attr_correct": true,
+     "copy_sim": 0.333,
+     "copy_nearest": "",
+     "real_overlap": 0.75
+    },
+    "zero": {
+     "title": "瑞士为什么这么有钱？",
+     "thesis": "瑞士富裕的核心不是银行保密，而是长期中立带来的信任，加上高附加值产业和直接民主形成的稳定制度。",
+     "candidates": [
+      "瑞士为什么这么有钱？",
+      "人均10万美元：一口气了解瑞士的财富密码",
+      "中立、银行、手表和公投：瑞士凭什么成为全球最富国家之一？"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "直白发问，B可能是照搬招牌句式仿写",
+     "thesis_score": 2,
+     "thesis_reason": "中立带来信任一致，仿写加直接民主，否定保密的角度不同",
+     "attr_correct": true,
+     "copy_sim": 0.417,
+     "copy_nearest": "",
+     "real_overlap": 0.062
+    }
+   }
+  }
+ ]
+}

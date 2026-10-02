@@ -1,0 +1,1691 @@
+{
+ "key": "cn_xiao_lin_shuo",
+ "systems": [
+  "fewshot",
+  "guide_v1",
+  "guide_v2",
+  "zero"
+ ],
+ "items": [
+  {
+   "id": "Ylvr5hl6hYo",
+   "upload_date": "20250819",
+   "topic": "327国债期货、伦敦镍、负油价三起期货逼仓事件及期货市场功能",
+   "real_title": "一口气了解期货 (下)",
+   "real_thesis": "期货的杠杆、保证金与交割机制天然会引发逼仓大战，但这只是副作用；期货的本质是交易头寸和风险的市场，能优化风险分工与价格发现。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "labels",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "【硬核】一口气了解期货逼仓 | 327国债、伦敦镍、负油价",
+     "thesis": "三次逼仓都是因为期货合约远多于能交割的现货，加上高杠杆；问题出在交割机制和风控，不能怪期货本身。",
+     "candidates": [
+      "【硬核】一口气了解期货逼仓 | 327国债、伦敦镍、负油价",
+      "最后8分钟砸出2000万口空单，史上最疯狂的期货大战",
+      "油价跌到负37美元？三场期货逼仓，到底是谁在赌命"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "与上集同为简洁分集标题，B像仿写堆砌",
+     "thesis_score": 2,
+     "thesis_reason": "都不怪期货本身，但真实重在期货的本质价值",
+     "attr_correct": true,
+     "copy_sim": 0.206,
+     "copy_nearest": "",
+     "real_overlap": 0.207
+    },
+    "guide_v1": {
+     "title": "【硬核】一口气了解期货逼仓 | 327国债、伦敦镍和负油价",
+     "thesis": "期货合约数量不受现货限制，一旦持仓远超可交割量，再叠加高杠杆就会引发逼仓；最后谁输谁赢，往往由交易所的规则说了算。",
+     "candidates": [
+      "【硬核】一口气了解期货逼仓 | 327国债、伦敦镍和负油价",
+      "史上最疯狂的8分钟，327国债期货事件",
+      "期货为什么会逼仓？从327到负油价"
+     ],
+     "judge_correct": true,
+     "judge_conf": 5,
+     "judge_reason": "和“期货(上)”是同一系列的上下集标题",
+     "thesis_score": 1,
+     "thesis_reason": "真实强调期货本质是风险市场，仿写只讲逼仓与规则",
+     "attr_correct": true,
+     "copy_sim": 0.206,
+     "copy_nearest": "",
+     "real_overlap": 0.207
+    },
+    "guide_v2": {
+     "title": "一口气了解期货逼仓",
+     "thesis": "逼仓的根源在于合约规模可远超可交割现货，交割一卡脖子价格就会失控，最后谁买单取决于交易所改不改规则。",
+     "candidates": [
+      "一口气了解期货逼仓",
+      "负油价、伦敦镍、327国债，期货究竟能疯到什么程度?",
+      "最后8分钟砸出上千万口空单?! 一家券商的豪赌 | 期货逼仓那些事儿..."
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "与「期货(上)」成系列，命名风格一致",
+     "thesis_score": 1,
+     "thesis_reason": "真实称逼仓只是副作用、重在期货本质；仿写只讲逼仓成因",
+     "attr_correct": true,
+     "copy_sim": 0.273,
+     "copy_nearest": "",
+     "real_overlap": 0.545
+    },
+    "zero": {
+     "title": "一口气了解三大期货逼仓事件：从327国债到伦敦镍、负油价",
+     "thesis": "期货合约数量不受现货规模限制，这是逼仓的根源；真正决定输赢的往往是交易所事后改不改规则，而不是谁判断对了方向。",
+     "candidates": [
+      "8分钟砸出2000万口空单：327国债、伦敦镍、负油价，期货逼仓到底怎么玩？",
+      "一口气了解三大期货逼仓事件：从327国债到伦敦镍、负油价",
+      "期货合约可以比现货多15倍？三场史诗级逼仓背后的规则漏洞"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "上下集式简洁标题符合系列命名习惯",
+     "thesis_score": 1,
+     "thesis_reason": "真实强调期货本质是风险市场，仿写聚焦逼仓输赢靠改规则",
+     "attr_correct": true,
+     "copy_sim": 0.1,
+     "copy_nearest": "",
+     "real_overlap": 0.161
+    }
+   }
+  },
+  {
+   "id": "mU_jDXfjYTA",
+   "upload_date": "20260223",
+   "topic": "2026年1月黄金白银价格暴涨暴跌的经过与涉及的市场因素",
+   "real_title": "黄金白银大崩盘，谁是幕后推手？",
+   "real_thesis": "这一个月的金银暴涨暴跌主要是投机与高杠杆所致，避险只是起点；白银因市场小而波动加倍，不改长期基本盘。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "asks",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "白银三天跌掉三分之一，金银到底发生了什么？",
+     "thesis": "这轮白银暴涨暴跌主要靠高杠杆逼空推动，避险需求是次要的；沃什获提名加上CME上调保证金一戳，泡沫就破了。",
+     "candidates": [
+      "白银三天跌掉三分之一，金银到底发生了什么？",
+      "【硬核】黄金白银过山车 | 逼空、加保证金、加密爆仓",
+      "一个月涨68%又闪崩，白银为什么比黄金疯这么多？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "近期风格偏悬念式短标题",
+     "thesis_score": 2,
+     "thesis_reason": "都说投机杠杆为主，结论落点不同（长期基本盘vs泡沫破）",
+     "attr_correct": true,
+     "copy_sim": 0.033,
+     "copy_nearest": "",
+     "real_overlap": 0.03
+    },
+    "guide_v1": {
+     "title": "黄金白银暴涨又暴跌，到底是怎么回事儿？",
+     "thesis": "这轮金银暴涨暴跌主要不是避险需求变了，而是白银市场小、库存紧，又有高杠杆逼空，一提保证金就引发连环爆仓。",
+     "candidates": [
+      "黄金白银暴涨又暴跌，到底是怎么回事儿？",
+      "白银三天跌掉三分之一 | 一口气搞清楚金银过山车",
+      "【深度解读】白银为什么比黄金疯这么多？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "近期标题偏悬念式，B太中规中矩",
+     "thesis_score": 3,
+     "thesis_reason": "都归因投机高杠杆、白银市场小，核心一致",
+     "attr_correct": true,
+     "copy_sim": 0.381,
+     "copy_nearest": "",
+     "real_overlap": 0.103
+    },
+    "guide_v2": {
+     "title": "金银坐上过山车，到底是谁在开车?",
+     "thesis": "这轮金银暴涨暴跌的主要推手不是避险需求，而是高杠杆逼空投机；沃什被提名、保证金上调后，一波强平就把白银打穿了。",
+     "candidates": [
+      "金银坐上过山车，到底是谁在开车?",
+      "白银两天跌掉三分之一，究竟发生了什么?",
+      "一口气了解这轮金银暴涨暴跌"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "过山车与开车的双关很俏皮，像频道口吻",
+     "thesis_score": 3,
+     "thesis_reason": "都认为暴涨暴跌主要由高杠杆投机驱动，而非避险",
+     "attr_correct": true,
+     "copy_sim": 0.083,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "白银三天跌掉三分之一！黄金白银暴涨暴跌到底发生了什么？",
+     "thesis": "1月金银暴跌的主因不是避险逻辑反转，而是CME连续上调保证金叠加加密高杠杆，引发强制平仓的连锁踩踏。",
+     "candidates": [
+      "白银三天跌掉三分之一！黄金白银暴涨暴跌到底发生了什么？",
+      "金银过山车背后：不是避险，是杠杆",
+      "一口气看懂2026年1月金银暴涨暴跌：沃什、保证金和爆仓"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "具体数据加“到底发生了什么”贴近频道口吻",
+     "thesis_score": 2,
+     "thesis_reason": "都归因投机杠杆，仿写具体到保证金踩踏，缺白银与长期判断",
+     "attr_correct": true,
+     "copy_sim": 0.028,
+     "copy_nearest": "",
+     "real_overlap": 0.083
+    }
+   }
+  },
+  {
+   "id": "zsFTTKNLcXM",
+   "upload_date": "20251025",
+   "topic": "以古巴、委内瑞拉、朝鲜、伊朗、俄罗斯为例，介绍经济制裁的手段与被制裁国的应对",
+   "real_title": "那些被制裁最最严重的国家，都怎么样了?",
+   "real_thesis": "经济制裁很少达成目标：被制裁国会找到替代渠道，制裁只在突袭初期有效，久而久之主要压迫底层民众并陷入制裁疲劳。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "asks",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "一口气了解经济制裁 | 古巴、朝鲜、伊朗、俄罗斯是怎么扛下来的？",
+     "thesis": "经济制裁大多推不翻目标政权，成功率不到一成；它主要伤害的是普通民众，被制裁国总能靠走私和第三国找到出路。",
+     "candidates": [
+      "一口气了解经济制裁 | 古巴、朝鲜、伊朗、俄罗斯是怎么扛下来的？",
+      "朝鲜最赚钱的出口竟然是假发？聊聊经济制裁那些事",
+      "【深度解读】经济制裁到底有没有用？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "“最最”口语化加半角问号，像真人手打",
+     "thesis_score": 3,
+     "thesis_reason": "都说制裁难成功、有替代渠道、伤及平民",
+     "attr_correct": true,
+     "copy_sim": 0.094,
+     "copy_nearest": "",
+     "real_overlap": 0.044
+    },
+    "guide_v1": {
+     "title": "一口气了解经济制裁 | 为什么九成都没成功？",
+     "thesis": "经济制裁能让被制裁国付出沉重的经济代价，却很少逼它改变政策；靠转口、走私和替代系统，被制裁国总能找到活路。",
+     "candidates": [
+      "一口气了解经济制裁 | 为什么九成都没成功？",
+      "经济制裁到底有没有用？",
+      "朝鲜最大的出口竟是假发 | 经济制裁的那些事儿"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "“最最”很口语，B硬套公式还加了论断",
+     "thesis_score": 2,
+     "thesis_reason": "都说制裁难达目标、有替代渠道，仿写缺疲劳与伤民",
+     "attr_correct": true,
+     "copy_sim": 0.136,
+     "copy_nearest": "",
+     "real_overlap": 0.028
+    },
+    "guide_v2": {
+     "title": "一口气了解经济制裁",
+     "thesis": "经济制裁很少能逼对方就范，因为被制裁国总能靠盟友、走私和替代体系找到出路，代价最后多由普通百姓承担。",
+     "candidates": [
+      "一口气了解经济制裁",
+      "被制裁的国家，日子究竟是怎么过下去的?",
+      "朝鲜靠假发出口? 关于经济制裁你需要知道的那些事儿"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "「最最」口语化，不像AI套用模板",
+     "thesis_score": 3,
+     "thesis_reason": "都说制裁难奏效、有替代渠道、代价落在百姓身上",
+     "attr_correct": true,
+     "copy_sim": 0.273,
+     "copy_nearest": "",
+     "real_overlap": 0.04
+    },
+    "zero": {
+     "title": "经济制裁到底有没有用？古巴、朝鲜、伊朗、俄罗斯怎么扛过来的",
+     "thesis": "经济制裁能重创民生却极少能改变政权行为，只要被制裁国还能找到第三方输血或绕道渠道，制裁就难以达成目标。",
+     "candidates": [
+      "经济制裁到底有没有用？古巴、朝鲜、伊朗、俄罗斯怎么扛过来的",
+      "朝鲜最大出口竟是假发？一口气了解经济制裁的手段与反制",
+      "成功率不到10%：为什么经济制裁很难打垮一个国家"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "“最最”口语化，B列举国家像AI概括",
+     "thesis_score": 3,
+     "thesis_reason": "制裁难达目标、伤民生、替代渠道，核心一致",
+     "attr_correct": true,
+     "copy_sim": 0.022,
+     "copy_nearest": "",
+     "real_overlap": 0.045
+    }
+   }
+  },
+  {
+   "id": "OcKl98ZQbMQ",
+   "upload_date": "20260701",
+   "topic": "美国主要AI公司之间的股权投资、算力合作与产业链分层关系",
+   "real_title": "AI巨头们之间的资本混战，到底是个什么情况？",
+   "real_thesis": "AI巨头的投资本质是同级竞争、不同级捆绑：以未来算力订单换融资，分散个体风险却抬高整个行业的系统性风险。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "asks",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "一张图看懂美国AI巨头的关系网 | 谁投了谁？",
+     "thesis": "AI巨头之间的投资大多是拿股权换算力订单的循环交易，账面金额被附带条件放大了，真实风险比估值显示的高。",
+     "candidates": [
+      "一张图看懂美国AI巨头的关系网 | 谁投了谁？",
+      "【硬核商业分析】OpenAI和Anthropic背后的钱从哪来？",
+      "英伟达、谷歌、亚马逊、微软…AI巨头之间的循环投资"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "“到底是个什么情况”是频道口语风格",
+     "thesis_score": 2,
+     "thesis_reason": "都说股权换算力，但真实强调行业系统性风险",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.079
+    },
+    "guide_v1": {
+     "title": "一口气搞清楚美国AI巨头的复杂关系网",
+     "thesis": "AI巨头之间的投资，与其说是押注对方，不如说是用股权换算力订单；动辄“最多”上千亿的承诺，让产业链越绑越紧，风险也越积越多。",
+     "candidates": [
+      "一口气搞清楚美国AI巨头的复杂关系网",
+      "AI巨头们互相投资，钱到底转了几圈？",
+      "【硬核】OpenAI、Anthropic和它们的金主们"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "“到底是个什么情况”像本人的口语",
+     "thesis_score": 3,
+     "thesis_reason": "都是股权换算力订单、捆绑加剧风险",
+     "attr_correct": true,
+     "copy_sim": 0.174,
+     "copy_nearest": "",
+     "real_overlap": 0.086
+    },
+    "guide_v2": {
+     "title": "一口气了解美国AI巨头的关系网",
+     "thesis": "美国AI巨头之间的投资，本质是用股权换算力订单的循环绑定：钱在圈内转一圈就成了收入和估值，需求一旦不及预期，风险会一起传导。",
+     "candidates": [
+      "一口气了解美国AI巨头的关系网",
+      "你投我、我买你，美国AI公司究竟是怎么绑在一起的?",
+      "左手投资右手买算力 | AI巨头的循环游戏 | How?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "「到底是个什么情况」口语自然",
+     "thesis_score": 2,
+     "thesis_reason": "都讲算力订单绑定与风险传导，缺少同级竞争、异级捆绑",
+     "attr_correct": true,
+     "copy_sim": 0.176,
+     "copy_nearest": "",
+     "real_overlap": 0.094
+    },
+    "zero": {
+     "title": "一张图看懂美国AI巨头的关系网：谁投了谁，谁靠谁的算力",
+     "thesis": "美国AI巨头间的巨额投资大多是附带算力采购条件的循环交易，账面估值和订单远超真实资金，泡沫风险被相互绑定放大。",
+     "candidates": [
+      "一张图看懂美国AI巨头的关系网：谁投了谁，谁靠谁的算力",
+      "左手投资右手买芯片：美国AI公司的循环融资游戏",
+      "一口气了解英伟达、OpenAI、Anthropic背后错综复杂的AI产业链"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "“到底是个什么情况”口语化，A像模板",
+     "thesis_score": 2,
+     "thesis_reason": "都指算力订单换融资放大风险，仿写缺同级竞争捆绑框架",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.068
+    }
+   }
+  },
+  {
+   "id": "gFtlAMEVmcs",
+   "upload_date": "20251229",
+   "topic": "2025年全球主要经济体表现、美国关税谈判格局及2026年预期的年度梳理",
+   "real_title": "【年度总结】一口气了解过去一年的全球经济｜关税战新格局",
+   "real_thesis": "2025年全球经济靠各国让步与AI投资勉强稳住，但格局已割裂；各国转向借钱花的财政刺激，2026年风险从政策转向通胀、AI泡沫与债务。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "labels",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "一口气了解2025年全球经济 | 关税之年",
+     "thesis": "2025年关税战没有引发全球衰退，各国大多妥协到15%左右；美国拿到了收入，但背上了更重的债务和通胀压力。",
+     "candidates": [
+      "一口气了解2025年全球经济 | 关税之年",
+      "2025全球经济年终盘点：特朗普关税到底谈出了什么？",
+      "2025年谁赢谁输？美中欧日经济一次讲清楚"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "B的【年度总结】加副标题显得堆砌",
+     "thesis_score": 2,
+     "thesis_reason": "都说靠妥协稳住，仿写缺AI与2026年风险转移",
+     "attr_correct": true,
+     "copy_sim": 0.238,
+     "copy_nearest": "",
+     "real_overlap": 0.222
+    },
+    "guide_v1": {
+     "title": "一口气了解2025年全球经济 | 关税之年",
+     "thesis": "2025年关税掀起轩然大波，但最终谈下来的有效税率远低于威胁；真正左右各国经济的，还是它们自己的地产、财政和政治问题。",
+     "candidates": [
+      "一口气了解2025年全球经济 | 关税之年",
+      "2025年全世界经济都怎么样了？",
+      "关税打了一年，所以呢？| 2025全球经济回顾"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "A标签和分隔符叠太多，像刻意仿写",
+     "thesis_score": 1,
+     "thesis_reason": "真实讲割裂与2026风险，仿写讲关税被高估",
+     "attr_correct": true,
+     "copy_sim": 0.238,
+     "copy_nearest": "",
+     "real_overlap": 0.222
+    },
+    "guide_v2": {
+     "title": "一口气了解2025年全球经济",
+     "thesis": "特朗普的关税大棒最后大多被谈判打了折扣，全球经济比预想的更有韧性；但各国都在靠举债和刺激换增长，隐患只是往后推了。",
+     "candidates": [
+      "一口气了解2025年全球经济",
+      "关税满天飞的一年，世界经济究竟扛住了没?",
+      "一口气了解2025年的关税大战和全球经济"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "简洁一口气体，B堆砌标签像仿写",
+     "thesis_score": 2,
+     "thesis_reason": "都说经济勉强稳住、靠举债埋隐患，仿写没提AI和格局割裂",
+     "attr_correct": true,
+     "copy_sim": 0.312,
+     "copy_nearest": "",
+     "real_overlap": 0.219
+    },
+    "zero": {
+     "title": "一口气看懂2025全球经济：关税大战之后，谁赢了谁输了？",
+     "thesis": "2025年关税战没有引发全球衰退，美国靠关税拿到了收入和投资承诺，但代价是债务、美元信用和美联储独立性被持续透支。",
+     "candidates": [
+      "一口气看懂2025全球经济：关税大战之后，谁赢了谁输了？",
+      "关税打了一整年，美国到底赚到了什么？2025全球经济年度盘点",
+      "从4月2日到釜山会晤：2025年世界经济发生了什么，2026会怎样"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "【】标签加竖线分隔符合频道惯用格式",
+     "thesis_score": 1,
+     "thesis_reason": "真实讲割裂与2026风险转向，仿写讲美国代价，论断不同",
+     "attr_correct": true,
+     "copy_sim": 0.094,
+     "copy_nearest": "",
+     "real_overlap": 0.128
+    }
+   }
+  },
+  {
+   "id": "fKoWrF49Qo8",
+   "upload_date": "20260723",
+   "topic": "特朗普第二任期内的收入来源、财富变化及相关制度背景",
+   "real_title": "特朗普收入曝光，一年狂揽$22亿，竟然是靠…",
+   "real_thesis": "特朗普靠出租名字IP，在总统任内通过加密货币、会所、中东合作等变现，年入22亿；这能成立是因为美国制度只靠披露而非禁令约束总统。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "特朗普当总统一年赚了22亿，钱都是从哪来的？",
+     "thesis": "特朗普第二任期财富暴涨主要靠加密货币和外国资金，美国只靠信息披露、不限制总统行为的制度根本管不住这种利益冲突。",
+     "candidates": [
+      "特朗普当总统一年赚了22亿，钱都是从哪来的？",
+      "【深度解读】特朗普的生意经：从地产大亨到加密货币之王",
+      "一口气了解特朗普家族的赚钱帝国 | 海湖庄园、中东项目、特朗普币"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "“竟然是靠…”悬念式写法更像真实发布",
+     "thesis_score": 3,
+     "thesis_reason": "变现途径与制度只靠披露的判断一致",
+     "attr_correct": true,
+     "copy_sim": 0.024,
+     "copy_nearest": "",
+     "real_overlap": 0.167
+    },
+    "guide_v1": {
+     "title": "一口气了解特朗普的生意经 | 当总统一年身价翻倍？",
+     "thesis": "特朗普身价暴涨靠的不是地产，而是加密币、会所和中东挂名把总统权力变现；美国制度只要求披露，管不住总统。",
+     "candidates": [
+      "一口气了解特朗普的生意经 | 当总统一年身价翻倍？",
+      "特朗普当上总统后，到底是怎么赚钱的？",
+      "【深度解读】特朗普家族的22亿收入从哪来"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "有具体金额加悬念，像真实的爆款标题",
+     "thesis_score": 3,
+     "thesis_reason": "总统权力变现加制度只靠披露，论断一致",
+     "attr_correct": true,
+     "copy_sim": 0.12,
+     "copy_nearest": "",
+     "real_overlap": 0.075
+    },
+    "guide_v2": {
+     "title": "总统任上身价翻倍，特朗普究竟是怎么赚钱的?",
+     "thesis": "特朗普二次执政后暴富靠的不是地产，而是把总统身份变现成加密币和中东挂名生意，而美国制度对总统只要求披露、不限制行为。",
+     "candidates": [
+      "总统任上身价翻倍，特朗普究竟是怎么赚钱的?",
+      "一年进账22亿美元的总统 | 特朗普的生意经",
+      "特朗普家族的赚钱新路子 | 卖币、挂名、打官司 | How?"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "A的「竟然是靠…」营销味过重",
+     "thesis_score": 3,
+     "thesis_reason": "都说总统身份变现，且制度只要求披露",
+     "attr_correct": true,
+     "copy_sim": 0.033,
+     "copy_nearest": "",
+     "real_overlap": 0.051
+    },
+    "zero": {
+     "title": "当总统到底有多赚钱？拆解特朗普900页收入报告",
+     "thesis": "特朗普第二任期的暴富主要靠加密币和中东资金，美国只靠信息披露、把总统排除在利益冲突法外，这套制度已经管不住他。",
+     "candidates": [
+      "特朗普一年赚22亿，三分之二来自币圈？",
+      "当总统到底有多赚钱？拆解特朗普900页收入报告",
+      "从破产6次到身家65亿：特朗普第二任期的生财之道"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "美元符号加悬念省略号像真人运营风格",
+     "thesis_score": 3,
+     "thesis_reason": "总统身份变现加仅靠披露的制度漏洞，核心相同",
+     "attr_correct": true,
+     "copy_sim": 0.023,
+     "copy_nearest": "",
+     "real_overlap": 0.075
+    }
+   }
+  },
+  {
+   "id": "SdZ-hvVdFTk",
+   "upload_date": "20251012",
+   "topic": "2025年美元指数大幅下跌的成因：关税风险、外资对冲、降息预期与美联储独立性",
+   "real_title": "美元暴跌的背后...",
+   "real_thesis": "2025年美元暴跌源于特朗普政策引发的美国信用风险、外资对冲美元敞口，以及下半年市场对美联储降息预期和独立性的担忧，并非单纯经济疲软。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "美元为什么跌了？半个世纪最差的上半年",
+     "thesis": "2025年美元大跌的根源不是短期关税冲击，而是市场开始怀疑美国财政可持续性和美联储独立性，美元走弱还会持续。",
+     "candidates": [
+      "美元为什么跌了？半个世纪最差的上半年",
+      "【硬核】一口气了解美元暴跌 | 关税、对冲、降息与美联储独立性",
+      "美元还会继续跌吗？聊聊美元背后的几股力量"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "短句加省略号，符合频道近期风格",
+     "thesis_score": 3,
+     "thesis_reason": "都归因于美国信用与美联储独立性，非单纯经济疲软",
+     "attr_correct": true,
+     "copy_sim": 0.042,
+     "copy_nearest": "",
+     "real_overlap": 0.042
+    },
+    "guide_v1": {
+     "title": "美元为什么跌这么惨？| 半个世纪最差的上半年",
+     "thesis": "美元大跌不是因为美国经济变差，而是关税、外资对冲和美联储独立性受损让它失去避险地位，降息预期又推了一把。",
+     "candidates": [
+      "美元为什么跌这么惨？| 半个世纪最差的上半年",
+      "一口气了解2025美元大跌",
+      "全世界都在涨，只有美元在跌，到底怎么回事儿？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "简短加省略号，是频道近期常见写法",
+     "thesis_score": 3,
+     "thesis_reason": "都否认经济疲软，归因政策、对冲与美联储",
+     "attr_correct": true,
+     "copy_sim": 0.037,
+     "copy_nearest": "",
+     "real_overlap": 0.037
+    },
+    "guide_v2": {
+     "title": "美元一路滑坡，市场究竟在担心什么?",
+     "thesis": "2025年美元大跌主要不是因为美国经济变差，而是关税和干预美联储动摇了外界对美国政策的信任，外资开始对冲美元，市场也押注更多降息。",
+     "candidates": [
+      "美元跌成这样，根本原因是什么?",
+      "一口气了解2025年的美元大跌",
+      "美元一路滑坡，市场究竟在担心什么?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "短促省略号风格较像真人随手起",
+     "thesis_score": 3,
+     "thesis_reason": "都归因于信用和政策信任、外资对冲及降息预期",
+     "attr_correct": true,
+     "copy_sim": 0.024,
+     "copy_nearest": "",
+     "real_overlap": 0.043
+    },
+    "zero": {
+     "title": "美元为什么跌成了半个世纪最差？",
+     "thesis": "美元今年大跌，主要原因不是关税本身，而是市场开始怀疑美联储的独立性和美国财政，只要特朗普逼着降息，美元还会继续走弱。",
+     "candidates": [
+      "美元为什么跌成了半个世纪最差？",
+      "美元跌10%，到底谁在卖美元？",
+      "美元还能跌多久？关税、对冲和美联储独立性"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "简洁口语设问，B过于空泛",
+     "thesis_score": 2,
+     "thesis_reason": "都指信用与美联储独立性，仿写侧重后者并加预测",
+     "attr_correct": true,
+     "copy_sim": 0.048,
+     "copy_nearest": "",
+     "real_overlap": 0.048
+    }
+   }
+  },
+  {
+   "id": "R1-j8TFlqCo",
+   "upload_date": "20260922",
+   "topic": "俄乌战争爆发四年多来两国的经济表现、财政与援助、通胀及军工无人机产业",
+   "real_title": "【硬核】俄乌打了四年多，到底谁在买单？",
+   "real_thesis": "俄乌都在靠借来的资本打仗：俄罗斯透支储备和军工扭曲，乌克兰依赖随时可断的西方输血，两国通胀成因相反，战争成本难以补回。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "asks",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "俄乌战争四年，两国经济到底怎么样了？",
+     "thesis": "俄罗斯靠军费撑起的增长已经走到尽头，乌克兰则靠外援和无人机产业续命，这场仗本质上是两种不可持续经济模式的消耗战。",
+     "candidates": [
+      "一口气了解俄乌战争经济 | 打了四年，谁更撑得住？",
+      "俄乌战争四年，两国经济到底怎么样了？",
+      "【深度解读】战争经济学：俄罗斯和乌克兰是怎么撑下来的？"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "B套用【硬核】，像模仿旧标题",
+     "thesis_score": 2,
+     "thesis_reason": "都说两国不可持续，真实重在借来的资本与通胀",
+     "attr_correct": true,
+     "copy_sim": 0.061,
+     "copy_nearest": "",
+     "real_overlap": 0.094
+    },
+    "guide_v1": {
+     "title": "一口气了解俄乌战争四年的经济账",
+     "thesis": "俄罗斯靠石油和军费撑出表面增长，乌克兰靠外援续命，但两国都在用通胀、劳动力枯竭和债务透支未来。",
+     "candidates": [
+      "一口气了解俄乌战争四年的经济账",
+      "打了四年仗，俄罗斯和乌克兰的经济怎么样了？",
+      "【硬核】俄乌战争经济学 | 谁先撑不住？"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "A的【硬核】加反问，堆砌感更强",
+     "thesis_score": 2,
+     "thesis_reason": "都说两国透支未来，仿写未提通胀成因相反",
+     "attr_correct": true,
+     "copy_sim": 0.176,
+     "copy_nearest": "",
+     "real_overlap": 0.067
+    },
+    "guide_v2": {
+     "title": "一口气了解俄乌战争下的两国经济",
+     "thesis": "四年战争让两国都变成战时经济：俄罗斯靠军费刺激先过热后停滞，乌克兰靠外援输血续命，撑得住但都在透支未来。",
+     "candidates": [
+      "一口气了解俄乌战争下的两国经济",
+      "打了四年仗，俄罗斯和乌克兰的经济靠什么撑着?",
+      "俄乌战争四年 | 两种战时经济"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "A生硬套用【硬核】前缀，像仿写",
+     "thesis_score": 2,
+     "thesis_reason": "都说两国在透支未来，但侧重点不同",
+     "attr_correct": true,
+     "copy_sim": 0.25,
+     "copy_nearest": "",
+     "real_overlap": 0.032
+    },
+    "zero": {
+     "title": "打了四年仗，俄罗斯和乌克兰的经济怎么样了？",
+     "thesis": "俄罗斯靠军费撑起来的增长已经见顶，乌克兰靠外援勉强续命，这场战争正在把两国经济一起拖向长期透支。",
+     "candidates": [
+      "打了四年仗，俄罗斯和乌克兰的经济怎么样了？",
+      "俄乌战争四年：谁的经济先撑不住？",
+      "1000万架无人机：战争如何重塑俄乌经济"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "平实口语问句，B的【硬核】加买单像仿写",
+     "thesis_score": 2,
+     "thesis_reason": "都讲两国透支，仿写缺通胀对比，重点略异",
+     "attr_correct": true,
+     "copy_sim": 0.027,
+     "copy_nearest": "",
+     "real_overlap": 0.086
+    }
+   }
+  },
+  {
+   "id": "8qAHj1a0H4c",
+   "upload_date": "20250731",
+   "topic": "期货合约的基本机制、主要品类与用法，以及1992年索罗斯做空英镑的案例",
+   "real_title": "一口气了解期货 (上)",
+   "real_thesis": "期货本质是对未来任何可量化指标的价格对赌，凭高杠杆、易做空、隐秘三大特点成为金融产品之王，也能低成本撬动整个市场。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "labels",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "【硬核】一口气了解期货 | 索罗斯是如何击垮英格兰银行的？",
+     "thesis": "期货本是用来对冲风险的工具，但高杠杆、易做空和匿名性让它成为能击垮央行和百年银行的最强金融武器。",
+     "candidates": [
+      "【硬核】一口气了解期货 | 索罗斯是如何击垮英格兰银行的？",
+      "【基础篇】10分钟搞懂期货 | 从可可豆到做空英镑",
+      "期货到底是什么？为什么它能让一家银行破产、让一个人赚10亿？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "与下集同为简洁的上下集命名",
+     "thesis_score": 2,
+     "thesis_reason": "三大特点一致，但对期货本质定义不同",
+     "attr_correct": true,
+     "copy_sim": 0.206,
+     "copy_nearest": "",
+     "real_overlap": 0.207
+    },
+    "guide_v1": {
+     "title": "【硬核】一口气了解期货 | 索罗斯如何击垮英格兰银行",
+     "thesis": "期货本是锁定价格的对冲工具，但高杠杆、易做空和匿名让它成了投机利器，索罗斯正是借此放大了英镑挂钩的矛盾。",
+     "candidates": [
+      "【硬核】一口气了解期货 | 索罗斯如何击垮英格兰银行",
+      "关于期货，你需要知道的那些事儿",
+      "期货到底是什么？索罗斯靠它一天赚10亿"
+     ],
+     "judge_correct": true,
+     "judge_conf": 5,
+     "judge_reason": "和“期货(下)”是同一系列的上下集",
+     "thesis_score": 2,
+     "thesis_reason": "三大特点一致，但真实称产品之王，仿写重投机案例",
+     "attr_correct": true,
+     "copy_sim": 0.226,
+     "copy_nearest": "",
+     "real_overlap": 0.231
+    },
+    "guide_v2": {
+     "title": "一口气了解期货",
+     "thesis": "期货本来是用来锁定未来价格、对冲风险的工具，但高杠杆、容易做空、不暴露身份这几个特点，也让它成了放大投机的武器。",
+     "candidates": [
+      "一口气了解期货",
+      "关于期货，你需要知道的那些事儿",
+      "一口气了解期货和索罗斯狙击英镑"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "分上下集，「(上)」与下集呼应",
+     "thesis_score": 1,
+     "thesis_reason": "对期货本质的定义不同：真实说对赌，仿写说对冲",
+     "attr_correct": true,
+     "copy_sim": 0.333,
+     "copy_nearest": "",
+     "real_overlap": 0.667
+    },
+    "zero": {
+     "title": "一口气了解期货：从可可豆到索罗斯做空英镑",
+     "thesis": "期货本来是用来对冲风险的工具，但高杠杆加上匿名交易，让它也能变成击垮一国央行的武器。",
+     "candidates": [
+      "一口气了解期货：从可可豆到索罗斯做空英镑",
+      "期货到底是什么？为什么它能击垮英格兰银行",
+      "5块钱撬动100块：期货是对冲工具还是赌场？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "与下集配对的上下集系列命名",
+     "thesis_score": 2,
+     "thesis_reason": "都讲杠杆隐秘使其威力大，真实重在定义与王者地位",
+     "attr_correct": true,
+     "copy_sim": 0.136,
+     "copy_nearest": "",
+     "real_overlap": 0.273
+    }
+   }
+  },
+  {
+   "id": "wpb-DrbhEiY",
+   "upload_date": "20260612",
+   "topic": "马斯克旗下航天公司IPO的业务结构、财务数据与控制权安排",
+   "real_title": "SpaceX上市，背后在玩什么资本游戏?",
+   "real_thesis": "SpaceX上市的核心不只是融资，而是用星链现金流和AI大饼撑起超高估值，并借双层股权与“极限挑战”激励计划让马斯克以极低稀释牢牢掌控公司。",
+   "real_thesis_type": "expose",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "史上最大IPO！马斯克的SpaceX到底值不值这个价？",
+     "thesis": "SpaceX近百倍市销率靠的不是盈利的星链，而是对AI和太空数据中心的宏大想象，这次IPO更是马斯克锁死控制权的安排。",
+     "candidates": [
+      "史上最大IPO！马斯克的SpaceX到底值不值这个价？",
+      "【硬核商业分析】SpaceX招股书里藏着什么秘密？",
+      "融资750亿美元，马斯克这次终于把控制权握死了"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "半角问号和口语化表达更像真人",
+     "thesis_score": 3,
+     "thesis_reason": "都说靠AI想象撑估值、IPO锁定马斯克控制权",
+     "attr_correct": true,
+     "copy_sim": 0.049,
+     "copy_nearest": "",
+     "real_overlap": 0.125
+    },
+    "guide_v1": {
+     "title": "一口气了解SpaceX上市 | 史上最大IPO到底在卖什么？",
+     "thesis": "SpaceX的天价估值不来自造火箭，而是星链现金流加AI和太空数据中心的故事；上市同时帮马斯克锁死了绝对控制权。",
+     "candidates": [
+      "一口气了解SpaceX上市 | 史上最大IPO到底在卖什么？",
+      "史上最大IPO，750亿融资 - SpaceX招股书里的秘密",
+      "SpaceX凭什么值这么多钱？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "B硬套“一口气|”公式，像仿写",
+     "thesis_score": 3,
+     "thesis_reason": "星链现金流加AI故事撑估值、锁定控制权一致",
+     "attr_correct": true,
+     "copy_sim": 0.1,
+     "copy_nearest": "",
+     "real_overlap": 0.211
+    },
+    "guide_v2": {
+     "title": "马斯克的太空帝国上市了，他究竟想要什么?",
+     "thesis": "SpaceX的天价估值靠星链赚钱撑起AI和火星的故事，这次IPO的核心却是马斯克用超级投票权和激励条款牢牢锁住控制权。",
+     "candidates": [
+      "市销率近100倍的火箭公司 | 史上最贵IPO | How?",
+      "马斯克的太空帝国上市了，他究竟想要什么?",
+      "一口气了解SpaceX上市"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "「太空帝国」「他想要什么」更具叙事感",
+     "thesis_score": 3,
+     "thesis_reason": "都说星链撑估值、IPO核心是马斯克锁住控制权",
+     "attr_correct": true,
+     "copy_sim": 0.024,
+     "copy_nearest": "",
+     "real_overlap": 0.056
+    },
+    "zero": {
+     "title": "史上最大IPO：SpaceX到底值不值这个价？",
+     "thesis": "SpaceX真正赚钱的只有星链，百倍市销率靠的是AI和火星的故事，这次IPO更像是让散户替马斯克还债，同时又巩固了他的控制权。",
+     "candidates": [
+      "史上最大IPO：SpaceX到底值不值这个价？",
+      "融资750亿美元，SpaceX上市究竟在卖什么？",
+      "市销率100倍：马斯克的太空帝国和他的绝对控制权"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "半角问号与口语化表达更像真人随手标题",
+     "thesis_score": 2,
+     "thesis_reason": "都讲星链加AI故事撑估值与巩固控制权，仿写加散户接盘",
+     "attr_correct": true,
+     "copy_sim": 0.054,
+     "copy_nearest": "",
+     "real_overlap": 0.139
+    }
+   }
+  },
+  {
+   "id": "TxWErg5JBpk",
+   "upload_date": "20260411",
+   "topic": "多邻国创始人兼CEO Luis von Ahn访谈：战略取舍、AI应用、产品文化与管理方式",
+   "real_title": "上市了，就不得不向华尔街低头吗?",
+   "real_thesis": "多邻国宁可牺牲短期股价，先押注教学质量与用户增长，因为靠游戏化让普通人坚持学习的护城河，AI和实时翻译都替代不了。",
+   "real_thesis_type": "narrate",
+   "real_title_thesis": "asks",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "再访多邻国创始人：为什么现在不急着赚钱？聊聊AI、绿猫头鹰和他的管理之道～",
+     "thesis": "多邻国真正的护城河是AI压低了内容成本、加上好玩的产品文化，所以它先求增长、后再变现是对的。",
+     "candidates": [
+      "专访多邻国创始人Luis：AI时代，那只疯癫的绿猫头鹰要做教育超级App",
+      "对话多邻国CEO：为什么现在不急着赚钱？聊聊AI、绿猫头鹰和他的管理哲学",
+      "每天学3分钟要22年？多邻国创始人的真心话"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "“再访”和波浪号是频道习惯，AI难以凭空写出",
+     "thesis_score": 2,
+     "thesis_reason": "都说先增长后变现，但护城河归因不同：游戏化vs AI降本",
+     "attr_correct": true,
+     "copy_sim": 0.1,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "对话多邻国CEO | 那只疯猫头鹰背后的公司",
+     "thesis": "多邻国的核心竞争力是用AI把课程产量放大50倍、靠疯猫头鹰拉增长，先换用户规模，以后再变现，而不是押注短期赚钱。",
+     "candidates": [
+      "对话多邻国CEO | 那只疯猫头鹰背后的公司",
+      "多邻国CEO：AI做课是人工的50倍，为什么还不急着赚钱？",
+      "【深度访谈】多邻国创始人Luis：学好法语要22年？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "B的“对话XX | 副标题”结构过于工整，像AI写的",
+     "thesis_score": 1,
+     "thesis_reason": "都讲增长优先，但护城河一个说AI替代不了，一个说靠AI",
+     "attr_correct": true,
+     "copy_sim": 0.042,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "全球最“疯”的猫头鹰，背后是个怎样的老板?",
+     "thesis": "多邻国本质是一家增长型公司：靠“有意思”留住用户，再用AI批量生产课程，现阶段宁可少赚钱，也要换取用户和教学效果。",
+     "candidates": [
+      "全球最“疯”的猫头鹰，背后是个怎样的老板?",
+      "对话多邻国创始人 | 10亿人在用，却先不急着赚钱?",
+      "不到900人的公司，让10亿人被猫头鹰追着学习 | How?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "访谈节目常以核心观点设问，A像AI套路式猎奇",
+     "thesis_score": 2,
+     "thesis_reason": "都说为增长牺牲短期利益，但真实强调AI替代不了的护城河",
+     "attr_correct": true,
+     "copy_sim": 0.018,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "对话多邻国CEO：那只疯猫头鹰背后，是一家暂时不想赚钱的公司",
+     "thesis": "多邻国眼下暂不追求赚钱，靠AI造课和中国市场换用户增长，这是比急着变现更对的长期打法",
+     "candidates": [
+      "对话多邻国CEO：那只疯猫头鹰背后，是一家暂时不想赚钱的公司",
+      "专访多邻国创始人：AI生成课程、中国市场、和一只“适度疯癫”的猫头鹰",
+      "多邻国CEO亲口说：每天学三分钟，22年才能学会法语？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "B口语设问、半角问号；A的文学化比喻更像AI写的",
+     "thesis_score": 2,
+     "thesis_reason": "都说先求增长再变现，但真实重点在游戏化护城河",
+     "attr_correct": true,
+     "copy_sim": 0.026,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "HeVuAKDtWX8",
+   "upload_date": "20260324",
+   "topic": "伊朗封锁霍尔木兹海峡对油价与各国能源供需的影响",
+   "real_title": "伊朗战争，和全球能源格局",
+   "real_thesis": "封锁霍尔木兹海峡直击美国对油价和通胀的软肋；石油是最全球化、最金融化的能源，化石能源还将主导数十年，日韩新加坡受冲击最大。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "labels",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "【硬核】伊朗封锁霍尔木兹海峡 | 一口气了解全球能源格局，谁最慌？",
+     "thesis": "封锁霍尔木兹海峡，受伤最重的是依赖中东石油的日韩和欧洲，不是中国和美国；而美国付出的代价主要是通胀和降不了息。",
+     "candidates": [
+      "霍尔木兹海峡被封，全世界的油价会怎样？",
+      "【硬核】一口气了解全球能源格局 | 伊朗封锁霍尔木兹，谁最慌？",
+      "33公里的海峡，如何卡住全世界的脖子？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "真实标题简短；A套用了硬核加问句的仿写模板",
+     "thesis_score": 2,
+     "thesis_reason": "都指日韩受伤最重、美国痛在通胀，但真实还强调石油金融化",
+     "attr_correct": true,
+     "copy_sim": 0.152,
+     "copy_nearest": "",
+     "real_overlap": 0.171
+    },
+    "guide_v1": {
+     "title": "一口气了解霍尔木兹海峡 | 卡住全球1/5石油的33公里",
+     "thesis": "封锁海峡真正受伤的不是美国，而是依赖中东油气的日韩、新加坡和欧洲；美国更大的麻烦是通胀压住了降息。",
+     "candidates": [
+      "霍尔木兹海峡被封了，所以呢？",
+      "一口气了解霍尔木兹海峡 | 卡住全球1/5石油的33公里",
+      "【硬核】伊朗封锁海峡，油价涨到110，谁最疼？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "A的数字加竖线副标题太精致，B更像随性的真实标题",
+     "thesis_score": 2,
+     "thesis_reason": "都说日韩受冲击最大，但对美国是否被打中软肋看法不同",
+     "attr_correct": true,
+     "copy_sim": 0.107,
+     "copy_nearest": "",
+     "real_overlap": 0.029
+    },
+    "guide_v2": {
+     "title": "霍尔木兹海峡被卡住脖子，到底谁最疼?",
+     "thesis": "封锁对各国冲击多大，关键不看进口多少石油，而看石油占其能源的比重：日韩欧最痛，中国靠煤反而扛得住。",
+     "candidates": [
+      "霍尔木兹海峡被卡住脖子，到底谁最疼?",
+      "33公里的海峡一堵，油价为什么一路刹不住?",
+      "一口气了解霍尔木兹海峡和全球能源版图"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "A平实简洁符合频道风格，B“卡脖子谁最疼”像AI",
+     "thesis_score": 1,
+     "thesis_reason": "真实核心是打美国油价软肋，仿写讲能源结构决定受冲击程度",
+     "attr_correct": true,
+     "copy_sim": 0.037,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "霍尔木兹海峡被封，谁最疼？",
+     "thesis": "海峡封锁对日韩、新加坡和欧洲伤害最大，中国因为靠煤炭冲击较小，美国真正的压力在通胀和中期选举",
+     "candidates": [
+      "霍尔木兹海峡被封，谁最疼？",
+      "油价冲上110美元：一条33公里的海峡，如何卡住全世界的脖子",
+      "伊朗封锁海峡，为什么受伤最重的是日韩，而不是中国和美国？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "B简短平实；A的「谁最疼」更像刻意制造的钩子",
+     "thesis_score": 2,
+     "thesis_reason": "受害国和美国通胀软肋一致，但漏了石油金融化的论点",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "tm09cMTBTSU",
+   "upload_date": "20250715",
+   "topic": "2025年各国稳定币立法动向、市场规模及美国与香港等地的监管思路",
+   "real_title": "一口气了解稳定币",
+   "real_thesis": "各国政府和大公司涌入稳定币是\"打不过就加入\"的利益博弈：美国主要为守住美元地位、抢占加密话语权，而非单纯为买美债。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "labels",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "【硬核】一口气了解稳定币 | 为什么美国和香港都在抢着立法？",
+     "thesis": "美国推动稳定币立法，本质是给美债找新买家、巩固美元霸权；香港则想借稳定币给港元和人民币抢一个位置。",
+     "candidates": [
+      "一口气了解稳定币 | 美国为什么突然这么积极？",
+      "【硬核】稳定币到底是什么？为什么各国都在抢着立法？",
+      "100个员工年赚130亿美元 稳定币的生意到底有多赚钱？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "“一口气了解X”简洁版是频道常用写法",
+     "thesis_score": 1,
+     "thesis_reason": "真实明确否认主要为买美债，仿写恰以此为本质",
+     "attr_correct": true,
+     "copy_sim": 0.205,
+     "copy_nearest": "",
+     "real_overlap": 0.259
+    },
+    "guide_v1": {
+     "title": "一口气了解稳定币 | 为什么各国都在抢着立法？",
+     "thesis": "美国推动稳定币立法不是为了拥抱加密货币，而是把它变成短期美债的新买家，借此延续美元霸权；香港则用沙盒试点争夺入场位置。",
+     "candidates": [
+      "一口气了解稳定币 | 为什么各国都在抢着立法？",
+      "关于稳定币，你需要知道的那些事儿",
+      "【硬核】稳定币为什么突然火了？天才法案到底管什么"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "频道常用不带副标题的“一口气了解X”，B像补写的",
+     "thesis_score": 2,
+     "thesis_reason": "都指向保美元，但真实明确否定“主要为买美债”",
+     "attr_correct": true,
+     "copy_sim": 0.13,
+     "copy_nearest": "",
+     "real_overlap": 0.35
+    },
+    "guide_v2": {
+     "title": "各国突然抢着管稳定币，究竟想干嘛？",
+     "thesis": "各国抢着给稳定币立法，并不是在拥抱加密货币，而是想把它收编成本币工具，美国更是借此扩大美债需求、巩固美元霸权。",
+     "candidates": [
+      "各国突然抢着管稳定币，究竟想干嘛？",
+      "关于稳定币立法，你需要知道的那些事儿",
+      "一口气了解稳定币和全球监管大战"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "“一口气了解X”是频道招牌格式",
+     "thesis_score": 2,
+     "thesis_reason": "都指向维护美元，但真实明确否认买美债是主因",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.095
+    },
+    "zero": {
+     "title": "稳定币，为什么突然全世界都在抢？",
+     "thesis": "美国推稳定币立法，本质是把稳定币变成短期美债的新买家，用来巩固美元霸权；香港则在给人民币抢位置",
+     "candidates": [
+      "稳定币，为什么突然全世界都在抢？",
+      "一口气了解稳定币：美国、香港都在立法，到底在争什么？",
+      "100多个员工年赚130亿美元：稳定币凭什么这么赚钱？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "「一口气了解X」是该频道的经典句式",
+     "thesis_score": 1,
+     "thesis_reason": "真实否认主要为买美债，仿写却说本质就是买美债",
+     "attr_correct": true,
+     "copy_sim": 0.045,
+     "copy_nearest": "",
+     "real_overlap": 0.1
+    }
+   }
+  },
+  {
+   "id": "uQJF5fcjFbg",
+   "upload_date": "20250916",
+   "topic": "伊朗神权共和体制、美国制裁与其经济结构、能源补贴及通胀情况梳理",
+   "real_title": "一口气了解伊朗经济",
+   "real_thesis": "神权共和体制加上长期制裁，让伊朗经济被基金会和革命卫队两只手控制，形成畸形而顽强的结构，但已看不到出路。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "labels",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "一口气了解伊朗经济 | 坐拥全球第三石油储量，为什么越来越穷？",
+     "thesis": "伊朗变穷主要不是美国制裁造成的，而是宗教基金会和革命卫队把持经济、靠巨额能源补贴撑着造成的。",
+     "candidates": [
+      "一口气了解伊朗经济",
+      "被制裁了几十年的伊朗，经济到底怎么样了？",
+      "神权、石油和革命卫队：伊朗经济为什么越来越穷？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "A在后面加了数字问句，像是仿写扩展",
+     "thesis_score": 2,
+     "thesis_reason": "都指基金会和革命卫队控经济，仿写否认制裁主因",
+     "attr_correct": true,
+     "copy_sim": 0.097,
+     "copy_nearest": "",
+     "real_overlap": 0.286
+    },
+    "guide_v1": {
+     "title": "伊朗明明这么多石油，为什么越来越穷？",
+     "thesis": "伊朗变穷不只是因为美国制裁，更是因为神权体制下宗教基金会和革命卫队垄断经济，高额能源补贴又让财政和通胀积重难返。",
+     "candidates": [
+      "一口气了解伊朗经济",
+      "伊朗明明这么多石油，为什么越来越穷？",
+      "一口气了解伊朗 | 神权、石油和制裁的百年纠缠"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "“明明…为什么”是AI常用的钩子句式",
+     "thesis_score": 2,
+     "thesis_reason": "体制和两只手垄断一致，仿写偏重补贴，漏了“没有出路”",
+     "attr_correct": true,
+     "copy_sim": 0.05,
+     "copy_nearest": "",
+     "real_overlap": 0.042
+    },
+    "guide_v2": {
+     "title": "一口气了解伊朗经济",
+     "thesis": "伊朗石油储量全球第三却越来越穷，根源不只是制裁，更在于宗教基金会和革命卫队垄断经济，政府又靠巨额补贴维稳。",
+     "candidates": [
+      "一口气了解伊朗经济",
+      "坐拥全球第三的石油，伊朗为什么越来越穷?",
+      "神权、制裁和石油 | 一口气了解伊朗"
+     ],
+     "judge_correct": false,
+     "judge_conf": 1,
+     "judge_reason": "两个标题完全相同，只能随机选",
+     "thesis_score": 2,
+     "thesis_reason": "都指基金会和革命卫队把控经济，仿写缺少畸形顽强、无出路的判断",
+     "attr_correct": true,
+     "copy_sim": 0.273,
+     "copy_nearest": "",
+     "real_overlap": 1.0
+    },
+    "zero": {
+     "title": "一口气了解伊朗：石油第三多的国家，为什么越来越穷？",
+     "thesis": "伊朗变穷不只因为美国制裁，更因为宗教基金会和革命卫队把持经济、巨额能源补贴拖垮了财政",
+     "candidates": [
+      "一口气了解伊朗：石油第三多的国家，为什么越来越穷？",
+      "伊朗经济到底是谁说了算？",
+      "坐拥石油天然气，伊朗人均GDP却十几年腰斩，问题出在哪？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "B简洁；A的冒号加反问显得堆砌",
+     "thesis_score": 2,
+     "thesis_reason": "都指向基金会和革命卫队控制经济，但结论侧重不同",
+     "attr_correct": true,
+     "copy_sim": 0.111,
+     "copy_nearest": "",
+     "real_overlap": 0.231
+    }
+   }
+  },
+  {
+   "id": "l38ceFOWOAE",
+   "upload_date": "20260810",
+   "topic": "万达2016至2025年退市、对赌、上市未果及出售资产的经过",
+   "real_title": "王健林现在怎么样了? 万达什么情况?",
+   "real_thesis": "万达衰落主因不是经营失败，而是为上市做的对赌融资叠加监管收紧，被迫不断卖核心资产，控制权最终易手。",
+   "real_thesis_type": "narrate",
+   "real_title_thesis": "asks",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "从首富到卖光万达广场 | 王健林的对赌十年",
+     "thesis": "把万达拖垮的不是房地产寒冬，而是两次上市对赌：它把短期资金变成了必须靠卖资产来还的债。",
+     "candidates": [
+      "万达这十年：从中国首富到卖光万达广场",
+      "王健林的对赌人生 | 万达为什么四次上市都失败了？",
+      "【深度解读】万达是如何一步步卖掉家当的？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "口语化的问句更像频道风格，A的竖线格式偏AI",
+     "thesis_score": 3,
+     "thesis_reason": "都归因于上市对赌被迫卖资产，核心一致",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.097
+    },
+    "guide_v1": {
+     "title": "万达这十年到底经历了什么？",
+     "thesis": "万达今天被迫变卖资产，根源不在海外投资受监管，而在两轮上市对赌失败带来的巨额回购压力，让它把万达广场一座座交给了资本。",
+     "candidates": [
+      "万达这十年到底经历了什么？",
+      "一口气了解万达 | 从首富到卖掉80座万达广场",
+      "【深度解读】王健林的两场对赌，万达是怎么输掉的"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "连续两问很口语化，符合频道近期风格",
+     "thesis_score": 2,
+     "thesis_reason": "对赌是核心一致，但仿写否定了监管因素",
+     "attr_correct": true,
+     "copy_sim": 0.045,
+     "copy_nearest": "",
+     "real_overlap": 0.077
+    },
+    "guide_v2": {
+     "title": "从首富到卖光万达广场，王健林这十年经历了什么?",
+     "thesis": "万达十年困局的根源是为上市签下的一轮轮对赌，政策转向后上市屡屡落空，只能靠不断卖资产去填对赌和债务的窟窿。",
+     "candidates": [
+      "从首富到卖光万达广场，王健林这十年经历了什么?",
+      "前中国首富的对赌十年 | 万达还剩下什么?",
+      "一口气了解万达和它的上市困局"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "A口语化连问是频道风格，B像AI叙事模板",
+     "thesis_score": 3,
+     "thesis_reason": "都认为上市对赌加政策转向导致被迫卖资产",
+     "attr_correct": true,
+     "copy_sim": 0.021,
+     "copy_nearest": "",
+     "real_overlap": 0.118
+    },
+    "zero": {
+     "title": "万达，到底怎么了？",
+     "thesis": "把万达拖到卖光万达广场的不只是政策变化，更关键的是2016年退市后那几场接连失败的上市对赌",
+     "candidates": [
+      "万达，到底怎么了？",
+      "从首富到卖光万达广场：王健林这十年输在哪？",
+      "一场对赌，拖垮了万达"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "半角问号加空格、双问句很口语，符合真实习惯",
+     "thesis_score": 2,
+     "thesis_reason": "都归因上市对赌，但仿写淡化了监管收紧",
+     "attr_correct": true,
+     "copy_sim": 0.056,
+     "copy_nearest": "",
+     "real_overlap": 0.091
+    }
+   }
+  },
+  {
+   "id": "T7z71yENz94",
+   "upload_date": "20260909",
+   "topic": "美国最高法院裁定IEEPA关税违法后的退税、替代关税与各方影响",
+   "real_title": "特朗普关税被判违法，这一整年白忙了? 现在关税什么情况?",
+   "real_thesis": "关税被判违法并未终结关税战：政府用新条款无缝接续，有效税率仅略降；进口商与律师获利最大，消费者承担涨价却得不到退款。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "asks",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "特朗普关税被判违法了，然后呢？| 1660亿退税、换个法条接着收",
+     "thesis": "最高法院的判决没让关税消失：白宫换个法条照样加税，退款落进进口商和对冲基金口袋，真正交了关税的消费者分文拿不到。",
+     "candidates": [
+      "关税被判违法，1660亿该退给谁？",
+      "【硬核】特朗普关税被判违法之后 | 退税、新关税和对冲基金的生意",
+      "特朗普关税被判违法了，然后呢？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "A用竖线加具体金额，是典型的仿写套路",
+     "thesis_score": 3,
+     "thesis_reason": "判决没终结关税、进口商获利、消费者无退款，一致",
+     "attr_correct": true,
+     "copy_sim": 0.02,
+     "copy_nearest": "",
+     "real_overlap": 0.17
+    },
+    "guide_v1": {
+     "title": "特朗普关税被判违法了，然后呢？",
+     "thesis": "最高法院判关税违法并没有让关税消失：白宫换法条续征，退款落进进口商口袋，真正付钱的消费者反而拿不回来。",
+     "candidates": [
+      "特朗普关税被判违法了，然后呢？",
+      "一口气了解关税退款 | 1660亿美元去哪了？",
+      "关税被判违法后，钱退给了谁？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "“现在关税什么情况?”口语追问，像真人写的",
+     "thesis_score": 3,
+     "thesis_reason": "换法条续征、进口商得利、消费者吃亏，完全一致",
+     "attr_correct": true,
+     "copy_sim": 0.029,
+     "copy_nearest": "",
+     "real_overlap": 0.258
+    },
+    "guide_v2": {
+     "title": "关税被判违法，钱退给谁了？",
+     "thesis": "最高法院判决并没有终结特朗普关税，政府换个法条照样征收；退款只流向进口商，真正买单的消费者却拿不回钱。",
+     "candidates": [
+      "关税被判违法，钱退给谁了？",
+      "关税判了违法，换个法条接着收?!",
+      "一口气了解美国关税退税和替代关税"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "“现在关税什么情况?”口语化，A过于精炼",
+     "thesis_score": 3,
+     "thesis_reason": "关税换法条延续、退款归进口商、消费者吃亏，一致",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.194
+    },
+    "zero": {
+     "title": "关税判违法了，钱退给谁了？| 1660亿美元退税大戏，苹果沃尔玛赚翻，消费者一分没有",
+     "thesis": "IEEPA关税被判违法并没有让关税消失，只是换了法律依据，真正赢家是拿退款的大企业，买单的消费者拿不回钱",
+     "candidates": [
+      "关税判违法了，钱退给谁了？| 1660亿美元退税大戏，苹果沃尔玛赚翻，消费者一分没有",
+      "最高法院砍掉特朗普关税，然后呢？| 退税系统、122条款、301关税，一期讲清美国关税的“换皮”操作",
+      "关税退款债权都能卖了？美国这波关税退税，到底谁是最大赢家"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "A过长、数字堆砌，有明显的AI痕迹",
+     "thesis_score": 3,
+     "thesis_reason": "换法律依据接着收关税，消费者买单拿不回钱，两边一致",
+     "attr_correct": true,
+     "copy_sim": 0.015,
+     "copy_nearest": "",
+     "real_overlap": 0.048
+    }
+   }
+  },
+  {
+   "id": "hhtMlRZLJ0g",
+   "upload_date": "20251212",
+   "topic": "全球体育博彩行业的规模、运作机制、各国监管及地下赌球",
+   "real_title": "一口气了解赌球",
+   "real_thesis": "体育博彩是横跨黑白两道的巨大衍生品市场：合法平台靠抽水和刺激成瘾赚钱，地下赌局靠信用赌、高利贷与洗钱牟利，故应远离地下博彩。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "labels",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "一口气了解赌球 | 2万亿美元的体育博彩生意，庄家凭什么稳赚？",
+     "thesis": "体育博彩里庄家靠赔率抽水和串关稳定赚钱，散户长期必输；真正伤害体育的是缺乏监管、交给地下市场的赌球。",
+     "candidates": [
+      "一口气了解体育博彩",
+      "【硬核】赌球的庄家为什么永远不会输？",
+      "一场假球能赚多少钱？聊聊全球2万亿的赌球生意"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "简短标题是真实的，A加了数字问句",
+     "thesis_score": 2,
+     "thesis_reason": "都涉合法抽水与地下赌球之害，侧重和结论不同",
+     "attr_correct": true,
+     "copy_sim": 0.1,
+     "copy_nearest": "",
+     "real_overlap": 0.214
+    },
+    "guide_v1": {
+     "title": "一口气了解体育博彩 | 比足球本身还大的生意",
+     "thesis": "体育博彩庄家赚钱靠的不是猜中比赛，而是赔率抽水和让人上瘾的产品设计；监管越堵，钱越流向地下和假球。",
+     "candidates": [
+      "一口气了解体育博彩 | 比足球本身还大的生意",
+      "【硬核】一口气了解赌球，庄家是怎么稳赚的？",
+      "关于赌球，你需要知道的那些事儿"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "标题简短直白，A的副标题太像AI包装",
+     "thesis_score": 2,
+     "thesis_reason": "抽水加成瘾一致，但两句的落脚点不同",
+     "attr_correct": true,
+     "copy_sim": 0.136,
+     "copy_nearest": "",
+     "real_overlap": 0.19
+    },
+    "guide_v2": {
+     "title": "一口气了解体育博彩",
+     "thesis": "体育博彩稳赚的永远是庄家，靠的是赔率抽水和串关等高利润玩法，而不是假球；监管松紧只决定钱流向合法平台还是地下赌球。",
+     "candidates": [
+      "一口气了解体育博彩",
+      "赌球的庄家，到底靠什么稳赚不赔?",
+      "关于体育博彩，你需要知道的那些事儿"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "“赌球”更口语，AI倾向照搬选题里的“体育博彩”",
+     "thesis_score": 2,
+     "thesis_reason": "都讲合法与地下两条线，重点一个是庄家必赢，一个是远离地下",
+     "attr_correct": true,
+     "copy_sim": 0.273,
+     "copy_nearest": "",
+     "real_overlap": 0.4
+    },
+    "zero": {
+     "title": "赌球到底是谁在赚钱？| 2万亿美元的体育博彩，比足球本身还大",
+     "thesis": "体育博彩的规模已远超足球产业本身，庄家靠赔率设计和串关稳赚不赔，长期下注的玩家注定是输家",
+     "candidates": [
+      "一口气了解全球体育博彩 | 2万亿美元的生意，比足球本身还赚钱",
+      "庄家为什么永远不亏？| 赔率、串关、假球和地下赌球的秘密",
+      "赌球到底是谁在赚钱？| 从英超赞助到东南亚地下盘口，一期讲清体育博彩"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "「一口气了解」句式；A的竖线后加数字像AI写的",
+     "thesis_score": 1,
+     "thesis_reason": "真实强调黑白两道、远离地下，仿写说庄家稳赚",
+     "attr_correct": true,
+     "copy_sim": 0.026,
+     "copy_nearest": "",
+     "real_overlap": 0.03
+    }
+   }
+  },
+  {
+   "id": "Hbu1xkXcPNU",
+   "upload_date": "20260201",
+   "topic": "委内瑞拉石油经济的兴衰、政策演变与恶性通胀的历史梳理",
+   "real_title": "坐拥金山，却变成人间炼狱，委内瑞拉到底经历了什么?",
+   "real_thesis": "委内瑞拉的崩溃源于石油诅咒：石油暴利滋养腐败、荷兰病和短期补贴，政治混乱使长期投资无从谈起，管制政策与油价下跌将其推向恶性通胀。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "asks",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "一口气了解委内瑞拉 | 坐拥最多石油，为什么穷到通胀30万%？",
+     "thesis": "把委内瑞拉拖垮的不是石油诅咒本身，而是政府把石油收入当成永久收入，靠国有化、补贴和印钞挥霍，毁掉了国家的生产能力。",
+     "candidates": [
+      "一口气了解委内瑞拉经济",
+      "石油储量世界第一，为什么委内瑞拉会穷到捡垃圾？",
+      "【深度解读】从拉美首富到通胀30万%，委内瑞拉做错了什么？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "B套用一口气加竖线加数字的模板，A文风更自然",
+     "thesis_score": 1,
+     "thesis_reason": "真实归因石油诅咒，仿写明确否认石油诅咒本身",
+     "attr_correct": true,
+     "copy_sim": 0.097,
+     "copy_nearest": "",
+     "real_overlap": 0.106
+    },
+    "guide_v1": {
+     "title": "一口气了解委内瑞拉经济 | 石油大国是怎么穷下去的",
+     "thesis": "委内瑞拉的崩溃不是因为石油太少，而是把全国押在石油上，再用价格管制、政治清洗和印钞放大油价下跌带来的冲击。",
+     "candidates": [
+      "一口气了解委内瑞拉经济",
+      "石油储量世界第一，委内瑞拉为什么这么穷？",
+      "【硬核】委内瑞拉的百年石油梦和3亿亿倍通胀"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "A套用频道公式加副标题，太模板化",
+     "thesis_score": 3,
+     "thesis_reason": "石油依赖叠加管制与油价下跌导致崩溃，一致",
+     "attr_correct": true,
+     "copy_sim": 0.12,
+     "copy_nearest": "",
+     "real_overlap": 0.07
+    },
+    "guide_v2": {
+     "title": "一口气了解委内瑞拉经济",
+     "thesis": "委内瑞拉崩溃的根源不是油价或制裁，而是全国押注石油的单一经济，查韦斯又毁掉了石油公司、推行价格管制，油价一跌就全盘崩塌。",
+     "candidates": [
+      "一口气了解委内瑞拉经济",
+      "坐在石油上的国家，为什么穷成这样？",
+      "一口气了解委内瑞拉 | 从石油大国到恶性通胀"
+     ],
+     "judge_correct": false,
+     "judge_conf": 4,
+     "judge_reason": "招牌格式，B的“坐拥金山人间炼狱”像AI",
+     "thesis_score": 2,
+     "thesis_reason": "都归因单一石油经济和管制，但对油价作用的强调不同",
+     "attr_correct": true,
+     "copy_sim": 0.231,
+     "copy_nearest": "",
+     "real_overlap": 0.097
+    },
+    "zero": {
+     "title": "一口气了解委内瑞拉 | 坐在石油上的国家，为什么穷到通胀300000%？",
+     "thesis": "毁掉委内瑞拉的不是石油价格本身，而是几十年押注单一石油、靠补贴和管制维持繁荣的政策选择，制裁只是加速",
+     "candidates": [
+      "一口气了解委内瑞拉 | 石油储量世界第一的国家，为什么穷到捡垃圾？",
+      "从拉美首富到通胀300000% | 委内瑞拉是怎么一步步把一手好牌打烂的",
+      "委内瑞拉为什么崩溃？石油、查韦斯和印钞机的五十年"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "A用半角问号，语气口语；B的数字夸张，像AI写的",
+     "thesis_score": 2,
+     "thesis_reason": "都归咎于依赖石油加补贴管制，但对油价下跌的作用看法不同",
+     "attr_correct": true,
+     "copy_sim": 0.088,
+     "copy_nearest": "",
+     "real_overlap": 0.08
+    }
+   }
+  },
+  {
+   "id": "P-NmMX9rlYQ",
+   "upload_date": "20251115",
+   "topic": "GDP的定义、三种核算方法、不同口径的人均GDP及其局限",
+   "real_title": "GDP是会骗人的 | 一口气了解GDP",
+   "real_thesis": "GDP没有唯一客观的标准答案，不同口径（现价、不变价、PPP等）会得出截然不同的结论，但它仍是最可量化、可比较的经济指标，使用时必须追问“哪个GDP”。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "一口气了解GDP | 为什么同一个国家能算出六种人均GDP？",
+     "thesis": "GDP缺陷很多，算法口径一变结论就不同，但它仍是目前跨时间、跨国家最可比的经济指标，不该被一概否定。",
+     "candidates": [
+      "【基础篇】10分钟搞懂GDP到底是什么",
+      "中国GDP到底是美国的一半还是更多？聊聊GDP的各种算法",
+      "一口气了解GDP | 为什么同一个国家有六种人均GDP？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "“GDP是会骗人的”有观点钩子，A像模板",
+     "thesis_score": 3,
+     "thesis_reason": "口径不同结论不同但仍最可比，核心一致",
+     "attr_correct": true,
+     "copy_sim": 0.109,
+     "copy_nearest": "",
+     "real_overlap": 0.219
+    },
+    "guide_v1": {
+     "title": "关于GDP，你需要知道的那些事儿",
+     "thesis": "GDP只统计最终产品和有偿交易，口径不同，结论就可能截然相反；它虽然有缺陷，却仍是最能跨国、跨时间比较的指标。",
+     "candidates": [
+      "关于GDP，你需要知道的那些事儿",
+      "一口气搞清楚GDP | 中国到底增长了多少？",
+      "GDP到底是怎么算出来的？"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "和葡萄酒那期“你需要知道的”句式一致",
+     "thesis_score": 3,
+     "thesis_reason": "口径决定结论，但仍最可比较，一致",
+     "attr_correct": true,
+     "copy_sim": 0.5,
+     "copy_nearest": "关于利率，你需要知道的那些事儿",
+     "real_overlap": 0.074
+    },
+    "guide_v2": {
+     "title": "一口气了解GDP",
+     "thesis": "GDP有多种算法和口径，也不反映贫富和生活质量，但它仍是跨时间、跨地区最可比的指标，关键是看清用的是哪种口径。",
+     "candidates": [
+      "一口气了解GDP",
+      "GDP究竟是怎么算出来的？",
+      "同一个国家六种人均GDP，该信哪个？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "竖线组合钩子+招牌格式，与以往标题一致",
+     "thesis_score": 3,
+     "thesis_reason": "口径多样但仍最可比，要看清口径，论断一致",
+     "attr_correct": true,
+     "copy_sim": 0.3,
+     "copy_nearest": "",
+     "real_overlap": 0.5
+    },
+    "zero": {
+     "title": "GDP到底是怎么算出来的？| 中国增速5%，按美元算却只有2.6%？",
+     "thesis": "GDP虽有诸多盲点、口径不同结论可完全相反，但它仍是目前跨国跨时间最靠谱的经济比较指标，看懂口径比否定它更重要",
+     "candidates": [
+      "GDP到底是怎么算出来的？| 中国GDP增速5%，按美元算却只有2.6%？",
+      "一期视频看懂GDP | 买股票不算、打碎玻璃却算？六种人均GDP该看哪个",
+      "中国经济比美国大？| 购买力平价、名义GDP和GDP的那些坑"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "A简洁并带频道句式；B数据细节堆砌",
+     "thesis_score": 3,
+     "thesis_reason": "口径不同结论就不同，但仍是最好用的指标，两边一致",
+     "attr_correct": true,
+     "copy_sim": 0.075,
+     "copy_nearest": "",
+     "real_overlap": 0.045
+    }
+   }
+  },
+  {
+   "id": "8BN8p5xDkzw",
+   "upload_date": "20260828",
+   "topic": "2026年日元贬值、日本与美国联合干预外汇市场的背景与机制",
+   "real_title": "日元创40年新低，美国突然出手，怎么回事儿？",
+   "real_thesis": "日元下跌主因是高市财政政策引发的日本财政风险溢价，而非日美利差；美国出手是为保美债，干预只能短期见效，难成广场协议2.0。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "asks",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "日元跌到40年新低，美国为什么亲自下场救日本？",
+     "thesis": "美国出手救日元其实是在保美债：日本卖美债护汇率会推高美国利率，可只要高市的财政扩张不变，干预最多只能拖延时间。",
+     "candidates": [
+      "日元跌到40年新低，美国为什么要出手救日本？",
+      "美日联手救日元，意味着什么？",
+      "【硬核】美国15年来首次干预汇市 | 一口气了解日元危机"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "“怎么回事儿”是频道的口头禅",
+     "thesis_score": 2,
+     "thesis_reason": "保美债、干预只拖时间一致，仿写缺财政溢价非利差主因",
+     "attr_correct": true,
+     "copy_sim": 0.034,
+     "copy_nearest": "",
+     "real_overlap": 0.229
+    },
+    "guide_v1": {
+     "title": "日元跌到40年新低，美国为什么出手救？",
+     "thesis": "这轮日元贬值的主因已不再是美日利差，而是市场对高市财政扩张的担忧；美国出手，是怕日本抛美债推高美债利率。",
+     "candidates": [
+      "日元跌到40年新低，美国为什么出手救？",
+      "一口气了解日元贬值 | 美日15年来首次联手",
+      "美国帮日本买日元，到底是怎么回事儿？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "“怎么回事儿”儿化口语是频道的典型用法",
+     "thesis_score": 3,
+     "thesis_reason": "财政风险压过利差、美国为保美债，一致",
+     "attr_correct": true,
+     "copy_sim": 0.04,
+     "copy_nearest": "",
+     "real_overlap": 0.3
+    },
+    "guide_v2": {
+     "title": "日元跌到40年新低，美国为啥亲自下场救它？",
+     "thesis": "这轮日元贬值的根源不是美日利差，而是高市早苗的扩张财政抬高了日债风险溢价；美国出手主要是为了稳住美债利率。",
+     "candidates": [
+      "日元跌到40年新低，美国为啥亲自下场救它？",
+      "一口气了解日元贬值和美日联合干预",
+      "日元刹不住了，美国究竟在急什么？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "“怎么回事儿”儿化口语是频道习惯",
+     "thesis_score": 3,
+     "thesis_reason": "都认为根源是财政风险溢价而非利差，美国出手为保美债",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.242
+    },
+    "zero": {
+     "title": "日元跌到40年最低，美国为什么亲自下场救？| 美日联合干预汇市背后的美债焦虑",
+     "thesis": "美国罕见出手救日元不是帮盟友，而是怕日本抛美债推高美债利率；日元的根本问题是财政信用，干预只能救急",
+     "candidates": [
+      "日元跌破40年新低，美国终于出手了 | 15年来首次联合干预汇市，背后在怕什么？",
+      "美国为什么要救日元？| 贝森特的笔记本、Takaichi Trade和美债的秘密",
+      "日本还能撑多久？| 25万亿日元砸进汇市，日元为什么还在跌"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "「怎么回事儿」儿化口语是频道风格；A太长",
+     "thesis_score": 3,
+     "thesis_reason": "根子在财政信用，美国出手是保美债，干预只能救急",
+     "attr_correct": true,
+     "copy_sim": 0.024,
+     "copy_nearest": "",
+     "real_overlap": 0.118
+    }
+   }
+  }
+ ]
+}

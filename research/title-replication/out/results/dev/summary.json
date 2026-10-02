@@ -1,0 +1,749 @@
+{
+ "set": "dev",
+ "systems": [
+  "fewshot",
+  "guide_v1",
+  "guide_v2",
+  "zero"
+ ],
+ "channels": {
+  "cn_xiao_lin_shuo": {
+   "real_style": {
+    "len": 17.1,
+    "question": 0.4,
+    "number": 0.2,
+    "bracket": 0.0,
+    "allcaps": 0.0
+   },
+   "real_attr_acc": 1.0,
+   "fewshot": {
+    "n": 10,
+    "judge_acc": 1.0,
+    "fool_rate": 0.0,
+    "thesis_mean": 2.1,
+    "thesis_ge2": 0.8,
+    "attr_acc": 1.0,
+    "copy_flags": 0,
+    "near_verbatim": 0,
+    "real_overlap": 0.213,
+    "style": {
+     "len": 27.9,
+     "question": 0.9,
+     "number": 0.5,
+     "bracket": 0.3,
+     "allcaps": 0.1
+    }
+   },
+   "guide_v1": {
+    "n": 10,
+    "judge_acc": 0.9,
+    "fool_rate": 0.1,
+    "thesis_mean": 2.3,
+    "thesis_ge2": 0.9,
+    "attr_acc": 1.0,
+    "copy_flags": 1,
+    "near_verbatim": 0,
+    "real_overlap": 0.188,
+    "style": {
+     "len": 23.4,
+     "question": 0.7,
+     "number": 0.5,
+     "bracket": 0.2,
+     "allcaps": 0.1
+    }
+   },
+   "guide_v2": {
+    "n": 10,
+    "judge_acc": 0.7,
+    "fool_rate": 0.3,
+    "thesis_mean": 2.5,
+    "thesis_ge2": 1.0,
+    "attr_acc": 1.0,
+    "copy_flags": 0,
+    "near_verbatim": 0,
+    "real_overlap": 0.454,
+    "style": {
+     "len": 16.8,
+     "question": 0.4,
+     "number": 0.3,
+     "bracket": 0.0,
+     "allcaps": 0.2
+    }
+   },
+   "zero": {
+    "n": 10,
+    "judge_acc": 0.9,
+    "fool_rate": 0.1,
+    "thesis_mean": 2.2,
+    "thesis_ge2": 0.9,
+    "attr_acc": 1.0,
+    "copy_flags": 0,
+    "near_verbatim": 0,
+    "real_overlap": 0.144,
+    "style": {
+     "len": 19.8,
+     "question": 0.5,
+     "number": 0.4,
+     "bracket": 0.1,
+     "allcaps": 0.1
+    }
+   }
+  },
+  "jp_ryogakucho": {
+   "real_style": {
+    "len": 47.5,
+    "question": 0.6,
+    "number": 0.2,
+    "bracket": 1.0,
+    "allcaps": 0.3
+   },
+   "real_attr_acc": 1.0,
+   "fewshot": {
+    "n": 10,
+    "judge_acc": 1.0,
+    "fool_rate": 0.0,
+    "thesis_mean": 2.6,
+    "thesis_ge2": 1.0,
+    "attr_acc": 1.0,
+    "copy_flags": 0,
+    "near_verbatim": 0,
+    "real_overlap": 0.121,
+    "style": {
+     "len": 45.9,
+     "question": 0.5,
+     "number": 0.2,
+     "bracket": 1.0,
+     "allcaps": 0.1
+    }
+   },
+   "guide_v1": {
+    "n": 10,
+    "judge_acc": 0.8,
+    "fool_rate": 0.2,
+    "thesis_mean": 2.6,
+    "thesis_ge2": 1.0,
+    "attr_acc": 1.0,
+    "copy_flags": 0,
+    "near_verbatim": 0,
+    "real_overlap": 0.18,
+    "style": {
+     "len": 51.8,
+     "question": 0.5,
+     "number": 0.9,
+     "bracket": 1.0,
+     "allcaps": 0.2
+    }
+   },
+   "guide_v2": {
+    "n": 10,
+    "judge_acc": 0.7,
+    "fool_rate": 0.3,
+    "thesis_mean": 2.5,
+    "thesis_ge2": 1.0,
+    "attr_acc": 1.0,
+    "copy_flags": 0,
+    "near_verbatim": 0,
+    "real_overlap": 0.429,
+    "style": {
+     "len": 50.1,
+     "question": 0.8,
+     "number": 0.3,
+     "bracket": 1.0,
+     "allcaps": 0.3
+    }
+   },
+   "zero": {
+    "n": 10,
+    "judge_acc": 1.0,
+    "fool_rate": 0.0,
+    "thesis_mean": 2.6,
+    "thesis_ge2": 1.0,
+    "attr_acc": 1.0,
+    "copy_flags": 0,
+    "near_verbatim": 0,
+    "real_overlap": 0.158,
+    "style": {
+     "len": 40.2,
+     "question": 0.4,
+     "number": 0.4,
+     "bracket": 1.0,
+     "allcaps": 0.1
+    }
+   }
+  },
+  "jp_nktofficial": {
+   "real_style": {
+    "len": 41.7,
+    "question": 0.4,
+    "number": 0.3,
+    "bracket": 1.0,
+    "allcaps": 0.1
+   },
+   "real_attr_acc": 1.0,
+   "fewshot": {
+    "n": 10,
+    "judge_acc": 1.0,
+    "fool_rate": 0.0,
+    "thesis_mean": 1.7,
+    "thesis_ge2": 0.6,
+    "attr_acc": 1.0,
+    "copy_flags": 0,
+    "near_verbatim": 0,
+    "real_overlap": 0.097,
+    "style": {
+     "len": 36.6,
+     "question": 0.3,
+     "number": 0.3,
+     "bracket": 1.0,
+     "allcaps": 0.2
+    }
+   },
+   "guide_v1": {
+    "n": 10,
+    "judge_acc": 0.8,
+    "fool_rate": 0.2,
+    "thesis_mean": 1.8,
+    "thesis_ge2": 0.6,
+    "attr_acc": 1.0,
+    "copy_flags": 0,
+    "near_verbatim": 0,
+    "real_overlap": 0.095,
+    "style": {
+     "len": 31,
+     "question": 0.5,
+     "number": 0.2,
+     "bracket": 1.0,
+     "allcaps": 0.1
+    }
+   },
+   "guide_v2": {
+    "n": 10,
+    "judge_acc": 0.8,
+    "fool_rate": 0.2,
+    "thesis_mean": 1.9,
+    "thesis_ge2": 0.7,
+    "attr_acc": 1.0,
+    "copy_flags": 0,
+    "near_verbatim": 0,
+    "real_overlap": 0.161,
+    "style": {
+     "len": 43.9,
+     "question": 0.5,
+     "number": 0.2,
+     "bracket": 1.0,
+     "allcaps": 0.2
+    }
+   },
+   "zero": {
+    "n": 10,
+    "judge_acc": 1.0,
+    "fool_rate": 0.0,
+    "thesis_mean": 2.1,
+    "thesis_ge2": 0.8,
+    "attr_acc": 1.0,
+    "copy_flags": 0,
+    "near_verbatim": 0,
+    "real_overlap": 0.095,
+    "style": {
+     "len": 32.7,
+     "question": 0.3,
+     "number": 0.2,
+     "bracket": 1.0,
+     "allcaps": 0.1
+    }
+   }
+  },
+  "jp_DanTakahashi1": {
+   "real_style": {
+    "len": 18.1,
+    "question": 0.7,
+    "number": 0.3,
+    "bracket": 0.2,
+    "allcaps": 0.1
+   },
+   "real_attr_acc": 1.0,
+   "fewshot": {
+    "n": 10,
+    "judge_acc": 0.8,
+    "fool_rate": 0.2,
+    "thesis_mean": 2,
+    "thesis_ge2": 0.6,
+    "attr_acc": 1.0,
+    "copy_flags": 0,
+    "near_verbatim": 0,
+    "real_overlap": 0.079,
+    "style": {
+     "len": 21.2,
+     "question": 0.0,
+     "number": 0.5,
+     "bracket": 0.9,
+     "allcaps": 0.2
+    }
+   },
+   "guide_v1": {
+    "n": 10,
+    "judge_acc": 0.5,
+    "fool_rate": 0.5,
+    "thesis_mean": 2.1,
+    "thesis_ge2": 0.7,
+    "attr_acc": 1.0,
+    "copy_flags": 2,
+    "near_verbatim": 1,
+    "real_overlap": 0.069,
+    "style": {
+     "len": 18.6,
+     "question": 0.3,
+     "number": 0.3,
+     "bracket": 0.4,
+     "allcaps": 0.2
+    }
+   },
+   "guide_v2": {
+    "n": 10,
+    "judge_acc": 0.8,
+    "fool_rate": 0.2,
+    "thesis_mean": 2.3,
+    "thesis_ge2": 0.9,
+    "attr_acc": 1.0,
+    "copy_flags": 0,
+    "near_verbatim": 0,
+    "real_overlap": 0.089,
+    "style": {
+     "len": 15.4,
+     "question": 0.6,
+     "number": 0.5,
+     "bracket": 0.2,
+     "allcaps": 0.1
+    }
+   },
+   "zero": {
+    "n": 10,
+    "judge_acc": 1.0,
+    "fool_rate": 0.0,
+    "thesis_mean": 2,
+    "thesis_ge2": 0.7,
+    "attr_acc": 1.0,
+    "copy_flags": 0,
+    "near_verbatim": 0,
+    "real_overlap": 0.067,
+    "style": {
+     "len": 35,
+     "question": 0.3,
+     "number": 0.6,
+     "bracket": 0.6,
+     "allcaps": 0.2
+    }
+   }
+  },
+  "us_GrahamStephan": {
+   "real_style": {
+    "len": 8.4,
+    "question": 0.1,
+    "number": 0.5,
+    "bracket": 0.0,
+    "allcaps": 0.4
+   },
+   "real_attr_acc": 0.8,
+   "fewshot": {
+    "n": 10,
+    "judge_acc": 0.6,
+    "fool_rate": 0.4,
+    "thesis_mean": 2.3,
+    "thesis_ge2": 1.0,
+    "attr_acc": 0.8,
+    "copy_flags": 0,
+    "near_verbatim": 0,
+    "real_overlap": 0.122,
+    "style": {
+     "len": 7.8,
+     "question": 0.0,
+     "number": 0.5,
+     "bracket": 0.0,
+     "allcaps": 0.2
+    }
+   },
+   "guide_v1": {
+    "n": 10,
+    "judge_acc": 0.3,
+    "fool_rate": 0.7,
+    "thesis_mean": 2.6,
+    "thesis_ge2": 1.0,
+    "attr_acc": 1.0,
+    "copy_flags": 1,
+    "near_verbatim": 1,
+    "real_overlap": 0.115,
+    "style": {
+     "len": 8.7,
+     "question": 0.0,
+     "number": 0.5,
+     "bracket": 0.0,
+     "allcaps": 0.6
+    }
+   },
+   "guide_v2": {
+    "n": 10,
+    "judge_acc": 0.6,
+    "fool_rate": 0.4,
+    "thesis_mean": 2.8,
+    "thesis_ge2": 1.0,
+    "attr_acc": 0.8,
+    "copy_flags": 1,
+    "near_verbatim": 0,
+    "real_overlap": 0.416,
+    "style": {
+     "len": 8.8,
+     "question": 0.1,
+     "number": 0.6,
+     "bracket": 0.0,
+     "allcaps": 0.4
+    }
+   },
+   "zero": {
+    "n": 10,
+    "judge_acc": 0.7,
+    "fool_rate": 0.3,
+    "thesis_mean": 2.2,
+    "thesis_ge2": 1.0,
+    "attr_acc": 0.9,
+    "copy_flags": 0,
+    "near_verbatim": 0,
+    "real_overlap": 0.137,
+    "style": {
+     "len": 9,
+     "question": 0.0,
+     "number": 0.5,
+     "bracket": 0.0,
+     "allcaps": 0.1
+    }
+   }
+  },
+  "us_AndreiJikh": {
+   "real_style": {
+    "len": 8.5,
+    "question": 0.0,
+    "number": 0.3,
+    "bracket": 0.0,
+    "allcaps": 0.6
+   },
+   "real_attr_acc": 0.6,
+   "fewshot": {
+    "n": 10,
+    "judge_acc": 0.6,
+    "fool_rate": 0.4,
+    "thesis_mean": 2.1,
+    "thesis_ge2": 0.9,
+    "attr_acc": 0.5,
+    "copy_flags": 0,
+    "near_verbatim": 0,
+    "real_overlap": 0.043,
+    "style": {
+     "len": 9.4,
+     "question": 0.2,
+     "number": 0.2,
+     "bracket": 0.0,
+     "allcaps": 0.3
+    }
+   },
+   "guide_v1": {
+    "n": 10,
+    "judge_acc": 0.6,
+    "fool_rate": 0.4,
+    "thesis_mean": 2,
+    "thesis_ge2": 0.9,
+    "attr_acc": 0.4,
+    "copy_flags": 0,
+    "near_verbatim": 0,
+    "real_overlap": 0.028,
+    "style": {
+     "len": 8,
+     "question": 0.2,
+     "number": 0.1,
+     "bracket": 0.0,
+     "allcaps": 0.4
+    }
+   },
+   "guide_v2": {
+    "n": 10,
+    "judge_acc": 0.6,
+    "fool_rate": 0.4,
+    "thesis_mean": 2.5,
+    "thesis_ge2": 1.0,
+    "attr_acc": 0.4,
+    "copy_flags": 0,
+    "near_verbatim": 0,
+    "real_overlap": 0.1,
+    "style": {
+     "len": 8.9,
+     "question": 0.0,
+     "number": 0.2,
+     "bracket": 0.0,
+     "allcaps": 0.8
+    }
+   },
+   "zero": {
+    "n": 10,
+    "judge_acc": 0.8,
+    "fool_rate": 0.2,
+    "thesis_mean": 2,
+    "thesis_ge2": 0.9,
+    "attr_acc": 0.5,
+    "copy_flags": 0,
+    "near_verbatim": 0,
+    "real_overlap": 0.044,
+    "style": {
+     "len": 9,
+     "question": 0.1,
+     "number": 0.0,
+     "bracket": 0.0,
+     "allcaps": 0.0
+    }
+   }
+  },
+  "us_MeetKevin": {
+   "real_style": {
+    "len": 8.3,
+    "question": 0.2,
+    "number": 0.2,
+    "bracket": 0.2,
+    "allcaps": 0.8
+   },
+   "real_attr_acc": 0.9,
+   "fewshot": {
+    "n": 10,
+    "judge_acc": 0.8,
+    "fool_rate": 0.2,
+    "thesis_mean": 1.5,
+    "thesis_ge2": 0.6,
+    "attr_acc": 0.8,
+    "copy_flags": 0,
+    "near_verbatim": 0,
+    "real_overlap": 0.007,
+    "style": {
+     "len": 9,
+     "question": 0.1,
+     "number": 0.4,
+     "bracket": 0.1,
+     "allcaps": 0.8
+    }
+   },
+   "guide_v1": {
+    "n": 10,
+    "judge_acc": 1.0,
+    "fool_rate": 0.0,
+    "thesis_mean": 2,
+    "thesis_ge2": 0.7,
+    "attr_acc": 0.8,
+    "copy_flags": 0,
+    "near_verbatim": 0,
+    "real_overlap": 0.021,
+    "style": {
+     "len": 9.6,
+     "question": 0.0,
+     "number": 0.6,
+     "bracket": 0.3,
+     "allcaps": 0.9
+    }
+   },
+   "guide_v2": {
+    "n": 10,
+    "judge_acc": 0.4,
+    "fool_rate": 0.6,
+    "thesis_mean": 2.2,
+    "thesis_ge2": 0.9,
+    "attr_acc": 0.7,
+    "copy_flags": 0,
+    "near_verbatim": 0,
+    "real_overlap": 0.117,
+    "style": {
+     "len": 7.6,
+     "question": 0.4,
+     "number": 0.2,
+     "bracket": 0.2,
+     "allcaps": 0.5
+    }
+   },
+   "zero": {
+    "n": 10,
+    "judge_acc": 1.0,
+    "fool_rate": 0.0,
+    "thesis_mean": 1.8,
+    "thesis_ge2": 0.7,
+    "attr_acc": 0.7,
+    "copy_flags": 0,
+    "near_verbatim": 0,
+    "real_overlap": 0.013,
+    "style": {
+     "len": 8.9,
+     "question": 0.2,
+     "number": 0.3,
+     "bracket": 0.0,
+     "allcaps": 0.9
+    }
+   }
+  },
+  "us_EconomicsExplained": {
+   "real_style": {
+    "len": 7.3,
+    "question": 0.3,
+    "number": 0.1,
+    "bracket": 0.0,
+    "allcaps": 0.1
+   },
+   "real_attr_acc": 0.9,
+   "fewshot": {
+    "n": 10,
+    "judge_acc": 0.9,
+    "fool_rate": 0.1,
+    "thesis_mean": 2.2,
+    "thesis_ge2": 1.0,
+    "attr_acc": 0.9,
+    "copy_flags": 0,
+    "near_verbatim": 0,
+    "real_overlap": 0.0,
+    "style": {
+     "len": 8.4,
+     "question": 0.3,
+     "number": 0.1,
+     "bracket": 0.0,
+     "allcaps": 0.2
+    }
+   },
+   "guide_v1": {
+    "n": 10,
+    "judge_acc": 0.6,
+    "fool_rate": 0.4,
+    "thesis_mean": 2.3,
+    "thesis_ge2": 0.9,
+    "attr_acc": 1.0,
+    "copy_flags": 1,
+    "near_verbatim": 0,
+    "real_overlap": 0.0,
+    "style": {
+     "len": 6.3,
+     "question": 0.5,
+     "number": 0.0,
+     "bracket": 0.0,
+     "allcaps": 0.2
+    }
+   },
+   "guide_v2": {
+    "n": 10,
+    "judge_acc": 0.9,
+    "fool_rate": 0.1,
+    "thesis_mean": 2.1,
+    "thesis_ge2": 0.9,
+    "attr_acc": 0.8,
+    "copy_flags": 0,
+    "near_verbatim": 0,
+    "real_overlap": 0.288,
+    "style": {
+     "len": 7.3,
+     "question": 0.1,
+     "number": 0.0,
+     "bracket": 0.0,
+     "allcaps": 0.0
+    }
+   },
+   "zero": {
+    "n": 10,
+    "judge_acc": 0.6,
+    "fool_rate": 0.4,
+    "thesis_mean": 2.3,
+    "thesis_ge2": 1.0,
+    "attr_acc": 0.8,
+    "copy_flags": 0,
+    "near_verbatim": 0,
+    "real_overlap": 0.013,
+    "style": {
+     "len": 5.8,
+     "question": 0.8,
+     "number": 0.0,
+     "bracket": 0.0,
+     "allcaps": 0.2
+    }
+   }
+  },
+  "us_HowMoneyWorks": {
+   "real_style": {
+    "len": 7.2,
+    "question": 0.2,
+    "number": 0.1,
+    "bracket": 0.0,
+    "allcaps": 0.2
+   },
+   "real_attr_acc": 0.7,
+   "fewshot": {
+    "n": 10,
+    "judge_acc": 0.6,
+    "fool_rate": 0.4,
+    "thesis_mean": 2.4,
+    "thesis_ge2": 1.0,
+    "attr_acc": 1.0,
+    "copy_flags": 0,
+    "near_verbatim": 0,
+    "real_overlap": 0.152,
+    "style": {
+     "len": 7.9,
+     "question": 0.0,
+     "number": 0.2,
+     "bracket": 0.0,
+     "allcaps": 0.1
+    }
+   },
+   "guide_v1": {
+    "n": 10,
+    "judge_acc": 0.5,
+    "fool_rate": 0.5,
+    "thesis_mean": 2.6,
+    "thesis_ge2": 1.0,
+    "attr_acc": 0.9,
+    "copy_flags": 0,
+    "near_verbatim": 0,
+    "real_overlap": 0.157,
+    "style": {
+     "len": 7.8,
+     "question": 0.1,
+     "number": 0.1,
+     "bracket": 0.0,
+     "allcaps": 0.2
+    }
+   },
+   "guide_v2": {
+    "n": 10,
+    "judge_acc": 0.8,
+    "fool_rate": 0.2,
+    "thesis_mean": 2.4,
+    "thesis_ge2": 1.0,
+    "attr_acc": 0.8,
+    "copy_flags": 0,
+    "near_verbatim": 0,
+    "real_overlap": 0.227,
+    "style": {
+     "len": 7.2,
+     "question": 0.3,
+     "number": 0.0,
+     "bracket": 0.0,
+     "allcaps": 0.2
+    }
+   },
+   "zero": {
+    "n": 10,
+    "judge_acc": 0.7,
+    "fool_rate": 0.3,
+    "thesis_mean": 2.3,
+    "thesis_ge2": 0.9,
+    "attr_acc": 0.9,
+    "copy_flags": 0,
+    "near_verbatim": 0,
+    "real_overlap": 0.18,
+    "style": {
+     "len": 6.4,
+     "question": 0.0,
+     "number": 0.1,
+     "bracket": 0.0,
+     "allcaps": 0.1
+    }
+   }
+  }
+ }
+}

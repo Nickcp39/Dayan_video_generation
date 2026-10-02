@@ -1,0 +1,83 @@
+{
+ "cn_xiao_lin_shuo": {
+  "listed": 159,
+  "reruns_dropped": 0,
+  "kept": 159,
+  "train_pool": 118,
+  "dev_pool": 16,
+  "test_pool": 25,
+  "dev_test_dropped_as_duplicates": 0
+ },
+ "jp_ryogakucho": {
+  "listed": 2692,
+  "reruns_dropped": 383,
+  "kept": 2306,
+  "train_pool": 1729,
+  "dev_pool": 231,
+  "test_pool": 346,
+  "dev_test_dropped_as_duplicates": 0
+ },
+ "jp_nktofficial": {
+  "listed": 816,
+  "reruns_dropped": 0,
+  "kept": 816,
+  "train_pool": 612,
+  "dev_pool": 82,
+  "test_pool": 122,
+  "dev_test_dropped_as_duplicates": 0
+ },
+ "jp_DanTakahashi1": {
+  "listed": 848,
+  "reruns_dropped": 0,
+  "kept": 844,
+  "train_pool": 633,
+  "dev_pool": 83,
+  "test_pool": 126,
+  "dev_test_dropped_as_duplicates": 2
+ },
+ "us_GrahamStephan": {
+  "listed": 1134,
+  "reruns_dropped": 0,
+  "kept": 1133,
+  "train_pool": 850,
+  "dev_pool": 107,
+  "test_pool": 168,
+  "dev_test_dropped_as_duplicates": 8
+ },
+ "us_AndreiJikh": {
+  "listed": 677,
+  "reruns_dropped": 0,
+  "kept": 676,
+  "train_pool": 507,
+  "dev_pool": 68,
+  "test_pool": 100,
+  "dev_test_dropped_as_duplicates": 1
+ },
+ "us_MeetKevin": {
+  "listed": 4924,
+  "reruns_dropped": 0,
+  "kept": 4886,
+  "train_pool": 3664,
+  "dev_pool": 480,
+  "test_pool": 724,
+  "dev_test_dropped_as_duplicates": 18
+ },
+ "us_EconomicsExplained": {
+  "listed": 373,
+  "reruns_dropped": 0,
+  "kept": 372,
+  "train_pool": 279,
+  "dev_pool": 37,
+  "test_pool": 56,
+  "dev_test_dropped_as_duplicates": 0
+ },
+ "us_HowMoneyWorks": {
+  "listed": 277,
+  "reruns_dropped": 0,
+  "kept": 277,
+  "train_pool": 207,
+  "dev_pool": 28,
+  "test_pool": 42,
+  "dev_test_dropped_as_duplicates": 0
+ }
+}

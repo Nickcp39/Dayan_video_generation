@@ -1,0 +1,3 @@
+# Transcripts and per-video metadata are the creators' content: keep them on this machine only.
+# The public repo gets code, prompts, split manifests, guidelines and evaluation results (out/).
+data/

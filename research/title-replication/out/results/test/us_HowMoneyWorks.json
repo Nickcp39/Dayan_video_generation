@@ -1,0 +1,1691 @@
+{
+ "key": "us_HowMoneyWorks",
+ "systems": [
+  "fewshot",
+  "guide_v1",
+  "guide_v2",
+  "zero"
+ ],
+ "items": [
+  {
+   "id": "ShGT-fY7S98",
+   "upload_date": "20260531",
+   "topic": "硅谷科技从业者中“永久底层阶级”说法的流行及其背后的社会流动数据",
+   "real_title": "Silicon Valley's Strange New Obsession",
+   "real_thesis": "“永久底层阶级”焦虑在硅谷流行，是真实的社会流动性下滑、硅谷既有的财务独立文化与AI营销叙事三者叠加的结果，同时也被用来驱使员工更卖力。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Why Tech Workers Are Terrified of Becoming The \"Permanent Underclass\"",
+     "thesis": "硅谷对“永久底层”的恐慌搞错了重点：AI并没有新造出一个阶层，社会流动在几十年前就已经停滞，AI只是让最后几个上升通道也关上了。",
+     "candidates": [
+      "Silicon Valley's Growing Fear of the \"Permanent Underclass\"",
+      "Why Tech Workers Are Racing To Get Rich Before AI Arrives",
+      "The Permanent Underclass Is Already Here... It's Just Not Where Tech Thinks"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "简短又故意含糊，符合频道风格；A像照着选题写的说明",
+     "thesis_score": 2,
+     "thesis_reason": "都提流动性停滞，但真实强调三因叠加与驱使员工",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Tech Workers Are Racing To Escape The Permanent Underclass... Too Late",
+     "thesis": "“永久底层”焦虑并非AI新产物，向上流动早已在房价、学费和工会衰落中失灵；AI只是把硅谷最后一条逃生通道也关掉。",
+     "candidates": [
+      "Silicon Valley's Fear Of The \"Permanent Underclass\"",
+      "Tech Workers Are Racing To Escape The Permanent Underclass... Too Late",
+      "If AI Takes Your Job Before You Retire... Are You Stuck Forever?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "短而带悬念，A过度贴合选题关键词",
+     "thesis_score": 2,
+     "thesis_reason": "都谈流动性下滑，但仿写缺文化、营销叙事和驱使员工",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Why Tech Workers Are Suddenly Terrified Of The \"Permanent Underclass\"",
+     "thesis": "“永久底层”不是AI带来的新威胁，而是房价、学费、工会衰落和初级岗萎缩叠加造成的流动性塌陷；AI只是关上硅谷最后一条上升通道。",
+     "candidates": [
+      "Why Tech Workers Are Suddenly Terrified Of The \"Permanent Underclass\"",
+      "The Permanent Underclass - Is It Already Here?",
+      "Even Silicon Valley Can't Climb The Ladder Anymore"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "引号概念词加情绪化描述，符合频道习惯",
+     "thesis_score": 2,
+     "thesis_reason": "都讲流动性下滑叠加，但仿写漏掉营销叙事与驱使员工",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Silicon Valley's Fear of the Permanent Underclass",
+     "thesis": "“永久底层”焦虑并不是科技圈的杞人忧天：AI裁员加上流动性下降，正让硅谷最后一条向上通道快速关闭。",
+     "candidates": [
+      "Silicon Valley's Fear of the Permanent Underclass",
+      "Why Tech Workers Are Racing to Escape the Permanent Underclass",
+      "The $2.5 Million Race Against AI"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "点明具体概念，B过于空泛像AI的钩子",
+     "thesis_score": 1,
+     "thesis_reason": "真实讲焦虑如何被建构、被利用，仿写认定焦虑属实",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.111
+    }
+   }
+  },
+  {
+   "id": "sr7OVWgqDIM",
+   "upload_date": "20260126",
+   "topic": "2025年美国GDP增长的构成：AI投资、库存、贸易、消费与美元贬值的数据",
+   "real_title": "Why Hasn't The Economy Collapsed... Yet?",
+   "real_thesis": "美国经济没崩只是表面：增长靠AI投资、库存消耗、金银出口、富人与医疗刚需和美元贬值撑起，既不可持续也不健康，只是规模与特权让崩塌来得更慢。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "asks",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "America's \"Booming\" Economy Is Built on AI, Gold, and Rich People",
+     "thesis": "2025年美国GDP的亮眼增长主要靠AI投资、黄金出口、富人消费和核算上的技术效应撑起来，并不代表普通家庭的经济状况变好了。",
+     "candidates": [
+      "America's Economy Is Growing... So Why Does It Feel Like It Isn't?",
+      "The Weird Truth Behind America's 4.3% GDP Growth",
+      "America's \"Booming\" Economy Is Built on AI, Gold, and Rich People"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "提到的黄金选题里没有，更像原创标题；A是套用模板",
+     "thesis_score": 2,
+     "thesis_reason": "支撑因素相同，真实强调不可持续，仿写强调普通人",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "America's Economy Is Booming... For All The Wrong Reasons",
+     "thesis": "4.3%的GDP增长靠AI投资、库存核算、黄金出口和富人消费撑着，并非普通家庭变好；关税成本96%由美国人自己承担。",
+     "candidates": [
+      "America's Economy Is Booming... For All The Wrong Reasons",
+      "The 4.3% Illusion - What's Actually Growing The US Economy?",
+      "The US Economy Is NOT Growing (It's Being Propped Up)"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "“...Yet?”是频道惯用反问句式，A像套话",
+     "thesis_score": 2,
+     "thesis_reason": "都说增长靠少数因素撑起，仿写缺不可持续判断，另加关税",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "The US Economy Is \"Booming\"",
+     "thesis": "美国GDP亮眼不代表经济健康，而是AI投资、黄金出口、富人与医疗消费、弱美元拼出来的账面增长；96%的关税成本由家庭承担，这种增长很脆弱。",
+     "candidates": [
+      "The US Economy Is \"Booming\"",
+      "WTF Is Actually Growing The US Economy?",
+      "Why America's GDP Looks Great (And Isn't)"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "短句加反讽引号，是频道典型写法",
+     "thesis_score": 3,
+     "thesis_reason": "都认为增长靠多项拼凑，不健康不可持续",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "What's Actually Holding Up America's GDP",
+     "thesis": "2025年美国GDP的亮眼增长主要靠AI投资、黄金出口和医疗开支撑着，掩盖了普通家庭经济正在走弱。",
+     "candidates": [
+      "The Fake Growth of the US Economy",
+      "What's Actually Holding Up America's GDP",
+      "America's Economy Is Running on AI, Gold and Medicine"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "省略号加Yet反问是频道惯用句式",
+     "thesis_score": 3,
+     "thesis_reason": "都说增长靠少数支柱撑起，掩盖不健康",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "5aBW_VGT130",
+   "upload_date": "20260713",
+   "topic": "2025至2026年私募股权与私募信贷的退出、融资、违约及资金流出情况",
+   "real_title": "So... Is Private Equity Collapsing Yet?",
+   "real_thesis": "私募股权并未崩溃而是在变形：2025年的繁荣是抢窗口退出和基金互相倒手的假象，杠杆收购模式已衰落，2026年私募信贷挤兑与SaaS暴跌使裂缝显现。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "asks",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "Private Equity Is Stuck... And Investors Are Starting To Notice",
+     "thesis": "私募股权的“退出繁荣”大多是自己左手倒右手的假象，真金白银回不到投资者手里，私募信贷的赎回潮就是这个模式开始失灵的信号。",
+     "candidates": [
+      "Private Equity Can't Find The Exit",
+      "Wall Street's Private Money Machine Is Starting To Jam",
+      "Why Private Equity Is Selling Companies... To Itself"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "“So... Yet?”这种调侃口吻很像频道的系列标题",
+     "thesis_score": 3,
+     "thesis_reason": "退出繁荣是倒手假象、私募信贷赎回显裂缝一致",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.077
+    },
+    "guide_v1": {
+     "title": "If Private Equity Is Booming... Why Can't Investors Get Paid?",
+     "thesis": "私募创纪录的退出额是基金互相倒手的数字游戏，真实分红跌到2009年来最低；SaaS估值崩塌后，私募信贷正成为下一个爆雷点。",
+     "candidates": [
+      "Private Equity's Quiet Collapse",
+      "The Private Equity Bubble Is Running Out Of Exits",
+      "If Private Equity Is Booming... Why Can't Investors Get Paid?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "“So...”口语化开头更像频道随性风格",
+     "thesis_score": 3,
+     "thesis_reason": "都说繁荣靠互相倒手是假象，私募信贷裂缝显现",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.077
+    },
+    "guide_v2": {
+     "title": "Private Equity Is Running Out Of Exits",
+     "thesis": "PE退出额创新高是假象，靠巨型交易和基金互倒堆出来；分红创新低、私募信贷限制赎回、AI压垮SaaS估值，最后接盘的是养老金这类LP。",
+     "candidates": [
+      "Private Equity Is Running Out Of Exits",
+      "Why Private Equity Is Suddenly Stuck",
+      "The Private Equity Bubble - Has It Finally Popped?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "“So...”口语化反问更像真人",
+     "thesis_score": 2,
+     "thesis_reason": "都称繁荣是假象，但仿写重点转向LP接盘，未提模式衰落",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.1
+    },
+    "zero": {
+     "title": "Private Equity Is Running Out of Exits",
+     "thesis": "私募股权退出数据创新高只是基金之间互相倒手的假象，真实退出正在枯竭，风险正在向私募信贷投资者转移。",
+     "candidates": [
+      "Private Equity Is Running Out of Exits",
+      "The Private Credit Cracks Are Starting to Show",
+      "Private Equity's $5 Billion Warning"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "So...开头的口语化讽刺符合频道风格",
+     "thesis_score": 2,
+     "thesis_reason": "都说退出是倒手假象，仿写缺模式变形与裂缝",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.1
+    }
+   }
+  },
+  {
+   "id": "_W3qPymBEBA",
+   "upload_date": "20260727",
+   "topic": "彼得·蒂尔的商业与投资历程、资金布局及其政治与意识形态活动梳理",
+   "real_title": "WTF Does Peter Thiel Actually Want?",
+   "real_thesis": "蒂尔的投资已从追求回报转向推进自身自由意志主义世界观；他靠财富与全球布局不怕舆论代价，怪异言行还能为其核心业务做营销。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "asks",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Peter Thiel Isn't Really an Investor. He's Building His Own Country.",
+     "thesis": "蒂尔的投资版图本质上不是在追求回报，而是一套用资本换取政治权力、并让自己摆脱民族国家约束的长期计划。",
+     "candidates": [
+      "How Peter Thiel Quietly Bought Influence Over Everything",
+      "Peter Thiel Doesn't Want To Run The Country. He Wants To Leave It.",
+      "The Strange Money Empire of Peter Thiel"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "带WTF、很口语，像真人写的；A的论断太工整",
+     "thesis_score": 2,
+     "thesis_reason": "都说非为回报，真实重世界观与营销，仿写重权力",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.071
+    },
+    "guide_v1": {
+     "title": "WTF Is Peter Thiel Actually Building?",
+     "thesis": "蒂尔的投资版图不是单纯赚钱，而是用财富买政治影响、打压媒体、建私人国家，以摆脱民主国家对富人的约束，且大多合法。",
+     "candidates": [
+      "How Peter Thiel Bought Himself A Country (Or Five)",
+      "Peter Thiel Doesn't Want To Get Rich, He Wants To Leave",
+      "WTF Is Peter Thiel Actually Building?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "“想要什么”更口语，Building像改写",
+     "thesis_score": 2,
+     "thesis_reason": "都说投资不为回报，但一个讲世界观营销，一个讲买政治影响",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.25
+    },
+    "guide_v2": {
+     "title": "Peter Thiel Is Genuinely Scarier Than Elon Musk",
+     "thesis": "蒂尔的危险不在于财富多，而在于投资网络、政治献金、代理诉讼和政府监控合同叠加，让他绕开选民和媒体改写规则，而且越来越难被问责。",
+     "candidates": [
+      "Peter Thiel Is Genuinely Scarier Than Elon Musk",
+      "How Peter Thiel Quietly Bought America",
+      "WTF Does Peter Thiel Actually Want?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "WTF口语化直问，A的比较式更像仿写",
+     "thesis_score": 1,
+     "thesis_reason": "真实讲投资动机转向世界观，仿写讲规避问责的危险",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.091
+    },
+    "zero": {
+     "title": "The Unsettling Ambitions of Peter Thiel",
+     "thesis": "蒂尔的财富不只是用来投资，更是在系统性地用钱买政治影响力，摆脱民族国家对他的约束。",
+     "candidates": [
+      "How Peter Thiel Built His Empire",
+      "The Unsettling Ambitions of Peter Thiel",
+      "Peter Thiel's $5 Billion Roth IRA Is the Least Weird Thing About Him"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "WTF口语化直问更像频道，B偏文雅",
+     "thesis_score": 2,
+     "thesis_reason": "都说钱服务意识形态，仿写偏政治影响力",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.111
+    }
+   }
+  },
+  {
+   "id": "-Rr3o1S-SQk",
+   "upload_date": "20260228",
+   "topic": "2025年10月高点以来加密货币市场大幅下跌的背景与多项成因",
+   "real_title": "Can We (Finally) Admit That Crypto Was Really... Dumb?",
+   "real_thesis": "本轮加密货币下跌不同于以往，因无单一冲击、狂热者转向赌博、机构化稀释信仰、利好故事耗尽且被AI夺走资源；加密本质是投机且社会成本高。",
+   "real_thesis_type": "judge",
+   "real_title_thesis": "asks",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Crypto Got Everything It Wanted... So Why Is It Collapsing?",
+     "thesis": "这次加密货币暴跌没有单一导火索，恰恰是因为它所有的利好都已经兑现，再加上被博彩、ETF和AI分走了资金和资源，炒作的故事已经讲完了。",
+     "candidates": [
+      "Why Crypto Is Crashing... And Nobody Can Explain It",
+      "Crypto Got Everything It Wanted. Now It's Collapsing.",
+      "The Slow, Boring Death of the Crypto Hype"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "嘲讽语气鲜明，括号用法也有个性；B是常见的反差套路",
+     "thesis_score": 3,
+     "thesis_reason": "无单一冲击、故事讲完、资源被分走，核心一致",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Crypto Got Everything It Wanted... And Crashed Anyway",
+     "thesis": "这轮加密崩盘没有单一黑天鹅：利好叙事已全部兑现，投机资金流向博彩，ETF期权对冲加剧抛压，AI又推高挖矿成本，上涨故事已经讲完。",
+     "candidates": [
+      "Crypto Got Everything It Wanted... And Crashed Anyway",
+      "Why Is Crypto Collapsing? (There's No Single Villain)",
+      "The Crypto Crash Nobody Can Explain"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "括号加省略号吐槽语气独特，A过于工整",
+     "thesis_score": 3,
+     "thesis_reason": "都说无单一冲击、故事讲完、资金转向博彩和AI",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Why Crypto Is Collapsing At An Alarming Rate",
+     "thesis": "这轮暴跌没有单一导火索，而是主流化反噬：利好都已兑现，投机客转去博彩，ETF期权对冲压低币价，AI抢走电力和硬件；没新故事可讲，反弹会更难。",
+     "candidates": [
+      "Why Crypto Is Collapsing At An Alarming Rate",
+      "Crypto Is Crashing... For No Reason?",
+      "Crypto Got Everything It Wanted. Now It's Dying."
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "括号加省略号的吐槽语气很有个性",
+     "thesis_score": 3,
+     "thesis_reason": "原因列举高度一致，都认为这轮下跌不同以往",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Crypto Got Everything It Wanted. Now It's Crashing",
+     "thesis": "这轮加密货币暴跌不是某个黑天鹅造成的：利好已经全部兑现，资金和算力又被博彩和AI抽走，上涨叙事已经讲不下去了。",
+     "candidates": [
+      "Why Crypto Is Crashing With No Clear Reason",
+      "Crypto Is Dying a Death by a Thousand Cuts",
+      "Crypto Got Everything It Wanted. Now It's Crashing"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "括号插入加省略号的吐槽语气是频道特色",
+     "thesis_score": 2,
+     "thesis_reason": "无单一冲击、利好耗尽一致，缺机构化与投机本质",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "O53HJcDA8v4",
+   "upload_date": "20260524",
+   "topic": "廉价航空Spirit倒闭背景下，美国及全球旅行成本上升的数据与成因",
+   "real_title": "The End Of Budget Tourism",
+   "real_thesis": "廉价旅行的黄金时代正在终结：旅游业高端化、Airbnb清退低价房源、油价冲击和美元走弱四重压力，专挤压预算旅客，而高资产人群不受影响。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "teases",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "The End of Cheap Travel... Spirit Was Just the Beginning",
+     "thesis": "廉价旅行时代已结束：航司、酒店、城市都在主动转向服务富人，燃油和美元只是加速器，便宜机票不会回来",
+     "candidates": [
+      "Why Cheap Travel Is Dead (And It's Not Coming Back)",
+      "The End of Budget Travel... Spirit Was Just the Beginning",
+      "Why Travel Is Now Only For Rich People"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "短而概括；B直接点名Spirit，像AI照着选题写的",
+     "thesis_score": 3,
+     "thesis_reason": "廉价旅行终结、行业转向富人、油价美元加压一致",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.182
+    },
+    "guide_v1": {
+     "title": "Travel Is Becoming A Luxury Product (On Purpose)",
+     "thesis": "旅行变贵不只怪油价，航空、酒店和邮轮主动转向富人，加上缺飞机、限短租和美元走弱，廉价出行的时代已经结束。",
+     "candidates": [
+      "The Death Of Cheap Travel",
+      "Travel Is Becoming A Luxury Product (On Purpose)",
+      "If Spirit Is Dead... Who's Going To Fly Economy?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "简洁宣告式符合频道，A的括号说明较刻意",
+     "thesis_score": 3,
+     "thesis_reason": "都说行业转向富人加多重压力，廉价旅行终结",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Why Travel Is Suddenly So Expensive",
+     "thesis": "旅行变贵不只怪油价和战争，而是航司邮轮酒店全面高端化、飞机短缺、短租限制、城市收费和美元走弱叠加；廉价出行时代正在终结。",
+     "candidates": [
+      "Why Travel Is Suddenly So Expensive",
+      "The End Of Cheap Travel - Is Flying Just For The Rich Now?",
+      "Travel Is Becoming A Luxury... Again"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "A是常见模板句，B更简洁有观点",
+     "thesis_score": 3,
+     "thesis_reason": "都认为多重因素叠加，廉价旅行时代终结",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "The End Of Cheap Travel",
+     "thesis": "廉价旅行时代正在终结：行业主动转向高端，再叠加飞机短缺、燃油和美元冲击，普通人的旅行成本将持续上涨",
+     "candidates": [
+      "The End Of Cheap Travel",
+      "Why Travel Is Becoming A Luxury Again",
+      "Why Airlines Want Fewer Cheap Seats"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "Cheap Travel更口语简洁，Budget Tourism生硬",
+     "thesis_score": 2,
+     "thesis_reason": "结论一致，仿写缺高资产不受影响的分化重点",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.333
+    }
+   }
+  },
+  {
+   "id": "3UO-gl-N6rY",
+   "upload_date": "20260423",
+   "topic": "美国劳工统计局非农就业报告的数据来源、统计方法及其与其他指标的分歧",
+   "real_title": "America Added 178,000 New Jobs Last Month... But How Is That Possible?!",
+   "real_thesis": "非农新增就业数字已不再反映真实就业：它数的是工资单而非人，漏掉合同工，方法过时，却因速度、惯性和政治便利而无人修正。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "asks",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "The Jobs Report Is Broken... And Nobody Wants To Fix It",
+     "thesis": "非农报告方法已跟不上零工和远程经济，持续高估就业强度，美国却因政治与成本原因拒绝修正",
+     "candidates": [
+      "The Jobs Report Is Broken (And Nobody Wants To Fix It)",
+      "Why America's Most Important Economic Number Is Wrong",
+      "How Uber Drivers Broke The Jobs Report"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "有具体数字加?!，有真人味；B照搬了“Nobody Cares”句式",
+     "thesis_score": 3,
+     "thesis_reason": "方法过时失真且因政治等原因不修正，一致",
+     "attr_correct": true,
+     "copy_sim": 0.118,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "178,000 New Jobs... So Why Can't Anyone Find One?",
+     "thesis": "非农数据高估了就业市场：它统计工资单而不是人，模型把零工算成新企业，又漏掉自由职业者，美国却拒绝改方法。",
+     "candidates": [
+      "178,000 New Jobs... So Why Can't Anyone Find One?",
+      "The Jobs Report Is Lying To You (Sort Of)",
+      "Why Nobody Should Trust The Jobs Numbers Anymore"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "“?!”夸张语气真实，A对仗工整像AI",
+     "thesis_score": 3,
+     "thesis_reason": "都说只统计工资单、漏掉合同工且无人修正",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.167
+    },
+    "guide_v2": {
+     "title": "The Jobs Report Is Broken",
+     "thesis": "非农数据并非造假，而是按工资单和营业地点统计的老方法跟不上兼职、远程和零工经济，系统性高估就业，令美联储和市场误判。",
+     "candidates": [
+      "The Jobs Report Is Broken",
+      "Why America's Job Numbers Make No Sense",
+      "Is America Actually Adding Jobs?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "具体数字加“?!”质疑，符合频道风格",
+     "thesis_score": 3,
+     "thesis_reason": "都认为统计方法过时导致数据失真",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "The Jobs Report Is Broken",
+     "thesis": "非农报告的统计方法跟不上零工和远程经济，正在系统性高估美国就业市场的健康程度",
+     "candidates": [
+      "The Jobs Report Is Broken",
+      "Why The Jobs Numbers Don't Add Up",
+      "The Jobs Data Is Hiding A Recession"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "具体数字加省略号反问是频道典型写法",
+     "thesis_score": 2,
+     "thesis_reason": "都说方法过时失真，仿写断言高估，缺无人修正",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "Ac25_v32dNE",
+   "upload_date": "20260620",
+   "topic": "美国CPI升至4.2%背景下，通胀缓冲、能源储备与美联储政策选择",
+   "real_title": "How Much Longer Can We \"Hide\" The Inflation?",
+   "real_thesis": "官方通胀只是被企业库存和战略石油储备暂时压低，缓冲将在约10周内耗尽，届时物价飙升，而美联储加息、放任通胀都代价巨大、无解。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Inflation Is Back... And This Time There's No Cushion",
+     "thesis": "库存、关税吸收和战略石油储备这些缓冲已耗尽，这轮通胀会比2022年更难压下，美联储几乎无牌可打",
+     "candidates": [
+      "Inflation Is Back... And This Time There's No Cushion",
+      "America Is Running Out of Ways To Stop Inflation",
+      "The Fed's Impossible Choice"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "给“Hide”加引号的反讽有频道特色；A用了选题原词cushion",
+     "thesis_score": 2,
+     "thesis_reason": "缓冲论与美联储无解一致，但耗尽时点与比较不同",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Inflation Is Back... And The Cushions Are Gone",
+     "thesis": "4.2%只是开始：库存、企业消化关税和石油储备这些缓冲已经耗尽，加息只会伤到普通人，压不住富人的消费。",
+     "candidates": [
+      "Inflation Is Back... And The Cushions Are Gone",
+      "America Just Ran Out Of Inflation Shields",
+      "The Fed Can't Fix This Inflation (probably)"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "引号强调词是频道常用手法",
+     "thesis_score": 3,
+     "thesis_reason": "都说缓冲在耗尽、通胀将上升、加息无解",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Inflation Is Back... And America Is Out Of Ammo",
+     "thesis": "这轮通胀不是单一油价冲击，而是囤货、关税吸收和石油储备等缓冲同时耗尽；美联储又被巨债和资本热潮掣肘，普通人将忍受更久高物价。",
+     "candidates": [
+      "Inflation Is Back... And America Is Out Of Ammo",
+      "Why America Is Running Out Of Ways To Stop Inflation",
+      "The Fed Is Trapped"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "A过度套用省略号模板，像仿写",
+     "thesis_score": 2,
+     "thesis_reason": "都讲缓冲耗尽、美联储两难，但仿写缺少短期飙升判断",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Inflation's Safety Nets Are Gone",
+     "thesis": "企业库存、关税缓冲和战略石油储备都已接近耗尽，通胀还将走高，美联储陷入加息与债务压力的两难",
+     "candidates": [
+      "Inflation's Safety Nets Are Gone",
+      "Why Inflation Is About To Get Much Worse",
+      "The Fed Has Run Out Of Options"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "引号强调词加反问符合频道惯用风格",
+     "thesis_score": 3,
+     "thesis_reason": "缓冲耗尽、通胀走高、美联储两难一致",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "e-2GoFws3yE",
+   "upload_date": "20260718",
+   "topic": "伊朗战事与霍尔木兹海峡消息反复下，国际原油期货的价格反应变化",
+   "real_title": "Why Haven't We Had That Oil Crisis... Yet?",
+   "real_thesis": "油价被迫陪着真假难辨的战争消息来回震荡，是因实货参与者无从退出、投机资金撤离；但市场正逐渐无视消息，油价因需求萎缩和供应增加而回落。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "asks",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Why Oil Stopped Caring About War",
+     "thesis": "中国电动化与欧佩克增产造成的长期过剩，已让油价对战争消息麻木，真正风险转向投机者撤离后的市场脆弱",
+     "candidates": [
+      "Why Oil Stopped Caring About War",
+      "The Oil Market Has Stopped Believing The Headlines",
+      "Someone Is Getting Very Rich Trading Iran Headlines"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "概括简洁、视角新；B的“...Yet?”像在模仿另一期标题",
+     "thesis_score": 2,
+     "thesis_reason": "都说市场对战争消息麻木，因果重点不同",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Why Oil Stopped Caring About War",
+     "thesis": "油价对战争消息越来越麻木并非失灵：中国电动化和供应过剩压低了长期需求，投机资金撤离反而让短期波动更易被操纵。",
+     "candidates": [
+      "Why Oil Stopped Caring About War",
+      "The Oil Market Is Ignoring Iran (For Good Reason)",
+      "Oil Traders Stopped Believing The Headlines"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "“...Yet?”口语悬念为频道风格，B太工整",
+     "thesis_score": 2,
+     "thesis_reason": "都提麻木与需求供应，但投机撤离的作用解读不同",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Why Oil Stopped Caring About War",
+     "thesis": "油价对战争消息越来越麻木，不是和平预期，而是投机者撤离、疑似抢跑交易、中国电动化压需求与欧佩克增产叠加；地缘冲击正失去定价权。",
+     "candidates": [
+      "Why Oil Stopped Caring About War",
+      "The Oil Market Is Broken",
+      "If There's A War In The Gulf... Why Isn't Oil Soaring?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "“That Oil Crisis”措辞随意，像真人写的",
+     "thesis_score": 3,
+     "thesis_reason": "都认为市场对战争消息麻木，供需与投机撤离主导",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Why Oil Stopped Caring About War",
+     "thesis": "中国电动化和欧佩克增产造成的结构性过剩，已让油价对伊朗战事消息脱敏，地缘冲击难以再推高长期油价",
+     "candidates": [
+      "Why Oil Stopped Caring About War",
+      "The Oil Market Has Gone Numb",
+      "Why Iran Can't Move Oil Prices Anymore"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "A贴合价格反应变化的选题，B像套模板",
+     "thesis_score": 2,
+     "thesis_reason": "脱敏与回落一致，真实重点在实货与投机机制",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "UgDEyQ1h-EA",
+   "upload_date": "20260514",
+   "topic": "美国AI公司游说支出、对华竞争论述与中美AI监管的对比",
+   "real_title": "bUt wE cAn\"T lEt cHinA WiN tHe AI aRmS rAcE!!",
+   "real_thesis": "“不能让中国赢”只是AI巨头游说的幌子：他们一边卖先进芯片给中国、反对与国安无关的监管，一边无视中国其实监管更严，真实目的是松绑与获利。",
+   "real_thesis_type": "expose",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "\"We Can't Let China Win\": The $100 Million Excuse To Avoid Regulation",
+     "thesis": "美国AI公司的“对华竞争”论调主要是逃避监管、争取补贴的游说工具，实际上中国监管更严、英伟达还想卖芯片给中国",
+     "candidates": [
+      "\"We Can't Let China Win\" — The $100 Million AI Lobbying Scam",
+      "Big Tech's Favorite Excuse: China",
+      "China Regulates AI. America Lobbies For It."
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "大小写交替的嘲讽太大胆，AI一般不会这样仿写",
+     "thesis_score": 3,
+     "thesis_reason": "对华竞争是游说幌子、中国监管更严、卖芯片一致",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.167
+    },
+    "guide_v1": {
+     "title": "AI Companies Aren't Scared Of China (They're Scared Of Rules)",
+     "thesis": "AI巨头喊“不能输给中国”只是游说幌子：英伟达照样对华卖芯片，真正目的是阻挡问责监管、换取审批快车道和补贴。",
+     "candidates": [
+      "AI Companies Aren't Scared Of China (They're Scared Of Rules)",
+      "The \"Beat China\" Myth",
+      "Who Is The AI Arms Race Really For?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 5,
+     "judge_reason": "嘲讽式大小写混排，AI极少这样写",
+     "thesis_score": 3,
+     "thesis_reason": "都说对华叙事是幌子，边卖芯片边求松绑获利",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "The \"AI Race\" With China Is A Sales Pitch",
+     "thesis": "“不能输给中国”主要是AI公司换取放松监管和补贴的游说话术：英伟达照样向中国卖芯片，中国监管反而更严，买单的是美国用户和纳税人。",
+     "candidates": [
+      "The \"AI Race\" With China Is A Sales Pitch",
+      "AI Companies Are Genuinely Scarier Than China",
+      "Who Is Actually Winning The AI Race?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "海绵宝宝嘲讽体大胆，AI很少这么写",
+     "thesis_score": 3,
+     "thesis_reason": "都认为中国威胁是换取松绑的游说幌子",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.059
+    },
+    "zero": {
+     "title": "The China Lie AI Companies Are Selling You",
+     "thesis": "美国AI公司打着「对华竞争」的旗号，实际是为了规避监管、拿到补贴，而它们卖芯片给中国反而在帮中国AI变强",
+     "candidates": [
+      "The China Lie AI Companies Are Selling You",
+      "How Big Tech Uses China To Dodge Regulation",
+      "Why AI Lobbyists Want You Scared Of China"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "大小写交替的嘲讽梗AI很少主动写",
+     "thesis_score": 3,
+     "thesis_reason": "都说对华竞争是幌子，实为松绑获利且卖芯片",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "qWONlYziwmc",
+   "upload_date": "20260330",
+   "topic": "美国国会议员及政府官员的内幕交易、披露数据及其对市场与经济的影响",
+   "real_title": "So... We Aren't Even Trying To Hide it Anymore?",
+   "real_thesis": "政界内幕交易已公然化，少数资深议员和官员靠信息优势获利，真正代价是扭曲政策、推高美债风险溢价，最终由民众买单。",
+   "real_thesis_type": "expose",
+   "real_title_thesis": "teases",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "Insider Trading Is Now America's Most Profitable Government Job",
+     "thesis": "美国政坛的内幕交易已从个别议员炒股升级为系统性操纵公告时机牟利，仅禁止议员炒股远远不够。",
+     "candidates": [
+      "Insider Trading Is Now America's Most Profitable Government Job",
+      "Why Every Big Announcement Happens On A Friday Night",
+      "Congress Beats The Market... But Only After They Get Promoted"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "省略号加反讽问句，是频道典型口语风格",
+     "thesis_score": 2,
+     "thesis_reason": "都说内幕交易系统化，但重点分别是政策代价和禁令不够",
+     "attr_correct": true,
+     "copy_sim": 0.077,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Congress Isn't Even The Worst Insider Traders",
+     "thesis": "国会炒股规模小且须披露，真正的内幕交易在不受STOCK法案约束的总统与高官层面，靠掐点发布消息变现。",
+     "candidates": [
+      "Congress Isn't Even The Worst Insider Traders",
+      "The $60 Million Announcement",
+      "Insider Trading Is Legal (If You Run The Country)"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "省略号加反问的语气是频道惯用风格",
+     "thesis_score": 1,
+     "thesis_reason": "真实指资深议员获利，仿写说国会规模小、重点在高官",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Congress Is No Longer The Worst Insider Trader",
+     "thesis": "国会炒股只是小问题；真正的内幕交易已转向行政层，靠公告择时、期货和预测市场变现，STOCK法案管不到，市场越来越被操纵。",
+     "candidates": [
+      "Congress Is No Longer The Worst Insider Trader",
+      "How Washington Turned Policy Into A Trading Strategy",
+      "The Government Is Trading Against You"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "省略号加反问的讽刺口吻是频道典型风格",
+     "thesis_score": 1,
+     "thesis_reason": "真实批议员官员、代价在美债；仿写称国会是小问题",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Congress Is No Longer the Worst Insider Trader in Washington",
+     "thesis": "最大的内幕交易威胁已从国会转向白宫：重大公告的时机本身就被用来让知情者变现，而且《STOCK法案》管不到这里。",
+     "candidates": [
+      "Insider Trading Is Now Government Policy",
+      "The $60 Million Trade Placed 15 Minutes Before the Announcement",
+      "Congress Is No Longer the Worst Insider Trader in Washington"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "省略号加反问的讽刺口吻，是频道惯用风格",
+     "thesis_score": 1,
+     "thesis_reason": "同谈内幕交易，主体和代价论断不同",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "Ts26T7AEHS8",
+   "upload_date": "20260626",
+   "topic": "美国与伊朗谅解备忘录中3000亿美元重建基金的条款、资金来源与投资环境",
+   "real_title": "Why We (Probably) Shouldn't Give Iran $300 Billion Dollars",
+   "real_thesis": "所谓3000亿美元援伊并非政府拨款，而是靠私人资本投资的豁免制度；因制裁反弹、征收风险和无监管，几乎无人会投，最多是海湾国家的保护费。",
+   "real_thesis_type": "judge",
+   "real_title_thesis": "states",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "The $300 Billion Plan To Rebuild Iran (That Nobody Agreed To Pay For)",
+     "thesis": "3000亿美元伊朗重建基金无约束力、无拨款、无监督，对西方投资者是陷阱，真正获益的只会是中国式易货结构。",
+     "candidates": [
+      "The $300 Billion Plan To Rebuild Iran (That Nobody Agreed To Pay For)",
+      "Who Is Actually Paying To Rebuild Iran?",
+      "Rebuilding Iran Is The Riskiest Investment On Earth"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "“(Probably)”加上“Billion Dollars”的口语冗余，更像真人写的",
+     "thesis_score": 2,
+     "thesis_reason": "都说基金是空壳没人投，但受益方判断不同",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.053
+    },
+    "guide_v1": {
+     "title": "Who's Actually Paying $300 Billion To Rebuild Iran?",
+     "thesis": "3000亿伊朗重建基金基本是空头支票：没有国会拨款，制裁随时会恢复，也没有监督，真正敢投的只有拿原油抵偿的中国式SPV。",
+     "candidates": [
+      "Who's Actually Paying $300 Billion To Rebuild Iran?",
+      "The Iran Marshall Plan... Nobody Will Invest In (probably)",
+      "Rebuilding Iran Is A Terrible Investment"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "括号插入和“Billion Dollars”的冗余写法像真人手笔",
+     "thesis_score": 3,
+     "thesis_reason": "都说非拨款、制裁监管风险致无人投，仅例外方不同",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.071
+    },
+    "guide_v2": {
+     "title": "The Iran Marshall Plan - Will Anyone Actually Pay?",
+     "thesis": "3000亿重建基金多是纸面承诺：无国会拨款、协议无约束力、制裁随时回弹、伊朗有国有化前科，只有离岸油换建设玩家敢进场。",
+     "candidates": [
+      "The Iran Marshall Plan - Will Anyone Actually Pay?",
+      "Who Is Actually Paying To Rebuild Iran?",
+      "The $300 Billion Iran Fund Doesn't Exist (yet)"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "括号插入语和重复的“美元”写法更像真人",
+     "thesis_score": 3,
+     "thesis_reason": "都认为是无拨款的纸面承诺，风险高、少有人投",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "The $300 Billion Iran Deal Nobody Will Fund",
+     "thesis": "3000亿美元伊朗重建基金基本不会落地，敢投钱的企业很可能重蹈伊核协议后道达尔、空客的覆辙，最后承担损失。",
+     "candidates": [
+      "Who Actually Pays for the $300 Billion Iran Rebuild?",
+      "The $300 Billion Iran Deal Nobody Will Fund",
+      "Rebuilding Iran Is the Worst Investment on Earth"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "括号里的(Probably)和Why We的口语化表达很有频道特色",
+     "thesis_score": 2,
+     "thesis_reason": "都判断难落地，仿写缺私人资本豁免机制要点",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.071
+    }
+   }
+  },
+  {
+   "id": "w-DVTHH1ux8",
+   "upload_date": "20260416",
+   "topic": "英伟达芯片出货、数据中心建设、电力与折旧会计的相关数据",
+   "real_title": "50% Of AI Data Centers Have Quietly Been Cancelled Or \"Delayed\"",
+   "real_thesis": "英伟达的芯片产量已超过现实中能接收它们的数据中心容量，靠电力瓶颈下的囤货和宽松折旧撑着，需求一旦修正就会崩。",
+   "real_thesis_type": "expose",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Nvidia Is Selling Chips For Data Centers That Don't Exist",
+     "thesis": "英伟达的创纪录业绩建立在建不起来、通不上电的数据中心之上，AI资本开支泡沫正被电力和折旧会计掩盖。",
+     "candidates": [
+      "The AI Boom Is Running Out Of Electricity",
+      "Nvidia Is Selling Chips For Data Centers That Don't Exist",
+      "Big Tech's Very Creative Accounting For AI Chips"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "B的“Quietly”加数据堆砌，像AI套路",
+     "thesis_score": 3,
+     "thesis_reason": "都说芯片超过数据中心承载，靠电力和折旧掩盖",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.056
+    },
+    "guide_v1": {
+     "title": "Nvidia Is Selling Chips Nobody Can Plug In",
+     "thesis": "英伟达GPU出货远超能通电的数据中心容量，库存激增、折旧年限被拉长，AI资本开支的繁荣靠会计和私募信贷撑着。",
+     "candidates": [
+      "Nvidia Is Selling Chips Nobody Can Plug In",
+      "If The Data Centers Aren't Built... Who's Buying All The GPUs?",
+      "The AI Bubble Has A Power Problem"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "具体数据加引号“Delayed”，是频道典型写法",
+     "thesis_score": 3,
+     "thesis_reason": "芯片超出可通电产能、靠囤货折旧撑，论断一致",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Where Are All Of Nvidia's Chips Actually Going?",
+     "thesis": "AI基建不是缺算力，而是电力瓶颈、库存堆积、折旧虚高和私募信贷收紧叠加；纸面需求远超能落地容量，利润被高估。",
+     "candidates": [
+      "Where Are All Of Nvidia's Chips Actually Going?",
+      "The AI Boom Is Running Out Of Power",
+      "Nvidia Is Selling Chips Nobody Can Plug In"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "具体比例加引号“Delayed”，讽刺意味浓",
+     "thesis_score": 3,
+     "thesis_reason": "都说产能超过可落地容量，靠囤货和折旧撑着",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Nvidia Is Selling Chips Faster Than the World Can Plug Them In",
+     "thesis": "英伟达的创纪录业绩建立在通不上电的数据中心之上，库存激增、乐观的折旧会计和收紧的信贷正在掩盖AI需求泡沫。",
+     "candidates": [
+      "Nvidia Is Selling Chips Faster Than the World Can Plug Them In",
+      "The AI Boom Is Running Out of Electricity",
+      "Nvidia's Record Year Has a Hidden Problem"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "具体百分比加引号\"Delayed\"，符合频道标题习惯",
+     "thesis_score": 3,
+     "thesis_reason": "均指产能超电力承载、靠囤货和折旧撑泡沫",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "W6xkZy9nkaI",
+   "upload_date": "20260924",
+   "topic": "加拿大受邀成为欧盟“联系成员”的内容、法律问题及各方反应",
+   "real_title": "Canada Is Joining The EU... But WTF Does That Even Mean?!",
+   "real_thesis": "加拿大的欧盟“联系成员”名义上近乎空壳，但通过长期承诺、防务采购绑定和规则趋同，实质削弱美国的谈判力、军工与美元地位。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "asks",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "Canada Is Joining The EU... Sort Of",
+     "thesis": "加拿大的欧盟“联系成员”身份在法律上几乎是空壳，但它真正威胁的是美国在军购、贸易和美元上的议价权。",
+     "candidates": [
+      "Canada Is Joining The EU... Sort Of",
+      "Why The EU Suddenly Wants Canada (And Australia)",
+      "The EU Membership That Means Nothing... And Scares America Anyway"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "WTF加“?!”，情绪化的口语是频道特色",
+     "thesis_score": 3,
+     "thesis_reason": "都说名义空壳但实质削弱美国议价权",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.333
+    },
+    "guide_v1": {
+     "title": "Canada's EU Membership Is Meaningless (That's The Point)",
+     "thesis": "加拿大的“联系成员”身份在法律上几乎是空壳，但它真正的作用是把军购、能源和规则标准从美国身边移走，削弱美国的议价权。",
+     "candidates": [
+      "Canada Is Joining The EU... Sort Of",
+      "Canada's EU Membership Is Meaningless (That's The Point)",
+      "Why Canada Joining The EU Should Worry America"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "WTF和“?!”这种口语化写法符合频道调性",
+     "thesis_score": 3,
+     "thesis_reason": "名义空壳但实质转移军购规则、削弱美国议价权",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Canada Is Joining The EU... Sort Of",
+     "thesis": "加拿大的“联系成员”在法律上几乎是空壳，但真正意义在于一个绕开美国的能源与军购集团成形，削弱美国议价权和美元地位。",
+     "candidates": [
+      "Canada Is Joining The EU... Sort Of",
+      "Why Canada Is Suddenly Turning To Europe",
+      "The EU Is Expanding... Into North America?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "WTF加?!的情绪化口语，像频道原创",
+     "thesis_score": 3,
+     "thesis_reason": "都说名义上是空壳，实质削弱美国议价权和美元地位",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.333
+    },
+    "zero": {
+     "title": "Canada Is Joining the EU (Sort Of)",
+     "thesis": "加拿大的“联系成员”身份在法律上近乎空壳，但它实际上是让美国在贸易、军购和美元结算上失去对盟友议价能力的地缘工具。",
+     "candidates": [
+      "The EU's Newest Member Isn't in Europe",
+      "Canada Is Joining the EU (Sort Of)",
+      "Why Canada Joining the EU Has Washington Worried"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "省略号加WTF的口语化吐槽，是典型频道风格",
+     "thesis_score": 3,
+     "thesis_reason": "名义空壳但实质削弱美国议价，论断一致",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.333
+    }
+   }
+  },
+  {
+   "id": "W8-lfqYbJJE",
+   "upload_date": "20260128",
+   "topic": "2025年美国大型企业破产数量创纪录及破产程序的运用方式",
+   "real_title": "Are Companies Entering The \"Find Out\" Stage Of The Business Cycle?",
+   "real_thesis": "破产潮不只是宏观衰退信号：破产已成私募股权的并购工具，叠加廉价资金时代透支与僵尸企业出清，最终伤害就业与竞争。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Why Bankruptcy Is Now A Business Strategy",
+     "thesis": "2025年创纪录的大企业破产并非经济崩溃信号，而是私募股权把第11章当作甩债和低价收购工具的结果。",
+     "candidates": [
+      "Why Bankruptcy Is Now A Business Strategy",
+      "Record Bankruptcies... And Nobody Is Going Out Of Business",
+      "Why Companies Keep Going Bankrupt Twice"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "借用“Find Out”网络梗，又带引号，风格吻合",
+     "thesis_score": 2,
+     "thesis_reason": "都说私募把破产当工具，但真实还强调出清和伤害就业",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Bankruptcy Is A Business Strategy Now",
+     "thesis": "2025年破产潮不只是因为经济变差，更因为私募加杠杆后把第11章当工具来甩债、快速出售、绕开反垄断，代价落在员工和债权人身上。",
+     "candidates": [
+      "Bankruptcy Is A Business Strategy Now",
+      "Why Companies Keep Going Bankrupt Twice",
+      "The Bankruptcy Boom Isn't A Recession (It's Worse)"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "“Find Out”梗加引号，风格随性，像真人所写",
+     "thesis_score": 2,
+     "thesis_reason": "都指私募把破产当工具，真实还强调僵尸出清",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Why Big Companies Are Going Bankrupt At Record Rates",
+     "thesis": "破产潮不只是经营失败，而是低息债务化、私募加杠杆、363快速出售叠加，破产成了转手工具；员工和债权人买单，二次破产会更多。",
+     "candidates": [
+      "Why Big Companies Are Going Bankrupt At Record Rates",
+      "Bankruptcy Is The New Business Model",
+      "Why Going Bankrupt Is Suddenly Profitable"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "套用“Find Out”梗的俏皮写法，AI少见",
+     "thesis_score": 3,
+     "thesis_reason": "都说破产沦为私募转手工具，伤害员工",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Bankruptcy Is Now a Business Strategy",
+     "thesis": "2025年破产数量创纪录，主要不是经济衰退的信号，而是私募股权和大企业把第11章当成甩债、低价收购的常规商业手段。",
+     "candidates": [
+      "Bankruptcy Is Now a Business Strategy",
+      "Why Record Bankruptcies Aren't a Recession Signal",
+      "How Private Equity Turned Bankruptcy Into a Profit Machine"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "给\"Find Out\"加引号玩梗，配合问句，像真实标题",
+     "thesis_score": 2,
+     "thesis_reason": "都指破产成私募工具，真实还含僵尸出清与伤害",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "6BOxK_JrghY",
+   "upload_date": "20260823",
+   "topic": "企业如何收集、交易并变现个人数据，及其在各行业与AI训练中的用途",
+   "real_title": "\"Dude I'm Broke\" Why Is My Data Worth Harvesting?",
+   "real_thesis": "个人数据的价值不止来自广告，更来自压低你的议价力、转售给保险雇主等，并被用作训练AI、取代人的原料，所以数据比你本人更值钱。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "asks",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "Your Data Is Worth Billions... Just Not To You",
+     "thesis": "个人数据被企业近乎零成本收集转售，用来在贷款、求职、保险和定价中给你定价，而你得不到任何回报。",
+     "candidates": [
+      "Your Life Is For Sale (And Honda Only Gets 26 Cents)",
+      "The Secret Industry That Decides Your Credit, Your Job, and Your Insurance",
+      "Your Data Is Worth Billions... Just Not To You"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "引用口语“Dude I'm Broke”，怪趣味像真人",
+     "thesis_score": 2,
+     "thesis_reason": "都说数据被用来给你定价，真实还强调AI替代和比本人值钱",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Your Data Is Worth More Than You Are",
+     "thesis": "个人数据早已不只是广告燃料：它决定你的薪水、保费、房租和价格，你却拿不到一分钱，AI还在吞掉最后的免费数据。",
+     "candidates": [
+      "You Are The Product... And You're Being Sold Cheap",
+      "Your Data Is Worth More Than You Are",
+      "The Data Economy Knows Exactly What You'll Pay"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "引用口语句式很独特，AI 不太会这样写",
+     "thesis_score": 2,
+     "thesis_reason": "都说数据超广告价值，真实核心是数据比人值钱",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "How Companies Secretly Sell Your Entire Life",
+     "thesis": "个人数据不只是拿来推广告：存储成本趋零后，信用、就业、保险、定价和AI都靠它给人打分，最后用来收你更多的钱，而且你没办法退出。",
+     "candidates": [
+      "Your Data Is Worth More Than You Are",
+      "How Companies Secretly Sell Your Entire Life",
+      "The Data Economy Is Genuinely Far Scarier Than Big Brother"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "引号口语加自嘲，新奇不套路",
+     "thesis_score": 3,
+     "thesis_reason": "都说数据被用来压价、打分和训练AI，最终损害个人",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "The Hidden Economy Selling Your Life",
+     "thesis": "个人数据早已从信用档案变成定价、雇佣和AI的核心资产，被收集者承担代价，企业和数据商拿走全部收益。",
+     "candidates": [
+      "You Are the Product: How Your Data Became a $30 Billion Industry",
+      "The Hidden Economy Selling Your Life",
+      "How Companies Turned Your Data Into Their Money"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "引号里的口语化台词，B是AI常见的泛化说法",
+     "thesis_score": 2,
+     "thesis_reason": "方向一致，仿写侧重收益分配不均",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "fQOQuge0dfw",
+   "upload_date": "20260528",
+   "topic": "美国政治资金的各类渠道、规模、规则漏洞及相关改革尝试",
+   "real_title": "America's \"Unsolvable\" Problem",
+   "real_thesis": "美国政治金钱的真实规模远超公开披露的游说数字，且多条合法渠道与旋转门激励嵌入体制，仅靠竞选财务改革无法根治。",
+   "real_thesis_type": "expose",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Buying Congress Is The Best Investment In America",
+     "thesis": "美国政治捐款限制形同虚设，游说是回报率最高的投资，普通选民的偏好几乎左右不了政策。",
+     "candidates": [
+      "Buying Congress Is The Best Investment In America",
+      "How $10 Billion (Legally) Buys American Politics",
+      "Why Campaign Finance Limits Are A Joke"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "短标题加引号反讽，类似“The 'Skills Gap' Myth”",
+     "thesis_score": 2,
+     "thesis_reason": "都说金钱政治管不住，重点分别是隐藏规模和选民无力",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "How To (Legally) Buy A Politician",
+     "thesis": "美国政治腐败多数是合法的：超级PAC、暗钱和旋转门让富人与企业每1美元游说换回数百倍回报，普通选民的偏好几乎不影响政策。",
+     "candidates": [
+      "How To (Legally) Buy A Politician",
+      "Your Vote Is Worth Nothing... Their Money Is Worth 220x",
+      "The $10 Billion Business Of Buying Washington"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "用引号讽刺某个词是频道的常见手法",
+     "thesis_score": 2,
+     "thesis_reason": "都讲合法渠道金钱政治，真实重在规模和改革无效",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "How Billionaires Legally Buy American Politics",
+     "thesis": "美国政治腐败多数并不违法。超级PAC、暗钱、游说和旋转门把买政策变成高回报投资，普通人的偏好几乎影响不了政策，改革也一再在国会被卡住。",
+     "candidates": [
+      "How Billionaires Legally Buy American Politics",
+      "Your Vote Doesn't Matter (Their Money Does)",
+      "The $10 Billion Industry Of Buying Congress"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "简短加引号反讽，符合频道惯用写法",
+     "thesis_score": 2,
+     "thesis_reason": "都说合法渠道难改，但真实重在规模被低估",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "How Billionaires Legally Buy Washington",
+     "thesis": "美国政治资金的漏洞是刻意保留的，游说回报率高达220倍，政策实际由出钱者而非选民决定。",
+     "candidates": [
+      "How Billionaires Legally Buy Washington",
+      "The $10 Billion Industry That Writes America's Laws",
+      "Why Your Vote Matters Less Than Their Money"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "引号反讽\"Unsolvable\"，A更像直白概括",
+     "thesis_score": 2,
+     "thesis_reason": "均指金钱操控政治，重点在规模与刻意漏洞不同",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "swtfbef3HhM",
+   "upload_date": "20260723",
+   "topic": "大型科技公司近年裁员的规模、成本、股权薪酬背景及AI裁员后的回聘情况",
+   "real_title": "Big Tech Cut 950,000 Jobs... And Then Hired Them All Back",
+   "real_thesis": "大科技公司裁员既没省钱也没提效，员工总数已回到原点；真正动因是高层打压员工、控制RSU股权稀释，AI只是说辞。",
+   "real_thesis_type": "expose",
+   "real_title_thesis": "teases",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "Big Tech's Layoffs Were Never About Saving Money",
+     "thesis": "科技巨头裁员并非为降本或被AI取代，而是为作废未归属股权、取悦投资者，最终常要高价回聘。",
+     "candidates": [
+      "Big Tech's Layoffs Were Never About Saving Money",
+      "Why Big Tech Fires Thousands... Then Hires Them Back",
+      "The \"AI Layoffs\" That AI Didn't Actually Cause"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "具体数字加夸张反转；B像AI式的论断句",
+     "thesis_score": 3,
+     "thesis_reason": "都说裁员不为降本或AI，而是为了股权控制",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Big Tech Layoffs Are NOT About Saving Money",
+     "thesis": "大科技裁员几乎不省钱、员工总数也没降：它是在股票归属前砍人、用“AI”取悦股东的表演，代价是人才流失和高价回聘。",
+     "candidates": [
+      "Big Tech Layoffs Are NOT About Saving Money",
+      "If AI Replaced Everyone... Why Are They Hiring Them Back?",
+      "The Great Tech Layoff Scam"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "大写NOT是反常识观点句式；A的数据过于夸张",
+     "thesis_score": 2,
+     "thesis_reason": "都说不省钱、AI是说辞，动因归结不同",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.059
+    },
+    "guide_v2": {
+     "title": "Why Big Tech Keeps Firing People It Needs",
+     "thesis": "大厂裁员不是因为AI提高了效率。裁员能让未归属的RSU作废、少花回购的钱、换个说法讨好投资人，但被裁的岗位多数又以更高成本招回来，真正吃亏的是员工和入门级新人。",
+     "candidates": [
+      "Big Tech's Layoffs Are A Lie",
+      "Why Big Tech Keeps Firing People It Needs",
+      "The AI Layoff Scam - Who Actually Saves Money?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "具体数字加省略号反转，是典型钩子",
+     "thesis_score": 3,
+     "thesis_reason": "都说AI只是说辞，RSU是真动因，岗位又招回来了",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.059
+    },
+    "zero": {
+     "title": "Big Tech's Layoffs Aren't About AI",
+     "thesis": "科技巨头裁员主要是为了作废未归属股票、节省回购资金，AI只是好听的借口，最终往往高价回聘。",
+     "candidates": [
+      "The Layoff Lie: Why Big Tech Fires People It Needs",
+      "Big Tech's Layoffs Aren't About AI",
+      "Why Firing Workers Is Secretly Profitable for Big Tech"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "省略号转折加夸张数字，接近频道风格",
+     "thesis_score": 2,
+     "thesis_reason": "都称AI是借口，动因侧重股权但细节不同",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "gcvpN6Zh-WE",
+   "upload_date": "20260929",
+   "topic": "职业体育球队估值上涨的原因及其资金来源与税务机制",
+   "real_title": "How Sports Predicted \"The Everything Bubble\"",
+   "real_thesis": "体育球队运营上是烂生意，但因富豪激增与稀缺供给、税务折旧优惠、主权资金和博彩流媒体涌入而成了资产泡沫式的好投资。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "asks",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Why Billionaires Keep Paying Record Prices For Teams That Don't Make Money",
+     "thesis": "球队估值暴涨不是因为经营赚钱，而是富豪借它避税，加上主权基金、博彩和转播资金涌入推高了价格。",
+     "candidates": [
+      "Why Billionaires Keep Paying Record Prices For Teams That Don't Make Money",
+      "The $12 Billion Tax Shelter That Plays Basketball",
+      "Sports Teams Have Become The Ultimate Billionaire Loophole"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "跳跃式联想加引号；A冗长，像解释性AI标题",
+     "thesis_score": 3,
+     "thesis_reason": "经营不赚钱，靠避税和外部资金推高估值",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Why Billionaires Lose Money On Sports Teams (On Purpose)",
+     "thesis": "球队估值暴涨不是因为能赚钱，而是亿万富翁扎堆、摊销避税、主权基金和博彩资金涌入，账面亏损恰恰是富豪的避税工具。",
+     "candidates": [
+      "Why Billionaires Lose Money On Sports Teams (On Purpose)",
+      "If Sports Teams Barely Make Money... Why Are They Worth $12 Billion?",
+      "The Sports Team Tax Shelter"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "联想跳跃大，带引号概念，不像对选题的直译",
+     "thesis_score": 3,
+     "thesis_reason": "运营不赚钱但因富豪、避税、主权与博彩资金升值",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Why Sports Teams Are Suddenly Worth So Much",
+     "thesis": "球队估值暴涨不是因为它赚钱。亿万富翁越来越多而球队数量有限，再加上税务摊销、转播合同和博彩资金，球队成了富人的避税奢侈品，最后由球迷和青少年家庭买单。",
+     "candidates": [
+      "Why Sports Teams Are Suddenly Worth So Much",
+      "Sports Teams Are The Billionaire Tax Shelter",
+      "WTF Happened To Sports Team Prices?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "引号概念加意外关联，B过于平铺直叙",
+     "thesis_score": 3,
+     "thesis_reason": "都说不赚钱，但靠稀缺、税务优惠和外部资金成了好投资",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Why Billionaires Pay Billions for Teams That Lose Money",
+     "thesis": "球队估值暴涨并非因为能赚钱，而是富豪太多、球队稀缺，加上无形资产摊销让球队成为合法避税工具。",
+     "candidates": [
+      "Why Billionaires Pay Billions for Teams That Lose Money",
+      "The Real Reason Sports Teams Are Worth $10 Billion",
+      "Sports Teams Are the Ultimate Billionaire Tax Shelter"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "引号加宏观关联视角，B是常见套路句式",
+     "thesis_score": 3,
+     "thesis_reason": "均为不赚钱但稀缺富豪避税推高估值",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "gWLuTxn2fMI",
+   "upload_date": "20260315",
+   "topic": "贝莱德限制旗下信贷基金赎回，及私募信贷市场的规模、增长原因与风险数据",
+   "real_title": "Is Private Credit About To Crash The Global Economy?",
+   "real_thesis": "私人信贷在银行退让与私募股权热潮中过度膨胀，优质借款人耗尽、利率上升、违约攀升，已具备引发新一轮金融危机的系统性风险。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "asks",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "BlackRock Just Locked The Exits... Private Credit Is Cracking",
+     "thesis": "规模已超当年次贷的私募信贷正通过银行敞口外溢风险，贝莱德限制赎回是这个市场开始破裂的信号。",
+     "candidates": [
+      "BlackRock Just Locked The Exits... Private Credit Is Cracking",
+      "The $3 Trillion Bubble That's Bigger Than Subprime",
+      "Private Credit Is Wall Street's Next Big Mistake"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "A的“Locked The Exits…Cracking”戏剧化过头，像AI写的",
+     "thesis_score": 2,
+     "thesis_reason": "都警示私募信贷危机，成因和信号重点不同",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.067
+    },
+    "guide_v1": {
+     "title": "BlackRock Just Locked The Exit... Who's Holding The Bag?",
+     "thesis": "贝莱德限制赎回暴露了私募信贷的本质：3万亿高息贷款互相嵌套，违约率创新高，而银行敞口暴增，风险最终会回流到公众身上。",
+     "candidates": [
+      "Private Credit Is The New Subprime (probably)",
+      "The $3 Trillion Loan Nobody Can Get Out Of",
+      "BlackRock Just Locked The Exit... Who's Holding The Bag?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "B的“锁门/接盘”比喻过于工整，像 AI 写的",
+     "thesis_score": 2,
+     "thesis_reason": "都警示系统性风险，成因侧重点不同",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "The Private Credit Bubble - Is 2008 Happening Again?",
+     "thesis": "私募信贷不是银行之外的安全替代品。它和私募股权层层加杠杆、互相接盘，利率上升后违约创新高，银行的风险敞口也越来越大，可能需要纳税人救助，不过银行体系比2008年更扛得住。",
+     "candidates": [
+      "Private Credit Is Starting To Crack",
+      "The Private Credit Bubble - Is 2008 Happening Again?",
+      "Wall Street's $3 Trillion Shadow Bank Is Breaking"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "B用破折号再比作2008，像AI套路",
+     "thesis_score": 2,
+     "thesis_reason": "方向一致，仿写说银行更扛得住，结论比真实弱",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.071
+    },
+    "zero": {
+     "title": "BlackRock Just Locked the Exits: The Private Credit Bubble Is Cracking",
+     "thesis": "贝莱德限制赎回说明规模已超次贷的私募信贷开始破裂，且银行敞口激增，风险可能蔓延到整个金融体系。",
+     "candidates": [
+      "BlackRock Just Locked the Exits: The Private Credit Bubble Is Cracking",
+      "Private Credit Is Bigger Than Subprime Was in 2008",
+      "The $3 Trillion Debt Bomb Nobody Is Watching"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "B用冒号叠加两个短句，像AI仿写",
+     "thesis_score": 3,
+     "thesis_reason": "都认为私募信贷破裂具系统性风险",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.059
+    }
+   }
+  }
+ ]
+}

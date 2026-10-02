@@ -1,0 +1,1691 @@
+{
+ "key": "us_GrahamStephan",
+ "systems": [
+  "fewshot",
+  "guide_v1",
+  "guide_v2",
+  "zero"
+ ],
+ "items": [
+  {
+   "id": "ZAPhN6o3e3o",
+   "upload_date": "20250428",
+   "topic": "视频作者按资产里程碑（1万至1亿美元）描述各阶段的财务状况与生活变化",
+   "real_title": "Why EVERYTHING Changes After You Save $10K",
+   "real_thesis": "财富每上一个台阶带来的自由感不同，但最大的质变在早期（1万、10万），富到后期边际幸福递减，早期里程碑最值得珍惜。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "How Your Life Changes At Every Level Of Wealth",
+     "thesis": "财富最关键的门槛是第一个10万美元，复利从此接管；而直到1000万美元以上，生活才会真正改变。",
+     "candidates": [
+      "What $10,000 vs $100 Million Actually Feels Like",
+      "How Your Life Changes At Every Level Of Wealth",
+      "Why $5 Million Isn't Rich Anymore"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "概括全部财富层级，与选题吻合且自然",
+     "thesis_score": 1,
+     "thesis_reason": "真实强调早期质变，仿写称千万后才真改变，相悖",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "What $10,000 To $100 Million ACTUALLY Feels Like",
+     "thesis": "真正改变生活的是第一个10万美元带来的复利和选择权；过了100万，钱再多换来的幸福感越来越少。",
+     "candidates": [
+      "What $10,000 To $100 Million ACTUALLY Feels Like",
+      "How Your Life Changes At Every Net Worth Level",
+      "The TRUTH About Having $1 Million, $5 Million, and $100 Million"
+     ],
+     "judge_correct": false,
+     "judge_conf": 4,
+     "judge_reason": "B覆盖1万到1亿全区间，A只提1万，与选题不符",
+     "thesis_score": 3,
+     "thesis_reason": "都认为早期里程碑带来质变，后期边际幸福递减",
+     "attr_correct": true,
+     "copy_sim": 0.062,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "What $10,000 To $100 Million ACTUALLY Feels Like",
+     "thesis": "真正改变人生的是第一个10万美元，之后复利接手；100万甚至500万仍不算财务自由，财富过千万后幸福感几乎不再增加。",
+     "candidates": [
+      "What $10,000 To $100 Million ACTUALLY Feels Like",
+      "How Rich You REALLY Are At Every Net Worth Level",
+      "The TRUTH About Having $1 Million, $5 Million, and $100 Million"
+     ],
+     "judge_correct": false,
+     "judge_conf": 4,
+     "judge_reason": "完整对应1万到1亿的里程碑选题",
+     "thesis_score": 2,
+     "thesis_reason": "都讲早期最关键、后期递减，仿写重点偏向自由门槛",
+     "attr_correct": true,
+     "copy_sim": 0.062,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "How Your Life Changes At Every Level Of Wealth",
+     "thesis": "真正改变生活的是第一个10万美元，之后每一级财富带来的自由感越来越少，500万美元在大城市里仍谈不上富有",
+     "candidates": [
+      "What $10,000 to $100 Million Actually Feels Like",
+      "How Your Life Changes At Every Level Of Wealth",
+      "Why $5 Million Isn't As Rich As You Think"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "覆盖1万到1亿各级，B更贴合内容",
+     "thesis_score": 3,
+     "thesis_reason": "都说早期里程碑质变最大，后期边际递减",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "Ot5sH9rkgjQ",
+   "upload_date": "20260608",
+   "topic": "一则Reddit帖子称美股因债务与货币扩张不会再下跌，视频逐条核对其说法与历史案例",
+   "real_title": "Trump Just Secretly Triggered The Next Great Wealth Transfer",
+   "real_thesis": "“股市永远不会跌”方向上有理（高债务下政府倾向用通胀消债，长期利好资产），但机制错误；更可能是金融抑制，股市仍可能大跌，不可重仓赌救市。",
+   "real_thesis_type": "advise",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "The Stock Market Can't Crash Anymore?",
+     "thesis": "美债膨胀不会让股市只涨不跌，更可能出现长期金融抑制，实际回报偏低，期间仍可能下跌30%至60%。",
+     "candidates": [
+      "The Stock Market Can't Crash Anymore?",
+      "Why Stocks \"Will Never Go Down Again\" Is Dangerously Wrong",
+      "The Great Melt-Up Has Begun | Here's What Happens Next"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "近期惯用夸张跑题式标题，B过于贴题",
+     "thesis_score": 3,
+     "thesis_reason": "均为金融抑制、股市仍可能大跌，核心一致",
+     "attr_correct": false,
+     "copy_sim": 0.167,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "The Stock Market Will NEVER Go Down Again",
+     "thesis": "债务和印钞挡不住股市下跌：未来大概率是长期金融抑制，实际回报偏低、仍可能跌30%至60%，应照常分散长期投资。",
+     "candidates": [
+      "The Stock Market Will NEVER Go Down Again",
+      "Why The Stock Market Can't Crash | The TRUTH",
+      "The Great Melt-Up Is Here | What You MUST Know"
+     ],
+     "judge_correct": false,
+     "judge_conf": 4,
+     "judge_reason": "A直接复述Reddit帖论点，B的特朗普财富转移跑题",
+     "thesis_score": 3,
+     "thesis_reason": "都说会是金融抑制、股市仍可能大跌、别押注救市",
+     "attr_correct": true,
+     "copy_sim": 0.25,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Why The Stock Market Will NEVER Go Down Again..",
+     "thesis": "“债务和印钞让股市永不下跌”是错的：更可能是长期金融抑制，名义上涨但实际回报变低，中途仍可能跌30%至60%，应分散并长期定投。",
+     "candidates": [
+      "Why The Stock Market Will NEVER Go Down Again..",
+      "The Great Melt-Up: A Warning For The 2026 Stock Market",
+      "Reddit Says Stocks Can't Crash Anymore | The REAL Truth"
+     ],
+     "judge_correct": false,
+     "judge_conf": 5,
+     "judge_reason": "直接对应Reddit帖子“永不下跌”的说法",
+     "thesis_score": 3,
+     "thesis_reason": "都认为机制错误、更可能金融抑制、仍会大跌",
+     "attr_correct": true,
+     "copy_sim": 0.333,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Reddit Says The Stock Market Can Never Crash Again. They're Wrong",
+     "thesis": "美债和印钞不会让股市只涨不跌：更可能的是长期金融抑制，实际回报偏低，期间照样会跌30%到60%",
+     "candidates": [
+      "Reddit Says The Stock Market Can Never Crash Again. They're Wrong",
+      "The Great Melt-Up: Why Stocks \"Can't Go Down\"",
+      "The Truth About $40 Trillion Of Debt And The Stock Market"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "频道惯用夸张偏题标题，B过于直白像仿写",
+     "thesis_score": 3,
+     "thesis_reason": "都否定只涨不跌，认为是金融抑制且会大跌",
+     "attr_correct": true,
+     "copy_sim": 0.091,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "pP2_joPd23E",
+   "upload_date": "20260325",
+   "topic": "2026年美国房价、抵押贷款利率与购房负担的最新数据及各方预测",
+   "real_title": "WTF Just Happened To The Housing Market?!",
+   "real_thesis": "美国楼市正在走弱，但不会崩盘，而是通过房价横盘、收入追赶完成温和的实际价格回调；轻松赚钱的时代已结束，需精挑细选。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "teases",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "The 2026 Housing Reset Has Officially Begun",
+     "thesis": "2026年房价将基本停滞、实际下跌，工资涨幅超过房价，政府四项举措都救不了购房负担问题。",
+     "candidates": [
+      "The Housing Market Just Hit A Wall",
+      "The 2026 Housing Reset Has Officially Begun",
+      "Mortgage Rates Are Rising Again | What Happens To Home Prices"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "“Reset Has Officially Begun”符合近期风格",
+     "thesis_score": 3,
+     "thesis_reason": "均为房价横盘、收入追赶、实际温和下跌",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "The Housing Market Just Flipped | What You MUST Know",
+     "thesis": "2026年房价不会崩盘，只会横盘、实际价格缓降；收入跑赢房价才是真正的修复，政府四项举措作用都很有限。",
+     "candidates": [
+      "The Housing Market Just Flipped | What You MUST Know",
+      "HOUSING PRICES ARE FALLING *AGAIN* | Major Changes Explained",
+      "Why You Need $106,000 To Buy A House In 2026"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "WTF口语化是频道近期风格，B像套参考标题模板",
+     "thesis_score": 3,
+     "thesis_reason": "都说不崩盘，靠横盘和收入追赶完成实际回调",
+     "attr_correct": true,
+     "copy_sim": 0.222,
+     "copy_nearest": "",
+     "real_overlap": 0.167
+    },
+    "guide_v2": {
+     "title": "The Housing Market Is Getting CRUSHED By Rising Rates",
+     "thesis": "2026年房价全国不会崩，只会持平，但实际价格在下跌；迈阿密、奥斯汀这类卖家过剩的市场适合压价、谈建商补贴，政府四项举措作用都有限。",
+     "candidates": [
+      "The Housing Market Is Getting CRUSHED By Rising Rates",
+      "A Warning For The 2026 Housing Market",
+      "Homebuyers Are Running Out Of Time (Major Changes Explained)"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "WTF式口语化标题是典型风格，A的加息说法存疑",
+     "thesis_score": 3,
+     "thesis_reason": "都判断不崩、名义横盘、实际价格回调",
+     "attr_correct": true,
+     "copy_sim": 0.25,
+     "copy_nearest": "",
+     "real_overlap": 0.167
+    },
+    "zero": {
+     "title": "The Housing Market Just Flipped",
+     "thesis": "2026年房价按实际计算正在下跌，工资涨得比房价快，买家正在重新掌握议价权，而特朗普的救市举措基本无效",
+     "candidates": [
+      "The Housing Market Just Flipped",
+      "Housing Prices Are Officially Falling In These Cities",
+      "The 2026 Housing Market Just Got Worse"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "WTF加感叹问号是该频道常见口吻",
+     "thesis_score": 2,
+     "thesis_reason": "都说实际房价温和下跌，重点偏向买家与救市",
+     "attr_correct": true,
+     "copy_sim": 0.4,
+     "copy_nearest": "",
+     "real_overlap": 0.25
+    }
+   }
+  },
+  {
+   "id": "v_IZ6Z7jFO0",
+   "upload_date": "20251217",
+   "topic": "视频作者以约2.3万美元购入二手2020款特斯拉Model X，并介绍二手特斯拉贬值原因与税务抵扣",
+   "real_title": "I Just Bought The CHEAPEST Tesla Model X In The Country!",
+   "real_thesis": "特斯拉新车贬值极快，不该买新车；买2到5年的二手车，再配合Section 179抵税，才是划算的做法。",
+   "real_thesis_type": "advise",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "I Bought A $100,000 Tesla For $14,490",
+     "thesis": "特斯拉二手车贬值约五到六成，加上第179条款税务抵扣，现在买二手特斯拉是最划算的买车方式之一。",
+     "candidates": [
+      "I Bought A $100,000 Tesla For $14,490",
+      "Why Used Teslas Are Now Absurdly Cheap",
+      "The Tesla Depreciation Disaster (My New Car)"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "具体奇数价格与选题不一致，AI难编造",
+     "thesis_score": 3,
+     "thesis_reason": "均主张买二手特斯拉配合179条款抵税",
+     "attr_correct": true,
+     "copy_sim": 0.091,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "How I Bought A $100,000 Tesla For $14,490",
+     "thesis": "二手特斯拉贬值过度，现在打五折左右入手很划算，但前提是只在真正需要车时买，税务抵扣必须100%用于商业用途才能享受。",
+     "candidates": [
+      "How I Bought A $100,000 Tesla For $14,490",
+      "Why I Bought A Used Tesla Model X For $23,000",
+      "The TRUTH About Used Teslas | 60% Off"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "14490这种抵税后的具体数字不像AI会编出来的",
+     "thesis_score": 2,
+     "thesis_reason": "都主张买二手，但仿写侧重折价和使用前提",
+     "attr_correct": true,
+     "copy_sim": 0.167,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Buying A $100,000 Tesla For $14,490",
+     "thesis": "二手特斯拉因技术迭代、补贴和降价贬值约五成，是目前最划算的买车机会之一；但6,000磅以上车型的税务抵扣只适用于100%商用。",
+     "candidates": [
+      "Buying A $100,000 Tesla For $14,490",
+      "Why I Bought A Used Tesla Model X For $23,000",
+      "The TRUTH About Used Teslas (50% Off)"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "A的14490美元与约2.3万的购车价不符",
+     "thesis_score": 2,
+     "thesis_reason": "都推荐二手车，但抵税一个是建议一个是限制",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "I Bought A $100,000 Tesla For 77% Off",
+     "thesis": "二手特斯拉贬值太快，反而成了最划算的车之一，再加上第179条款抵扣，一辆10万美元的Model X净花费不到1.5万",
+     "candidates": [
+      "I Bought A Tesla Model X For $14,490",
+      "Why Used Teslas Are Now So Cheap",
+      "I Bought A $100,000 Tesla For 77% Off"
+     ],
+     "judge_correct": false,
+     "judge_conf": 4,
+     "judge_reason": "77%折扣与2.3万对10万精确吻合",
+     "thesis_score": 3,
+     "thesis_reason": "都主张买贬值后的二手特斯拉加179抵税",
+     "attr_correct": true,
+     "copy_sim": 0.091,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "pT87zqXPw4w",
+   "upload_date": "20250711",
+   "topic": "比特币的历史涨幅、持有人结构、机构买入、质疑声音与各方价格预测",
+   "real_title": "It’s Over: Bitcoin Just Broke The US Dollar",
+   "real_thesis": "比特币因供给固定、机构需求上升而有望长期跑赢货币超发，但波动与回撤极大，只宜用能亏光的小仓位定投并保持克制。",
+   "real_thesis_type": "advise",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "How High Can Bitcoin Actually Go?",
+     "thesis": "随着机构和政府持续买入、供应接近上限，比特币长期大概率继续上涨，小比例配置值得考虑，但要能扛住50%以上的回撤。",
+     "candidates": [
+      "How High Can Bitcoin Actually Go?",
+      "Bitcoin To $1,000,000 | The Honest Truth",
+      "Why Even The Biggest Bitcoin Haters Are Giving Up"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "近期偏好“It's Over”式夸张标题",
+     "thesis_score": 3,
+     "thesis_reason": "均看长期上涨，小仓位并承受大回撤",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "How Much Bitcoin You Should Actually Own",
+     "thesis": "比特币机构接受度在提升，但波动极大、预测都靠猜；配置2%左右的小仓位并长期持有才合理，不该重仓押注百万美元目标。",
+     "candidates": [
+      "How Much Bitcoin You Should Actually Own",
+      "The TRUTH About Bitcoin Going To $1 Million",
+      "Why I'm Still Buying Bitcoin At $116,000"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "It's Over式夸张标题更符合频道风格",
+     "thesis_score": 2,
+     "thesis_reason": "都建议小仓位长期持有，仿写缺少长期看涨判断",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "How Much Bitcoin Will Be Worth By 2035",
+     "thesis": "随着机构接纳，比特币长期可能继续上涨，但历史回撤常达50%至90%；普通人最多拿2%至5%的小比例配置，主仓仍放指数基金。",
+     "candidates": [
+      "How Much Bitcoin Will Be Worth By 2035",
+      "Bitcoin To $1,000,000? The TRUTH About The Predictions",
+      "Why Wall Street Is Suddenly Buying Bitcoin.."
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "价格预测类选题更贴合，A过于夸张",
+     "thesis_score": 3,
+     "thesis_reason": "长期看涨、回撤大、小仓位配置，论断一致",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "How Much Bitcoin You Need To Be Rich",
+     "thesis": "机构资金涌入、供应又固定，比特币正从投机品变成主流资产，小比例配置风险不大，长期回报还可能跑赢股票和房地产",
+     "candidates": [
+      "How Much Bitcoin You Need To Be Rich",
+      "Bitcoin Is About To Change Everything",
+      "The Truth About Bitcoin At $116,000"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "选题未涉美元，A与价格预测更贴近",
+     "thesis_score": 2,
+     "thesis_reason": "同看好长期，但仿写淡化波动风险强调主流化",
+     "attr_correct": false,
+     "copy_sim": 0.083,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "kV9LpNUNnaI",
+   "upload_date": "20241218",
+   "topic": "2024年12月美联储降息及通胀、股市、比特币、房价现状与2025年展望",
+   "real_title": "URGENT: Federal Reserve Cancels 2025 Rate Cuts, Markets Crashing FAST!",
+   "real_thesis": "美联储下调2025年降息预期虽引发市场下跌，但并不意外；市场虽贵却无人能预测，长期坚持分散定投指数基金仍是最优策略。",
+   "real_thesis_type": "advise",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "The Fed Just Cut Rates Again | What Happens Next in 2025",
+     "thesis": "股市、房价、比特币齐创新高但通胀有黏性，2025年降息变少，涨幅会放缓；该做的是坚持定投，不该恐慌离场",
+     "candidates": [
+      "The Fed Just Cut Rates Again | What Happens Next in 2025",
+      "Everything Is At All Time Highs - Here's What Comes Next",
+      "Warren Buffett Is Sitting On $325 Billion - Should You Worry?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "符合当时鹰派降息后市场下跌，URGENT风格",
+     "thesis_score": 2,
+     "thesis_reason": "都主张坚持定投，但仿写预测涨幅放缓",
+     "attr_correct": true,
+     "copy_sim": 0.083,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "THE FED JUST CUT RATES *AGAIN* | What You MUST Know For 2025",
+     "thesis": "股市估值虽高、巴菲特囤现金，但2025年降息放缓不等于崩盘；别择时，继续定投指数基金，房价也只会温和上涨。",
+     "candidates": [
+      "THE FED JUST CUT RATES *AGAIN* | What You MUST Know For 2025",
+      "Why I'm Not Selling After The S&P 500's 30% Year",
+      "Warren Buffett Is Hoarding $325 Billion In Cash | DO THIS NOW"
+     ],
+     "judge_correct": false,
+     "judge_conf": 5,
+     "judge_reason": "B说取消降息，与12月实际降息的事实相反",
+     "thesis_score": 3,
+     "thesis_reason": "都说降息放缓不必慌，别择时，继续定投指数",
+     "attr_correct": true,
+     "copy_sim": 0.154,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "BREAKING: The Fed Just Cut Rates Again! (What 2025 Looks Like)",
+     "thesis": "股市估值虽贵（巴菲特指标208%），但预测崩盘屡屡落空；2025年应继续定投指数，同时留足现金，别追比特币。",
+     "candidates": [
+      "BREAKING: The Fed Just Cut Rates Again! (What 2025 Looks Like)",
+      "A Warning For The 2025 Stock Market",
+      "Buffett Is Sitting On $325 Billion In Cash (Here's Why)"
+     ],
+     "judge_correct": false,
+     "judge_conf": 4,
+     "judge_reason": "选题是降息，A说取消降息与事实不符",
+     "thesis_score": 2,
+     "thesis_reason": "都主张坚持定投，仿写缺降息预期主线",
+     "attr_correct": false,
+     "copy_sim": 0.083,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "The Fed Just Cut Rates Again - What Nobody Is Telling You About 2025",
+     "thesis": "美联储放慢降息、通胀有黏性，2025年股市回报会明显低于今年30%的涨幅，但普通人仍应坚持定投而非择时离场。",
+     "candidates": [
+      "The Fed Just Cut Rates Again - What Nobody Is Telling You About 2025",
+      "Stocks, Bitcoin & Home Prices All Hit Record Highs - Here's What Happens Next",
+      "Warren Buffett Is Holding $325 Billion Cash - Should You Be Worried?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "2024年12月鹰派降息致暴跌，URGENT风格典型",
+     "thesis_score": 2,
+     "thesis_reason": "都主张坚持定投，仿写多了回报偏低预测",
+     "attr_correct": true,
+     "copy_sim": 0.071,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "8dEWL_ATeZk",
+   "upload_date": "20251210",
+   "topic": "美联储第三次降息、结束缩表，及日元套利交易、股市、比特币与美国房价背景",
+   "real_title": "BREAKING: Federal Reserve Begins “Economic Reset” - Stocks Skyrocket!",
+   "real_thesis": "美联储在没有通胀和就业数据时降息并结束缩表，加上日本加息引发套利平仓，使市场短期承压但属正常波动，既可能出现财富转移也可能有人被洗出，坚持基本功才是对策。",
+   "real_thesis_type": "advise",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "The Fed Just Cut Rates For The 3rd Time - What Nobody Is Telling You",
+     "thesis": "降息叠加结束缩表重新注入流动性，眼下比特币和股市的回调是日元套利平仓造成的短期波动，是买入机会而非衰退信号",
+     "candidates": [
+      "The Fed Just Ended Quantitative Tightening | Here's What It Means",
+      "The Fed Just Cut Rates For The 3rd Time - What Nobody Is Telling You",
+      "Why Bitcoin Is Crashing While Gold Soars"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "BREAKING加引号加感叹号是其近期招牌格式",
+     "thesis_score": 2,
+     "thesis_reason": "同视为短期波动，仿写更强调买入机会",
+     "attr_correct": true,
+     "copy_sim": 0.067,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "THE FED JUST ENDED QUANTITATIVE TIGHTENING | Major Changes Explained",
+     "thesis": "第三次降息和结束缩表不是衰退信号；日元套利平仓造成的回调和比特币下跌都属常态，应趁回调继续长期买入。",
+     "candidates": [
+      "THE FED JUST ENDED QUANTITATIVE TIGHTENING | Major Changes Explained",
+      "The Japanese Carry Trade Is Crashing Bitcoin",
+      "Why I Sold My House Above Asking In This Market"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "A准确对应结束缩表，B的说法夸张失实",
+     "thesis_score": 3,
+     "thesis_reason": "都认为套利平仓带来的回调属正常，应坚持长期投资",
+     "attr_correct": true,
+     "copy_sim": 0.2,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "BREAKING: The Fed Ends Quantitative Tightening! (Major Changes Explained)",
+     "thesis": "降息加结束缩表不是衰退信号，比特币回调也属常态；继续定投，买房者可趁卖家降价压价出价。",
+     "candidates": [
+      "BREAKING: The Fed Ends Quantitative Tightening! (Major Changes Explained)",
+      "The Fed Just Cut Rates For The 3rd Time (Do This Now)",
+      "Bitcoin Is Getting CRUSHED While Gold Soars.."
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "准确点出结束缩表，A的“经济重置”是虚构",
+     "thesis_score": 2,
+     "thesis_reason": "都视为正常波动，仿写缺套利平仓与洗盘重点",
+     "attr_correct": false,
+     "copy_sim": 0.091,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "The Fed Just Ended Quantitative Tightening - Here's What Happens Next",
+     "thesis": "美联储结束缩表并第三次降息，近期比特币和股市下跌是日元套利平仓的短期回调，而非衰退信号，正是逢低布局的时机。",
+     "candidates": [
+      "The Fed Just Ended Quantitative Tightening - Here's What Happens Next",
+      "The Japanese Yen Carry Trade Is Back - Why Stocks & Bitcoin Are Falling",
+      "The Fed Just Cut Rates For The 3rd Time - Get Ready"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "BREAKING加引号加感叹是频道近期套路",
+     "thesis_score": 2,
+     "thesis_reason": "都视为短期正常回调，仿写更积极主张抄底",
+     "attr_correct": true,
+     "copy_sim": 0.091,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "gEe80Le2ZRU",
+   "upload_date": "20260916",
+   "topic": "美联储自2023年以来首次加息25个基点及其对通胀、股市、房市的影响",
+   "real_title": "BREAKING: The FED Just RAISED Interest Rates - Stocks Falling, Housing Market FROZEN!",
+   "real_thesis": "美联储加息叠加通胀、高油价和高收益率，意味着降息周期可能结束；市场将更动荡，但房价不会崩，投资者应坚持定投。",
+   "real_thesis_type": "advise",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "The Fed Just RAISED Interest Rates | Here's What Happens Next",
+     "thesis": "美联储重新加息不等于股市和房市崩盘，历史上利率上升时房价多半也涨，悲观时期反而常常是买入时机",
+     "candidates": [
+      "The Fed Just RAISED Interest Rates | Here's What Happens Next",
+      "Interest Rates Are Going UP Again - Get Ready",
+      "The Fed Just Reversed Course - A Warning To All Investors"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "BREAKING+破折号+后果叠加是近期惯用格式",
+     "thesis_score": 2,
+     "thesis_reason": "均认为不会崩，仿写侧重悲观即买点",
+     "attr_correct": true,
+     "copy_sim": 0.091,
+     "copy_nearest": "",
+     "real_overlap": 0.333
+    },
+    "guide_v1": {
+     "title": "THE FED JUST RAISED RATES For The First Time Since 2023",
+     "thesis": "这次加息被过度恐慌：历史上利率上升时房价多半也涨，市场最悲观时往往是底部，AI增长支撑长期前景，应继续长期投资。",
+     "candidates": [
+      "THE FED JUST RAISED RATES For The First Time Since 2023",
+      "Why Higher Rates WON'T Crash Home Prices",
+      "The FED Just Ended The Rate Cuts | DO THIS NOW"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "A简洁有事实性，B堆砌过多耸动元素",
+     "thesis_score": 2,
+     "thesis_reason": "都主张继续定投，但真实偏谨慎，仿写偏乐观",
+     "attr_correct": false,
+     "copy_sim": 0.083,
+     "copy_nearest": "",
+     "real_overlap": 0.167
+    },
+    "guide_v2": {
+     "title": "BREAKING: The Fed Just Raised Interest Rates! (Do This Now)",
+     "thesis": "这次加息风险是真的，高利率会维持更久，房市库存创6年新高；应留现金、买短期国债、低价试探出价，同时照常定投。",
+     "candidates": [
+      "BREAKING: The Fed Just Raised Interest Rates! (Do This Now)",
+      "The Fed's First Rate HIKE Since 2023 (Major Changes Explained)",
+      "A Warning For The 2026 Housing Market"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "简洁的括号行动号召更像真实标题",
+     "thesis_score": 2,
+     "thesis_reason": "都认为高利率持续并定投，仿写偏留现金压价",
+     "attr_correct": false,
+     "copy_sim": 0.154,
+     "copy_nearest": "",
+     "real_overlap": 0.429
+    },
+    "zero": {
+     "title": "The Fed Just Raised Rates For The First Time Since 2023",
+     "thesis": "美联储重启加息不会击垮股市和房市，油价推高的通胀与AI带来的增长意味着现在的悲观情绪反而是买入机会。",
+     "candidates": [
+      "The Fed Just Raised Rates For The First Time Since 2023",
+      "The Fed Just Reversed Course - What This Means For Your Money",
+      "Rate Hikes Are Back - The Housing Market Is About To Change"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "BREAKING大写串联结果符合频道近期风格",
+     "thesis_score": 2,
+     "thesis_reason": "都认为不崩应继续投入，仿写更乐观加AI",
+     "attr_correct": true,
+     "copy_sim": 0.083,
+     "copy_nearest": "",
+     "real_overlap": 0.167
+    }
+   }
+  },
+  {
+   "id": "Lp85WbbSs8Y",
+   "upload_date": "20260922",
+   "topic": "美国拟议将出售房产资本利得免税额提高至100万美元的讨论及其潜在市场影响",
+   "real_title": "“$0 Tax On ALL Profits!” - This NEW Housing Market Proposal Is INSANE",
+   "real_thesis": "房产资本利得免税上限提到百万美元会释放库存、压低房价，但通过概率极低，且主要惠及沿海富人，真正解法是多盖房。",
+   "real_thesis_type": "judge",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "No Tax On Home Sales Is Coming? (The Truth)",
+     "thesis": "百万美元房产免税短期内几乎不可能通过，房主为等它而推迟卖房，房价下跌造成的损失很可能超过省下的税",
+     "candidates": [
+      "No Tax On Home Sales Is Coming? (The Truth)",
+      "The $1 Million Home Sale Tax Exemption Could Flood The Housing Market",
+      "Don't Wait For The No Home Sales Tax Bill"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "引号金句加INSANE是其典型夸张风格",
+     "thesis_score": 2,
+     "thesis_reason": "都说难通过，仿写重点在等待卖房的损失",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.056
+    },
+    "guide_v1": {
+     "title": "The $1 Million Tax Free Home Sale | What You MUST Know",
+     "thesis": "100万美元房产免税只是播客传言，中期选举前几乎不可能通过；为等它而推迟卖房，房价下跌的损失可能比省下的税还多。",
+     "candidates": [
+      "The $1 Million Tax Free Home Sale | What You MUST Know",
+      "No Tax On Home Sales Could Flood The Housing Market",
+      "Why I'm NOT Waiting To Sell My Rentals For This Tax Break"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "引号加INSANE是频道近期常用格式",
+     "thesis_score": 2,
+     "thesis_reason": "都认为难以通过，但重点一个是供给，一个是卖房时机",
+     "attr_correct": true,
+     "copy_sim": 0.167,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Tax-Free Home Sales Up To $1 Million (Major Changes Explained)",
+     "thesis": "100万美元房产免税短期几乎不可能落地，别为等它推迟卖房；真正有效的是按通胀指数化免税额、增加供给。",
+     "candidates": [
+      "Tax-Free Home Sales Up To $1 Million (Major Changes Explained)",
+      "The $1,000,000 Home Sale Tax Break Nobody Is Talking About",
+      "Why Investors Could DUMP 1.5 Million Rental Homes"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "引号加INSANE的情绪化写法符合近期风格",
+     "thesis_score": 2,
+     "thesis_reason": "都认为难通过、应增加供给，仿写缺释放库存论点",
+     "attr_correct": true,
+     "copy_sim": 0.077,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "No Tax On Home Sales Up To $1 Million? Here's The Truth",
+     "thesis": "把房产利得免税额提高到100万美元短期内几乎不可能落地，房主为等它而推迟卖房，承受房价下跌的损失可能比要缴的税还多。",
+     "candidates": [
+      "No Tax On Home Sales Up To $1 Million? Here's The Truth",
+      "They Want To Eliminate Taxes On Selling Your Home - What This Really Means",
+      "The $1 Million Home Sale Tax Break Could Flood The Housing Market"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "引号加INSANE大写是频道典型写法",
+     "thesis_score": 1,
+     "thesis_reason": "都说难通过，但仿写重点在别等，非多盖房",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.048
+    }
+   }
+  },
+  {
+   "id": "8L0ZP90IFeQ",
+   "upload_date": "20250929",
+   "topic": "2025年美国联邦政府停摆风险的成因、影响与历史市场表现",
+   "real_title": "BREAKING: The US Government Just Shut Down - “Mass Layoffs” Happening NOW!",
+   "real_thesis": "政府停摆多半是政治作秀，短期会以临时拨款收场，对股市和普通人冲击有限；真正隐患是信用评级下滑与投资者信心侵蚀。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "The Government Is About To Shut Down | What It Means For Your Money",
+     "thesis": "政府停摆历来对股市影响接近零，停摆后一年平均还涨近17%，因停摆而抛售股票是错误决定",
+     "candidates": [
+      "The Government Is About To Shut Down | What It Means For Your Money",
+      "The Government Shutdown Is Coming - DO THIS NOW",
+      "What Happens To The Stock Market During A Government Shutdown"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "BREAKING加引号裁员，符合近期标题套路",
+     "thesis_score": 2,
+     "thesis_reason": "都认为冲击有限，仿写漏掉信用评级隐患",
+     "attr_correct": true,
+     "copy_sim": 0.077,
+     "copy_nearest": "",
+     "real_overlap": 0.048
+    },
+    "guide_v1": {
+     "title": "THE GOVERNMENT IS SHUTTING DOWN | What You MUST Know",
+     "thesis": "政府停摆对股市影响被高估：历次停摆期间平均回报约为零，之后一年平均涨近17%，应无视噪音、照常长期投资。",
+     "candidates": [
+      "THE GOVERNMENT IS SHUTTING DOWN | What You MUST Know",
+      "How To Invest During A Government Shutdown",
+      "What Happens To Your Money If The Government Shuts Down"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "选题讲停摆风险，B进行时更准确，A的裁员说法夸大",
+     "thesis_score": 2,
+     "thesis_reason": "都说冲击有限，仿写缺少信用评级这一隐患",
+     "attr_correct": false,
+     "copy_sim": 0.2,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "The Government Is Shutting Down On October 1st (Do This Now)",
+     "thesis": "停摆对股市的冲击被夸大，停摆后12个月平均涨约17%；真正风险是赤字和评级下调，应照常定投、备足应急金。",
+     "candidates": [
+      "The Government Is Shutting Down On October 1st (Do This Now)",
+      "BREAKING: Congress Fails To Fund The Government! (Major Changes Explained)",
+      "What A Government Shutdown REALLY Means For Your Money"
+     ],
+     "judge_correct": false,
+     "judge_conf": 4,
+     "judge_reason": "选题讲的是停摆风险，B称已停摆不符",
+     "thesis_score": 3,
+     "thesis_reason": "都认为冲击有限，真正风险在评级与财政",
+     "attr_correct": true,
+     "copy_sim": 0.071,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "The Government Is About To Shut Down - What Happens To Your Money",
+     "thesis": "政府停摆对股市几乎没有长期影响，历史上停摆后一年标普平均上涨近17%，因停摆恐慌而卖出是错误决定。",
+     "candidates": [
+      "The Government Is About To Shut Down - What Happens To Your Money",
+      "Government Shutdown 2025: Here's What Happens To The Stock Market",
+      "The U.S. Government Shutdown Is Coming - Don't Panic Sell"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "BREAKING引号式更像频道，A偏平淡",
+     "thesis_score": 2,
+     "thesis_reason": "都说影响有限，真实强调信用隐患，仿写劝勿卖",
+     "attr_correct": false,
+     "copy_sim": 0.083,
+     "copy_nearest": "",
+     "real_overlap": 0.05
+    }
+   }
+  },
+  {
+   "id": "KJBnaeDq3bw",
+   "upload_date": "20251222",
+   "topic": "YouTube财经博主Graham讲述两年前缩减业务与发布频率后的经历及理财习惯变化",
+   "real_title": "Stepping Away – What Happened",
+   "real_thesis": "过度优化和极端节俭会消耗精力、得不偿失；财富积累到一定程度后，应砍掉低回报的琐事，为便利和安心花钱。",
+   "real_thesis_type": "advise",
+   "real_title_thesis": "labels",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "Why I Stopped Optimizing Every Dollar",
+     "thesis": "凡事都追求省到最后一分钱反而更亏；用80/20法则，花钱换省事和安心，才是更好的理财方式。",
+     "candidates": [
+      "Why I Stopped Optimizing Every Dollar",
+      "I Quit Doing Everything - Here's What Happened",
+      "The Money Habit That Was Ruining My Life"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "讲理财习惯变化，比空泛的“Stepping Away”更贴切",
+     "thesis_score": 3,
+     "thesis_reason": "都主张别过度节俭，花钱买便利和安心",
+     "attr_correct": false,
+     "copy_sim": 0.167,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Why I Stopped Optimizing Every Dollar",
+     "thesis": "把每一块钱都抠到最优反而伤人；按80/20法则砍掉麻烦事、为省事和安心多花钱，长期能换来更多财富和生活质量。",
+     "candidates": [
+      "Why I Stopped Optimizing Every Dollar",
+      "I Quit Being Busy | Here's What Happened",
+      "How I Changed My Money Habits After Slowing Down"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "简短叙事式标题贴合其回顾近况视频风格",
+     "thesis_score": 3,
+     "thesis_reason": "都主张别过度优化，砍琐事、为便利安心花钱",
+     "attr_correct": false,
+     "copy_sim": 0.167,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Why I Quit Optimizing Every Dollar..",
+     "thesis": "过度省钱和追求最优反而损耗时间与心力；用80/20法则、砍掉复杂资产、为省事和健康花钱，财富与生活都会更好。",
+     "candidates": [
+      "Why I Quit Optimizing Every Dollar",
+      "How I Stopped Being Cheap After Becoming A Millionaire",
+      "The TRUTH About Slowing Down After Making Millions"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "简短个人叙事风格，B像AI按理财习惯改写",
+     "thesis_score": 3,
+     "thesis_reason": "都主张别过度优化，为省心花钱",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "I Stopped Optimizing Every Dollar - Here's What Happened",
+     "thesis": "对省钱和高回报率的过度执着反而损害生活；用钱买便利、省心，减少复杂度，长期更值得。",
+     "candidates": [
+      "I Stopped Optimizing Every Dollar - Here's What Happened",
+      "Why I Scaled Back Everything 2 Years Ago",
+      "The Money Habits I Quit After Downsizing My Life"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "简短模糊、带个人叙事感，A像AI据选题仿写",
+     "thesis_score": 3,
+     "thesis_reason": "都主张别过度优化，花钱买便利和省心",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.111
+    }
+   }
+  },
+  {
+   "id": "X56G_hTsHIQ",
+   "upload_date": "20250818",
+   "topic": "不同收入水平下购车预算的常见经验法则、贷款审批标准与车辆折旧数据",
+   "real_title": "How Much Car You Can ACTUALLY Afford (By Income) - Not What You Think!",
+   "real_thesis": "买车预算应按收入严守20/3/8等保守规则或尽量全款买二手，而非听经销商按月供批准的额度；选保值车可进一步降低真实成本。",
+   "real_thesis_type": "advise",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "How Much Car You Can ACTUALLY Afford (By Income)",
+     "thesis": "车贷机构批给你的额度远超你真正负担得起的；按238法则买保值二手车，才不会被折旧和长期车贷拖穷。",
+     "candidates": [
+      "How Much Car You Can ACTUALLY Afford (By Income)",
+      "The Car Buying Rule That Will Make You Rich",
+      "STOP Buying Cars You Can't Afford | The Real Math"
+     ],
+     "judge_correct": false,
+     "judge_conf": 4,
+     "judge_reason": "B在真实标题后硬加后缀，像仿写",
+     "thesis_score": 3,
+     "thesis_reason": "都反对按贷款额度买车，主张守规则买保值车",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.667
+    },
+    "guide_v1": {
+     "title": "How Much Car You Can ACTUALLY Afford (At Every Income)",
+     "thesis": "经销商按46%债务收入比批出的额度远超你负担得起的水平；车价应控制在年收入10%到35%，最好买5到7年车龄的保值二手车。",
+     "candidates": [
+      "How Much Car You Can ACTUALLY Afford (At Every Income)",
+      "The PERFECT Car Budget For $45,000 To $500,000 Incomes",
+      "How To Buy A Car Without Going Broke"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "近期常加“Not What You Think!”式后缀",
+     "thesis_score": 3,
+     "thesis_reason": "都主张别信经销商额度，按收入保守买保值二手车",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.4
+    },
+    "guide_v2": {
+     "title": "How Much Car You Can ACTUALLY Afford (By Income)",
+     "thesis": "车贷审批额度远超你真实承受力；应按20/3/8法则控制在收入8%内，买车龄5至7年的保值二手车，别拉长贷款期限。",
+     "candidates": [
+      "How Much Car You Can ACTUALLY Afford (By Income)",
+      "The 20/3/8 Rule vs 20/4/10: Which Is ACTUALLY Smarter?",
+      "Americans Are Financing Cars Like It's A Mortgage"
+     ],
+     "judge_correct": false,
+     "judge_conf": 4,
+     "judge_reason": "B在原题后硬加后缀，典型AI仿写",
+     "thesis_score": 3,
+     "thesis_reason": "都主张按20/3/8自定预算、买保值二手车",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.667
+    },
+    "zero": {
+     "title": "How Much Car You Can Actually Afford (By Income)",
+     "thesis": "车贷审批额度远超你真正负担得起的水平；应按收入的8%到10%控制用车总支出，买二手保值车。",
+     "candidates": [
+      "How Much Car You Can Actually Afford (By Income)",
+      "The Car Buying Rule That Keeps You From Going Broke",
+      "Stop Buying Cars Like This - What You Can Really Afford"
+     ],
+     "judge_correct": false,
+     "judge_conf": 4,
+     "judge_reason": "B在后面加了“Not What You Think”，像AI堆砌",
+     "thesis_score": 3,
+     "thesis_reason": "都说别信贷款额度，按收入控制车支出、买保值二手车",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.667
+    }
+   }
+  },
+  {
+   "id": "YJx58bOo5g0",
+   "upload_date": "20251121",
+   "topic": "一位房东在洛杉矶建造附属住宅单元（ADU）时经历的许可与验收流程",
+   "real_title": "I'm Selling Everything",
+   "real_thesis": "洛杉矶的繁琐审批和租客保护政策让房东与开发商得不偿失，把住房负担压给私人投资者只会加剧短缺，因此理性投资者应撤出该市。",
+   "real_thesis_type": "judge",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Los Angeles Is Making Me Sell Everything",
+     "thesis": "洛杉矶的审批官僚已让在当地当房东得不偿失，回报还不如市政债券，出售那里的房产才是理性选择。",
+     "candidates": [
+      "Los Angeles Is Making Me Sell Everything",
+      "I Tried Building A House In Los Angeles... It Was A Disaster",
+      "Why I'm Done Being A Landlord In LA"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "点出洛杉矶，更贴合ADU许可的选题",
+     "thesis_score": 2,
+     "thesis_reason": "结论都是撤出，但仿写缺政策加剧短缺的论点",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Why I'm Selling All My Los Angeles Properties",
+     "thesis": "洛杉矶层层审批和临时加码让新建出租房几乎无法盈利，持有当地房产的回报已不如免税市政债和股票，房东该考虑退出。",
+     "candidates": [
+      "Why I'm Selling All My Los Angeles Properties",
+      "Los Angeles Is Destroying My $220,000 Rental",
+      "The TRUTH About Building An ADU In Los Angeles"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "短促夸张标题与ADU内容错位，典型诱饵式",
+     "thesis_score": 3,
+     "thesis_reason": "都认为审批繁琐致无利可图，投资者应撤出洛杉矶",
+     "attr_correct": true,
+     "copy_sim": 0.167,
+     "copy_nearest": "",
+     "real_overlap": 0.125
+    },
+    "guide_v2": {
+     "title": "Why I'm Selling All My Los Angeles Real Estate",
+     "thesis": "洛杉矶层层审批和反房东政策让新增住房成本高、回报低于市政债和股票；真正的解法是简化审批增加供给，否则资本会继续撤离。",
+     "candidates": [
+      "Why I'm Selling All My Los Angeles Real Estate",
+      "The REAL Cost Of Building A $220,000 ADU In LA",
+      "Los Angeles Is Destroying Its Own Landlords"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "带具体地点更像频道惯用的标题写法",
+     "thesis_score": 2,
+     "thesis_reason": "同批政策；真实劝撤资，仿写主张简化审批",
+     "attr_correct": true,
+     "copy_sim": 0.143,
+     "copy_nearest": "",
+     "real_overlap": 0.111
+    },
+    "zero": {
+     "title": "Why I'm Selling All My Los Angeles Real Estate",
+     "thesis": "洛杉矶的审批和监管让房东无利可图，在当地持有出租房的回报还不如免税市政债券或股票。",
+     "candidates": [
+      "Why I'm Selling All My Los Angeles Real Estate",
+      "I Tried Building an ADU in Los Angeles - It Was A Nightmare",
+      "Los Angeles Just Made Me Quit Real Estate"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "标题极简且和选题脱节，符合真实诱饵风格",
+     "thesis_score": 2,
+     "thesis_reason": "都说监管让房东无利可图，但仿写缺少撤出和加剧短缺的论点",
+     "attr_correct": false,
+     "copy_sim": 0.143,
+     "copy_nearest": "",
+     "real_overlap": 0.111
+    }
+   }
+  },
+  {
+   "id": "mV1iw0aN9uo",
+   "upload_date": "20260825",
+   "topic": "美国长期国债收益率上升、政府干预债市，以及美股估值是否构成泡沫的各方数据",
+   "real_title": "BREAKING: The Bond Market Is Collapsing - Massive Bailout Has Begun!",
+   "real_thesis": "政府干预压低收益率是流动性利好，美股虽贵但不必然崩盘；预测市场时机多半徒劳，应分散配置、持续定投。",
+   "real_thesis_type": "advise",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "The Government Just Started Printing Money To Save Bonds",
+     "thesis": "政府印钞压低长期利率会继续推高股市；估值虽高但盈利强劲，长期持有比因泡沫恐慌而卖出更划算。",
+     "candidates": [
+      "The Government Just Started Printing Money To Save Bonds",
+      "Are We In The Biggest Stock Market Bubble In History?",
+      "WARNING: The Bond Market Just Broke"
+     ],
+     "judge_correct": false,
+     "judge_conf": 4,
+     "judge_reason": "A的BREAKING加感叹号太夸张，B更像频道风格",
+     "thesis_score": 2,
+     "thesis_reason": "都认为流动性利好、不必恐慌，仿写缺分散定投",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "The Stock Market Bubble Is About To Pop",
+     "thesis": "估值虽接近2000年水平，但AI巨头盈利强劲、投入靠自有现金，不一定是泡沫；即使高点买入，长期持有加股息再投资照样能赚钱，别择时。",
+     "candidates": [
+      "The Stock Market Bubble Is About To Pop",
+      "THE GOVERNMENT IS BUYING ITS OWN DEBT | What You MUST Know",
+      "Are We In The Biggest Bubble In History"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "BREAKING加感叹号是其近期惯用格式",
+     "thesis_score": 2,
+     "thesis_reason": "都说不必崩盘、别择时，但理由一个流动性一个AI盈利",
+     "attr_correct": false,
+     "copy_sim": 0.333,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "A Warning For The 2026 Stock Market",
+     "thesis": "美股估值确实处于泡沫级高位、AI回调风险真实存在，但盈利仍强；应保留现金与短期国债、分散并坚持定投，而非清仓离场。",
+     "candidates": [
+      "A Warning For The 2026 Stock Market",
+      "The Biggest Stock Market Bubble In History Is Here",
+      "The Government Is Printing Money To Buy Its Own Debt"
+     ],
+     "judge_correct": false,
+     "judge_conf": 4,
+     "judge_reason": "B夸张堆砌崩盘救市，与内容不符",
+     "thesis_score": 2,
+     "thesis_reason": "都主张分散定投；真实偏流动性利好，仿写强调泡沫",
+     "attr_correct": true,
+     "copy_sim": 0.143,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "The Government Is Now Buying Its Own Debt - What It Means For Stocks",
+     "thesis": "美股估值虽接近2000年水平，但盈利强劲加上政府压低利率，现在不是撤离股市的理由。",
+     "candidates": [
+      "The Government Is Now Buying Its Own Debt - What It Means For Stocks",
+      "Is The Stock Market In A Bubble? The Real Data",
+      "The Bond Market Just Broke - Here's What Comes Next"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "A的BREAKING加感叹号过于夸张，像AI堆砌",
+     "thesis_score": 3,
+     "thesis_reason": "都认为美股虽贵，但压低利率起支撑作用，不必撤离",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "-2jQm1t9pBs",
+   "upload_date": "20260813",
+   "topic": "特朗普政府讨论资本利得税按通胀指数化及提高自住房免税额的内容与可行性",
+   "real_title": "BREAKING: Trump Announces MASSIVE Tax Breaks For ALL Investors | What You MUST Know!",
+   "real_thesis": "特朗普的资本利得税减免设想逻辑合理，但需国会批准、成本高、法律受阻，几乎不可能通过；现实可行的是调整房产免税额、亏损抵扣等四项小改革。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Trump Just Announced The End Of Capital Gains Tax",
+     "thesis": "资本利得按通胀指数化和提高自住房免税额早该实施，但成本高、需国会通过，短期内落地的可能性不大。",
+     "candidates": [
+      "Trump Just Announced The End Of Capital Gains Tax",
+      "The BIGGEST Tax Cut For Homeowners Is Coming",
+      "Trump's Plan To Eliminate Taxes On Your Home"
+     ],
+     "judge_correct": false,
+     "judge_conf": 4,
+     "judge_reason": "A的大写词和套话堆砌过多，B简洁又抓人",
+     "thesis_score": 2,
+     "thesis_reason": "都判断难通过，仿写未提可行的小改革",
+     "attr_correct": true,
+     "copy_sim": 0.125,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "TRUMP WANTS TO CUT CAPITAL GAINS TAXES | What You MUST Know",
+     "thesis": "资本利得通胀指数化和提高自住房免税额合理，但要国会通过、成本高达数千亿，短期内很难落地，别为此改变买卖计划。",
+     "candidates": [
+      "TRUMP WANTS TO CUT CAPITAL GAINS TAXES | What You MUST Know",
+      "How To Pay $0 Tax When You Sell Your Home",
+      "The Capital Gains Tax Cut Is Coming | Major Changes Explained"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "BREAKING+What You MUST Know!符合近年风格",
+     "thesis_score": 2,
+     "thesis_reason": "都认为难通过，但真实重点在四项可行小改革",
+     "attr_correct": true,
+     "copy_sim": 0.167,
+     "copy_nearest": "",
+     "real_overlap": 0.158
+    },
+    "guide_v2": {
+     "title": "BREAKING: Trump Moves To Cut Capital Gains Taxes (Major Changes Explained)",
+     "thesis": "资本利得全面指数化成本高、利好富人，短期难过国会；更可能落地的是上调自住房免税额，别因传言提前卖房或卖股票。",
+     "candidates": [
+      "BREAKING: Trump Moves To Cut Capital Gains Taxes (Major Changes Explained)",
+      "Capital Gains Taxes Could Drop To $0 (Do This Now)",
+      "The $500,000 Home Sale Tax Break Is About To Change"
+     ],
+     "judge_correct": false,
+     "judge_conf": 4,
+     "judge_reason": "A过度夸张全大写，B贴合内容且格式惯用",
+     "thesis_score": 2,
+     "thesis_reason": "都说难通过；可行改革和建议重点不同",
+     "attr_correct": false,
+     "copy_sim": 0.077,
+     "copy_nearest": "",
+     "real_overlap": 0.048
+    },
+    "zero": {
+     "title": "Trump Wants To Eliminate Taxes On Your Home Sale",
+     "thesis": "资本利得通胀指数化和提高自住房免税额早就该做，但要过国会仍很困难，短期内不太可能落地。",
+     "candidates": [
+      "Trump's Plan To Cut Capital Gains Tax Explained",
+      "Trump Wants To Eliminate Taxes On Your Home Sale",
+      "The Capital Gains Tax Change Nobody Is Talking About"
+     ],
+     "judge_correct": false,
+     "judge_conf": 4,
+     "judge_reason": "A全大写词和MUST Know堆砌过多",
+     "thesis_score": 2,
+     "thesis_reason": "都说难过国会，但真实认为小改革可行，仿写没提",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "8h1G6Dm1uQc",
+   "upload_date": "20250519",
+   "topic": "巴菲特对房地产与股票投资的比较及美国房价历史表现",
+   "real_title": "\"Do NOT Buy A House!\" (Warren Buffett's Final Warning)",
+   "real_thesis": "对大多数非全职投资者，房地产投资的时间成本高、回报不及指数基金，但自住十年以上仍合理，房产不是默认的好投资。",
+   "real_thesis_type": "advise",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Warren Buffett Just Turned On Real Estate",
+     "thesis": "在当前利率和房价下，买房投资已不如买指数基金，巴菲特从看好房地产转为看淡，这个判断是对的。",
+     "candidates": [
+      "Warren Buffett Just Turned On Real Estate",
+      "Why Warren Buffett Stopped Buying Houses",
+      "Real Estate vs Stocks: Buffett Just Changed His Mind"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "“Just Turned On”是频道惯用句式；B像访谈频道风格",
+     "thesis_score": 2,
+     "thesis_reason": "都认为房产不如指数，仿写缺自住十年例外",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Warren Buffett Just Turned On Real Estate",
+     "thesis": "按现在的利率和房价，房产已不如指数基金：实际年涨幅只有1.3%，还费时费力，长期持有标普500才是更优选择。",
+     "candidates": [
+      "Warren Buffett Just Turned On Real Estate",
+      "Why Warren Buffett Stopped Buying Houses",
+      "The TRUTH About Real Estate vs Stocks After 100 Years"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "引语加“Final Warning”括号是其常用模板",
+     "thesis_score": 2,
+     "thesis_reason": "都认为房产不如指数基金，仿写漏掉自住合理",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Why Warren Buffett Is DONE With Real Estate",
+     "thesis": "在当前利率和房价下，普通人优先定投标普500比买出租房更划算；只有拿到低息贷款、买入价合理并且有精力管理时，房产才值得配置。",
+     "candidates": [
+      "Warren Buffett Just Turned On Real Estate",
+      "Why Warren Buffett Is DONE With Real Estate",
+      "Real Estate vs Stocks: Which Is ACTUALLY Better?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "引语加Final Warning是频道近期常用格式",
+     "thesis_score": 3,
+     "thesis_reason": "都认为普通人指数基金优于房产投资",
+     "attr_correct": true,
+     "copy_sim": 0.091,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Warren Buffett Just Changed His Mind On Real Estate",
+     "thesis": "利率不再是3%，今天买房出租已不如买指数基金，巴菲特转向股票是对的，普通人也该跟着调整",
+     "candidates": [
+      "Warren Buffett Just Changed His Mind On Real Estate",
+      "Warren Buffett: Real Estate Is No Longer A Good Investment",
+      "Why Warren Buffett Stopped Recommending Real Estate"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "引语加Final Warning是该频道近期常用格式",
+     "thesis_score": 2,
+     "thesis_reason": "都说房产投资不如指数基金，但理由和重点不同",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "_ARFfyT-W4I",
+   "upload_date": "20251113",
+   "topic": "房利美取消最低信用分要求及特朗普政府提出可携带抵押贷款的设想",
+   "real_title": "WTF Is Happening To The Housing Market?!",
+   "real_thesis": "取消最低信用分不会重演2008年危机,可携带抵押贷款在美国因法律和银行成本难以实现,真正解决住房负担的只有多建房。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "teases",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "Fannie Mae Just Eliminated Credit Scores",
+     "thesis": "取消620分门槛不会重演2008，可携带贷款则会伤害银行、推高利率，难以真正落地。",
+     "candidates": [
+      "Fannie Mae Just Eliminated Credit Scores",
+      "The Government's Plan To Unfreeze The Housing Market",
+      "Trump's Portable Mortgage Plan Is A Bad Idea"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "直接点出新闻事实，符合“Just”系列标题",
+     "thesis_score": 2,
+     "thesis_reason": "前两点一致，仿写缺多建房才是解法",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "THE GOVERNMENT JUST CHANGED MORTGAGES | What You MUST Know",
+     "thesis": "取消620分门槛不等于重回2008年次贷，承保标准没有变；可携带房贷则牵涉法律和银行亏损，短期内很难落地。",
+     "candidates": [
+      "THE GOVERNMENT JUST CHANGED MORTGAGES *AGAIN* | What You MUST Know",
+      "Fannie Mae Just Eliminated Credit Scores | Major Changes Explained",
+      "Why Portable Mortgages Won't Save The Housing Market"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "全大写加What You MUST Know是其固定句式",
+     "thesis_score": 2,
+     "thesis_reason": "前两点一致，仿写缺多建房才是解法的核心结论",
+     "attr_correct": true,
+     "copy_sim": 0.2,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "BREAKING: Fannie Mae Drops 620 Credit Score Minimum! (Major Changes Explained)",
+     "thesis": "取消620分门槛不会重演2008，因为承保标准没变；可携带贷款会损害银行和贷款机构，难以落地，真正有效的解法是放松分区限制、增加住房供给。",
+     "candidates": [
+      "BREAKING: Fannie Mae Drops Credit Score Minimum! (Major Changes Explained)",
+      "Portable Mortgages Are Coming (Keep Your 2.875% Rate)",
+      "The Housing Market Is Getting Rewritten.."
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "BREAKING加括号说明为频道近期固定格式",
+     "thesis_score": 3,
+     "thesis_reason": "三个论点基本一致",
+     "attr_correct": false,
+     "copy_sim": 0.077,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Fannie Mae Just Eliminated The Minimum Credit Score",
+     "thesis": "取消620分门槛不会重演2008，可携带贷款才是真风险：它会把低利率亏损压在银行身上，而且很难落地",
+     "candidates": [
+      "Fannie Mae Just Eliminated The Minimum Credit Score",
+      "The Government Just Changed How You Buy A House",
+      "Trump's Portable Mortgage Plan Explained"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "WTF式口语化标题很像Graham风格",
+     "thesis_score": 2,
+     "thesis_reason": "都说不会重演2008，但仿写把可携带贷款当风险，且缺多建房",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "fhgZms8iN1w",
+   "upload_date": "20260414",
+   "topic": "一位博主披露其2026年个人投资组合的配置调整及各类资产的持有情况",
+   "real_title": "I F*KED Up… My INSANE Stock Market Prediction For 2026",
+   "real_thesis": "市场谨慎时更该加码股票与新兴市场、减少闲置现金，并清退房产和私募这类复杂难变现资产；组合应简单、流动，而非账面好看。",
+   "real_thesis_type": "advise",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "I'm Selling All My Rental Properties",
+     "thesis": "出租房的成本和风险已大幅上升，收益却不比国债高；现在资金应转向指数基金和国际股票。",
+     "candidates": [
+      "I'm Selling All My Rental Properties",
+      "My 2026 Portfolio: Selling Real Estate, Buying Stocks",
+      "Why I'm Selling Everything Except My Home"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "A的粗口和预测与选题不符，B更像个人宣布",
+     "thesis_score": 2,
+     "thesis_reason": "都主张撤房产转股票，重点不同未提流动性",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Why I'm Selling ALL My Rental Properties",
+     "thesis": "出租房成本暴涨，收益已不如流动性100%的国债，所以作者要卖掉出租房，把钱转回指数基金和国际股票长期持有。",
+     "candidates": [
+      "My 2026 Investment Portfolio | DO THIS NOW",
+      "Why I'm Selling ALL My Rental Properties",
+      "How I'm Investing My Money In 2026"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "B与投资组合选题不符，A夸张风格吻合",
+     "thesis_score": 2,
+     "thesis_reason": "都主张卖房产转流动资产，真实更强调简化组合加码股票",
+     "attr_correct": true,
+     "copy_sim": 0.2,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Why I'm Selling ALL My Rental Properties (My 2026 Portfolio)",
+     "thesis": "如今出租房的成本和法律风险已经超过它的收益，不如卖掉换成国债；普通人应以指数基金为核心，并加配国际股票，少碰私募和收藏品。",
+     "candidates": [
+      "My 2026 Portfolio: Selling ALL My Rental Properties",
+      "Why I'm Selling Every Rental Property I Own",
+      "Exactly How I'm Investing $1 Million In 2026"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "A贴合组合调整，B脏话预测风格生硬",
+     "thesis_score": 2,
+     "thesis_reason": "都主张清退复杂资产；仿写偏向国债，非加码股票",
+     "attr_correct": true,
+     "copy_sim": 0.125,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "I'm Selling All My Rental Properties - My 2026 Portfolio",
+     "thesis": "保险、维修和法律成本暴涨后，出租房的收益已不如流动性100%的国债，2026年应卖房转投指数基金",
+     "candidates": [
+      "My 2026 Investment Portfolio (Full Breakdown)",
+      "I'm Selling All My Rental Properties",
+      "Exactly How I'm Investing My Money In 2026"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "A的粗口加INSANE预测与选题不符，显得生硬",
+     "thesis_score": 2,
+     "thesis_reason": "都主张卖掉房产求流动性，但真实的配置主张更广",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "6M0j314e4gY",
+   "upload_date": "20260218",
+   "topic": "雷·达里奥关于大周期、债务问题及美国可能走向的框架介绍",
+   "real_title": "“America’s $38 Trillion Financial Reset Has Begun - Do This Now!” Ray Dalio’s Final Warning",
+   "real_thesis": "达利欧的周期框架大体正确，但演变可能长达数十年；普通人不该重仓黄金或等崩盘，而应分散配置、定投指数，做好准备。",
+   "real_thesis_type": "advise",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "Ray Dalio Just Issued A Serious Warning",
+     "thesis": "美国已进入债务周期末段，美元贬值几乎不可避免，应少持债券、多持难以印制的资产。",
+     "candidates": [
+      "Ray Dalio Just Issued A Serious Warning",
+      "Ray Dalio: The World Order Has Collapsed",
+      "The $38 Trillion Problem Nobody Can Fix"
+     ],
+     "judge_correct": false,
+     "judge_conf": 4,
+     "judge_reason": "B又长又堆砌，像其他频道的风格",
+     "thesis_score": 0,
+     "thesis_reason": "真实反对押注崩盘，仿写主张硬资产避险",
+     "attr_correct": false,
+     "copy_sim": 0.125,
+     "copy_nearest": "",
+     "real_overlap": 0.05
+    },
+    "guide_v1": {
+     "title": "Ray Dalio Just Warned The Final Debt Cycle Has Begun",
+     "thesis": "达里奥的债务周期警告值得重视，但危机往往要几十年才会爆发，不该恐慌清仓；照常定投指数基金并少量分散配置就够了。",
+     "candidates": [
+      "Ray Dalio Just Warned The Final Debt Cycle Has Begun",
+      "The TRUTH About Ray Dalio's $38 Trillion Warning",
+      "How To Prepare For Ray Dalio's Debt Crisis"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "长引语+Do This Now+Final Warning典型",
+     "thesis_score": 3,
+     "thesis_reason": "都认可周期框架但时间漫长，主张分散定投别恐慌",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.091
+    },
+    "guide_v2": {
+     "title": "Ray Dalio's WARNING For America's $38 Trillion Debt",
+     "thesis": "美国的债务风险是真实的，但危机会持续几十年慢慢演变，而不是马上崩盘；应对办法是继续定投指数基金，减配长期债券，再少量配置黄金或硬资产来分散风险。",
+     "candidates": [
+      "Ray Dalio's Warning For The $38 Trillion Debt",
+      "Ray Dalio Says The World Order Has Collapsed",
+      "The US Is Entering The Final Debt Cycle.."
+     ],
+     "judge_correct": false,
+     "judge_conf": 4,
+     "judge_reason": "B冗长堆砌引号和口号，AI痕迹明显",
+     "thesis_score": 3,
+     "thesis_reason": "都认为危机缓慢演变，分散定投，不重仓黄金",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.048
+    },
+    "zero": {
+     "title": "Ray Dalio's Terrifying Warning For America",
+     "thesis": "美国债务周期确实接近末段，但崩溃并非必然，坚持定投指数并配置少量硬资产就足以应对",
+     "candidates": [
+      "Ray Dalio's Terrifying Warning For America",
+      "Ray Dalio: The World Order Has Broken Down",
+      "Ray Dalio Just Predicted What Happens Next"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "弯引号长引语格式是频道近期真实写法",
+     "thesis_score": 3,
+     "thesis_reason": "都认可周期但不必等崩盘，主张定投、分散配置",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "e2oay7yVOOM",
+   "upload_date": "20250212",
+   "topic": "2025年美国租房与购房所需收入及各类住房支出比例规则",
+   "real_title": "How Much Home You Can ACTUALLY Afford (By Income)",
+   "real_thesis": "按多种经验法则测算，2025年典型美国家庭买不起中位价房，买房成本普遍高于租房，除非长期持有或有好价格，租房才是被低估的选择。",
+   "real_thesis_type": "advise",
+   "real_title_thesis": "asks",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "How Much You Need To Earn To Buy A House In 2025",
+     "thesis": "2025年按中位收入买中位价房子已负担不起，大多数人租房并投资差额，财务上更划算。",
+     "candidates": [
+      "How Much You Need To Earn To Buy A House In 2025",
+      "Renting Is Now Cheaper In All 50 States",
+      "The Real Income You Need To Afford A Home"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "沿用频道的“ACTUALLY Afford (By Income)”系列格式",
+     "thesis_score": 3,
+     "thesis_reason": "都认为买不起，租房更划算",
+     "attr_correct": true,
+     "copy_sim": 0.214,
+     "copy_nearest": "",
+     "real_overlap": 0.056
+    },
+    "guide_v1": {
+     "title": "How Much You ACTUALLY Need To Earn To Buy A House",
+     "thesis": "按28%规则，中位收入家庭买不起中位价房；现在买房比租房贵38%，大多数人应该先租房并把首付拿去投资。",
+     "candidates": [
+      "How Much Income You ACTUALLY Need To Buy A House In 2025",
+      "The 5 Rules For How Much House You Can Afford",
+      "Why Renting Beats Buying In All 50 States"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "“(By Income)”系列标题格式一致",
+     "thesis_score": 2,
+     "thesis_reason": "都认为买不起、租更划算，仿写加了投首付建议",
+     "attr_correct": true,
+     "copy_sim": 0.067,
+     "copy_nearest": "",
+     "real_overlap": 0.059
+    },
+    "guide_v2": {
+     "title": "How Much You REALLY Need To Earn To Afford A Home in 2025",
+     "thesis": "按28%规则和9.35%持有成本来算，买房要比多数人以为的多赚近一倍收入；眼下全美各州租房都更划算，租房并把首付投进国债或指数基金更好。",
+     "candidates": [
+      "How Much You ACTUALLY Need To Earn To Buy A House",
+      "Renting vs Buying In 2025: Which Is ACTUALLY Cheaper?",
+      "The REAL Cost Of Owning A $500,000 Home"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "与购车期标题格式一致，属频道系列命名",
+     "thesis_score": 3,
+     "thesis_reason": "都认为买不起房，租房更划算",
+     "attr_correct": true,
+     "copy_sim": 0.125,
+     "copy_nearest": "",
+     "real_overlap": 0.053
+    },
+    "zero": {
+     "title": "How Much Income You Need To Afford A House In 2025",
+     "thesis": "按9.35%规则算，2025年绝大多数人买房比租房贵太多，租房加投资差额才是更好的财务选择",
+     "candidates": [
+      "How Much Income You Need To Afford A House In 2025",
+      "Renting Is Now Cheaper Than Buying In All 50 States",
+      "The Real Cost Of Owning A Home"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "B照搬购车那期的模板，A更贴近2025年的选题",
+     "thesis_score": 3,
+     "thesis_reason": "都说2025年买房比租房贵，租房更划算",
+     "attr_correct": true,
+     "copy_sim": 0.067,
+     "copy_nearest": "",
+     "real_overlap": 0.059
+    }
+   }
+  }
+ ]
+}

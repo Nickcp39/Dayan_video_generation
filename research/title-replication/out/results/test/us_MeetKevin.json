@@ -1,0 +1,1691 @@
+{
+ "key": "us_MeetKevin",
+ "systems": [
+  "fewshot",
+  "guide_v1",
+  "guide_v2",
+  "zero"
+ ],
+ "items": [
+  {
+   "id": "oyUOU-ekwfU",
+   "upload_date": "20251029",
+   "topic": "凯西·伍德（Cathie Wood）谈AI是否泡沫、ARK持仓调整及利率与税收环境",
+   "real_title": "Cathie Wood's CRASH Warning.",
+   "real_thesis": "Cathie Wood并不真看空：所谓“崩盘警告”只是标题党，她仍全面看多AI与税改红利，但其长期估值论和低税率说法偏乐观，短期劳动力市场才是风险。",
+   "real_thesis_type": "judge",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Cathie Wood's SHOCKING Rate Hike Warning | AI is NOT a Bubble",
+     "thesis": "AI并非泡沫，减税与放松监管将带来生产率繁荣，一年内市场将从讨论降息转向讨论加息",
+     "candidates": [
+      "Cathie Wood: AI is NOT a Bubble | Rate HIKES Coming?",
+      "Cathie Wood Just Dumped AMD & Bought China.",
+      "Cathie Wood's SHOCKING Rate Hike Warning | 10% Tax Rate Boom"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "短促加句号是该频道风格，A用竖线堆砌信息像仿写",
+     "thesis_score": 1,
+     "thesis_reason": "仿写照搬伍德的看多观点，缺少真实版的标题党判断与批评",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.083
+    },
+    "guide_v1": {
+     "title": "Cathie Wood WARNS: Rate HIKES Are Coming [ARK Dumps AMD]",
+     "thesis": "伍德认为AI不是泡沫，生产率繁荣会让市场一年内从谈降息转向谈加息；ARK卖AMD、买中国股，就是在提前布局。",
+     "candidates": [
+      "Cathie Wood WARNS: Rate HIKES Are Coming [ARK Dumps AMD]",
+      "Cathie Wood JUST Sold AMD & Bought China | What it Means",
+      "ARK is Up 50%: Cathie Wood Says AI is NOT a Bubble"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "短促夸张的危机式标题，B细节堆砌像仿写",
+     "thesis_score": 1,
+     "thesis_reason": "同谈伍德看多AI，但真实重在标题党与批评，仿写重加息与布局",
+     "attr_correct": true,
+     "copy_sim": 0.071,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Cathie Wood: \"Rate HIKES Are Coming\"… this changes everything",
+     "thesis": "伍德说AI不是泡沫、加息会伴随生产率繁荣，判断有道理，但ARK追涨抛跌又押中国，散户别盲目跟单。",
+     "candidates": [
+      "Cathie Wood: \"Rate HIKES Are Coming\"… this changes everything",
+      "Cathie Wood *JUST* Dumped AMD for China. Get Ready.",
+      "wtf...? Cathie sells AMD, buys Baidu, warns of rate hikes..."
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "凯西一贯鸽派，说加息不合理；短促警告更像真标题",
+     "thesis_score": 1,
+     "thesis_reason": "真实重在揭穿标题党，仿写重在劝别跟单ARK",
+     "attr_correct": false,
+     "copy_sim": 0.1,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Cathie Wood: Rate HIKES Are Coming (Not Cuts) — AI Is NOT a Bubble",
+     "thesis": "AI不是泡沫，生产率繁荣将让市场一年内从讨论降息转向加息，而创新股照样能涨。",
+     "candidates": [
+      "Cathie Wood: Rate HIKES Are Coming (Not Cuts) — AI Is NOT a Bubble",
+      "Cathie Wood Dumps AMD, Buys China: My Interview on the AI Bubble",
+      "ARK's Secret 10% Tax Rate Boom? Cathie Wood Exposes What's Next"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "简短夸张带句号，符合频道惯用风格",
+     "thesis_score": 1,
+     "thesis_reason": "真实重在澄清标题党并批评，仿写是纯看多论断",
+     "attr_correct": true,
+     "copy_sim": 0.059,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "j93oOzZBQa0",
+   "upload_date": "20250916",
+   "topic": "美联储议息会议前夕的美国零售销售、消费周度数据与GDP预估",
+   "real_title": "Preparing for the Fed's September Meeting.",
+   "real_thesis": "美联储明天会降息25个基点但不表态鹰鸽，把决策推迟到10月会议；强劲的消费与GDP数据说明经济远未衰退，应维持看多，直到数据证伪。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "labels",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Retail Sales just CRUSHED Expectations | Fed Cut Tomorrow",
+     "thesis": "零售销售和GDP预估都在走强，消费者并未崩溃，明天的降息更多是在应对疲软的就业而不是衰退",
+     "candidates": [
+      "Retail Sales just CRUSHED Expectations | Fed Cut Tomorrow",
+      "The Fed's Big Problem: Consumers Won't Stop Spending",
+      "wtf is the Fed Doing? GDP 3.4% & Jobless Claims Spike"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "平实带句号；B竖线加具体数据是AI套路",
+     "thesis_score": 2,
+     "thesis_reason": "都认为经济不弱，但仿写缺少推迟决策和维持看多的结论",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Retail Sales JUST Crushed Expectations | Fed Decision Tomorrow [Details]",
+     "thesis": "零售销售超预期，GDPNow升至3.4%，说明消费仍强劲；美联储明天只会降息25个基点，40%的衰退恐慌被夸大了。",
+     "candidates": [
+      "Retail Sales JUST Crushed Expectations | Fed Decision Tomorrow [Details]",
+      "GDP Now JUMPS to 3.4% Before the Fed | What it Means",
+      "Recession Odds Hit 40%... But Consumers Just Did THIS"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "A是“JUST+竖线+[Details]”套路模板",
+     "thesis_score": 3,
+     "thesis_reason": "都认为降息25基点、消费强劲、衰退担忧被夸大",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "wtf...? Retail booms, jobless claims spike, Fed cuts tomorrow...",
+     "thesis": "消费和GDP预估很强，就业却在失速，美联储降25基点只是半步。接下来要么软着陆，要么衰退，散户该适度防守。",
+     "candidates": [
+      "Yikes! Fed Day WARNING **JUST** Out | Get Ready.",
+      "wtf...? Retail booms, jobless claims spike, Fed cuts tomorrow...",
+      "The Fed's Boom or Bust Moment. Get Ready."
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "wtf加数据罗列是该频道近期特有格式",
+     "thesis_score": 0,
+     "thesis_reason": "真实称经济强应看多，仿写称就业失速应防守",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Retail Sales SMASH Expectations: The Fed Is Cutting Into a Strong Economy",
+     "thesis": "消费和GDP数据依然强劲，衰退担忧被夸大，美联储明天降息更像是对就业放缓的预防而非救急。",
+     "candidates": [
+      "Retail Sales SMASH Expectations: The Fed Is Cutting Into a Strong Economy",
+      "GDP Now Jumps to 3.4% Right Before the Fed — Recession Fears Are Wrong",
+      "Fed Tomorrow: Consumers Are Spending, Jobs Are Cracking"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "简洁带句号；A的冒号长句式像AI写的",
+     "thesis_score": 2,
+     "thesis_reason": "都认为经济强劲非衰退，但重点在降息性质而非看多",
+     "attr_correct": true,
+     "copy_sim": 0.091,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "QX6wOnUYOKM",
+   "upload_date": "20251028",
+   "topic": "华尔街日报报道美中拟下调对华关税，及当日市场与就业数据表现",
+   "real_title": "BIGLY TRUMP CHINA NEWS",
+   "real_thesis": "特朗普为换取中国几乎零成本的让步就大幅回撤关税（又一次“TACO”），说明他手里筹码不多，这一提前到来的降温对市场短中期明显利好。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "labels",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "LEAKED: Trump to Slash China Tariffs | Rare Earth Catalyst",
+     "thesis": "美方把芬太尼关税减半换取大豆采购和稀土规则暂缓，对市场是利好，但稀土风险只是被推迟、并未消除",
+     "candidates": [
+      "LEAKED: Trump Cutting China Tariffs | Rare Earth Deal",
+      "China Tariff Cut JUST Leaked Early [Market Reacts]",
+      "The Fentanyl-for-Tariffs Deal & ADP's First Weekly Jobs Data"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "全大写口语化BIGLY符合Kevin，A过于规整",
+     "thesis_score": 2,
+     "thesis_reason": "都认为利好；真实强调TACO和筹码少，仿写强调风险只是推迟",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Trump JUST Cut China Tariffs by 10% | What it Means",
+     "thesis": "芬太尼关税减半，换来中国买大豆、稀土新规推迟一年，这是实质性缓和，利好大盘，但会削弱MP Materials等稀土股的溢价。",
+     "candidates": [
+      "Trump JUST Cut China Tariffs by 10% | What it Means",
+      "China Tariff Deal LEAKED Early: Rare Earth Stocks WARNING",
+      "Nvidia Record, Apple $4 Trillion & China Deal [Full Breakdown]"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "全大写口语化“BIGLY”是该频道独特风格",
+     "thesis_score": 2,
+     "thesis_reason": "都认为缓和利好市场，但真实重特朗普筹码弱，仿写重稀土股",
+     "attr_correct": false,
+     "copy_sim": 0.077,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "China Tariff Deal *JUST* Leaked [Full Details].",
+     "thesis": "关税减半利好已被市场提前消化，唯一风险是中国稀土许可仍可随时收紧；就业又在走弱，追高前要先想清楚。",
+     "candidates": [
+      "China Tariff Deal *JUST* Leaked [Full Details].",
+      "wtf...? China tariff cut leaked, Nvidia record, Apple $4T...",
+      "The Tariff Truce & Coming Rare Earth Trap."
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "全大写短句BIGLY更像Kevin随性风格",
+     "thesis_score": 0,
+     "thesis_reason": "真实认为明显利好，仿写认为利好已消化需谨慎",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "LEAKED: Trump to CUT China Tariffs — Here's the Real Winner",
+     "thesis": "对华关税减半利好美股风险资产，但中国稀土许可证仍是筹码，MP等稀土股的溢价并未消失。",
+     "candidates": [
+      "LEAKED: Trump to CUT China Tariffs — Here's the Real Winner",
+      "BREAKING: China Tariff Cut Leaks Early, Nvidia Record & Apple Hits $4 Trillion",
+      "Tariff Deal Leak: Why Rare Earths Are Still the Trap"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "全大写短口语BIGLY符合Kevin风格",
+     "thesis_score": 1,
+     "thesis_reason": "都谈关税回撤利好，但仿写重点转向稀土筹码",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "d4yzzGk5ETg",
+   "upload_date": "20250923",
+   "topic": "特朗普政府推进TikTok美国业务交易的投资方、董事会安排及相关背景",
+   "real_title": "What NO ONE is Saying about Trump's TikTok -- omg",
+   "real_thesis": "TikTok交易会把算法交给亲特朗普的投资者，成为共和党中期选举前的“爱国算法”宣传工具，中国因此有动机拖延。",
+   "real_thesis_type": "expose",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Trump's TikTok Takeover | Who REALLY Owns It Now",
+     "thesis": "新TikTok交易名义上去中国化，实际是把平台交给与特朗普政府关系密切的\"爱国\"投资者，独立性值得警惕",
+     "candidates": [
+      "The TikTok Deal is Done? Oracle, Murdoch & \"Patriotic\" Investors",
+      "Trump's TikTok Takeover | Who REALLY Owns It Now",
+      "TikTok Goes to Fox? The Truth About the New Board"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "NO ONE加omg口语化，B竖线结构像仿写",
+     "thesis_score": 3,
+     "thesis_reason": "核心都是平台交给亲特朗普的投资者、沦为政治工具",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.071
+    },
+    "guide_v1": {
+     "title": "Trump's \"Patriotic\" TikTok Takeover EXPOSED [Details]",
+     "thesis": "TikTok交易表面是去中国化，实则把控制权交给特朗普挑选的忠诚盟友，与其政府重忠诚轻专业的用人模式一致，值得警惕。",
+     "candidates": [
+      "TikTok Deal JUST Revealed: Oracle, Murdoch & 6 of 7 Seats",
+      "Trump's \"Patriotic\" TikTok Takeover EXPOSED [Details]",
+      "110 Ambassadors MISSING as Trump Hand-Picks TikTok Owners"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "结尾“omg”随意口吻很难仿写",
+     "thesis_score": 2,
+     "thesis_reason": "都指控制权交给特朗普盟友，但宣传工具与用人模式重点不同",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Trump's TikTok Deal *JUST* Revealed [Patriot Investors].",
+     "thesis": "TikTok交易名义上去中国化，实则在挑“爱国”的亲信资本；这和大使空缺、管控媒体一样，是在用忠诚取代能力。",
+     "candidates": [
+      "Trump's TikTok Deal *JUST* Revealed [Patriot Investors].",
+      "TikTok Goes to Fox Friends? Who REALLY Owns It.",
+      "wtf...? TikTok deal, 110 empty embassies, Pentagon press rules..."
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "B的*JUST*加方括号像套模板仿写",
+     "thesis_score": 2,
+     "thesis_reason": "都指向亲信资本，但真实重宣传工具，仿写重忠诚取代能力",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.077
+    },
+    "zero": {
+     "title": "TikTok Deal: Trump Hand-Picks \"Patriot\" Investors — Oracle, Murdoch & Dell",
+     "thesis": "TikTok交易名为国家安全，实则是把平台交给政治盟友，权力集中化比字节控股更值得警惕。",
+     "candidates": [
+      "TikTok Deal: Trump Hand-Picks \"Patriot\" Investors — Oracle, Murdoch & Dell",
+      "The TikTok Deal Is a Fox News Takeover?",
+      "TikTok Is Being Handed to Trump's Friends — Here's Who Gets It"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "NO ONE、omg口语化，B信息堆砌像AI",
+     "thesis_score": 2,
+     "thesis_reason": "都指交给政治盟友，但缺选举宣传与中国拖延",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "BDie2OOHRK8",
+   "upload_date": "20260827",
+   "topic": "英伟达上调增长指引与AI融资、算力合同单价的数据梳理",
+   "real_title": "Nvidia JUST Proved the AI Stock Bubble is about to Burst.",
+   "real_thesis": "英伟达的增长由谷歌、SpaceX融资和自家担保循环输送，算力合同单价低于马斯克预期，经济性不匹配，AI泡沫还会继续膨胀，但终将脆弱。",
+   "real_thesis_type": "expose",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Nvidia Just Raised Guidance to 70% | But Watch THIS Hidden Risk",
+     "thesis": "英伟达需求确实强劲，但百年债融资、表外担保和不断走低的算力合同单价表明AI投资回报正在恶化",
+     "candidates": [
+      "Nvidia's $2 Trillion Backlog & the Hidden $105B Guarantee",
+      "The AI Debt Bomb: 100-Year Bonds are BACK",
+      "Nvidia Just Raised Guidance to 70% | But Watch THIS"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "单句耸动加句号；B的Hidden Risk为AI惯用",
+     "thesis_score": 2,
+     "thesis_reason": "都质疑循环融资和单价；真实认为泡沫还会继续膨胀",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.053
+    },
+    "guide_v1": {
+     "title": "Nvidia JUST Raised Growth to 70% | The $198 Billion Problem",
+     "thesis": "英伟达把增长指引上调至70%看似强劲，但算力合同单价下滑、表外担保膨胀，说明AI融资过热，在227美元附近追高风险大。",
+     "candidates": [
+      "Nvidia JUST Raised Growth to 70% | The $198 Billion Problem",
+      "DANGER: Nvidia's Hidden $105 Billion OpenAI Guarantee [Explained]",
+      "Google's 100-Year Bond: AI Bubble WARNING Signs Are Here"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "B具体数字加竖线更像AI模板",
+     "thesis_score": 2,
+     "thesis_reason": "都指AI融资过热、单价下滑，但真实称泡沫仍会膨胀，仿写警示追高",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.056
+    },
+    "guide_v2": {
+     "title": "Nvidia's $2 Trillion Backlog & Coming Payback Problem.",
+     "thesis": "英伟达增长指引是真的，但百年债、表外担保和不断走低的算力单价都说明AI回本周期在拉长，追高的风险正在变大。",
+     "candidates": [
+      "Nvidia's $2 Trillion Backlog & Coming Payback Problem.",
+      "Yikes! Nvidia's Hidden AI Debt WARNING **JUST** Out",
+      "a \"100-year bond\" is back… this changes everything"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "具体数字贴合数据梳理，A的泡沫说法偏套路",
+     "thesis_score": 2,
+     "thesis_reason": "都指出经济性不匹配、风险上升，真实还强调循环融资",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Nvidia Raises Growth to 70% — But the AI Math Is Breaking",
+     "thesis": "英伟达指引虽强，但算力合同单价下滑、表外担保和百年债融资显示AI回本周期在拉长，风险被低估。",
+     "candidates": [
+      "Nvidia Raises Growth to 70% — But the AI Math Is Breaking",
+      "The $198 Billion Nvidia Guarantee Nobody Is Talking About",
+      "100-Year Bonds & $166B Raises: The AI Bubble Signal Is Here"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "JUST加泡沫破裂的恐慌叙事是频道惯用套路",
+     "thesis_score": 2,
+     "thesis_reason": "都指经济性不匹配与风险，缺泡沫继续膨胀判断",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.053
+    }
+   }
+  },
+  {
+   "id": "dT9KVpHtM3k",
+   "upload_date": "20260528",
+   "topic": "美股在伊朗协议预期下创高，融资债务、半导体期权与软件板块轮动的数据",
+   "real_title": "IT'S STARTING",
+   "real_thesis": "美股上涨由硬件驱动、保证金债务危险攀升，但基本面未恶化、加息预期将消退，下一阶段是软件股补涨带动行情扩散，整体偏多。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "labels",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "The Pain Trade is UP | Margin Debt EXPLODES & Semis Go Parabolic",
+     "thesis": "散户融资和半导体期权虽创纪录，但情绪远未到顶，踏空资金会把美股继续推高，软件股才是下一波补涨机会。",
+     "candidates": [
+      "The Pain Trade is UP | Margin Debt EXPLODES & Semis Go Parabolic",
+      "Retail Just Went ALL IN on Semiconductors [Record Options]",
+      "Goldman Says 8,000 — Why This Rally ISN'T Done Yet"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "极短悬念全大写是近期风格，B信息过密",
+     "thesis_score": 3,
+     "thesis_reason": "杠杆虽高仍会继续上涨，下一波是软件股补涨，论点一致",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Citadel WARNS the Pain Trade is HIGHER | S&P 8,000 [Details]",
+     "thesis": "伊朗协议、波动率走低和科技股领涨下，踏空才是最大风险，股市还会继续涨；但融资和半导体期权过热，软件更值得逢低布局。",
+     "candidates": [
+      "Citadel WARNS: The Pain Trade is HIGHER | Stocks to 8,000?",
+      "Goldman JUST Raised S&P to 8,000 | What it Means",
+      "Retail is Going ALL-IN on Semis [Margin Debt +6.8%]"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "极短悬念式全大写符合频道近期风格",
+     "thesis_score": 3,
+     "thesis_reason": "都偏多、提示融资过热、看好软件股补涨",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "wtf...? margin debt surges, chip options explode, software dumped...",
+     "thesis": "伊朗协议推动的创新高还会延续，但散户加杠杆狂押半导体已过热，被抛弃的软件才是下一轮机会，追高者要防回撤。",
+     "candidates": [
+      "wtf...? margin debt surges, chip options explode, software dumped...",
+      "Citadel *JUST* Says the Pain Trade is HIGHER | Get Ready.",
+      "The Chip Mania & Software Sadness."
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "B像照搬wtf格式的仿写，A极简更真实",
+     "thesis_score": 3,
+     "thesis_reason": "都认为硬件过热、软件补涨是下一阶段，整体偏多",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "The PAIN TRADE Is Higher: Retail Margin Debt EXPLODES as Semis Go Parabolic",
+     "thesis": "散户融资和半导体期权虽创纪录，但痛苦交易仍是继续上涨，被低配的软件股接下来可能补涨。",
+     "candidates": [
+      "The PAIN TRADE Is Higher: Retail Margin Debt EXPLODES as Semis Go Parabolic",
+      "Citadel WARNS: Best Rally Since 1985 & Retail Is All-In on Chips",
+      "Stocks at Record Highs, But Software Is DEAD Money? (Rotation Coming)"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "极短模糊大写，B冒号堆数据像AI",
+     "thesis_score": 3,
+     "thesis_reason": "杠杆高但继续上涨、软件股补涨，论断基本一致",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "NlPaKVh3dng",
+   "upload_date": "20251027",
+   "topic": "特斯拉股价日内上涨，及其新车型传闻与Optimus机器人灵巧手的技术难题",
+   "real_title": "HOLY TESLA STOCK",
+   "real_thesis": "特斯拉今日大涨靠的是人形机器人的「挑逗性」叙事、新低价车传闻、散户保证金杠杆和技术面，而非基本面；人形机器人远未成熟，固定机械臂才赚钱。",
+   "real_thesis_type": "judge",
+   "real_title_thesis": "labels",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Tesla Just RIPPED 5% | 2 New Cars & the Optimus Problem",
+     "thesis": "特斯拉这波上涨靠的是新车传闻和散户情绪，Optimus灵巧手和电机耐久难题短期无解，机器人估值被严重透支。",
+     "candidates": [
+      "Tesla Just RIPPED 5% | 2 New Cars & the Optimus Problem",
+      "The TRUTH About Optimus' Hands [Elon Admits It]",
+      "Tesla's Robot Can Hand Out Gummies… That's NOT Enough"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "HOLY全大写短标题是频道习惯，A像摘要",
+     "thesis_score": 3,
+     "thesis_reason": "都认为上涨靠传闻和情绪而非基本面，机器人尚不成熟",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Tesla JUST Popped 5.7% | Optimus Hands are the PROBLEM",
+     "thesis": "新车型传闻推高特斯拉股价，但Optimus灵巧手和执行器耐久性离量产还很远，机器人估值叙事被高估，追高要谨慎。",
+     "candidates": [
+      "Tesla JUST Popped 5.7% | 2 New Models Coming?",
+      "Elon Admits Optimus Hands are a NIGHTMARE [Tesla Update]",
+      "Tesla's $25,000 Car & the Optimus PROBLEM | What it Means"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "“HOLY TESLA STOCK”口语惊叹典型Kevin风",
+     "thesis_score": 2,
+     "thesis_reason": "都认为机器人叙事不成熟，但真实强调多重非基本面驱动",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Tesla *JUST* Teased 2 New Cars… but Optimus has a Problem.",
+     "thesis": "特斯拉靠新车传闻大涨，但Optimus的灵巧手和电机耐久仍未解决，高杠杆散户押注机器人叙事，回调风险被低估。",
+     "candidates": [
+      "Tesla *JUST* Teased 2 New Cars… but Optimus has a Problem.",
+      "The Optimus Hand Problem & Tesla's Coming Moonshot.",
+      "Tesla Ripping on Robot Hype? [Full Details]"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "全大写极简标题符合风格，A套模板",
+     "thesis_score": 3,
+     "thesis_reason": "都认为大涨靠叙事和杠杆，机器人技术未成熟",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Tesla RIPS 5.7%: Two New Cars Coming? But Optimus Has a HAND Problem",
+     "thesis": "特斯拉股价上涨靠的是新车型传闻，但灵巧手和执行器还没解决，Optimus离规模化商用还远。",
+     "candidates": [
+      "Tesla RIPS 5.7%: Two New Cars Coming? But Optimus Has a HAND Problem",
+      "Tesla's Optimus Can Hand You Gummies… But Can It Work 1,000 Hours?",
+      "Tesla Pumps on New Model Hints — The Truth About Optimus Elon Won't Say"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "HOLY短句大写是频道典型写法",
+     "thesis_score": 2,
+     "thesis_reason": "都称非基本面且机器人不成熟，原因归纳较窄",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "yDRwxJE5uzo",
+   "upload_date": "20251225",
+   "topic": "财经博主Kevin列举2026年新手常见的15类理财与投资误区及对应做法",
+   "real_title": "Avoid these 15 NOOB Money Mistakes in 2026.",
+   "real_thesis": "新手理财的通病是买太大房、攀比消费、死守单一股票和乱装修；高手则靠小房换大房、分散持仓、备好HELOC、开副业来避坑增值。",
+   "real_thesis_type": "advise",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "15 Money Mistakes That Will Keep You BROKE in 2026",
+     "thesis": "2026年股市横盘或下跌概率约85%，新手与其追涨，不如靠逐步换房、低成本装修和提前开HELOC积累财富。",
+     "candidates": [
+      "15 Money Mistakes That Will Keep You BROKE in 2026",
+      "From Jamba Juice to Private Jet: Stop Doing THIS in 2026",
+      "Do THIS Before 2026 | The 85% Market Warning"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "NOOB用词与句号具个人风格，B较模板化",
+     "thesis_score": 2,
+     "thesis_reason": "建议有重叠，但仿写的重点是横盘预测，不是新手误区",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.143
+    },
+    "guide_v1": {
+     "title": "15 Money Mistakes to AVOID in 2026 [Jamba Juice to Jet]",
+     "thesis": "2026年股市横盘或下跌的概率约85%，新手应先避开15个误区：别追高、别过度装修、少攀比，用以小换大的阶梯购房积累财富。",
+     "candidates": [
+      "15 Money Mistakes to AVOID in 2026 [From Jamba Juice to Private Jet]",
+      "Don't Do THIS in 2026: 15 Costly Money Mistakes",
+      "How a $400,000 Starter Home Becomes $7 Million (Avoid These 15 Mistakes)"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "括号内古怪具体细节AI难以凭空编出",
+     "thesis_score": 2,
+     "thesis_reason": "都列新手误区与阶梯购房，仿写加入股市下跌预测，重点不同",
+     "attr_correct": true,
+     "copy_sim": 0.125,
+     "copy_nearest": "",
+     "real_overlap": 0.133
+    },
+    "guide_v2": {
+     "title": "From Jamba Juice to Private Jet: 15 Mistakes to AVOID in 2026",
+     "thesis": "2026年股市大概率横盘或下跌，新手最该防的是攀比消费和死守单一股票；逐级换房、控制装修、提前备好HELOC更能稳步积累财富。",
+     "candidates": [
+      "From Jamba Juice to Private Jet: 15 Mistakes to AVOID in 2026",
+      "15 Money Mistakes Beginners Make in 2026.",
+      "Don't Get Wrecked in 2026 | 15 Rookie Money Traps"
+     ],
+     "judge_correct": false,
+     "judge_conf": 4,
+     "judge_reason": "Jamba Juice等具体细节AI难以凭空编出",
+     "thesis_score": 3,
+     "thesis_reason": "避坑清单与建议基本一致，仿写仅多了市场判断",
+     "attr_correct": false,
+     "copy_sim": 0.056,
+     "copy_nearest": "",
+     "real_overlap": 0.059
+    },
+    "zero": {
+     "title": "From Jamba Juice to Private Jet: Stop Making These 15 Money Mistakes",
+     "thesis": "2026年股市大概率横盘或下跌，新手应少乱花钱，多靠阶梯换房、HELOC备用额度和副业抵税来积累财富。",
+     "candidates": [
+      "15 Money Mistakes That Will Keep You Broke in 2026",
+      "From Jamba Juice to Private Jet: Stop Making These 15 Money Mistakes",
+      "Don't Do These 15 Things With Your Money in 2026 (85% Chance Stocks Stall)"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "NOOB大写加年份句号，符合频道习惯",
+     "thesis_score": 2,
+     "thesis_reason": "建议部分重合，但仿写加入股市看空且缺避坑清单",
+     "attr_correct": false,
+     "copy_sim": 0.062,
+     "copy_nearest": "",
+     "real_overlap": 0.125
+    }
+   }
+  },
+  {
+   "id": "_yw4vrbJHUM",
+   "upload_date": "20260212",
+   "topic": "美国股市回调、短期融资市场异动与AI相关融资压力的相关数据",
+   "real_title": "The Financial System is SEIZING.",
+   "real_thesis": "美国金融体系正陷入现金枯竭：AI泡沫与私募信贷急需融资，强劲就业让高利率持续，沃什又不会救市，风险将持续暴露。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "A $23 BILLION Ghost Seller Just Hit the Market",
+     "thesis": "这轮回调不是普通调整，隔夜融资异动加上AI垃圾债融资堆积，正在酝酿一场需要美联储出手的流动性危机。",
+     "candidates": [
+      "A $23 BILLION Ghost Seller Just Hit the Market",
+      "The AI Debt Bomb is Ticking | Oracle CDS & Junk Bond Data Centers",
+      "wtf is happening in the Repo Market… watch BEFORE Tuesday"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "宏观恐慌句加句号符合风格，B数字钩子像仿写",
+     "thesis_score": 2,
+     "thesis_reason": "都看到流动性风险，但对美联储是否出手的判断相反",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "A $23 BILLION Ghost Seller JUST Hit the Market [Explained]",
+     "thesis": "这轮下跌不只是估值回调，而是隔夜融资异动加上AI垃圾债堆积引发的流动性压力；美联储不出手之前，散户抄底AI股还太早。",
+     "candidates": [
+      "A $23 BILLION Ghost Seller Just Hit the Market [Liquidity WARNING]",
+      "The AI Debt Bubble is CRACKING | Oracle CDS at 2008 Levels",
+      "Why Stocks are CRASHING: The Hidden Funding Crisis [Explained]"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "短句危机感符合频道，A像套路化仿写",
+     "thesis_score": 2,
+     "thesis_reason": "都指流动性压力与AI债务，美联储不救；仿写落到抄底建议",
+     "attr_correct": true,
+     "copy_sim": 0.077,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Yikes! A *Ghost Seller* just Hit the Market… | Get Ready.",
+     "thesis": "散户抄底创纪录，但幽灵卖家、AI垃圾债融资和甲骨文CDS高企暴露流动性裂缝；要么是买点，要么演变成需美联储救市的危机。",
+     "candidates": [
+      "Yikes! A *Ghost Seller* just Hit the Market… | Get Ready.",
+      "wtf...? ghost seller, AI junk bonds, Meta's auditor...",
+      "The Retail Dip-Buying Frenzy & Coming Liquidity Crunch."
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "简短惊悚陈述句更像真标题，B堆砌元素",
+     "thesis_score": 2,
+     "thesis_reason": "都指出流动性风险，但仿写两头下注，结论较弱",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "\"Ghost Seller\" Dumps $23 BILLION — Liquidity Crisis Brewing?",
+     "thesis": "隔夜融资市场异动叠加AI垃圾债融资，这轮回调可能演变成流动性危机，散户抄底为时过早。",
+     "candidates": [
+      "\"Ghost Seller\" Dumps $23 BILLION — Liquidity Crisis Brewing?",
+      "Something BROKE in the Repo Market… and AI Debt Is the Fuse",
+      "Retail Is Buying the Dip Like Never Before. That's the Problem."
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "简短惊恐带句号，A的引号加问句像AI",
+     "thesis_score": 2,
+     "thesis_reason": "都警告流动性风险，但成因与建议重点不同",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "gM7ZQaxQLls",
+   "upload_date": "20260518",
+   "topic": "马斯克诉OpenAI案陪审团裁决及其背景",
+   "real_title": "**JURY REACHES VERDICT ON ELON MUSK**",
+   "real_thesis": "马斯克输掉OpenAI官司是因为他自己也想营利化且迟迟才起诉，这场诉讼本是为xAI续命的孤注一掷，对SpaceX上市毫无影响。",
+   "real_thesis_type": "judge",
+   "real_title_thesis": "states",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Elon Just LOST to OpenAI | $130 Billion GONE",
+     "thesis": "马斯克败诉是咎由自取：他自己曾想把OpenAI变成营利公司，等到估值近万亿才起诉，陪审团自然不买账。",
+     "candidates": [
+      "Elon Just LOST to OpenAI | $130 Billion GONE",
+      "The Jury DESTROYED Musk's OpenAI Case [Here's Why]",
+      "Musk vs. Altman Verdict: The Real Winner is SpaceX"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "星号加粗全大写突发式少见，非AI惯用",
+     "thesis_score": 3,
+     "thesis_reason": "败诉原因一致：自己也想营利化且起诉太晚",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Elon JUST Lost His $130 Billion OpenAI Lawsuit | Here's What Happened",
+     "thesis": "马斯克败诉在意料之中：他自己早就想让OpenAI营利化，又拖到估值近万亿才起诉，陪审团不买账；真正的看点转向SpaceX IPO。",
+     "candidates": [
+      "Elon LOSES $130 Billion Lawsuit vs OpenAI | Here's What Happened",
+      "Full Breakdown: Why the Jury REJECTED Musk's OpenAI Case",
+      "Musk vs Altman Verdict JUST Dropped [Details]"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "星号加粗全大写新闻体是非常规真实格式",
+     "thesis_score": 2,
+     "thesis_reason": "败诉原因一致，但真实强调xAI续命与对SpaceX无影响",
+     "attr_correct": false,
+     "copy_sim": 0.077,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Elon *JUST* LOST vs. OpenAI… and the SpaceX Twist.",
+     "thesis": "马斯克败诉理所应当：他自己曾想把OpenAI并入特斯拉转营利，估值近万亿才起诉更站不住；他真正的筹码已转向SpaceX上市。",
+     "candidates": [
+      "Elon *JUST* LOST vs. OpenAI… and the SpaceX Twist.",
+      "The Musk Meltdown & SpaceX Moonshot.",
+      "Jury actually Exposes Elon's OpenAI Lawsuit [Full Details]"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "全大写突发新闻式符合风格，B套模板",
+     "thesis_score": 2,
+     "thesis_reason": "败诉原因一致，但对SpaceX上市的判断不同",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Elon LOSES: Jury Rejects $130 BILLION OpenAI Lawsuit",
+     "thesis": "马斯克败诉理所当然：他早年也推动营利化，直到OpenAI估值逼近万亿才起诉，可信度站不住。",
+     "candidates": [
+      "Elon LOSES: Jury Rejects $130 BILLION OpenAI Lawsuit",
+      "Musk vs OpenAI Verdict: Why Elon Got NOTHING",
+      "Elon Loses to Altman — Now the Real Fight Is the SpaceX IPO"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "悬念式大写不透露结果，B像AI的总结句",
+     "thesis_score": 2,
+     "thesis_reason": "败诉原因一致，缺xAI续命与SpaceX无影响",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "Od_WtuVn1T4",
+   "upload_date": "20260923",
+   "topic": "美债收益率单日大幅飙升、加息预期升温及其对美股估值的影响",
+   "real_title": "this is BAD... 5 rate hikes!!",
+   "real_thesis": "加息预期飙升主要由强劲经济数据和伊朗战事驱动，而非滞胀；除非伊朗达成协议，市场将承压，但逢低买入仍成立，只是应放慢节奏。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Bond Market *WARNING*: 5 Rate Hikes Now Priced In",
+     "thesis": "收益率飙升是经济过热、加息预期升温造成的，不是通胀失控，纳指离高点不到1%，估值至少还要被压掉6%-8%。",
+     "candidates": [
+      "The 10-Year Just Hit 5.13% | Highest Since 2007.",
+      "Bond Market *WARNING*: 5 Rate Hikes Now Priced In",
+      "This is REALLY BAD for Nvidia & Apple | Yields EXPLODE"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "小写口语加情绪化感叹是Kevin典型风格",
+     "thesis_score": 2,
+     "thesis_reason": "归因一致，但真实主张逢低买，仿写看估值再跌",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.182
+    },
+    "guide_v1": {
+     "title": "10-Year Yield JUST Hit 5.13% | Highest Since 2007 [WARNING]",
+     "thesis": "美债收益率飙升源于经济走强而非通胀失控，美股估值会被压低约6%至8%，但不至于崩盘，应等回调再分批买入。",
+     "candidates": [
+      "10-Year Yield JUST Hit 5.13% | Highest Since 2007 [WARNING]",
+      "Bond Market WARNS: 5 Rate Hikes Now Priced In [Explained]",
+      "Yields EXPLODE to 5.13% | What it Means for Your Stocks"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "小写加情绪化短句是频道惯用风格，A像套模板",
+     "thesis_score": 2,
+     "thesis_reason": "都认为经济强非滞胀、可分批买，仿写漏了伊朗主因",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Yikes! The Bond Market *JUST* Broke | Get Ready.",
+     "thesis": "收益率飙升源于经济走强而非通胀失控，但加息预期加上财政部回购失灵，会把科技股估值压低6%至8%，眼下应先防守",
+     "candidates": [
+      "Yikes! The Bond Market *JUST* Broke | Get Ready.",
+      "wtf...? 5% yields, rate HIKES, $100 oil...",
+      "The Bond Meltdown & Coming Tech Haircut."
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "具体的“5次加息”加小写口语，B是套路化的*JUST*",
+     "thesis_score": 2,
+     "thesis_reason": "成因判断一致，但真实主张逢低买入，仿写主张防守",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "10-Year Yield Hits 5.13% — Highest Since 2007. Market Now Prices 5 Rate HIKES.",
+     "thesis": "这次收益率飙升是强劲经济数据推动的，而不是通胀失控；它会压低估值，但只让苹果、英伟达回调约6%到8%，不是崩盘信号。",
+     "candidates": [
+      "10-Year Yield Hits 5.13% — Highest Since 2007. Market Now Prices 5 Rate HIKES.",
+      "BOND MARKET BREAKING: Rate Hike Odds EXPLODE to 66% for October",
+      "Yields Just Did Something We Haven't Seen Since 2007 | Here's What It Means for Nvidia & Apple"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "短促情绪化小写风格；B用破折号堆数据像AI",
+     "thesis_score": 2,
+     "thesis_reason": "都归因强劲数据非滞胀，但仿写漏了伊朗与逢低买入",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.118
+    }
+   }
+  },
+  {
+   "id": "fS3FBTg2utM",
+   "upload_date": "20260402",
+   "topic": "特朗普就伊朗战事发表全国讲话的内容及市场即时反应",
+   "real_title": "Trump MASSIVELY ESCALATES | THIS IS BAD",
+   "real_thesis": "特朗普讲话不是收尾而是升级信号:没有谈判顺利的表述、没有霍尔木兹方案,未来两三周美军将加大打击,市场偏空。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "Trump Just Signaled ESCALATION | What It Means for Oil & Stocks",
+     "thesis": "讲话没有提谈判，也没给霍尔木兹海峡方案，说明战事会升级而不是很快结束，油价和芯片股还会继续承压。",
+     "candidates": [
+      "Trump's Iran Speech: \"Back to the Stone Age\" | Oil & Stocks React",
+      "Trump Just Signaled ESCALATION | What It Means for Oil & Stocks",
+      "wtf did Trump just say… Hormuz, Uranium & the Market Drop"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "B的解释性副标题偏AI规整",
+     "thesis_score": 3,
+     "thesis_reason": "均判讲话无谈判无霍尔木兹方案，战事升级偏空",
+     "attr_correct": true,
+     "copy_sim": 0.143,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Trump JUST Declared Escalation on Iran | What it Means [Details]",
+     "thesis": "特朗普讲话释放的是未来两三周战事升级的信号，而非结束战争；霍尔木兹风险会让油价居高不下，科技股短期还要承压。",
+     "candidates": [
+      "Trump JUST Declared Escalation on Iran | What it Means [Details]",
+      "Trump's Iran Speech: Oil Hits $105 & Nasdaq DROPS",
+      "More Nervous After What Trump JUST Said About Iran"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "简短大写惊呼更像本人，B套用\"What it Means\"模板",
+     "thesis_score": 3,
+     "thesis_reason": "都判定讲话是两三周内升级信号，市场偏空",
+     "attr_correct": true,
+     "copy_sim": 0.077,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "a \"Stone Age\" is coming… this changes oil",
+     "thesis": "这次讲话是在为战事升级铺路，不是收尾；霍尔木兹方案和浓缩铀下落都没交代，油价还会涨，科技股短期偏空",
+     "candidates": [
+      "Trump's Iran Speech *JUST* Ended... Get Ready.",
+      "a \"Stone Age\" is coming… this changes oil",
+      "wtf...? Trump's Speech, $105 Oil, Hormuz, NATO..."
+     ],
+     "judge_correct": false,
+     "judge_conf": 4,
+     "judge_reason": "引用讲话里的“Stone Age”，细节具体，不像模板",
+     "thesis_score": 3,
+     "thesis_reason": "都认为讲话是升级信号、缺霍尔木兹方案、偏空",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "BREAKING: Trump Just Signaled ESCALATION. What He DIDN'T Say Matters More.",
+     "thesis": "这次讲话是在为战事升级铺路而非宣布结束，没有霍尔木兹方案和谈判进展，意味着油价和科技股短期还要承压。",
+     "candidates": [
+      "Trump's Iran Speech: \"Back to the Stone Age\" — Oil SPIKES, Nasdaq Drops",
+      "BREAKING: Trump Just Signaled ESCALATION. What He DIDN'T Say Matters More.",
+      "Trump Iran Address Reaction: 2-3 More Weeks of War & No Hormuz Plan"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "全大写夸张加竖线是频道惯用；B套路化",
+     "thesis_score": 3,
+     "thesis_reason": "同为升级信号、无霍尔木兹方案、市场承压",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "l0KQptcYYPM",
+   "upload_date": "20260904",
+   "topic": "特斯拉在德州奥斯汀举行Cybercab发布活动及其披露的信息",
+   "real_title": "The Tesla Cybercab Launch: Elon No Show'd. What we Know & Tesla Stock.",
+   "real_thesis": "Cybercab发布虽缺席马斯克、缺少定价和规模目标，令华尔街失望，但百万英里无人监督里程和真实上路表明技术可行，仍是值得肯定的缓慢推进。",
+   "real_thesis_type": "judge",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Tesla Cybercab Event: No Elon, No Price, No Numbers?",
+     "thesis": "Cybercab产品本身已经可以上路，但这场活动没给价格、利润率和规模化数字，摩根士丹利等着看的催化剂没有兑现。",
+     "candidates": [
+      "Tesla Cybercab Event: No Elon, No Price, No Numbers?",
+      "The *TRUTH* About Tesla's Cybercab Launch",
+      "Tesla Cybercab is HERE | What Wall Street Missed"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "No Show'd 口语化拼写更像真人",
+     "thesis_score": 2,
+     "thesis_reason": "都提催化剂落空，但真实整体肯定技术进展",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.118
+    },
+    "guide_v1": {
+     "title": "Tesla's Cybercab Event: NO Price, NO Numbers | Full Breakdown",
+     "thesis": "Cybercab产品本身已经可用，但发布会没给价格、规模和利润指引，令期待规模化的华尔街失望，短期难以推动特斯拉股价。",
+     "candidates": [
+      "Tesla's Cybercab Event: NO Price, NO Numbers | Full Breakdown",
+      "Tesla JUST Launched Cybercab in Austin | Here's What Happened",
+      "Cybercab Revealed: 125,000 Capacity but ZERO Guidance [Details]"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "\"No Show'd\"口语化，很有个人特色",
+     "thesis_score": 2,
+     "thesis_reason": "都说产品可行但华尔街失望，真实偏肯定，仿写偏看空",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Tesla's Cybercab *JUST* Launched... no price?",
+     "thesis": "Cybercab本身的设计扎实，但马斯克缺席，也没给价格、产量和利润指引，规模化故事仍是空白，短期撑不起股价",
+     "candidates": [
+      "Tesla's Cybercab *JUST* Launched... no price?",
+      "The Cybercab Event Nobody Showed Up For [Full Details]",
+      "Cybercab *JUST* OUT: Cool Car, Missing Numbers."
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "“Elon No Show'd”是口语化细节，B是套路",
+     "thesis_score": 1,
+     "thesis_reason": "真实总体肯定技术进展，仿写侧重撑不起股价",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Tesla Cybercab LAUNCH: What They Revealed & What They HID",
+     "thesis": "Cybercab产品本身很扎实，但这场活动没给价格、规模和利润率指引，没有回答华尔街最在意的规模化问题，短期难以推动股价。",
+     "candidates": [
+      "Tesla Cybercab Event: No Price, No Elon, No Numbers. Uh Oh.",
+      "Tesla Cybercab LAUNCH: What They Revealed & What They HID",
+      "I Read the Entire Cybercab Manual — Here's What Tesla Didn't Tell You"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "No Show'd口语怪词很真实；B揭秘句式像AI",
+     "thesis_score": 2,
+     "thesis_reason": "都提华尔街失望，但真实偏肯定技术，仿写偏利空",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.125
+    }
+   }
+  },
+  {
+   "id": "zFKIGXIKJM0",
+   "upload_date": "20260116",
+   "topic": "2026年1月中旬美联储主席人选、数据与地缘事件对美股及按揭类股票的影响",
+   "real_title": "Prepare.",
+   "real_thesis": "未来几周催化剂密集，多数是短期噪音可逢低买入，尤其按揭股；但沃什任美联储主席是长期隐患，市场应保持谨慎乐观。",
+   "real_thesis_type": "advise",
+   "real_title_thesis": "labels",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Trump Just KILLED Hassett's Fed Chair Odds | Warsh Surges",
+     "thesis": "沃什成为热门、降息周期又将暂停，按揭类股票的这波热度很可能在4月前就会退潮。",
+     "candidates": [
+      "Trump Just KILLED Hassett's Fed Chair Odds | Warsh Surges",
+      "Warsh Takes the Lead | Mortgage Stocks in Danger?",
+      "The Fed Chair Flip & What It Means for Stocks"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "单词极简标题符合频道风格，B信息过密",
+     "thesis_score": 1,
+     "thesis_reason": "真实建议买按揭股，仿写看其退潮，结论相左",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Trump JUST Killed Hassett's Fed Chair Chances | What it Means",
+     "thesis": "特朗普想留下哈塞特，主张加息的沃什胜算升至60%，降息预期将降温；一旦就业转强，按揭类股票的涨势会在4月后熄火。",
+     "candidates": [
+      "Warsh Odds JUST Jumped to 60% | Fed Chair Update [1-16]",
+      "Trump JUST Killed Hassett's Fed Chair Chances | What it Means",
+      "Mortgage Stocks WARNING: The Rally Ends After April"
+     ],
+     "judge_correct": true,
+     "judge_conf": 5,
+     "judge_reason": "单词加句号的标题，和\"Tesla's Crash.\"是一个路数",
+     "thesis_score": 1,
+     "thesis_reason": "真实主张逢低买按揭股，仿写称按揭股涨势将熄火",
+     "attr_correct": true,
+     "copy_sim": 0.077,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "wtf...? Hassett OUT, Warsh IN, mortgage stocks rip...",
+     "thesis": "沃什成为热门人选意味着鹰派风险上升；降息周期结束，MBS支撑4月后也会减弱，按揭股这波上涨只适合短炒，不宜长持",
+     "candidates": [
+      "wtf...? Hassett OUT, Warsh IN, mortgage stocks rip...",
+      "The Fed Chair Flip & Coming Rate Pause | Get Ready.",
+      "Trump *JUST* Benched Hassett [Details]."
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "极简的“Prepare.”符合近期风格，B像照着摘要堆细节",
+     "thesis_score": 2,
+     "thesis_reason": "都提沃什风险，但真实建议逢低买按揭股，仿写只宜短炒",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Hassett OUT? Warsh Odds SURGE to 60% — Why This Matters for Mortgage Stocks",
+     "thesis": "沃什成为美联储主席热门、降息即将暂停，加上MBS买入支撑4月后减弱，按揭类股票的这波热度很可能见顶。",
+     "candidates": [
+      "Hassett OUT? Warsh Odds SURGE to 60% — Why This Matters for Mortgage Stocks",
+      "Trump Just Changed the Fed Chair Race. Markets Aren't Ready.",
+      "The Next 2 Weeks Could Make or Break This Market | Warsh, Jobs & Tariff Ruling"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "单词加句号是频道经典；A破折号赔率像AI",
+     "thesis_score": 1,
+     "thesis_reason": "真实建议逢低买按揭股，仿写称按揭股见顶",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "AuYeB6tuWwU",
+   "upload_date": "20250725",
+   "topic": "美联储7月会议前后的利率预期、就业与通胀数据及下周科技企业财报",
+   "real_title": "this changes everything for stocks",
+   "real_thesis": "下周美联储不会降息，但就业稳定、中国输出通缩和财报强劲使美股仍偏多；走弱的就业数据才是9月降息的触发点。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "teases",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "Tariff Inflation Is HERE | 5.5% Core Goods & the Fed",
+     "thesis": "关税已经推高核心商品通胀，美联储7月不会降息；但就业不会崩，9月降息加上软着陆仍是最可能的路径。",
+     "candidates": [
+      "Trump Says Powell Told Him THIS | Rate Cut Odds Shift",
+      "Tariff Inflation Is HERE | 5.5% Core Goods & the Fed",
+      "Soft Landing or Jobs Collapse? Big Tech Earnings Next Week"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "小写模糊钩子是真实风格，A数据化偏AI",
+     "thesis_score": 2,
+     "thesis_reason": "都认近期不降息、9月降息，但重点和多空判断不同",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Tariff Inflation JUST Hit 5.5% | No Rate Cut in July [Explained]",
+     "thesis": "关税已推高核心商品通胀，美联储7月几乎不会降息，最早也要等到9月；经济会软着陆，下周科技财报前不必恐慌。",
+     "candidates": [
+      "Trump JUST Said Powell Told Him THIS | Fed Update [7-30]",
+      "Tariff Inflation JUST Hit 5.5% | No Rate Cut in July [Explained]",
+      "Why the Fed WON'T Cut Next Week | Big Tech Earnings Ahead"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "小写夸张句是频道常见写法，B数字过于具体",
+     "thesis_score": 2,
+     "thesis_reason": "都认为近期不降息、9月可能且不必悲观，因由不同",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Trump *JUST* Exposed Powell's Private Message.",
+     "thesis": "关税已经推高核心商品通胀，7月不会降息；9月能否降息取决于就业是否跌破盈亏平衡线，结局要么软着陆，要么突然转弱",
+     "candidates": [
+      "Trump *JUST* Exposed Powell's Private Message.",
+      "The Fed's Tariff Problem *JUST* Showed Up | Get Ready.",
+      "wtf...? Powell Leak, Tariff Inflation, Big Tech Earnings..."
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "B凭空加入特朗普私信，选题里没有",
+     "thesis_score": 2,
+     "thesis_reason": "都说不降息、9月看就业，仿写缺少美股偏多判断",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Massive Week Ahead: Fed Decision, Jobs Report & Microsoft, Meta Earnings",
+     "thesis": "关税通胀刚开始显现，但劳动力市场并未恶化，软着陆成立，美联储7月按兵不动，9月降息仍是大概率事件。",
+     "candidates": [
+      "Trump Says Powell Told Him the Economy Is GOOD — So Why No Rate Cut?",
+      "Tariff Inflation Is HERE: Core Goods at 5.5%. September Cut in Doubt?",
+      "Massive Week Ahead: Fed Decision, Jobs Report & Microsoft, Meta Earnings"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "小写模糊悬念式符合风格；B像新闻罗列",
+     "thesis_score": 2,
+     "thesis_reason": "都认为暂不降息、9月可能降，但重点与触发逻辑不同",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "mEidrCVPPv8",
+   "upload_date": "20250910",
+   "topic": "犹他谷大学活动中保守派评论员查理·柯克遭枪击的现场信息与早期报道",
+   "real_title": "Charlie Kirk is (probably) DEAD | JUST SHOT",
+   "real_thesis": "柯克是被远处步枪射中颈动脉的定点刺杀，伤势几乎不可能存活，且活动缺乏安保检查。",
+   "real_thesis_type": "judge",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Charlie Kirk SHOT at Utah Valley University | What We Know",
+     "thesis": "柯克遇袭是从远处建筑用步枪实施的预谋性定点枪击，绝非鸣枪庆祝；活动入口不设安检是明显的安保漏洞。",
+     "candidates": [
+      "Charlie Kirk SHOT at Utah Valley University | What We Know",
+      "What REALLY Happened at Utah Valley | Charlie Kirk Shooting",
+      "This Was NOT Celebratory Gunfire | Charlie Kirk Shot"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "probably括号口语化，AI不敢这么写",
+     "thesis_score": 3,
+     "thesis_reason": "都认定远程步枪预谋刺杀且安保缺失",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.071
+    },
+    "guide_v1": {
+     "title": "Charlie Kirk SHOT at Utah Valley University | What We Know",
+     "thesis": "从约200码外狙击颈部来看，这是一次蓄意的针对性枪击，不是鸣枪庆祝；入口不设安检是明显的安保漏洞。",
+     "candidates": [
+      "Charlie Kirk SHOT at Utah Valley University | What We Know",
+      "Charlie Kirk Shot from 200 Yards | Here's What Happened",
+      "BREAKING: Charlie Kirk Shot at 12:20 During Q&A [Details]"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "\"(probably)\"这种口语化写法，AI不太会这样仿",
+     "thesis_score": 3,
+     "thesis_reason": "都认定是远程定点刺杀且安保缺失",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.071
+    },
+    "guide_v2": {
+     "title": "Charlie Kirk *JUST* Shot at Utah Valley [Full Details]",
+     "thesis": "这是一次远距离、有预谋的针对性枪击，绝非媒体暗示的鸣枪庆祝；五名保镖却无入口安检、未控制高处，安保明显失职。",
+     "candidates": [
+      "Charlie Kirk *JUST* Shot at Utah Valley [Full Details]",
+      "wtf... Charlie Kirk shot, no security screening, suspect detained...",
+      "Charlie Kirk Shooting: This Was NOT Celebratory Fire."
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "“(probably) DEAD”过于大胆，AI一般不会这么写",
+     "thesis_score": 3,
+     "thesis_reason": "都认定远距离定点刺杀且安保缺失",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.167
+    },
+    "zero": {
+     "title": "BREAKING: Charlie Kirk Shot at Utah Valley University — What We Know",
+     "thesis": "从约200码外的步枪射击和入口没有安检来看，这是一起有预谋的定点刺杀，不是意外鸣枪，现场安保存在明显漏洞。",
+     "candidates": [
+      "BREAKING: Charlie Kirk Shot at Utah Valley University — What We Know",
+      "Charlie Kirk Shot: No Security Screening, 200-Yard Shot & the Suspect Video",
+      "Charlie Kirk Shooting: This Was Targeted — MSNBC Gets It Wrong"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "(probably)粗糙口语化真实；B规范新闻腔",
+     "thesis_score": 3,
+     "thesis_reason": "都认定远距步枪定点刺杀且安保缺失",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.067
+    }
+   }
+  },
+  {
+   "id": "lRDiB6qYoN0",
+   "upload_date": "20251120",
+   "topic": "英伟达10-Q披露的存货、投资担保、云支出承诺及应收账款等细节",
+   "real_title": "We just got Scammed | Stocks CRASH",
+   "real_thesis": "英伟达10-Q暴露了财报会上没说的隐忧：成品库存翻倍、循环投资、客户回款变慢，Jensen的“售罄”说法只是半真半假，AI泡沫风险上升。",
+   "real_thesis_type": "expose",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Nvidia's 10-Q Just EXPOSED What Jensen Didn't Say",
+     "thesis": "英伟达库存翻倍、为客户担保租赁、云支出承诺翻倍，说明AI需求越来越靠循环融资撑着，风险被财报电话会低估了。",
+     "candidates": [
+      "Nvidia's 10-Q Just EXPOSED What Jensen Didn't Say",
+      "The *TRUTH* in Nvidia's 10-Q | Inventory, Guarantees & Circular Money",
+      "Nvidia is Backstopping its Customers?! 10-Q Red Flags"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "夸张口语We just got Scammed更像真人",
+     "thesis_score": 3,
+     "thesis_reason": "都指库存翻倍、循环融资，风险被电话会掩盖",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Nvidia's 10-Q JUST Exposed a $26 Billion Problem",
+     "thesis": "英伟达10-Q里存货翻倍、260亿云采购承诺和替客户担保，说明AI需求靠循环融资撑着，短期纳指恐下探595。",
+     "candidates": [
+      "Nvidia's 10-Q JUST Exposed a $26 Billion Problem",
+      "What Nvidia HID in the 10-Q | Inventory Up 90% [Details]",
+      "WARNING: Nvidia's Circular AI Money Machine [Explained]"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "情绪化\"被骗\"加CRASH是频道风格，A像AI写的",
+     "thesis_score": 3,
+     "thesis_reason": "都指10-Q暴露库存翻倍与循环融资，AI风险上升",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "wtf... Nvidia inventory doubles, CoreWeave guarantee, OpenAI's auditor...?",
+     "thesis": "英伟达10-Q显示存货翻倍、为合作方担保、自己大买云服务，AI循环融资迹象正在加深；盈利照样超预期也不代表安全，思科当年泡沫破裂时也没有未达预期。",
+     "candidates": [
+      "Yikes! Nvidia's Hidden Filing WARNING *JUST* Out",
+      "wtf... Nvidia inventory doubles, CoreWeave guarantee, OpenAI's auditor...?",
+      "Nvidia's 10-Q Exposes the AI Money Loop."
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "B逐条复述选题要点，像AI写的；A是频道惯用的耸动风格",
+     "thesis_score": 3,
+     "thesis_reason": "都据10-Q指出库存翻倍、循环融资，泡沫风险上升",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Nvidia's 10-Q Just Revealed What Jensen Didn't Say",
+     "thesis": "英伟达存货翻倍、替合作方担保租约、云支出承诺翻倍，说明AI需求部分是自己出钱撑起来的循环融资，风险被低估了。",
+     "candidates": [
+      "Nvidia's 10-Q Just Revealed What Jensen Didn't Say",
+      "Uh Oh: Nvidia's Hidden 10-Q Details — Inventory Doubled & Debt Guarantees",
+      "Nvidia 10-Q Red Flags: $26B Cloud Commitments & the Cisco Warning"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "夸张情绪加竖线符合风格；B句式像AI仿写",
+     "thesis_score": 3,
+     "thesis_reason": "都指出库存翻倍、循环融资，风险被低估",
+     "attr_correct": true,
+     "copy_sim": 0.077,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "ImLNQWvwLus",
+   "upload_date": "20260921",
+   "topic": "美股反弹期间硬件股估值、利率预期与市场催化因素的数据梳理",
+   "real_title": "why stocks are skyrocketing [spoiler: it's just getting started]",
+   "real_thesis": "市场恐慌峰值已过，硬件股估值仍低，这轮上涨才刚开始；纳指有望年底破800，英伟达突破227后会上300。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "states",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "Nvidia is CHEAPER than AMD? | The Rally & Rate Hike Trap",
+     "thesis": "按PEG算英伟达比涨到近万亿的AMD更便宜，而5%的10年期美债收益率会像以往一样回落，反弹还没结束。",
+     "candidates": [
+      "AMD Near $1 Trillion & 5% Yields | 7 Market Signals to Watch",
+      "Hardware Stocks RIPPING but the Bond Market is Screaming",
+      "Nvidia is CHEAPER than AMD? | The Rally & Rate Hike Trap"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "小写加方括号spoiler是频道习惯",
+     "thesis_score": 2,
+     "thesis_reason": "都看反弹未完，但论据和标的重点不同",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Nvidia is CHEAPER than AMD | PEG of 0.65 [Explained]",
+     "thesis": "按PEG看英伟达只有0.65倍、比涨到万亿市值的AMD便宜得多，10年期收益率5%大概率见顶，硬件股回调可以买。",
+     "candidates": [
+      "Nvidia is CHEAPER than AMD | PEG of 0.65 [Explained]",
+      "Meta Up $146 Since My Call: What to Buy NEXT",
+      "Stocks RIPPING as Yields Hit 5% | What it Means"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "小写加方括号吐槽，符合频道调性",
+     "thesis_score": 2,
+     "thesis_reason": "都看多低估硬件股，真实强调上涨刚开始，仿写重回调买入",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "The AI Hardware Moonshot & Coming Debt Meltdown.",
+     "thesis": "硬件股反弹有出口和盈利支撑，英伟达按PEG比AMD便宜得多；但加息预期加上数据中心债券收益率升到11%，说明信贷才是唯一风险，应选低PEG、别追高负债股。",
+     "candidates": [
+      "The AI Hardware Moonshot & Coming Debt Meltdown.",
+      "wtf... AMD near $1 trillion, Meta rips, rate hikes coming...",
+      "Yikes! Data Center Bond WARNING *JUST* Out"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "A有选题外的“债务崩盘”信息，更像真人",
+     "thesis_score": 2,
+     "thesis_reason": "都看好硬件股，但仿写重点转向信贷风险和选股",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "AMD Near $1 Trillion — But Nvidia Is Half the Price?!",
+     "thesis": "按PEG算英伟达只有AMD的一半左右，又有10年期美债5%见顶回落作支撑，现在追AMD不如买英伟达和Meta。",
+     "candidates": [
+      "AMD Near $1 Trillion — But Nvidia Is Half the Price?!",
+      "Market Rips Higher: Why Nvidia & Meta Are Still Cheap",
+      "Rate Hikes Priced In, 10-Year at 5% — Buy the Rip?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "小写加方括号吐槽是频道习惯；A有破折号",
+     "thesis_score": 1,
+     "thesis_reason": "真实看整体上涨目标，仿写是英伟达对比AMD选股",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "92rolZINalg",
+   "upload_date": "20250918",
+   "topic": "美联储议息会议次日：关税诉讼时间表、利率、就业与劳动力数据",
+   "real_title": "Why Stocks will Rocket Higher.",
+   "real_thesis": "在10月初就业数据公布前没有利空催化剂，美联储中性、收益率上行不伤股市，纳指ETF将缓慢上涨至600美元。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "states",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "The Fed Just Went Neutral | Recession Signal Flashing",
+     "thesis": "领先指标衰退信号和长期失业增加并不意味着衰退已到，收益率曲线显示更像1995年式软着陆，QQQ仍会冲向600。",
+     "candidates": [
+      "The Fed Just Went Neutral | Recession Signal Flashing",
+      "Powell's Warning & the Tariff Supreme Court Timeline",
+      "The *TRUTH* About the Jobs Market After the Fed"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "简短句号结尾风格贴近频道",
+     "thesis_score": 2,
+     "thesis_reason": "结论同为QQQ至600，但理由完全不同",
+     "attr_correct": false,
+     "copy_sim": 0.167,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Recession WARNING Flashes as Powell Goes Neutral | What it Means",
+     "thesis": "领先指标和长期失业都在报警，但鲍威尔维持中性、利差未破软着陆区间，衰退未至，纳指仍可看向600美元。",
+     "candidates": [
+      "Recession WARNING Flashes as Powell Goes Neutral | What it Means",
+      "Powell JUST Flipped Neutral | Tariff Ruling Delayed to Summer",
+      "Leading Index CRASHES: Next Move Before October 3 Jobs Report"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "短句加句号是常见写法，A是模板化表述",
+     "thesis_score": 2,
+     "thesis_reason": "结论同为纳指看600，真实重无利空，仿写重未衰退",
+     "attr_correct": false,
+     "copy_sim": 0.077,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Yikes! Recession Signal *JUST* Flashed After the Fed",
+     "thesis": "鲍威尔装中性却承认下行风险，领先指标和长期失业都在报警，移民数据又没人核对；软着陆还是衰退要看10月就业数据，QQQ仍看600美元。",
+     "candidates": [
+      "Yikes! Recession Signal *JUST* Flashed After the Fed",
+      "The Fed's Neutral Bluff & Coming Jobs Test | Get Ready.",
+      "wtf... Fed goes neutral, tariffs to Supreme Court, recession index..."
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "B的“Yikes+*JUST*”是典型AI模仿模板",
+     "thesis_score": 2,
+     "thesis_reason": "同看QQQ到600，但真实称无利空，仿写强调衰退警讯",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Powell Went Neutral — My 10-Year Call Nailed It. Here's What's Next",
+     "thesis": "鲍威尔虽然中性，但长期失业上升、领先指标在跌，劳动力市场正在走弱，10月就业数据会逼美联储继续降息。",
+     "candidates": [
+      "Powell Went Neutral — My 10-Year Call Nailed It. Here's What's Next",
+      "Recession Signal Flashing After the Fed: Long-Term Unemployment Is Rising",
+      "Tariff Supreme Court Date Set + Fed Fallout: The October Timeline"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "短句加句号是惯用；B破折号自夸像AI",
+     "thesis_score": 0,
+     "thesis_reason": "真实称无利空缓涨，仿写强调劳动力走弱",
+     "attr_correct": true,
+     "copy_sim": 0.067,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "LoRq5ZfGUNE",
+   "upload_date": "20250714",
+   "topic": "印度航空171航班坠机后，多国监管机构和航司对波音燃油控制开关展开检查",
+   "real_title": "Air India 171: INSPECT *ALL* Boeing Planes NOW!",
+   "real_thesis": "2018年的咨询性通告本该促使航司检查燃油开关，却因非强制、为省钱被忽视；空难后各国才强制检查，应检查所有波音机型并让通告变强制。",
+   "real_thesis_type": "judge",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Why Airlines are SUDDENLY Inspecting Boeing Planes | Air India 171",
+     "thesis": "FAA在2018年只发咨询性公告而非强制检查是重大失误；美国监管若继续不跟进强制检查，就是在重复事后才补救的错误。",
+     "candidates": [
+      "Boeing's Fuel Switch Problem Just Went Global",
+      "Why Airlines are SUDDENLY Inspecting Boeing Planes | Air India 171",
+      "The FAA Warned About This in 2018 | Boeing Fuel Switches"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "*ALL*星号强调和命令语气是真实风格",
+     "thesis_score": 3,
+     "thesis_reason": "都批咨询性公告非强制是失误，应改强制检查",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.231
+    },
+    "guide_v1": {
+     "title": "Boeing's Fuel Switch WARNING Was Ignored Since 2018 | Air India 171 Update",
+     "thesis": "FAA在2018年只发了非强制的建议性公告，才让燃油开关锁片无人检查；多国已强制排查，美国却还在等下一次事故。",
+     "candidates": [
+      "Boeing's Fuel Switch WARNING Was Ignored Since 2018 | Air India 171 Update",
+      "DANGER: Airlines Worldwide Now Inspecting Boeing 787 Switches",
+      "Why the FAA Still Hasn't Acted on Boeing [Details]"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "*ALL*强调语气很口语，B像AI写的事实总结",
+     "thesis_score": 3,
+     "thesis_reason": "都归咎2018年非强制通告致未检查，应强制排查",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.125
+    },
+    "guide_v2": {
+     "title": "Boeing Switch Checks Go Global… but Not America?",
+     "thesis": "FAA在2018年只发了咨询性公告，印航因此没做检查，这是监管失职；多国已强制检查，美国却还在等下一次事故，真正原因可能永远查不清。",
+     "candidates": [
+      "Boeing Fuel Switch WARNING *JUST* Went Global",
+      "Boeing Switch Checks Go Global… but Not America?",
+      "Air India 171: The 2018 Warning Nobody Enforced."
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "A角度独特，B像模板化的命令式口号",
+     "thesis_score": 3,
+     "thesis_reason": "都指2018通告非强制致未检查，应强制检查",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Air India Crash: Airlines Worldwide Now Inspecting Boeing Fuel Switches",
+     "thesis": "各国航司纷纷强制检查燃油开关，美国却迟迟不动，说明FAA 2018年只发咨询性公告是个错误，监管又一次要等出事才补救。",
+     "candidates": [
+      "Air India Crash: Airlines Worldwide Now Inspecting Boeing Fuel Switches",
+      "Boeing's 2018 Warning Ignored? Fuel Switch Checks Spread Globally",
+      "Air India 171: Why Is the U.S. Not Inspecting Boeing Fuel Switches?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "星号强调和感叹号很个人化；A过于规范",
+     "thesis_score": 2,
+     "thesis_reason": "都批2018通告非强制，但仿写重点在美国滞后",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.067
+    }
+   }
+  }
+ ]
+}

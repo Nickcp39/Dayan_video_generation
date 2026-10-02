@@ -1,0 +1,1691 @@
+{
+ "key": "us_EconomicsExplained",
+ "systems": [
+  "fewshot",
+  "guide_v1",
+  "guide_v2",
+  "zero"
+ ],
+ "items": [
+  {
+   "id": "u4hZAMp25s4",
+   "upload_date": "20251110",
+   "topic": "2025年诺贝尔经济学奖得主及其创新驱动增长理论的内容",
+   "real_title": "The 2025 Nobel Prize in Economics: Explained",
+   "real_thesis": "持续增长不是常态：它依赖理解“为何有效”的知识和允许旧产业被淘汰的创造性破坏，AI时代需要保护知识产权、反垄断与社保缓冲。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "labels",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "The 2025 Nobel Prize in Economics Explained",
+     "thesis": "工业革命之所以发生，不是因为发明变多了，而是理论家和工匠开始真正互相交流；增长靠的是创造性破坏，而不是发明本身。",
+     "candidates": [
+      "The 2025 Nobel Prize in Economics Explained",
+      "Why the Romans Invented the Steam Engine and Did Nothing With It",
+      "The Nobel Prize That Explains Why We Got Rich"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "频道惯用“X: Explained”冒号格式",
+     "thesis_score": 2,
+     "thesis_reason": "都讲知识与创造性破坏，但仿写缺政策建议",
+     "attr_correct": true,
+     "copy_sim": 0.429,
+     "copy_nearest": "",
+     "real_overlap": 1.0
+    },
+    "guide_v1": {
+     "title": "Why Inventions Didn't Make the World Rich Until the Industrial Revolution",
+     "thesis": "工业革命前不缺发明，缺的是理论与工匠的结合、允许旧产业被淘汰的竞争；持续增长靠创造性破坏，而非单个发明。",
+     "candidates": [
+      "The 2025 Nobel Prize in Economics: Explained",
+      "Why Inventions Didn't Make the World Rich Until the Industrial Revolution",
+      "The Economics of Creative Destruction | Economics Explained"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "频道常用反直觉的历史角度，A像照选题直译",
+     "thesis_score": 2,
+     "thesis_reason": "都讲创造性破坏驱动增长，仿写缺AI时代政策主张",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Why Inventing Things Never Made Anyone Rich",
+     "thesis": "持续增长靠科学理解与适度竞争驱动的创造性破坏，代价是旧行业和工人被淘汰；有灵活保障兜底，增长才能延续。",
+     "candidates": [
+      "Why Inventing Things Never Made Anyone Rich",
+      "The Nobel Prize for Explaining Why We're Rich",
+      "How Blacksmiths and Philosophers Finally Met"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "频道惯用“: Explained”格式，B与创新增长主题相悖",
+     "thesis_score": 3,
+     "thesis_reason": "都讲知识加创造性破坏驱动增长，并需要保障兜底",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "The 2025 Nobel Prize in Economics Explained",
+     "thesis": "持续增长靠的不是发明，而是懂原理的科学与容得下创造性破坏的竞争制度；缺了任何一个，创新都只会昙花一现。",
+     "candidates": [
+      "The 2025 Nobel Prize in Economics Explained",
+      "Why Inventions Didn't Make Anyone Rich (Until 1760)",
+      "The Nobel Prize Winning Theory That Explains Nvidia"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "带冒号的“: Explained”和频道以前的标题格式一致",
+     "thesis_score": 3,
+     "thesis_reason": "都说增长依赖原理知识与创造性破坏",
+     "attr_correct": true,
+     "copy_sim": 0.429,
+     "copy_nearest": "",
+     "real_overlap": 1.0
+    }
+   }
+  },
+  {
+   "id": "NxCfacrnbFU",
+   "upload_date": "20250525",
+   "topic": "全球债务高企与美中关税背景下，衰退的定义、成因及其对经济的影响",
+   "real_title": "Is This the Recession the US Needs to Have?",
+   "real_thesis": "衰退确有清理低效资源的功能，但靠关税主动制造衰退如同用昏迷治头痛：打击无差别、侵蚀信心、加重债务风险，且最伤月光族。",
+   "real_thesis_type": "judge",
+   "real_title_thesis": "asks",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Are We Already in a Recession?",
+     "thesis": "受关税不确定性拖累，多数发达经济体很可能已经陷入衰退，只是统计数据还没确认；而全球高企的债务会让这次衰退格外难熬。",
+     "candidates": [
+      "Are We Already in a Recession?",
+      "What Actually Happens in a Recession | Economics Explained",
+      "The $315 Trillion Problem That Makes the Next Recession Different"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "反直觉设问更像频道风格，A过于泛泛",
+     "thesis_score": 1,
+     "thesis_reason": "真实批关税制造衰退，仿写判断已陷衰退",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Is the World Already in a Recession? | Economics Explained",
+     "thesis": "发达经济体可能已悄然陷入衰退；衰退虽能出清错配，但在高债务与关税乱局下，代价主要由没有储蓄缓冲的工薪族承担。",
+     "candidates": [
+      "Is the World Already in a Recession? | Economics Explained",
+      "Why $315 Trillion of Debt Makes This Recession Different",
+      "Something Is Quietly Breaking in the Global Economy"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "带频道后缀且贴合全球视角，B偏离选题",
+     "thesis_score": 2,
+     "thesis_reason": "都说代价落在无储蓄者，但真实重点是反对用关税制造衰退",
+     "attr_correct": true,
+     "copy_sim": 0.154,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "The Recession Nobody Will Confirm for a Year",
+     "thesis": "关税不确定性让多数发达经济体可能已陷衰退；高债务下代价落在无缓冲的工薪族，严重程度取决于贸易政策能否尽快明朗。",
+     "candidates": [
+      "The Recession Nobody Will Confirm for a Year",
+      "Why Recessions Hit Paychecks Harder Than Portfolios",
+      "Are We Already in a Recession?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "化用澳洲“需要的衰退”典故，符合频道背景",
+     "thesis_score": 1,
+     "thesis_reason": "真实批评主动制造衰退，仿写是判断衰退已到",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.071
+    },
+    "zero": {
+     "title": "Are We Already In A Recession?",
+     "thesis": "关税不确定性很可能已经让发达经济体陷入衰退，而这次衰退清理不了什么坏账泡沫，只会让靠工资度日的人付出代价。",
+     "candidates": [
+      "Are We Already In A Recession?",
+      "What Actually Happens In A Recession?",
+      "Why Recessions Are Necessary (And Why This One Isn't)"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "“需要的衰退”角度更有个性，A太泛",
+     "thesis_score": 2,
+     "thesis_reason": "都批关税致衰退伤工薪族，重点不同",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "Nb9uJD-XDVQ",
+   "upload_date": "20260222",
+   "topic": "芬兰失业率升至欧洲最高的成因，以及失业率与就业率同时上升的统计原因",
+   "real_title": "Finland's Happy Little Economic Crisis",
+   "real_thesis": "芬兰高失业源于建筑业崩盘、对俄贸易中断、人才外流和福利抑制就业；就业与失业同升是劳动力扩张的统计效应，强大安全网与坚韧文化让国民不恐慌。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "The Happiest Country in the World Has Europe's Worst Unemployment",
+     "thesis": "芬兰欧洲最高的失业率主要是周期性冲击加上劳动力扩张造成的统计假象，而不是经济结构性崩溃。",
+     "candidates": [
+      "The Happiest Country in the World Has Europe's Worst Unemployment",
+      "Why Finland's Unemployment and Employment Are Both Rising",
+      "What Is Going Wrong in Finland? | Economics Explained"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "“Happy Little”调侃式措辞像频道手笔",
+     "thesis_score": 2,
+     "thesis_reason": "仿写强调统计假象，忽略结构原因和安全网",
+     "attr_correct": true,
+     "copy_sim": 0.077,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Why the Happiest Country in Europe Has Its Highest Unemployment",
+     "thesis": "芬兰高失业并非经济崩溃：就业人数也在增长，失业率主要被移民和求职新规扩大的劳动力推高，叠加建筑与对俄贸易的暂时冲击。",
+     "candidates": [
+      "Why the Happiest Country in Europe Has Its Highest Unemployment",
+      "The Struggling Economy of Finland | Economics Explained",
+      "Finland's Unemployment Crisis Isn't What It Seems"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "俏皮短标题像频道风格，A过于解释性",
+     "thesis_score": 2,
+     "thesis_reason": "原因大体重合，仿写以劳动力扩张为主，缺安全网论点",
+     "attr_correct": true,
+     "copy_sim": 0.067,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Why the Happiest Country Has Europe's Worst Unemployment",
+     "thesis": "建筑泡沫破裂、对俄断联和劳动力扩张叠加推高芬兰失业率，福利退坡又削弱就业激励；但就业人数仍在增长，属周期性冲击，可逐步恢复。",
+     "candidates": [
+      "Why the Happiest Country Has Europe's Worst Unemployment",
+      "Finland's Unemployment Problem (Isn't What It Looks Like)",
+      "How Finland Got Hit From Every Direction at Once"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "俏皮反讽短标题符合频道风格，B过于贴合选题",
+     "thesis_score": 2,
+     "thesis_reason": "成因一致，但真实重在统计效应和国民不慌",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Why The Happiest Country On Earth Has Europe's Worst Unemployment",
+     "thesis": "芬兰10.6%的失业率在很大程度上是统计假象：劳动力扩张快于岗位增长，而不是经济崩溃，就业人数其实已超疫情前。",
+     "candidates": [
+      "Why The Happiest Country On Earth Has Europe's Worst Unemployment",
+      "The Finland Paradox: More Jobs AND More Unemployed",
+      "What Is Going On With Finland's Economy?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "“Happy Little”用得俏皮，B像AI写的解释句",
+     "thesis_score": 2,
+     "thesis_reason": "仿写只抓统计效应，漏掉结构性原因",
+     "attr_correct": true,
+     "copy_sim": 0.077,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "fhErhFyyCno",
+   "upload_date": "20260214",
+   "topic": "发达经济体单身与独居人口上升，及独居在住房、消费、保险等方面的额外成本",
+   "real_title": "How Economics Has Changed Dating",
+   "real_thesis": "现代经济体制按两人同住设计，独居者在住房、保险、福利和约会上被隐性加税；只有独居不滑向孤独，独立才不会变成经济陷阱。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "labels",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "The Hidden Cost of Being Single",
+     "thesis": "现代经济体系仍然是按夫妻和多人家庭来设计的，所以独居者在住房、消费和保险上被系统性地多收了一大笔钱。",
+     "candidates": [
+      "The Hidden Cost of Being Single",
+      "Why Living Alone Is Getting So Expensive | Economics Explained",
+      "The Economics of Loneliness"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "A紧扣独居成本，B偏离选题",
+     "thesis_score": 3,
+     "thesis_reason": "核心均为体系按双人设计致独居者多付钱",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Why Being Single Is Becoming a Luxury",
+     "thesis": "独居增多源于女性经济独立，但住房、保险、福利和规模经济仍按多人家庭设计，使单身变成每年多付数千美元的奢侈选择。",
+     "candidates": [
+      "Why Being Single Is Becoming a Luxury",
+      "The Hidden Economics of Living Alone | Economics Explained",
+      "How Living Alone Costs Americans $7,100 a Year"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "B太贴合选题像仿写，A角度更宽泛",
+     "thesis_score": 3,
+     "thesis_reason": "核心都是制度按多人家庭设计，使独居者隐性多付钱",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "The Hidden Tax on Living Alone",
+     "thesis": "女性经济独立让独居成为可能，但住房、保险和规模经济仍按家庭设计，单身者被隐性加价；增加小户型供给和社会支持可部分缓解。",
+     "candidates": [
+      "The Hidden Tax on Living Alone",
+      "Why Being Single Is Getting So Expensive",
+      "Rent, Insurance and... Bulk Toilet Paper? The Cost of Being Single"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "真实标题常比内容更宽泛，B像据选题仿写",
+     "thesis_score": 2,
+     "thesis_reason": "隐性加税一致，结论一个讲孤独，一个讲政策",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "The Economics of Being Single",
+     "thesis": "现代经济的住房、保险和福利都按伴侣家庭设计，单身因此成了一种隐性重税，越来越多人在为独立付出昂贵代价。",
+     "candidates": [
+      "The Economics of Being Single",
+      "The Hidden Cost of Living Alone",
+      "Why Being Single Is So Expensive"
+     ],
+     "judge_correct": false,
+     "judge_conf": 4,
+     "judge_reason": "套用频道惯用的“The Economics of”，B偏离选题",
+     "thesis_score": 3,
+     "thesis_reason": "核心都是制度按伴侣设计、单身被隐性加税",
+     "attr_correct": false,
+     "copy_sim": 0.25,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "rqlDPfdXQOk",
+   "upload_date": "20260927",
+   "topic": "欧洲国防开支快速上升的背景、对经济增长的影响与机会成本",
+   "real_title": "Why Europe's GDP Growth Is Crippling Its Economy",
+   "real_thesis": "军费对欧洲经济只是短期有限的刺激、长期增长效应很弱，因为乘数低于1、支出偏消费且大量外流；GDP也不是衡量重整军备值不值的正确标尺。",
+   "real_thesis_type": "judge",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Can Guns Save Europe's Economy?",
+     "thesis": "按现在偏重人员开支、依赖进口的结构，欧洲国防支出暴增几乎带不动经济增长，机会成本远超收益。",
+     "candidates": [
+      "Can Guns Save Europe's Economy?",
+      "Europe Is Rearming. It Won't Fix Its Economy",
+      "The Hidden Cost of Europe's Defense Boom"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "A表述自相矛盾，B大炮黄油设问更自然",
+     "thesis_score": 3,
+     "thesis_reason": "都认为结构原因使军费难带动增长",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Why Europe's Defence Boom Won't Fix Its Economy",
+     "thesis": "欧洲扩军难以拉动增长：七成预算是人员和运维，近八成采购流向美国，乘数仅约0.2；不转向研发和本土采购，就只是挤占基建。",
+     "candidates": [
+      "Why Europe's Defence Boom Won't Fix Its Economy",
+      "Can Europe Spend Its Way to Growth With Tanks?",
+      "The Economics of Rearming Europe | Economics Explained"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "反常识表述像真实标题，A直接复述选题",
+     "thesis_score": 3,
+     "thesis_reason": "都认为军费乘数低、资金外流，对增长拉动很弱",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.167
+    },
+    "guide_v2": {
+     "title": "The Problem With Europe's Military Spending Spree",
+     "thesis": "欧洲增军费出于安全需要，但钱多花在人员运营、采购又流向海外，刺激效果很弱；只有转向本土研发和军民两用，才可能带动增长。",
+     "candidates": [
+      "The Problem With Europe's Military Spending Spree",
+      "Guns, Bridges and... Growth?",
+      "Why Europe's Defence Boom Won't Fix Its Economy"
+     ],
+     "judge_correct": false,
+     "judge_conf": 4,
+     "judge_reason": "B逻辑别扭，A为频道常见“The Problem With”句式",
+     "thesis_score": 2,
+     "thesis_reason": "都说刺激很弱，但后续落点不同",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Will Defence Spending Save Europe's Economy?",
+     "thesis": "按现有以人员和外购为主的结构，欧洲激增的国防开支几乎拉不动经济，乘数仅约0.2，远不如投向基建和研发。",
+     "candidates": [
+      "Can Europe Afford To Rearm?",
+      "Will Defence Spending Save Europe's Economy?",
+      "The Real Cost of Europe's Military Buildup"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "反直觉的悖论式标题像人写的，B过于平稳",
+     "thesis_score": 3,
+     "thesis_reason": "都认为军费乘数低、拉动经济很弱",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "GK4cVoqVQsk",
+   "upload_date": "20250420",
+   "topic": "中国经济增速放缓、债务规模与官方数据可靠性的背景梳理",
+   "real_title": "Everything You Need to Know About China’s Ruthless Economy",
+   "real_thesis": "中国经济正陷入增速放缓、隐性债务高企和数据失真的困境，但不会崩溃，更可能走向缓慢稳定的衰退。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "China Has a $52 Trillion Problem Nobody Wants to Talk About",
+     "thesis": "中国真实债务可能超过GDP的300%，加上通缩、人口下降和数据造假，中国很可能陷入比日本更糟的长期停滞。",
+     "candidates": [
+      "China's Economy Is in Far Worse Shape Than It Looks",
+      "China Has a $52 Trillion Problem Nobody Wants to Talk About",
+      "Is China About to Become the Next Japan?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "概览式标题契合背景梳理，B数字钩子像仿写",
+     "thesis_score": 1,
+     "thesis_reason": "真实称缓慢稳定衰退，仿写称比日本更糟",
+     "attr_correct": true,
+     "copy_sim": 0.071,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Can China Avoid Becoming The Next Japan?",
+     "thesis": "中国真正的危险不是增速降到5%，而是按10%增长预期借下的300%债务；叠加人口下降和失真数据，它比日本更难脱身。",
+     "candidates": [
+      "China's Real Problem Isn't Slow Growth, It's 300% Debt",
+      "Can China Avoid Becoming The Next Japan?",
+      "Why China's Debt Crisis Is Worse Than The Official Numbers"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "弯引号和“Everything You Need to Know”属频道惯用",
+     "thesis_score": 2,
+     "thesis_reason": "都指出债务和数据问题，但真实强调不会崩溃、只会缓慢衰退",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "The End of China's Growth Miracle",
+     "thesis": "中国靠高增长预期举债造城投资，如今增速减半、人口下降、通缩叠加300%债务；未必重演日本，但取决于能否认坏账、转向消费。",
+     "candidates": [
+      "The End of China's Growth Miracle",
+      "Why China's 5% Growth Is a Problem",
+      "China's Debt Was Built for a Different Economy"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "弯引号与夸张措辞像人工发布，A过于套路",
+     "thesis_score": 2,
+     "thesis_reason": "真实断言缓慢衰退，仿写说结果有条件",
+     "attr_correct": true,
+     "copy_sim": 0.111,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "China's 300% Debt Problem Is Bigger Than Anyone Admits",
+     "thesis": "把地方和国企债务算进去，中国总债务接近GDP的300%以上，5%增速撑不起这些债，停滞风险比日本当年更大",
+     "candidates": [
+      "China's 300% Debt Problem Is Bigger Than Anyone Admits",
+      "Is China About to Repeat Japan's Lost Decades?",
+      "The Real Reason China's Economic Miracle Is Ending"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "B的具体数字加“没人承认”是典型AI写法",
+     "thesis_score": 2,
+     "thesis_reason": "方向一致，但仿写的停滞风险判断更强",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "6gSfq7kGZhE",
+   "upload_date": "20260602",
+   "topic": "伊朗战争进入第三个月，战前及战时伊朗经济状况与制裁、军费、货币、OPEC变化",
+   "real_title": "Iran's Economy Was Collapsing … And Then The War Started",
+   "real_thesis": "伊朗虽能以廉价非对称手段让世界付出更大代价，但民生经济与军事体系相互割裂且早已衰弱，粮水电油会先于无人机耗尽，战争的倒计时对其不利。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Iran Was Broke Before the War Even Started",
+     "thesis": "伊朗经济早已被制裁、bonyad和腐败掏空，战争只是加速崩溃，而它已无力维持一场持久的消耗战。",
+     "candidates": [
+      "The Collapsing Economy of Iran | Economics Explained",
+      "How Long Can Iran's Economy Survive This War?",
+      "Iran Was Broke Before the War Even Started"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "省略号转折带人工随意感",
+     "thesis_score": 3,
+     "thesis_reason": "都认为伊朗经济衰弱难撑持久战",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.071
+    },
+    "guide_v1": {
+     "title": "Iran Was Losing The Economic War Long Before The Bombs",
+     "thesis": "拖垮伊朗经济的不是这场战争，而是bonyad垄断、腐败和水电管理失败；战争和制裁只是让早已存在的崩溃加速。",
+     "candidates": [
+      "The Collapsing Economy of Iran | Economics Explained",
+      "Iran Was Losing The Economic War Long Before The Bombs",
+      "How Long Can Iran's Economy Survive This War?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "带空格省略号的悬念句式像真实标题",
+     "thesis_score": 2,
+     "thesis_reason": "都说经济早已衰弱，真实重点是战争时间对伊朗不利",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "How Iran's Economy Was Broken Before the War",
+     "thesis": "伊朗靠中国买油和廉价无人机撑住战争，但制裁、bonyad和水电危机早已掏空经济；能撑多久取决于里亚尔先崩还是对手先撤。",
+     "candidates": [
+      "How Iran's Economy Was Broken Before the War",
+      "Iran's Economy Is Running on Empty",
+      "Cheap Drones, Collapsing Rial: Iran's War Economy"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "省略号转折制造悬念，带人工排版痕迹",
+     "thesis_score": 2,
+     "thesis_reason": "都说经济被掏空，真实断言时间对伊朗不利",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.25
+    },
+    "zero": {
+     "title": "How Long Can Iran's Economy Survive This War?",
+     "thesis": "伊朗经济在开战前就已被制裁、腐败和bonyad掏空，战争只会加速崩溃，打持久战它撑不了多久",
+     "candidates": [
+      "Iran's Economy Was Already Broken Before the War",
+      "How Long Can Iran's Economy Survive This War?",
+      "The $20,000 Drone Economy: How Iran Is Paying for War"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "省略号制造转折，是人写标题的习惯",
+     "thesis_score": 2,
+     "thesis_reason": "都说伊朗撑不了持久战，但成因重点不同",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.071
+    }
+   }
+  },
+  {
+   "id": "b665H_Tywg0",
+   "upload_date": "20260629",
+   "topic": "全球净财富规模、构成、归属及其与GDP增速背离的数据梳理",
+   "real_title": "Why Is the World In So Much Debt",
+   "real_thesis": "全球财富增长主要靠资产涨价和债务堆出的纸面财富而非生产性投资，与GDP严重脱节，存在资产重估风险，应对不生产的资产征税以引导投资。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "asks",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "The World Got $400 Trillion Richer Without Producing Much More",
+     "thesis": "2000年以来全球财富暴涨主要来自低利率推高的房价等资产价格，而非真实生产，这种财富是脆弱且分配不均的。",
+     "candidates": [
+      "The World Is Worth $600 Trillion. Where Did It All Come From?",
+      "The World Got $400 Trillion Richer Without Producing Much More",
+      "Why Global Wealth Is Growing Way Faster Than the Economy"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "缺问号且角度偏移，像人工所写",
+     "thesis_score": 2,
+     "thesis_reason": "都指资产涨价非生产，仿写缺征税建议",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.067
+    },
+    "guide_v1": {
+     "title": "Why Global Wealth Is Growing Faster Than The Economy | Economics Explained",
+     "thesis": "2000年后全球财富翻了四倍，但主要靠低利率推高房价等资产价格，而非真实投资；这是估值膨胀，不是生产力增长，迟早要回调。",
+     "candidates": [
+      "Where Did $600 Trillion Of Wealth Actually Come From?",
+      "The World Isn't Getting Richer, Assets Are Just Getting Pricier",
+      "Why Global Wealth Is Growing Faster Than The Economy | Economics Explained"
+     ],
+     "judge_correct": false,
+     "judge_conf": 4,
+     "judge_reason": "带频道后缀且切题，B讲债务偏离选题",
+     "thesis_score": 3,
+     "thesis_reason": "都说财富靠资产涨价而非生产性投资，存在回调风险",
+     "attr_correct": true,
+     "copy_sim": 0.067,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Why the World Is Richer Than Its Economy",
+     "thesis": "全球财富翻倍主要靠低利率推高房价而非生产投资；这加剧了不平等和债务依赖，温和征土地税比让资产急跌更可能平稳消化。",
+     "candidates": [
+      "Why the World Is Richer Than Its Economy",
+      "Where Did $600 Trillion of Wealth Come From?",
+      "The World Got Rich by Doing… Nothing?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "缺问号且大小写随意，A过于贴合选题",
+     "thesis_score": 3,
+     "thesis_reason": "都说财富靠资产涨价，主张对资产征税",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.077
+    },
+    "zero": {
+     "title": "The World Is Worth $600 Trillion. Most of It Isn't Real",
+     "thesis": "2000年来全球财富暴涨主要靠低利率推高房价等资产价格，而非真实投资，这种背离迟早会以资产价格回调收场",
+     "candidates": [
+      "The World Is Worth $600 Trillion. Most of It Isn't Real",
+      "Why Global Wealth Is Growing Way Faster Than the Economy",
+      "Where Did $600 Trillion of Wealth Actually Come From?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "缺问号显得随意像人写，B是AI式数字钩子",
+     "thesis_score": 2,
+     "thesis_reason": "都说财富脱离真实投资，但政策建议不同",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.062
+    }
+   }
+  },
+  {
+   "id": "rId69udDbwM",
+   "upload_date": "20260515",
+   "topic": "伊朗战争背景下俄罗斯与中国各自的经济处境、所得与成本",
+   "real_title": "No One Is Talking About the \"Winners\" of the Iran War",
+   "real_thesis": "伊朗战争让俄罗斯赢得喘息的时间与资金,让中国借人民币结算和绿色出口加速布局;两国都缺乏尽快结束冲突的动力,这使和平更难达成。",
+   "real_thesis_type": "expose",
+   "real_title_thesis": "teases",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "Why the Iran War Is Great for Russia and Terrible for China",
+     "thesis": "伊朗战争推高油价让俄罗斯成为最大赢家，而作为最大能源进口国的中国付出的代价远超其人民币结算的收益。",
+     "candidates": [
+      "Russia and China Are Quietly Winning the Iran War",
+      "Who Actually Profits From the War in Iran?",
+      "Why the Iran War Is Great for Russia and Terrible for China"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "具体对比俄中，B为套路化钩子",
+     "thesis_score": 1,
+     "thesis_reason": "真实称中俄皆获益，仿写称中国受损",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.105
+    },
+    "guide_v1": {
+     "title": "Why Russia Profits From Iran's War While China Pays",
+     "thesis": "伊朗战争的赢家不是挑战美元的中国：俄罗斯靠油价上涨和制裁放松拿到短期收入，作为最大能源进口国的中国承担了大部分成本。",
+     "candidates": [
+      "Is Russia Actually Winning The Iran War?",
+      "Why Russia Profits From Iran's War While China Pays",
+      "Is China Really The Winner Of The Iran War?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "“No One Is Talking About”式钓鱼像真人，A太工整",
+     "thesis_score": 0,
+     "thesis_reason": "真实认为中俄都受益，仿写认为中国承担成本，论断相反",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Russia, China and… the Petroyuan?",
+     "thesis": "高油价和制裁松动让俄罗斯成了伊朗战争的短期赢家，中国却付出双倍能源账；人民币结油难撼美元，双方所得至多是对冲。",
+     "candidates": [
+      "How Russia Quietly Profits From Iran's War",
+      "Russia, China and… the Petroyuan?",
+      "Why Iran's War Is Russia's Gift and China's Bill"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "省略号加新词Petroyuan，风格独特不像仿写",
+     "thesis_score": 1,
+     "thesis_reason": "真实说中俄都得利，仿写说中国吃亏",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Russia Is Winning the Iran War. China Is Paying for It",
+     "thesis": "伊朗战争推高油价、松动制裁，让俄罗斯成为短期赢家；中国作为最大能源进口国，人民币结算的好处远抵不上成本",
+     "candidates": [
+      "Russia Is Winning the Iran War. China Is Paying for It",
+      "Who Actually Profits From the Iran War? Russia vs China",
+      "The Iran War Is a Gift to Russia and a Trap for China"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "引号里的“Winners”有讽刺意味，B对仗太工整",
+     "thesis_score": 0,
+     "thesis_reason": "对中国是否受益判断相反",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.111
+    }
+   }
+  },
+  {
+   "id": "gjq024RqV3o",
+   "upload_date": "20260125",
+   "topic": "发达国家教师与医生短缺的成因、移民补缺的局限及其经济影响",
+   "real_title": "Why Essential Workers Are Going Extinct",
+   "real_thesis": "发达国家教师医生短缺源于老龄化、低生育与培养周期长、激励不足；靠移民补缺只是转移短缺、留不住人，必须靠国内培养与改善待遇才能根治。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "Why Rich Countries Are Running Out of Doctors and Teachers",
+     "thesis": "发达国家靠移民填补教师医生缺口只是把问题转嫁给穷国，唯有提高薪酬并扩大本土培训才能真正解决短缺。",
+     "candidates": [
+      "Why Rich Countries Are Running Out of Doctors and Teachers",
+      "The Global Doctor Shortage Is Getting Much Worse",
+      "Rich Countries Can't Just Import Their Way Out of This Shortage"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "“Going Extinct”夸张比喻更像频道风格",
+     "thesis_score": 3,
+     "thesis_reason": "都认为移民只是转嫁，需本土培养提薪",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Why Rich Countries Are Running Out Of Doctors And Teachers",
+     "thesis": "发达国家缺医生和教师，根源是薪酬封顶、培养周期太长和人口老龄化；移民只能把缺口转嫁给穷国，只有长期扩大培养才能真正解决。",
+     "candidates": [
+      "Why Rich Countries Are Running Out Of Doctors And Teachers",
+      "Immigration Won't Fix The Doctor Shortage",
+      "The Hidden Cost Of Importing Doctors | Economics Explained"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "“Going Extinct”夸张修辞像频道，B直述选题",
+     "thesis_score": 3,
+     "thesis_reason": "原因与结论一致：移民只是转移缺口，须靠国内培养",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "The Problem With Importing Doctors",
+     "thesis": "教师医生短缺源于老龄化和相对低薪；挖穷国人才只是转嫁代价，像葡萄牙那样扩招提薪才是出路，但要十年才见效。",
+     "candidates": [
+      "The Problem With Importing Doctors",
+      "Why Rich Countries Ran Out of Teachers and Doctors",
+      "Revenge of the Underpaid Professions"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "真实标题聚焦单一切入点，B概括性过强",
+     "thesis_score": 3,
+     "thesis_reason": "都说靠移民补缺只是转嫁，要靠本国培养加提薪",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Why Rich Countries Are Running Out of Doctors and Teachers",
+     "thesis": "发达国家的教师和医生短缺根源在于薪酬和工作条件，靠从穷国挖人补缺只是转嫁问题，唯有自主扩招加涨薪才行",
+     "candidates": [
+      "Why Rich Countries Are Running Out of Doctors and Teachers",
+      "Immigration Can't Fix the Doctor Shortage",
+      "The Hidden Economic Cost of Not Having Enough Teachers"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "“Going Extinct”夸张有梗，B像直白概括",
+     "thesis_score": 3,
+     "thesis_reason": "都说移民只是转嫁，需国内培养加涨薪",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "cFRTviAVthU",
+   "upload_date": "20250612",
+   "topic": "发展援助的经济理论、对贫困与增长的实证结果、运作问题及美欧大幅削减援助的背景",
+   "real_title": "Why Trillions of Foreign Aid Hasn’t Solved Poverty",
+   "real_thesis": "发展援助能缓解贫困却难以带来自主经济增长，因为它替代本地产业与能力、资金被中间机构截留；关键问的是何时、如何有效，而非是否有效。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "asks",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Does Foreign Aid Actually Work?",
+     "thesis": "发展援助能减贫，却几乎推不动增长；问题不在钱多钱少，而在于援助挤出本地产业、养肥了承包商",
+     "candidates": [
+      "Does Foreign Aid Actually Work?",
+      "Why $1 Trillion in Aid Didn't Make Africa Rich",
+      "The Uncomfortable Economics of Foreign Aid"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "中性提问贴合理论加实证的平衡选题",
+     "thesis_score": 3,
+     "thesis_reason": "都认为援助能减贫难促增长，原因是挤出本地产业、中间方截留",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.091
+    },
+    "guide_v1": {
+     "title": "Does Foreign Aid Actually Help Poor Countries?",
+     "thesis": "发展援助能减贫，却很难带来增长；问题不在钱少，而在实物援助挤垮本地产业，资金回流承包商，也不按结果付费。",
+     "candidates": [
+      "Does Foreign Aid Actually Help Poor Countries?",
+      "Why a Trillion Dollars of Aid Hasn't Made Africa Rich",
+      "The Economics of Foreign Aid | Economics Explained"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "弯引号与“万亿”强钩子符合频道习惯",
+     "thesis_score": 3,
+     "thesis_reason": "均为能减贫难促增长，因挤压本地产业与资金截留",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.077
+    },
+    "guide_v2": {
+     "title": "Why a Trillion Dollars Didn't Make Africa Rich",
+     "thesis": "援助能救命减贫却难带来增长：实物挤垮本地产业，钱被承包商和精英截走；该改为按结果付费和发现金，而非一刀切砍掉。",
+     "candidates": [
+      "The Problem With Foreign Aid",
+      "Why a Trillion Dollars Didn't Make Africa Rich",
+      "The End of Foreign Aid (and Why It's Complicated)"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "弯引号且表述直白概括，符合频道风格",
+     "thesis_score": 3,
+     "thesis_reason": "减贫难促增长、挤垮本地产业、资金被截留，基本相同",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Does Foreign Aid Actually Work?",
+     "thesis": "发展援助能有效减贫却难以带动增长，失败源于运作方式而非援助本身，因此美欧大砍援助是错误的方向。",
+     "candidates": [
+      "Does Foreign Aid Actually Work?",
+      "Why a Trillion Dollars of Aid Didn't Make Africa Rich",
+      "The Uncomfortable Truth About Foreign Aid"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "简洁设问是频道常用风格，B 的说法偏仿写",
+     "thesis_score": 2,
+     "thesis_reason": "减贫难增长一致，仿写额外批砍援助，原因侧重不同",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.091
+    }
+   }
+  },
+  {
+   "id": "LygiZAFZ86Y",
+   "upload_date": "20250702",
+   "topic": "中美政府债务规模、结构与融资环境对比，及中国债务的统计口径",
+   "real_title": "China’s Debt Problem Is 300% Bigger Than America’s",
+   "real_thesis": "中国计入地方政府和国企后债务远超美国，靠资本管制、金融压抑和印钞维持低息；但因政府资产庞大，风险没有数字显示得那么致命。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "Who Is Really More in Debt: China or the U.S.?",
+     "thesis": "把地方政府和国企债务算进去，中国政府债务超过GDP的300%，远高于美国，只是靠资本管制和国有资产才撑得住",
+     "candidates": [
+      "China's Debt Is Way Bigger Than America's",
+      "Who Is Really More in Debt: China or the U.S.?",
+      "China's Hidden 300% Debt Problem"
+     ],
+     "judge_correct": false,
+     "judge_conf": 4,
+     "judge_reason": "B的300%数字生硬，与对比选题不符",
+     "thesis_score": 3,
+     "thesis_reason": "都说债务超美国，靠管制和国有资产撑住",
+     "attr_correct": false,
+     "copy_sim": 0.071,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "China's Hidden Debt Is Far Worse Than America's | Economics Explained",
+     "thesis": "中国真实债务远超美国，计入地方和国企后超过 GDP 的 300%，只是被资本管制、印钞和国有资产暂时掩盖了。",
+     "candidates": [
+      "China's Hidden Debt Is Far Worse Than America's | Economics Explained",
+      "Who Is Really More in Debt: China or America?",
+      "Why China's Real Debt Could Be 300% of GDP"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "具体数字加弯引号，A的后缀像仿写",
+     "thesis_score": 2,
+     "thesis_reason": "同指债务远超美国，但真实强调风险不致命，仿写偏警示",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Why China's Hidden Debt Hasn't Exploded (Yet)",
+     "thesis": "算上地方和国企，中国债务远超美国，靠资本管制、国有银行和巨额国有资产撑住，代价是消费被压；不会突然爆雷，但只能慢慢消化。",
+     "candidates": [
+      "China's Debt Is Much Bigger Than It Looks",
+      "Why China's Hidden Debt Hasn't Exploded (Yet)",
+      "America's Debt, China's Debt and… Who's Worse Off?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "夸张数字对比加弯引号，符合频道标题特征",
+     "thesis_score": 2,
+     "thesis_reason": "方向一致，仿写更强调消费被压与慢消化",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Who Is Really More in Debt: China or the USA?",
+     "thesis": "计入地方债和国企后中国政府相关债务远超美国，但庞大国有资产和封闭金融体系让它短期内不会爆发危机。",
+     "candidates": [
+      "China's Debt Is Much Worse Than America's",
+      "Who Is Really More in Debt: China or the USA?",
+      "The Hidden Size of China's Government Debt"
+     ],
+     "judge_correct": false,
+     "judge_conf": 4,
+     "judge_reason": "B 的300%数字像编造的，A 的对比设问更贴合选题",
+     "thesis_score": 3,
+     "thesis_reason": "债务超美但资产与封闭体系降低风险，论断相同",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "jknb1YE6zdY",
+   "upload_date": "20260909",
+   "topic": "中国加强对海外收入、离岸资产和信托的税收监管及其背景",
+   "real_title": "Finally a Country Is Taxing Its Billionaires",
+   "real_thesis": "中国此时严打富人海外避税，主因是土地出让收入锐减、人口老龄化压力下急需新税基，同时借机加强对富人财富的控制。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "teases",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "Why China Suddenly Needs Its Rich to Pay Tax",
+     "thesis": "中国严查海外收入，不是为了公平，而是土地财政崩塌、养老金告急后，政府被迫向富人找钱",
+     "candidates": [
+      "China Is Coming For Its Billionaires' Offshore Money",
+      "Why China Suddenly Needs Its Rich to Pay Tax",
+      "China Has A Tax Problem Nobody Talks About"
+     ],
+     "judge_correct": false,
+     "judge_conf": 4,
+     "judge_reason": "A点明中国与背景，B的夸张说法不准确",
+     "thesis_score": 3,
+     "thesis_reason": "都归因于土地财政崩塌和养老压力，被迫向富人要钱",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Why China Is Suddenly Taxing Its Rich Overseas | Economics Explained",
+     "thesis": "中国追查海外资产主要不是为了共同富裕或敲打富人，而是土地财政崩塌、个税税基过窄造成的财政缺口逼出来的。",
+     "candidates": [
+      "Why China Is Suddenly Taxing Its Rich Overseas | Economics Explained",
+      "China Is Running Out of Things to Tax",
+      "The Economics of China's Offshore Tax Crackdown"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "“Finally”式反差钩子更像频道风格",
+     "thesis_score": 2,
+     "thesis_reason": "同指财政缺口驱动，但仿写否认控制富人动机",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.071
+    },
+    "guide_v2": {
+     "title": "China Is Finally Coming for Its Rich",
+     "thesis": "土地财政崩塌加上养老缺口，逼中国追缴富人的海外收入；能补上一部分窟窿，但税基太窄、执法看人下菜，不扩大个税难以治本。",
+     "candidates": [
+      "China Is Finally Coming for Its Rich",
+      "Why China Suddenly Wants Its Taxes",
+      "The Problem With Barely Taxing Anyone"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "隐藏国家名制造悬念，是频道常用钓鱼手法",
+     "thesis_score": 2,
+     "thesis_reason": "动因一致，仿写侧重评估效果而非财富控制",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Why China Suddenly Wants to Tax Its Rich",
+     "thesis": "中国突然追查海外收入，主要不是为了税收公平，而是土地财政崩塌后政府急需填补数万亿元的财政缺口。",
+     "candidates": [
+      "China Is Coming for Its Rich People's Offshore Money",
+      "Why China Suddenly Wants to Tax Its Rich",
+      "China Has a Massive Tax Problem"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "“Finally”这种带挑衅意味的标题是频道惯用手法",
+     "thesis_score": 2,
+     "thesis_reason": "都指财政缺口，真实还强调控制富人财富",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "G2b0JOgLpeg",
+   "upload_date": "20260921",
+   "topic": "围绕不平等是否加剧的两方数据论据，及经济学家结论分歧的方法差异",
+   "real_title": "Has Inequality Ever Been Worse?",
+   "real_thesis": "“不平等是否更糟”其实是至少四个不同问题，经济学家因度量对象、时期、范围和方法选择不同而得出相反结论，答案取决于如何定义问题。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "asks",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Is Inequality Actually Getting Worse?",
+     "thesis": "不平等是否加剧取决于怎么量：顶层财富集中确有其事，但按消费和税后收入看，普通人的差距远没有头条说的那么大",
+     "candidates": [
+      "Is Inequality Actually Getting Worse?",
+      "Why Economists Can't Agree on Inequality",
+      "Are the Rich Really Richer Than Rockefeller?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "B的Actually句式像AI仿写惯用套路",
+     "thesis_score": 2,
+     "thesis_reason": "都说取决于怎么量，仿写另下了差距被夸大的结论",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Why Economists Can't Agree If Inequality Is Rising",
+     "thesis": "顶端财富的集中确实在上升，但消费、税后收入和全球不平等并没有恶化；所谓不平等失控，更多是统计口径选出来的结论。",
+     "candidates": [
+      "Why Economists Can't Agree If Inequality Is Rising",
+      "Is Inequality Really Getting Worse?",
+      "Are Today's Billionaires Richer Than Rockefeller?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "简短反问更像真实，A过于贴合选题",
+     "thesis_score": 2,
+     "thesis_reason": "均认为取决于口径，但仿写给出不平等未恶化的倾向结论",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Is Inequality Getting Worse? It Depends Who's Counting",
+     "thesis": "不平等是否加剧要看口径：顶层的财富和收入确实更集中，但按消费、税后和全球口径看，差距在缓和；分歧主要来自方法，不是事实。",
+     "candidates": [
+      "Why Economists Can't Agree on Inequality",
+      "Is Inequality Getting Worse? It Depends Who's Counting",
+      "Inequality: Rising, Stable and… Both?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "简短设问更像频道，A的副句过于工整",
+     "thesis_score": 2,
+     "thesis_reason": "都说取决于口径，仿写给出具体结论偏向",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Is Inequality Actually Getting Worse?",
+     "thesis": "不平等是否加剧取决于统计口径，按税后收入和消费衡量，美国不平等远没有头条数据所说的那样急剧恶化。",
+     "candidates": [
+      "Is Inequality Actually Getting Worse?",
+      "Why Economists Can't Agree on Inequality",
+      "The Inequality Numbers Don't Add Up"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "B 中的“Actually”是典型 AI 仿写用词",
+     "thesis_score": 2,
+     "thesis_reason": "都说取决于定义，仿写给出不平等未急剧恶化的结论",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "pMqyg1cDk9I",
+   "upload_date": "20260131",
+   "topic": "以频道广告收入与观看时长为例，讨论GDP衡量、免费服务价值及点击诱饵造成的时间成本估算",
+   "real_title": "How Much Does Clickbait Cost the Global Economy?",
+   "real_thesis": "点击诱饵每年吞掉约2万亿美元的劳动时间，但把人的时间直接按产出折算会低估其价值；GDP忽视免费与非交易价值，不能代表真实福祉。",
+   "real_thesis_type": "judge",
+   "real_title_thesis": "asks",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "The $2 Trillion Problem Hiding in Your Phone",
+     "thesis": "GDP看不到免费内容的成本，点击诱饵每年浪费掉约2万亿美元的生产性时间，比澳大利亚整个经济还大",
+     "candidates": [
+      "The $2 Trillion Problem Hiding in Your Phone",
+      "How Much Did You Cost the Economy by Watching This?",
+      "Clickbait Is Costing the World Trillions"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "B直接点出点击诱饵成本，有频道自嘲味道",
+     "thesis_score": 2,
+     "thesis_reason": "仿写只讲浪费规模，没讲按产出折算会低估、GDP不等于福祉",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "The $2 Trillion Economic Cost of Clickbait",
+     "thesis": "GDP 不只低估了免费服务的价值，更漏掉了它的代价：点击诱饵每年吞掉约 2 万亿美元的生产时间，免费互联网其实是用我们的时间付费。",
+     "candidates": [
+      "The $2 Trillion Economic Cost of Clickbait",
+      "What Is a YouTube Viewer Actually Worth?",
+      "Why GDP Can't See the Cost of Free Internet | Economics Explained"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "具体金额标题是频道惯用手法",
+     "thesis_score": 2,
+     "thesis_reason": "同谈GDP与点击诱饵，真实强调低估时间价值，重点不同",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "The $2 Trillion Cost of Clickbait",
+     "thesis": "GDP只记广告收入，既漏掉免费服务的价值，也看不到点击诱饵每年吞掉约2万亿美元工作时间；新指标能补账，止损还得靠平台和个人。",
+     "candidates": [
+      "The $2 Trillion Cost of Clickbait",
+      "Why GDP Can't See What YouTube Is Worth",
+      "Your Time, Our Ads and… a Lost Third of GDP?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "疑问式更自然，A的具体金额像仿写",
+     "thesis_score": 2,
+     "thesis_reason": "都批GDP漏算，仿写重点转向补账与止损",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "The $2 Trillion Cost of Clickbait",
+     "thesis": "GDP看不见注意力的真实价值：点击诱饵每年浪费约2万亿美元的生产时间，规模超过澳大利亚的整体经济贡献。",
+     "candidates": [
+      "The $2 Trillion Cost of Clickbait",
+      "What Is Your Attention Actually Worth?",
+      "How Clickbait Is Quietly Shrinking the Economy"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "B 的具体金额像编造的，A 的设问更自然",
+     "thesis_score": 2,
+     "thesis_reason": "都提GDP缺陷与2万亿，真实强调折算低估时间价值",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "yhpyHV1iz00",
+   "upload_date": "20250904",
+   "topic": "AI对菲律宾、孟加拉等外包经济体与富国就业及经济差距的影响",
+   "real_title": "What Happens When Capitalism Doesn't Need Workers Anymore?",
+   "real_thesis": "AI作为替代性资本集中于少数富国和大公司，会先摧毁外包型穷国与常规岗位，拉大国家间与国内差距，除非同时投资基建与人才。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "asks",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Why AI Will Make Rich Countries Richer and Poor Countries Poorer",
+     "thesis": "AI会替代而不是辅助穷国的外包岗位，同时把收益集中到美中两国，使贫富国家差距拉大而不是缩小。",
+     "candidates": [
+      "AI Is About to Wreck the Economy of the Philippines",
+      "Why AI Will Make Rich Countries Richer and Poor Countries Poorer",
+      "The 1 Million Jobs AI Is Taking From the Developing World | Economics Explained"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "A准确对应贫富国家差距主题",
+     "thesis_score": 3,
+     "thesis_reason": "都说AI替代穷国外包岗位、拉大国家间差距",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Why AI Is Coming for the Philippines First | Economics Explained",
+     "thesis": "AI对富国是互补资本，对靠例行外包起家的穷国却是替代资本；收益流向美中，菲律宾式发展阶梯可能被抽掉。",
+     "candidates": [
+      "AI Could Make Poor Countries Poorer",
+      "Why AI Is Coming for the Philippines First | Economics Explained",
+      "Will AI Widen the Gap Between Rich and Poor Nations?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "宏大反问更像真实，A贴选题且加后缀",
+     "thesis_score": 3,
+     "thesis_reason": "均认为AI替代外包穷国、收益集中于富国",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "How AI Could Pull Up the Ladder Behind Rich Countries",
+     "thesis": "外包国靠廉价英语劳动力起飞，AI却替代例行岗位、收益流向美中，贫富差距将扩大；除非靠再培训和宽带转向互补型技能。",
+     "candidates": [
+      "How AI Could Pull Up the Ladder Behind Rich Countries",
+      "Why AI Is Bad News for the Philippines",
+      "The Philippines Built an Economy on Call Centres... Now What?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "宏大挑衅设问符合频道，A隐喻偏AI腔",
+     "thesis_score": 3,
+     "thesis_reason": "AI替代外包、收益集中、扩大差距，除非投资人才",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Will AI Make Poor Countries Poorer?",
+     "thesis": "AI会取代菲律宾等外包经济体赖以发展的例行服务岗位，而收益集中流向美中，富国与穷国的差距将被拉大而非缩小。",
+     "candidates": [
+      "Will AI Make Poor Countries Poorer?",
+      "AI Is Coming for the Philippines' Economy",
+      "How AI Could Close the Developing World's Path to Riches"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "A 立意宏大挑衅，B 过于贴合选题摘要",
+     "thesis_score": 3,
+     "thesis_reason": "AI冲击外包穷国、拉大贫富国差距，核心一致",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "i_kzsY5Msbw",
+   "upload_date": "20260824",
+   "topic": "“技术封建主义”概念的含义、与封建制度的对照，以及大型科技平台的收费与资本现状",
+   "real_title": "Unfortunately, AI Might Be Turning Us Into Peasants",
+   "real_thesis": "技术封建主义所描述的平台抽租、从所有权转向使用权、AI削弱劳动议价权都是真的，但用户仍可选择、制度仍可制衡，所以更像垄断资本主义而非真封建，应靠竞争政策防止滑落。",
+   "real_thesis_type": "judge",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "Is Big Tech Really Bringing Back Feudalism?",
+     "thesis": "大平台确实在靠收租式抽成获利，但它们巨额投资又不能强制用户，所以“技术封建主义”是夸大的比喻，不是真的封建。",
+     "candidates": [
+      "Is Big Tech Really Bringing Back Feudalism?",
+      "Techno-Feudalism: Explained",
+      "The $19 Trillion Landlords of the Internet | Economics Explained"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "Unfortunately开头的口语化风格像真人",
+     "thesis_score": 3,
+     "thesis_reason": "都认可平台抽租属实，但认为封建说法夸大",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Is Big Tech Actually Feudalism?",
+     "thesis": "大平台确实在收租，但巨额资本开支和用户可离开说明它仍是资本主义；真正的问题是缺乏竞争，而非封建制度回归。",
+     "candidates": [
+      "Is Big Tech Actually Feudalism?",
+      "Are Platforms the New Landlords? | Economics Explained",
+      "Technofeudalism: Explained"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "“Unfortunately”口语化钩子不像仿写",
+     "thesis_score": 3,
+     "thesis_reason": "均认为是缺竞争的资本主义而非真封建",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Revenge of the Landlords (in the Cloud)",
+     "thesis": "大平台靠资本和规模门槛抽取三成租金，确有封建味；但巨额投资和用户可退出说明它仍是资本主义，病在缺竞争，监管可纠正。",
+     "candidates": [
+      "Revenge of the Landlords (in the Cloud)",
+      "The Problem With Calling Big Tech Feudal",
+      "Serfs, Lords and... App Stores?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "Unfortunately开头的情绪化标题是频道风格",
+     "thesis_score": 3,
+     "thesis_reason": "有封建味但仍是资本主义，靠竞争监管纠正",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Is Big Tech Bringing Back Feudalism?",
+     "thesis": "大平台30%到45%的抽成确实是租金，但这是缺乏竞争的垄断资本主义而非封建制度，监管和竞争就能削弱它。",
+     "candidates": [
+      "Is Big Tech Bringing Back Feudalism?",
+      "Technofeudalism: Are We All Digital Serfs Now?",
+      "Is Capitalism Already Dead?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "B 的说法不太常规，A 过于直白贴合选题",
+     "thesis_score": 3,
+     "thesis_reason": "是垄断资本主义非封建，靠竞争监管制衡，一致",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "Efwafl87Yb8",
+   "upload_date": "20260621",
+   "topic": "2025年尼泊尔青年抗议事件、此前经济状况、冲击成本及后续经济走向",
+   "real_title": "How Has Nepal Been Going?",
+   "real_thesis": "尼泊尔起义后虽面临失业、投资观望和脱离最不发达国家的冲击，但军队克制、选举平稳和水电潜力使其有望打破动荡循环，走上正轨。",
+   "real_thesis_type": "judge",
+   "real_title_thesis": "labels",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Nepal's Gen Z Toppled the Government. Now What?",
+     "thesis": "抗议本身的损失不大，尼泊尔真正的考验在于新政府能否靠反腐和水电出口，抵消最不发达国家毕业带来的冲击。",
+     "candidates": [
+      "Nepal's Gen Z Toppled the Government. Now What?",
+      "The Economy of Nepal After the Revolution",
+      "How a Social Media Ban Cost Nepal Its Government | Economics Explained"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "澳式口语How Has X Been Going很有频道特色",
+     "thesis_score": 2,
+     "thesis_reason": "真实偏乐观有望走上正轨，仿写只说成败看能否抵消冲击",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "The Fragile Economy of Nepal | Economics Explained",
+     "thesis": "尼泊尔真正的考验不在抗议本身，而在于失去最不发达国家优惠后，新政府能否把水电潜力变成真正流入的资金，而不只是承诺。",
+     "candidates": [
+      "The Fragile Economy of Nepal | Economics Explained",
+      "Can a Rapper Fix Nepal's Economy?",
+      "Nepal's Revolution Was the Easy Part"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "随意口吻是频道近期特色，A较模板化",
+     "thesis_score": 1,
+     "thesis_reason": "真实乐观看有望走上正轨，仿写聚焦考验未下判断",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Nepal's Wild Year: Riots, Rappers and... Hydropower?",
+     "thesis": "尼泊尔靠侨汇和对印贸易勉强支撑，腐败动荡吓跑投资、失去最不发达国家优惠更添压力；新政府若稳住政局、开发水电，仍可缓慢翻身。",
+     "candidates": [
+      "How Gen Z Toppled Nepal's Government",
+      "Nepal's Wild Year: Riots, Rappers and... Hydropower?",
+      "Why Nepal's Tiny Economy Matters to India and China"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "口语化系列式标题，B的三连列举像AI",
+     "thesis_score": 2,
+     "thesis_reason": "都认为可翻身，但真实更乐观、重点不同",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Can Nepal's Gen Z Revolution Fix Its Economy?",
+     "thesis": "抗议换掉了腐败政府，但脱离最不发达国家地位和投资枯竭会让尼泊尔先变穷，能真正翻身的只有水电出口。",
+     "candidates": [
+      "Can Nepal's Gen Z Revolution Fix Its Economy?",
+      "Nepal Overthrew Its Government. Now Comes the Hard Part",
+      "Can a Rapper Save Nepal's Economy?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "口语化的澳式问法很少见，AI 不太会这样写",
+     "thesis_score": 2,
+     "thesis_reason": "同提冲击与水电，真实偏乐观，仿写偏悲观",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "7WTW21vv0pQ",
+   "upload_date": "20250518",
+   "topic": "年轻一代与父辈的财富差距，及代际划分、债务、不平等等相关背景",
+   "real_title": "Are Boomers The Most Selfish Generation In History?",
+   "real_thesis": "年轻人落后的根源是不平等加剧与债务扩张，而非婴儿潮一代自私；代际划分只是转移视线的伪命题，婴儿潮同样是受害者。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "Are Millennials Actually Poorer Than Their Parents?",
+     "thesis": "年轻人并不是整体比父辈穷，问题在于财富更不平等、更依赖继承：日用消费品便宜了，住房教育却贵了。",
+     "candidates": [
+      "Are Millennials Actually Poorer Than Their Parents?",
+      "The Richest Generation in History Feels Broke | Economics Explained",
+      "Why Young People Can Afford a TV But Not a House"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "B贴合财富差距主题，A偏煽动",
+     "thesis_score": 2,
+     "thesis_reason": "都归因于不平等，仿写没否定代际对立，重点在继承和物价结构",
+     "attr_correct": false,
+     "copy_sim": 0.143,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Are Young People Actually Poorer Than Their Parents?",
+     "thesis": "年轻人整体并不比父辈穷，消费品反而更丰富；真正的分界在于代内不平等，财富越来越取决于有没有继承和资产。",
+     "candidates": [
+      "Are Young People Actually Poorer Than Their Parents?",
+      "Millennials Will Be the Richest Generation. So Why Do They Feel Broke?",
+      "Why Generational Wealth Gaps Are Misleading | Economics Explained"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "挑衅式钩子更符合频道点击风格",
+     "thesis_score": 2,
+     "thesis_reason": "均归因不平等非代际，但仿写称年轻人不更穷且重代内",
+     "attr_correct": true,
+     "copy_sim": 0.133,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "The Richest Generation That Can't Afford a House",
+     "thesis": "年轻人的电器和度假更便宜、总财富将靠继承创下纪录，但必需品和资产涨价、财富高度集中，代际差距实为阶层差距，需靠住房和分配政策缓解。",
+     "candidates": [
+      "The Richest Generation That Can't Afford a House",
+      "Why Millennials Are Rich (on Paper)",
+      "Boomers, Millennials and... Inheritance?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "挑衅设问且The大写，符合频道习惯",
+     "thesis_score": 2,
+     "thesis_reason": "都说阶层非代际，仿写未强调债务与伪命题",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Are Young People Actually Poorer Than Their Parents?",
+     "thesis": "年轻一代整体并不比父辈穷，真正的鸿沟不在代际之间，而在同代人内部是否拥有资产和能否继承遗产。",
+     "candidates": [
+      "Are Young People Actually Poorer Than Their Parents?",
+      "The Millennial Wealth Myth",
+      "Why the Richest Generation Ever Feels So Broke"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "有争议的挑衅标题符合频道风格，B 偏平淡",
+     "thesis_score": 2,
+     "thesis_reason": "都否定代际对立，真实归因不平等债务，仿写重资产继承",
+     "attr_correct": true,
+     "copy_sim": 0.133,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "xSo_jDhKItU",
+   "upload_date": "20260102",
+   "topic": "气候减排与经济增长的取舍：高排放行业、各国案例及转型路径",
+   "real_title": "The Degrowth Paradox",
+   "real_thesis": "快速减排确实会让煤电、水泥钢铁、航运、农业等行业短期收缩并伤及就业与穷国，但清洁能源增长加上再培训、定向投资和气候融资，可以不靠全面去增长实现公平脱碳。",
+   "real_thesis_type": "judge",
+   "real_title_thesis": "teases",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "Can We Actually Save the Planet Without Wrecking the Economy?",
+     "thesis": "减排不需要靠去增长，但钢铁、水泥、航运等行业还没有廉价替代品，没有定向投资和公平转型，代价会落在穷人身上。",
+     "candidates": [
+      "Can We Actually Save the Planet Without Wrecking the Economy?",
+      "The Degrowth Problem: Does Fighting Climate Change Mean Getting Poorer?",
+      "Why Japan Cut Emissions and Costa Rica Didn't Need To | Economics Explained"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "简短概念式标题符合频道风格，B像AI",
+     "thesis_score": 3,
+     "thesis_reason": "都说不必去增长，但需定向投资和公平转型保护穷人",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Can We Cut Emissions Without Becoming Japan?",
+     "thesis": "减排不必以停滞为代价，欧洲已做到脱钩；但钢铁、水泥、航运难以替代，且就业转移不均，没有定向投资就会制造新的锈带。",
+     "candidates": [
+      "Do We Actually Have to Shrink the Economy to Save the Planet?",
+      "Can We Cut Emissions Without Becoming Japan?",
+      "The Economics of Net Zero | Economics Explained"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "“变成日本”的独特比喻更像原创",
+     "thesis_score": 3,
+     "thesis_reason": "均认为无需去增长，但难减行业需定向投资保公平",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "The Problem With Degrowth",
+     "thesis": "欧洲证明减排可与增长并存，靠的是清洁能源投资；但重工业、航运、农业难减，煤炭地区受伤，去增长不可取，定向投资加再培训的绿色增长才可行。",
+     "candidates": [
+      "The Problem With Degrowth",
+      "Why Shrinking the Economy Won't Save the Planet",
+      "Japan, Costa Rica and... Cement?"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "The Problem With式直白，Paradox偏AI套路",
+     "thesis_score": 3,
+     "thesis_reason": "难减行业受损，定向投资再培训的绿色增长可行",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Do We Have to Get Poorer to Save the Planet?",
+     "thesis": "减排不需要去增长，清洁能源已能带动增长；真正的代价落在煤炭地区和穷国，靠公平转型才能化解。",
+     "candidates": [
+      "Do We Have to Get Poorer to Save the Planet?",
+      "The Degrowth Delusion",
+      "Can We Fix Climate Change Without Wrecking the Economy?"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "频道偏爱提问式标题，A 简短但存疑",
+     "thesis_score": 3,
+     "thesis_reason": "无需去增长，代价靠公平转型化解，论断相同",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  }
+ ]
+}

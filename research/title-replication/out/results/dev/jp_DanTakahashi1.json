@@ -1,0 +1,851 @@
+{
+ "key": "jp_DanTakahashi1",
+ "systems": [
+  "fewshot",
+  "guide_v1",
+  "guide_v2",
+  "zero"
+ ],
+ "items": [
+  {
+   "id": "rV9KrQ5HfmI",
+   "upload_date": "20241125",
+   "topic": "2024年11月底视频中涉及美股、美元、美债、贵金属与比特币的市场数据和年末事件背景",
+   "real_title": "2024年末まで、僕の5つ予測",
+   "real_thesis": "年末前美股横盘在6000点、美元回落至ドル円150、美债与铂金上涨、比特币破10万美元，应增配美债并关注铂金。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "年末ラリー、79%の確率で上がる❓",
+     "thesis": "年末は株が上がりやすいが、米株は35年来の割高で強気3年目に入っており、これからは株より債券・コモディティ・暗号資産を重視すべきだ",
+     "candidates": [
+      "年末ラリー、79%の確率で上がる❓",
+      "【重要】12月19日、3つの中央銀行が同時発表",
+      "株より債券、22年ぶりの逆転"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "具体概率加❓是该频道2024年常用钩子",
+     "thesis_score": 2,
+     "thesis_reason": "都看好债券和商品，但仿写重点在美股高估",
+     "attr_correct": true,
+     "copy_sim": 0.065,
+     "copy_nearest": "",
+     "real_overlap": 0.034
+    },
+    "guide_v1": {
+     "title": "年末ラリー、22年ぶりの危険なシグナル",
+     "thesis": "年末季节性上涨不宜追高美股：估值35年最高、股债收益差22年来首次转负，应转向美债和铂金，比特币短期偏高。",
+     "candidates": [
+      "年末ラリー、22年ぶりの危険なシグナル",
+      "米国株より債券、22年ぶりの異変❓",
+      "【緊急】僕の資産の80%、ココに入れた"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "具体数字“22年ぶり”加危险信号，符合频道钩子风格",
+     "thesis_score": 2,
+     "thesis_reason": "都主张增配美债和铂金，但对比特币一看涨一看偏高",
+     "attr_correct": true,
+     "copy_sim": 0.25,
+     "copy_nearest": "",
+     "real_overlap": 0.032
+    },
+    "guide_v2": {
+     "title": "年末ラリーの後、僕は何を買う？",
+     "thesis": "短期美股或有年末季节性小涨，但市盈率35年最高、股债收益差转负；12月19日央行会议前后应先减美股、买美债，其次铂金。",
+     "candidates": [
+      "年末ラリーの後、僕は何を買う？",
+      "35年ぶりの割高、年末はどう動く？",
+      "12月19日、「この日」に要注意"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "「僕は何を買う」是频道惯用的悬念式第一人称",
+     "thesis_score": 2,
+     "thesis_reason": "都建议增配美债和铂金，但仿写主张先减美股",
+     "attr_correct": true,
+     "copy_sim": 0.087,
+     "copy_nearest": "",
+     "real_overlap": 0.077
+    },
+    "zero": {
+     "title": "年末ラリーは来るのか？米国株・ドル・米国債・ビットコイン、今やるべきこと",
+     "thesis": "年末は季節的に株高になりやすいが、米国株は約35年ぶりの割高で株より債券が有利になり、今後は米国債と貴金属が優位になる。",
+     "candidates": [
+      "年末ラリーは来るのか？米国株・ドル・米国債・ビットコイン、今やるべきこと",
+      "【年末相場】米国株は歴史的割高！株より債券が有利になった今、資産をどう守るか",
+      "79%の確率で上がる年末相場の罠｜12月19日、日米英の金利決定に要注意"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "短小的个人预测式标题，符合频道风格",
+     "thesis_score": 2,
+     "thesis_reason": "都主张增配美债贵金属，但仿写重点在估值偏高",
+     "attr_correct": true,
+     "copy_sim": 0.116,
+     "copy_nearest": "",
+     "real_overlap": 0.021
+    }
+   }
+  },
+  {
+   "id": "jeHj-I2_huA",
+   "upload_date": "20250122",
+   "topic": "美元指数单日大幅下跌的背景数据，及其与商品、加密资产、美债、新兴市场的关联",
+   "real_title": "【1年ぶりの急落】大切なトレンドの始まり",
+   "real_thesis": "美元指数在高位出现一年多来最大单日跌幅，标志新下行趋势开启，应优先布局贵金属、汽油等大宗商品，其次加密货币、美债。",
+   "real_thesis_type": "advise",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "【速報】ドル急落、「これ」が急騰する",
+     "thesis": "ドルの急落は始まりにすぎず、これから最も恩恵を受けるのは米株ではなく貴金属・エネルギーと暗号資産だ",
+     "candidates": [
+      "【速報】ドル急落、ゴールドが上がる",
+      "ドル安で「これ」が急騰する",
+      "やっと始まった、ドルの暴落"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "B套用速报加「これ」模板，A更含糊更像原创",
+     "thesis_score": 3,
+     "thesis_reason": "都认为美元下行开启，优先布局商品和加密",
+     "attr_correct": true,
+     "copy_sim": 0.2,
+     "copy_nearest": "",
+     "real_overlap": 0.029
+    },
+    "guide_v1": {
+     "title": "ドル暴落の始まり、ココを買う時です",
+     "thesis": "美元投机多头6年来最高、偏离度20年极值，美元已见顶转跌；应优先买入贵金属和能源，其次加密资产与美债。",
+     "candidates": [
+      "ドル暴落の始まり、ココを買う時です",
+      "【速報】ドルが急落、僕の戦略❓",
+      "70年ぶり、ドル安で上がる資産とは？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "A与另一期标题重复，像模板仿写",
+     "thesis_score": 3,
+     "thesis_reason": "都认为美元见顶转跌，资产配置顺序也一致",
+     "attr_correct": true,
+     "copy_sim": 0.421,
+     "copy_nearest": "",
+     "real_overlap": 0.094
+    },
+    "guide_v2": {
+     "title": "【1年半ぶりの急落】ドル安の始まり？",
+     "thesis": "美元单日大跌是中期走弱起点：投机多头处于6年高位，必将平仓；短期七巨头财报有波动，但应先买贵金属和能源，再买加密资产和美债。",
+     "candidates": [
+      "【1年半ぶりの急落】ドル安の始まり？",
+      "ドル急落、次に上がるのは「これ」",
+      "ドルの大転換、金は24%上がる？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "「大切なトレンド」这种模糊的钩子更像本人写法",
+     "thesis_score": 3,
+     "thesis_reason": "美元转弱趋势，配置顺序完全一致",
+     "attr_correct": true,
+     "copy_sim": 0.1,
+     "copy_nearest": "",
+     "real_overlap": 0.385
+    },
+    "zero": {
+     "title": "【緊急】ドル急落！1年半ぶりの大暴落で次に上がる資産はこれ",
+     "thesis": "ドルの強さは既にピークを過ぎ、利下げと通貨供給の拡大でドル安が進み、貴金属やコモディティ、仮想通貨が最も恩恵を受ける。",
+     "candidates": [
+      "【緊急】ドル急落！1年半ぶりの大暴落で次に上がる資産はこれ",
+      "ドル安時代の始まり？金・プラチナ・ビットコインに資金が流れる理由",
+      "ドル指数が急落、歴史的に金は1年で24%上昇｜今注目すべき資産ランキング"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "简短又留悬念；A罗列太多，像AI写的",
+     "thesis_score": 3,
+     "thesis_reason": "都认为美元转弱，利好贵金属、商品和加密",
+     "attr_correct": true,
+     "copy_sim": 0.129,
+     "copy_nearest": "",
+     "real_overlap": 0.093
+    }
+   }
+  },
+  {
+   "id": "wXbgoeXMZBA",
+   "upload_date": "20240924",
+   "topic": "中国央行宣布大规模货币宽松政策及其对中港股市与全球市场的背景",
+   "real_title": "【速報】中国の緊急緩和が発表！",
+   "real_thesis": "中国此次大规模宽松叠加美联储降息、新兴国家估值低位，使中国与香港股市仍有约30%上涨空间，现在是配置良机。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "【緊急】中国の大規模緩和、中国株が急騰する",
+     "thesis": "中国の大規模緩和とFRBの利下げが重なったことで、PER約10倍の割安な中国・香港株は本格的に上昇し始める",
+     "candidates": [
+      "【緊急】中国、大規模な金融緩和",
+      "中国株「これ」が50％急騰する",
+      "中国の大転換、今が買い時❓"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "真实速报标题简短，B信息堆砌像仿写",
+     "thesis_score": 3,
+     "thesis_reason": "都认为宽松叠加降息和低估值会推动中港股上涨",
+     "attr_correct": true,
+     "copy_sim": 0.129,
+     "copy_nearest": "",
+     "real_overlap": 0.179
+    },
+    "guide_v1": {
+     "title": "【速報】中国が大規模緩和、ココを買う",
+     "thesis": "中国大规模宽松叠加美联储降息，中国股票9.8倍市盈率已是底部；应分批买入港股科技股和新兴国股票，而非美股。",
+     "candidates": [
+      "【速報】中国が大規模緩和、ココを買う",
+      "中国株、40年ぶりの買い場です",
+      "中国の緊急緩和、バブルの始まり？"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "“ココを買う”是频道惯用的行动号召",
+     "thesis_score": 3,
+     "thesis_reason": "都认为宽松叠加降息，中港股处于底部，宜买入",
+     "attr_correct": true,
+     "copy_sim": 0.167,
+     "copy_nearest": "",
+     "real_overlap": 0.24
+    },
+    "guide_v2": {
+     "title": "中国株、ついに底打ちか？",
+     "thesis": "中国宽松叠加美联储降息，中国股市已见底；11月美国大选和60%关税风险会带来短期回调，但长期应分批买入香港科技股。",
+     "candidates": [
+      "中国株、ついに底打ちか？",
+      "PER9.8倍、「ここ」が買い場です",
+      "中国の緊急緩和、僕の戦略は？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "【速報】加事件直述，符合突发新闻风格",
+     "thesis_score": 2,
+     "thesis_reason": "同样看多中港股，但仿写强调短期回调风险",
+     "attr_correct": true,
+     "copy_sim": 0.056,
+     "copy_nearest": "",
+     "real_overlap": 0.042
+    },
+    "zero": {
+     "title": "【緊急】中国が大規模金融緩和！中国株は今が買い時？",
+     "thesis": "中国の大規模緩和とFRBの利下げで流れが変わり、PER約10倍と割安な中国・香港株は米国株を上回る上昇局面に入った。",
+     "candidates": [
+      "【緊急】中国が大規模金融緩和！中国株は今が買い時？",
+      "中国株が急騰！PER9.8倍の中国株は世界一の割安株か",
+      "中国の本気のバズーカ緩和｜新興国株の時代が来る理由"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "两个都短，B更简洁，接近速报格式",
+     "thesis_score": 3,
+     "thesis_reason": "宽松加降息加低估值，中港股看涨，论断一致",
+     "attr_correct": true,
+     "copy_sim": 0.061,
+     "copy_nearest": "",
+     "real_overlap": 0.121
+    }
+   }
+  },
+  {
+   "id": "TYKOvfTdl5o",
+   "upload_date": "20240903",
+   "topic": "2024年9月美国就业统计中劳动生产率数据与美联储降息预期、市场表现的关系",
+   "real_title": "秋はクラッシュ「これ」がキッカケ？",
+   "real_thesis": "劳动生产率走强说明就业没想象中差，美联储难以按市场预期年底前降息1%，9月6日数据将成为引发9–10月下跌的导火索。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "【重要】雇用統計、誰も見ていない「これ」",
+     "thesis": "利下げはすでに織り込まれており、本当に注目すべきは労働生産率だ。高齢化する米国より若い新興国に長期で投資すべきだ",
+     "candidates": [
+      "【重要】雇用統計、誰も見ていない「これ」",
+      "9月は最悪な月....？",
+      "利下げより大事な数字"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "A过于贴合选题，B模糊悬念更像频道风格",
+     "thesis_score": 1,
+     "thesis_reason": "真实看降息落空和下跌，仿写主张长期投新兴国",
+     "attr_correct": true,
+     "copy_sim": 0.103,
+     "copy_nearest": "",
+     "real_overlap": 0.094
+    },
+    "guide_v1": {
+     "title": "【速報】米国雇用統計、本当に大切な数字❓",
+     "thesis": "这次就业统计真正该看的是劳动生产率而非失业率；美国生产率长期放缓，长期应多配新兴国股票和日股，少配美股。",
+     "candidates": [
+      "【速報】米国雇用統計、本当に大切な数字❓",
+      "9月の暴落、雇用統計で全てが決まる？",
+      "米国株、誰も見ていない危険なデータ"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "A过于贴合选题，B的悬念式更像真实",
+     "thesis_score": 1,
+     "thesis_reason": "都谈生产率，但一个讲降息落空，一个讲长期配置",
+     "attr_correct": true,
+     "copy_sim": 0.167,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "利下げ期待を壊す「この数字」",
+     "thesis": "9月6日真正的变量是劳动生产率：回升会令年内4次降息预期落空，9月美股将下跌；长期则应增持年轻的新兴国而非美股。",
+     "candidates": [
+      "利下げ期待を壊す「この数字」",
+      "9月の雇用統計、本当の危険は？",
+      "生産性が示す、米国株の落とし穴"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "「クラッシュ」配「これ」的悬念更像频道风格",
+     "thesis_score": 3,
+     "thesis_reason": "生产率走强、降息预期落空、9月下跌一致",
+     "attr_correct": true,
+     "copy_sim": 0.059,
+     "copy_nearest": "",
+     "real_overlap": 0.036
+    },
+    "zero": {
+     "title": "金曜日の雇用統計、本当に見るべきは労働生産性｜利下げ相場の落とし穴",
+     "thesis": "利下げは既に織り込み済みで9月は株価が下がりやすく、長期では高齢化で生産性が鈍る米国より若い新興国株が有利だ。",
+     "candidates": [
+      "金曜日の雇用統計、本当に見るべきは労働生産性｜利下げ相場の落とし穴",
+      "9月の米国株は危ない？雇用統計とFRB利下げの本当のリスク",
+      "高齢化で生産性が落ちる国、伸びる国｜長期投資で勝つ国の選び方"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "悬念式“これ”是频道惯用手法",
+     "thesis_score": 1,
+     "thesis_reason": "都提9月下跌，但原因不同，仿写还转向新兴市场",
+     "attr_correct": true,
+     "copy_sim": 0.047,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "BwDwd8IOFfA",
+   "upload_date": "20240830",
+   "topic": "英伟达财报发布后股价盘后下跌，及AI板块与美股市场的相关数据",
+   "real_title": "AIバブル崩壊、始まったか？",
+   "real_thesis": "短期因技术面与内部人减持，美股和日股有回调风险；但英伟达利润随股价同步增长、估值低于2000年，长期AI未破灭，生成式AI才是泡沫，预测型AI更有价值。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "asks",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "【速報】エヌビディア急落、AIバブルの終わり❓",
+     "thesis": "AIはハイプ・サイクルの頂点にあり、過度に集中したマグニフィセント・セブンよりも割安なコモディティや新興国に資金を移すべきだ",
+     "candidates": [
+      "【速報】エヌビディア決算後に急落、AIバブル終わり❓",
+      "エヌビディア、ウォール街は間違っている",
+      "AI株は買わない、僕の理由"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "速报加❓符合频道2024年风格",
+     "thesis_score": 1,
+     "thesis_reason": "真实认为AI长期没有破灭，仿写看AI见顶并撤资",
+     "attr_correct": true,
+     "copy_sim": 0.219,
+     "copy_nearest": "",
+     "real_overlap": 0.129
+    },
+    "guide_v1": {
+     "title": "エヌビディア急落、AIバブル崩壊の始まり？",
+     "thesis": "英伟达好财报后反跌，说明AI已到期望顶峰，七巨头集中度创纪录，9-10月美股易回调；应转向70年低估的商品。",
+     "candidates": [
+      "エヌビディア急落、AIバブル崩壊の始まり？",
+      "【緊急】AI株、危険なシグナル",
+      "AI株を持たない僕の理由"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "点名英伟达急落更具体，符合速报风格",
+     "thesis_score": 1,
+     "thesis_reason": "都提短期回调，但一个说AI长期未破灭，一个说已见顶",
+     "attr_correct": true,
+     "copy_sim": 0.233,
+     "copy_nearest": "",
+     "real_overlap": 0.269
+    },
+    "guide_v2": {
+     "title": "AIバブル、幻滅期の入り口です",
+     "thesis": "英伟达财报后不涨反跌说明AI已过期望顶峰，9-10月美股科技股将回调；AI长期仍有价值，但现在应先买70年低估的商品，再买新兴国股票。",
+     "candidates": [
+      "AIバブル、幻滅期の入り口です",
+      "AIブームはもう天井なのか？",
+      "25年ぶりの楽観、9月に「これ」が来る"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "「崩壊、始まったか？」的疑问句式很典型",
+     "thesis_score": 2,
+     "thesis_reason": "都看短期回调、AI长期有价值，但配置重点不同",
+     "attr_correct": true,
+     "copy_sim": 0.176,
+     "copy_nearest": "",
+     "real_overlap": 0.174
+    },
+    "zero": {
+     "title": "エヌビディア決算後に株価急落！AIバブル崩壊の始まりか？",
+     "thesis": "好決算でも売られたことはAIへの期待がピークを越えたサインで、9〜10月の米国株は調整しやすく、コモディティの方が有望だ。",
+     "candidates": [
+      "エヌビディア決算後に株価急落！AIバブル崩壊の始まりか？",
+      "好決算なのになぜ下落？エヌビディアとAI株、今が天井のサイン",
+      "【警告】マグニフィセント7に集中しすぎ｜私がAI株を持たない理由"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "短问句；B把选题细节塞得太满",
+     "thesis_score": 1,
+     "thesis_reason": "真实称长期AI没破灭，仿写说AI见顶转商品",
+     "attr_correct": true,
+     "copy_sim": 0.257,
+     "copy_nearest": "",
+     "real_overlap": 0.25
+    }
+   }
+  },
+  {
+   "id": "g-rqekNgn-g",
+   "upload_date": "20240911",
+   "topic": "2024年美国总统候选人辩论后的民调、经济政策对比与市场数据",
+   "real_title": "トランプvsハリス、僕の投資戦略？",
+   "real_thesis": "无论谁当选，美国都会继续靠撒钱和宽松推高政府债务，因此应长期积累大宗商品和贵金属，同时压低股票仓位、短期交易保持谨慎。",
+   "real_thesis_type": "advise",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "【大統領討論会】ハリス優勢、9月〜11月は株が危ない",
+     "thesis": "辩论后哈里斯占优、比特币承压，大选年9至11月美股易大跌，应转向估值低的日本成长股和铂金",
+     "candidates": [
+      "【大統領討論会】ハリス優勢、9月〜11月は株が危ない",
+      "トランプ vs ハリス、勝つのはどっち❓",
+      "大統領選の年、これから暴落する❓"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "「僕の」短标题是频道特征，B过长过细",
+     "thesis_score": 1,
+     "thesis_reason": "真实讲债务宽松利好商品，仿写讲大选和日股",
+     "attr_correct": true,
+     "copy_sim": 0.061,
+     "copy_nearest": "",
+     "real_overlap": 0.051
+    },
+    "guide_v1": {
+     "title": "【速報】大統領選討論会、米国株は暴落するのか？",
+     "thesis": "大选年9至11月美股易跌，哈里斯占优更添压力，短期美股应回避；长期应买估值30年最低的日本成长股与供给紧缺的铂金。",
+     "candidates": [
+      "【速報】大統領選討論会、米国株は暴落するのか？",
+      "大統領選、9月から危険な時期",
+      "ハリス優勢、僕が買うのはココです"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "“僕の投資戦略”是频道个人化口吻",
+     "thesis_score": 1,
+     "thesis_reason": "一个讲债务扩张推高商品，一个讲大选季节性和日股",
+     "attr_correct": true,
+     "copy_sim": 0.107,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "大統領選、9月〜11月が危ない？",
+     "thesis": "选举年9月至11月上旬美股易大跌，CPI后应短期谨慎；但长期先买估值30年最低的日本成长股，其次买缺口最大的铂金。",
+     "candidates": [
+      "大統領選、9月〜11月が危ない？",
+      "トランプ劣勢、株価に何が起きる？",
+      "討論会の後、僕が買う「これ」"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "用时间窗口来制造危机感，是频道惯用手法",
+     "thesis_score": 1,
+     "thesis_reason": "真实看重大宗商品，仿写首推日本成长股",
+     "attr_correct": true,
+     "copy_sim": 0.13,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "【大統領討論会】ハリス優勢でビットコイン下落…選挙前の9〜11月は株価暴落に要注意",
+     "thesis": "大統領選前の9〜11月は株価が下落しやすく、ハリス優勢は暗号資産に逆風なので、割高な米国株より割安な日本株や白金に分散すべきだ。",
+     "candidates": [
+      "【大統領討論会】ハリス優勢でビットコイン下落…選挙前の9〜11月は株価暴落に要注意",
+      "トランプvsハリス 経済政策を徹底比較 あなたの資産はどうなる？今夜のCPIにも注目",
+      "米国株は割高、日本株は30年ぶりの割安 大統領選前に私が注目する投資先"
+     ],
+     "judge_correct": true,
+     "judge_conf": 5,
+     "judge_reason": "简短加“僕の”；B堆砌信息过长",
+     "thesis_score": 1,
+     "thesis_reason": "真实讲债务驱动商品，仿写讲选举季节性和日股",
+     "attr_correct": true,
+     "copy_sim": 0.083,
+     "copy_nearest": "",
+     "real_overlap": 0.037
+    }
+   }
+  },
+  {
+   "id": "qlnkfIyx0Nc",
+   "upload_date": "20241128",
+   "topic": "美元指数的季节性、估值与利率背景，及其与大宗商品、贵金属、以太坊的关联数据",
+   "real_title": "スーパーサイクル始まる、注目はこの３つ？",
+   "real_thesis": "美元将因季节性、高估和降息而走弱，被遗忘的商品进入超级周期，白银、铂金和以太坊值得在年底前分批布局。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "【40年のデータ】11月からドルが暴落する❓",
+     "thesis": "大选年11月起美元季节性大跌叠加降息与高估，白银、铂金和以太坊将迎来新一轮上涨",
+     "candidates": [
+      "まもなく、ドル安が始まる",
+      "【40年のデータ】11月からドルが暴落する❓",
+      "ドル安で「これ」が急騰する"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "B紧扣选题数据像仿写，A全角数字更自然",
+     "thesis_score": 3,
+     "thesis_reason": "都认为美元走弱利好白银、铂金和以太坊",
+     "attr_correct": true,
+     "copy_sim": 0.103,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "ドル暴落の始まり、ココを買う時です",
+     "thesis": "大选年11月起美元季节性大跌且PPP显示高估，加上降息，商品将迎超级周期；应在年底前加仓白银、铂金和以太坊。",
+     "candidates": [
+      "ドル暴落の始まり、ココを買う時です",
+      "40年のデータ、11月からドルが急落",
+      "ドル安が来る、僕の巨額なポジション"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "美元季节性主题与“ドル暴落の始まり”吻合",
+     "thesis_score": 3,
+     "thesis_reason": "美元走弱、商品超级周期、标的配置完全一致",
+     "attr_correct": true,
+     "copy_sim": 0.421,
+     "copy_nearest": "",
+     "real_overlap": 0.029
+    },
+    "guide_v2": {
+     "title": "ドル急落は「この月」から始まる？",
+     "thesis": "大选年美元指数11月起跌幅最大，美元走弱将推升商品；白银短期或回调，但年底前应先加仓白银铂金，再买落后的以太坊。",
+     "candidates": [
+      "ドル急落は「この月」から始まる？",
+      "43年のデータ、ドル安が来る",
+      "商品の超サイクル、まだ始まったばかり？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "B 太贴选题，A 的宏观叙事更像本人",
+     "thesis_score": 3,
+     "thesis_reason": "美元走弱利好商品，布局白银铂金和以太坊",
+     "attr_correct": true,
+     "copy_sim": 0.115,
+     "copy_nearest": "",
+     "real_overlap": 0.097
+    },
+    "zero": {
+     "title": "【ドル安が来る】11月から歴史的にドル下落 コモディティ・銀・プラチナ・イーサリアムにチャンス",
+     "thesis": "大統領選の年は11月からドル安が強まり、ドル安で上昇するコモディティや銀・白金・イーサリアムは今が買い増しの好機だ。",
+     "candidates": [
+      "【ドル安が来る】11月から歴史的にドル下落 コモディティ・銀・プラチナ・イーサリアムにチャンス",
+      "大統領選の年、11月のドル安は最も激しい 私が年末までに買い増す3つの資産",
+      "コモディティは55年で最も割安 スーパーサイクルが始まる可能性"
+     ],
+     "judge_correct": true,
+     "judge_conf": 5,
+     "judge_reason": "“この３つ”式悬念；A列举资产过多",
+     "thesis_score": 3,
+     "thesis_reason": "美元走弱，布局银、铂、以太坊，论断一致",
+     "attr_correct": true,
+     "copy_sim": 0.07,
+     "copy_nearest": "",
+     "real_overlap": 0.016
+    }
+   }
+  },
+  {
+   "id": "WSdS0cNegvI",
+   "upload_date": "20250108",
+   "topic": "2025年初美国股市环境、央行货币政策与小盘股、商品等资产的数据梳理",
+   "real_title": "今年の米国株「ここ」を優先？トランプ政権、中銀、マクロトレンドのまとめ",
+   "real_thesis": "老龄化压低劳动生产率,迫使各国央行重启降息与扩张货币;2025年资金将流向被严重低估的小盘股(罗素2000),而非大盘股。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "【80年ぶり】2025年、小型株の時代が始まる",
+     "thesis": "标普500估值已达30年高位，而美股小盘股占比处80年低点且收益率曲线转正，2025年小盘股将跑赢大盘",
+     "candidates": [
+      "2025年、小型株の時代が始まる",
+      "【80年ぶり】この株が一番上がる❓",
+      "サンタラリーなし、今年は暴落する❓"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "长串总结式标题像真实，A的80年ぶり像编造",
+     "thesis_score": 2,
+     "thesis_reason": "都看好小盘股，但真实以老龄化和降息为因",
+     "attr_correct": true,
+     "copy_sim": 0.071,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "80年ぶり、ココを買う時です",
+     "thesis": "标普500市盈率30年高位不宜追，但小盘股市值占比处80年低位且收益率曲线转正，2025年应买罗素2000与商品。",
+     "candidates": [
+      "80年ぶり、ココを買う時です",
+      "米国株は危険、でも小型株は？",
+      "2025年、僕の投資戦略❓"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "长串关键词总结式标题像真实，B像模板",
+     "thesis_score": 2,
+     "thesis_reason": "结论都是买小盘股，但核心依据不同",
+     "attr_correct": true,
+     "copy_sim": 0.846,
+     "copy_nearest": "50年ぶり、ココを買う時です",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "【80年ぶりの低水準】小型株の逆襲",
+     "thesis": "标普500市盈率27倍，2025年1月易回调；但收益率曲线已转正，小盘股占比80年最低，全年应先买罗素2000，其次买商品。",
+     "candidates": [
+      "【80年ぶりの低水準】小型株の逆襲",
+      "2025年、本当に上がるのは「これ」",
+      "米国株バブル、それでも買う場所は？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "长标题加要点罗列，不像 AI 写法",
+     "thesis_score": 2,
+     "thesis_reason": "结论都是买小盘股，但因果逻辑不同",
+     "attr_correct": true,
+     "copy_sim": 0.136,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "小型株は80年ぶりの割安 逆イールド解消で中小型株がS&P500を上回る時代へ",
+     "thesis": "S&P500は30年ぶりの割高だが、逆イールド解消後は割安な小型株やコモディティがS&P500を上回る可能性が高い。",
+     "candidates": [
+      "【2025年】共和党トリプルレッドで株高？ サンタラリーなしでも注目すべき小型株",
+      "小型株は80年ぶりの割安 逆イールド解消で中小型株がS&P500を上回る時代へ",
+      "S&P500は30年ぶりの割高 2025年に私が投資する資産はこれ"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "“ここ”式悬念符合频道；B数据堆砌",
+     "thesis_score": 2,
+     "thesis_reason": "都看好小盘股，但理由不同，仿写还加了商品",
+     "attr_correct": true,
+     "copy_sim": 0.071,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "kDxZpUQdDxk",
+   "upload_date": "20241207",
+   "topic": "美股连续两年大涨背景下，关于是否出现大幅下跌的各类数据与市场信息",
+   "real_title": "次の大暴落は「この時」に起きる？",
+   "real_thesis": "美股估值与连涨信号显示两年内大概率出现约20%熊市，但可能在2026年前后而非眼前，故不必对冲，应保留机会并配置加密货币与大宗商品。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "asks",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "【100年で3回目】米国株、来年暴落する❓",
+     "thesis": "美股连续两年涨超20%、乐观情绪达35年最高，2025年出现5%至30%回调的风险很高，不该追高",
+     "candidates": [
+      "【100年で3回目】米国株、来年暴落する❓",
+      "2年連続20%上昇、次に来るのは「これ」",
+      "ウォール街、楽観しすぎている"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "「この時」悬念式常见，B数字钩子像仿写",
+     "thesis_score": 1,
+     "thesis_reason": "真实认为熊市不在眼前、不必对冲，仿写警示2025年风险",
+     "attr_correct": true,
+     "copy_sim": 0.16,
+     "copy_nearest": "",
+     "real_overlap": 0.029
+    },
+    "guide_v1": {
+     "title": "2年連続20%上昇、来年は暴落するのか？",
+     "thesis": "美股连续两年涨超20%且乐观情绪达35年高位，短期大概率回调5%以上，但不会立刻崩盘；应降低美股仓位，持有商品与加密资产。",
+     "candidates": [
+      "2年連続20%上昇、来年は暴落するのか？",
+      "100年で3回だけ、米国株の危険なシグナル",
+      "米国株、35年ぶりの楽観"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "含具体数据“2年連続20%”，贴合背景",
+     "thesis_score": 2,
+     "thesis_reason": "都持有商品和加密货币，但一个不对冲，一个主张减仓",
+     "attr_correct": true,
+     "copy_sim": 0.103,
+     "copy_nearest": "",
+     "real_overlap": 0.03
+    },
+    "guide_v2": {
+     "title": "2年連続20%超え、次は暴落か？",
+     "thesis": "乐观情绪35年最高，12月18日FOMC后到2025年美股可能回调5-30%，但不是泡沫崩盘；应先持商品与加密，回调后再买美股。",
+     "candidates": [
+      "2年連続20%超え、次は暴落か？",
+      "楽観35年ぶり、米国株の危険な兆候",
+      "100年で3回目、この後どうなる？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "「この時」式模糊悬念是频道常用手法",
+     "thesis_score": 2,
+     "thesis_reason": "配置一致，但仿写认为回调就在眼前",
+     "attr_correct": true,
+     "copy_sim": 0.043,
+     "copy_nearest": "",
+     "real_overlap": 0.034
+    },
+    "zero": {
+     "title": "【警告】米国株2年連続20%超え 過去100年で3回だけ その翌年に何が起きたか",
+     "thesis": "2年連続20%超の上昇、35年ぶりの楽観と歴史的な割高感が重なる今、米国株はいずれ大きく下落するリスクが高い。",
+     "candidates": [
+      "【警告】米国株2年連続20%超え 過去100年で3回だけ その翌年に何が起きたか",
+      "楽観指数は35年ぶりの最高水準 米国株は大暴落するのか？データで検証",
+      "マグニフィセント7への集中は歴史的 私が株を10%しか持たない理由"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "“この時”悬念短问句，A过于详细",
+     "thesis_score": 2,
+     "thesis_reason": "都警示大跌风险，但真实强调不急于对冲",
+     "attr_correct": true,
+     "copy_sim": 0.055,
+     "copy_nearest": "",
+     "real_overlap": 0.02
+    }
+   }
+  },
+  {
+   "id": "0FKSKkaud98",
+   "upload_date": "20250116",
+   "topic": "美国CPI数据公布后，美国10年期国债收益率与利率预期的变动",
+   "real_title": "ボトムを買うチャンスか？",
+   "real_thesis": "CPI低于预期说明降息将按计划继续，特朗普关税推进渐进、通胀影响有限，美债收益率近5%已见顶，是二十年来的买入良机。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "asks",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "【速報】米CPI発表、米国債を買うチャンス",
+     "thesis": "核心CPI低于预期，市场对加息和关税通胀的担忧过度，接近5%的美10年期国债正是买入良机",
+     "candidates": [
+      "【速報】米CPI発表、米国債を買うチャンス",
+      "まもなく、米国債が急騰する❓",
+      "利上げ確率40%、市場は間違っている"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "简短悬念问句更像真实，A直白概括像仿写",
+     "thesis_score": 3,
+     "thesis_reason": "都认为CPI偏低、关税影响有限，美债可买",
+     "attr_correct": true,
+     "copy_sim": 0.261,
+     "copy_nearest": "",
+     "real_overlap": 0.24
+    },
+    "guide_v1": {
+     "title": "【速報】米国CPI発表、国債が急騰",
+     "thesis": "核心CPI低于预期证明关税通胀恐慌过度，市场定价40%加息概率是错的；10年期美债收益率近5%为20年良机，应买美债而非美股。",
+     "candidates": [
+      "【速報】米国CPI発表、国債が急騰",
+      "20年ぶりの金利、ココを買う時です",
+      "利上げの恐怖、実は嘘です"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "B把收益率上升误写成国债急騰，像AI",
+     "thesis_score": 3,
+     "thesis_reason": "都认为CPI偏低、收益率近5%见顶，应买美债",
+     "attr_correct": true,
+     "copy_sim": 0.562,
+     "copy_nearest": "【速報】米国CPI発表❓",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "米国債4.7%、僕が今買う理由",
+     "thesis": "核心CPI低于预期，市场对关税通胀和40%加息概率的担忧过度；美债短期仍会波动，但收益率4.7%已近顶，应先买美债，股票放后面。",
+     "candidates": [
+      "米国債4.7%、僕が今買う理由",
+      "金利上昇は「ここ」で終わる？",
+      "関税インフレ、実は心配しすぎ？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "B 的数字过于贴合选题，像仿写",
+     "thesis_score": 3,
+     "thesis_reason": "CPI温和、关税影响有限、美债收益率见顶可买",
+     "attr_correct": true,
+     "copy_sim": 0.037,
+     "copy_nearest": "",
+     "real_overlap": 0.042
+    },
+    "zero": {
+     "title": "【CPI発表】米国債が急騰 金利5%近くは20年ぶりのチャンスか",
+     "thesis": "関税インフレへの懸念は過剰で、市場の利上げ織り込みは行き過ぎ。利回り5%近い米国債は株より魅力的な買い場だ。",
+     "candidates": [
+      "【CPI発表】米国債が急騰 金利5%近くは20年ぶりのチャンスか",
+      "利上げ確率40%は行き過ぎ？ 米国債と株の乖離が示すサイン",
+      "トランプ関税でインフレ再燃？ CPI後に私が米国債に注目する理由"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "简短问句；B直接复述选题数据",
+     "thesis_score": 2,
+     "thesis_reason": "都认为5%美债是买点，但理由的侧重点不同",
+     "attr_correct": true,
+     "copy_sim": 0.219,
+     "copy_nearest": "",
+     "real_overlap": 0.108
+    }
+   }
+  }
+ ]
+}
