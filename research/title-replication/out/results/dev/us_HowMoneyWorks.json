@@ -1,0 +1,851 @@
+{
+ "key": "us_HowMoneyWorks",
+ "systems": [
+  "fewshot",
+  "guide_v1",
+  "guide_v2",
+  "zero"
+ ],
+ "items": [
+  {
+   "id": "qGwU2dOoHiY",
+   "upload_date": "20251130",
+   "topic": "美国股市分红下降、公司回购与短期激励机制的数据和背景",
+   "real_title": "How Short Term Thinking Won",
+   "real_thesis": "美国经济短视化源于过去四十年的激励与规则变化（分红萎缩、回购合法化、高管绩效薪酬、低利率），使各环节无需长期盈利也能套现。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "states",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Why Stocks Stopped Paying Dividends",
+     "thesis": "股息率跌到约1%不是因为公司变得更会赚钱，而是回购和与股价挂钩的高管薪酬让股市靠公司自买自卖撑着，普通股东吃亏。",
+     "candidates": [
+      "Why Stocks Stopped Paying Dividends",
+      "The Stock Market Is Just Companies Buying Themselves",
+      "Who Is Actually Buying All These Stocks?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "抽象概括式标题更像频道风格，A过于直白",
+     "thesis_score": 2,
+     "thesis_reason": "方向一致，仿写只聚焦回购和股息，缺四十年短视化框架",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "If Everyone Is Selling Stocks... Who's Buying Them?",
+     "thesis": "2000年来散户与机构都在净卖出，股市靠公司5.5万亿回购托举；回购取代分红，是为了让拿股票薪酬的高管快速套现。",
+     "candidates": [
+      "If Everyone Is Selling Stocks... Who's Buying Them?",
+      "Why Stocks Stopped Paying You",
+      "The Stock Market Is Just Buying Itself"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "短促概括式标题，契合短期激励主题",
+     "thesis_score": 2,
+     "thesis_reason": "仿写只抓回购与高管套现，缺整体短视化激励框架",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Who Is Actually Buying All These Stocks?",
+     "thesis": "股市上涨不是因为投资者看好，而是回购、高管股权激励、税制和低利率叠加成自买循环；分红被牺牲，内部人套现，普通人最后接盘。",
+     "candidates": [
+      "The Stock Market Is Buying Itself",
+      "Who Is Actually Buying All These Stocks?",
+      "Why Stocks Stopped Paying Dividends At Record Rates"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "抽象概括式标题符合频道风格，B偏离分红主题",
+     "thesis_score": 2,
+     "thesis_reason": "同为回购激励低利率，但仿写聚焦股市接盘而非短视化",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Why Nobody Pays Dividends Anymore",
+     "thesis": "股息消失并非企业更会增值，而是回购和与股价挂钩的高管薪酬让内部人短期套现，股市靠公司自买自撑。",
+     "candidates": [
+      "Why Nobody Pays Dividends Anymore",
+      "The Stock Market Is Being Propped Up By One Buyer",
+      "Corporate America Stopped Paying You"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "直接点出分红主题，符合频道直白问句风格",
+     "thesis_score": 2,
+     "thesis_reason": "机制相同，但仿写只谈股市，漏了低利率和整体短视化",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "dqmJN5z6Rjc",
+   "upload_date": "20251211",
+   "topic": "美国零工经济规模扩张、平台收入分配变化及其与就业数据的关系",
+   "real_title": "The Gig Economy is Full",
+   "real_thesis": "零工平台掩盖了真实失业，司机供给暴增而需求放缓，平台得以压价；若失业继续，这一自动化的下行循环会比传统裁员更快、更隐蔽，中国已现先例。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "The Gig Economy Is Hiding Unemployment",
+     "thesis": "美国失业率看着很低，是因为大量失业者转去跑零工；平台工人越来越多，订单却没跟上，零工经济其实是在掩盖一场隐性失业。",
+     "candidates": [
+      "The Gig Economy Is Hiding Unemployment",
+      "Unemployment Isn't Low... Everyone Just Drives For Uber Now",
+      "The Gig Economy Is Running Out of Gigs"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "简短反常识表述符合频道习惯，B较常规",
+     "thesis_score": 3,
+     "thesis_reason": "核心都是零工掩盖隐性失业、供过于求",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.5
+    },
+    "guide_v1": {
+     "title": "The Gig Economy Is Hiding A Recession",
+     "thesis": "低失业率是假象：失业者涌入零工平台，工人增速远超订单收入，人均收入不断被摊薄，平台和投资人却照样获利。",
+     "candidates": [
+      "The Gig Economy Is Hiding A Recession",
+      "Unemployment Is Low... Because Everyone Is Driving Uber",
+      "Everyone Is a Gig Worker Now (And Earning Less)"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "关联就业数据的反常识论断，符合频道风格",
+     "thesis_score": 2,
+     "thesis_reason": "都说零工掩盖失业压低收入，仿写缺下行循环警示",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.429
+    },
+    "guide_v2": {
+     "title": "The Gig Economy Is Hiding Mass Unemployment",
+     "thesis": "低失业率不代表就业健康，而是零工平台吸纳失业者形成隐性失业；补贴退潮、工人过剩、消费集中压低人均收入，自动化还会继续挤压。",
+     "candidates": [
+      "The Gig Economy Is Hiding Mass Unemployment",
+      "Why Unemployment Is Secretly Far Worse Than It Looks",
+      "Uber Is America's Biggest \"Employer\""
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "简短反常表述更像真人，A过于直白套路",
+     "thesis_score": 3,
+     "thesis_reason": "均为零工掩盖失业、供给过剩压价、自动化加剧",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.429
+    },
+    "zero": {
+     "title": "The Gig Economy Is Hiding Unemployment",
+     "thesis": "低失业率是假象：数百万失业者被零工平台吸收，人均收入不断被稀释，官方数据掩盖了真实的就业衰退。",
+     "candidates": [
+      "The Gig Economy Is Hiding Unemployment",
+      "Unemployment Is Lying To You",
+      "Why Gig Work Is Paying Less Than Ever"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "简短反常的说法像真人，A像AI的解释式标题",
+     "thesis_score": 3,
+     "thesis_reason": "都认为零工平台掩盖失业、压低收入",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.5
+    }
+   }
+  },
+  {
+   "id": "mKs0Uyj0q-w",
+   "upload_date": "20250729",
+   "topic": "英国金融业（以伦敦为中心）的结构、财富外流及其对英国经济的影响",
+   "real_title": "WTF Happened To The UK?",
+   "real_thesis": "英国为讨好全球富豪，把经济押在伦敦财富管理与灰色资金上、牺牲其余地区；如今富豪外流，留下失衡、债务缠身且难以转型的经济。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "teases",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "Britain Is a Bank With a Country Attached",
+     "thesis": "英国经济高度依赖伦敦替全球富人打理钱财，现在富人和资本开始外流，这个模式正在拖垮英国经济，而不是撑起它。",
+     "candidates": [
+      "Britain Is a Bank With a Country Attached",
+      "Why The Rich Are Fleeing Britain",
+      "How London Broke The British Economy"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "讽刺比喻有频道味道，B口吻略偏离",
+     "thesis_score": 3,
+     "thesis_reason": "都认为依赖伦敦理财模式在富人外流后拖垮经济",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "The UK Is A Tax Haven With A Country Attached",
+     "thesis": "英国把经济押在伦敦替全球富人藏钱避税的金融业上，富人一被加税就出走，停滞的经济和工薪阶层上升通道随之萎缩。",
+     "candidates": [
+      "The UK Is A Tax Haven With A Country Attached",
+      "Britain's Quiet Collapse",
+      "Why The Rich Are Fleeing Britain... And Why It Hurts You"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "化用名句的犀利论断，比WTF式泛问更具体",
+     "thesis_score": 3,
+     "thesis_reason": "押注伦敦富人金融、富人出走致经济失衡，论断一致",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.083
+    },
+    "guide_v2": {
+     "title": "WTF Happened To Britain?",
+     "thesis": "英国停滞不只是脱欧之过，而是过度金融化：经济押注伦敦给全球富人理财避税，富人一走，金融、地产和工薪阶层上升通道一起塌。",
+     "candidates": [
+      "WTF Happened To Britain?",
+      "Why The Rich Are Fleeing Britain At Record Rates",
+      "London Is Draining The Rest Of Britain"
+     ],
+     "judge_correct": true,
+     "judge_conf": 1,
+     "judge_reason": "两者几乎相同，凭感觉选UK",
+     "thesis_score": 3,
+     "thesis_reason": "均指押注伦敦富人理财，富人外流致经济失衡",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.4
+    },
+    "zero": {
+     "title": "Britain's Economy Is Just London Now",
+     "thesis": "英国把经济押在服务全球富人的伦敦金融业上，富人一外流，这个支柱和工薪阶层的上升通道就一起崩塌。",
+     "candidates": [
+      "Britain's Economy Is Just London Now",
+      "The UK Is Losing Its Rich (And That's A Problem)",
+      "How London Became The World's Money Laundromat"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "口语化WTF更像真人，A过于概括",
+     "thesis_score": 3,
+     "thesis_reason": "都说押注伦敦富人经济，富豪外流后经济失衡",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "ozVb14bNwzQ",
+   "upload_date": "20251024",
+   "topic": "AI对管理咨询公司和企业高管岗位的影响及相关研究数据",
+   "real_title": "AI Is Laying Off... Senior Executives",
+   "real_thesis": "AI在成本和决策表现上更适合先替代高管与咨询师，但法律问责、黑天鹅应对和高管自我认知偏差使其更可能变成扁平化裁员而非真正取代。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "AI Is Coming For CEOs... Just Not How You Think",
+     "thesis": "AI最容易取代的其实是咨询顾问和高管的分析工作，而不是一线员工；精英岗位之所以还安全，靠的是法律追责和背锅的需要，而不是能力。",
+     "candidates": [
+      "AI Is Coming For CEOs... Just Not How You Think",
+      "Consultants Are Selling AI That Replaces Consultants",
+      "Why AI Will Replace Your Boss Before It Replaces You"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "省略号反转是频道招牌句式",
+     "thesis_score": 3,
+     "thesis_reason": "都认为AI最适合替代高管，但法律问责保住了岗位",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.077
+    },
+    "guide_v1": {
+     "title": "AI Is Better Than Your CEO... It Still Won't Replace Them",
+     "thesis": "AI经营能力已胜过高管，被淘汰的却是咨询公司和企业的初级员工，因为法律追责和应对黑天鹅需要真人，高管得以自保。",
+     "candidates": [
+      "AI Is Better Than Your CEO... It Still Won't Replace Them",
+      "WTF Do Consultants Actually Do Now That AI Exists?",
+      "Why AI Will Replace Interns, Not Executives"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "省略号转折、讽刺高管的结构很像频道写法",
+     "thesis_score": 3,
+     "thesis_reason": "AI本应替高管，但问责与黑天鹅使其变成裁基层",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.071
+    },
+    "guide_v2": {
+     "title": "AI Can Replace CEOs... So Why Won't It?",
+     "thesis": "AI在常规决策上已胜过高管，但法律追责、黑天鹅风险和高管自保让顶层安然无恙；真正被砍的是咨询金字塔底层，年轻人的入行通道正在消失。",
+     "candidates": [
+      "AI Can Replace CEOs... So Why Won't It?",
+      "Consultants Are Selling AI... To Replace Themselves",
+      "Why AI Is Coming For Juniors, Not Executives"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "省略号反转是频道招牌句式",
+     "thesis_score": 2,
+     "thesis_reason": "障碍相同，但受害者重点：扁平化裁员vs咨询底层",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "AI Is Better At Being A CEO Than CEOs",
+     "thesis": "AI冲击的不只是初级员工：它在日常经营上已胜过高管和咨询师，高层得以幸存靠的是法律追责和政治，而非能力。",
+     "candidates": [
+      "AI Is Coming For The Consultants",
+      "AI Is Better At Being A CEO Than CEOs",
+      "The Jobs AI Will Actually Replace (It's Not Who You Think)"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "省略号转折是频道惯用手法",
+     "thesis_score": 2,
+     "thesis_reason": "都说高管靠法律问责幸存，但真实结论是扁平化裁员",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.083
+    }
+   }
+  },
+  {
+   "id": "V64TdrkhTqo",
+   "upload_date": "20250930",
+   "topic": "甲骨文因AI云基础设施订单股价暴涨，及其接手TikTok美国业务、埃里森家族涉足媒体的情况",
+   "real_title": "Oracle is Genuinely Far Scarier Than Blackrock",
+   "real_thesis": "甲骨文靠与OpenAI、英伟达循环融资的订单虚高估值，再用泡沫市值与政商关系攫取TikTok和媒体控制权，其隐性权力比贝莱德更危险。",
+   "real_thesis_type": "expose",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "How Larry Ellison Became The Most Powerful Man In Media",
+     "thesis": "甲骨文暴涨的估值建立在OpenAI付不起的订单上，埃里森家族则借这些财富和政治关系，用很低的价格拿下了TikTok和传统媒体。",
+     "candidates": [
+      "Oracle Is Now a $500 Billion Bet On One Customer",
+      "How Larry Ellison Became The Most Powerful Man In Media",
+      "Oracle's Very Suspicious Trillion Dollar Week"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "古怪对比不像AI，B过于规整",
+     "thesis_score": 2,
+     "thesis_reason": "链条相同，但缺少“比贝莱德更危险”的判断",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "The Ellisons Are Buying America's Attention",
+     "thesis": "甲骨文暴涨靠OpenAI根本付不起的循环订单，埃里森家族借此财富和政治关系低价拿下TikTok、扩张媒体，买的是舆论控制权。",
+     "candidates": [
+      "The Ellisons Are Buying America's Attention",
+      "Oracle's $455 Billion IOU",
+      "How (Not) To Become The Richest Man In The World"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "拿贝莱德作比较的怪异说法，不像AI会写",
+     "thesis_score": 3,
+     "thesis_reason": "循环订单撑估值再攫取TikTok和媒体控制权，一致",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Oracle Is Genuinely Scarier Than Big Tech",
+     "thesis": "甲骨文暴涨靠的不是业绩，而是AI循环订单泡沫加政治关系；埃里森家族正借此低价拿下TikTok与传统媒体，掌控美国人看到的内容。",
+     "candidates": [
+      "Oracle Is Genuinely Scarier Than Big Tech",
+      "How Oracle Quietly Bought America's Attention",
+      "WTF Is Oracle Actually Doing?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "拿Blackrock作比较具体且出人意料",
+     "thesis_score": 3,
+     "thesis_reason": "均为循环订单泡沫加政商关系攫取TikTok和媒体",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.333
+    },
+    "zero": {
+     "title": "Oracle Is Buying America",
+     "thesis": "甲骨文暴涨靠的是付不起钱的客户订单，而埃里森家族正借政治关系把AI、TikTok和媒体集中到一家人手里。",
+     "candidates": [
+      "Oracle Is Buying America",
+      "The Ellisons Are Taking Over Everything",
+      "Oracle's $455 Billion House Of Cards"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "Genuinely Far Scarier措辞奇特，不像AI仿写",
+     "thesis_score": 3,
+     "thesis_reason": "都说订单虚高推高估值，再借政商关系集中控制权",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.125
+    }
+   }
+  },
+  {
+   "id": "Hm1_9wEDJbk",
+   "upload_date": "20250613",
+   "topic": "美国父母对成年子女的资金支持规模、形式及其影响",
+   "real_title": "The Bank of Mom & Dad - Can People Still Afford To Grow Up?",
+   "real_thesis": "“父母银行”式代际输血正在固化不平等、拖垮父母养老，还抑制生育；它掩盖了年轻人起步成本过高的结构性问题，对各方都不利。",
+   "real_thesis_type": "judge",
+   "real_title_thesis": "asks",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "The Bank of Mom & Dad Is Now America's 7th Biggest Lender",
+     "thesis": "在美国，父母的钱已经代替了工资，成为年轻人拿到中产资产的主要门票，代价是父母自己的退休保障。",
+     "candidates": [
+      "The Bank of Mom & Dad Is Now America's 7th Biggest Lender",
+      "Why Parents Are Sacrificing Their Retirement For Their Adult Kids",
+      "Inheritance Is Coming Too Late... So Parents Are Paying Early"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "具体排名数据更像真实钩子，A破折号偏旧式",
+     "thesis_score": 2,
+     "thesis_reason": "仿写只讲父母钱替代工资，缺不平等和生育等论点",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.235
+    },
+    "guide_v1": {
+     "title": "The Bank Of Mom And Dad Is Going Broke",
+     "thesis": "父母资助成了年轻人买房上岸的前提，代价是掏空养老金和房屋净值；靠不上父母的一半年轻人被彻底甩下，受益的是银行。",
+     "candidates": [
+      "The Bank Of Mom And Dad Is Going Broke",
+      "Your Parents Are Now America's 7th Largest Mortgage Lender",
+      "If Your Parents Pay For Everything... Who Pays For Them?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "破折号加设问，B像AI生成的泛化套话",
+     "thesis_score": 3,
+     "thesis_reason": "父母输血固化不平等、掏空养老，核心论断相同",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.188
+    },
+    "guide_v2": {
+     "title": "Why Parents Are Now Bankrolling Their Adult Kids",
+     "thesis": "父母养成年子女不是溺爱，是工资停滞叠加信贷推高房价和学费；父母因此掏空退休金，没父母可靠的那一半年轻人被永久甩下。",
+     "candidates": [
+      "Why Parents Are Now Bankrolling Their Adult Kids",
+      "The Bank Of Mom And Dad - Can Parents Afford It?",
+      "Young Americans Can't Afford Adulthood Without Their Parents"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "俏皮主标题加反问副标题，较像人写",
+     "thesis_score": 2,
+     "thesis_reason": "均涉不平等和养老，仿写重成因，缺生育与各方不利",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "The Bank of Mom & Dad Is America's Real Economy",
+     "thesis": "在美国，能否靠自己独立已不取决于努力，而取决于父母肯不肯、能不能掏空退休金和房产来提前给钱。",
+     "candidates": [
+      "The Bank of Mom & Dad Is America's Real Economy",
+      "Why Parents Are Now America's 7th Biggest Lender",
+      "The Hidden Cost of Helping Your Adult Kids"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "破折号加问句较随意，A像AI式宏大断言",
+     "thesis_score": 2,
+     "thesis_reason": "仿写只谈靠父母决定命运，漏了养老和生育代价",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.267
+    }
+   }
+  },
+  {
+   "id": "v1a7XIadpmU",
+   "upload_date": "20250921",
+   "topic": "近年政治、经济与社会动荡加剧的现象及其涉及的游戏、媒体与经济结构因素",
+   "real_title": "Why Everything Is Suddenly So \"Extreme\"",
+   "real_thesis": "当下各领域的极端化并非个别政客或媒体所致，而是过去80年的经济红利见顶，社会拥有既得利益的人开始担心失去，加上算法放大噪音。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "asks",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Why Everything Feels \"Unprecedented\" Right Now",
+     "thesis": "世界客观上并没有变糟，动荡感来自经济红利消失后的零和竞争，再加上靠互动吃饭的媒体把它放大了。",
+     "candidates": [
+      "Why Everything Feels \"Unprecedented\" Right Now",
+      "The World Isn't Getting Worse... It's Getting More Competitive",
+      "Why Life Now Feels Like A Ranked Match"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "引号加Suddenly更贴近频道措辞",
+     "thesis_score": 3,
+     "thesis_reason": "都归因为经济红利消失后的零和竞争和媒体放大",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.111
+    },
+    "guide_v1": {
+     "title": "Why Everything Feels Like It's Falling Apart",
+     "thesis": "世界其实没变糟，是顶层赢家通吃、算法放大愤怒，加上战后增长红利耗尽，让普通人像排到2%高手的玩家一样处处受挫。",
+     "candidates": [
+      "Why Everything Feels Like It's Falling Apart",
+      "The World Isn't Getting Worse... The Game Is Rigged (probably)",
+      "Unprecedented Times Are The New Normal"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "给单词加引号是频道常用手法",
+     "thesis_score": 2,
+     "thesis_reason": "同指红利耗尽与算法，但一谈极端化一谈普通人受挫",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.1
+    },
+    "guide_v2": {
+     "title": "Why Everything Suddenly Feels So \"Unprecedented\"",
+     "thesis": "世界并未变得更糟，而是一切都卷到了极致：顶层赢家拉开差距、媒体靠煽动获利、战后增长红利耗尽；输家越来越愤怒，动荡只会持续。",
+     "candidates": [
+      "Why Everything Suddenly Feels So \"Unprecedented\"",
+      "Why The World Feels Like It's Falling Apart",
+      "The Age Of Chaos - Is The World Actually Broken?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "Extreme更贴合游戏媒体等多因素主题",
+     "thesis_score": 2,
+     "thesis_reason": "都提增长红利耗尽和媒体，仿写重赢家通吃而非怕失去",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.111
+    },
+    "zero": {
+     "title": "Why Everything Feels So Unprecedented",
+     "thesis": "世界其实比过去更富更和平，动荡感来自经济变成赢家通吃的竞技游戏，加上算法媒体把每件事都放大成危机。",
+     "candidates": [
+      "Why Everything Feels So Unprecedented",
+      "The World Is Getting Better. So Why Is Everyone So Angry?",
+      "Life Is Becoming a Competitive Video Game"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "引号强调词符合频道风格",
+     "thesis_score": 2,
+     "thesis_reason": "都归因经济和算法，但经济机制不同",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.125
+    }
+   }
+  },
+  {
+   "id": "uqf6NoAhFts",
+   "upload_date": "20250827",
+   "topic": "美国近期就业市场变化：应届毕业生、年轻男性失业与跳槽收益",
+   "real_title": "The Job Market Has Changed... Again.",
+   "real_thesis": "就业市场不确定性上升，使大学学历回报缩水、跳槽失去优势、年轻男性受冲击最大；稳定的传统女性主导行业反而更安全。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "teases",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "Why Young Men Are Losing The Job Market",
+     "thesis": "年轻男性毕业生失去就业优势，是因为他们扎堆进了脆弱的热门行业，又不肯进入稳定的女性主导行业。",
+     "candidates": [
+      "Why Young Men Are Losing The Job Market",
+      "College Doesn't Protect Young Men From Unemployment Anymore",
+      "The Death of Job Hopping (And Why Everyone Is \"Job Hugging\")"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "省略号+Again 符合频道风格",
+     "thesis_score": 2,
+     "thesis_reason": "仿写把原因归到男性择业，原文强调市场不确定性",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.2
+    },
+    "guide_v1": {
+     "title": "Why Young Men Are Losing The Job Market",
+     "thesis": "男性大学文凭的就业保护在消失，不是学历贬值，而是招聘冻结、跳槽红利消失，以及政策只推女性进男性领域、不推男性进护理等稳定行业。",
+     "candidates": [
+      "A Degree Is No Longer Protecting Young Men",
+      "Why Young Men Are Losing The Job Market",
+      "Job Hugging - Why Nobody Is Quitting Anymore"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "省略号加Again，能涵盖多个子话题",
+     "thesis_score": 2,
+     "thesis_reason": "同说男性学历保护减弱，仿写另加政策原因",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.2
+    },
+    "guide_v2": {
+     "title": "Why Young Men Can't Find Jobs Anymore",
+     "thesis": "问题不在学历贬值，而在就业市场冻结：企业少招、员工抱岗、跳槽不再加薪，女性又被推进高学历领域；最先受损的是刚入场的年轻男性。",
+     "candidates": [
+      "Why Young Men Can't Find Jobs Anymore",
+      "The Job Market Is Frozen... For Young Men",
+      "Why College Doesn't Protect Young Men Anymore"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "省略号加Again语气典型，A过于聚焦",
+     "thesis_score": 2,
+     "thesis_reason": "同为市场冻结伤年轻男性，但仿写否认学历贬值",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "The Job Market Is Quietly Breaking Young Men",
+     "thesis": "年轻男性大学生失业率追平非大学生，是因为他们挤进了周期性行业，却从不进入稳定的女性主导岗位，而不是学历贬值了。",
+     "candidates": [
+      "The Job Market Is Quietly Breaking Young Men",
+      "Why a Degree No Longer Protects Young Men",
+      "The Great Job Hugging Era"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "省略号加Again的平淡转折是频道典型",
+     "thesis_score": 1,
+     "thesis_reason": "仿写否认学历贬值，与真实论点部分冲突",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.2
+    }
+   }
+  },
+  {
+   "id": "Iczc-MPKJDM",
+   "upload_date": "20250831",
+   "topic": "美国青壮年死亡率高于其他高收入国家的研究数据及相关因素",
+   "real_title": "Why Young Americans Are Dying At An Alarming Rate",
+   "real_thesis": "美国年轻人死亡率偏高并非医保缺失所致，而是不平等与机会匮乏、缺乏托底的高生活成本、汽车依赖三大结构性压力叠加的结果。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Why Young Americans Are Dying So Young",
+     "thesis": "美国青壮年死亡率偏高，根源在于不平等和脆弱的就业保障，而不在医疗技术，经济压力正在实实在在地要年轻人的命。",
+     "candidates": [
+      "Why Young Americans Are Dying So Young",
+      "America's Shocking Young Adult Death Problem",
+      "Being Young In America Is Surprisingly Deadly"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "B的alarming rate是AI套话",
+     "thesis_score": 2,
+     "thesis_reason": "都说根源是结构性经济压力，仿写缺汽车依赖等",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.4
+    },
+    "guide_v1": {
+     "title": "Why Young Americans Are Dying",
+     "thesis": "美国青壮年死亡率是同类富国的2.5倍，不是单一原因，而是工会衰落、不平等、薄弱失业保障和汽车依赖共同造成的结构性代价。",
+     "candidates": [
+      "Why Young Americans Are Dying",
+      "America Is Too Rich To Be This Deadly",
+      "Being Young In America Is Weirdly Dangerous"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "B只是在A后面加了个修饰语，像AI扩写",
+     "thesis_score": 3,
+     "thesis_reason": "都归因于不平等、托底薄弱、汽车依赖等结构因素",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.5
+    },
+    "guide_v2": {
+     "title": "Why Young Americans Are Dying At An Alarming Rate",
+     "thesis": "美国青壮年死亡率高并非单一原因，而是不平等加深的结果：工会衰落、看病靠急诊、失业无保障、出行离不开车；穷困地区最惨，还在恶化。",
+     "candidates": [
+      "Why Young Americans Are Dying At An Alarming Rate",
+      "America Is Killing Its Young Adults",
+      "Why Being Young In America Is So Deadly"
+     ],
+     "judge_correct": false,
+     "judge_conf": 1,
+     "judge_reason": "两个标题完全相同，只能随机选择",
+     "thesis_score": 3,
+     "thesis_reason": "均归因不平等、缺托底、汽车依赖等结构压力",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 1.0
+    },
+    "zero": {
+     "title": "Why Young Americans Are Dying",
+     "thesis": "美国青壮年死亡率远高于其他富国，主因是不平等、缺乏安全网和以车为本的生活，而不是医疗技术落后。",
+     "candidates": [
+      "Why Young Americans Are Dying",
+      "America's Strange Death Problem",
+      "The Deadliest Place to Be Young in the Rich World"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "简短有力，A加修饰语像AI扩写",
+     "thesis_score": 3,
+     "thesis_reason": "三大结构性原因相同，都否定医疗因素",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.5
+    }
+   }
+  },
+  {
+   "id": "la3gsUisWqw",
+   "upload_date": "20251128",
+   "topic": "高盛报告显示高收入人群也常月光，及其背后的社会与消费因素",
+   "real_title": "How The 1% Are Bankrupting Themselves at Record Rates",
+   "real_thesis": "顶层1%月光并非单纯因为变笨，而是攀比环境、缺乏理财素养和商家针对富人的消费通胀共同所致；但他们长期资产仍占优。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Why People Making $500,000 Are Still Broke",
+     "thesis": "年入50万美元的人也月光，主要不是因为挥霍，而是他们只跟更富的人比、又住在天价城市，在这场攀比里永远赢不了。",
+     "candidates": [
+      "Why People Making $500,000 Are Still Broke",
+      "The $500K Paycheck to Paycheck Trap",
+      "Rich People Are Broke Too... Here's Why"
+     ],
+     "judge_correct": false,
+     "judge_conf": 4,
+     "judge_reason": "A夸大失实，B贴合报告且具体",
+     "thesis_score": 2,
+     "thesis_reason": "都提到攀比，但缺理财素养、消费通胀和资产仍占优",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Why People Making $500,000 Are Still Broke",
+     "thesis": "年入50万仍月光不只是乱花钱：高薪集中在天价城市，身边总有更富的人，整个经济都在转向收割他们，但他们仍在悄悄积累资产。",
+     "candidates": [
+      "Why People Making $500,000 Are Still Broke",
+      "The Myth Of The Rich Six Figures",
+      "If You Earn $500K... Why Are You Living Paycheck To Paycheck?"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "用具体收入数字，贴合高盛报告内容",
+     "thesis_score": 3,
+     "thesis_reason": "攀比环境与商家收割致月光但仍积累资产，一致",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Why Even The Rich Are Living Paycheck To Paycheck",
+     "thesis": "年入50万仍月光不是挥霍，而是社会经济分形：顶层内部差距悬殊，又有天价城市房贷、圈层攀比和富人专供消费；但他们长期仍靠股权和房产占优。",
+     "candidates": [
+      "Why Even The Rich Are Living Paycheck To Paycheck",
+      "Being \"Rich\" Isn't Enough Anymore",
+      "The 1% Are Broke Too (Sort Of)"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "A贴合月光主题，B破产说法夸大偏题",
+     "thesis_score": 2,
+     "thesis_reason": "攀比、富人消费、长期占优一致，仿写重分形缺理财素养",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Why People Making $500,000 Are Broke",
+     "thesis": "年入50万美元仍月光，是因为他们身处顶层内部永无止境的攀比和天价城市里，高收入只是买到了一张更贵的入场券。",
+     "candidates": [
+      "Why People Making $500,000 Are Broke",
+      "The Rich Are Living Paycheck to Paycheck",
+      "Being Rich Isn't Enough Anymore"
+     ],
+     "judge_correct": false,
+     "judge_conf": 4,
+     "judge_reason": "具体数字直白问题，B夸张用语像AI",
+     "thesis_score": 2,
+     "thesis_reason": "都提攀比，但仿写漏了理财素养、消费通胀和资产优势",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  }
+ ]
+}

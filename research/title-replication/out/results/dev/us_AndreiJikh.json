@@ -1,0 +1,851 @@
+{
+ "key": "us_AndreiJikh",
+ "systems": [
+  "fewshot",
+  "guide_v1",
+  "guide_v2",
+  "zero"
+ ],
+ "items": [
+  {
+   "id": "2HRBJCp9XkI",
+   "upload_date": "20250321",
+   "topic": "前华尔街交易员Josh Mandel的比特币价格预测及美国比特币政策提案",
+   "real_title": "Bitcoin’s Prophecy Just Came True… $444,402.75 is Next",
+   "real_thesis": "Josh Mandel的44万美元预言神秘难解,但美国政府买币和比特币债券可能带来供给冲击使其有现实路径;不过应保持怀疑、分散投资",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "He Predicted Bitcoin To The EXACT Dollar - Here's What's Next",
+     "thesis": "Mandel精准命中8.4万不足以证明44万目标可信，但美国用债券或战略储备买比特币的政策可能真正推高价格。",
+     "candidates": [
+      "He Predicted Bitcoin To The EXACT Dollar - Here's What's Next",
+      "Ex-Wall Street Trader Called $84K Bitcoin… Now He Says $444K",
+      "The Bitcoin Prophecy Just Came True (Next Target Is Insane)"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "精确到分的奇特价格数字，AI较少编造",
+     "thesis_score": 2,
+     "thesis_reason": "都认为政策买币是现实路径，仿写缺怀疑与分散建议",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "The Man Who Predicted Bitcoin's EXACT Price",
+     "thesis": "Mandel精准喊中8.4万靠的是运气和数字玄学，不值得押注44万目标；真正推高比特币的是比特债券和国家储备这类政策买盘。",
+     "candidates": [
+      "The Man Who Predicted Bitcoin's EXACT Price",
+      "He Called $84K Bitcoin To The Day | What's Next?",
+      "Bitcoin To $444,000? This Prediction Was PERFECT"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "精确怪异数字更像真实视频内的预测值",
+     "thesis_score": 2,
+     "thesis_reason": "都认为政策买盘是推力，但仿写否定44万目标，比原文更怀疑",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "This $84,000 Bitcoin Prediction Just Came TRUE",
+     "thesis": "Mandel的精准预言难以解释，但比特债券和百万枚储备法案确实给比特币更高价格提供了现实路径，仍需保持怀疑、分散配置。",
+     "candidates": [
+      "This $84,000 Bitcoin Prediction Just Came TRUE",
+      "Why Bitcoin Could Hit $444,542.75 Next",
+      "The Strangest Bitcoin Prediction Just Came True (What's Next)"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "精确到分的怪数字和Prophecy措辞很像真人风格",
+     "thesis_score": 3,
+     "thesis_reason": "预言难解、政策提供路径、需怀疑分散，完全一致",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.133
+    },
+    "zero": {
+     "title": "This Man Predicted Bitcoin's Exact Price... What He Says Next Is Insane",
+     "thesis": "Mandel精准命中8.4万更像运气而非可复制的方法，真正值得关注的是“比特债券”等政策可能让美国政府成为比特币大买家。",
+     "candidates": [
+      "This Man Predicted Bitcoin's Exact Price... What He Says Next Is Insane",
+      "Ex-Wall Street Trader Called $84K Bitcoin to the Day — Here's His Next Target",
+      "The Bizarre Bitcoin Prediction That Came True (and the $2 Trillion Plan Behind It)"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "精确到美分的怪异数字，很像频道本人风格",
+     "thesis_score": 2,
+     "thesis_reason": "都提政府买币路径，但仿写侧重运气论，缺怀疑分散建议",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "LZEFoi0R-HY",
+   "upload_date": "20240531",
+   "topic": "2019至2023年美国快餐价格上涨，以及麦当劳、Chipotle等公司利润率变化",
+   "real_title": "Why Fast Food Prices Are Out Of Control (The REAL Reason)",
+   "real_thesis": "快餐涨价既有成本上涨（原材料、工资约涨28%）的真实推动，也含有媒体不愿多谈的企业贪婪成分，但无法量化各自占比。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "teases",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "The Truth About Why Fast Food Got So Expensive",
+     "thesis": "快餐涨价不只是工资和成本推动，麦当劳、Chipotle等借机抬价，利润率创历史新高。",
+     "candidates": [
+      "Fast Food Is Now A Luxury - Here's Who's Getting Rich",
+      "The Truth About Why Fast Food Got So Expensive",
+      "McDonald's Is Making RECORD Profits Off You"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "Out Of Control加括号补充，符合频道惯用句式",
+     "thesis_score": 2,
+     "thesis_reason": "都指企业借机抬价，仿写偏重贪婪，真实强调无法量化",
+     "attr_correct": false,
+     "copy_sim": 0.125,
+     "copy_nearest": "",
+     "real_overlap": 0.125
+    },
+    "guide_v1": {
+     "title": "Why Is Fast Food So Expensive Now?",
+     "thesis": "快餐涨价不只是因为工资和原料变贵，麦当劳等巨头借机把利润率推到历史新高；消费者少点外卖、改买这些公司的股票更划算。",
+     "candidates": [
+      "Why Is Fast Food So Expensive Now?",
+      "Fast Food Is A LUXURY Now | Here's Why",
+      "I Paid $31 For Starbucks | Fast Food Inflation Explained"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "B的括号REAL Reason是典型AI套路",
+     "thesis_score": 2,
+     "thesis_reason": "都说成本和贪婪并存，仿写更强调利润，还加了买股票建议",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.067
+    },
+    "guide_v2": {
+     "title": "Why Fast Food Is Suddenly So Expensive (The REAL Reason)",
+     "thesis": "快餐涨价确有工资和原料成本推动，但麦当劳等利润率升至历史高位，说明部分企业的提价幅度超过了成本上涨。",
+     "candidates": [
+      "Why Fast Food Is Suddenly So Expensive (The REAL Reason)",
+      "Fast Food Just Became a Luxury",
+      "I Paid $24.31 For Starbucks | What You Need To Know"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "Suddenly So Expensive更自然，B像换词改写",
+     "thesis_score": 2,
+     "thesis_reason": "都认成本加贪婪，但仿写更明确偏向利润超涨",
+     "attr_correct": false,
+     "copy_sim": 0.083,
+     "copy_nearest": "",
+     "real_overlap": 0.267
+    },
+    "zero": {
+     "title": "Fast Food Is Becoming a Luxury... Here's Who's Really to Blame",
+     "thesis": "快餐涨价不只是工资和原料成本推动的，麦当劳等巨头借通胀扩张利润率，消费者为企业的创纪录利润买了单。",
+     "candidates": [
+      "Fast Food Is Becoming a Luxury... Here's Who's Really to Blame",
+      "Why Fast Food Got So Expensive (It's Not What You Think)",
+      "McDonald's Raised Prices... and Their Profits Exploded"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "B的省略号加“Here's who”句式像AI套路",
+     "thesis_score": 2,
+     "thesis_reason": "都认成本加贪婪，仿写更强调贪婪，真实称无法量化",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.053
+    }
+   }
+  },
+  {
+   "id": "XqB2WoFmOKc",
+   "upload_date": "20240412",
+   "topic": "2024年4月比特币减半事件的机制、历史数据与价格表现",
+   "real_title": "Bitcoin Is Halving | What You MUST Know",
+   "real_thesis": "减半让比特币新增供给腰斩、挖矿成本翻倍，并使其比黄金更稀缺；但价格短期无规律可循，唯一规律是减半后12到18个月通常大涨。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "The Bitcoin Halving Is In 7 Days | What You MUST Know",
+     "thesis": "ETF买入远超减半后新增供应，加上矿工惜售，本轮减半将推动比特币在12至18个月内大涨，但短期可能先跌。",
+     "candidates": [
+      "The Bitcoin Halving Is In 7 Days | What You MUST Know",
+      "Bitcoin Halving 2024: This Time Is Different",
+      "Why The Bitcoin Halving Changes Everything (Explained)"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "含具体倒计时7天，细节更像真实标题",
+     "thesis_score": 2,
+     "thesis_reason": "都说12-18个月大涨，但因果重点不同",
+     "attr_correct": false,
+     "copy_sim": 0.182,
+     "copy_nearest": "",
+     "real_overlap": 0.231
+    },
+    "guide_v1": {
+     "title": "The Bitcoin Halving Is About To Change EVERYTHING",
+     "thesis": "减半后比特币会比黄金更稀缺，ETF买入量是新增供给的三倍。短期可能下跌，但12到18个月内很可能大涨，不必追短线。",
+     "candidates": [
+      "The Bitcoin Halving Is About To Change EVERYTHING",
+      "Bitcoin Halving Explained | What You Need To Know",
+      "Bitcoin Halving In 7 Days - Do This NOW"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "竖线加MUST Know符合频道惯用格式",
+     "thesis_score": 3,
+     "thesis_reason": "稀缺性、短期难测、12到18个月后大涨，核心论断一致",
+     "attr_correct": true,
+     "copy_sim": 0.182,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Bitcoin Is About To Get Twice As Scarce | What You MUST Know",
+     "thesis": "减半让比特币比黄金更稀缺，ETF买入量又远超新增供给，未来12–18个月大概率看涨，但短期走势没有规律，别押注短线。",
+     "candidates": [
+      "Bitcoin Is About To Get Twice As Scarce | What You MUST Know",
+      "Mining Bitcoin Is About To Cost $80,000",
+      "The Bitcoin Halving Is Here (This Time Is Different)"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "简洁直白符合频道风格，B过度修饰像AI",
+     "thesis_score": 3,
+     "thesis_reason": "稀缺性、12-18月看涨、短期无规律一致",
+     "attr_correct": true,
+     "copy_sim": 0.167,
+     "copy_nearest": "",
+     "real_overlap": 0.308
+    },
+    "zero": {
+     "title": "The Bitcoin Halving Is Different This Time... Here's Why",
+     "thesis": "现货ETF每周买入量远超减半后的新增供给，这次减半造成的供需缺口将推动比特币在12-18个月内大幅上涨。",
+     "candidates": [
+      "Bitcoin Halving in 7 Days: What Happens Next Will Shock You",
+      "The Bitcoin Halving Is Different This Time... Here's Why",
+      "Bitcoin Halving Explained: Everything You Need to Know Before April 20th"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "竖线加大写MUST是该频道典型格式",
+     "thesis_score": 2,
+     "thesis_reason": "都预期12-18月上涨，但仿写主因ETF需求而非减半规律",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "T9h9BMhpdaA",
+   "upload_date": "20250422",
+   "topic": "2025年4月美国对华关税升级、美债市场波动及特朗普欲撤换美联储主席事件梳理",
+   "real_title": "The Tariffs Just Broke the System (And It's All On Purpose)",
+   "real_thesis": "关税、施压美联储、超长期债券传闻等看似混乱的举动，背后共同目标是压低利率以便为约9万亿美元到期国债再融资；普通投资者应保持定投不慌。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Trump Wants Powell OUT - What It Means For Your Money",
+     "thesis": "关税战和撤换鲍威尔的威胁正在动摇美债信用，长期利率上升才是普通投资者最该警惕的风险。",
+     "candidates": [
+      "IT STARTED: Trump vs The Fed",
+      "The Bond Market Is Breaking - BEWARE",
+      "Trump Wants Powell OUT - What It Means For Your Money"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "宏观夸张叙事加括号，B只覆盖局部选题",
+     "thesis_score": 1,
+     "thesis_reason": "真实说意在压低利率，仿写说利率上升是风险",
+     "attr_correct": true,
+     "copy_sim": 0.182,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Trump Is About To Fire The Fed Chair",
+     "thesis": "关税战加上撤换鲍威尔的威胁，让美债而不是股市成为真正的风险点；但普通人不该恐慌抛售，应保持分散、坚持定投。",
+     "candidates": [
+      "Trump Is About To Fire The Fed Chair",
+      "The Bond Market Is Breaking | What You Must Know",
+      "245% Tariffs & Firing Powell - PREPARE Now"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "B的括号反转句式偏AI腔",
+     "thesis_score": 1,
+     "thesis_reason": "原文核心是压低利率为国债再融资，仿写说美债才是风险点",
+     "attr_correct": true,
+     "copy_sim": 0.111,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Trump Just Went After The Fed (The REAL Reason)",
+     "thesis": "关税升级、逼走鲍威尔和百年债券看似混乱，实则都指向压低利率、为今年9万亿美元到期美债再融资；别恐慌，继续长期投资。",
+     "candidates": [
+      "Trump Just Went After The Fed (The REAL Reason)",
+      "Why Trump Wants Powell Gone NOW",
+      "The Bond Market Just Broke | What You MUST Know"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "覆盖关税主线，B只抓美联储并套模板",
+     "thesis_score": 3,
+     "thesis_reason": "混乱举动为压利率再融资，劝勿慌，一致",
+     "attr_correct": true,
+     "copy_sim": 0.091,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Trump vs. The Fed: Something Is Breaking in the Bond Market",
+     "thesis": "真正的危险不在股市而在美债：关税升级加上撤换鲍威尔的威胁，正让长期投资者要求更高回报，推高美国融资成本。",
+     "candidates": [
+      "Trump vs. The Fed: Something Is Breaking in the Bond Market",
+      "245% Tariffs, Firing Powell, and 100-Year Bonds... What Is Going On?",
+      "The Bond Market Is Sending a Warning Nobody Is Talking About"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "括号阴谋论式反转符合频道风格",
+     "thesis_score": 1,
+     "thesis_reason": "真实称意在压低利率，仿写称融资成本被推高，论断不同",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "hmFitfk-9ds",
+   "upload_date": "20250307",
+   "topic": "美国总统签署行政令设立战略比特币储备与数字资产储备的内容",
+   "real_title": "The U.S. Crypto Reserve Just Changed EVERYTHING",
+   "real_thesis": "美国设立只含比特币、不动用纳税钱的战略储备,使比特币获得与黄金石油同等的战略资产地位,将引发各国、各州与机构跟进,并推高币价。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Trump Just Signed The Bitcoin Reserve - What Nobody Is Telling You",
+     "thesis": "战略储备虽然不用纳税人的钱买币，但美国承诺永不出售，等于为比特币背书，并将引发各州和他国竞相囤币。",
+     "candidates": [
+      "Trump Just Signed The Bitcoin Reserve - What Nobody Is Telling You",
+      "The Strategic Bitcoin Reserve Is Here (Not What You Think)",
+      "The US Government Will NEVER Sell Its Bitcoin"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "Just Signed时效感强，符合频道新闻风格",
+     "thesis_score": 3,
+     "thesis_reason": "均为战略储备背书并引发各方跟进",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Strategic Bitcoin Reserve Explained | What You Need To Know",
+     "thesis": "战略储备暂时不花纳税人一分钱买币，短期影响有限；但美国承诺永不卖出、还会引发各国跟进，长期看多比特币，而不是其他山寨币。",
+     "candidates": [
+      "The US Government Is Now Buying Bitcoin",
+      "Strategic Bitcoin Reserve Explained | What You Need To Know",
+      "America Just Made Bitcoin OFFICIAL (Not XRP)"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "Changed EVERYTHING是AI常用套话",
+     "thesis_score": 2,
+     "thesis_reason": "都认为各国会跟进、看多币价，仿写多了短期影响有限",
+     "attr_correct": true,
+     "copy_sim": 0.273,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "America Just Started Stockpiling Bitcoin (Like Cheese)",
+     "thesis": "战略储备短期不动用纳税人的钱买币，但承诺永不出售并留出预算中性的增持通道，真正的利好是国家背书，可能引发其他州和国家跟进。",
+     "candidates": [
+      "America Just Started Stockpiling Bitcoin (Like Cheese)",
+      "200,000 Bitcoin Just Became a US Reserve",
+      "The US Just Made Bitcoin OFFICIAL | What You Need To Know"
+     ],
+     "judge_correct": false,
+     "judge_conf": 4,
+     "judge_reason": "奶酪类比古怪幽默，AI难以凭空想出",
+     "thesis_score": 2,
+     "thesis_reason": "都讲背书与跟进，仿写未提推高币价，重点偏移",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Trump Just Created a Strategic Bitcoin Reserve: Here's What It Really Means",
+     "thesis": "这份行政令虽然没有花纳税人的钱买币，但确立了比特币是唯一战略储备资产，将引发各州和他国竞相囤币。",
+     "candidates": [
+      "Trump Just Created a Strategic Bitcoin Reserve: Here's What It Really Means",
+      "The U.S. Now Owns 200,000 Bitcoin... and It's Never Selling",
+      "Bitcoin Reserve Is Official — Why XRP and Solana Got Left Out"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "A的“Here's What It Really Means”偏AI模板",
+     "thesis_score": 3,
+     "thesis_reason": "不花纳税钱、确立战略地位、引发各方跟进，基本一致",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "qMuje9vT7E8",
+   "upload_date": "20240506",
+   "topic": "美国主要城市财政状况、养老金缺口与市政债务的报告数据",
+   "real_title": "Why America Is Running Out Of Money",
+   "real_thesis": "美国城市并非现金流问题而是支出过度：养老金缺口被会计手法掩盖，政客为连任靠借债拖延，最终由纳税人和公共服务质量买单。",
+   "real_thesis_type": "expose",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "America's Biggest Cities Are Going Broke",
+     "thesis": "美国多数大城市隐性负债远超账面，养老金缺口终将让居民用更高税负和更少服务买单，底特律式危机会重演。",
+     "candidates": [
+      "America's Biggest Cities Are Going Broke",
+      "IT STARTED: Cities Are Running Out Of Money",
+      "The Pension Crisis Nobody Is Talking About (Your City Is Broke)"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "泛化危机式标题更像频道风格，B过于贴合选题",
+     "thesis_score": 2,
+     "thesis_reason": "都说纳税人买单，真实重支出过度与政客拖延",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "America's Biggest Cities Are Going BROKE",
+     "thesis": "美国多数大城市被养老金承诺拖成负资产，纽约等地会靠削减服务、加税来补窟窿，但短期内不会大面积破产，买市政债要先看评级。",
+     "candidates": [
+      "America's Biggest Cities Are Going BROKE",
+      "53 US Cities Are Running Out Of Money",
+      "The Pension Crisis Is Coming | What You Need To Know"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "真实标题常比选题更宽泛",
+     "thesis_score": 2,
+     "thesis_reason": "都提到养老金拖累，原文重在超支和政客拖延，仿写重在不破产和评级",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Why America's Biggest Cities Are Going BROKE",
+     "thesis": "美国多数大城市的真实负债被未入账的养老金承诺掩盖，纽约实际债务近官方两倍，缺口最终会以削减服务、加税的形式落到居民身上。",
+     "candidates": [
+      "Why America's Biggest Cities Are Going BROKE",
+      "53 US Cities Just Ran Out Of Money (The REAL Reason)",
+      "New York's Real Debt Is $177 Billion | What You MUST Know"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "紧扣城市主题，B过于宽泛",
+     "thesis_score": 2,
+     "thesis_reason": "都讲养老金缺口转嫁居民，缺支出过度和政客拖延",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "America's Biggest Cities Are Going Broke",
+     "thesis": "美国多数大城市的真实负债远超官方账面，养老金缺口终将以削减服务、加税或违约的形式转嫁给纳税人和退休者。",
+     "candidates": [
+      "America's Biggest Cities Are Going Broke",
+      "The Coming Collapse of America's Cities (Worse Than You Think)",
+      "New York Is Hiding $177 Billion in Debt"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "真实标题更宽泛，B过于贴合选题",
+     "thesis_score": 2,
+     "thesis_reason": "都说隐藏养老金缺口由纳税人买单，真实更强调支出过度",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "nbwaJf2vadA",
+   "upload_date": "20240311",
+   "topic": "不同年龄段应存多少钱：Fidelity、Dave Ramsey、Ramit Sethi、Financial Samurai的储蓄标准",
+   "real_title": "Do THIS When You Get Paid (The Paycheck Routine)",
+   "real_thesis": "各路理财专家的建议殊途同归:从二十多岁起把约15%收入投入税优账户,并按年龄对照收入倍数检查进度,靠复利比靠临时冲刺更可靠。",
+   "real_thesis_type": "advise",
+   "real_title_thesis": "teases",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "How Much Money You Should Have Saved By Age (Are You Behind?)",
+     "thesis": "不管用哪位专家的标准，只要从年轻时坚持把收入的15%投入节税账户，普通人也能按时达标退休。",
+     "candidates": [
+      "How Much Money You Should Have Saved By Age (Are You Behind?)",
+      "How Much Should You Have Saved At 30, 40 & 50?",
+      "The 15% Rule That Will Make You A Millionaire"
+     ],
+     "judge_correct": false,
+     "judge_conf": 4,
+     "judge_reason": "B紧扣按年龄储蓄选题，A偏离内容",
+     "thesis_score": 3,
+     "thesis_reason": "均为早起投入15%到税优账户即可达标",
+     "attr_correct": false,
+     "copy_sim": 0.267,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "How Much Money You Should Have Saved (By Age)",
+     "thesis": "各家专家给的标准其实都落在一点上：从年轻时起把至少15%的收入投进节税账户，比照着年龄表焦虑更能决定你能否按时退休。",
+     "candidates": [
+      "How Much Money You Should Have Saved By Age",
+      "How Much Should You Save? (By Age 30, 40, 50)",
+      "Are You Saving ENOUGH For Your Age?"
+     ],
+     "judge_correct": false,
+     "judge_conf": 5,
+     "judge_reason": "B与按年龄储蓄选题不符",
+     "thesis_score": 2,
+     "thesis_reason": "都主张早投15%，但仿写淡化了按年龄对照检查进度",
+     "attr_correct": false,
+     "copy_sim": 0.333,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "How Much Money You SHOULD Have Saved By Every Age",
+     "thesis": "各派专家的标准殊途同归：至少把收入15%投入节税账户，再按年龄对照收入倍数（如30岁1倍、40岁3倍）检查进度，落后就逐步提高储蓄率。",
+     "candidates": [
+      "How Much Money You SHOULD Have Saved By Every Age",
+      "Americans Save Just 3.7% (Here's The REAL Number)",
+      "Do THIS With Every Paycheck If You Want To Retire"
+     ],
+     "judge_correct": false,
+     "judge_conf": 4,
+     "judge_reason": "B精准对应各年龄储蓄标准，A偏题",
+     "thesis_score": 3,
+     "thesis_reason": "15%税优加收入倍数对照，核心一致",
+     "attr_correct": false,
+     "copy_sim": 0.308,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "How Much Money You Should Have Saved By Age",
+     "thesis": "按年龄对照的储蓄标准各说各话，真正决定你能否财务安全的是尽早把至少15%的收入投进节税账户。",
+     "candidates": [
+      "How Much Money You Should Have Saved By Age",
+      "How Much You Should Have Saved at 30, 40, 50 (Most People Are Behind)",
+      "The Only Savings Rule That Actually Matters"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "A直接对应选题，B内容偏离",
+     "thesis_score": 2,
+     "thesis_reason": "都强调早存15%，但仿写否定年龄标准，真实予以采用",
+     "attr_correct": true,
+     "copy_sim": 0.333,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "4b6hetdvQbI",
+   "upload_date": "20240729",
+   "topic": "近年美国员工离职潮的数据、成因与劳动法规、工资与生产率背景",
+   "real_title": "Why Everyone Is Quitting The 40 Hour Work Week",
+   "real_thesis": "辞职潮的深层根源是生产率与工资自1970年代脱钩，叠加疫情促使人们反思，从「为工作而活」转向「为生活而工作」。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "asks",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "The Great Resignation 2.0 Just Started",
+     "thesis": "员工大批辞职不是因为懒，而是工资半个世纪来与生产率脱钩；有备而换工作才是提高收入最快的方式。",
+     "candidates": [
+      "Why Everyone Is Quitting Their Job In 2024",
+      "The Great Resignation 2.0 Just Started",
+      "Why Your Paycheck Stopped Growing Since 1971"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "Why Everyone Is句式常见，A像AI套用热词",
+     "thesis_score": 2,
+     "thesis_reason": "同指工资生产率脱钩，仿写转向跳槽建议",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Why Everyone Is Quitting Their Jobs (Great Resignation 2.0)",
+     "thesis": "自1970年代起工资就跟不上生产率，大家辞职是理性的；但辞职前要先备好6到12个月的应急金，每2到3年跳一次槽，收入涨得最快。",
+     "candidates": [
+      "Why Everyone Is Quitting Their Jobs",
+      "The Great Resignation 2.0 Is Here",
+      "Why Is Everyone Quitting? | Wages Explained"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "B的括号2.0标签偏AI仿写",
+     "thesis_score": 2,
+     "thesis_reason": "原因同为工资与生产率脱钩，仿写转向辞职理财建议",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.214
+    },
+    "guide_v2": {
+     "title": "Why Everyone Is Quitting Their Jobs (The REAL Reason)",
+     "thesis": "辞职潮的根源不是年轻人懒，而是工资自1970年代起与生产率脱钩：工人产出近翻5倍却没分到收益，薪资太低才是首要原因。",
+     "candidates": [
+      "Why Everyone Is Quitting Their Jobs (The REAL Reason)",
+      "The 40 Hour Work Week Is Broken",
+      "50 Million Americans Just Quit | What You Need To Know"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "A套用REAL Reason模板，B更具体有个性",
+     "thesis_score": 2,
+     "thesis_reason": "都讲工资脱钩，仿写缺疫情反思与生活观转变",
+     "attr_correct": false,
+     "copy_sim": 0.091,
+     "copy_nearest": "",
+     "real_overlap": 0.231
+    },
+    "zero": {
+     "title": "Why Everyone Is Quitting Their Jobs",
+     "thesis": "员工大规模辞职不是因为年轻人懒，而是工资自1970年代起与生产率脱钩，换工作已成为涨薪的唯一出路。",
+     "candidates": [
+      "Why Everyone Is Quitting Their Jobs",
+      "The Great Resignation 2.0 Has Begun",
+      "The Real Reason Nobody Wants to Work Anymore"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "A简洁宽泛，B表述别扭",
+     "thesis_score": 2,
+     "thesis_reason": "同指工资生产率脱钩，但仿写落在跳槽涨薪而非生活反思",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.3
+    }
+   }
+  },
+  {
+   "id": "tH5TXlrdxUE",
+   "upload_date": "20250128",
+   "topic": "中国AI公司DeepSeek发布开源模型R1及其对美国科技股的影响",
+   "real_title": "China's DeepSeek AI Just Cancelled The US Stock Market",
+   "real_thesis": "DeepSeek以极低成本、开源方式追平美国顶级AI，打破了美国AI领先的叙事，会冲击科技股估值，下一轮炒作将转向硬件与机器人。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "China Just Crashed The Stock Market (DeepSeek Explained)",
+     "thesis": "DeepSeek用极低成本做出接近顶级的开源模型，证明美国AI巨头的高额投入护城河远比市场以为的脆弱。",
+     "candidates": [
+      "China Just Crashed The Stock Market (DeepSeek Explained)",
+      "DeepSeek: The $600 Billion Wake Up Call",
+      "Why DeepSeek Just Broke Nvidia"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "简洁冲击加括号解释，符合频道惯例",
+     "thesis_score": 2,
+     "thesis_reason": "都说打破美国AI优势，仿写缺估值冲击与硬件转向",
+     "attr_correct": true,
+     "copy_sim": 0.125,
+     "copy_nearest": "",
+     "real_overlap": 0.071
+    },
+    "guide_v1": {
+     "title": "China Just Broke The AI Bubble | DeepSeek Explained",
+     "thesis": "DeepSeek用十分之一的成本做出接近OpenAI的模型，打掉了美国AI公司的护城河溢价，但更便宜的AI长期会扩大需求，散户不该恐慌抛售指数。",
+     "candidates": [
+      "China Just Broke The AI Bubble",
+      "DeepSeek Explained | Why Tech Stocks CRASHED",
+      "$620 BILLION Lost In One Day"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "Cancelled用法独特，B像套模板",
+     "thesis_score": 2,
+     "thesis_reason": "都说冲击美国AI溢价，结论分别指向炒作转移和不必恐慌",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "A $5.6 Million Chinese AI Just Crashed Tech Stocks",
+     "thesis": "DeepSeek用约560万美元和受限芯片做出逼近GPT-4的开源模型，动摇了美国AI靠砸钱建立的护城河，但暴跌不代表AI终结，别恐慌抛售。",
+     "candidates": [
+      "A $5.6 Million Chinese AI Just Crashed Tech Stocks",
+      "China Just Broke The AI Bubble",
+      "DeepSeek Just Wiped Out $620 BILLION | What You MUST Know"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "Cancelled夸张口语化，B像AI堆砌数据",
+     "thesis_score": 2,
+     "thesis_reason": "都讲打破美国优势，结论转向硬件vs勿恐慌不同",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.062
+    },
+    "zero": {
+     "title": "DeepSeek Just Crashed the Stock Market",
+     "thesis": "DeepSeek用极低成本做出媲美OpenAI的开源模型，证明美国科技巨头的高额AI投入护城河远比市场定价的脆弱。",
+     "candidates": [
+      "DeepSeek Just Crashed the Stock Market",
+      "China's DeepSeek Just Changed AI Forever",
+      "Why DeepSeek Is a Nightmare for Nvidia"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "“Cancelled”用词奇特，不像AI常用措辞",
+     "thesis_score": 2,
+     "thesis_reason": "都说打破美国AI优势，真实另提估值冲击与硬件转向",
+     "attr_correct": false,
+     "copy_sim": 0.167,
+     "copy_nearest": "",
+     "real_overlap": 0.083
+    }
+   }
+  },
+  {
+   "id": "C3iIiak8Eq8",
+   "upload_date": "20240318",
+   "topic": "视频讲述英伟达股价大涨、估值指标及AI概念股的市场情况",
+   "real_title": "Making $1.2 Million With AI Stocks",
+   "real_thesis": "没人能确定AI股是否泡沫，英伟达这类“卖铲子”的公司逻辑成立但风险已升高；普通人不必追高，坚持指数基金与蓝筹股、按自身风险承受力决策即可。",
+   "real_thesis_type": "advise",
+   "real_title_thesis": "labels",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "Is It Too Late To Buy Nvidia?",
+     "thesis": "英伟达估值已透支多年高增长，追高风险大于回报，普通人更该坚持定投宽基指数而非押注单只AI股。",
+     "candidates": [
+      "Is It Too Late To Buy Nvidia?",
+      "Nvidia Is NOT Holding Up The Economy",
+      "The Nvidia Bubble - What You Need To Know"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "具体金额个人化标题是频道特色，B太常见",
+     "thesis_score": 2,
+     "thesis_reason": "都建议指数定投，仿写更断定英伟达透支",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Is It Too Late To Buy Nvidia?",
+     "thesis": "英伟达估值已经透支了未来多年的高增长，现在追高单押风险很大；普通人小仓位持有就好，主力还是定投宽基指数，更稳。",
+     "candidates": [
+      "Is It Too Late To Buy Nvidia?",
+      "Nvidia Is About To Change Everything",
+      "Nvidia Stock Is In A BUBBLE? | What You Need To Know"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "具体金额加个人化符合频道风格",
+     "thesis_score": 2,
+     "thesis_reason": "都建议别追高、主投指数，原文判断泡沫存疑，仿写直言估值透支",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Nvidia Just Became Worth More Than Most Countries",
+     "thesis": "英伟达暴涨有真实业绩撑腰，但远期市盈率超37，没人知道是不是泡沫，与其追高，不如小仓位持有、继续定投宽基指数。",
+     "candidates": [
+      "Nvidia Just Became Worth More Than Most Countries",
+      "Is Nvidia The Next Pets.com?",
+      "Nvidia Stock Went Up 262% (Should You Still Buy?)"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "个人收益型标题符合频道惯用风格",
+     "thesis_score": 3,
+     "thesis_reason": "泡沫难判、勿追高、坚持指数，核心一致",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Is It Too Late to Buy Nvidia Stock?",
+     "thesis": "英伟达的暴涨已透支大部分预期，追高风险大于回报，普通投资者坚持定投宽基指数比押注单一AI股更明智。",
+     "candidates": [
+      "Nvidia Is Now Worth More Than Canada",
+      "Is It Too Late to Buy Nvidia Stock?",
+      "The Nvidia Bubble Nobody Is Talking About"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "具体金额加个人化，契合频道风格",
+     "thesis_score": 2,
+     "thesis_reason": "建议一致，但仿写断言已透支，真实称无法确定泡沫",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  }
+ ]
+}

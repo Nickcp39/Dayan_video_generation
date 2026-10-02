@@ -1,0 +1,851 @@
+{
+ "key": "us_MeetKevin",
+ "systems": [
+  "fewshot",
+  "guide_v1",
+  "guide_v2",
+  "zero"
+ ],
+ "items": [
+  {
+   "id": "2ifhx7NFmxA",
+   "upload_date": "20241001",
+   "topic": "2024年三季度末美股、宏观数据、美国港口罢工与以伊冲突风险的市场概况",
+   "real_title": "wtf...? IRAN to launch MISSILES **SOON*, WW3, Port Strikes, Recession...",
+   "real_thesis": "港口罢工、中东战火升级与矛盾的经济数据叠加，使美国正处在软着陆与衰退/世界大战的极端分岔口，投资者须对冲防守。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "wtf JUST happened… Port Strike + Iran Warning | Watch BEFORE Tomorrow",
+     "thesis": "港口罢工叠加以伊冲突，加上股市涨、波动率也涨的反常现象，说明市场正在低估接下来的风险，资金会继续流向避险资产。",
+     "candidates": [
+      "wtf JUST happened… Port Strike + Iran Warning | Watch BEFORE Tomorrow",
+      "The Port Strike is REALLY BAD for Stocks | Israel & Iran Escalation",
+      "Stocks Up 5% & Volatility UP 30%? This NEVER Happens | Port Strike Shock"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "星号格式凌乱、话题堆砌，像真人随手写的",
+     "thesis_score": 2,
+     "thesis_reason": "都说风险被低估要防守，但真实强调软着陆与衰退分岔",
+     "attr_correct": true,
+     "copy_sim": 0.2,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Port Strike JUST Started & Iran WARNING | Here's What Happened",
+     "thesis": "港口罢工、伊以冲突和疲软的就业数据叠加，正推动资金涌入债券和黄金，Q4波动会加剧，散户应控制仓位、别追高。",
+     "candidates": [
+      "Port Strike JUST Started & Iran WARNING | Here's What Happened",
+      "DANGER: Port Strike + Iran Missiles Hit Markets [Oct 1]",
+      "Stocks +5% but VIX +30%: Never Happened Before [Explained]"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "wtf、星号错乱，堆砌关键词，像真人随手写",
+     "thesis_score": 2,
+     "thesis_reason": "都主张防守，但真实强调极端分岔，仿写讲资金避险",
+     "attr_correct": false,
+     "copy_sim": 0.091,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "wtf...? Port Strike, Iran Missiles, Nvidia Dumping...",
+     "thesis": "股市创新高而波动率同步飙升，港口罢工叠加以伊冲突，资金已逃向黄金和债券，本周数据出炉前应先防守。",
+     "candidates": [
+      "wtf...? Port Strike, Iran Missiles, Nvidia Dumping...",
+      "The Strangest Quarter EVER Just Ended | Get Ready.",
+      "Yikes! Ports SHUT DOWN *JUST* as Iran Fires."
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "星号格式不规整、堆砌话题，像真人随手写",
+     "thesis_score": 2,
+     "thesis_reason": "都主张防守，但仿写缺少软着陆与衰退分岔的判断",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Uh Oh: Ports SHUT DOWN, Iran Attack Incoming, Markets Freak Out",
+     "thesis": "港口罢工叠加以伊冲突正把上涨伴随恐慌的市场推向转折，第四季度的波动和下行风险会明显高于第三季度。",
+     "candidates": [
+      "Port Strike + Iran Missiles: This Is NOT Normal [Market Crash Risk]",
+      "Uh Oh: Ports SHUT DOWN, Iran Attack Incoming, Markets Freak Out",
+      "The Craziest Quarter in Market History Just Ended... and October Looks WORSE"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "wtf、星号用法不规范，符合频道随性风格",
+     "thesis_score": 2,
+     "thesis_reason": "都讲风险加大，但真实强调极端分岔与对冲",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "zvznUVNbbKk",
+   "upload_date": "20240830",
+   "topic": "美国个人储蓄率、就业增长见顶与美银股市板块占比图表，与历史衰退的对照",
+   "real_title": "Yikes! Major Bank WARNING **JUST** Out",
+   "real_thesis": "多项历史领先指标（低储蓄率、私人与政府就业见顶、板块占比达44%峰值）都指向美国衰退临近，市场难以继续大涨，应偏谨慎。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "The *TRUTH* on the Coming Recession | 3 Charts That Predicted 2001 & 2008",
+     "thesis": "储蓄率、就业见顶与板块集中度三张图都重现了2001年和2008年衰退前的形态，美国离衰退已经不远。",
+     "candidates": [
+      "The *TRUTH* on the Coming Recession | 3 Charts That Predicted 2001 & 2008",
+      "3 SHOCKING Recession Signals Flashing Right Now",
+      "This is REALLY BAD for Stocks | Savings Rate Warning"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "Yikes加JUST的短促警告是频道惯用写法",
+     "thesis_score": 3,
+     "thesis_reason": "都认为多项领先指标指向衰退临近",
+     "attr_correct": true,
+     "copy_sim": 0.333,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "DANGER: 3 Charts Scream RECESSION is Coming [Bank of America]",
+     "thesis": "储蓄率连续32个月低于5%、就业增长见顶、科技板块占比再达44%，三项信号同时亮起，衰退很可能在一年内到来。",
+     "candidates": [
+      "DANGER: 3 Charts Scream RECESSION is Coming [Bank of America]",
+      "Savings Rate Below 5% for 32 Months | Recession WARNING",
+      "The 44% Signal That Predicted 2000 & 2008 Just Flashed"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "Yikes加模糊大行警告，符合频道惯用写法",
+     "thesis_score": 3,
+     "thesis_reason": "同样以多项领先指标论证衰退临近",
+     "attr_correct": true,
+     "copy_sim": 0.071,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Yikes! Major Bank Recession WARNING **JUST** Out.",
+     "thesis": "储蓄率连续32个月低于5%、就业增长见顶、科技占比重回44%峰值，三重信号都指向衰退，别被滞后的失业率麻痹。",
+     "candidates": [
+      "Yikes! Major Bank Recession WARNING **JUST** Out.",
+      "The 3 Recession Signals Nobody Is Watching… | Get Ready.",
+      "DANGER: The 44% Bubble is Back."
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "带句号和衰退关键词，更符合频道习惯",
+     "thesis_score": 3,
+     "thesis_reason": "同样是多项领先指标指向衰退、应保持谨慎",
+     "attr_correct": true,
+     "copy_sim": 0.125,
+     "copy_nearest": "",
+     "real_overlap": 0.571
+    },
+    "zero": {
+     "title": "This Chart Predicted 2001 & 2008... It's Flashing AGAIN",
+     "thesis": "储蓄率长期低于5%、就业增长全面见顶、科技板块占比达到44%，三个信号叠加说明美国衰退已近在眼前。",
+     "candidates": [
+      "Recession Warning: The 32-Month Signal That Preceded EVERY Crash",
+      "This Chart Predicted 2001 & 2008... It's Flashing AGAIN",
+      "Savings Rate Collapse: We're 3 Months From a Recession Trigger"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "Yikes和**JUST**是频道惯用语，B像AI套路",
+     "thesis_score": 3,
+     "thesis_reason": "同样三信号指向衰退临近",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "NRDJtBwuAlg",
+   "upload_date": "20241213",
+   "topic": "房地产公司House Hack CEO讲述公司近况、融资计划、金融科技合作与经营调整",
+   "real_title": "Failure, Mistakes, and Lessons | CEO of $180 Million Dollar HouseHack & RoboHack",
+   "real_thesis": "所谓创业“运气”其实是长期准备与机会的交汇；持续提前布局、精简外包、着眼长期，才能抓住机会，HouseHack因此估值有望远超账面价值。",
+   "real_thesis_type": "narrate",
+   "real_title_thesis": "labels",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Why I Just DELAYED Our IPO | House Hack Update",
+     "thesis": "推迟上市、承担一次性亏损去抓住金融科技合作机会是正确选择，House Hack从2025年起会转为持续盈利。",
+     "candidates": [
+      "Why I Just DELAYED Our IPO | House Hack Update",
+      "My Company Will LOSE Money This Year. Here's Why.",
+      "Putting $5 Million More Into My Own Company | The Truth"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "$180M和RoboHack细节具体，AI难以凭空编出",
+     "thesis_score": 1,
+     "thesis_reason": "真实讲运气即准备，仿写讲推迟上市与盈利",
+     "attr_correct": true,
+     "copy_sim": 0.125,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "I'm Investing $5,000,000 Into My Own Company. Here's Why.",
+     "thesis": "House Hack推迟IPO是为了抓住金融科技合作机会，裁减内部团队后2025年将季度盈利，现在入股的价格低于上市后的估值。",
+     "candidates": [
+      "Why I JUST Delayed Our IPO | House Hack Update",
+      "I'm Investing $5,000,000 Into My Own Company. Here's Why.",
+      "From Red Robin Host to $100 Million CEO [Full Story]"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "具体公司估值和访谈式标题，更像真实内容",
+     "thesis_score": 1,
+     "thesis_reason": "真实讲运气即准备，仿写只讲公司估值细节",
+     "attr_correct": true,
+     "copy_sim": 0.067,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Why I Delayed My IPO… Failures & Lessons | CEO at 32",
+     "thesis": "推迟IPO、裁撤内部施工队和年度亏损都是试错的代价，真正的长期主义是承认错误、及时止损，再押注下一个机会。",
+     "candidates": [
+      "Why I Delayed My IPO… Failures & Lessons | CEO at 32",
+      "Mistakes, Layoffs, and a Delayed IPO | $100M Real Estate CEO",
+      "How I Went from Red Robin Greeter to CEO (at 32)"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "含具体公司名和金额，细节难以仿写",
+     "thesis_score": 1,
+     "thesis_reason": "真实讲准备成就运气，仿写讲认错止损，论断不同",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.056
+    },
+    "zero": {
+     "title": "Why I'm Delaying Our IPO (Big Fintech Deal)",
+     "thesis": "推迟上市去做金融科技合作并外包降本，会让House Hack在2025年转为盈利，估值远高于目前账面价值。",
+     "candidates": [
+      "Why I'm Delaying Our IPO (Big Fintech Deal)",
+      "I'm Putting $5 Million Into My Own Company. Here's Why.",
+      "The Truth About House Hack: IPO Delay, Layoffs & What's Next"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "具体公司名和估值，竖线格式符合旧标题",
+     "thesis_score": 1,
+     "thesis_reason": "真实核心是运气即准备，仿写只谈盈利估值",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "yGDUuKAWqJo",
+   "upload_date": "20240723",
+   "topic": "美国特勤局局长就特朗普集会枪击事件出席国会听证并辞职的相关情况",
+   "real_title": "Secret Service QUITS as Trump Shooter Linked to FBI? [Full Details]",
+   "real_thesis": "特勤局在特朗普遇袭事件中严重失职、作证闪烁其词，局长辞职理所当然；时间线显示本可阻止枪手，内幕说也值得怀疑。",
+   "real_thesis_type": "judge",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Secret Service Director JUST Resigned [SHOCKING Testimony]",
+     "thesis": "枪击前已有约40分钟预警却无人驻守屋顶，说明这是特勤局系统性失职，而不是局长所说的人手充足下的意外。",
+     "candidates": [
+      "Secret Service Director JUST Resigned [SHOCKING Testimony]",
+      "The *TRUTH* About the Trump Rooftop | Secret Service Timeline",
+      "Why the Secret Service Director JUST got FIRED."
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "JUST加方括号的写法符合频道风格",
+     "thesis_score": 2,
+     "thesis_reason": "都指特勤局失职，仿写未涉辞职与内幕说",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.067
+    },
+    "guide_v1": {
+     "title": "Secret Service Director JUST Resigned | Here's What Happened",
+     "thesis": "局长辞职是应该的：枪手被标记为可疑后41分钟内特勤局都没撤离特朗普，这是体系性失职，不是一个人的失误。",
+     "candidates": [
+      "Secret Service Director JUST Resigned | Here's What Happened",
+      "Secret Service Exposed: The 41-Minute Failure [Full Breakdown]",
+      "The Trump Shooting Timeline is WORSE Than We Thought"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "A是套用的Here's What Happened模板",
+     "thesis_score": 3,
+     "thesis_reason": "都认为特勤局失职、局长辞职应当",
+     "attr_correct": true,
+     "copy_sim": 0.1,
+     "copy_nearest": "",
+     "real_overlap": 0.062
+    },
+    "guide_v2": {
+     "title": "Congress actually Exposes Secret Service Director… She's OUT.",
+     "thesis": "局长辞职是咎由自取：枪手踩点比她还勤，屋顶无人、通讯不统一、关键问题拒答，这是系统性失职而非运气不好。",
+     "candidates": [
+      "Congress actually Exposes Secret Service Director… She's OUT.",
+      "Secret Service Boss *JUST* Resigned [Full Details]",
+      "The Shooter Visited More Than the Director?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "FBI关联的猜测性钩子更像真人标题",
+     "thesis_score": 3,
+     "thesis_reason": "都认为局长失职、辞职是应该的",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.062
+    },
+    "zero": {
+     "title": "BREAKING: Secret Service Head Quits — The Timeline Is DAMNING",
+     "thesis": "枪击前有足足41分钟预警却没人行动，说明这是特勤局系统性的指挥失灵，绝不是单纯的运气不好。",
+     "candidates": [
+      "Secret Service Director RESIGNS After Disastrous Testimony",
+      "BREAKING: Secret Service Head Quits — The Timeline Is DAMNING",
+      "The 41 Minutes the Secret Service Can't Explain"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "问号加[Full Details]符合频道括号习惯",
+     "thesis_score": 2,
+     "thesis_reason": "都指特勤局失职，真实另含辞职与内幕质疑",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.059
+    }
+   }
+  },
+  {
+   "id": "RZISvo1E9pk",
+   "upload_date": "20241104",
+   "topic": "2024年11月美联储议息会议前，媒体报道预计降息25个基点及相关政策背景",
+   "real_title": "The Fed's LAST Warning | Get Ready.",
+   "real_thesis": "美联储正悄悄放弃“依赖数据”，转向每次稳定降息25基点以追赶放缓的就业，这是对的，但力度仍不足，衰退风险上升。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "The Fed Just Leaked Its Next Move.",
+     "thesis": "美联储借传声筒预告降息25个基点，表明它已担心就业放缓，但过早宽松可能重演2007年的错误、让通胀卷土重来。",
+     "candidates": [
+      "The Fed Just Leaked Its Next Move.",
+      "What the Fed Will Do Thursday | Fed Whisperer Leak",
+      "The Fed is Making the 2007 Mistake AGAIN."
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "降息预期由媒体放风，正对应Leaked一词",
+     "thesis_score": 0,
+     "thesis_reason": "真实嫌降息力度不足，仿写担心宽松过早",
+     "attr_correct": true,
+     "copy_sim": 0.375,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Fed JUST Leaked Next Rate Cut | What it Means [11-7]",
+     "thesis": "美联储几乎确定只降息25个基点，但就业放缓、大选后财政扩张会让通胀卷土重来，降息周期会比市场预期的更短。",
+     "candidates": [
+      "Fed JUST Leaked Next Rate Cut | What it Means [11-7]",
+      "WARNING: Fed Repeating 2007 Mistake with 25bps Cut",
+      "The Fed's Next Move is Already Decided [Explained]"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "B的What it Means像AI套路，A简短又吓人",
+     "thesis_score": 1,
+     "thesis_reason": "真实称降息力度不足，仿写称通胀回潮周期更短",
+     "attr_correct": true,
+     "copy_sim": 0.071,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "The Fed's Next Move *JUST* Leaked [Details].",
+     "thesis": "美联储几乎确定降息25基点，但就业走弱与选后财政扩张推高通胀两头拉扯，重演2007年式紧急降息的风险仍在。",
+     "candidates": [
+      "The Fed's Next Move *JUST* Leaked [Details].",
+      "Fed Mouthpiece JUST Dropped the Rate Cut Number.",
+      "a \"surprise\" is coming from the Fed… get ready"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "Leaked契合媒体提前报道降息的选题",
+     "thesis_score": 2,
+     "thesis_reason": "都提到降息和衰退风险，但仿写重点放在通胀拉扯",
+     "attr_correct": true,
+     "copy_sim": 0.125,
+     "copy_nearest": "",
+     "real_overlap": 0.1
+    },
+    "zero": {
+     "title": "Fed LEAK: Rate Cut Confirmed for Thursday",
+     "thesis": "美联储降息25个基点基本已成定局，但就业转弱加上选后财政扩张，可能重演2007年先降息后又被迫紧急救市的局面。",
+     "candidates": [
+      "Fed LEAK: Rate Cut Confirmed for Thursday",
+      "The Fed Is Repeating 2007's Mistake",
+      "Fed Mouthpiece Just Revealed Powell's Next Move"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "竖线加句号结尾，与以往Fed标题相似",
+     "thesis_score": 2,
+     "thesis_reason": "都提降息与衰退风险，重点不同",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "u2AXgBE0EsU",
+   "upload_date": "20241106",
+   "topic": "2024年美国大选特朗普胜选演讲及其对市场与经济的影响",
+   "real_title": "What Donald Trump *JUST* Said [BIG PROMISE] Victory Speech",
+   "real_thesis": "共和党全面掌权使特朗普能快速兑现关税、减税、废除绿色补贴等承诺，唯一能拖垮其黄金时代的是就业数据暗藏的衰退风险。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "RED SWEEP: Stocks, Bitcoin & Tesla *JUST* Reacted",
+     "thesis": "共和党全面执政将砍掉电动车补贴，特斯拉反成最大赢家，但2月就业报告可能暴露裁员风险。",
+     "candidates": [
+      "Trump's Victory Speech & What It Means for Your Money",
+      "RED SWEEP: Stocks, Bitcoin & Tesla *JUST* Reacted",
+      "Trump Wins | The \"Golden Age\" & the Hidden Jobs Trap"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "直接点出胜选演讲，与选题吻合",
+     "thesis_score": 2,
+     "thesis_reason": "都提全面执政与就业风险，仿写重点在特斯拉",
+     "attr_correct": true,
+     "copy_sim": 0.091,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Trump JUST Won: Stocks, Bitcoin & Tesla [Full Breakdown]",
+     "thesis": "共和党全面掌权将带来减税、砍电动车补贴和关税，美股、比特币和特斯拉短期受益，但遣返与赤字是通胀隐患。",
+     "candidates": [
+      "Trump JUST Won: Stocks, Bitcoin & Tesla [Full Breakdown]",
+      "Trump's Victory Speech | What it Means for Your Money",
+      "RED SWEEP Confirmed: Bitcoin Hits $75,400 | Here's What's Next"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "*JUST*和方括号标签都是频道的典型风格",
+     "thesis_score": 2,
+     "thesis_reason": "都讲全面掌权兑现政策，风险点不同",
+     "attr_correct": true,
+     "copy_sim": 0.083,
+     "copy_nearest": "",
+     "real_overlap": 0.071
+    },
+    "guide_v2": {
+     "title": "Trump *JUST* Declared a \"Golden Age\" [Victory Speech]",
+     "thesis": "共和党全面执政利好美股、比特币和特斯拉，绿能与电动车补贴将被砍；唯一风险是关税和遣返推高通胀，加上就职后的就业数据可能转差。",
+     "candidates": [
+      "Trump *JUST* Declared a \"Golden Age\" [Victory Speech]",
+      "Trump's Victory Speech & The Coming Red Sweep Rally.",
+      "wtf... Trump wins, Bitcoin ATH, Tesla pops, China dumps..."
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "直接引用演讲原话Golden Age更具体",
+     "thesis_score": 2,
+     "thesis_reason": "唯一风险都是就业，但仿写加了通胀，重点偏向资产",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.154
+    },
+    "zero": {
+     "title": "Trump's Victory Speech: The 'Golden Age' Trade Is ON",
+     "thesis": "共和党全面掌权将推动减税、去监管和能源扩张，利好美国风险资产与特斯拉，关税冲击主要由欧洲和中国承担。",
+     "candidates": [
+      "Trump's Victory Speech: The 'Golden Age' Trade Is ON",
+      "BREAKING: Republican Sweep — What It Means for Your Money",
+      "Trump Wins: Tesla Rips, Bitcoin ATH, Europe & China Dump"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "*JUST*加方括号是频道典型写法",
+     "thesis_score": 1,
+     "thesis_reason": "真实强调衰退风险，仿写强调利好资产",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.067
+    }
+   }
+  },
+  {
+   "id": "f1kMruXOkmg",
+   "upload_date": "20241201",
+   "topic": "2024年感恩节后一周美国经济要闻：黑五零售数据、非农预期与美银2025年展望",
+   "real_title": "a “major boom” is coming… this changes everything",
+   "real_thesis": "2025年初美国将繁荣、全球走弱，应做多美股、做空海外；Q2后再转向国债、中国与加密对冲，但作者对后两项存疑。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "teases",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "Bank of America's 2025 Warning | Everything Flips",
+     "thesis": "黑五显示消费仍强劲，但创纪录的散户乐观与保证金债务预示2025年初美股更可能先回调。",
+     "candidates": [
+      "Trump's 100% Tariff Threat & the Black Friday TRUTH",
+      "Bank of America's 2025 Warning | Everything Flips",
+      "Big Week Ahead: Jobs Report, Black Friday & Retail Euphoria"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "全小写加省略号是频道近期的标志性风格",
+     "thesis_score": 0,
+     "thesis_reason": "真实看多2025初美股，仿写预期先回调",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Bank of America WARNS: 2025 Will REVERSE Everything",
+     "thesis": "黑五显示消费仍强，但散户乐观和保证金债务逼近高位，2024主线将在2025逆转，应先做多美国、二季度再转国际。",
+     "candidates": [
+      "Black Friday Numbers JUST Dropped | Market Update [12-2]",
+      "Bank of America WARNS: 2025 Will REVERSE Everything",
+      "Trump's 100% BRICS Tariff & Bitcoin Reserve [Explained]"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "小写加省略号，是频道近期常用风格",
+     "thesis_score": 2,
+     "thesis_reason": "都主张先多美国后转向，但重点和依据不同",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "wtf...? 100% Tariffs, Black Friday, Bitcoin Reserve...",
+     "thesis": "黑五靠大折扣撑住，散户乐观和保证金债务却逼近历史极端；2025年主题可能反转，先做多美国、收益率近5%买债，加密作对冲。",
+     "candidates": [
+      "Bank of America's 2025 WARNING *JUST* Out | Get Ready.",
+      "wtf...? 100% Tariffs, Black Friday, Bitcoin Reserve...",
+      "Yikes! Major Bank Says 2025 FLIPS Everything."
+     ],
+     "judge_correct": false,
+     "judge_conf": 4,
+     "judge_reason": "wtf加话题罗列是该频道周报固定格式",
+     "thesis_score": 2,
+     "thesis_reason": "都主张做多美国，但仿写重点在散户情绪极端",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Bank of America's 2025 Warning: Everything Reverses",
+     "thesis": "黑五数据显示消费依然强劲，但散户情绪和保证金债务过热，2025年市场主线将反转，先做多美国后转向国际。",
+     "candidates": [
+      "Black Friday Data is IN — Consumers Aren't Dead (Yet)",
+      "Bank of America's 2025 Warning: Everything Reverses",
+      "Trump's 100% BRICS Threat & the Bitcoin Reserve Truth"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "全小写加省略号，符合频道近期风格",
+     "thesis_score": 2,
+     "thesis_reason": "都先多美后转国际，真实含对冲存疑",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "6cx3eUs11bo",
+   "upload_date": "20250530",
+   "topic": "亚特兰大联储二季度GDP预测、通胀数据与关税不确定性对市场的影响",
+   "real_title": "Federal Reserve GDP Shock *JUST OUT*.",
+   "real_thesis": "亚特兰大联储3.8%的GDP预测是净出口（进口回落）造成的假象，消费和投资实际在走弱，加上关税不确定性重燃，市场仍有再次回调的风险。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "The *TRUTH* Behind the 3.8% GDP Surprise",
+     "thesis": "3.8%的二季度GDP是进口回落造成的假繁荣，关税通胀将在下半年冲击企业财报和股市。",
+     "candidates": [
+      "The *TRUTH* Behind the 3.8% GDP Surprise",
+      "The Fake GDP Boom | Tariff Pain Comes in July",
+      "Super Core PCE Just Went NEGATIVE | Don't Get Fooled"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "*JUST OUT*这种强调写法是频道惯用",
+     "thesis_score": 3,
+     "thesis_reason": "都认为GDP是进口假象，关税将带来回调风险",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Atlanta Fed JUST Raised GDP to 3.8% | What it Means",
+     "thesis": "3.8%的GDP预测是进口回落造成的假象，消费和投资都在放缓；7月关税期限叠加财报，股市将进入盘整，别追高。",
+     "candidates": [
+      "Atlanta Fed JUST Raised GDP to 3.8% | What it Means",
+      "July DANGER: Tariff Deadline Could CRASH Stocks",
+      "Inflation JUST Hit a 4-Year Low [Super Core Explained]"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "*JUST OUT*和句号结尾是频道习惯",
+     "thesis_score": 3,
+     "thesis_reason": "GDP假象、消费投资走弱、关税风险一致",
+     "attr_correct": true,
+     "copy_sim": 0.071,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "July's Market Trap is Coming… Get Ready.",
+     "thesis": "二季度GDP的3.8%靠进口回落撑起来，消费和投资都在走弱；通胀虽在四年低位，关税的涨价效应要到下半年才显现，7月应防守等盘整。",
+     "candidates": [
+      "Yikes! The Fed's GDP Signal *JUST* Flipped | Get Ready.",
+      "July's Market Trap is Coming…",
+      "The 3.8% GDP Illusion & The July Danger."
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "紧扣亚特兰大联储GDP数据，带句号",
+     "thesis_score": 3,
+     "thesis_reason": "都认为GDP是进口造成的假象、关税有风险、应防守",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "GDP 3.8%?! Why This Number Is FAKE Strength",
+     "thesis": "3.8%的GDP预测主要靠进口回落撑起，消费与投资实际在走弱，关税涨价下半年才显现，7月市场大概率盘整。",
+     "candidates": [
+      "GDP 3.8%?! Why This Number Is FAKE Strength",
+      "Inflation Just Went NEGATIVE — But July Is Dangerous",
+      "The July Trap: Shorts at Record Highs & Tariff Chaos"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "*JUST OUT*加句号结尾，是典型频道写法",
+     "thesis_score": 2,
+     "thesis_reason": "GDP假象一致，结论回调与盘整强弱不同",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "rnpo-cj2ILs",
+   "upload_date": "20241108",
+   "topic": "特朗普赢得2024美国大选后各界反应及经济、监管议题汇总",
+   "real_title": "The Trump Meltdown & Coming Moonshot.",
+   "real_thesis": "民主党输在脱离民生的身份政治与反市场政策，而非选民被蒙蔽；特朗普胜选带来和平与监管松绑的希望，但可能继承一场已经开始的衰退。",
+   "real_thesis_type": "judge",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Are We ALREADY in a Recession? The 2007 Warning Sign",
+     "thesis": "民主党败在经济而非女性选民，长期失业人数上升说明美国可能已陷衰退，股市新高并不安全。",
+     "candidates": [
+      "Kimmel Meltdown, Putin's Call & a Hidden Recession Warning",
+      "Why Democrats REALLY Lost | And the Recession Nobody Sees",
+      "Are We ALREADY in a Recession? The 2007 Warning Sign"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "B的衰退话题和大选选题不符",
+     "thesis_score": 2,
+     "thesis_reason": "都说民主党败在经济、衰退或已开始，重点不同",
+     "attr_correct": false,
+     "copy_sim": 0.071,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "WARNING: We May ALREADY Be in a 2007-Style Recession",
+     "thesis": "民主党败在忽视经济，而特朗普接手的经济可能已陷衰退：就业被高估、长期失业上升，股市新高酷似2007，需警惕。",
+     "candidates": [
+      "Kimmel MELTS DOWN as Trump Wins | Putin & Zelensky React",
+      "The Recession Nobody's Talking About [Trump Win Breakdown]",
+      "WARNING: We May ALREADY Be in a 2007-Style Recession"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "B跟选题不符，A风格吻合",
+     "thesis_score": 2,
+     "thesis_reason": "都提民主党败因与衰退，真实重点在身份政治",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "The Democrat Meltdown & Coming Recession?",
+     "thesis": "民主党输在忽视经济和身份政治，不该怪选民；但市场狂欢之际，长期失业上升、就业数据被高估，美国可能已陷入衰退，别被新高冲昏头。",
+     "candidates": [
+      "The Democrat Meltdown & Coming Recession?",
+      "wtf... Kimmel cries, Putin calls, Gensler's OUT...",
+      "Trump Won, But Are We ALREADY in a Recession?"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "大选后民主党崩溃叙事更符合语境",
+     "thesis_score": 2,
+     "thesis_reason": "败因与衰退判断一致，但仿写缺少和平与监管松绑的希望",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.143
+    },
+    "zero": {
+     "title": "The Left's Meltdown & Why We May ALREADY Be in a Recession",
+     "thesis": "民主党败在忽视经济，而真正的风险是美国可能已悄然陷入衰退，长期失业上升与股市新高正重演2007年。",
+     "candidates": [
+      "The Left's Meltdown & Why We May ALREADY Be in a Recession",
+      "Putin, Zelensky Call Trump — Gensler's Days Are Numbered",
+      "Why Democrats Lost: The Economy, Stupid"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "短促、句号结尾，用Moonshot这种口语词",
+     "thesis_score": 2,
+     "thesis_reason": "都谈民主党败因与衰退，侧重不同",
+     "attr_correct": true,
+     "copy_sim": 0.067,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "rvyodnZW4R8",
+   "upload_date": "20250612",
+   "topic": "美国国会听证会上，议员就关税物价与中美贸易谈判质询财政部长贝森特",
+   "real_title": "CONGRESS Karen actually Exposes Trump’s China Deal",
+   "real_thesis": "民主党议员的质询有些问题合理，但她借性别抱怨打断作答、浪费时间；政客都不给直接答案，输家是民众。",
+   "real_thesis_type": "judge",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Bessent Gets GRILLED on Tariffs & China",
+     "thesis": "关税成本正实实在在转嫁给消费者，而中美新协议只是框架，在中国兑现之前不值得市场乐观。",
+     "candidates": [
+      "Bessent Gets GRILLED on Tariffs & China",
+      "\"Reclaiming My Time\" | Bessent vs. Congress on Prices",
+      "The China Trade Deal Is Just a Framework [SHOCKING Hearing]"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "Congress Karen用词古怪又口语，像真人写的",
+     "thesis_score": 0,
+     "thesis_reason": "真实评议员质询，仿写谈关税与中美协议",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Bessent GRILLED Over Tariff Prices | China Deal Details",
+     "thesis": "议员的3000美元关税成本说法站不住，中国违约源于拜登未执行；中美框架协议仍在谈，关税对物价冲击被夸大。",
+     "candidates": [
+      "Bessent GRILLED Over Tariff Prices | China Deal Details",
+      "Congress SLAMS Bessent Over $3,000 Tariff Cost",
+      "Bessent JUST Exposed the Truth on China Trade [Hearing]"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "Karen这种口语化讽刺，AI很少会写",
+     "thesis_score": 1,
+     "thesis_reason": "真实批议员作风，仿写驳关税论点，论断不同",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.077
+    },
+    "guide_v2": {
+     "title": "\"Reclaiming My Time\" Congresswoman actually Exposes Bessent?",
+     "thesis": "议员戳中了关税涨价和中国违约的痛点，却靠抢时间作秀不让对方回答；贝森特拿不出对华协议细节，两边都没告诉消费者物价何时回落。",
+     "candidates": [
+      "\"Reclaiming My Time\" Congresswoman actually Exposes Bessent?",
+      "Bessent *JUST* Got Grilled on China [Full Details]",
+      "Congress Tariff Karen vs. Bessent... who won?"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "引用议员原话Reclaiming My Time更具体",
+     "thesis_score": 2,
+     "thesis_reason": "都批作秀、没给答案，但真实重点是性别抱怨",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.083
+    },
+    "zero": {
+     "title": "Bessent vs. Congress: Who's REALLY Paying for Tariffs?",
+     "thesis": "民主党议员的质询更像政治表演，中国违约的根源在拜登未执行协议，关税谈判仍是对华施压的有效筹码。",
+     "candidates": [
+      "Bessent vs. Congress: Who's REALLY Paying for Tariffs?",
+      "'My Time!' — Bessent Grilled Over China Deal",
+      "Bessent Fires Back: Biden Let China Off the Hook"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "Karen梗和大小写混乱，不像AI写的",
+     "thesis_score": 1,
+     "thesis_reason": "真实批议员与政客，仿写转向对华政策",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  }
+ ]
+}

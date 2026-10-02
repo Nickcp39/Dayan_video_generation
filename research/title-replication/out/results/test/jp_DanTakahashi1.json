@@ -1,0 +1,1691 @@
+{
+ "key": "jp_DanTakahashi1",
+ "systems": [
+  "fewshot",
+  "guide_v1",
+  "guide_v2",
+  "zero"
+ ],
+ "items": [
+  {
+   "id": "A72vwP25qnM",
+   "upload_date": "20260109",
+   "topic": "教育家、演示讲师博光讲述个人成长经历与职业转变的访谈",
+   "real_title": "教室の隅から東大合格請負人へ【Guest：時田啓光 #1】",
+   "real_thesis": "时田的成功源于把边缘处境（孤僻观察、经济困顿、年龄劣势）转化为可复用的能力，并用\"东大合格请负人\"这一稀缺定位把专长变成市场认可的身份。",
+   "real_thesis_type": "narrate",
+   "real_title_thesis": "teases",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "睡眠3時間の大学生活から「東大合格請負人」へ",
+     "thesis": "出身や才能より、自分の強みを一言の肩書きにして他人に伝わる形にできるかどうかでキャリアの成否が決まる。",
+     "candidates": [
+      "かめはめ波で39度の熱を出した男が東大合格請負人になるまで",
+      "睡眠3時間の大学生活から「東大合格請負人」へ",
+      "肩書き一つで人生が変わる❓"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "嘉宾系列标准格式带#1编号",
+     "thesis_score": 2,
+     "thesis_reason": "都讲定位成就职业，但仿写泛化，略去边缘处境转化",
+     "attr_correct": false,
+     "copy_sim": 0.027,
+     "copy_nearest": "",
+     "real_overlap": 0.171
+    },
+    "guide_v1": {
+     "title": "東大合格請負人、人生を変えた1冊のノート",
+     "thesis": "成功靠的不是天赋而是倒推需求：观察人、按对方水平去教、给自己一个没人用过的头衔，逆境中也能靠自己谋生。",
+     "candidates": [
+      "東大合格請負人、人生を変えた1冊のノート",
+      "毎日3時間睡眠、どん底から成功した方法",
+      "肩書きひとつで人生が変わる？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "带【Guest：名 #1】的系列格式，符合频道访谈惯例",
+     "thesis_score": 2,
+     "thesis_reason": "都有稀缺头衔和逆境，但仿写重点放在倒推需求",
+     "attr_correct": false,
+     "copy_sim": 0.03,
+     "copy_nearest": "",
+     "real_overlap": 0.15
+    },
+    "guide_v2": {
+     "title": "東大合格請負人、成功の秘密とは？",
+     "thesis": "成功的关键不在苦干，而在占据空白定位：亮出没人用过的具体头衔，再从目标倒推策略，变现远快于单纯努力。",
+     "candidates": [
+      "東大合格請負人、成功の秘密とは？",
+      "睡眠3時間の大学生が全国1位になれた理由",
+      "誰も名乗らない肩書きが人生を変える？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "访谈期常用【Guest：姓名 #序号】格式",
+     "thesis_score": 2,
+     "thesis_reason": "都讲稀缺定位，仿写漏了边缘处境转化为能力",
+     "attr_correct": true,
+     "copy_sim": 0.2,
+     "copy_nearest": "",
+     "real_overlap": 0.167
+    },
+    "zero": {
+     "title": "かめはめ波に8時間！東大合格請負人・博光さんの意外すぎる人生",
+     "thesis": "成功を決めるのは才能よりも、相手に合わせて教える経験と、誰も名乗っていない肩書きで自分の強みを打ち出すことだ。",
+     "candidates": [
+      "かめはめ波に8時間！東大合格請負人・博光さんの意外すぎる人生",
+      "睡眠3時間の大学生活から東大合格請負人へ 博光さんが語る「教える力」の秘密",
+      "肩書き一つで人生が変わった！教育家・博光さんの逆転ストーリー"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "嘉宾期固定用【Guest：姓名 #n】格式",
+     "thesis_score": 2,
+     "thesis_reason": "都强调稀缺头衔定位，但仿写忽略了把边缘处境转化为能力这一点",
+     "attr_correct": false,
+     "copy_sim": 0.016,
+     "copy_nearest": "",
+     "real_overlap": 0.12
+    }
+   }
+  },
+  {
+   "id": "eoRH2u7bdlM",
+   "upload_date": "20250526",
+   "topic": "美国国债10年期滚动回报与收益率走势及相关市场背景",
+   "real_title": "今は100年ぶりにココが安い？",
+   "real_thesis": "美国国债10年滚动回报与价格处于百年最低、收益率近5%，是超长期持有到期的历史性买入良机，且下跌幅度远小于股票和REIT。",
+   "real_thesis_type": "advise",
+   "real_title_thesis": "asks",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "【100年に一度】米国債が最低水準、僕は買う",
+     "thesis": "米国債の10年リターンは100年で最低、悲観もピークに近く、利回り4.5〜5%の今は買い場だ。",
+     "candidates": [
+      "米国債、100年で最悪のリターン",
+      "【100年に一度】米国債が最低水準、僕は買う",
+      "米国債10年リターン-0.6%、今がチャンス❓"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "「ココが安い？」式悬念短句符合频道风格",
+     "thesis_score": 3,
+     "thesis_reason": "同为美债百年低回报、高收益率下的买入良机",
+     "attr_correct": true,
+     "copy_sim": 0.05,
+     "copy_nearest": "",
+     "real_overlap": 0.094
+    },
+    "guide_v1": {
+     "title": "100年に1度、米国債を買う時です",
+     "thesis": "美债10年滚动回报跌至百年最低、看涨投票仅29%，属罕见底部；短期美股有风险，应在5月末、6月末继续分批买入美债。",
+     "candidates": [
+      "100年に1度、米国債を買う時です",
+      "米国債、100年で最悪のリターン",
+      "【速報】エヌビディア決算前、僕の戦略❓"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "「ココ」这种模糊悬念写法更像频道近期风格",
+     "thesis_score": 3,
+     "thesis_reason": "都认为美债处于百年底部，是历史性买点",
+     "attr_correct": true,
+     "copy_sim": 0.174,
+     "copy_nearest": "",
+     "real_overlap": 0.111
+    },
+    "guide_v2": {
+     "title": "100年で最悪の米国債、僕はまだ買う",
+     "thesis": "美债10年滚动回报创百年最低、看涨仅29%，是罕见底部；短期4.5-5%收益率压美股、英伟达财报前宜谨慎，5、6月末继续买美债。",
+     "candidates": [
+      "100年で最悪の米国債、僕はまだ買う",
+      "【100年ぶりの最低リターン】米国債の底？",
+      "米国債、誰も買わない今がチャンス？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "「ココが安い？」悬念式符合频道口吻",
+     "thesis_score": 3,
+     "thesis_reason": "核心都是美债历史低点，是长期买入良机",
+     "attr_correct": true,
+     "copy_sim": 0.1,
+     "copy_nearest": "",
+     "real_overlap": 0.107
+    },
+    "zero": {
+     "title": "米国債 100年で最悪のリターン！今こそ買い時？",
+     "thesis": "米国債の10年リターンが100年で最低で、強気の割合も歴史的低水準の今は、売る時ではなく分割で買い増す好機だ。",
+     "candidates": [
+      "米国債 100年で最悪のリターン！今こそ買い時？",
+      "100年に一度の米国債暴落 私が買い続ける理由",
+      "米国債利回り5%目前！株価下落リスクとチャンス"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "短小模糊的悬念式标题，符合频道风格",
+     "thesis_score": 3,
+     "thesis_reason": "都认为美债回报处于百年低点，是历史性买入时机",
+     "attr_correct": true,
+     "copy_sim": 0.086,
+     "copy_nearest": "",
+     "real_overlap": 0.091
+    }
+   }
+  },
+  {
+   "id": "lBHIURLpjPc",
+   "upload_date": "20250722",
+   "topic": "美股财报周、鲍威尔讲话与比特币大户动向的市场事件梳理",
+   "real_title": "今週、サプライズ発表？",
+   "real_thesis": "市场对美联储降息预期极低,鲍威尔讲话可能带来意外;美股仓位不高、VIX仍有下行空间,温和慢涨将延续到年末,宜长期持有大宗商品与加密资产。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "テスラ79%割高、グーグル34%割安",
+     "thesis": "決算シーズンを前に、テスラはファンダメンタルズより高すぎ、グーグルはまだ割安なので買い向きだ。",
+     "candidates": [
+      "テスラ79%割高、グーグル34%割安",
+      "【重要】パウエル発言と決算ラッシュ、ビットコインのクジラが動いた",
+      "グーグル「これ」から上がる❓"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "模糊悬念式周报标题，B数据与选题不符",
+     "thesis_score": 0,
+     "thesis_reason": "宏观降息与资产配置对比个股估值，不相关",
+     "attr_correct": true,
+     "copy_sim": 0.024,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "テスラは79%割高、グーグルを買う？",
+     "thesis": "财报季期待升温，但特斯拉比估算价值高79%不宜追；谷歌低估34%且现双底可看涨；降息压低美元，应偏重大宗商品与加密资产。",
+     "candidates": [
+      "【速報】パウエル発言と決算ラッシュ、僕の戦略❓",
+      "テスラは79%割高、グーグルを買う？",
+      "ビットコイン、クジラが動き出した"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "标题短而模糊；A的79%太具体，像AI写的",
+     "thesis_score": 1,
+     "thesis_reason": "真实讲宏观慢涨，仿写讲个股估值，只有商品建议重合",
+     "attr_correct": true,
+     "copy_sim": 0.077,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "ビットコイン、大口投資家が動き出した",
+     "thesis": "比特币大户自上周起明显增持，与2024年11月相似；短期VIX低位需防突然飙升，但降息压低美元，长期优先配大宗商品和加密资产。",
+     "candidates": [
+      "ビットコイン、大口投資家が動き出した",
+      "決算ラッシュ、買うならグーグル？",
+      "パウエル発言前、僕の投資戦略？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "频道常用短促模糊的悬念问句",
+     "thesis_score": 2,
+     "thesis_reason": "长期都配商品和加密，但短期VIX判断相反",
+     "attr_correct": true,
+     "copy_sim": 0.185,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "決算ラッシュ開始！テスラは79%割高、グーグルは割安？",
+     "thesis": "今回の決算シーズンは割高なテスラより、理論価格を約34%下回りWボトムを形成しているグーグルの方が投資妙味が大きい。",
+     "candidates": [
+      "決算ラッシュ開始！テスラは79%割高、グーグルは割安？",
+      "パウエル発言とビットコイン大口の動き 今週は要注意！",
+      "ビットコインのクジラが動いた！2024年11月と同じサイン？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "简短悬念「今週」式，A的数字堆砌像AI",
+     "thesis_score": 0,
+     "thesis_reason": "一个讲宏观与大宗商品，一个讲谷歌对比特斯拉选股，话题不相关",
+     "attr_correct": true,
+     "copy_sim": 0.065,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "VCzYIxXojIM",
+   "upload_date": "20260721",
+   "topic": "7月下旬日本与美国股市、半导体板块、美联储政策及财报季的行情梳理",
+   "real_title": "日経平均、急落リスク",
+   "real_thesis": "日经因半导体领跌和财报季波动面临短期下跌风险，但美联储年内不会加息，市场尚未察觉，美元终将走弱，应维持高现金。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "【急落】日経平均4%下落、半導体が危ない",
+     "thesis": "半導体はヘッドアンドショルダーのネックラインにあり、割り込めば日米株はさらに下がるので、今は現金・米国債中心で守るべきだ。",
+     "candidates": [
+      "【急落】日経平均4%下落、半導体が危ない",
+      "半導体ヘッドアンドショルダー、ネックライン割れ❓",
+      "ドル円165円、その後140円台へ"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "频道常用【急落】加具体跌幅",
+     "thesis_score": 2,
+     "thesis_reason": "都看空半导体并持现金，但真实还强调美联储与美元",
+     "attr_correct": true,
+     "copy_sim": 0.125,
+     "copy_nearest": "",
+     "real_overlap": 0.167
+    },
+    "guide_v1": {
+     "title": "日経4%暴落、半導体が危険なシグナル",
+     "thesis": "半导体头肩顶已到颈线、纳指高点逐级下移，短期日美股仍会下跌；美元兑日元或先冲165再回落，长期以现金与美债为主更安全。",
+     "candidates": [
+      "日経平均4%暴落、半導体が危険なシグナル",
+      "半導体バブル崩壊の始まり？",
+      "ドル円165円、その後140円台へ"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "短句加风险提示是频道惯例；B的数字太多",
+     "thesis_score": 2,
+     "thesis_reason": "都看短期下跌、以现金为主，但美元判断重点不同",
+     "attr_correct": true,
+     "copy_sim": 0.263,
+     "copy_nearest": "",
+     "real_overlap": 0.04
+    },
+    "guide_v2": {
+     "title": "【日経4%急落】半導体バブル崩壊の始まり？",
+     "thesis": "半导体头肩顶已到颈线、美元走强，未来一周美日股仍有下跌风险；但这不是泡沫破裂，长期以现金和美债为主，继续分批买半导体。",
+     "candidates": [
+      "【日経4%急落】半導体バブル崩壊の始まり？",
+      "半導体株、危険な形が出ています",
+      "ドル円165円、その後に来るもの"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "简短直白，A的括号加数字像刻意仿写",
+     "thesis_score": 2,
+     "thesis_reason": "都看短期下跌、持现金，但美元方向判断相反",
+     "attr_correct": true,
+     "copy_sim": 0.152,
+     "copy_nearest": "",
+     "real_overlap": 0.074
+    },
+    "zero": {
+     "title": "日経平均4%暴落！半導体バブル崩壊の始まり？",
+     "thesis": "半導体株は三尊天井のネックラインにあり、ナスダックの切り下がる高値と合わせ、短期的にはまだ下落が続く可能性が高い。",
+     "candidates": [
+      "日経平均4%暴落！半導体バブル崩壊の始まり？",
+      "半導体が三尊天井のネックライン 来週のFOMCが分岐点",
+      "日経急落、ナスダック下落トレンド 私のポートフォリオ公開"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "频道常用简短断言，A的叠加信息偏AI",
+     "thesis_score": 2,
+     "thesis_reason": "都看短期下跌，但仿写没提美联储、美元走弱和持现金",
+     "attr_correct": true,
+     "copy_sim": 0.148,
+     "copy_nearest": "",
+     "real_overlap": 0.111
+    }
+   }
+  },
+  {
+   "id": "TeCd1Suc9xI",
+   "upload_date": "20250801",
+   "topic": "纳斯达克100指数单日大跌的K线特征，及同期美日经济数据、央行决议与大型科技股财报",
+   "real_title": "まさか暴落か？",
+   "real_thesis": "纳指昨日的大阴线与吞没形态显著抬高了下跌风险，但尚不足以断定暴落；未来三个交易日的价格走势决定方向，短期宜做空、长期暂不调整。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "ナスダック、1日で1週間分が消えた",
+     "thesis": "ナスダックの大陰線の包み足は短期の下落シグナルで、暴落になるかは3日で決まるため、今は短期ショートが有利だ。",
+     "candidates": [
+      "ナスダック、1日で1週間分が消えた",
+      "暴落か反発か、3日で決まる",
+      "【速報】ナスダック大陰線、ショートします"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "短促反问式更像频道，A像据摘要改写",
+     "thesis_score": 3,
+     "thesis_reason": "大阴线包吞、三日定方向、短期做空一致",
+     "attr_correct": true,
+     "copy_sim": 0.091,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "ナスダック大陰線、暴落の始まりか？",
+     "thesis": "纳指包线大阴线是危险信号，但是否演变成暴跌要看未来3个交易日；短期宜做空部分标的，长期组合不必调整。",
+     "candidates": [
+      "ナスダック大陰線、暴落の始まりか？",
+      "1日で1週間分が消えた、3日で決まる",
+      "【緊急】FRB反対意見とアマゾン急落、僕の空売り"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "极简的悬念问句符合频道；B像照着选题写的",
+     "thesis_score": 3,
+     "thesis_reason": "判断与操作建议几乎完全相同",
+     "attr_correct": true,
+     "copy_sim": 0.316,
+     "copy_nearest": "",
+     "real_overlap": 0.1
+    },
+    "guide_v2": {
+     "title": "暴落か反発か、答えは「この3日」で出る",
+     "thesis": "纳指大阴包线一天抹去一周涨幅，是暴跌还是反弹约3个交易日内见分晓；下周三前可短线做空部分标的，长期组合不必调整。",
+     "candidates": [
+      "暴落か反発か、答えは「この3日」で出る",
+      "ナスダック、1日で1週間分が消えた",
+      "大陰線の包み足、暴落の前触れ？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "极短问句是频道典型，A句式过于工整",
+     "thesis_score": 3,
+     "thesis_reason": "大阴包线、三日定方向、短空长不动，完全一致",
+     "attr_correct": true,
+     "copy_sim": 0.043,
+     "copy_nearest": "",
+     "real_overlap": 0.091
+    },
+    "zero": {
+     "title": "ナスダック 1日で1週間分が消えた！暴落の始まりか？",
+     "thesis": "ナスダックの大陰線包み足は短期の下落シグナルなので短期では売りで構えるべきで、暴落か反発かは3営業日以内に見極められる。",
+     "candidates": [
+      "ナスダック 1日で1週間分が消えた！暴落の始まりか？",
+      "【要注意】大陰線の包み足 3日以内に暴落か反発か決まる",
+      "アマゾン7%急落、FRBで異例の反対票 市場に何が起きている？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "极简疑问句是频道惯用写法",
+     "thesis_score": 3,
+     "thesis_reason": "都认为大阴线吞没偏空，短期宜做空，三个交易日内定方向",
+     "attr_correct": true,
+     "copy_sim": 0.222,
+     "copy_nearest": "",
+     "real_overlap": 0.071
+    }
+   }
+  },
+  {
+   "id": "YCasVUK8fXQ",
+   "upload_date": "20250530",
+   "topic": "美股两大风险事件与美债、美元、白银等大宗商品的数据背景",
+   "real_title": "暴落の時、全力で買う",
+   "real_thesis": "若英伟达财报或美债收益率逼近5%引发股市暴跌，应重仓买白银：美元将因降息下跌、金银比historically极端，白银有望翻2到3倍",
+   "real_thesis_type": "advise",
+   "real_title_thesis": "states",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "【警告】米国株が下がる2つのリスク",
+     "thesis": "英伟达财报和10年期美债逼近5%可能压低美股，而金银比价接近百年极值，白银相对黄金被严重低估，有望涨向60美元",
+     "candidates": [
+      "【警告】米国株が下がる2つのリスク",
+      "金銀比価99.9、銀が60ドルまで上がる❓",
+      "米国債5%、株の暴落が始まる❓"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "B过于贴合选题，像AI据摘要生成",
+     "thesis_score": 2,
+     "thesis_reason": "都看好白银，但仿写缺暴跌时重仓逻辑，目标偏弱",
+     "attr_correct": true,
+     "copy_sim": 0.115,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "金銀比価100、30年で2度目のチャンス",
+     "thesis": "英伟达财报与美债收益率逼近5%使美股短期承压，但金银比约100为30年罕见，应趁美元跌破100买入白银等大宗商品",
+     "candidates": [
+      "金銀比価100、30年で2度目のチャンス",
+      "エヌビディア決算と金利5%、米国株は暴落するのか？",
+      "ドル100割れ、僕がいま買うもの❓"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "口号式短句是频道风格；B的数据过细",
+     "thesis_score": 2,
+     "thesis_reason": "都主张买白银，但触发条件和预期强弱不同",
+     "attr_correct": true,
+     "copy_sim": 0.13,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "【30年で2度目】銀の大チャンス",
+     "thesis": "英伟达财报和美债收益率逼近5%会在一周内引发美股回调；但美元跌破100、金银比近100，应先买白银，再买其他商品。",
+     "candidates": [
+      "米国株、暴落の引き金は「この2つ」？",
+      "【30年で2度目】銀の大チャンス",
+      "米国債5%目前、株は危ない？"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "具体年份对比加【】符合其风格",
+     "thesis_score": 3,
+     "thesis_reason": "都因美元走弱和金银比极端，主张买白银",
+     "attr_correct": true,
+     "copy_sim": 0.118,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "米国株に2つのリスク！エヌビディア決算と米10年債5%に要注意",
+     "thesis": "英伟达财报与美债收益率逼近5%可能压低美股，而美元跌破100、金银比近百，资金应转向白银等大宗商品。",
+     "candidates": [
+      "米国株に2つのリスク！エヌビディア決算と米10年債5%に要注意",
+      "30年で2回だけのサイン！金銀比率100で銀に大チャンス？",
+      "ドル100割れ！米国株より今はコモディティ？70年ぶりの割安水準"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "短句态度型标题，B信息过度罗列",
+     "thesis_score": 2,
+     "thesis_reason": "都主张转向白银，但仿写没有重仓和翻倍这样的强判断",
+     "attr_correct": true,
+     "copy_sim": 0.146,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "WRPG2GZmJSM",
+   "upload_date": "20250802",
+   "topic": "医师堀江访谈：个人经历、ω-3脂肪酸、肠道菌群与衰老相关基因的营养学",
+   "real_title": "【アンチエイジングの更に先】若返りは可能か？医師・堀江祐以が語るアンチエイジングの更に先”リバースエイジング”とは【Guest：堀江祐以】",
+   "real_thesis": "脑与身体的衰退多由细胞层面的炎症和线粒体功能下降造成，而非性格问题；靠Omega-3与均衡营养、老化基因调控可预防甚至逆转衰老。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "asks",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "【絶対やるな】脳を壊す「この油」",
+     "thesis": "现代人吃的ω-6油太多导致炎症和大脑衰退，把ω-3调到与ω-6接近1:1的比例比任何保健品都更能延缓衰老",
+     "candidates": [
+      "医師が教える、老けない食べ方",
+      "【絶対やるな】脳を壊す「この油」",
+      "母を亡くした医師が語る、健康とお金"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "冗长嘉宾访谈标题是频道真实格式",
+     "thesis_score": 2,
+     "thesis_reason": "都讲炎症与Omega-3抗衰，仿写聚焦ω比例",
+     "attr_correct": true,
+     "copy_sim": 0.2,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "サラダ油が危険？医師が教えるオメガ3の秘密",
+     "thesis": "现代人ω-6对ω-3高达10–20比1是慢性炎症和衰老的根源，每天吃生青背鱼和亚麻籽油把比例拉回1比1比吃补剂更重要",
+     "candidates": [
+      "サラダ油が危険？医師が教えるオメガ3の秘密",
+      "母を亡くした医師が語る、健康の本当の価値",
+      "老化を止める3つの方法【医師が解説】"
+     ],
+     "judge_correct": true,
+     "judge_conf": 5,
+     "judge_reason": "冗长的【】加Guest格式是真实访谈标题的特征",
+     "thesis_score": 2,
+     "thesis_reason": "都归因于炎症和Omega-3，仿写更窄，聚焦比例和饮食",
+     "attr_correct": false,
+     "copy_sim": 0.067,
+     "copy_nearest": "",
+     "real_overlap": 0.029
+    },
+    "guide_v2": {
+     "title": "老化を早める「この油」とは？",
+     "thesis": "现代人ω-6与ω-3之比高达10–20比1，这是慢性炎症和衰老的根源；每天吃生青背鱼再加1–2勺亚麻籽油，比依赖补剂更有效。",
+     "candidates": [
+      "老化を早める「この油」とは？",
+      "油の比率20対1、それが老化の原因",
+      "医師が語る、老けない食べ方"
+     ],
+     "judge_correct": true,
+     "judge_conf": 5,
+     "judge_reason": "冗长访谈标题带Guest标注，真实风格",
+     "thesis_score": 2,
+     "thesis_reason": "都讲炎症致衰老、补Omega-3，仿写更窄",
+     "attr_correct": true,
+     "copy_sim": 0.048,
+     "copy_nearest": "",
+     "real_overlap": 0.016
+    },
+    "zero": {
+     "title": "【医師が語る】母の死で気づいた健康の大切さ　オメガ3と腸で老化は防げる",
+     "thesis": "衰老和疾病很大程度由饮食决定，把ω-6与ω-3比例调到2:1以内并养好肠道，就能有效延缓衰老。",
+     "candidates": [
+      "【医師が語る】母の死で気づいた健康の大切さ　オメガ3と腸で老化は防げる",
+      "サラダ油は危険？医師が教えるオメガ3の正しい摂り方と若返り遺伝子",
+      "【アンチエイジング医師】老けない人は何を食べている？腸と脳と油の真実"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "带【Guest：】格式且冗长，符合嘉宾期",
+     "thesis_score": 2,
+     "thesis_reason": "都认为营养能延缓衰老，但重点分别是炎症线粒体和ω比例肠道",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.037
+    }
+   }
+  },
+  {
+   "id": "kofRrOXOfmw",
+   "upload_date": "20260123",
+   "topic": "访谈讨论家务、五感刺激与亲子教育方式及其研究依据",
+   "real_title": "子どもを伸ばす“不完全な親”【Guest：時田啓光 #3】",
+   "real_thesis": "孩子成长靠的不是完美的父母和纯学习，而是让孩子承担家务获得价值感、多感官体验，并看到父母的不完美与犯错。",
+   "real_thesis_type": "advise",
+   "real_title_thesis": "states",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "完璧な親が子供をダメにする❓",
+     "thesis": "让孩子做家务、多用五感接触事物、父母敢于展示不完美，比替孩子包办一切更能培养出自信、有能力的孩子",
+     "candidates": [
+      "完璧な親が子供をダメにする❓",
+      "子供の将来は「家事」で決まる",
+      "頭がいい子に育てる3つの方法"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "与同嘉宾#1格式一致带#3编号",
+     "thesis_score": 3,
+     "thesis_reason": "家务、五感、展示不完美，核心论断一致",
+     "attr_correct": true,
+     "copy_sim": 0.043,
+     "copy_nearest": "",
+     "real_overlap": 0.026
+    },
+    "guide_v1": {
+     "title": "完璧な親は危険、子供を伸ばす3つの秘密",
+     "thesis": "比起报补习班，让孩子分担家务、用五感接触事物、让孩子看到父母犯错，更能培养自信和日后的工作能力",
+     "candidates": [
+      "完璧な親は危険、子供を伸ばす3つの秘密",
+      "家事をする子供は成功する？",
+      "五感で記憶力が上がる、子育ての新常識"
+     ],
+     "judge_correct": true,
+     "judge_conf": 5,
+     "judge_reason": "Guest #3 系列编号与前一期一致",
+     "thesis_score": 3,
+     "thesis_reason": "家务、五感、父母犯错，核心主张一致",
+     "attr_correct": true,
+     "copy_sim": 0.125,
+     "copy_nearest": "",
+     "real_overlap": 0.098
+    },
+    "guide_v2": {
+     "title": "完璧な親ほど、子供は伸びない？",
+     "thesis": "父母越完美、越替孩子做决定，孩子越没自信；让孩子分担家务、看到父母犯错后如何弥补，更能培养日后的职业能力和社会性。",
+     "candidates": [
+      "完璧な親ほど、子供は伸びない？",
+      "子供が伸びる3つの習慣",
+      "家事をする子が成功する理由"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "系列访谈带#3编号，A是常见AI反转句",
+     "thesis_score": 3,
+     "thesis_reason": "都主张父母不完美、孩子做家务、看父母犯错",
+     "attr_correct": false,
+     "copy_sim": 0.026,
+     "copy_nearest": "",
+     "real_overlap": 0.025
+    },
+    "zero": {
+     "title": "完璧な親ほど子どもはダメになる？家事と五感で伸びる子育て",
+     "thesis": "比起追求完美的父母，让孩子做家务、多用五感并看到父母犯错，更能培养出自信、有出息的孩子。",
+     "candidates": [
+      "完璧な親ほど子どもはダメになる？家事と五感で伸びる子育て",
+      "子どもに家事をさせる家庭は将来伸びる！研究で分かった教育法",
+      "【子育て】親は完璧じゃなくていい　嗅覚と触覚が脳を育てる理由"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "嘉宾期标注【Guest：時田啓光 #3】",
+     "thesis_score": 3,
+     "thesis_reason": "家务、五感体验、父母不完美，三个论点一致",
+     "attr_correct": false,
+     "copy_sim": 0.056,
+     "copy_nearest": "",
+     "real_overlap": 0.059
+    }
+   }
+  },
+  {
+   "id": "Ge6npMX19aM",
+   "upload_date": "20251029",
+   "topic": "本周日银、美联储、欧洲央行会议及美国科技巨头财报的事件梳理",
+   "real_title": "【バブルの準備】中銀・決算発表？",
+   "real_thesis": "本周央行决议基本已被市场price in，科技股财报难预测且估值偏高，泡沫是否破裂无法判断，不确定时应持国债和现金观望。",
+   "real_thesis_type": "advise",
+   "real_title_thesis": "labels",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "マイクロソフト40%割高、米国株の危険信号",
+     "thesis": "降息早已被市场计入，而科技巨头估值偏高、美股市盈率处于150年高位，未来十年美股回报很可能大幅下降",
+     "candidates": [
+      "【重要】今週、日米欧の中銀発表と決算ラッシュ",
+      "マイクロソフト40%割高、米国株の危険信号",
+      "今後10年、米国株のリターンは3%❓"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "别扭的【】+问句组合像真人所写",
+     "thesis_score": 2,
+     "thesis_reason": "前提相同，但真实建议观望，仿写判断长期回报下降",
+     "attr_correct": true,
+     "copy_sim": 0.097,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "米国株、150年ぶりの割高サイン",
+     "thesis": "本周降息已被定价，真正的风险是科技巨头被高估（微软约40%），美股未来回报将走低，应减持美国科技股，转向降息初期易涨的能源商品",
+     "candidates": [
+      "米国株、150年ぶりの割高サイン",
+      "【速報】3つの中央銀行と巨大決算、全てが決まる1週間",
+      "マイクロソフト40%割高、決算で暴落するのか？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "【バブルの準備】这种别扭拼接不像AI写法",
+     "thesis_score": 1,
+     "thesis_reason": "真实主张持债观望，仿写主张减科技转能源",
+     "attr_correct": true,
+     "copy_sim": 0.211,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "米国株バブル、崩れるのは「この週」？",
+     "thesis": "本周美联储降息已被计入，真正风险是科技股财报：微软高估约40%，美股短期易回调；长期降息利好能源，应先布局原油。",
+     "candidates": [
+      "米国株バブル、崩れるのは「この週」？",
+      "次の10年、米国株は年3%？",
+      "3つの中銀より怖いのは決算"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "措辞生硬不像AI润色，A的「この週」像仿写",
+     "thesis_score": 1,
+     "thesis_reason": "真实主张持债观望，仿写主张布局原油",
+     "attr_correct": true,
+     "copy_sim": 0.115,
+     "copy_nearest": "",
+     "real_overlap": 0.067
+    },
+    "zero": {
+     "title": "今週が勝負！日銀・FRB・ECBとビッグテック決算　米国株は割高すぎる",
+     "thesis": "降息已被充分定价，而美股估值处150年高位、微软等巨头明显高估，未来十年美股回报将大幅下降。",
+     "candidates": [
+      "今週が勝負！日銀・FRB・ECBとビッグテック決算　米国株は割高すぎる",
+      "マイクロソフト40%割高！？決算前に知るべき米国株のリスク",
+      "ゴールドマン警告「今後10年は年3%」米国株の黄金時代は終わる？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "【】+简短疑问是频道风格，B过于完整",
+     "thesis_score": 1,
+     "thesis_reason": "真实主张持现金观望，仿写判断美股长期回报下降，论断不同",
+     "attr_correct": true,
+     "copy_sim": 0.05,
+     "copy_nearest": "",
+     "real_overlap": 0.043
+    }
+   }
+  },
+  {
+   "id": "Fva-pYifnho",
+   "upload_date": "20250709",
+   "topic": "特朗普宣布对铜加征50%关税、药品200%关税及当日市场与宏观数据",
+   "real_title": "トランプ、200％関税発表！",
+   "real_thesis": "关税消息尚未确定、8月1日前都可能变，不宜据此投资；铜短线或再涨，但最该做的是无为观望、坚持长期定投。",
+   "real_thesis_type": "advise",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "【速報】銅に50%関税、まだ上がる❓",
+     "thesis": "铜关税引发的急涨未必像铝那样冲高回落，铜价长期阶梯式上升趋势未破，回调反而是机会",
+     "candidates": [
+      "【速報】銅に50%関税、まだ上がる❓",
+      "トランプ関税、医薬品200%の衝撃",
+      "銅が急騰、買うべきか❓"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "突出200%关税的冲击感更像频道",
+     "thesis_score": 1,
+     "thesis_reason": "真实主张观望定投，仿写看多铜逢低买入",
+     "attr_correct": true,
+     "copy_sim": 0.097,
+     "copy_nearest": "",
+     "real_overlap": 0.034
+    },
+    "guide_v1": {
+     "title": "【速報】銅に50%関税、急騰は続くのか？",
+     "thesis": "铜价因关税急涨，短期可能像铝一样冲高回落，不宜追高；但长期阶梯式上升趋势没变，回调时可以买，同时继续按月分散定投",
+     "candidates": [
+      "【速報】銅に50%関税、急騰は続くのか？",
+      "トランプ200%関税、僕の資産配分",
+      "銅が急騰、アルミと同じワナ❓"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "突出最大数字200%的感叹句；B照搬了选题顺序",
+     "thesis_score": 2,
+     "thesis_reason": "都主张坚持定投，但对铜短期走势判断相反",
+     "attr_correct": true,
+     "copy_sim": 0.103,
+     "copy_nearest": "",
+     "real_overlap": 0.032
+    },
+    "guide_v2": {
+     "title": "【速報】銅50%関税、飛びつくのは危険",
+     "thesis": "铜因关税暴涨后，短期会像铝那样回落，8月1日前不宜追高；但5年阶梯式上升趋势未破，应等回调后按月分批买入。",
+     "candidates": [
+      "【速報】銅50%関税、飛びつくのは危険",
+      "銅の急騰、アルミと同じ道？",
+      "関税ショック、僕の銅戦略は？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "感叹式速报更像真实，B带建议偏AI",
+     "thesis_score": 2,
+     "thesis_reason": "都主张观望和定投，但铜短期涨跌判断相反",
+     "attr_correct": true,
+     "copy_sim": 0.083,
+     "copy_nearest": "",
+     "real_overlap": 0.033
+    },
+    "zero": {
+     "title": "トランプ銅に50%関税！銅価格急騰は買いか？8月1日までが勝負",
+     "thesis": "铜关税引发的暴涨可能像铝一样回落，但铜长期阶梯式上升趋势不变，回调反而是分批买入的机会。",
+     "candidates": [
+      "トランプ銅に50%関税！銅価格急騰は買いか？8月1日までが勝負",
+      "銅50%・医薬品200%関税！アルミの二の舞か、それとも上昇トレンドか",
+      "トランプ関税で銅が急騰！私のポートフォリオも公開"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "简短速报式感叹，B多段拼接像AI",
+     "thesis_score": 1,
+     "thesis_reason": "真实主张观望并定投，仿写主张回调时分批买铜，建议不同",
+     "attr_correct": true,
+     "copy_sim": 0.051,
+     "copy_nearest": "",
+     "real_overlap": 0.103
+    }
+   }
+  },
+  {
+   "id": "GfHhAEbyttw",
+   "upload_date": "20250804",
+   "topic": "美国7月非农就业数据疲弱及其与国债利率、利率预期的关系",
+   "real_title": "全力「これ」を買う",
+   "real_thesis": "非农连续三个月低于10万人、降息尚未被完全定价，未来一个月股价承压、美债（尤其10年期）将持续上涨；长期组合也应至少配10%美债。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "【速報】米雇用3ヶ月連続10万人割れ、米国債を買う",
+     "thesis": "美国就业已连续三个月走弱、接近衰退信号，降息将至，现在正是买入美国长期国债的时机",
+     "candidates": [
+      "【速報】米雇用ショック、3ヶ月連続10万人割れ",
+      "米国債、今が買い時❓",
+      "利下げ確率84%、米国債がブレイクアウト"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "近期标题短而悬念式，B数据堆砌像仿写",
+     "thesis_score": 3,
+     "thesis_reason": "都说就业走弱、降息将至，应买长期美债",
+     "attr_correct": true,
+     "copy_sim": 0.114,
+     "copy_nearest": "",
+     "real_overlap": 0.067
+    },
+    "guide_v1": {
+     "title": "【速報】雇用統計ショック、僕の戦略❓",
+     "thesis": "非农连续3个月低于10万，衰退信号已现，9月降息几乎确定；美债价格正突破112阻力，应趁现在买入10年期美债。",
+     "candidates": [
+      "米国雇用が急減速、国債を買う時❓",
+      "【速報】雇用統計ショック、僕の戦略❓",
+      "3ヶ月連続10万人割れ、景気後退の始まり？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "「これ」式悬念短标题，是频道近期常用的风格",
+     "thesis_score": 3,
+     "thesis_reason": "都主张非农疲弱、降息预期下买入10年期美债",
+     "attr_correct": true,
+     "copy_sim": 0.304,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "【3ヶ月連続10万人割れ】米国債の買い時？",
+     "thesis": "新增就业连续3月低于10万，9月议息前降息预期升温，10年美债正突破112阻力；短期美股承压，应先增持美债再看股票。",
+     "candidates": [
+      "【3ヶ月連続10万人割れ】米国債の買い時？",
+      "米国債、ついに「ここ」を突破",
+      "雇用が急ブレーキ、景気後退の始まり？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "近期标题短且用「これ」吊胃口，A数据括号像仿写",
+     "thesis_score": 3,
+     "thesis_reason": "均为就业弱、美股承压、增持美债",
+     "attr_correct": true,
+     "copy_sim": 0.065,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "【米国債】雇用統計ショック！今こそ米国債を買うタイミングか？",
+     "thesis": "非农连续三个月低于10万、降息预期升温，10年美债价格即将突破112阻力，现在正是分批买入美国国债的时机。",
+     "candidates": [
+      "【米国債】雇用統計ショック！今こそ米国債を買うタイミングか？",
+      "雇用3ヶ月連続10万人割れ　利下げ確率84%で米国債はどうなる？",
+      "米国債が112の壁を突破へ！弱い雇用統計が示すチャンス"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "短促悬念式「これ」是频道惯用风格",
+     "thesis_score": 3,
+     "thesis_reason": "都因非农疲弱、降息看多美债并建议买入",
+     "attr_correct": true,
+     "copy_sim": 0.206,
+     "copy_nearest": "",
+     "real_overlap": 0.061
+    }
+   }
+  },
+  {
+   "id": "GJK-siW6798",
+   "upload_date": "20260428",
+   "topic": "2026年4月底美股、央行决议、科技财报与“5月卖出”说法的背景梳理",
+   "real_title": "5月は売るのか？",
+   "real_thesis": "「5月卖出」是站不住的老话，本周风险都不足以构成卖出理由，最佳策略是按兵不动；更大的威胁是AI让就业消失，应培养独立赚钱能力。",
+   "real_thesis_type": "advise",
+   "real_title_thesis": "asks",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "「5月に売れ」は間違っている",
+     "thesis": "过去十年5至10月美股多数上涨，加上科技财报强劲、利润率高，今年5月不该卖出",
+     "candidates": [
+      "Sell in May、今年は間違っている",
+      "5月に売るな、ビッグテック決算の本当の意味",
+      "【重要】中央銀行ラッシュ＆GAFAM決算、5月どうする❓"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "简短疑问句符合近期风格",
+     "thesis_score": 2,
+     "thesis_reason": "都反对5月卖出，但仿写漏掉按兵不动和AI就业",
+     "attr_correct": true,
+     "copy_sim": 0.174,
+     "copy_nearest": "",
+     "real_overlap": 0.053
+    },
+    "guide_v1": {
+     "title": "5月に株を売るべきか❓",
+     "thesis": "今年不该“5月卖出”：科技财报超预期、利润率处历史高位，霍尔木兹有望恢复，5至10月美股大概率上涨，回调就是买点。",
+     "candidates": [
+      "5月に株を売るべきか❓",
+      "Sell in May、今年は間違いです",
+      "【緊急】GAFAM決算と3つの中央銀行、全てが決まる1週間"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "用全角❓结尾，符合频道近期习惯",
+     "thesis_score": 2,
+     "thesis_reason": "都否定5月卖出，但真实重按兵不动和AI就业",
+     "attr_correct": true,
+     "copy_sim": 0.182,
+     "copy_nearest": "",
+     "real_overlap": 0.133
+    },
+    "guide_v2": {
+     "title": "5月に売る？僕の答え",
+     "thesis": "今年5月不必卖出：科技财报超预期且历史上5-10月十年仅一年下跌，短期继续持有美股；但AI裁员与利润背离是长期隐患，应逐步分散。",
+     "candidates": [
+      "5月に売る？僕の答え",
+      "Sell in May、今年は当たるのか？",
+      "巨大テック決算後、株は「この時」に動く？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "简短设问符合近期风格，「僕の答え」像刻意模仿",
+     "thesis_score": 2,
+     "thesis_reason": "都主张不卖，但AI应对建议不同",
+     "attr_correct": true,
+     "copy_sim": 0.048,
+     "copy_nearest": "",
+     "real_overlap": 0.143
+    },
+    "zero": {
+     "title": "「セル・イン・メイ」は本当？過去10年のデータで検証",
+     "thesis": "过去10年5至10月标普平均上涨约6.9%，加上科技财报强劲，“5月卖出”是错误策略，应继续持有美股。",
+     "candidates": [
+      "「セル・イン・メイ」は本当？過去10年のデータで検証",
+      "5月に株を売るべき？今週は決算・中央銀行・イランの3大イベント",
+      "【米国株】Sell in Mayは間違い？GAFAM決算と利上げ据え置きの一週間"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "简短疑问句符合频道风格，A像AI解说式",
+     "thesis_score": 2,
+     "thesis_reason": "都否定5月卖出建议持有，但漏了AI就业重点",
+     "attr_correct": true,
+     "copy_sim": 0.031,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "BYH4zTw0SXg",
+   "upload_date": "20250414",
+   "topic": "2025年4月美国关税引发股市下跌的背景数据与各类资产概况",
+   "real_title": "暴落後、歴史的な買いチャンス",
+   "real_thesis": "关税暴跌后VIX飙至40以上，历史上12个月平均涨约30%，是长期买入良机；应买大宗商品、贵金属、中港日股，勿加杠杆。",
+   "real_thesis_type": "advise",
+   "real_title_thesis": "states",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "【緊急】関税暴落、VIX45超えは買いのサイン",
+     "thesis": "VIX突破45的恐慌历史上多半预示6到12个月后美股上涨，此时应卖出部分国债转投大宗商品和股票",
+     "candidates": [
+      "【緊急】トランプ関税で暴落、僕は「これ」を買う",
+      "VIX45超え、92%の確率で株は上がる❓",
+      "暴落中に国債を売ってコモディティを買う理由"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "B标签加具体数值过度堆砌，像仿写",
+     "thesis_score": 3,
+     "thesis_reason": "都说VIX恐慌是买点，应转投大宗和股票",
+     "attr_correct": true,
+     "copy_sim": 0.081,
+     "copy_nearest": "",
+     "real_overlap": 0.061
+    },
+    "guide_v1": {
+     "title": "VIX45超え、100年に数回の買い時",
+     "thesis": "VIX超45、两日暴跌10%属百年罕见恐慌，6至12个月后美股大概率上涨；应部分卖出美债，转买大宗商品和中日股票。",
+     "candidates": [
+      "VIX45超え、100年に数回の買い時",
+      "トランプ関税で暴落、まだ下がるのか？",
+      "【緊急】関税パニック、僕は国債を売ります"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "VIX45这样的具体数据加夸张说法，更像本人写的",
+     "thesis_score": 3,
+     "thesis_reason": "都认为VIX恐慌是长期买点，买商品和中日股",
+     "attr_correct": true,
+     "copy_sim": 0.069,
+     "copy_nearest": "",
+     "real_overlap": 0.033
+    },
+    "guide_v2": {
+     "title": "VIX45超え、暴落は買いのサイン",
+     "thesis": "关税暴跌短期仍会剧烈波动，但VIX超45后半年上涨概率92%；应部分卖出美债，先买大宗商品，再分批买恒生科技与日股。",
+     "candidates": [
+      "VIX45超え、暴落は買いのサイン",
+      "【100年で数回の急落】次はどうなる？",
+      "関税ショック、僕が買う「この3つ」"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "A简洁有力，B堆砌VIX数据像AI加工",
+     "thesis_score": 2,
+     "thesis_reason": "都看作买点买商品与中日股，仿写更强调短期波动",
+     "attr_correct": true,
+     "copy_sim": 0.048,
+     "copy_nearest": "",
+     "real_overlap": 0.074
+    },
+    "zero": {
+     "title": "【暴落】VIX45超え！歴史的に見ると今は買い場か？",
+     "thesis": "VIX突破40后标普12个月平均上涨约30%，关税暴跌是长期买点，应减持国债、转投大宗商品与股票。",
+     "candidates": [
+      "【暴落】VIX45超え！歴史的に見ると今は買い場か？",
+      "トランプ関税で株価急落　私は国債を売って商品と株を買います",
+      "100年で数回しかない暴落　データが示す次の12ヶ月"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "A堆砌标签加数据加问句，偏AI模板",
+     "thesis_score": 3,
+     "thesis_reason": "VIX超40是长期买点，转向大宗与股票",
+     "attr_correct": true,
+     "copy_sim": 0.067,
+     "copy_nearest": "",
+     "real_overlap": 0.118
+    }
+   }
+  },
+  {
+   "id": "Mc5ueb97Wic",
+   "upload_date": "20260306",
+   "topic": "冥想音乐家兼僧侣赤坂洋月讲述人生经历：从迷茫期到以节拍盒与诵经走向国际舞台",
+   "real_title": "禅の道で羽ばたく、ビートボクサー僧侶【Guest：赤坂陽月 #1】",
+   "real_thesis": "人生迷茫期跟随热情、不断探索，终会走到无法预设的位置：把佛教诵经与口技结合，成为只有自己能做、又利他的事业。",
+   "real_thesis_type": "narrate",
+   "real_title_thesis": "labels",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "迷い続けた僧侶、お経×ビートボックスで世界へ",
+     "thesis": "长期迷茫并非浪费，追随热情和好奇心、做出没人做过的组合，才是走向世界舞台的路",
+     "candidates": [
+      "迷っていた僧侶が世界で成功した理由",
+      "お経×ビートボックスで世界へ",
+      "27歳まで迷っていた人生が変わった瞬間"
+     ],
+     "judge_correct": true,
+     "judge_conf": 5,
+     "judge_reason": "嘉宾节目固定【Guest：名字 #回】格式",
+     "thesis_score": 3,
+     "thesis_reason": "都说迷茫时追随热情，终成独特事业",
+     "attr_correct": false,
+     "copy_sim": 0.02,
+     "copy_nearest": "",
+     "real_overlap": 0.083
+    },
+    "guide_v1": {
+     "title": "迷いの10年、人生を変えた1本の動画",
+     "thesis": "二十多岁的迷茫期并非浪费：追随热情和好奇心，把诵经和节拍盒结合成别人没做过的东西，才是他走上世界舞台的原因。",
+     "candidates": [
+      "お坊さんがビートボックスで世界へ",
+      "迷いの10年、人生を変えた1本の動画",
+      "登録者300人から世界の舞台へ、その秘密とは？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "带【Guest：姓名 #n】标签，是嘉宾期的固定格式",
+     "thesis_score": 3,
+     "thesis_reason": "都讲迷茫期追随热情，结合诵经口技成独特事业",
+     "attr_correct": true,
+     "copy_sim": 0.034,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "迷いの10年は無駄だったのか？",
+     "thesis": "迷茫期不是浪费：坚持追随好奇心十年，把诵经与节拍盒结合成无人做过的组合，正是他从300订阅走向SXSW舞台的原因。",
+     "candidates": [
+      "迷いの10年は無駄だったのか？",
+      "お坊さんが世界の舞台へ、キッカケは「これ」",
+      "お経×ビートボックス、世界に出た理由"
+     ],
+     "judge_correct": true,
+     "judge_conf": 5,
+     "judge_reason": "嘉宾访谈固定带【Guest：姓名 #集数】格式",
+     "thesis_score": 3,
+     "thesis_reason": "都说追随热情探索，最终形成独特组合",
+     "attr_correct": false,
+     "copy_sim": 0.158,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "僧侶でビートボクサー？お経×ビートボックスで世界へ 赤坂洋月さんの人生",
+     "thesis": "长达十年的迷茫期与疫情断收并非浪费，正是追随好奇心的迷茫让他走出无人做过的独创道路并登上国际舞台。",
+     "candidates": [
+      "僧侶でビートボクサー？お経×ビートボックスで世界へ 赤坂洋月さんの人生",
+      "迷いの10年が武器になった　お経ビートボックスで世界の舞台へ",
+      "コロナで収入ゼロからSXSWへ　瞑想音楽家・赤坂洋月さんの人生曲線"
+     ],
+     "judge_correct": true,
+     "judge_conf": 5,
+     "judge_reason": "【Guest：名 #n】是频道嘉宾固定格式",
+     "thesis_score": 3,
+     "thesis_reason": "都认为追随热情的迷茫期造就独创道路",
+     "attr_correct": false,
+     "copy_sim": 0.016,
+     "copy_nearest": "",
+     "real_overlap": 0.151
+    }
+   }
+  },
+  {
+   "id": "X84vQ9oI6UA",
+   "upload_date": "20251225",
+   "topic": "空手家讲解“押忍”与“气合”的含义、个人经历及对运动习惯的看法",
+   "real_title": "”運動”がこれからの日本を救う【Guest：ニコラス・ペタス #4】",
+   "real_thesis": "日本人是全球最缺运动的国家之一，让孩子早学格斗、成人每周至少举重或步行锻炼，既能培养抗压韧性，也能降低医疗税负、改善社会。",
+   "real_thesis_type": "advise",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "日本人に足りないのは「気合」❓",
+     "thesis": "日本人运动人口太少、抗压力不足，每周一次举重或负重训练加上气合精神，就能练出活到百岁的身心",
+     "candidates": [
+      "日本人に足りないのは「気合」❓",
+      "100歳まで生きる体、週1回で十分",
+      "【絶対に諦めない】押忍の本当の意味"
+     ],
+     "judge_correct": true,
+     "judge_conf": 5,
+     "judge_reason": "嘉宾节目固定Guest格式",
+     "thesis_score": 2,
+     "thesis_reason": "都主张举重练抗压，但落脚点长寿与社会不同",
+     "attr_correct": true,
+     "copy_sim": 0.026,
+     "copy_nearest": "",
+     "real_overlap": 0.022
+    },
+    "guide_v1": {
+     "title": "押忍と気合の本当の意味とは？",
+     "thesis": "日本人运动太少；只要每周一次举重或负重步行，再加上“气合”那种遇事向前的精神，就足以支撑健康活到100岁。",
+     "candidates": [
+      "押忍と気合の本当の意味とは？",
+      "日本人は運動が足りない、100歳まで生きる方法",
+      "空手家が教える、絶対に諦めない3つの秘密"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "带Guest标签，主题也提升到社会层面",
+     "thesis_score": 2,
+     "thesis_reason": "都倡导举重步行，但真实重社会效益与儿童格斗",
+     "attr_correct": false,
+     "copy_sim": 0.048,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "100歳まで動ける体、週1の「これ」",
+     "thesis": "日本人运动人口太少，靠步行不够：即使讨厌运动，每周一次举重或负重行走就能防骨质流失，配合气合精神才能健康活到100岁。",
+     "candidates": [
+      "100歳まで動ける体、週1の「これ」",
+      "押忍と気合、本当の意味とは？",
+      "運動嫌いでも、100歳まで生きる方法"
+     ],
+     "judge_correct": true,
+     "judge_conf": 5,
+     "judge_reason": "嘉宾系列标准格式带集数编号",
+     "thesis_score": 2,
+     "thesis_reason": "都劝日本人举重，但仿写缺抗压与社会效益",
+     "attr_correct": true,
+     "copy_sim": 0.091,
+     "copy_nearest": "",
+     "real_overlap": 0.021
+    },
+    "zero": {
+     "title": "「押忍」と「気合」の本当の意味　空手家が教える諦めない心",
+     "thesis": "心理韧性靠“押忍”“气合”式的身体锻炼练出来，日本人运动太少，每周一次负重训练就足以打造活到百岁的身心。",
+     "candidates": [
+      "「押忍」と「気合」の本当の意味　空手家が教える諦めない心",
+      "日本人は運動不足？週1回の筋トレで100歳まで生きる体",
+      "空手家に聞く　気合とは何か？100歳まで元気でいる秘訣"
+     ],
+     "judge_correct": true,
+     "judge_conf": 5,
+     "judge_reason": "嘉宾固定格式，A是选题直译",
+     "thesis_score": 2,
+     "thesis_reason": "都主张锻炼练韧性，但社会医疗收益与长寿重点不同",
+     "attr_correct": false,
+     "copy_sim": 0.027,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "OQ3ikztBTBU",
+   "upload_date": "20250713",
+   "topic": "高橋在股东与会员活动上介绍Post Prime业绩及新业务方向",
+   "real_title": "PostPrime、大きなお知らせ",
+   "real_thesis": "PostPrime上期业绩不及预期，仅靠SNS无法实现十倍增长，必须拓展高利差金融产品与健康业务，才能在二三年内使规模扩大五倍以上。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "【正直に話します】前期は失敗、Post Primeの次の一手",
+     "thesis": "仅靠SNS无法让Post Prime增长10倍，转向商品期权和健康业务，靠现有用户就能在2～3年内做到5倍以上。",
+     "candidates": [
+      "【正直に話します】前期は失敗、Post Primeの次の一手",
+      "日本初の商品オプション、始めます",
+      "SNSだけでは10倍にならない"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "简洁公告式，B过于解释性",
+     "thesis_score": 3,
+     "thesis_reason": "SNS不够，拓展金融与健康，二三年五倍",
+     "attr_correct": true,
+     "copy_sim": 0.222,
+     "copy_nearest": "",
+     "real_overlap": 0.222
+    },
+    "guide_v1": {
+     "title": "売上5倍へ、僕の会社の新戦略❓",
+     "thesis": "光靠SNS做不到十倍增长；转向日本首个商品敲出期权和健康业务后，仅靠现有用户2至3年就能做到5倍以上。",
+     "candidates": [
+      "売上5倍へ、僕の会社の新戦略❓",
+      "日本初の商品オプション、僕の新事業",
+      "前期は失敗、Post Primeの次の一手"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "简洁的公告式标题；B的「5倍」像是编造的数字",
+     "thesis_score": 3,
+     "thesis_reason": "都认为SNS不够，靠金融产品和健康业务扩五倍",
+     "attr_correct": true,
+     "copy_sim": 0.074,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "僕の会社、5倍成長への2つの新事業",
+     "thesis": "前期业绩不及预期，仅靠SNS无法十倍增长；先推日本首个商品敲出期权，再以健康业务深耕现有用户，2～3年内可扩大5倍以上。",
+     "candidates": [
+      "僕の会社、5倍成長への2つの新事業",
+      "日本初の「これ」で売上5倍を目指します",
+      "SNSだけでは無理？僕の次の一手"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "公司公告式标题自然，A的5倍成长像编造",
+     "thesis_score": 3,
+     "thesis_reason": "同一论断：拓展金融与健康业务扩大5倍",
+     "attr_correct": false,
+     "copy_sim": 0.024,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "SNSだけでは10倍は無理。ポストプライムの新事業を正直に話します",
+     "thesis": "仅靠SNS无法让Post Prime增长10倍，转向商品期权与健康业务后，仅凭现有用户2～3年即可扩大5倍以上。",
+     "candidates": [
+      "ポストプライムの今後｜前期は不調、それでも5年で5倍を狙う理由",
+      "SNSだけでは10倍は無理。ポストプライムの新事業を正直に話します",
+      "日本初のコモディティ・オプション、そして健康事業へ。ポストプライムの新戦略"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "简短公告式，B过长且像AI刻意坦白",
+     "thesis_score": 3,
+     "thesis_reason": "SNS不够，拓展金融与健康业务2-3年扩5倍",
+     "attr_correct": true,
+     "copy_sim": 0.045,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "9kyPwRcP6_s",
+   "upload_date": "20250626",
+   "topic": "铂金两个月大涨后，贵金属与农产品商品的持仓热力图及相关数据",
+   "real_title": "次に50％急騰する銘柄？",
+   "real_thesis": "在美联储中长期降息预期下，被大幅抛售、多年下跌、与美股低相关的玉米和大豆被低估，一年内有望上涨50%，适合用CFD中长期布局。",
+   "real_thesis_type": "advise",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "プラチナ55%急騰、次は「これ」❓",
+     "thesis": "铂金之后，投机仓位已被大量卖出、连跌两三年的大豆和玉米更可能成为下一个反弹50%的商品。",
+     "candidates": [
+      "プラチナ55%急騰、次は「これ」❓",
+      "大豆とトウモロコシ、50%上がる❓",
+      "【売られすぎ】穀物がチャンス"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "A像模仿「これ」❓套路，B更朴素",
+     "thesis_score": 2,
+     "thesis_reason": "都看好玉米大豆涨50%，仿写缺降息逻辑和建议",
+     "attr_correct": true,
+     "copy_sim": 0.125,
+     "copy_nearest": "",
+     "real_overlap": 0.038
+    },
+    "guide_v1": {
+     "title": "プラチナ55%急騰、次はココです",
+     "thesis": "铂金两个月暴涨55%后已经追不上；被投机资金连续卖出两三年的大豆和玉米才是下一个机会，降息和美元走弱下有望反弹约50%。",
+     "candidates": [
+      "プラチナ55%急騰、次はココです",
+      "3年下落、穀物を買う時❓",
+      "プラチナの次に上がるのは？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "故意不点名的悬念写法更像真实标题，B太贴合选题",
+     "thesis_score": 3,
+     "thesis_reason": "都认为被抛售的玉米大豆在降息下可涨约50%",
+     "attr_correct": true,
+     "copy_sim": 0.054,
+     "copy_nearest": "",
+     "real_overlap": 0.04
+    },
+    "guide_v2": {
+     "title": "【2ヶ月で55%急騰】次は穀物の番か？",
+     "thesis": "铂金两个月涨55%短期已过热不宜追高；大豆玉米连跌2-3年且投机仓位极低，降息美元走弱下有约50%反弹空间，应先分批买大豆再买玉米。",
+     "candidates": [
+      "【2ヶ月で55%急騰】次は穀物の番か？",
+      "プラチナ急騰、次に来るのは「ここ」？",
+      "売られすぎの穀物、今が仕込み時"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "真实标题偏短且吊悬念，A括号数据过细",
+     "thesis_score": 3,
+     "thesis_reason": "都认为降息下大豆玉米被低估有50%空间",
+     "attr_correct": true,
+     "copy_sim": 0.024,
+     "copy_nearest": "",
+     "real_overlap": 0.036
+    },
+    "zero": {
+     "title": "プラチナ2か月で55%急騰！次に狙われるのは大豆とトウモロコシ？",
+     "thesis": "铂金暴涨后已显拥挤，投机净多头处于低位、连跌两三年的大豆和玉米才是下一个可能补涨的商品。",
+     "candidates": [
+      "プラチナ2か月で55%急騰！次に狙われるのは大豆とトウモロコシ？",
+      "金・銀・プラチナの次はどこ？コモディティのポジションをヒートマップで解説",
+      "売られすぎの穀物にチャンス？プラチナ急騰の裏で見えたデータ"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "短悬念问句，A信息堆砌偏AI",
+     "thesis_score": 2,
+     "thesis_reason": "都看多玉米大豆，但理由与操作建议不同",
+     "attr_correct": true,
+     "copy_sim": 0.036,
+     "copy_nearest": "",
+     "real_overlap": 0.05
+    }
+   }
+  },
+  {
+   "id": "9onE7_-Vy8w",
+   "upload_date": "20250704",
+   "topic": "前日本警察公安出身顾问讲述情报获取手法、审讯技巧与企业情报管理",
+   "real_title": "情報を喋らせる一言。プロが使う“尋問術”の正体【Guest：稲村 悠】",
+   "real_thesis": "真正能让人吐露秘密的不是花哨的审讯技巧，而是先给予、抓住弱点并建立长期关系；守住情报的关键则是先定义自己要守什么。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "teases",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "元公安が明かす、スパイの手口",
+     "thesis": "日本企业以信任员工为前提管理信息，在外国情报机构的攻心式渗透面前几乎不设防，技术外流已在反复发生。",
+     "candidates": [
+      "元公安が明かす、スパイの手口",
+      "「沈黙」で本音を引き出す方法",
+      "日本企業、情報が漏れすぎ"
+     ],
+     "judge_correct": true,
+     "judge_conf": 5,
+     "judge_reason": "带Guest格式及嘉宾全名，为真实格式",
+     "thesis_score": 1,
+     "thesis_reason": "同属情报话题，一谈套话技巧一谈企业防范",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "元公安が暴露、日本企業を狙うスパイ",
+     "thesis": "日本企业以信任员工为前提管理信息，这是最大的漏洞；外国情报机构靠金钱和攻心手法就能挖走技术人员，必须像三星那样严格管控。",
+     "candidates": [
+      "元公安が暴露、日本企業を狙うスパイ",
+      "嘘を見抜く方法【元公安】",
+      "日本企業が危ない、スパイの恐ろしい手口"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "带【Guest：姓名】标签，符合嘉宾期格式",
+     "thesis_score": 1,
+     "thesis_reason": "同为情报话题，真实讲套话技巧，仿写讲企业管控",
+     "attr_correct": false,
+     "copy_sim": 0.042,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "日本企業はスパイに狙われているのか？",
+     "thesis": "日本技术外流的最大漏洞不是黑客而是人：间谍花2至5年攻心收买员工，企业须放弃信任前提、严管信息并补上情报反馈环节。",
+     "candidates": [
+      "日本企業はスパイに狙われているのか？",
+      "元公安が明かす、情報を抜く「この手口」",
+      "お金より怖い、スパイの人心掌握術"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "嘉宾节目带【Guest：】格式，B缺少嘉宾标记",
+     "thesis_score": 1,
+     "thesis_reason": "同为情报话题，一个讲套话技巧一个讲企业防泄密",
+     "attr_correct": true,
+     "copy_sim": 0.13,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "日本の技術はこうして盗まれる。元公安が語るスパイの手口と尋問テクニック",
+     "thesis": "日本企业以信任员工为前提的信息管理过于天真，外国情报机构正靠攻心手法轻易挖走先端技术人才和情报。",
+     "candidates": [
+      "元公安が明かす「人を落とす」技術｜スパイはお金より心を狙う",
+      "日本の技術はこうして盗まれる。元公安が語るスパイの手口と尋問テクニック",
+      "沈黙が最強の質問？元警察・公安に聞いた情報の引き出し方"
+     ],
+     "judge_correct": true,
+     "judge_conf": 5,
+     "judge_reason": "带【Guest：名】固定格式",
+     "thesis_score": 1,
+     "thesis_reason": "同为情报话题，一谈套话方法一批日企天真",
+     "attr_correct": false,
+     "copy_sim": 0.026,
+     "copy_nearest": "",
+     "real_overlap": 0.015
+    }
+   }
+  },
+  {
+   "id": "kQ7T6ea56x8",
+   "upload_date": "20260908",
+   "topic": "美元兑日元急跌、美国CPI与美联储会议前的市场数据及做空比例",
+   "real_title": "ドル円急落・テック株を買う",
+   "real_thesis": "加息预期已被充分计价、美股做空比率处于历史高位且估值与杠杆风险可控，年底前科技股易涨，应持续买入纳指100与费城半导体指数。",
+   "real_thesis_type": "advise",
+   "real_title_thesis": "states",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "【速報】ドル円155円割れ、日本が米国債を売った❓",
+     "thesis": "日元转强有实招撑着，而标普500的做空比例处于高位并非泡沫信号，估值不变的情况下仍有约25%的上涨空间。",
+     "candidates": [
+      "【速報】ドル円155円割れ、日本が米国債を売った❓",
+      "空売り、リーマン後と同じ水準",
+      "S&P500、9500まで上がる"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "B速报加❓加具体价位，堆砌感强",
+     "thesis_score": 2,
+     "thesis_reason": "都看多美股、做空比率高，但仿写混入日元",
+     "attr_correct": true,
+     "copy_sim": 0.147,
+     "copy_nearest": "",
+     "real_overlap": 0.059
+    },
+    "guide_v1": {
+     "title": "ドル円155円割れ、米国株は暴落するのか？",
+     "thesis": "日元急升和CPI不会引发美股暴跌：泡沫的三个条件都不明显，做空比例已到雷曼后的高位，反而是长期分批买入半导体和纳指的时机。",
+     "candidates": [
+      "ドル円155円割れ、米国株は暴落するのか？",
+      "【速報】155円割れ、僕の戦略❓",
+      "空売り3.2%、リーマン以来の水準"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "「急落・买入」的反向操作口吻像本人；B太套路",
+     "thesis_score": 3,
+     "thesis_reason": "都认为风险可控、做空高位，应买纳指和半导体",
+     "attr_correct": true,
+     "copy_sim": 0.118,
+     "copy_nearest": "",
+     "real_overlap": 0.067
+    },
+    "guide_v2": {
+     "title": "空売りリーマン級、バブル崩壊はまだ先",
+     "thesis": "9月11日CPI与下周FOMC前日元走强、美股短期波动加大，但空头比例达雷曼后水平且泡沫三要素不具备，美股不会崩，应每月续买SOX和纳指100。",
+     "candidates": [
+      "空売りリーマン級、バブル崩壊はまだ先",
+      "155円割れ、米国株は崩れるのか？",
+      "CPI前に円急騰、僕の投資戦略は？"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "A观点鲜明有冲击力，B像选题直译拼接",
+     "thesis_score": 3,
+     "thesis_reason": "空头比例高、无泡沫，持续买纳指与半导体",
+     "attr_correct": true,
+     "copy_sim": 0.19,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "S&P500の空売り比率がリーマン後並みの高水準。それでも私が買い続ける理由",
+     "thesis": "美股做空比例虽达雷曼后高位，但杠杆、估值、地缘三大泡沫条件都不突出，标普500仍有约25%上行空间。",
+     "candidates": [
+      "ドル円155円割れ急落！日本は米国債を売っている？",
+      "S&P500の空売り比率がリーマン後並みの高水準。それでも私が買い続ける理由",
+      "CPIとFOMC直前、ドル円急落と米国株の空売り急増をデータで解説"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "简短并列关键词，B长句解释偏AI",
+     "thesis_score": 2,
+     "thesis_reason": "都看涨美股，但缺科技股买入建议与理由",
+     "attr_correct": true,
+     "copy_sim": 0.042,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "bIa4_OQaDrM",
+   "upload_date": "20260402",
+   "topic": "2026年4月初美股反弹期间的市场背景：利率预期、就业、IPO与伊朗局势",
+   "real_title": "買う時なのか？",
+   "real_thesis": "美股仍偏贵、美联储不降息、下跌过缓且有巨型IPO与AI裁员拖累，现在不是买点，应持高现金慢慢小额买，等真正暴跌再加速。",
+   "real_thesis_type": "advise",
+   "real_title_thesis": "asks",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "この反発、まだ底じゃない",
+     "thesis": "美联储不降息、招聘率创金融危机以来新低，再加上SpaceX上市，这轮美股反弹并非底部，应以现金为主慢慢分批买入。",
+     "candidates": [
+      "この反発、まだ底じゃない",
+      "資産の8割を米国債と現金にした理由",
+      "AIで雇用が消える、株は大丈夫❓"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "近期短疑问句风格，B断言像仿写",
+     "thesis_score": 3,
+     "thesis_reason": "都说非底部，持现金慢慢分批买入",
+     "attr_correct": true,
+     "copy_sim": 0.08,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "米国株反発、まだボトムではない",
+     "thesis": "美股回落10%后的反弹不是底部：美联储不降息、招聘率创金融危机后新低、大型IPO增加股票供给；应保持约八成美债和现金，用半年到一年慢慢分批买入。",
+     "candidates": [
+      "米国株反発、まだボトムではない",
+      "僕の資産、80%が米国債と現金",
+      "SpaceX上場、米国株に危険なシグナル？"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "极短的设问标题，符合近期风格",
+     "thesis_score": 3,
+     "thesis_reason": "都认为不是底部，应持高现金美债慢慢分批买",
+     "attr_correct": true,
+     "copy_sim": 0.071,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "株価反発、本当の底は「この時」？",
+     "thesis": "这波反弹不是底部：4月29日美联储不降息、SpaceX上市增加供给、招聘率创2008年后新低，数月内或再跌；先守美债现金，半年至一年内慢慢分批买股。",
+     "candidates": [
+      "株価反発、本当の底は「この時」？",
+      "この反発は罠？僕が株を買わない理由",
+      "米国株10%下落、まだ底ではありません"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "极简设问是近期风格，B「この時」像套模板",
+     "thesis_score": 3,
+     "thesis_reason": "都说非买点，持现金债券慢慢分批买",
+     "attr_correct": true,
+     "copy_sim": 0.08,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "米国株急反発は本物？私が今も米国債8割で待っている理由",
+     "thesis": "这波美股反弹并非底部：利率高位不降、招聘率创金融危机后新低、大型IPO增加供给，应用半年到一年慢慢分批买。",
+     "candidates": [
+      "米国株急反発は本物？私が今も米国債8割で待っている理由",
+      "まだ底ではない。金利・雇用・SpaceX上場から見る米国株のリスク",
+      "10%下落からのリバウンド、今買うべき？半年〜1年かけてゆっくり買う理由"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "极短问句符合频道，B冗长解释式",
+     "thesis_score": 3,
+     "thesis_reason": "都认为非底部，应慢慢小额分批买入",
+     "attr_correct": true,
+     "copy_sim": 0.054,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  }
+ ]
+}

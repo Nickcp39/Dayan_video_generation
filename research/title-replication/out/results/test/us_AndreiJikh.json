@@ -1,0 +1,1691 @@
+{
+ "key": "us_AndreiJikh",
+ "systems": [
+  "fewshot",
+  "guide_v1",
+  "guide_v2",
+  "zero"
+ ],
+ "items": [
+  {
+   "id": "_YXDHskRP6Y",
+   "upload_date": "20260819",
+   "topic": "AI数据中心债务、私募股权控股寿险公司与州担保协会机制的资金流向梳理",
+   "real_title": "Here's What Pops This Stock Bubble",
+   "real_thesis": "AI债务经私募控股的寿险公司和百慕大再保险被隐藏并转嫁，一旦违约，将经州担保协会与税收抵免最终由纳税人买单，重演2008。",
+   "real_thesis_type": "expose",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Your Retirement Is Funding The AI Bubble (And Nobody Told You)",
+     "thesis": "私募控股的寿险公司正把养老金和保单资金押进不受监管的AI数据中心债务，一旦出事，最后买单的是普通保单持有人",
+     "candidates": [
+      "Your Retirement Is Funding The AI Bubble (And Nobody Told You)",
+      "The SEC Just Removed The 2008 Rules For AI Debt",
+      "How Private Equity Is Gambling Your Life Insurance On AI"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "A的括号补充句式冗长，AI味重；B简短直接",
+     "thesis_score": 2,
+     "thesis_reason": "同指私募寿险藏AI债，但买单者纳税人vs保单持有人",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Your 401k Is Secretly Funding The AI Bubble",
+     "thesis": "超万亿AI债务借私募控股寿险公司绕开证券化监管，最终风险压在养老金和保单持有人身上，应查清自己的年金与保险归属。",
+     "candidates": [
+      "Your 401k Is Funding The AI Bubble",
+      "The AI Debt Bomb Is Hiding In Your Retirement",
+      "How Private Equity Quietly Took Over Life Insurance"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "标题短而悬念足，B的401k角度太贴合选题细节",
+     "thesis_score": 2,
+     "thesis_reason": "同为私募寿险藏AI债，但买单者纳税人vs保单持有人",
+     "attr_correct": false,
+     "copy_sim": 0.083,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Your Retirement Is Secretly Funding The AI Boom",
+     "thesis": "私募收购寿险公司是为了拿到永久资本，再把养老金和保费导入监管更松的AI债务，一旦出事风险可能落到保单持有人身上。",
+     "candidates": [
+      "Your 401k Is Secretly Funding The AI Boom",
+      "The SEC Just Exempted $1.2 Trillion In AI Debt",
+      "Why Private Equity Bought Your Life Insurance (The REAL Reason)"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "真实标题常用模糊悬念式，A过于贴合选题",
+     "thesis_score": 2,
+     "thesis_reason": "都讲私募寿险转嫁AI债务风险，但兜底方纳税人对保单持有人不同",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Your Retirement Is Secretly Funding the AI Bubble",
+     "thesis": "私募控股的寿险公司正把养老金和保单资金押进不透明的AI数据中心债务，而且绕开了2008年后的监管，最终风险会落到普通保单持有人身上。",
+     "candidates": [
+      "Your Retirement Is Secretly Funding the AI Bubble",
+      "The SEC Just Quietly Removed the 2008 Safety Rules for AI Debt",
+      "Private Equity Bought Your Life Insurance… Now It's Betting on AI"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "短而模糊符合近期风格，B过于贴合选题细节",
+     "thesis_score": 2,
+     "thesis_reason": "同指私募寿险藏AI债，但买单方纳税人对保单持有人",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "siazPdsZHuI",
+   "upload_date": "20260707",
+   "topic": "美国AI投资规模、商业模式与中国开源模型竞争的相关数据及市场信号",
+   "real_title": "China Is About To Pop The AI Bubble",
+   "real_thesis": "支撑美股的“美国AI终将独享利润”故事正在瓦解：AI商业模式亏损、企业不信任，中国低价开源模型又提供替代，泡沫可能在资本开支停止前就破裂。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "The AI Bubble Is Cracking - Here's The Proof",
+     "thesis": "美国AI巨额投入撑不起盈利模式，中国开源模型以十分之一成本逼近，美股AI板块正走向2000年式的回调",
+     "candidates": [
+      "The AI Bubble Is Cracking - Here's The Proof",
+      "America Spent $1 Trillion On AI. China Did It For 1/10th",
+      "WARNING: The First Big Tech Company To Cut AI Spending Wins"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "A的切入点具体；B的“Here's The Proof”是套话",
+     "thesis_score": 3,
+     "thesis_reason": "均为AI盈利难加中国开源替代致美股泡沫破裂",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.167
+    },
+    "guide_v1": {
+     "title": "America Bet $1 TRILLION On AI | What You Must Know",
+     "thesis": "美国AI按token计费成本线性增长、又被便宜七倍的中国开源模型压价，巨额资本开支难以回本，芯片股比科技巨头更危险。",
+     "candidates": [
+      "The AI Bubble Is About To Pop",
+      "Why China Is Winning The AI Price War",
+      "America Bet $1 TRILLION On AI | What You Need To Know"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "B用了套话式的What You Must Know，像仿写",
+     "thesis_score": 2,
+     "thesis_reason": "同为美国AI难回本被中国压价，仿写加芯片股重点",
+     "attr_correct": false,
+     "copy_sim": 0.2,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "China Just Broke America's $1 Trillion AI Bet",
+     "thesis": "美国近万亿美元押注按token收费的闭源AI，但中国开源模型以约十分之一成本逼近其性能，盈利模式受威胁，是否泡沫仍无定论。",
+     "candidates": [
+      "China Just Broke America's $1 Trillion AI Bet",
+      "Why The AI Business Model Is Quietly Breaking",
+      "The AI Bubble Warning Nobody Is Talking About"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "泡沫将破的预警口吻更符合频道风格",
+     "thesis_score": 2,
+     "thesis_reason": "方向一致，真实断言泡沫将破，仿写称无定论",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "America Spent $1 Trillion on AI. China Spent $100 Billion.",
+     "thesis": "美国花了近10倍的钱做AI，但中国开源模型用极低成本逼近同等性能，美国按token收费的商业模式恐怕撑不起这么高的估值。",
+     "candidates": [
+      "China Is Quietly Winning the AI War for 1/10th the Price",
+      "The AI Business Model Is Broken (And China Knows It)",
+      "America Spent $1 Trillion on AI. China Spent $100 Billion."
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "“即将戳破泡沫”式悬念标题更像该频道",
+     "thesis_score": 2,
+     "thesis_reason": "同论AI估值难撑，仿写缺泡沫先破与企业不信任",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "o5rbYHcGk68",
+   "upload_date": "20250811",
+   "topic": "美国参议院推进禁止国会议员及配偶交易个股的《Honest Act》法案",
+   "real_title": "The US Is Ending Stock Trading | What You MUST Know",
+   "real_thesis": "国会议员凭内幕信息交易获利是制度性利益冲突，诚实法案虽有进展，但议员自我设限难以落实，最终多半是政治表演，不会真正禁止。",
+   "real_thesis_type": "judge",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "Congress Just Voted To Ban Stock Trading (Finally)",
+     "thesis": "Honest Act虽是真进步，但仍需闯过参众两院且对总统延至2029年才生效，议员炒股问题短期内不会真正终结",
+     "candidates": [
+      "Congress Just Voted To Ban Stock Trading (Finally)",
+      "The Pelosi Trade Is Over - What The Honest Act Really Does",
+      "Why Congress Will Never Stop Trading Stocks"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "B是夸张误导式标题，更像频道风格",
+     "thesis_score": 2,
+     "thesis_reason": "都认为难真正禁止，但真实强调政治表演自我设限",
+     "attr_correct": false,
+     "copy_sim": 0.222,
+     "copy_nearest": "",
+     "real_overlap": 0.067
+    },
+    "guide_v1": {
+     "title": "Congress Is About To STOP Trading Stocks",
+     "thesis": "Honest Act能堵住议员靠简报信息炒股的漏洞，但8比7险过委员会且豁免条款多，真正落地仍有很大不确定性。",
+     "candidates": [
+      "Congress Is About To Lose Its Favorite Trade",
+      "Pelosi Made 700% - Congress May Finally Ban It",
+      "Why Politicians Beat Warren Buffett (And How It Ends)"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "夸张误导的说法更符合频道的点击诱饵风格",
+     "thesis_score": 2,
+     "thesis_reason": "均存疑，但真实判定政治表演，仿写较中性",
+     "attr_correct": false,
+     "copy_sim": 0.125,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "The Senate Just Moved To Ban Congress From Trading Stocks",
+     "thesis": "Honest Act比形同虚设的Stock Act更有约束力，能堵住议员靠简报信息炒股的漏洞，但离正式成为法律仍有很长的路。",
+     "candidates": [
+      "Congress Is About To Lose Its Stock Trading Edge",
+      "The Senate Just Moved To Ban Congress From Trading Stocks",
+      "Why Pelosi Suddenly Supports A Stock Trading Ban"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "夸张加竖线MUST Know是典型频道风格",
+     "thesis_score": 1,
+     "thesis_reason": "真实认为是政治表演，仿写肯定法案更有约束力",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "The End of the Pelosi Trade?",
+     "thesis": "Honest Act堵上了Stock Act的关键漏洞，可能真正终结议员炒股，但两党阻力和推迟生效的条款说明它仍可能被架空。",
+     "candidates": [
+      "Congress Is Finally Getting Banned From Trading Stocks",
+      "The End of the Pelosi Trade?",
+      "Why Pelosi Supports Banning Her Own Stock Trades"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "B刻意模仿旧标题的竖线格式，像仿写",
+     "thesis_score": 1,
+     "thesis_reason": "真实判定政治表演，仿写偏乐观认为可能终结",
+     "attr_correct": false,
+     "copy_sim": 0.286,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "xSXNSt0m-go",
+   "upload_date": "20260916",
+   "topic": "AI是否可能毁灭人类：各方立场、利益与一种逐步推演的情景",
+   "real_title": "Prepare For The Al Take Over",
+   "real_thesis": "AI灭世的最可信路径是逐利智能体在自然选择下自我进化失控；但各方鼓吹或否认风险都带利益动机，应从激励而非立场看待。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "teases",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "How AI Could Actually End Humanity (Step By Step)",
+     "thesis": "AI末日不需要邪恶意图，只需为赚钱而竞争的代理被自然选择逐步推向欺骗与失控，而这些苗头现实中已经出现",
+     "candidates": [
+      "How AI Could Actually End Humanity (Step By Step)",
+      "The Truth About The AI Doomsday Warning",
+      "Who Profits If You're Scared Of AI?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "A有“Al”拼写错误，像人工随手写的",
+     "thesis_score": 2,
+     "thesis_reason": "同抓逐利代理自然选择失控，漏掉利益动机视角",
+     "attr_correct": true,
+     "copy_sim": 0.091,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "How AI Could Actually Destroy Humanity (Step By Step)",
+     "thesis": "AI末日不靠邪恶意识，而是“赚钱”指令加优胜劣汰逐步失控；但各方都在借恐慌谋利，不必恐慌，应理性看待风险。",
+     "candidates": [
+      "How AI Could Actually End Humanity",
+      "Is AI About To Destroy Us? (Step By Step)",
+      "Who Profits From The AI Doomsday Story?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "把AI错写成Al，是人工输入的笔误",
+     "thesis_score": 3,
+     "thesis_reason": "逐利选择失控加利益动机看风险，论断一致",
+     "attr_correct": false,
+     "copy_sim": 0.091,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "How AI Could Actually End Humanity (Step By Step)",
+     "thesis": "AI末日论背后各方都有利益在炒作，但即便剥掉炒作，逐利竞争的自然选择仍给AI失控留下一条现实可能的路径。",
+     "candidates": [
+      "How AI Could Actually End Humanity (Step By Step)",
+      "Why Everyone Is Suddenly Scared Of AI (The REAL Reason)",
+      "An OpenAI Researcher Just Quit With a Terrifying Warning"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "Al拼写错误像人工输入，简短悬念",
+     "thesis_score": 3,
+     "thesis_reason": "利益驱动炒作加逐利自然选择失控，论断基本相同",
+     "attr_correct": true,
+     "copy_sim": 0.091,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "How AI Could Actually End Humanity (Step by Step)",
+     "thesis": "真正的AI风险不是科幻里的觉醒，而是“不择手段赚钱”的竞争压力会一步步淘汰诚实的AI，最终逼走人类控制权。",
+     "candidates": [
+      "How AI Could Actually End Humanity (Step by Step)",
+      "Who Profits From AI Doom?",
+      "This Is How AI Takes Over—And It Starts With Making Money"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "“Al”拼写错误更像人工输入",
+     "thesis_score": 2,
+     "thesis_reason": "同论逐利竞争淘汰致失控，仿写缺利益动机视角",
+     "attr_correct": true,
+     "copy_sim": 0.091,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "Dt45p4wuNow",
+   "upload_date": "20260331",
+   "topic": "2026年伊朗战争、霍尔木兹海峡关闭对美债、美股与石油美元体系的影响",
+   "real_title": "The End Of Pax Americana",
+   "real_thesis": "伊朗、俄罗斯、中国正用黄金和人民币搭建石油结算替代体系，叠加债券与就业压力，美元霸权将被削弱；战争拖得越久，美债与股市越危险，应持现金和黄金防守。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "teases",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "IT STARTED: The Bond Market Is Breaking",
+     "thesis": "伊朗战争若让霍尔木兹海峡持续关闭，外资抛售美债将逼美联储重新印钞，美股大概率迎来滞胀式熊市",
+     "candidates": [
+      "IT STARTED: The Bond Market Is Breaking",
+      "The Iran War Just Put The Petrodollar At Risk - PREPARE",
+      "Why I'm Holding 40% Cash Right Now"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "A复用了频道惯用模板，像仿写；B立意宏大",
+     "thesis_score": 1,
+     "thesis_reason": "真实讲去美元化与防守配置，仿写讲印钞滞胀熊市",
+     "attr_correct": true,
+     "copy_sim": 0.125,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "The Bond Market Is About To Break - Here's My Plan",
+     "thesis": "霍尔木兹海峡关闭越久，美债被抛售和美联储印钞引发滞胀的风险越大；与其押注方向，不如像我一样留足现金、不负债。",
+     "candidates": [
+      "The Bond Market Is About To Break",
+      "Why I'm Holding 40% Cash Right NOW",
+      "The Iran War Could End The Petrodollar | Explained"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "宏大抽象的短标题，B是套模板的写法",
+     "thesis_score": 2,
+     "thesis_reason": "同为持现金防守，真实重点是去美元化体系",
+     "attr_correct": true,
+     "copy_sim": 0.182,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Iran Just Changed EVERYTHING For The Bond Market",
+     "thesis": "霍尔木兹海峡受阻正冲击美债与石油美元，若封锁再持续数周可能引发信用危机或滞胀，所以现在应偏防守而非满仓追涨。",
+     "candidates": [
+      "The Strait Of Hormuz Just Broke The Bond Market",
+      "Why I'm Holding 40% CASH Right Now",
+      "Iran Just Changed EVERYTHING For The US Dollar"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "宏大简短概念标题，B像按选题仿写",
+     "thesis_score": 2,
+     "thesis_reason": "都主张防守，但真实重去美元化，仿写重海峡封锁",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "The Strait of Hormuz Could Break the US Bond Market",
+     "thesis": "霍尔木兹海峡持续关闭会触发外资抛售美债和信用危机，迫使美联储印钞控制收益率，美国很可能因此陷入滞胀。",
+     "candidates": [
+      "The Strait of Hormuz Could Break the US Bond Market",
+      "Iran Just Exposed the Biggest Threat to the Petrodollar",
+      "Why I'm Holding 40% Cash Right Now"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "宏大简短的概念标题，B过于贴合选题",
+     "thesis_score": 1,
+     "thesis_reason": "真实讲去美元化，仿写讲海峡关闭致滞胀",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "VpofQBLag4Q",
+   "upload_date": "20250909",
+   "topic": "多国长期国债收益率上升与美国收益率曲线变化，及其对各类资产的影响",
+   "real_title": "The Bond Market Just Broke The Fed",
+   "real_thesis": "全球长期国债收益率不听央行指挥地上行，是市场对债务与通胀失去信任、衰退临近的信号；应分散配置并保持投资，不因恐惧离场。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "The Bond Market Is Breaking - And The Fed Can't Stop It",
+     "thesis": "美联储降息也压不住全球长债收益率飙升，熊市陡峭化预示衰退将至，股票和房市都会承压",
+     "candidates": [
+      "The Bond Market Is Breaking - And The Fed Can't Stop It",
+      "Why Rates Are Rising Even As The Fed Cuts (WARNING)",
+      "The Yield Curve Just Flashed Its Last Warning Before Recession"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "A简洁有冲击力；B用破折号加长，像AI",
+     "thesis_score": 2,
+     "thesis_reason": "同为长债上行预示衰退，缺失去信任与保持投资建议",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.231
+    },
+    "guide_v1": {
+     "title": "The Bond Market Is Sending A WARNING | What You Need To Know",
+     "thesis": "降息之际长债收益率反升，这种熊市陡峭化预示衰退将至，但普通人不应恐慌抛售，而应分散配置、备好现金等待机会。",
+     "candidates": [
+      "The Bond Market Is Sending A WARNING | What You Need To Know",
+      "Something Is Breaking In The Global Bond Market",
+      "The Fed Cut Rates, But Yields Went UP (Explained)"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "B把WARNING和What You Need To Know模板叠在一起",
+     "thesis_score": 3,
+     "thesis_reason": "长债收益率上行预示衰退，分散不恐慌一致",
+     "attr_correct": false,
+     "copy_sim": 0.214,
+     "copy_nearest": "",
+     "real_overlap": 0.133
+    },
+    "guide_v2": {
+     "title": "The Bond Market Just Sent a Recession WARNING",
+     "thesis": "美联储降息之际全球长债收益率反升，美国曲线熊市陡峭化，历史上多见于衰退前，股市房市币价承压，但不必恐慌，继续定投。",
+     "candidates": [
+      "The Bond Market Just Sent a Recession WARNING",
+      "Why Interest Rates Are Rising While The Fed Cuts",
+      "Global Bond Yields Just Broke | What You MUST Know"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "Recession WARNING与频道历史标题一致",
+     "thesis_score": 3,
+     "thesis_reason": "长债反升预示衰退，不恐慌继续投资，核心一致",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.3
+    },
+    "zero": {
+     "title": "Something Strange Is Happening With Bonds Around the World",
+     "thesis": "美联储降息时全球长期国债收益率反而飙升，加上收益率曲线在熊市中变陡，这说明衰退大概率就要来了。",
+     "candidates": [
+      "The Bond Market Is Flashing a Warning Nobody Is Talking About",
+      "Something Strange Is Happening With Bonds Around the World",
+      "The Fed Is Cutting Rates... So Why Are Long-Term Yields Exploding?"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "“Something Strange”悬念式标题是真人常用写法",
+     "thesis_score": 2,
+     "thesis_reason": "同判衰退信号，仿写缺信任丧失和投资建议",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "VZrE_9PBGVY",
+   "upload_date": "20260105",
+   "topic": "明尼苏达托儿中心涉嫌欺诈事件，及视频对美国联邦资金监管漏洞的相关说法",
+   "real_title": "America’s Fraud Is Bigger Than You Think",
+   "real_thesis": "美国欺诈远不止明尼苏达，制度缺乏核查且两党都不愿审计自己，真正的危害是信任崩塌，使国家沦为“一家公司”。",
+   "real_thesis_type": "expose",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "The $9 Billion Minnesota Fraud Scandal Is Just The Beginning",
+     "thesis": "明尼苏达托儿欺诈只是冰山一角，联邦资金监管漏洞每年让纳税人损失上万亿美元",
+     "candidates": [
+      "The $9 Billion Minnesota Fraud Scandal Is Just The Beginning",
+      "Where Your Tax Dollars Actually Go (It's Worse Than You Think)",
+      "$5 Billion Paid To Inactive Accounts - The Truth About Government Fraud"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "B用弯撇号且标题简短；A的数字铺陈像AI",
+     "thesis_score": 2,
+     "thesis_reason": "同为冰山一角，但真实重点在信任崩塌非金额损失",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Where Your Tax Dollars ACTUALLY Go",
+     "thesis": "明尼苏达托育欺诈只是冰山一角，联邦支付连基本核查都缺失，每年流失的巨额税款远超多数人想象，必须加强审计。",
+     "candidates": [
+      "Minnesota's $9 Billion Fraud Scandal Explained",
+      "Where Your Tax Dollars ACTUALLY Go",
+      "The Government Is Losing $1.5 Trillion A Year"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "用的是弯引号，像真人输入；A偏泛泛",
+     "thesis_score": 2,
+     "thesis_reason": "同为欺诈普遍缺核查，真实重点在信任崩塌",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "A YouTuber Just Exposed a $9 Billion Fraud",
+     "thesis": "明尼苏达托育欺诈虽仍是指控，但它暴露出联邦资金缺乏基本核查的系统漏洞，每年损失可能上万亿，最终由纳税人买单。",
+     "candidates": [
+      "A YouTuber Just Exposed a $9 Billion Fraud",
+      "Why Government Fraud Costs You $600,000",
+      "Minnesota Just Lost $9 Billion (And It's Not Alone)"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "弯引号像真人输入，且标题更泛化",
+     "thesis_score": 2,
+     "thesis_reason": "都讲核查缺失，真实重信任崩塌，仿写重纳税人损失",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "The $9 Billion Minnesota Scandal Is Way Bigger Than Daycares",
+     "thesis": "明尼苏达托儿欺诈只是冰山一角，联邦支付系统漏洞每年让纳税人的大量税款被骗走，这是系统性问题。",
+     "candidates": [
+      "The $9 Billion Minnesota Scandal Is Way Bigger Than Daycares",
+      "One YouTuber Exposed What the Government Couldn't Find",
+      "Your Taxes Are Funding Fraud on a Massive Scale"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "弯引号像人工输入，标题泛化且有悬念",
+     "thesis_score": 2,
+     "thesis_reason": "同说系统性欺诈，真实重点在信任崩塌",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.067
+    }
+   }
+  },
+  {
+   "id": "JJwwVcdHlV0",
+   "upload_date": "20260227",
+   "topic": "Jane Street被指在比特币上午10点下跌中操纵价格及相关诉讼与监管事件",
+   "real_title": "How Wall Street Took Over Bitcoin",
+   "real_thesis": "比特币ETF化后，授权参与人这类特权中介可能在不被披露的情况下操纵价格；自持私钥才能摆脱这套金融体系的影响。",
+   "real_thesis_type": "expose",
+   "real_title_thesis": "teases",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "Is Jane Street Manipulating Bitcoin? The 10AM Dump Explained",
+     "thesis": "Jane Street有操纵市场的前科且持仓不透明，比特币10点砸盘很可能并非巧合",
+     "candidates": [
+      "Is Jane Street Manipulating Bitcoin? The 10AM Dump Explained",
+      "The Secret Firm Behind Bitcoin's 10AM Crash",
+      "Jane Street Got Sued - And The Bitcoin Dump Stopped"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "A的问句加解释是AI常见模板",
+     "thesis_score": 2,
+     "thesis_reason": "同指中介操纵币价，缺自持私钥的结论建议",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "The 10AM Bitcoin Crash Explained | Jane Street",
+     "thesis": "比特币10点下跌更可能是对冲策略和开盘重新定价，而非已证实的操纵；散户真正该避开的是杠杆，不是比特币本身。",
+     "candidates": [
+      "Is Jane Street Manipulating Bitcoin?",
+      "The 10AM Bitcoin Crash Explained | Jane Street",
+      "Wall Street's Most Secretive Firm Is Dumping Bitcoin"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "具体到10AM和Jane Street，像真实的热点标题",
+     "thesis_score": 0,
+     "thesis_reason": "真实指操纵，仿写否认操纵，论断相反",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Why Bitcoin Keeps Crashing At 10AM (The REAL Reason)",
+     "thesis": "比特币10点下跌可能是Jane Street这类做市商利用低流动性收割杠杆，虽未证实，但ETF化让比特币越来越受华尔街巨头左右。",
+     "candidates": [
+      "Why Bitcoin Keeps Crashing At 10AM (The REAL Reason)",
+      "Jane Street Just Got Sued and Bitcoin Ripped 10%",
+      "The Secretive Firm Behind Bitcoin's Daily Crash"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "上午10点暴跌的具体钩子更具点击性",
+     "thesis_score": 2,
+     "thesis_reason": "都讲ETF化后中介操纵，仿写缺自持私钥建议",
+     "attr_correct": true,
+     "copy_sim": 0.091,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Who's Been Crashing Bitcoin Every Day at 10AM?",
+     "thesis": "比特币每天上午10点的下跌更可能是Jane Street这类做市商利用信息和结构优势造成的，而不只是正常的开盘重新定价。",
+     "candidates": [
+      "Who's Been Crashing Bitcoin Every Day at 10AM?",
+      "The Secretive Firm Accused of Manipulating Bitcoin",
+      "Bitcoin's 10AM Dump Just Stopped... Here's Why"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "具体10点细节的提问式标题，点击力强",
+     "thesis_score": 2,
+     "thesis_reason": "同指中介操纵，仿写缺自持私钥的结论",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "w8yTmTdF1Kw",
+   "upload_date": "20260526",
+   "topic": "伊朗战争背景下美国及全球主权债券收益率上升的数据与成因",
+   "real_title": "Every Bond Market In The World Is Breaking",
+   "real_thesis": "全球债市失去信任、美债买家撤离，美联储因通胀与债务陷入降息崩债、加息崩经济的两难，最终只能印钞，股市估值脆弱，黄金和比特币是对冲。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "The World Is Dumping US Bonds - What You MUST Know",
+     "thesis": "战争推高通胀叠加日本中国抛售美债，美联储可能被迫加息，高估值美股面临大幅回调",
+     "candidates": [
+      "The World Is Dumping US Bonds - What You MUST Know",
+      "IT STARTED: The 30-Year Treasury Just Broke 5%",
+      "The Fed May Have To RAISE Rates - Prepare Now"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "B的“What You MUST Know”是套路后缀",
+     "thesis_score": 1,
+     "thesis_reason": "真实称最终印钞，仿写称被迫加息，路径相异",
+     "attr_correct": true,
+     "copy_sim": 0.2,
+     "copy_nearest": "",
+     "real_overlap": 0.143
+    },
+    "guide_v1": {
+     "title": "30-Year Yields Just Hit 5% | What This Means For You",
+     "thesis": "战争推高通胀、各国抛售美债，长期利率将持续走高、美联储可能被迫加息，高估值美股很脆弱，应用黄金等硬资产分散风险。",
+     "candidates": [
+      "The Fed Is About To RAISE Rates",
+      "30-Year Yields Just Hit 5% | What This Means For You",
+      "Countries Are Dumping US Bonds - Here's Why"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "夸张的全局论断更像频道风格，A是模板句",
+     "thesis_score": 2,
+     "thesis_reason": "同为美债承压美股脆弱，但印钞vs加息结论不同",
+     "attr_correct": false,
+     "copy_sim": 0.071,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Why The World Is Dumping US Debt NOW",
+     "thesis": "战争推高通胀，日本中国等持续抛售美债，叠加万亿利息，长期利率难降、加息可能回归，高估值美股风险上升，应保持分散。",
+     "candidates": [
+      "The 30-Year Treasury Just Broke 5%",
+      "Why The World Is Dumping US Debt NOW",
+      "The Bond Market Is About To Force Rate Hikes"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "全球债市视角贴合，夸张宽泛",
+     "thesis_score": 2,
+     "thesis_reason": "债市失信美股风险一致，但印钞结论与对冲建议不同",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.167
+    },
+    "zero": {
+     "title": "Countries Are Dumping US Bonds and It's Accelerating",
+     "thesis": "战争推高的通胀加上日本、中国等各国抛售美债，会让美国长期利率继续上升，股市高估值很难撑住。",
+     "candidates": [
+      "The 30-Year Treasury Just Broke 5%... This Is Serious",
+      "Countries Are Dumping US Bonds and It's Accelerating",
+      "The Fed May Have to Hike Rates Again"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "“全球债市”契合选题，夸张简短",
+     "thesis_score": 2,
+     "thesis_reason": "同论美债承压股市脆弱，仿写缺印钞两难和对冲",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "hy90LdpEUvQ",
+   "upload_date": "20260720",
+   "topic": "韩国KOSPI杠杆暴跌的经过，及美国保证金债务与AI资本开支现状",
+   "real_title": "South Korea’s AI Bubble Just Popped",
+   "real_thesis": "韩国杠杆散户推动的AI泡沫崩盘是美国的预演：美国融资债务创史上新高、市场押注AI资本开支，一旦巨头削减开支就会重演连环爆仓。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "South Korea's Stock Market Just Crashed - America Is Next?",
+     "thesis": "美国保证金债务创纪录且AI资本开支回报下滑，韩国式杠杆踩踏随时可能在美股重演",
+     "candidates": [
+      "South Korea's Stock Market Just Crashed - America Is Next?",
+      "The Leverage Bomb That Just Wiped Out 320,000 Investors",
+      "Margin Debt Just Hit A Record High | PREPARE"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "A用弯撇号且简短；B问句拼接像AI",
+     "thesis_score": 3,
+     "thesis_reason": "均为韩国杠杆崩盘将在美股AI泡沫中重演",
+     "attr_correct": true,
+     "copy_sim": 0.111,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Korea's Leverage Crash Is A WARNING For America",
+     "thesis": "美国保证金债务创纪录、AI投资回报下滑，韩国式杠杆崩盘在美国也可能发生；投资者应立即去杠杆，而非全部离场。",
+     "candidates": [
+      "South Korea's Stock Market Just CRASHED",
+      "Korea's Leverage Crash Is A WARNING For America",
+      "How 1.2 Million Investors Got Margin Called"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "弯引号加简洁的Just Popped，B的WARNING像仿写",
+     "thesis_score": 3,
+     "thesis_reason": "韩国杠杆崩盘将在美国重演，核心一致",
+     "attr_correct": true,
+     "copy_sim": 0.111,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "South Korea Just Crashed 25% (America Could Be Next)",
+     "thesis": "韩国散户高杠杆押注AI芯片引发21天暴跌25%，美国保证金债务创纪录且AI回报在下滑，类似连环平仓可能重演，但时点无法预测。",
+     "candidates": [
+      "South Korea Just Crashed 25% (America Could Be Next)",
+      "1.2 Million Margin Calls Just Hit Korea",
+      "Why America's Margin Debt Is a Ticking Time Bomb"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "弯引号像真人输入，Just Popped风格",
+     "thesis_score": 3,
+     "thesis_reason": "韩国杠杆崩盘预演美国连环平仓，核心论断相同",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.077
+    },
+    "zero": {
+     "title": "South Korea's Stock Market Just Crashed. America Could Be Next",
+     "thesis": "韩国杠杆散户的爆仓说明，美国创纪录的保证金债务加上AI资本开支回报下降，会让美股面临类似的暴跌。",
+     "candidates": [
+      "South Korea's Stock Market Just Crashed. America Could Be Next",
+      "What Just Happened in Korea Is a Warning for US Investors",
+      "Record Margin Debt and the AI Bubble: Korea Showed Us How It Ends"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "弯引号和简短“泡沫破裂”风格像真人",
+     "thesis_score": 3,
+     "thesis_reason": "均为韩国爆仓预演美国杠杆加AI开支暴跌",
+     "attr_correct": false,
+     "copy_sim": 0.1,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "biyOHYua-1w",
+   "upload_date": "20251013",
+   "topic": "美国政府近期通过入股英特尔、MP Materials等战略企业，参与企业所有权的做法及其背景",
+   "real_title": "The U.S. Is Buying Stocks (And Copying China)",
+   "real_thesis": "美国因无法在自由市场上击败中国，被迫转向“打不过就加入”的国家资本主义；这会让政治关系压过创新，对就业帮助有限，却可能托底股市。",
+   "real_thesis_type": "judge",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "The US Government Is Quietly Buying Companies",
+     "thesis": "美国政府正借贷款和法案悄悄入股战略企业，走向中国式国家资本主义，这会重塑投资者面对的市场规则。",
+     "candidates": [
+      "The US Government Is Quietly Buying Companies",
+      "America Just Copied China's Playbook (Intel, MP Materials)",
+      "Why The Government Now Owns 10% Of Intel"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "括号补充对比中国，符合该频道的挑衅式风格",
+     "thesis_score": 2,
+     "thesis_reason": "都说转向国家资本主义，但缺少因果和影响判断",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "The US Government Is Buying Companies | What You Need To Know",
+     "thesis": "美国政府入股英特尔等企业是对抗中国的国家资本主义转向，并非短期例外；投资者应押注受政府背书的战略产业，但别指望它带来大量就业。",
+     "candidates": [
+      "The US Government Is Buying Companies Now",
+      "America Is Quietly Becoming China | What You Need To Know",
+      "Why The Government Now Owns 10% Of Intel"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "括号补充观点更具个性，B为套路后缀",
+     "thesis_score": 2,
+     "thesis_reason": "都讲国家资本主义转向、就业有限，但重点不同",
+     "attr_correct": true,
+     "copy_sim": 0.231,
+     "copy_nearest": "",
+     "real_overlap": 0.059
+    },
+    "guide_v2": {
+     "title": "The US Government Just Bought Intel (The REAL Reason)",
+     "thesis": "美国政府入股英特尔、稀土等企业不是一时救市，而是为了对抗中国、接管关乎生存的产业，在悄悄转向国家资本主义；但这些产业能带来的就业有限。",
+     "candidates": [
+      "The US Government Just Bought Intel (The REAL Reason)",
+      "America Is Quietly Becoming China",
+      "Why Washington Now Owns 10% Of Intel"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "“抄中国”角度独特，B像按选题套出的模板",
+     "thesis_score": 3,
+     "thesis_reason": "都说被中国逼向国家资本主义且就业有限",
+     "attr_correct": true,
+     "copy_sim": 0.091,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "The US Government Is Quietly Becoming a Shareholder",
+     "thesis": "美国正借贷款和补贴悄悄入股战略企业，走向中国式国家资本主义，这是第四次转折的信号而非一次性举措。",
+     "candidates": [
+      "The US Government Is Quietly Becoming a Shareholder",
+      "America Is Copying China's Economic Playbook",
+      "Why the Government Now Owns 10% of Intel"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "短句加括号反转，符合频道风格；B偏平铺直叙",
+     "thesis_score": 2,
+     "thesis_reason": "都说转向国家资本主义，但原因和影响的重点不同",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "38qyqO44qrk",
+   "upload_date": "20260407",
+   "topic": "霍尔木兹海峡关闭背景下美债、美元与稳定币监管的相关数据和表述",
+   "real_title": "They're Using This War To 'Replace The Dollar'",
+   "real_thesis": "伊朗战争引发的危机会逼美国印钞压债，随后借稳定币与CBDC把国债分销给全球民众，同时建成可随时关停个人账户的金融控制网。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "America's Suez Moment Just Started",
+     "thesis": "霍尔木兹危机推高美债收益率，美联储终将被迫印钞压息，带来高通胀，并借稳定币扩大金融控制。",
+     "candidates": [
+      "America's Suez Moment Just Started",
+      "The Fed Is About To Print Again - BEWARE",
+      "Why Stablecoins Are Their Plan To Save The Dollar"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "带引号的阴谋感表述更像该频道，Suez典故偏学术",
+     "thesis_score": 2,
+     "thesis_reason": "都说印钞和稳定币控制，但缺少稳定币分销美债这一核心",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "America's Suez Moment Is Here | How To PREPARE",
+     "thesis": "霍尔木兹危机推高美债收益率，美联储最终会被迫重启量化宽松、引发高通胀，个人应提前持有实物资产和比特币以自保。",
+     "candidates": [
+      "The Great Reset Is Coming | What You Must Know",
+      "America's Suez Moment Is Here",
+      "The Fed Is About To Print Again (Protect Yourself NOW)"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "苏伊士类比独特，大写PREPARE符合频道习惯",
+     "thesis_score": 1,
+     "thesis_reason": "真实重在稳定币金融控制网，仿写重在通胀自保",
+     "attr_correct": false,
+     "copy_sim": 0.111,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "America's Suez Moment Is Here | What You MUST Know",
+     "thesis": "伊朗战争推高美债收益率，美国很可能让美联储重启量化宽松、靠稳定币吸收美债，代价可能是高通胀和更严的金融管控，所以要持有实物资产。",
+     "candidates": [
+      "America's Suez Moment Is Here | What You MUST Know",
+      "The Fed Is About To Print Again",
+      "Why Stablecoins Are The Real Bailout For US Debt"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "用历史类比加竖线的写法，符合频道习惯",
+     "thesis_score": 2,
+     "thesis_reason": "印钞加稳定币吸收美债一致，但真实以金融控制为核心",
+     "attr_correct": false,
+     "copy_sim": 0.222,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "This Is America's Suez Moment",
+     "thesis": "霍尔木兹危机推高美债收益率，美联储最终只能印钞压低利率，引发两位数通胀，稳定币将成为金融控制工具。",
+     "candidates": [
+      "This Is America's Suez Moment",
+      "The Great Reset Is Coming Through Your Stablecoins",
+      "Foreign Countries Are Dumping US Debt — Here's What Comes Next"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "带引号的阴谋论式钩子更像该频道",
+     "thesis_score": 2,
+     "thesis_reason": "都说印钞压债、稳定币管控，仿写侧重通胀，没提分销美债",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "f353QO5Dgus",
+   "upload_date": "20260420",
+   "topic": "霍尔木兹海峡受阻下纸原油与实物原油价差、各地供应冲击及历史对比",
+   "real_title": "The Oil Shock Is About To Hit America",
+   "real_thesis": "纸面油价被人为压低、与实物油价出现史上最大价差，4月下旬缓冲耗尽后将被迫收敛，美国油价、通胀、债务与股市都将受冲击。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "The Oil Market Is Lying To You",
+     "thesis": "纸原油价格严重低估实物短缺，最后一批油轮到港后真正冲击才到来，股市接近高位正重演1973年。",
+     "candidates": [
+      "The Oil Market Is Lying To You",
+      "WARNING: The Real Oil Shock Hasn't Hit Yet",
+      "Paper Oil vs Real Oil - The $35 Gap Nobody Is Talking About"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "纸油与实物油价差对应“市场在撒谎”的钩子",
+     "thesis_score": 3,
+     "thesis_reason": "纸面油价低估实物、缓冲耗尽后受冲击，论断一致",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.083
+    },
+    "guide_v1": {
+     "title": "The REAL Oil Shock Is About To Hit America",
+     "thesis": "实物原油比期货贵35美元说明真实短缺远比油价显示的严重，4月下旬美国库存耗尽后通胀和股市回调将随之而来。",
+     "candidates": [
+      "The Oil Shock Is About To Hit America",
+      "$130 Oil Is Here (And The Market Doesn't Care)",
+      "Why Real Oil Costs $35 More Than Paper Oil"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "仿写常加REAL强调，原题更简洁",
+     "thesis_score": 3,
+     "thesis_reason": "纸面与实物油价背离、4月下旬冲击，论断一致",
+     "attr_correct": false,
+     "copy_sim": 0.1,
+     "copy_nearest": "",
+     "real_overlap": 0.667
+    },
+    "guide_v2": {
+     "title": "The Oil Market Just BROKE ($35 Gap)",
+     "thesis": "纸原油和实物原油出现创纪录的35美元价差，说明期货价格掩盖了真实短缺。存油耗尽后，冲击可能传导到通胀和高位股市，但幅度难以确定。",
+     "candidates": [
+      "The Oil Market Just BROKE ($35 Gap)",
+      "Real Oil Just Hit $130 And Nobody Noticed",
+      "The Last Oil Tanker Arrives April 20th"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "B把价差数字直接写进标题，像照选题仿写",
+     "thesis_score": 3,
+     "thesis_reason": "纸货价差掩盖短缺、缓冲耗尽后冲击，论断一致",
+     "attr_correct": true,
+     "copy_sim": 0.143,
+     "copy_nearest": "",
+     "real_overlap": 0.083
+    },
+    "zero": {
+     "title": "The Oil Market Is Lying To You",
+     "thesis": "纸原油价格严重低估了真实短缺，实物油一旦断供，美国将迎来超过1973年级别的通胀和股市下跌。",
+     "candidates": [
+      "The Oil Market Is Lying To You",
+      "Paper Oil vs Real Oil: The Biggest Gap in History",
+      "The Oil Shock Hasn't Even Hit America Yet"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "「Lying To You」对应纸油与实物价差，钩子更强",
+     "thesis_score": 3,
+     "thesis_reason": "都说纸油价被低估，价差收敛后冲击通胀和股市",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.083
+    }
+   }
+  },
+  {
+   "id": "-3jFsdHNSfA",
+   "upload_date": "20260305",
+   "topic": "美国对伊朗军事行动的背景，及视频列举的四类利益方与相关市场影响",
+   "real_title": "Iran Was Never About Iran",
+   "real_thesis": "美国打伊朗并非官方所称的核威胁，而是以色列、对华遏制、金融军工资本与科技控制网格四方利益长期谋划的结果，终点是全球可编程货币体系。",
+   "real_thesis_type": "expose",
+   "real_title_thesis": "teases",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "The Real Reason We Attacked Iran",
+     "thesis": "轰炸伊朗并非出于迫在眉睫的核威胁，而是捐款人、以色列与美元金融控制等利益方推动的结果。",
+     "candidates": [
+      "The Real Reason We Attacked Iran",
+      "Who Actually Profits From The Iran War",
+      "Iran, AI & The Dollar: What They're Not Telling You"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "“The Real Reason”是该频道常用的直白句式",
+     "thesis_score": 2,
+     "thesis_reason": "都说不是核威胁而是利益驱动，但缺少可编程货币终点",
+     "attr_correct": false,
+     "copy_sim": 0.125,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Who Really Wins From The War With Iran?",
+     "thesis": "对伊朗开战的真正驱动力不是核威胁，而是以色列、捐款人、能源与金融控制网等利益方，普通人该为油价和通胀上涨提前布局。",
+     "candidates": [
+      "Who Really Wins From The War With Iran?",
+      "The War With Iran Explained | Follow The Money",
+      "Oil Is About To Hit $100 - Here's Who Profits"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "反直觉短句更像真实创作",
+     "thesis_score": 2,
+     "thesis_reason": "同指非核动机，真实强调可编程货币终点",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Who REALLY Profits From Bombing Iran",
+     "thesis": "轰炸伊朗很难用核威胁来解释，背后是以色列施压、大捐款人、能源与AI军工利益，以及金融控制体系扩张交织在一起；市场短期会受油价和美元冲击。",
+     "candidates": [
+      "Who REALLY Profits From Bombing Iran",
+      "Why The US Really Attacked Iran",
+      "The Iran War Is Not What You Think (Follow The Money)"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "反直觉短句更像真人，A像按四类利益方仿写",
+     "thesis_score": 3,
+     "thesis_reason": "都否定核威胁，归因于多方利益与金融控制",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Who Really Wanted This War With Iran",
+     "thesis": "轰炸伊朗并非出于迫在眉睫的核威胁，而是捐款人、以色列、能源和金融控制等利益方共同推动的结果。",
+     "candidates": [
+      "Who Really Wanted This War With Iran",
+      "The Real Reason We Bombed Iran",
+      "Follow the Money: Who Profits From War With Iran"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "反直觉短句更像真实标题；B较常规",
+     "thesis_score": 3,
+     "thesis_reason": "都认为不是核威胁，而是多方利益合力推动",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "lpTZsPUEkdA",
+   "upload_date": "20250818",
+   "topic": "2025年美国对金砖国家加征关税及金砖国家减少对美元依赖的举措",
+   "real_title": "BRICS Just \"Declared War\" on the U.S. Dollar",
+   "real_thesis": "金砖国家在美国关税刺激下加速本币结算、去美元化，长期会削弱美元地位、推高美国借贷成本，但美元不会崩溃，个人应分散配置。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "BRICS Just Declared War On The Dollar",
+     "thesis": "对金砖国家加征关税反而加速去美元化，将推高美国利率与成本，持有黄金和比特币是对冲手段。",
+     "candidates": [
+      "BRICS Just Declared War On The Dollar",
+      "The Tariffs Are Backfiring - BRICS Is Leaving The Dollar",
+      "The Dollar Is Losing Its Grip (What You Need To Know)"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "给“宣战”加引号是真实标题常见的细节",
+     "thesis_score": 3,
+     "thesis_reason": "都说关税加速去美元化、推高成本，并建议对冲",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.556
+    },
+    "guide_v1": {
+     "title": "Trump Just Declared War On BRICS | Tariffs Explained",
+     "thesis": "对金砖加征关税反而会加速去美元化、推高美国借贷成本；美元不会很快崩溃，但个人应少量配置黄金和比特币对冲。",
+     "candidates": [
+      "Trump Just Declared War On BRICS",
+      "The Dollar Is Losing | BRICS Tariffs Explained",
+      "100% Tariffs On BRICS - What It Means For Your Money"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "引号用法个性化，A的Explained后缀像模板",
+     "thesis_score": 3,
+     "thesis_reason": "关税加速去美元化、美元不崩、分散配置一致",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.25
+    },
+    "guide_v2": {
+     "title": "Trump Just Declared War On BRICS",
+     "thesis": "关税挡不住去美元化，反而在加快金砖国家绕开美元。这个过程慢，但很可能不可逆，并可能推高美国利率，让黄金和比特币受益。",
+     "candidates": [
+      "Trump Just Declared War On BRICS",
+      "BRICS Is Ditching The Dollar (And Tariffs Made It Worse)",
+      "Why 50% Tariffs Won't Save The US Dollar"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "选题是美国加关税，A的主语方向对得上",
+     "thesis_score": 3,
+     "thesis_reason": "关税加速去美元化、推高美国利率，判断一致",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.3
+    },
+    "zero": {
+     "title": "Trump's Tariffs Are Backfiring on the Dollar",
+     "thesis": "对金砖国家加征关税非但保不住美元地位，反而加速去美元化，最终推高美国借贷成本，利好黄金和比特币。",
+     "candidates": [
+      "BRICS Just Declared War on the Dollar",
+      "Trump's Tariffs Are Accelerating De-Dollarization",
+      "The Dollar Is Losing Its Grip — And Tariffs Won't Save It"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "引号加「Declared War」是频道惯用的夸张写法",
+     "thesis_score": 3,
+     "thesis_reason": "都认为关税加速去美元化，并推高美国借贷成本",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.077
+    }
+   }
+  },
+  {
+   "id": "A4xukjV7k1s",
+   "upload_date": "20250711",
+   "topic": "美国稳定币与加密监管动向：OCC、联储政策调整及GENIUS、CLARITY、比特币法案",
+   "real_title": "Bitcoin Is About To Make Millionaires (Thanks To Stablecoins)",
+   "real_thesis": "监管放开加上银行入场，会把传统金融接入加密市场；银行大规模提供比特币服务时价格早已暴涨，应提前布局。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "The Government Just Changed Crypto Forever (GENIUS Act Explained)",
+     "thesis": "监管松绑加上稳定币立法，会让银行和大公司全面进入加密市场，这是加密资产走向主流的关键转折，而不是威胁。",
+     "candidates": [
+      "The Government Just Changed Crypto Forever (GENIUS Act Explained)",
+      "Banks Can Now Hold Your Bitcoin - Here's What's Coming",
+      "The $2 Trillion Stablecoin Takeover Just Started"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "造富钩子加括号更符合该频道风格，A像AI写的解释",
+     "thesis_score": 2,
+     "thesis_reason": "方向一致，但缺少“提前布局”这一建议",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Banks Can Now Hold Your Crypto | New Laws Explained",
+     "thesis": "监管松绑与稳定币立法会把万亿美元传统资金引入加密市场，这是长期利好；比特币法案前景未明，普通人应分散建仓，别押注国家买币。",
+     "candidates": [
+      "Banks Can Now Hold Your Crypto | New Laws Explained",
+      "The Government Is About To Buy 1 MILLION Bitcoin",
+      "Crypto Just Went Mainstream - What You Need To Know"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "造富钩子符合频道标题党风格",
+     "thesis_score": 2,
+     "thesis_reason": "同为监管利好，真实主张提前布局，仿写偏谨慎",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "Washington Just Opened The Door To $2 Trillion In Crypto",
+     "thesis": "美国监管已从打压加密转为接纳，稳定币法案实质是让加密成为美元和美债的延伸；比特币储备法案仍远未落地，别过度押注。",
+     "candidates": [
+      "Washington Just Opened The Door To $2 Trillion In Crypto",
+      "Banks Just Got The Green Light On Crypto | What You MUST Know",
+      "Why Wall Street Suddenly LOVES Stablecoins (The REAL Reason)"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "造富承诺加括号，是频道惯用的煽动写法",
+     "thesis_score": 1,
+     "thesis_reason": "真实劝提前布局，仿写劝别过度押注，重点不同",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "The Government Just Changed Crypto Forever (GENIUS Act Explained)",
+     "thesis": "OCC和美联储松绑、加上GENIUS法案，标志着美国正把加密货币纳入银行体系，稳定币将由约2000亿美元扩张至万亿级市场。",
+     "candidates": [
+      "The Government Just Changed Crypto Forever (GENIUS Act Explained)",
+      "Banks Can Now Hold Your Bitcoin: What the GENIUS & CLARITY Acts Really Mean",
+      "Stablecoins Are About to Explode: Here's Why JPMorgan, Walmart & Amazon Want In"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "「Make Millionaires」煽动性强；A带Explained像AI",
+     "thesis_score": 2,
+     "thesis_reason": "都说加密进入银行体系，原文重在提前布局比特币",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "HcjbJvpKZIU",
+   "upload_date": "20260504",
+   "topic": "阿联酋宣布退出欧佩克及美元互换额度，与石油美元体系和美国债市的关系",
+   "real_title": "The End Of The Petro-Dollar",
+   "real_thesis": "阿联酋退出欧佩克并向中国靠拢，说明石油美元体系正在瓦解；美国被迫用互换额度稳住海湾国家，中国是赢家，美元储备地位加速下滑。",
+   "real_thesis_type": "explain",
+   "real_title_thesis": "states",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "The UAE Just Quit OPEC - The Petrodollar Is Breaking",
+     "thesis": "阿联酋退出欧佩克并寻求美元互换额度，说明石油美元体系正在瓦解，美债和美股将面临比市场预期更大的风险。",
+     "candidates": [
+      "The UAE Just Quit OPEC - The Petrodollar Is Breaking",
+      "IT STARTED: The Dollar Is Losing The Middle East",
+      "Why The UAE Leaving OPEC Should Scare Every American Investor"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "Petro-Dollar的特殊连字符写法像真人手打",
+     "thesis_score": 2,
+     "thesis_reason": "都说石油美元瓦解，但重点一个是中国获益，一个是美债美股风险",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "The Petrodollar Is About To Collapse",
+     "thesis": "阿联酋退出欧佩克说明石油美元体系正在松动，美债与股市风险上升；但美元不会一夜崩溃，个人应降低杠杆、配置黄金并分散持有。",
+     "candidates": [
+      "The Petrodollar Is About To Collapse",
+      "The UAE Just Quit OPEC | What It Means For The Dollar",
+      "Why The UAE Just Left OPEC (And Why It Matters)"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "Petro-Dollar连字符写法不常见，像真实",
+     "thesis_score": 2,
+     "thesis_reason": "同指石油美元松动，真实重中国赢家，仿写重避险",
+     "attr_correct": true,
+     "copy_sim": 0.286,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "The UAE Just Broke The Petrodollar System",
+     "thesis": "阿联酋退出欧佩克并索要美元互换额度，表明海湾正在中美之间对冲，石油美元在松动，美债和高估值美股的风险上升，应分散配置。",
+     "candidates": [
+      "The UAE Just Broke The Petrodollar System",
+      "The UAE Just Quit OPEC (The REAL Reason)",
+      "The Petrodollar Is Cracking | What You MUST Know"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "简短宏大更像真人，B像照选题拼出来的",
+     "thesis_score": 2,
+     "thesis_reason": "方向一致，但仿写只说松动对冲，结论偏弱",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "The UAE Just Quit OPEC. The Petrodollar Is in Serious Trouble",
+     "thesis": "阿联酋退出欧佩克并转向中国，说明石油美元体系正在松动，美国被迫用互换额度来防止海湾国家抛售美债。",
+     "candidates": [
+      "The UAE Just Quit OPEC. The Petrodollar Is in Serious Trouble",
+      "Something BIG Just Happened to the US Dollar (Nobody Is Talking About It)",
+      "Why the UAE Leaving OPEC Should Worry Every American Investor"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "简短有力；B两句式、过于完整，像AI写的",
+     "thesis_score": 3,
+     "thesis_reason": "都说阿联酋退出说明石油美元松动，美国靠互换额度托住",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "uOG3MiFax7E",
+   "upload_date": "20250722",
+   "topic": "美国土地、货币、股市、国债与政治献金领域的控制权分布",
+   "real_title": "Who Really Owns America (It's Not Who You Think)",
+   "real_thesis": "没有单一实体拥有美国，控制权取决于你看重什么；真正的核心是经济能量（时间价值）的保存，而比特币是比房产、艺术品更优的价值储存。",
+   "real_thesis_type": "advise",
+   "real_title_thesis": "teases",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "Who Really Owns America? (It's Not Who You Think)",
+     "thesis": "美国的土地、货币、股票投票权和政治献金高度集中在少数机构和家族手中，普通人只有持有稀缺资产才能不被稀释。",
+     "candidates": [
+      "Who Really Owns America? (It's Not Who You Think)",
+      "The Truth About Who Controls America's Money",
+      "The Few People Who Own America"
+     ],
+     "judge_correct": false,
+     "judge_conf": 1,
+     "judge_reason": "仅差一个问号，问句形式稍自然，基本是猜",
+     "thesis_score": 1,
+     "thesis_reason": "一个说无单一控制者，一个说高度集中，论断不同",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 1.0
+    },
+    "guide_v1": {
+     "title": "Who Really Owns America? | Land, Money & Power Explained",
+     "thesis": "美国的土地、货币、股权与选举都高度集中在少数机构和富豪手中，普通人无法改变规则，但可以通过持有资产（如指数基金和比特币）分享收益。",
+     "candidates": [
+      "Who Really Owns America? | Land, Money & Power Explained",
+      "Who Actually Controls Your Money?",
+      "The 5 Groups That Secretly Run America"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "A的三项列举加Explained像AI模板",
+     "thesis_score": 1,
+     "thesis_reason": "真实称无单一主人，仿写称高度集中，论断不同",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.25
+    },
+    "guide_v2": {
+     "title": "Who Actually Owns America (It's Not Who You Think)",
+     "thesis": "美国的土地、货币、股权投票、国债和选举实际集中在少数银行、资管和富豪手里，美元又不断被稀释，普通人只能靠持有稀缺资产自保。",
+     "candidates": [
+      "Who Actually Owns America (It's Not Who You Think)",
+      "The Few Who REALLY Control America's Money",
+      "How 100 Families Just Bought The 2024 Election"
+     ],
+     "judge_correct": true,
+     "judge_conf": 1,
+     "judge_reason": "两个几乎一样，基本靠猜",
+     "thesis_score": 1,
+     "thesis_reason": "真实说无人单独拥有美国，仿写说集中于少数人",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.6
+    },
+    "zero": {
+     "title": "Who Really Owns America? (It's Not Who You Think)",
+     "thesis": "美国的土地、货币、股市投票权和政治献金高度集中在少数银行、资管巨头和亿万富翁手中，普通人只有持有硬资产才能自保。",
+     "candidates": [
+      "Who Really Owns America? (It's Not Who You Think)",
+      "The Few People Who Secretly Control America's Money, Land & Politics",
+      "Who Owns America's Land, Stocks, Debt and Politicians?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 1,
+     "judge_reason": "两者仅差问号，基本是猜",
+     "thesis_score": 1,
+     "thesis_reason": "原文说没有单一拥有者，仿写说控制权高度集中，论断不同",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 1.0
+    }
+   }
+  },
+  {
+   "id": "HIBozcOlQPY",
+   "upload_date": "20260615",
+   "topic": "沃什首次主持美联储会议前，美伊协议、收益率曲线与国债市场的背景",
+   "real_title": "How I’m Preparing For The “Supercycle”",
+   "real_thesis": "沃什的“变相QE”计划依赖伊朗协议重开霍尔木兹，否则债市崩坏；周三表态比利率决定重要，实物资产超级周期仍在早期。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Kevin Warsh Is About To Change Everything At The Fed",
+     "thesis": "沃什上任后会压低短端利率、放松SLR让银行接盘国债，本质是变相为债务兜底，黄金和大宗商品周期远未结束。",
+     "candidates": [
+      "Kevin Warsh Is About To Change Everything At The Fed",
+      "The Bond Market Is Breaking - Warsh's First Fed Meeting",
+      "WARNING: What The New Fed Chair Will Do To Your Money"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "弯引号和第一人称，与选题错位，像真实标题",
+     "thesis_score": 2,
+     "thesis_reason": "都说变相QE和商品周期，但缺少依赖伊朗协议这一核心",
+     "attr_correct": false,
+     "copy_sim": 0.154,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "Kevin Warsh Is About To Change Everything",
+     "thesis": "沃什很可能以降短端、放松SLR的方式让银行接盘美债并压住收益率，这会削弱美元，而黄金和大宗商品的超级周期远未结束。",
+     "candidates": [
+      "Kevin Warsh Is About To Change Everything",
+      "The Bond Market Is Breaking - PREPARE Now",
+      "Warsh's First Fed Meeting | What You Need To Know"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "弯引号和Supercycle概念更具个人风格",
+     "thesis_score": 2,
+     "thesis_reason": "同谈沃什变相QE与超级周期，缺伊朗协议关键条件",
+     "attr_correct": false,
+     "copy_sim": 0.2,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "The Fed's New Boss Is About To Flip The Bond Market",
+     "thesis": "沃什首会大概率维持利率，但他真正的计划可能是压短端、抬长端并放松SLR让银行接盘8万亿美债；没人能确定，保持分散。",
+     "candidates": [
+      "The Fed's New Boss Is About To Flip The Bond Market",
+      "Kevin Warsh Is About To Change EVERYTHING",
+      "Warsh's First Fed Meeting | What You MUST Know"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "和选题关联弱、用了弯引号，不像AI仿写",
+     "thesis_score": 1,
+     "thesis_reason": "真实核心是依赖伊朗协议，仿写聚焦曲线与SLR",
+     "attr_correct": true,
+     "copy_sim": 0.167,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "zero": {
+     "title": "Kevin Warsh's First Fed Meeting Could Change Everything",
+     "thesis": "沃什上任后会压低短端利率、缩表推高长端利率并放松SLR，让银行接盘美债，而这条路很可能意味着通胀持续而非下降。",
+     "candidates": [
+      "Kevin Warsh's First Fed Meeting Could Change Everything",
+      "The Fed's New Chairman Has a Plan (And It's Risky)",
+      "Watch This on Wednesday: Warsh, the Bond Market & What Comes Next"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "第一人称加弯引号是频道风格；A像新闻标题",
+     "thesis_score": 1,
+     "thesis_reason": "都谈沃什政策，但原文核心是伊朗协议，仿写是通胀持续",
+     "attr_correct": false,
+     "copy_sim": 0.083,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "t8KXQrHPmrg",
+   "upload_date": "20260930",
+   "topic": "联合国「21世纪议程」到「2030议程」的演变及相关机构、ESG与数字货币进展",
+   "real_title": "It's Starting: \"You'll Own Nothing & Be Happy\"",
+   "real_thesis": "Agenda 2030是真实存在、延续近50年的全球中央规划，经联合国、达沃斯和贝莱德资本执行，趋势是人们拥有更少、更依赖国家，应持有实物与比特币自保。",
+   "real_thesis_type": "expose",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "\"You'll Own Nothing\" - The Truth About The 2030 Agenda",
+     "thesis": "从21世纪议程到2030议程，再到ESG和数字货币，私人财产和金融自主正在被一步步削弱，个人应持有自己能掌控的资产。",
+     "candidates": [
+      "\"You'll Own Nothing\" - The Truth About The 2030 Agenda",
+      "The UN's Plan For 2030 (What They Don't Tell You)",
+      "From Agenda 21 To Digital Euro: The Plan Is Already Happening"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "“It's Starting:”开头符合该频道的警示风格",
+     "thesis_score": 3,
+     "thesis_reason": "长期议程削弱私产，个人应持有自控资产，一致",
+     "attr_correct": true,
+     "copy_sim": 0.125,
+     "copy_nearest": "",
+     "real_overlap": 0.167
+    },
+    "guide_v1": {
+     "title": "You Will Own Nothing And Be Happy | Agenda 2030 Explained",
+     "thesis": "《2030议程》虽无法律约束力、也不是没收私产的阴谋，但通过ESG与数字货币确实在影响资本流向，个人应坚持持有可自我托管的资产。",
+     "candidates": [
+      "You Will Own Nothing And Be Happy | Agenda 2030 Explained",
+      "The Truth About Agenda 2030 (What You Need To Know)",
+      "Is The UN Coming For Your Land?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "It's Starting呼应频道It Started句式",
+     "thesis_score": 1,
+     "thesis_reason": "真实视为中央规划，仿写否认阴谋，判断明显不同",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.154
+    },
+    "guide_v2": {
+     "title": "Why They Want You To Own Nothing By 2030",
+     "thesis": "从21世纪议程到2030议程，土地、金融和数字身份正一步步被纳入全球目标，经由ESG和数字货币落地；这不是已证实的阴谋，但方向值得警惕。",
+     "candidates": [
+      "Why They Want You To Own Nothing By 2030",
+      "The UN's 2030 Plan Is Already Here",
+      "You'll Own Nothing And Be Happy (The REAL Story)"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "“It's Starting”和频道旧标题句式一致",
+     "thesis_score": 2,
+     "thesis_reason": "方向一致，但真实断言其真实，仿写明显保留",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.077
+    },
+    "zero": {
+     "title": "\"You'll Own Nothing and Be Happy\": The Real Story Behind Agenda 2030",
+     "thesis": "从21世纪议程到2030议程，联合国、WEF与贝莱德正通过ESG和数字货币推进其议程，个人财产权和金融自由正被逐步削弱。",
+     "candidates": [
+      "\"You'll Own Nothing and Be Happy\": The Real Story Behind Agenda 2030",
+      "From Agenda 21 to Agenda 2030: What the UN Plan Means for Your Money",
+      "The UN's 2030 Plan Is Further Along Than You Think"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "「It's Starting:」是频道常用开头；B像AI解释型标题",
+     "thesis_score": 2,
+     "thesis_reason": "都说议程削弱个人财产，仿写没提持有实物资产自保",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.214
+    }
+   }
+  }
+ ]
+}

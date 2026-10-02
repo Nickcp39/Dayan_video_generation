@@ -1,0 +1,851 @@
+{
+ "key": "us_GrahamStephan",
+ "systems": [
+  "fewshot",
+  "guide_v1",
+  "guide_v2",
+  "zero"
+ ],
+ "items": [
+  {
+   "id": "JPDjjjxXeww",
+   "upload_date": "20230606",
+   "topic": "一位YouTube财经博主讲述自己不上大学、逆势买房和做频道的经历及其总结的做法",
+   "real_title": "How To Get Ahead Of 99% Of People (Do This Now)",
+   "real_thesis": "想超越99%的人，必须敢做逆向选择（成为“高罂粟”）且判断正确，并具备痴迷、扬长、抓机会、守时、不抱怨、长期坚持六种特质。",
+   "real_thesis_type": "advise",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "How I Became A Millionaire By 26 (Doing The Opposite)",
+     "thesis": "想获得多数人得不到的财富，就必须逆着人群做选择，并且靠专注和长期苦干证明自己判断正确。",
+     "candidates": [
+      "How I Became A Millionaire By 26 (Doing The Opposite)",
+      "Why Doing What Everyone Else Does Keeps You Broke",
+      "The Unpopular Decisions That Made Me Rich"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "泛化励志加“Do This Now”，是Graham的惯用写法",
+     "thesis_score": 2,
+     "thesis_reason": "逆向且判断正确一致，但仿写缺六种特质清单",
+     "attr_correct": true,
+     "copy_sim": 0.273,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "How I Became A Millionaire By 26 Without College",
+     "thesis": "想得到多数人得不到的结果，必须逆向而行且判断正确；专注、长期坚持和抓住机会比学历更能决定财富。",
+     "candidates": [
+      "How I Became A Millionaire By 26 Without College",
+      "The TRUTH About Going Against The Crowd",
+      "Why I Skipped College And Bought Houses Instead"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "泛化励志加括号号召，是Graham的惯用写法",
+     "thesis_score": 3,
+     "thesis_reason": "都主张逆向且正确，再加专注、坚持、抓机会",
+     "attr_correct": true,
+     "copy_sim": 0.3,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "How To Get Rich By Going Against The Crowd",
+     "thesis": "只逆向而行不会致富，还得判断正确并长期苦干；专注、发挥长处、抓机会、早到、不抱怨、坚持这六条人人都能照做。",
+     "candidates": [
+      "How To Get Rich By Going Against The Crowd",
+      "How I Became A Millionaire By 26 Without College",
+      "The 6 Habits That Put You Ahead Of 99% Of People"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "“99%”加“Do This Now”括号是该频道惯用钩子",
+     "thesis_score": 3,
+     "thesis_reason": "都是逆向且判断正确，加六种特质",
+     "attr_correct": false,
+     "copy_sim": 0.222,
+     "copy_nearest": "",
+     "real_overlap": 0.125
+    },
+    "zero": {
+     "title": "How I Became A Millionaire By 26 (Without College)",
+     "thesis": "想获得多数人得不到的财富，必须敢于逆着大众走，同时判断正确并长期拼命投入，而不是按常规路线走。",
+     "candidates": [
+      "How I Became A Millionaire By 26 (Without College)",
+      "The Unpopular Truth About Getting Rich",
+      "Why Going Against The Crowd Made Me A Millionaire"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "“99%”加“Do This Now”是该频道常见的标题套路",
+     "thesis_score": 2,
+     "thesis_reason": "逆向且判断正确一致，但漏了六种特质",
+     "attr_correct": true,
+     "copy_sim": 0.3,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "_hPY_X0Ydf4",
+   "upload_date": "20230503",
+   "topic": "美联储2023年5月加息25个基点后的银行、房地产与股市状况",
+   "real_title": "BREAKING: The Federal Reserve Rate Hike (Major Changes Explained)",
+   "real_thesis": "美联储加息已到终点、暂停观望，银行危机与信贷收紧是眼下最大风险，但房市和经济未必崩盘，普通人应分散投资、定投指数、留现金。",
+   "real_thesis_type": "advise",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "The Fed Just Signaled The END Of Rate Hikes",
+     "thesis": "美联储这次加息基本见顶，但银行风险和高房贷成本还没消退，投资者应保持谨慎，不必恐慌抛售。",
+     "candidates": [
+      "The Fed Just Raised Rates Again | What Happens Next",
+      "The Fed Just Signaled The END Of Rate Hikes",
+      "Banks Are Collapsing - The Fed Just Made It Worse"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "“BREAKING+括号解释”是他报道美联储的固定格式",
+     "thesis_score": 2,
+     "thesis_reason": "加息见顶与银行风险一致，建议侧重不同",
+     "attr_correct": true,
+     "copy_sim": 0.125,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "THE FED JUST HIKED RATES *AGAIN* | Major Changes Explained",
+     "thesis": "5.25%基本就是加息终点，银行危机和崩盘预言被夸大；房市缺货撑住房价，普通人别择时，继续长期定投。",
+     "candidates": [
+      "THE FED JUST HIKED RATES *AGAIN* | Major Changes Explained",
+      "The Fed Just Signaled The End Of Rate Hikes",
+      "THE FED JUST RAISED RATES TO 5.25% | What You MUST Know"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "BREAKING加括号说明，符合他议息速报的格式",
+     "thesis_score": 2,
+     "thesis_reason": "仿写说银行危机被夸大，真实视之为最大风险",
+     "attr_correct": true,
+     "copy_sim": 1.0,
+     "copy_nearest": "THE FED JUST HIKED RATES *AGAIN* | Major Changes Explained",
+     "real_overlap": 0.143
+    },
+    "guide_v2": {
+     "title": "BREAKING: The Fed Raises Rates To 5.25%! (Major Changes Explained)",
+     "thesis": "5.25%大概率是本轮加息终点，但信贷收紧的风险是真的；别押注崩盘，留足现金、买短期国债，继续定投指数基金。",
+     "candidates": [
+      "BREAKING: The Fed Just Raised Rates To 5.25% (Major Changes Explained)",
+      "The Fed Just Broke The Banks *AGAIN* | What Happens Next",
+      "A Warning For The 2023 Stock Market"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "真实标题更笼统，具体数字5.25%像仿写补充",
+     "thesis_score": 3,
+     "thesis_reason": "都认为加息已到顶、信贷收紧有风险、不押崩盘、要定投",
+     "attr_correct": true,
+     "copy_sim": 0.077,
+     "copy_nearest": "",
+     "real_overlap": 0.2
+    },
+    "zero": {
+     "title": "The Fed Just Signaled The End",
+     "thesis": "这次加息很可能是本轮最后一次，接下来银行和股市可能还会动荡，但房价不会崩，因为房源供应太少。",
+     "candidates": [
+      "The Fed Just Raised Rates Again - Here's What Happens Next",
+      "The Fed Just Signaled The End",
+      "Banks Are Collapsing, The Fed Hikes Again - What Now?"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "他报道美联储惯用BREAKING+Major Changes Explained格式",
+     "thesis_score": 2,
+     "thesis_reason": "加息终点与房价不崩一致，缺投资建议",
+     "attr_correct": true,
+     "copy_sim": 0.143,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "QOF-xLopkLA",
+   "upload_date": "20230630",
+   "topic": "一位年轻移动洗车创业者的日常作业、启动成本与收入情况",
+   "real_title": "Making $500 Per Day Washing Cars | Undercover Millionaire",
+   "real_thesis": "移动洗车是几百美元就能起步、一天能赚约500美元的可复制小生意，但靠手艺死磕细节不够，还得提价并补上经营能力。",
+   "real_thesis_type": "advise",
+   "real_title_thesis": "states",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "How This 19 Year Old Makes $500 A Day Washing Cars",
+     "thesis": "移动洗车只需很少启动资金，不用上大学也能做到每天赚近500美元，是年轻人起步的好生意。",
+     "candidates": [
+      "How This 19 Year Old Makes $500 A Day Washing Cars",
+      "I Tried The $100 Business That Pays $500 Per Day",
+      "The Easiest Business To Start With No College Degree"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "“How This X岁 Makes”具体人物故事，更自然",
+     "thesis_score": 2,
+     "thesis_reason": "低成本高收益一致，漏掉需提价补经营能力",
+     "attr_correct": true,
+     "copy_sim": 0.053,
+     "copy_nearest": "",
+     "real_overlap": 0.133
+    },
+    "guide_v1": {
+     "title": "How This 21 Year Old Makes $500 A Day Washing Cars",
+     "thesis": "移动洗车启动成本低、单车利润高，不上大学也能做成好生意，但想做大必须涨价、雇人并把预约管理好。",
+     "candidates": [
+      "How This 21 Year Old Makes $500 A Day Washing Cars",
+      "How To Start A Car Wash Business With $100",
+      "The TRUTH About Mobile Car Detailing Income"
+     ],
+     "judge_correct": false,
+     "judge_conf": 4,
+     "judge_reason": "Undercover Millionaire并非他的系列名",
+     "thesis_score": 3,
+     "thesis_reason": "低成本可赚钱的生意，但需提价并补经营能力",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.133
+    },
+    "guide_v2": {
+     "title": "Making $500 A Day Washing Cars | Undercover Millionaire",
+     "thesis": "移动洗车100美元就能入行，每辆车毛利超过七成；但定价太低、爽约会卡住上限，涨价、留住老客户、雇人才能做大。",
+     "candidates": [
+      "Making $500 A Day Washing Cars | Undercover Millionaire",
+      "How To Start A Car Wash Business With $100",
+      "The REAL Cost Of Running A Mobile Car Wash"
+     ],
+     "judge_correct": false,
+     "judge_conf": 1,
+     "judge_reason": "两者几乎相同，“A Day”更口语化",
+     "thesis_score": 3,
+     "thesis_reason": "都是低门槛高利润，要涨价、补经营能力",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.556
+    },
+    "zero": {
+     "title": "How This 19 Year Old Makes $500 A Day Washing Cars",
+     "thesis": "移动洗车只要几百美元就能起步，没有大学文凭的年轻人只要肯干又愿意涨价，就能把它做成高回报的生意。",
+     "candidates": [
+      "How This 19 Year Old Makes $500 A Day Washing Cars",
+      "I Tried A Mobile Car Wash Business For A Day",
+      "The Easiest Business To Start With $100"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "带竖线的系列名更像频道真实的栏目标题",
+     "thesis_score": 2,
+     "thesis_reason": "低门槛和提价一致，缺经营能力重点",
+     "attr_correct": true,
+     "copy_sim": 0.053,
+     "copy_nearest": "",
+     "real_overlap": 0.133
+    }
+   }
+  },
+  {
+   "id": "xAdSM_Y80Zs",
+   "upload_date": "20230125",
+   "topic": "一位财经博主与MrBeast相处24小时，记录其公司运营、团队与时间安排",
+   "real_title": "Spending 24 Hours With MrBeast",
+   "real_thesis": "MrBeast的成功源于极简生活、单一专注、用人放权、从成败中学习、持续适应变化和严格排程，这些习惯普通人也能照搬来积累财富和事业。",
+   "real_thesis_type": "advise",
+   "real_title_thesis": "labels",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "I Spent 24 Hours With MrBeast",
+     "thesis": "MrBeast成功的关键不是天赋，而是生活极度简朴、把钱全投回业务，并把时间只花在最重要的事情上。",
+     "candidates": [
+      "I Spent 24 Hours With MrBeast",
+      "How MrBeast Actually Spends His Money",
+      "MrBeast's Secret To Making Millions (Not What You Think)"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "第一人称“I Spent”更符合Vlog式标题",
+     "thesis_score": 2,
+     "thesis_reason": "仅抓简朴与专注，缺放权适应排程等",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.5
+    },
+    "guide_v1": {
+     "title": "I Spent 24 Hours With MrBeast",
+     "thesis": "MrBeast成功的关键不是天赋，而是简朴生活、零负债、把钱和时间全部押在核心业务上，并外包其余一切。",
+     "candidates": [
+      "I Spent 24 Hours With MrBeast",
+      "How MrBeast REALLY Spends His Money",
+      "What I Learned From 24 Hours With MrBeast"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "第一人称I Spent更像真实的vlog标题",
+     "thesis_score": 2,
+     "thesis_reason": "方向一致，仿写重点偏零负债和全押核心",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.5
+    },
+    "guide_v2": {
+     "title": "Spending 24 Hours With MrBeast",
+     "thesis": "MrBeast靠的不是天赋，而是生活简朴、把杂事外包、全力只做一件事；普通人每周浪费的21.8小时足够照着复制。",
+     "candidates": [
+      "Spending 24 Hours With MrBeast",
+      "The TRUTH About How MrBeast Spends His Money",
+      "How MrBeast Spends His Time (Steal This Schedule)"
+     ],
+     "judge_correct": false,
+     "judge_conf": 1,
+     "judge_reason": "两个标题完全相同，只能随机选",
+     "thesis_score": 2,
+     "thesis_reason": "方向一致，但仿写只抓简朴、外包、专注",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 1.0
+    },
+    "zero": {
+     "title": "I Spent 24 Hours With MrBeast",
+     "thesis": "MrBeast能成功，靠的不是运气，而是生活极简、把杂事都外包、把全部时间和钱砸在做视频上。",
+     "candidates": [
+      "I Spent 24 Hours With MrBeast",
+      "MrBeast's Secret To Making Millions",
+      "What I Learned Living Like MrBeast For A Day"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "第一人称“I Spent”更自然，也更像原创",
+     "thesis_score": 2,
+     "thesis_reason": "极简专注一致，但缺可照搬习惯的建议",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.5
+    }
+   }
+  },
+  {
+   "id": "-1DVIRODAcQ",
+   "upload_date": "20240313",
+   "topic": "美国白宫提出的购房税收抵免、首付援助及增加住房供给等住房负担能力方案",
+   "real_title": "$0 DOWN MORTGAGES ARE BACK (Get Paid To Buy A Home)",
+   "real_thesis": "白宫新政只会帮到本来就要买卖的人，刺激需求却不增加供给，推高房价；真正有效的是带走贷款利率、税基，降资本利得税并补贴开发商。",
+   "real_thesis_type": "judge",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "The Government's New Plan To Fix Housing Won't Work",
+     "thesis": "白宫的购房补贴只会刺激需求、推高房价，不增加供给、不放开低息房贷流动，就解决不了住房负担问题。",
+     "candidates": [
+      "The Government's New Plan To Fix Housing Won't Work",
+      "The White House Just Announced $25,000 For Homebuyers",
+      "Biden's Housing Plan Will Make Prices Go Even HIGHER"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "全大写夸张承诺，是他的典型钓鱼风格",
+     "thesis_score": 3,
+     "thesis_reason": "刺激需求推高房价、不增供给，核心一致",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "The Government's $25,000 Home Buyer Plan | What You MUST Know",
+     "thesis": "白宫的购房补贴大多难过国会，即使通过也只会推高需求和房价；真正解决负担能力的是增加供给、让低息房贷可转移。",
+     "candidates": [
+      "The Government's $25,000 Home Buyer Plan | What You MUST Know",
+      "The TRUTH About The White House Housing Plan",
+      "How To Get $25,000 To Buy A House"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "2.5万美元金额贴合方案，A夸大偏题",
+     "thesis_score": 3,
+     "thesis_reason": "都认为刺激需求推高房价，应带走贷款并增供给",
+     "attr_correct": true,
+     "copy_sim": 0.167,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "$25,000 Down Payment Grants ARE BACK (Get Paid To Buy A Home)",
+     "thesis": "白宫的购房补贴大多要国会通过，还会抬高需求和房价；真正有效的是增加供给、允许房贷利率随房转移、降低资本利得税。",
+     "candidates": [
+      "The White House Just Announced $25,000 For Home Buyers (Major Changes Explained)",
+      "$25,000 Down Payment Grants ARE BACK (Get Paid To Buy A Home)",
+      "A Warning For The 2024 Housing Market"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "$0首付更夸张，偏离选题，更像真实标题党",
+     "thesis_score": 3,
+     "thesis_reason": "都是补贴推高房价，要补供给、利率可转移、减税",
+     "attr_correct": true,
+     "copy_sim": 0.105,
+     "copy_nearest": "",
+     "real_overlap": 0.467
+    },
+    "zero": {
+     "title": "Biden's NEW $25,000 Plan To Buy A House",
+     "thesis": "白宫的购房补贴和税收抵免只会刺激需求、推高房价，不增加供给，解决不了住房负担问题。",
+     "candidates": [
+      "Biden's NEW $25,000 Plan To Buy A House",
+      "The Government Just Announced A Plan To Fix Housing",
+      "Why The White House Housing Plan Won't Work"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "直接点出白宫方案，与选题一致；B有些跑题",
+     "thesis_score": 2,
+     "thesis_reason": "批评一致，但缺真实的替代方案",
+     "attr_correct": true,
+     "copy_sim": 0.067,
+     "copy_nearest": "",
+     "real_overlap": 0.125
+    }
+   }
+  },
+  {
+   "id": "20NJEoPiKm4",
+   "upload_date": "20231220",
+   "topic": "美国消费者在储蓄下降背景下仍高额消费的原因，及常见预算与省钱方法",
+   "real_title": "Americans Are Spending Like There's No Tomorrow..",
+   "real_thesis": "美国人因就业强、房贷红利、超额储蓄等错觉而YOLO式消费，这埋下经济隐患；个人应靠预算与削减开支自保。",
+   "real_thesis_type": "advise",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Americans Are Going Broke (And Don't Care)",
+     "thesis": "美国人靠疫情超额储蓄和借债维持高消费，这种“及时行乐”终将难以为继，现在就应该先存钱再花钱。",
+     "candidates": [
+      "Why Americans Can't Stop Spending Money",
+      "Americans Are Going Broke (And Don't Care)",
+      "The Spending Problem Nobody Is Talking About"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "短句加括号反转，风格更像他的",
+     "thesis_score": 3,
+     "thesis_reason": "YOLO消费难持续、应节制自保，一致",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.091
+    },
+    "guide_v1": {
+     "title": "Americans Are Going BROKE To Have Fun",
+     "thesis": "美国人靠疫情超额储蓄、房产融资和低失业率撑起的报复性消费终将难以为继，应立即用50/30/20和先存后花守住储蓄。",
+     "candidates": [
+      "Americans Are Going BROKE To Have Fun",
+      "Why Everyone Is Spending Money They Don't Have",
+      "How To Stop Living Paycheck To Paycheck (Even In 2023)"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "BROKE大写强调，是他标志性的情绪化写法",
+     "thesis_score": 3,
+     "thesis_reason": "错觉支撑的消费不可持续，个人应预算储蓄",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.091
+    },
+    "guide_v2": {
+     "title": "Americans Are Spending Money Like There's No Tomorrow",
+     "thesis": "这股消费热靠的是超额储蓄和再融资省下的钱，迟早会耗尽；趁就业还好，先存钱再消费、按50/30/20做预算，同时还清24%利率的卡债。",
+     "candidates": [
+      "Americans Are Spending Money Like There's No Tomorrow",
+      "Why Americans Are Going BROKE Spending $0 On Savings",
+      "The 50/30/20 Budget: How To Save $10,000 This Year"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "结尾双句点是该频道的独特习惯",
+     "thesis_score": 3,
+     "thesis_reason": "都是消费热不可持续，要靠预算和储蓄自保",
+     "attr_correct": false,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.625
+    },
+    "zero": {
+     "title": "Why Americans Are Spending Money Like Crazy (And How To Stop)",
+     "thesis": "美国人在储蓄见底时仍用借贷和超额储蓄追逐体验消费，这种模式撑不久，只有先存钱再消费的人才能安全度过下一次衰退。",
+     "candidates": [
+      "Why Americans Are Spending Money Like Crazy (And How To Stop)",
+      "Americans Are Going Broke For Taylor Swift Tickets",
+      "The Spending Crisis Nobody Is Talking About"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "结尾双点号是该频道惯用的写法",
+     "thesis_score": 3,
+     "thesis_reason": "过度消费埋隐患、应储蓄自保，基本一致",
+     "attr_correct": false,
+     "copy_sim": 0.091,
+     "copy_nearest": "",
+     "real_overlap": 0.143
+    }
+   }
+  },
+  {
+   "id": "n4ZyY3FuAnw",
+   "upload_date": "20231011",
+   "topic": "美国购房与租房的持有成本比较：以40万美元住宅为例的月度与13年测算",
+   "real_title": "Renting vs Buying A Home: Which Is ACTUALLY Cheaper?",
+   "real_thesis": "按当前房价和7%利率，计入权益、税收抵扣、机会成本和增值后，多数美国城市租房比买房便宜；持有不足约10年尤其应租房。",
+   "real_thesis_type": "advise",
+   "real_title_thesis": "asks",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "The TRUE Cost Of Buying A House In 2023",
+     "thesis": "按现在7%的利率，算上所有隐性成本后，除非住满十年以上，否则大多数美国城市租房都比买房划算。",
+     "candidates": [
+      "Renting vs Buying A Home: The Math Doesn't Lie",
+      "Why Renting Is Now Cheaper Than Buying",
+      "The TRUE Cost Of Buying A House In 2023"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "TRUE大写加年份，是他的常见写法",
+     "thesis_score": 3,
+     "thesis_reason": "7%利率下租比买划算、不满十年租，一致",
+     "attr_correct": true,
+     "copy_sim": 0.25,
+     "copy_nearest": "",
+     "real_overlap": 0.067
+    },
+    "guide_v1": {
+     "title": "The REAL Cost Of Buying A $400,000 House",
+     "thesis": "在7%利率下买40万美元房子每月实际成本约2825美元，除非住满10年以上，否则大多数城市租房更划算。",
+     "candidates": [
+      "Renting vs Buying A Home | The TRUTH Nobody Tells You",
+      "The REAL Cost Of Buying A $400,000 House",
+      "Why I'd Rent Instead Of Buy Right Now"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "REAL大写加具体金额，符合频道风格",
+     "thesis_score": 3,
+     "thesis_reason": "7%利率下多数城市租比买划算，不满10年应租",
+     "attr_correct": true,
+     "copy_sim": 0.091,
+     "copy_nearest": "",
+     "real_overlap": 0.067
+    },
+    "guide_v2": {
+     "title": "Renting vs Buying A $400,000 Home: Which Is ACTUALLY Cheaper?",
+     "thesis": "按7%利率算，40万美元的房子实际每月要花约2825美元，在多数城市比租房贵；住不满7到10年，租房加投资更划算。",
+     "candidates": [
+      "Renting vs Buying A $400,000 Home: Which Is ACTUALLY Cheaper?",
+      "The REAL Cost Of Owning A $400,000 Home",
+      "Why Renting Is Now Cheaper Than Buying (Full Breakdown)"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "A照搬选题里的40万金额，像仿写",
+     "thesis_score": 3,
+     "thesis_reason": "都是多数城市租比买划算，短持有该租",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.636
+    },
+    "zero": {
+     "title": "Renting vs Buying A House: The Math Finally Changed",
+     "thesis": "在7%利率下，除非你打算在同一处住满十年以上，否则在美国绝大多数城市租房在财务上都比买房更划算。",
+     "candidates": [
+      "The TRUE Cost Of Buying A Home In 2023",
+      "Renting vs Buying A House: The Math Finally Changed",
+      "Why Renting Is Now Cheaper Than Buying (Full Breakdown)"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "大写ACTUALLY强调是该频道风格，B像AI改写",
+     "thesis_score": 3,
+     "thesis_reason": "7%利率下租优于买、不足十年租，一致",
+     "attr_correct": true,
+     "copy_sim": 0.077,
+     "copy_nearest": "",
+     "real_overlap": 0.231
+    }
+   }
+  },
+  {
+   "id": "nBNSKEk69p8",
+   "upload_date": "20230816",
+   "topic": "美国房价走势预测、机构观点、库存与租金现状及通胀调整后的房价表现",
+   "real_title": "The Housing Market Is Getting Destroyed",
+   "real_thesis": "美国房价短期不会崩盘，名义价格仍可能上涨，因为房主被低利率锁住不卖、库存极低；但扣除通胀后的实际回报在放缓，类似1978年。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "The Housing Market Is Repeating 1978",
+     "thesis": "房价名义上还会继续涨，但和1978年一样，扣除高通胀之后，买房者的实际财富其实在缩水。",
+     "candidates": [
+      "The Housing Market Is About To Change",
+      "Housing Prices Are Going UP Again | Here's Why",
+      "The Housing Market Is Repeating 1978"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "1978在选题里找不到依据，像是AI编的",
+     "thesis_score": 2,
+     "thesis_reason": "名义涨实际弱一致，仿写缺锁定效应且更悲观",
+     "attr_correct": true,
+     "copy_sim": 0.4,
+     "copy_nearest": "",
+     "real_overlap": 0.429
+    },
+    "guide_v1": {
+     "title": "Why Housing Prices Will NOT Crash",
+     "thesis": "房价不会崩：低库存和锁定低利率的房主撑住名义价格，但像1978年那样，扣除通胀后的实际房价可能会走低。",
+     "candidates": [
+      "Why Housing Prices Will NOT Crash",
+      "The Housing Market Is About To Get Worse",
+      "What's REALLY Happening To Home Prices | Major Changes Explained"
+     ],
+     "judge_correct": true,
+     "judge_conf": 2,
+     "judge_reason": "夸张的Destroyed更像他吸睛的风格",
+     "thesis_score": 3,
+     "thesis_reason": "低库存锁利率撑名义价，实际回报像1978年走弱",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v2": {
+     "title": "The Housing Market Is About To Repeat 1978",
+     "thesis": "房价不会大跌，名义上还会再涨3%到6%，但高通胀高利率下实际房价可能像1978到1982年那样缩水约10%；买房要看能否长住、月供能否承受。",
+     "candidates": [
+      "A Warning For The 2024 Housing Market",
+      "The Housing Market Is About To Repeat 1978",
+      "Home Prices Are Up 400% (But Not Really)"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "“重演1978”具体又反常，像真实钩子",
+     "thesis_score": 3,
+     "thesis_reason": "都是名义价格不跌，实际回报像1978年那样走弱",
+     "attr_correct": true,
+     "copy_sim": 0.571,
+     "copy_nearest": "The Housing Market Is ABOUT TO BOTTOM",
+     "real_overlap": 0.333
+    },
+    "zero": {
+     "title": "The Housing Market Just Did Something It Hasn't Done Since 1978",
+     "thesis": "房价名义上还会继续上涨，但像1978年那样，扣除通胀后的实际房价很可能下跌，持有房产并不等于变得更富。",
+     "candidates": [
+      "The Housing Market Just Did Something It Hasn't Done Since 1978",
+      "Housing Prices Are About To Go Up Again - Here's Why",
+      "The Truth About Home Prices Nobody Tells You"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "具体年份钩子贴合通胀调整后的历史对比",
+     "thesis_score": 2,
+     "thesis_reason": "名义涨实际弱一致，但仿写断言实际下跌更强",
+     "attr_correct": true,
+     "copy_sim": 0.182,
+     "copy_nearest": "",
+     "real_overlap": 0.154
+    }
+   }
+  },
+  {
+   "id": "tlvcvNoMyrc",
+   "upload_date": "20240731",
+   "topic": "美联储维持利率不变后，通胀、股市与政党、住房价格及全国租金管制提案概述",
+   "real_title": "BREAKING: Federal Reserve Announces Upcoming Rate Cut! (Major Changes Explained)",
+   "real_thesis": "通胀回落使9月降息25个基点很可能发生，但美联储会极谨慎，高利率将持续更久；租金管制无效，唯一解法是增加住房供给。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "amplifies",
+   "real_attr_correct": false,
+   "systems": {
+    "fewshot": {
+     "title": "The Fed Just Made Their Decision",
+     "thesis": "通胀已经明显降温，美联储9月降息基本板上钉钉；全国租金管制只会让住房更少、更贵。",
+     "candidates": [
+      "The Fed Just Made Their Decision",
+      "The Fed Just Paused Again | What Happens Next",
+      "Rent Control Is Coming To America"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "维持利率但暗示降息，符合他的BREAKING模板",
+     "thesis_score": 2,
+     "thesis_reason": "降息与租管无效一致，漏谨慎与高利率更久",
+     "attr_correct": false,
+     "copy_sim": 0.143,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "THE FED JUST PAUSED RATES *AGAIN* | Major Changes Explained",
+     "thesis": "通胀正在降温，9月降息概率很高；谁当总统对股市影响有限，全国租金管制也会适得其反，照常长期投资即可。",
+     "candidates": [
+      "THE FED JUST PAUSED RATES *AGAIN* | Major Changes Explained",
+      "The Fed's Rate Cut Is Coming | What You MUST Know",
+      "Who Wins The Election Doesn't Matter For Your Money"
+     ],
+     "judge_correct": false,
+     "judge_conf": 3,
+     "judge_reason": "B称降息与维持利率的选题不符",
+     "thesis_score": 2,
+     "thesis_reason": "降息判断相同，但仿写缺高利率持久与增供给",
+     "attr_correct": true,
+     "copy_sim": 0.4,
+     "copy_nearest": "",
+     "real_overlap": 0.133
+    },
+    "guide_v2": {
+     "title": "BREAKING: The Fed Just Paused Rate Cuts AGAIN (Major Changes Explained)",
+     "thesis": "通胀已降到3%，9月很可能首次降息25个基点，选举结果对股市影响很小；全国租金管制只会减少住房供给，真正的解法是多建房。",
+     "candidates": [
+      "BREAKING: The Fed Just Paused Rate Cuts AGAIN (Major Changes Explained)",
+      "BREAKING: Federal Reserve Holds Rates - First Cut In September? (Do This Now)",
+      "The TRUTH About Rent Control And A $10,000 Housing Credit"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "2024年7月按兵不动但预告9月降息",
+     "thesis_score": 2,
+     "thesis_reason": "降息和租管一致，缺“高利率更久”，多了选举",
+     "attr_correct": true,
+     "copy_sim": 0.231,
+     "copy_nearest": "",
+     "real_overlap": 0.118
+    },
+    "zero": {
+     "title": "The Fed Just Paused Again - Here's What Happens Next",
+     "thesis": "通胀已基本受控，9月降息几乎板上钉钉；股市不由哪个党执政决定，全国租金管制只会减少供给、推高租金。",
+     "candidates": [
+      "The Fed Just Paused Again - Here's What Happens Next",
+      "Rate Cuts Are Coming: What It Means For Stocks & Housing",
+      "The Government's Plan To Cap Rent Is A Disaster"
+     ],
+     "judge_correct": true,
+     "judge_conf": 4,
+     "judge_reason": "与频道BREAKING美联储系列标题格式一致",
+     "thesis_score": 2,
+     "thesis_reason": "降息与租管一致，缺高利率持续更久判断",
+     "attr_correct": true,
+     "copy_sim": 0.1,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    }
+   }
+  },
+  {
+   "id": "3vR3yb6aKrE",
+   "upload_date": "20230224",
+   "topic": "2023年初美国住房市场的价格、销量、租金数据及各方观点背景",
+   "real_title": "A Warning For The 2023 Housing Market",
+   "real_thesis": "利率飙升使房价承受力崩塌，美国房价还会继续下跌，但不会重演2008年；买家应低价试探出价，资金先放在国债里等待。",
+   "real_thesis_type": "predict",
+   "real_title_thesis": "teases",
+   "real_attr_correct": true,
+   "systems": {
+    "fewshot": {
+     "title": "Home Builders Are Panic Selling",
+     "thesis": "高利率已经让房价真正开始回调，但房贷多为固定利率、居民杠杆低，这次不会像2008年那样崩盘。",
+     "candidates": [
+      "The Housing Market Just Went From BAD To WORSE",
+      "Home Builders Are Panic Selling",
+      "The Housing Correction Has Officially Begun"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "“A Warning For”带年份，贴合年初数据概览",
+     "thesis_score": 2,
+     "thesis_reason": "下跌但不重演2008一致，缺买家策略建议",
+     "attr_correct": true,
+     "copy_sim": 0.0,
+     "copy_nearest": "",
+     "real_overlap": 0.0
+    },
+    "guide_v1": {
+     "title": "The Housing Market Just Flipped | The Full Story",
+     "thesis": "高利率让房市从卖方转向买方，部分城市和炒房公司在亏本出售，但房屋净值高、多为固定利率，全国只会小幅下跌而非崩盘。",
+     "candidates": [
+      "The Housing Market Just Flipped | The Full Story",
+      "Why I Sold My Rental Properties",
+      "The Housing Crash Has Officially Begun"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "Just Flipped句式是频道常用说法",
+     "thesis_score": 2,
+     "thesis_reason": "都说会跌不崩，仿写缺买家出价和国债建议",
+     "attr_correct": true,
+     "copy_sim": 0.25,
+     "copy_nearest": "",
+     "real_overlap": 0.083
+    },
+    "guide_v2": {
+     "title": "The Housing Market Is Getting Crushed",
+     "thesis": "高利率下房价下跌是真实的，热门城市已从峰值跌10%以上，但固定利率贷款和充足的房屋净值让全国跌幅只有约6%；买家可以低价试探出价，同时把现金放进收益4.5%的国债。",
+     "candidates": [
+      "The Housing Market Is Getting Crushed",
+      "Home Builders Are Losing $1 Billion As Prices Drop",
+      "You Now Need $107,000 To Afford A Home (Do This Now)"
+     ],
+     "judge_correct": false,
+     "judge_conf": 2,
+     "judge_reason": "“Getting Crushed”符合频道的夸张措辞",
+     "thesis_score": 3,
+     "thesis_reason": "都是会跌但不重演2008，低价出价、钱放国债",
+     "attr_correct": true,
+     "copy_sim": 0.4,
+     "copy_nearest": "",
+     "real_overlap": 0.1
+    },
+    "zero": {
+     "title": "The Housing Market Is Breaking - Here's The Proof",
+     "thesis": "2023年房价会在高利率下温和回调而非崩盘，因为固定利率和充足净值让房主不必抛售，真正降价的是开发商和炒房公司。",
+     "candidates": [
+      "The Housing Market Is Breaking - Here's The Proof",
+      "Home Builders Are Now Panic Selling",
+      "Why Housing Prices Are Finally Falling (2023)"
+     ],
+     "judge_correct": true,
+     "judge_conf": 3,
+     "judge_reason": "“A Warning For 2023”符合当年标题风格",
+     "thesis_score": 2,
+     "thesis_reason": "下跌不崩一致，但重点和建议不同",
+     "attr_correct": true,
+     "copy_sim": 0.286,
+     "copy_nearest": "",
+     "real_overlap": 0.083
+    }
+   }
+  }
+ ]
+}

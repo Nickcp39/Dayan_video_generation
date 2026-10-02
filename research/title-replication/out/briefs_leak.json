@@ -1,0 +1,47 @@
+{
+ "cn_xiao_lin_shuo": {
+  "n": 30,
+  "flagged_first_pass": 2,
+  "still_leaking": 0
+ },
+ "jp_ryogakucho": {
+  "n": 30,
+  "flagged_first_pass": 3,
+  "still_leaking": 1
+ },
+ "jp_nktofficial": {
+  "n": 30,
+  "flagged_first_pass": 4,
+  "still_leaking": 0
+ },
+ "jp_DanTakahashi1": {
+  "n": 30,
+  "flagged_first_pass": 0,
+  "still_leaking": 0
+ },
+ "us_GrahamStephan": {
+  "n": 30,
+  "flagged_first_pass": 0,
+  "still_leaking": 0
+ },
+ "us_AndreiJikh": {
+  "n": 30,
+  "flagged_first_pass": 0,
+  "still_leaking": 0
+ },
+ "us_MeetKevin": {
+  "n": 30,
+  "flagged_first_pass": 0,
+  "still_leaking": 0
+ },
+ "us_EconomicsExplained": {
+  "n": 30,
+  "flagged_first_pass": 0,
+  "still_leaking": 0
+ },
+ "us_HowMoneyWorks": {
+  "n": 30,
+  "flagged_first_pass": 0,
+  "still_leaking": 0
+ }
+}
